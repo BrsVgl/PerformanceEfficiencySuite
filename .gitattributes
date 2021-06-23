@@ -1,0 +1,2 @@
+*.c4d filter=lfs diff=lfs merge=lfs -text
+*.xdl64 filter=lfs diff=lfs merge=lfs -text

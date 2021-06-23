@@ -1,0 +1,12 @@
+STRINGTABLE Tnormal
+{
+	Tnormal "Normal Tag";
+
+  NORMALTAG_ALIGN_FACE2VERTEX		"Align Face to Vertex Normals";
+  NORMALTAG_ALIGN_VERTEX2FACE		"Align Vertex to Face Normals";
+  NORMALTAG_SWAP_NORMALS				"Swap Normals";
+	NORMALTAG_USE_FIELDS					"Use Fields";
+	NORMALTAG_FIELDS_GROUP				"Fields";
+	NORMALTAG_FIELDS							"Fields";
+	NORMALTAG_DEFORMEDSTATE				"Use Deformed Points";
+}

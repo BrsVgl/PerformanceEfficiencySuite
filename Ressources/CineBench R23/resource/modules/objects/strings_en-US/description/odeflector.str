@@ -1,0 +1,9 @@
+STRINGTABLE Odeflector
+{
+	Odeflector								 "Deflector Object";
+
+	DEFLECTOROBJECT_SIZEX				"Size X";
+	DEFLECTOROBJECT_SIZEY				"Size Y";
+	DEFLECTOROBJECT_SPLIT				"Split Beam";
+	DEFLECTOROBJECT_ELASTICITY	"Bounce";
+}

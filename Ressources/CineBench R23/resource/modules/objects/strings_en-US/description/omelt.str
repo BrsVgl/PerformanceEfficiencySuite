@@ -1,0 +1,11 @@
+STRINGTABLE Omelt
+{
+	Omelt "Melt Object";
+
+	MELTOBJECT_STRENGTH   "Strength";
+	MELTOBJECT_RADIUS     "Radius";
+	MELTOBJECT_VERTRANDOM "Vertical Randomness";
+	MELTOBJECT_RADRANDOM	"Radial Randomness";
+	MELTOBJECT_SIZE       "Melted Size";
+	MELTOBJECT_NOISESCALE "Noise Scale";
+}

@@ -1,0 +1,12 @@
+STRINGTABLE Osplineformula
+{
+	Osplineformula "Formula Object";
+
+	PRIM_FORMULA_X						"X(t)";
+	PRIM_FORMULA_Y						"Y(t)";
+	PRIM_FORMULA_Z						"Z(t)";
+	PRIM_FORMULA_TMIN					"Tmin";
+	PRIM_FORMULA_TMAX					"Tmax";
+	PRIM_FORMULA_SAMPLES			"Samples";
+	PRIM_FORMULA_CUBIC				"Cubic Interpolation";
+}

@@ -1,0 +1,7 @@
+STRINGTABLE Faiimport
+{
+	Faiimport "Adobe Illustrator Import";
+  AIIMPORTFILTER_SCALE					"Scale";
+  AIIMPORTFILTER_GROUPSPLINES		"Group Splines";
+  AIIMPORTFILTER_CONNECTSPLINES	"Connect Splines";
+}

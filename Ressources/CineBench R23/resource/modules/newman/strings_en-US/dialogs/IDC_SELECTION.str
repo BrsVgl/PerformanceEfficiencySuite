@@ -1,0 +1,10 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDC_SELECTION
+{
+  IDS_CHECK   "Only selected";
+  IDS_DIALOG  "Set Selection Range";
+  IDS_FROM    "From Time";
+  IDS_STATIC  "Group";
+  IDS_TO      "To Time";
+}

@@ -1,0 +1,21 @@
+// Global StringResource
+
+STRINGTABLE
+{
+	IDS_CNURBS_OBJECT    "Cloth Surface";
+
+
+	IDS_MEM_ASK2 "This needs # MBytes!|Do you want to proceed";
+
+	IDS_MEM_INFO1 "# %";
+	IDS_MEM_INFO2 "# MBytes";
+
+
+	IDS_CLOTH_TAG    "Cloth";
+	IDS_COLLIDER_TAG "Cloth Collider";
+	IDS_BELT_TAG    "Cloth Belt";
+
+	IDS_CACHETOOL	"Cloth Cache Tool";
+
+	IDS_CACHE_INFO "Caching Cloth Data...";
+}

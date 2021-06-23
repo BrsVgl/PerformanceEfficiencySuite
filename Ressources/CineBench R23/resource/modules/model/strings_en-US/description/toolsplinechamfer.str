@@ -1,0 +1,7 @@
+STRINGTABLE ToolSplineChamfer
+{
+  ToolSplineChamfer                       "Chamfer";
+
+	MDATA_SPLINE_CHAMFERFLAT                "Flat";
+	MDATA_SPLINE_CHAMFERRADIUS              "Radius";
+}

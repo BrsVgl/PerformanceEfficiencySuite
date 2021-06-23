@@ -1,0 +1,31 @@
+STRINGTABLE OCloud
+{
+	OCloud                         "Cloud";
+
+	SKY_CLOUD_GENERATOR_FLAG       "Active";
+	SKY_CLOUD_OVERRIDE_GROUP       "Override Group";
+	SKY_CLOUD_MIX                  "Mix";
+	SKY_CLOUD_FALLOFF              "Falloff";
+	SKY_CLOUD_LUM_FALLOFF          "Luminance Falloff";
+	SKY_CLOUD_COLOR                "Color";
+	SKY_CLOUD_TRANS_FALLOFF        "Transparency Falloff";
+	SKY_CLOUD_ALTITUDE             "Altitude";
+	SKY_CLOUD_HQ_LIGHTING          "High-Quality Lighting";
+	SKY_CLOUD_OBJECT_FALLOFF       "Falloff";
+	SKY_CLOUD_OFFSET_DIST          "Distance";
+	SKY_CLOUD_KEEP_SHAPE           "Keep Shape";
+
+	SKY_CLOUD_TYPE                 "Cloud Type";
+	SKY_CLOUD_TYPE_STANDARD        "Standard";
+	SKY_CLOUD_TYPE_ACPERL          "Ac perlucidus";
+	SKY_CLOUD_TYPE_ACLENTI         "Ac lenticularis";
+	SKY_CLOUD_TYPE_CBCAPINC        "Cb capillatus incus";
+	SKY_CLOUD_COVERAGE             "Coverage";
+	SKY_CLOUD_CONTRAST             "Contrast";
+	SKY_CLOUD_SIZE_RATIO           "Ratio";
+	SKY_CLOUD_SCALE                "Scale";
+	SKY_CLOUD_GROOVE_DEPTH         "Groove Depth";
+	SKY_CLOUD_SHAPE_STRENGTH       "Shape Strength";
+	
+	SKY_CLOUD_GRID_POINTS          "Grid Points";
+}

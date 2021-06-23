@@ -1,0 +1,11 @@
+STRINGTABLE Obezier
+{
+	Obezier "Bezier Object";
+
+	BEZIEROBJECT_SUBRX  "Subdivision X";
+	BEZIEROBJECT_SUBRY  "Subdivision Y";
+	BEZIEROBJECT_SUBX	  "Grid Points X";
+	BEZIEROBJECT_SUBY	  "Grid Points Y";
+	BEZIEROBJECT_CLOSEX "Closed X";
+	BEZIEROBJECT_CLOSEY "Closed Y";
+}

@@ -1,0 +1,12 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_PVCACHE
+{
+	IDS_DIALOG   "Clear Cache";
+  
+  
+	IDS_PVCACHE_CLEAR	"Clear hard drive cache";
+	IDS_PVCACHE_IGNORE	"Ignore hard drive limit";
+	IDS_PVCACHE_STR	"Not enough space in the hard drive cache.";
+
+}

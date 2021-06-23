@@ -1,0 +1,12 @@
+STRINGTABLE Osplinecissoid
+{
+	Osplinecissoid "Cissoid Object";
+
+	PRIM_CISSOID_TYPE					"Type";
+		PRIM_CISSOID_TYPE_CISSOID			"Cissoid";
+		PRIM_CISSOID_TYPE_LEMNISCATE	"Lemniscate";
+		PRIM_CISSOID_TYPE_STROPHOID		"Strophoid";
+	PRIM_CISSOID_TENSION		  "Tension";
+	PRIM_CISSOID_WIDTH				"Width";
+	PRIM_CISSOID_SUB					"Subdivision";
+}

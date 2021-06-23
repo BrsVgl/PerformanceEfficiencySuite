@@ -1,0 +1,20 @@
+////////////////////////////////////////////////////////////////
+// xnormalizer
+////////////////////////////////////////////////////////////////
+// (c) Maxon Computer GmbH, all rights reserved
+////////////////////////////////////////////////////////////////
+
+STRINGTABLE xnormalizer
+{
+	xnormalizer									"Normalizer Shader";
+
+	XNORM_SHADERLINK						"Texture";
+	XNORM_STRENGTH							"Strength";
+	XNORM_FILTER								"Filter";
+		XNORM_FILTER_CONDENSED			"Condensed";
+		XNORM_FILTER_SOBEL_2X				"Sobel 2x";
+		XNORM_FILTER_SOBEL_4X				"Sobel 4x";
+	XNORM_INVERT								"Invert";
+	XNORM_DELTA									"Delta";
+	XNORM_CLAMP_UV							"Clamp UV";
+}

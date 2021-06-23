@@ -1,0 +1,6 @@
+DIALOGSTRINGS R_PEDIT
+{
+  T2 "X";
+  T3 "Y";
+  T4 "Z";
+}

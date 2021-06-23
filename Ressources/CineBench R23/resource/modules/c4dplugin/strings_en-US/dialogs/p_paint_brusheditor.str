@@ -1,0 +1,63 @@
+// C4D Dialog Strings
+
+DIALOGSTRINGS P_PAINT_BRUSHEDITOR
+{
+	TITLE "Brushes";
+
+	T2  "Type";
+	T3  "Store Color";
+	T4  "Shape";
+	T5  "Circle";
+	T6  "Rectangle";
+	T7  "Profile";
+
+	T8  "User-defined";
+	T9  "Round";
+	T10 "Linear";
+	T11 "Needle";
+	T12 "Nozzle";
+	
+	TA1 "Size";
+	TA2 "Pressure";
+	TA3 "Hardness";
+	TA4 "Spacing";
+	TA5 "Jitter";
+	BOTHAXIS "Both Axes";
+	JITTERCOUNT "Jitter Count";
+	AIRSPEED "Airbrush";
+	TA6 "Squeeze";
+	TA7 "Rotation";
+	
+	TB1 "Bitmap";
+	TB2 "Size";
+	SETSAMPLESIZE "Use Sample Size";
+	TB3 "Pressure";
+	TB4 "Spacing";
+	TB5 "Jitter";
+	TB6 "Rotation";
+	
+	TL0 "Generic";
+	TL1 "Bitmap";
+	TPP "...";
+	
+	TC1 "Filter";
+	TC2 "All Layers";
+	TC3 "Color Mix";
+	
+	TN0 "None";
+	TN1 "Wet Edges";
+	TN2 "Smudge";
+	TN3 "Dodge - Shadows";
+	TN4 "Dodge - Midtones";
+	TN5 "Dodge - Highlights";
+	TN6 "Burn - Shadows";
+	TN7 "Burn - Midtones";
+	TN8 "Burn - Highlights";
+	TN9 "Desaturate";
+	TN10 "Saturate";
+	TSEP "";
+
+	TSHAPE "Type";
+	TSETTINGS "Settings";
+	TFILTER "Filter";
+}

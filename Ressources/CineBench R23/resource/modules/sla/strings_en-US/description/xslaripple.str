@@ -1,0 +1,14 @@
+STRINGTABLE XSLARipple
+{
+  XSLARipple                              "Ripple Shader";
+
+  SLA_WAVE_PARAMS_OBJECT                  "Object";
+  SLA_WAVE_PARAMS_LENGTH                  "Wave length";
+  SLA_WAVE_PARAMS_MIN_STRENGTH            "Minimal Strength";
+  SLA_WAVE_PARAMS_SPEED                   "Speed";
+  SLA_WAVE_PARAMS_SPEED_PARTICLE_DEPENDENT   "Particle Dependent";
+  SLA_WAVE_PARTICLE                       "Particles";
+  SLA_WAVE_FALLOFF                        "Falloff";
+  SLA_WAVE_AMPLITUDE                      "Amplitude";
+  SLA_WAVE_PERIODS                        "Periods";
+}

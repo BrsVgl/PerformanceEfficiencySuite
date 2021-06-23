@@ -1,0 +1,12 @@
+CONTAINER Xfaceshader
+{
+	NAME Xfaceshader;
+
+	INCLUDE Mpreview;
+	INCLUDE Xbase;
+
+	GROUP ID_SHADERPROPERTIES
+	{
+		LINK IMAGESHADER_PERFORMANCE {  ANIM OFF; ACCEPT { 1040464; } }
+	}
+}

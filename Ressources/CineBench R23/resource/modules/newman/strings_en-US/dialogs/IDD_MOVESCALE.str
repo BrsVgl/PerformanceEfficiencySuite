@@ -1,0 +1,8 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_MOVESCALE
+{
+  IDS_DIALOG   "Move/Scale";
+  IDS_TEXT1  "Scale";
+  IDS_TEXT2  "Move";
+}

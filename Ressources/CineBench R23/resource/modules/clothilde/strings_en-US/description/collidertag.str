@@ -1,0 +1,16 @@
+STRINGTABLE ColliderTag
+{
+	Trbd          "Collider Tag";
+
+	COLLIDER_BOUNCE    "Bounce";
+	COLLIDER_STICKI    "Friction";
+	COLLIDER_SET_EXCL  "Set";
+	COLLIDER_SHOW_EXCL "Show";
+	COLLIDER_DRAW_EXCL "Draw";
+	COLLIDER_CLEAR_EXCL "Clear";
+
+	COLLIDER_TEXT_EXCL  "Exclude Polys";
+
+	COLLIDER_USE       "Use Collider";
+
+}

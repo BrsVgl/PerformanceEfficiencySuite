@@ -1,0 +1,8 @@
+STRINGTABLE Osplineprimitive
+{
+	PRIM_PLANE				"Plane";
+		PRIM_PLANE_XY		"XY";
+		PRIM_PLANE_ZY		"ZY";
+		PRIM_PLANE_XZ		"XZ";
+	PRIM_REVERSE			"Reverse";
+}

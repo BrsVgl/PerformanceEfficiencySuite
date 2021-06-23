@@ -1,0 +1,9 @@
+DIALOGSTRINGS R_BAKEPARTICLES
+{
+  T1 "Bake Particles";
+  T2 "From";
+  T3 "To";
+  T4 "Samples per Frame";
+  T5 "Bake Every";
+  T6 "Frames";
+}

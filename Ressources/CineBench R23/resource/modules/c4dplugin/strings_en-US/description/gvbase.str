@@ -1,0 +1,9 @@
+STRINGTABLE GVbase
+{
+	GVbase				 		 		"Node";
+	ID_GVPROPERTIES 			"Node Properties" "Node";
+	ID_GVPORTS						"Parameter";
+	ID_GVBASE_ENABLE			"Enabled";
+	ID_GVBASE_REMARK			"Remark";
+	ID_GVBASE_COLOR				"Title Color";
+}

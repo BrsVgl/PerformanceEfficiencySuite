@@ -1,0 +1,15 @@
+STRINGTABLE GVtag
+{
+	GVtag									"Tag Operator";
+	
+	GV_TAG_TYPE				"Tag Type";
+	GV_TAG_EXCLUDE_ID		"Exclude";
+
+	GV_TAG_INPUT_OBJECT		"Object";
+	GV_TAG_INPUT_START		"First Tag";
+	GV_TAG_INPUT_COUNT		"Maximum Tags";
+	GV_TAG_OPERATOR_ON		"On";
+
+	GV_TAG_OUTPUT_TAG		"Tag";
+	GV_TAG_OUTPUT_COUNT		"Count";
+}

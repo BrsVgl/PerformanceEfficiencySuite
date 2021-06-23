@@ -1,0 +1,8 @@
+STRINGTABLE Xnoise
+{
+	Xnoise "Noise Shader";
+
+	NOISESHADER_COLOR 	"Color";
+	NOISESHADER_SCALEX  "U Frequency";
+	NOISESHADER_SCALEY  "V Frequency";
+}

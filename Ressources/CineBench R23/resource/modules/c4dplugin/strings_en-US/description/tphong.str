@@ -1,0 +1,10 @@
+STRINGTABLE Tphong
+{
+	Tphong "Phong Tag";
+
+	PHONGTAG_PHONG_ANGLELIMIT		"Angle Limit";
+	PHONGTAG_PHONG_ANGLE				"Phong Angle";
+	PHONGTAG_PHONG_USEEDGES			"Use Edge Breaks";
+	PHONGTAG_CREATE_NORMAL_TAG	"Create Normal Tag";
+	PHONGTAG_STRING_NORMAL_TAG	"A Normal tag overrides the Phong tag";
+}

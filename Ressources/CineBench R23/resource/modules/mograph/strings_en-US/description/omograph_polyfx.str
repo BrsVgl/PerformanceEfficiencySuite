@@ -1,0 +1,10 @@
+STRINGTABLE Omograph_polyfx
+{
+	Omograph_polyfx "PolyFX";
+
+	MGPOLYFX_MODE						"Mode";
+		MGPOLYFX_MODE_FULL			"Full Polys/Segments";
+		MGPOLYFX_MODE_PART			"Partial Polys/Splines";
+		
+	MGPOLYFX_PRESERVE_PHONG	"Preserve Phong";
+}

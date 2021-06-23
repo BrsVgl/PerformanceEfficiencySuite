@@ -1,0 +1,10 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_NEW_CITY_DIALOG
+{
+  IDS_NEW_CITY_CONTINENT  "Continent";
+  IDS_NEW_CITY_COUNTRY    "Country";
+  IDS_NEW_CITY_DIALOG     "New City";
+  IDS_NEW_CITY_NAME       "Name";
+  IDS_STATIC              "Group";
+}

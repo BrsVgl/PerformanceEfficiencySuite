@@ -1,0 +1,17 @@
+STRINGTABLE GVmonoflop
+{
+	GVmonoflop									"MonoFlop Operator";
+
+	GV_MONOFLOP_MODE		"Mode";
+	GV_MONOFLOP_NORMAL		"Normal";
+	GV_MONOFLOP_ONESHOT		"OneShot";
+	 
+	GV_MONOFLOP_TRIGGER		"Trigger";
+	GV_MONOFLOP_TIME		"Time";
+	GV_MONOFLOP_DURATION	"Duration";
+	GV_MONOFLOP_RESET		"Reset";
+
+	GV_MONOFLOP_OUT			"Out";
+	GV_MONOFLOP_COUNT		"Count";
+	GV_MONOFLOP_STATE		"State";
+}

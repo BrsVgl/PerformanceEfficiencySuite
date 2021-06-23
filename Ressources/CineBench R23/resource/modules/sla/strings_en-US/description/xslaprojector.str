@@ -1,0 +1,30 @@
+STRINGTABLE XSLAProjector
+{
+  XSLAProjector                           "Projection Shader";
+
+  SLA_PROJECTOR_TEXTURE                   "Texture";
+
+  SLA_PROJECTOR_PROJECTION                "Projection";
+    SLA_PROJECTOR_PROJECTION_SPHERICAL    "Spherical";
+    SLA_PROJECTOR_PROJECTION_CYLINDRICAL  "Cylindrical";
+    SLA_PROJECTOR_PROJECTION_FLAT         "Flat";
+    SLA_PROJECTOR_PROJECTION_CUBIC        "Cubic";
+    SLA_PROJECTOR_PROJECTION_FRONTAL      "Frontal";
+    SLA_PROJECTOR_PROJECTION_SPATIAL      "Spatial";
+    SLA_PROJECTOR_PROJECTION_UVW          "UVW Mapping";
+    SLA_PROJECTOR_PROJECTION_SHRINKWRAP   "Shrink Wrapping";
+
+  //SLA_PROJECTOR_TILE_UV                   "Tile UV Space";
+  SLA_PROJECTOR_OFFSET_X                  "Offset X";
+  SLA_PROJECTOR_OFFSET_Y                  "Offset Y";
+  SLA_PROJECTOR_LENGTH_X                  "Length X";
+  SLA_PROJECTOR_LENGTH_Y                  "Length Y";
+  SLA_PROJECTOR_TILES_X                   "Tiles X";
+  SLA_PROJECTOR_TILES_Y                   "Tiles Y";
+  SLA_PROJECTOR_TILE                      "Tile";
+  SLA_PROJECTOR_SEAMLESS                  "Seamless";
+  SLA_PROJECTOR_POSITION                  "Position";
+  SLA_PROJECTOR_SIZE                      "Size";
+  SLA_PROJECTOR_ROTATION                  "Rotation";
+  SLA_PROJECTOR_PASTE_TAG                 "Paste Tag";
+}

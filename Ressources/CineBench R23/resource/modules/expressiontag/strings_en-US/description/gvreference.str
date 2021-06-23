@@ -1,0 +1,9 @@
+STRINGTABLE GVreference
+{
+	GVreference							"Reference Operator";
+
+	GV_REFERENCE_INPUT_OBJECT "Instance";
+	GV_REFERENCE_INPUT_PATH "Path";
+
+	GV_REFERENCE_OUTPUT_OBJECT "Instance";
+}

@@ -1,0 +1,6 @@
+STRINGTABLE ToDoTag
+{
+	ToDoTag			"To Do Tag";
+	TODOTAG_TEXT		"Note";
+	TODOTAG_DONE		"Done";
+}

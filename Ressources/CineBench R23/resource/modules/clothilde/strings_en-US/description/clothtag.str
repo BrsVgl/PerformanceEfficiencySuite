@@ -1,0 +1,125 @@
+STRINGTABLE ClothTag
+{
+	Tsbd            "Cloth Tag";
+
+	CLOTH_USE       "Enable";
+
+	CLOTH_DRESSMODE "Dress Mode";
+
+	CLOTH_DRAG      "Drag";
+	CLOTH_MASS      "Mass";
+	CLOTH_GRAVITY   "Gravity";
+
+
+	CLOTH_SEAMS_DIST "Width";
+
+	CLOTH_SETINIT    "Set";
+	CLOTH_SETDINIT   "Set";
+	CLOTH_SETMASS    "Set";
+	CLOTH_SETSEAMS   "Set";
+
+	CLOTH_SHOWINIT   "Show";
+	CLOTH_SHOWDINIT  "Show";
+
+	CLOTH_SHOWSEAMS  "Show";
+	CLOTH_SHOWMASS   "Show";
+
+	CLOTH_DRAWMASS   "Draw";
+	
+	CLOTH_CLEARMASS  "Clear";
+	CLOTH_CLEARSEAM  "Clear";
+
+
+	CLOTH_BOUNCE     "Bounce";
+	CLOTH_STICKI     "Friction";
+
+	CLOTH_SELF       "Self Collision";
+	CLOTH_SREP       "Self Repulsion";
+	CLOTH_SREP_D     "Distance";
+	CLOTH_SREP_F     "Force";
+	CLOTH_SREP_B     "Damping";
+
+	CLOTH_ITERATIONS "Iterations";
+	CLOTH_STRUCT_F   "Stiffness";
+	CLOTH_RUBBER_F   "Rubber";
+	CLOTH_FLEXION_F  "Flexion";
+	CLOTH_SHRINK_F   "Size";
+	CLOTH_TEAR_F     "Tear";
+	CLOTH_TEAR       "Use Tear";
+
+	CLOTH_BELT       "Belt on:";
+	CLOTH_BELT_F     "Belt Influence";
+	CLOTH_BELT_S     "Belt Hover";
+
+
+	CLOTH_WIND_DIR    "Wind Direction";
+	CLOTH_WIND_F      "Wind Strength";
+	CLOTH_WIND_TURB_F "Wind Turbulence Strength";
+	CLOTH_WIND_TURB_S "Wind Turbulence Speed";
+	CLOTH_WIND_DRAG   "Wind Drag";
+	CLOTH_WIND_IMPACT "Wind Impact";
+	CLOTH_WIND_LIFT   "Wind Lift";
+	CLOTH_WIND_SPEED  "Air Resistance";
+
+	CLOTH_GROUP_MAIN     "Main";
+	CLOTH_GROUP_FORCES   "Forces";
+	CLOTH_GROUP_EFFECTS  "Cache";
+	CLOTH_GROUP_DRESSING "Dresser";
+	CLOTH_GROUP_EXPERT   "Expert";
+
+	CLOTH_DO_DRESSING "Dress-O-matic";
+	CLOTH_DRESS_STEPS "Steps";
+	CLOTH_DO_RELAXING "Relax";
+	CLOTH_RELAX_STEPS "Steps";
+
+	CLOTH_MASS_MAP      "Mass Map"           "Map";
+	CLOTH_STRUCT_F_MAP  "Stiffness Map"      "Map";
+	CLOTH_FLEXION_F_MAP "Flexion Map"        "Map";
+	CLOTH_SHRINK_F_MAP  "Size Map"           "Map";
+	CLOTH_BOUNCE_MAP    "Bounce Map"         "Map";
+	CLOTH_STICKI_MAP    "Friction Map"       "Map";
+	CLOTH_BELT_F_MAP    "Belt Influence Map" "Map";
+	CLOTH_BELT_S_MAP    "Belt Hover Map"     "Map";
+	CLOTH_RUBBER_F_MAP  "Rubber Map"         "Map";
+	CLOTH_TEAR_F_MAP    "Tear Map"           "Map";
+
+	CLOTH_SUBDIV    "Sub Sampling";
+	CLOTH_START     "Start";
+	CLOTH_STOP      "Stop";
+	CLOTH_AUTOTIME  "Auto";
+
+	CLOTH_POINTS    "Point Collision";
+	CLOTH_EDGES     "Edge Collision";
+	CLOTH_POLYS     "Polygon Collision";
+	CLOTH_P_EPS     "Point EPS";
+	CLOTH_K_EPS     "Edge EPS";
+	CLOTH_V_EPS     "Poly EPS";
+	CLOTH_GIA       "Global Intersection Analysis";
+
+	CLOTH_BAKE         "Cache Mode";
+	CLOTH_DO_CALCULATE "Calculate Cache";
+	CLOTH_DELCACHE     "Empty Cache";
+	CLOTH_CACHE_FRAME  "Update Frame";
+
+	CLOTH_CACHE_INFO1	"Cached: ";
+	CLOTH_CACHE_INFO2	"Memory: ";
+
+
+	CLOTH_TEXT_INIT  "Init State:";
+	CLOTH_TEXT_DRESS "Dress State:";
+	CLOTH_TEXT_FIX   "Fix Points:";
+	CLOTH_TEXT_SEAM  "Seam Polys:";
+
+	CLOTH_INCLUDE "Limit to:";
+
+	CLOTH_BELT_LIST  "Belt on:";
+
+	CLOTH_CACHE_LOAD "Load...";
+	CLOTH_CACHE_SAVE "Save...";
+
+	CLOTH_CACHE_START "Start";
+
+	CLOTH_SIMULATION_PRIORITY"Simulation";
+
+
+}

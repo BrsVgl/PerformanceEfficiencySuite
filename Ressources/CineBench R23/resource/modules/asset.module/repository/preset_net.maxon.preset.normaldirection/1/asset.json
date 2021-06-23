@@ -1,0 +1,112 @@
+﻿{
+	"identification": "net.maxon.fileformat.preset",
+	"content": {
+		"_content": [
+			"c4dobjectspace@d22c8b13340849d6a66757b55a35cc33",
+			{
+				"referenceDataType": "net.maxon.interface.datadictionary-C",
+				"_impl": {
+					"_mode": 1,
+					"_keyType": "net.maxon.datatype.internedid",
+					"_fastData": [
+						"flipx",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"flipy",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"flipz",
+						{
+							"dataType": "bool",
+							"content": true
+						},
+						"space",
+						{
+							"dataType": "net.maxon.datatype.internedid",
+							"content": "object"
+						},
+						"swapyz",
+						{
+							"dataType": "bool",
+							"content": false
+						}
+					]
+				}
+			},
+			"c4dtangentspace@757f6133942249158b66cc296c68fecd",
+			{
+				"referenceDataType": "net.maxon.interface.datadictionary-C",
+				"_impl": {
+					"_mode": 1,
+					"_keyType": "net.maxon.datatype.internedid",
+					"_fastData": [
+						"flipx",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"flipy",
+						{
+							"dataType": "bool",
+							"content": true
+						},
+						"flipz",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"space",
+						{
+							"dataType": "net.maxon.datatype.internedid",
+							"content": "tangent"
+						},
+						"swapyz",
+						{
+							"dataType": "bool",
+							"content": false
+						}
+					]
+				}
+			},
+			"c4dworldspace@6e2df5b1dbe34196a7b1022b8a7868b6",
+			{
+				"referenceDataType": "net.maxon.interface.datadictionary-C",
+				"_impl": {
+					"_mode": 1,
+					"_keyType": "net.maxon.datatype.internedid",
+					"_fastData": [
+						"flipx",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"flipy",
+						{
+							"dataType": "bool",
+							"content": false
+						},
+						"flipz",
+						{
+							"dataType": "bool",
+							"content": true
+						},
+						"space",
+						{
+							"dataType": "net.maxon.datatype.internedid",
+							"content": "world"
+						},
+						"swapyz",
+						{
+							"dataType": "bool",
+							"content": false
+						}
+					]
+				}
+			}
+		]
+	}
+}

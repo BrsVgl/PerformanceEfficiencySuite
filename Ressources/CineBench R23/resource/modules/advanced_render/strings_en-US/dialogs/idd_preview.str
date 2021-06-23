@@ -1,0 +1,8 @@
+// C4D Dialog Strings
+
+DIALOGSTRINGS IDD_PREVIEW
+{
+	TDLG "PyroCluster-Preview";
+	T1 "Birth";
+	T2 "Death";
+}

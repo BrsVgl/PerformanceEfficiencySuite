@@ -1,0 +1,9 @@
+STRINGTABLE Dmatrix
+{
+	Dmatrix			"Matrix Datatype";
+
+	MATRIX_OFF	"Off";
+	MATRIX_V1		"V1";
+	MATRIX_V2		"V2";
+	MATRIX_V3		"V3";
+}

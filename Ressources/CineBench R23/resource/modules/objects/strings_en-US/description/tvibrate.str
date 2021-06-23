@@ -1,0 +1,21 @@
+STRINGTABLE Tvibrate
+{
+	Tvibrate "Vibrate Expression";
+
+	VIBRATEEXPRESSION_POS_ENABLE 		"Enable Position";
+	VIBRATEEXPRESSION_POS_AMPLITUDE "Position Amplitude" "Amplitude";
+	VIBRATEEXPRESSION_POS_FREQUENCY "Position Frequency" "Frequency";
+	VIBRATEEXPRESSION_SCL_ENABLE 		"Enable Scale";
+	VIBRATEEXPRESSION_SCL_AMPLITUDE "Scale Amplitude" "Amplitude";
+	VIBRATEEXPRESSION_SCL_FREQUENCY "Scale Frequency" "Frequency";
+	VIBRATEEXPRESSION_ROT_ENABLE 		"Enable Rotation";
+	VIBRATEEXPRESSION_ROT_AMPLITUDE "Rotation Amplitude" "Amplitude";
+	VIBRATEEXPRESSION_ROT_FREQUENCY "Rotation Frequency" "Frequency";
+	VIBRATEEXPRESSION_REGULAR				"Regular Pulse";
+	VIBRATEEXPRESSION_SCL_UNIFORM		"Uniform Scale";
+	VIBRATEEXPRESSION_SEED					"Seed";
+	VIBRATE_GROUP_POS								"Position";
+	VIBRATE_GROUP_SCL								"Scale";
+	VIBRATE_GROUP_ROT								"Rotation";
+	VIBRATEEXPRESSION_RELATIVE					"Relative";
+}

@@ -1,0 +1,8 @@
+STRINGTABLE Osplineflower
+{
+	Osplineflower "Flower Object";
+
+	PRIM_FLOWER_IRAD					"Inner Radius";
+	PRIM_FLOWER_ORAD					"Outer Radius";
+	PRIM_FLOWER_PETALS				"Petals";
+}

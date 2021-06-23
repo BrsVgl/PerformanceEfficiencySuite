@@ -1,0 +1,39 @@
+STRINGTABLE XSLAGradient
+{
+  XSLAGradient                            "Gradient Shader";
+
+  SLA_GRADIENT_TYPE                       "Type";
+    SLA_GRADIENT_TYPE_2D_U                "2D - U";
+    SLA_GRADIENT_TYPE_2D_V                "2D - V";
+    SLA_GRADIENT_TYPE_2D_DIAG             "2D - Diagonal";
+    SLA_GRADIENT_TYPE_2D_RAD              "2D - Radial";
+    SLA_GRADIENT_TYPE_2D_CIRC             "2D - Circular";
+    SLA_GRADIENT_TYPE_2D_BOX              "2D - Box";
+    SLA_GRADIENT_TYPE_2D_STAR             "2D - Star";
+    SLA_GRADIENT_TYPE_2D_FOUR_CORNER      "2D - Four Corner";
+    SLA_GRADIENT_TYPE_3D_LINEAR           "3D - Linear";
+    SLA_GRADIENT_TYPE_3D_CYLINDRICAL      "3D - Cylindrical";
+    SLA_GRADIENT_TYPE_3D_SPHERICAL        "3D - Spherical";
+  SLA_GRADIENT_CYCLE                      "Cycle";
+  SLA_GRADIENT_START                      "Start";
+  SLA_GRADIENT_END                        "End";
+  SLA_GRADIENT_RADIUS                     "Radius";
+
+  SLA_GRADIENT_SPACE                      "Space";
+    SLA_GRADIENT_SPACE_TEXTURE            "Texture";
+    SLA_GRADIENT_SPACE_OBJECT             "Object";
+    SLA_GRADIENT_SPACE_WORLD              "World";
+    SLA_GRADIENT_SPACE_CAMERA             "Camera";
+    SLA_GRADIENT_SPACE_SCREEN             "Screen";
+    SLA_GRADIENT_SPACE_RASTER             "Raster";
+
+  SLA_GRADIENT_TURBULENCE                 "Turbulence";
+  SLA_GRADIENT_OCTAVES                    "Octaves";
+  SLA_GRADIENT_SCALE                      "Scale";
+  SLA_GRADIENT_FREQ                       "Frequency";
+  SLA_GRADIENT_SEED												"Seed";
+  SLA_GRADIENT_ANGLE                      "Angle";
+  SLA_GRADIENT_ABSOLUTE                   "Absolute";
+
+  SLA_GRADIENT_GRADIENT                   "Gradient";
+}

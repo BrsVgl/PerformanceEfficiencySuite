@@ -1,0 +1,48 @@
+STRINGTABLE Prefsview
+{
+	Prefsview "Viewport Display";
+
+	PREFS_VIEW_PERFORMANCE_GROUP		"Performance";
+	PREFS_VIEW_SYSTEM_GROUP					"System";
+	PREFS_VIEW_HANDLES_GROUP				"Handles";
+	PREFS_VIEW_VP_ELEMENTS_GROUP		"Viewport Elements";
+	PREFS_VIEW_OBJ_SELECTION_GROUP	"Object Selection";
+
+	PREF_VIEW_FULLANIMREDRAW			"Full Animation Redraw";
+	PREF_VIEW_REALTIME						"Realtime Values";
+	PREF_VIEW_REALTIME_MATERIAL		"Continuous Material Update";
+	PREF_VIEW_MONITORASPECT				"Monitor Aspect";
+	PREF_VIEW_COLORPROFILE				"Display Color Profile";
+
+	PREF_VIEW_LINEAR_WORKFLOW												"Linear Workflow";
+	PREF_VIEW_OBJECTAXIS_SCALE											"Axes Scale";
+	PREF_VIEW_ROTATION_CIRCLE												"Rotation Circle";
+	PREF_VIEW_ROTATION_BANDS												"Rotation Bands";
+	PREF_VIEW_ROTBAND_SCALE													"Rotation Scale";
+	PREF_VIEW_POINT_SELECTED_SIZE										"Selected Point Size";
+	PREF_VIEW_POINT_HANDLE_SIZE											"Point Size";
+	PREF_VIEW_EDGE_SELECTED_SIZE										"Selected Edge Size";
+	PREF_VIEW_EDGE_UNSELECTED_SIZE									"Edge Size";
+	PREF_VIEW_SPLINE_WIDTH													"Spline Size";
+	PREF_VIEW_NORMALS_SCALE													"Normals Scale";
+	PREF_VIEW_EDGE_POINTS														"Edge Points";
+	PREF_VIEW_EDITOR_AXIS_POS												"Axis Position";
+		PREF_VIEW_AXIS_POS_OFF												"Off";
+		PREF_VIEW_AXIS_POS_BL													"Bottom Left";
+		PREF_VIEW_AXIS_POS_TL													"Top Left";
+		PREF_VIEW_AXIS_POS_TR													"Top Right";
+		PREF_VIEW_AXIS_POS_BR													"Bottom Right";
+	PREF_VIEW_EDITOR_AXIS_TYPE											"Axis Type";
+		PREF_VIEW_AXIS_TYPE_WORLD											"World";
+		PREF_VIEW_AXIS_TYPE_OBJECT										"Object";
+	PREF_VIEW_EDIT_AXIS_SCALE												"Axis Scale";
+	PREF_VIEW_EDIT_AXIS_TEXT												"Axis Text";
+	PREF_VIEW_OUTLINES															"Outlines";
+	PREF_VIEW_OUTLINE_WIDTH													"Outline Size";
+	PREF_VIEW_SEL_BOUNDINGBOXSELECTION							"Sel.: Bounding Box";
+	PREF_VIEW_SEL_BOUNDINGBOXSELECTION_CHILDREN			"Include Children";
+	PREF_VIEW_SEL_WIREFRAMESELECTION								"Sel.: Wireframe";
+	PREF_VIEW_SEL_WIREFRAMESELECTION_CHILDREN				"Include Children";
+	PREF_VIEW_DISPLAYFILTER_GRADIENT								"Background Gradient";
+	PREF_VIEW_DISPLAYFILTER_HANDLEBANDS							"Axis Bands";
+}

@@ -1,0 +1,7 @@
+STRINGTABLE SHxrefopts
+{
+	SHxrefopts "References";
+
+	ID_CA_XREFOPTS_GROUP_REFS "";
+	ID_CA_XREFOPTS_OBJECTS "";
+}

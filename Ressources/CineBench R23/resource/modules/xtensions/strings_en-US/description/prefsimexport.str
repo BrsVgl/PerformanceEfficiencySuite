@@ -1,0 +1,11 @@
+STRINGTABLE Prefsimexport
+{
+	Prefsimexport "Import/Export";
+
+	PREF_IMEXPORT_SHOW_IMPORT_DLG		"Show Import Dialog";
+	PREF_IMEXPORT_SHOW_EXPORT_DLG		"Show Export Dialog";
+	PREF_IMEXPORT_SHOW_DLG_INFO			"Hold Alt to invert the behavior.";
+
+	PREF_IMEXPORT_MERGE_ON_DD				"Merge on Drag & Drop";
+	PREF_IMEXPORT_MERGE_ON_DD_INFO	"Hold Shift to invert the behaviour, works with multiple files.";
+}

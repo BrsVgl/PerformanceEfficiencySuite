@@ -1,0 +1,33 @@
+STRINGTABLE GVobject
+{
+	GVobject															"Object Operator";
+
+	GV_OBJECT_OBJECT_ID										"Reference";
+	GV_OBJECT_PATH_TYPE 									"Reference Mode";
+	GV_OBJECT_PATH_TYPE_START 						"Use Start Position";
+	GV_OBJECT_PATH_TYPE_ABSOLUTE 					"Absolute Reference";
+	GV_OBJECT_PATH_TYPE_RELATIVE 					"Relative Reference";
+
+	GV_OBJECT_START_TYPE_ID "Start Position";
+	GV_OBJECT_DISTANCE_ID "Start Distance";	
+	GV_OBJECT_HISTORY_DEPTH_ID "History Depth";
+	GV_OBJECT_PATH_ID "Path";
+	
+	GV_OBJECT_OPERATOR_LOCAL_IN 					"Local Matrix";
+	GV_OBJECT_OPERATOR_GLOBAL_IN 					"Global Matrix";
+	GV_OBJECT_OPERATOR_HISTORY_IN 				"History level";
+	GV_OBJECT_OPERATOR_OBJECT_IN 				"Object";
+	GV_OBJECT_OPERATOR_ON 						"On";
+
+	GV_OBJECT_OPERATOR_LOCAL_OUT 					"Local Matrix";
+	GV_OBJECT_OPERATOR_GLOBAL_OUT 				"Global Matrix";
+	GV_OBJECT_OPERATOR_OBJECT_OUT 				"Object";
+	GV_OBJECT_OPERATOR_OLD_POS_OUT 				"Previous position";
+	GV_OBJECT_OPERATOR_OLD_ROT_OUT 				"Previous rotation";
+	GV_OBJECT_OPERATOR_OLD_SIZE_OUT 			"Previous scale";
+	GV_OBJECT_OPERATOR_OLD_GLOBAL_OUT 		"Previous global matrix";
+	GV_OBJECT_OPERATOR_OLD_LOCAL_OUT 			"Previous local matrix";
+	GV_OBJECT_OPERATOR_VELOCITY_POS_OUT 	"Position velocity";
+	GV_OBJECT_OPERATOR_VELOCITY_ROT_OUT 	"Rotation velocity";
+	GV_OBJECT_OPERATOR_VELOCITY_SIZE_OUT 	"Scale velocity";
+}

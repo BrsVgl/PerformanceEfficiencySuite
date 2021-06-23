@@ -1,0 +1,11 @@
+STRINGTABLE Toolcharacterdef
+{
+	Toolcharacterdef "Character Definition Tool";
+	TCD_EXTRACTSKELETON	"Extract Skeleton";
+	TCD_EXTRACTRESTPOSE	"Set Reference Pose";
+	TCD_APPLYRESTPOSE	"Go to Reference Pose";
+	TCD_ADDBODYPART "Add Body Part";
+	TCD_REMOVEBODYPART "Remove Body Part";
+	TCD_SAVEPRESET	"Save Preset...";
+	TCD_LOADPRESET	"Load Preset...";
+}

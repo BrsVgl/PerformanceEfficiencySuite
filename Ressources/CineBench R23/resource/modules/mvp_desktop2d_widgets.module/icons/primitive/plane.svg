@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>category_plane</title>
+    <defs>
+        <linearGradient x1="39.672792%" y1="56.9810644%" x2="47.3868836%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="46.7511448%" y1="41.7431305%" x2="53.8394257%" y2="48.9572998%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="68.5248323%" y1="54.2747167%" x2="61.832301%" y2="47.9497511%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="59.8697039%" y1="43.9657178%" x2="52.5212602%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="category_plane" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="MXN_BG_ID" fill="#5DA9C8" points="3 18.2084184 17.860413 26.7552224 33 18.2084184 17.860413 9.33891269"></polygon>
+        <g id="MXN_0_ID" transform="translate(3.000000, 9.338913)">
+            <polygon id="Path-47" fill="#5DA9C8" points="0 8.8695057 14.860413 17.4163097 30 8.8695057 14.860413 1.77635684e-15"></polygon>
+            <polygon id="Rectangle" fill="url(#linearGradient-1)" opacity="0.21968006" points="15.0085581 0.661087313 28.7251914 8.59375308 24.2933283 8.70815484 15 3.01030784"></polygon>
+            <polygon id="Rectangle" fill="url(#linearGradient-2)" opacity="0.21968006" points="28.5980674 8.52416174 15.1086908 16.3223531 15 13.6007413 24.2933283 8.70815484"></polygon>
+            <polygon id="Rectangle" fill="url(#linearGradient-3)" opacity="0.21968006" points="15 3.31696724 5.96364303 8.70815484 1.622474 8.62008479 15.1502087 0.696594323"></polygon>
+            <polygon id="Rectangle" fill="url(#linearGradient-4)" opacity="0.21968006" points="1.5 8.61273505 15.0593669 16.3948528 15 13.9424365 4.93951997 8.61273505"></polygon>
+        </g>
+        <path d="M17.8627814,9.91978672 L31.9971511,18.2003873 L17.8627167,26.179749 L3.98898647,18.2004249 L17.8627814,9.91978672 Z" id="MXN_FG_ID" stroke="#0A0A0A"></path>
+    </g>
+</svg>

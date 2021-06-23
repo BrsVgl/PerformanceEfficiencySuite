@@ -1,0 +1,19 @@
+STRINGTABLE Ocylinder
+{
+	Ocylinder "Cylinder Object";
+
+	PRIM_CYLINDER_RADIUS  			"Radius";
+	PRIM_CYLINDER_HEIGHT 				"Height";
+	PRIM_CYLINDER_HSUB	 				"Height Segments";
+	PRIM_CYLINDER_CSUB 					"Cap Segments" "Segments";
+	PRIM_CYLINDER_SEG 					"Rotation Segments";
+
+	ID_CYLINDERCAPS							"Caps";
+	PRIM_CYLINDER_CAPS					"Caps";
+	PRIM_CYLINDER_FILLET				"Fillet";
+	PRIM_CYLINDER_FSUB					"Fillet Segments" "Segments";
+	PRIM_CYLINDER_FILLETRADIUS	"Fillet Radius" "Radius";
+
+	PRIM_CYLINDER_USE_NEW_VERSION	  "";
+	PRIM_CYLINDER_SWITCH_TO_UPDATED	"Switch to Updated Cylinder";
+}

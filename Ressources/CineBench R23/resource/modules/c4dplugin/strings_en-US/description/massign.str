@@ -1,0 +1,7 @@
+STRINGTABLE Massign
+{
+	Massign												"Assignment";
+	MATERIAL_PAGE_ASSIGNMENT			"Assignment";
+	ID_MATERIALASSIGNMENTS_GROUP	"Assignment" "Assign";
+	ID_MATERIALASSIGNMENTS				"" "";
+}

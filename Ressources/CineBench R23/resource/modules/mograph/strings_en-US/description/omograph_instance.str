@@ -1,0 +1,6 @@
+STRINGTABLE Omograph_instance
+{
+	Omograph_instance "MoInstance";
+	MGINSTANCER_LINK "Object Reference";
+	MGINSTANCER_DEPTH "History Depth";
+}

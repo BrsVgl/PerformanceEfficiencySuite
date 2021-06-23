@@ -1,0 +1,10 @@
+STRINGTABLE XSLADirt
+{
+  XSLADirt                                "Dirt Shader";
+
+  SLA_DIRTY_RAY_BIAS                      "Ray Bias";
+  SLA_DIRTY_MAX_DISTANCE                  "Maximum Distance";
+  SLA_DIRTY_NUM_RAYS                      "Number of Rays";
+  SLA_DIRTY_SPREAD                        "Spread";
+  SLA_DIRTY_CONTRAST                      "Contrast";
+}

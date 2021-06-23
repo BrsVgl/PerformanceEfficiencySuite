@@ -1,0 +1,39 @@
+STRINGTABLE Prefstimeline
+{
+	Prefstimeline 			"Timeline/Spline Gadget";
+	PREF_TL_HIGHLIGHT		"Highlight";
+	PREF_TL_HIGHLIGHTCURVE		"Highlight F-Curves";
+	PREF_TL_MINMAX			"Display Min/Max Values";
+	PREF_TL_INDICATOR		"Cursor Indicator";
+	PREF_TL_SUMMARY			"Summary Track";
+	PREF_TL_LAYERCOL		"Layer Colors";
+	PREF_TL_TRACKSTARTEND		"Track Start/End";
+	PREF_TL_INTERACTIVE		"Interactive Update";
+	PREF_TL_DOPESHEET		"Draw Keys on Cells";
+	PREF_TL_KEYWIDTHVALUE		"Minimum Key Width";
+	PREF_TL_TRACKCOL		"Track Color";
+		PREF_TL_TRACKCOL_COL		"Track Color";
+		PREF_TL_TRACKCOL_PSR		"Pos/Scale/Rot";
+		PREF_TL_TRACKCOL_NO			"No Color";
+	PREF_TL_RMREDUCTION		"Reduced Modification Value";
+	PREF_TL_MOTION			"Motion Clip Transition Time";
+	PREF_TL_KEYSYMBOLS		"Show Key Symbols";
+	PREF_TL_SHOWBRANCHES		"Show Branches";
+	PREF_TL_SHOWVECTOR		"Show Vector Track";
+	PREF_TL_KEYFRAMEDOTS		"Legacy Keyframe Dots";
+	PREF_TL_DOTSKILLTRACKS		"Remove Tracks Without Keyframes";
+	PREF_TL_LINKKEYFCSELECTION	"Link Key/F-Curve Selection";
+	PREF_TL_LINKOMSELECTONLY 	"OM Single Object Linking";
+	PREF_TL_LINKOMSELECTONLYBUTTAGS "OM Single Object Linking but displays the tags";
+	PREF_TL_FCLISTVIEW		"F-Curve Non-Hierarchical List View";
+	PREF_TL_FCLISTVIEW_HIERARCHICAL	"F-Curve List View";
+
+	
+	PREF_TL_KEYGROUP		"Timeline - Dope Sheet";
+	PREF_TL_FCGROUP			"Timeline - F-Curve Mode";
+	PREF_TL_MOTIONGROUP		"Timeline - Motion Mode";
+	PREF_TL_OBJECTGROUP		"Timeline - Object Area";
+	PREF_TL_LINKGROUP		"Timeline - Linking";
+	PREF_TL_DISPLAYGROUP	"General";
+	PREF_TL_AMGROUP			"Attributes Manager";
+}

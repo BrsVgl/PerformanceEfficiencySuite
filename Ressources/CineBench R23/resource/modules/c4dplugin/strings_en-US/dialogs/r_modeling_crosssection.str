@@ -1,0 +1,6 @@
+DIALOGSTRINGS R_MODELING_CROSSSECTION
+{
+  T1 "Cross Section";
+  T2 "Constrain Angle";
+  T3 "88888888";
+}

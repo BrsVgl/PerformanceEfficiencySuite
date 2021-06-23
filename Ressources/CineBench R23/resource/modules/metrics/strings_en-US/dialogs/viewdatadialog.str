@@ -1,0 +1,4 @@
+DIALOGSTRINGS VIEWDATADIALOG
+{
+	IDS_TITLE "Anonymous Application Activity";
+}

@@ -1,0 +1,26 @@
+////////////////////////////////////////////////////////////////
+// xrain
+////////////////////////////////////////////////////////////////
+// (c) Maxon Computer GmbH, all rights reserved
+////////////////////////////////////////////////////////////////
+
+STRINGTABLE xrain
+{
+	xrain									"Weathering Shader";
+
+	XRAIN_SHADERLINK			"Texture";
+	XRAIN_INTENSITY				"Intensity";
+	XRAIN_SAMPLES					"Smoothness";
+	XRAIN_DIRECTION				"Direction";
+		XRAIN_DIRECTION_U1		"+U (up)";
+		XRAIN_DIRECTION_U2		"-U (down)";
+		XRAIN_DIRECTION_V1		"+V (right)";
+		XRAIN_DIRECTION_V2		"-V (left)";
+	XRAIN_WEIGHTED				"Weighting";
+		XRAIN_WEIGHTED_NONE		"None";
+		XRAIN_WEIGHTED_1			"Bright";
+		XRAIN_WEIGHTED_2			"Dark";
+	XRAIN_CLAMP						"Clamp UV coords";
+	XRAIN_WEIGHTSHADER_INTENSITY	"Strength";
+	XRAIN_WEIGHTSHADER_LINK			"Intensity Shader";
+}

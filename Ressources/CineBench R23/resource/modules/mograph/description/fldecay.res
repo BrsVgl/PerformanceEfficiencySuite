@@ -1,0 +1,33 @@
+CONTAINER FLdecay
+{
+	NAME FLdecay;
+	INCLUDE FLbase;
+
+	GROUP FLbase
+	{
+		LONG FIELDLAYER_DECAY_MODE
+		{
+			CYCLE
+			{
+				FIELDLAYER_DECAY_MODE_MAX;
+				FIELDLAYER_DECAY_MODE_MIN;
+			}
+		}
+
+		REAL FIELDLAYER_DECAY_DECAY_STRENGTH{ UNIT PERCENT; MIN 0.0; MAX 100.0; CUSTOMGUI REALSLIDER; }
+	}
+
+	GROUP FIELDLAYER_DECAY_FIELDS_GRP
+	{
+		FIELD HIDE;
+		FIELDLIST FIELDLAYER_DECAY_FIELDS
+		{
+			NEWLINE;
+			ANIM ON;
+			// Avoid NOVALUE since subfields sample value only, it won't show anyway since it is the only channel.
+			NODIRECTION;
+			NOCOLOR;
+			NOROTATION;
+		}
+	}
+}

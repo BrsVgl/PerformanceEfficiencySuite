@@ -1,0 +1,42 @@
+STRINGTABLE DistanceBlur
+{
+	DB_NAME						"Depth of Field";
+	DB_GLOBALS_GROUP	"Depth of Field";
+	DB_FBLUR					"Blur Strength";
+	DB_DBLURON				"Use Distance Blur" "Use";
+	DB_DBLUR					"Distance Blur";
+	DB_BBLURON				"Use Background Blur" "Use";
+	DB_BBLUR					"Background Blur";
+	DB_DOFON					"Use Radial Blur" "Use";
+	DB_DOF						"Radial Blur";
+	DB_AFOCUSON			"Use Autofocus" "Use";
+	DB_AFOCUS			"Autofocus Size" "Autofocus";
+	DB_RANGE_USE		"Use Gradients";
+	DB_RANGE_FGRAD		"Front Blur";
+	DB_RANGE_BGRAD		"Rear Blur";
+
+	DB_LENS_GROUP		"Lens Details" "Lens";
+	DB_SHARP			"Lens Sharpness";
+	DB_MINT				"Lens Intensity";
+	DB_REFTYPE			"Lens Shape";
+	DB_ROT				"Lens Rotate";
+	CIRCULAR			"Circle";
+	TRIANGLE			"Triangle";
+	RHOMBIC				"Rhombus";
+	PENTAGON			"Pentagon";
+	HEXAGON				"Hexagon";
+	HEPTAGON			"Heptagon";
+	OCTAGON				"Octagon";
+	NANOGON				"Nonagon";
+
+	DB_TINT_GROUP		"Tint"; 
+	DB_TINT_USE			"Use Tint";
+	DB_TINT_FGRAD		"Front Color";
+	DB_TINT_BGRAD		"Rear Color";
+	DB_TINT_USERANGE	"Use Ranges";
+	DB_TINT_USECAM		"Use Camera Ranges";
+	DB_TINT_FSTART		"Front Start";
+	DB_TINT_FEND		"Front End";
+	DB_TINT_BSTART		"Rear Start";
+	DB_TINT_BEND		"Rear End";
+}

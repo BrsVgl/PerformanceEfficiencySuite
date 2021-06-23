@@ -1,0 +1,9 @@
+STRINGTABLE ToolHairCut
+{
+	ToolHairCut "Cut";
+
+	HAIR_TOOL_CUT_LINK		"Cut At";
+	HAIR_TOOL_CUT_APPLY		"Apply Cut Object";
+	HAIR_TOOL_CUT_LENGTH	"Length";
+	HAIR_TOOL_CUT_SELECTED	"Selected Only";
+}

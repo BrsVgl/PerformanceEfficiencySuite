@@ -1,0 +1,9 @@
+STRINGTABLE Xturbulence
+{
+	Xturbulence "Turbulence Shader";
+
+	TURBULENCESHADER_COLOR 		"Color";
+	TURBULENCESHADER_SCALEX  	"U Frequency";
+	TURBULENCESHADER_SCALEY  	"V Frequency";
+	TURBULENCESHADER_OCTAVES 	"Octaves";
+}

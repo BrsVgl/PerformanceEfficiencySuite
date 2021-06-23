@@ -1,0 +1,74 @@
+STRINGTABLE Mgirealsky
+{
+	Mgirealsky						"GI Physical Sky";
+	
+	GI_REAL_SKY_GROUP_TIME					"Time";
+
+	// --- Groups
+	GI_REAL_SKY_GROUP_LOCATION				"Location";
+	GI_REAL_SKY_GROUP_GLOBAL				"Global";
+	GI_REAL_SKY_GROUP_SKY					"Sky";
+	GI_REAL_SKY_GROUP_SUN					"Sun";
+	GI_REAL_SKY_GROUP_ATM					"Atmosphere";
+	GI_REAL_SKY_GROUP_TEMP					"Temp";
+
+	// --- Location
+	GI_REAL_SKY_LATITUDE					"Latitude";
+	GI_REAL_SKY_LONGITUDE					"Longitude";
+	GI_REAL_SKY_DATETIME 					"Time";
+	GI_REAL_SKY_TIME_ZONE					"Time Zone Offset";
+	GI_REAL_SKY_HUD						"Show Location HUD";
+
+	// --- Global
+	GI_REAL_SKY_TURBIDITY					"Turbidity";
+	GI_REAL_SKY_OZONE					"Ozone";
+	
+	// --- Sky
+	GI_REAL_SKY_SKY_ENABLED					"Enabled";
+	GI_REAL_SKY_SKY_HORIZON					"Horizon Line";
+	GI_REAL_SKY_SKY_WARM_COLORS				"Use Warm Colors";
+	GI_REAL_SKY_SKY_CHROMA					"Use Chroma Color Map";
+	GI_REAL_SKY_SKY_INTENSITY				"Intensity";
+	GI_REAL_SKY_SKY_SATURATION				"Saturation Correction";
+	GI_REAL_SKY_SKY_HUE					"Hue Correction";
+	GI_REAL_SKY_SKY_GAMMA					"Gamma Correction";
+	GI_REAL_SKY_SKY_SEEN_RATIO				"As Seen Intensity Ratio";
+	GI_REAL_SKY_SKY_INTENSITY_NIGHT				"Night Intensity Ratio";
+
+	// --- Sun
+	GI_REAL_SKY_SUN_ENABLED					"Enabled";
+	GI_REAL_SKY_SUN_WARM_COLORS				"Use Warm Colors";
+	GI_REAL_SKY_SUN_COLOR					"Preview Color";
+	GI_REAL_SKY_SUN_SHADOW_COLOR				"Shadow Color";
+	GI_REAL_SKY_SUN_INTENSITY				"Intensity";
+	GI_REAL_SKY_SUN_SATURATION				"Saturation Correction";
+	GI_REAL_SKY_SUN_HUE					"Hue Correction";
+	GI_REAL_SKY_SUN_GAMMA					"Gamma Correction";
+	GI_REAL_SKY_SUN_SIZE_RATIO				"Size Ratio";
+	GI_REAL_SKY_SUN_SEEN_RATIO				"As Seen Intensity Ratio";
+	GI_REAL_SKY_SUN_SAMPLING_SAMPLES			"Sampling Count";
+	GI_REAL_SKY_SUN_SAMPLING_QUALITY			"Sampling Quality";
+
+	// --- Atmosphere
+	GI_REAL_SKY_ATM_ENABLED					"Enabled";
+	GI_REAL_SKY_ATM_INTENSITY				"Intensity";
+	GI_REAL_SKY_ATM_SATURATION				"Saturation Correction";
+	GI_REAL_SKY_ATM_HUE					"Hue Correction";
+	GI_REAL_SKY_ATM_GAMMA					"Gamma Correction";
+	GI_REAL_SKY_ATM_SCALE_RATIO				"Scene Scale Ratio";
+
+	// --- Temp
+	GI_REAL_SKY_A						"Sol Time";
+	GI_REAL_SKY_B						"Sol Declin";
+	GI_REAL_SKY_C						"Sol Zenith";
+	GI_REAL_SKY_D						"Sol Azimuth";
+	GI_REAL_SKY_BITMAP					"Create Bitmap";
+	GI_REAL_SKY_SEQ						"Create Animation";	
+
+	// --- Pages
+	GI_REAL_SKY_PAGE_LOCATION				"Location";
+	GI_REAL_SKY_PAGE_GLOBAL					"Global";
+	GI_REAL_SKY_PAGE_SKY					"Sky";
+	GI_REAL_SKY_PAGE_SUN					"Sun";
+	GI_REAL_SKY_PAGE_ATM					"Atm";
+}

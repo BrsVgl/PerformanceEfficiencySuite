@@ -1,0 +1,12 @@
+STRINGTABLE GVformula
+{
+	GVformula					"Formula Operator";
+	GV_FORMULA_STRING "Formula";
+	GV_FORMULA_USE_PORTNAMES "Use Port Names";
+	GV_FORMULA_ANGLE "Angle Type";
+			GV_FORMULA_ANGLE_DEGREE "Degree";
+			GV_FORMULA_ANGLE_RAD "Radians";
+
+	GV_FORMULA_INPUT 	"Value";
+	GV_FORMULA_OUTPUT	"Output";
+}

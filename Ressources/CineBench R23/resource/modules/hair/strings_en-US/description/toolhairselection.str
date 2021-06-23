@@ -1,0 +1,18 @@
+STRINGTABLE ToolHairSelection
+{
+	ToolHairSelection "Selection";
+
+	HAIR_SELECTION_MODE		"Mode";
+	HAIR_SELECTION_SELECT	"Select";
+	HAIR_SELECTION_INVERT	"Invert";
+
+	//////////////////////////////////////////////////////////////////////////
+
+	HAIR_SELECTION_MODE_NEW	"New";
+	HAIR_SELECTION_MODE_ADD	"Add";
+	HAIR_SELECTION_MODE_REMOVE	"Subtract";
+				
+	HAIR_SELECTION_SELECT_UNROOTED		"Unrooted";
+	HAIR_SELECTION_SELECT_INTERSECTING	"Intersecting";
+	HAIR_SELECTION_SELECT_ZERO			"Zero";
+}

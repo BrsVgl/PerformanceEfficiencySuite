@@ -1,0 +1,15 @@
+DIALOGSTRINGS R_RPF
+{
+  T1 "RPF Options";
+	T2 "Z";
+	T3 "Object";
+	T4 "UV Coordinates";
+	T5 "Normal";
+	T6 "Non-Clamped Color";
+	T7 "Coverage";
+	T8 "Object ID";
+	T9 "Color";
+	T10 "Transparency";
+	T11 "Subpixel Weight";
+	T12 "Subpixel Mask";
+}

@@ -1,0 +1,11 @@
+STRINGTABLE GVbitmap
+{
+	GVbitmap									"Bitmap Operator";
+
+	GV_BITMAP_X					"X";
+	GV_BITMAP_Y					"Y";	
+	GV_BITMAP_WIDTH					"Width";	
+	GV_BITMAP_HEIGHT					"Height";
+	GV_BITMAP_COLOR				"Color";
+	GV_BITMAP_FN_PORT			"Filename";
+}

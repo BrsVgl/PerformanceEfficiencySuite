@@ -1,0 +1,28 @@
+// C4D Dialog Strings
+
+DIALOGSTRINGS P_ROTATE
+{
+	TITLE "Rotate Texture";
+	T2  "Current Size";
+	T3  "Rotate Texture (CW)";
+	T4  "Angle";
+	T5  "Interpolation";
+	T6  "Nearest Neighbor";
+	T7  "Bilinear";
+	T8  "90\u00b0";
+	T9  "180\u00b0";
+	T10 "270\u00b0";
+	T11 "Free";
+	T12 "Transform UVW";
+	TC0 "Color";
+	TC1 "Diffusion";
+	TC2 "Luminance";
+	TC3 "Transparency";
+	TC4 "Reflection";
+	TC5 "Environment";
+	TC6 "Bump";
+	TC7 "Alpha";
+	TC8 "Specular";
+	TC9 "Displacement";
+	TC10 "Normal";
+}

@@ -1,0 +1,19 @@
+STRINGTABLE Owrap
+{
+	Owrap "Wrap Object";
+
+	WRAPOBJECT_XSANGLE	"Longitude Start";
+	WRAPOBJECT_XEANGLE	"Longitude End";
+	WRAPOBJECT_YSANGLE	"Latitude Start";
+	WRAPOBJECT_YEANGLE	"Latitude End";
+	WRAPOBJECT_RADIUS		"Radius";
+	WRAPOBJECT_MOVE			"Movement";
+	WRAPOBJECT_TYPE			"Wrap";
+		WRAPTYPE_SPHERICAL	 "Spherical";
+		WRAPTYPE_CYLINDRICAL "Cylindrical";
+	WRAPOBJECT_WIDTH		"Width";
+	WRAPOBJECT_HEIGHT   "Height";
+	WRAPOBJECT_ZSCALE		"Scale Z";
+	WRAPOBJECT_TENSION	"Tension";
+	WRAPOBJECT_FITTOPARENT	"Fit to Parent";
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>category_sweep</title>
+    <defs>
+        <linearGradient x1="61.0826015%" y1="37.5488235%" x2="43.9367986%" y2="55.1767394%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="36.3797391%" y1="30.3394147%" x2="68.3798699%" y2="65.4320988%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.521716565" offset="47.8283435%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="89.5748993%" y1="83.2668534%" x2="18.667403%" y2="12.475907%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="category_sweep" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M18,15 L27,20 M9,20 L18,15" id="MXN_BG_ID" stroke="#000000" stroke-width="10" stroke-linecap="round"></path>
+        <g id="MXN_0_ID" transform="translate(8.875644, 15.000000)" stroke="#606EC6" stroke-linecap="round" stroke-width="8">
+            <line x1="9.12435565" y1="0" x2="18.1243557" y2="5" id="Path"></line>
+            <line x1="0.124355653" y1="5" x2="9.12435565" y2="0" id="Path"></line>
+        </g>
+        <g id="MXN_1_ID" opacity="0.519717262" style="mix-blend-mode: overlay;" transform="translate(8.875644, 15.000000)" stroke-linecap="round" stroke-width="8">
+            <line x1="9.12435565" y1="0" x2="18.1243557" y2="5" id="Path" stroke="url(#linearGradient-1)" opacity="0.78515625"></line>
+            <line x1="0.124355653" y1="5" x2="9.12435565" y2="0" id="Path" stroke="url(#linearGradient-2)"></line>
+        </g>
+        <g id="MXN_2_ID" transform="translate(4.875644, 16.000000)">
+            <circle id="Oval" fill="#05136F" cx="4" cy="4" r="4"></circle>
+            <circle id="Oval" fill="url(#linearGradient-3)" opacity="0.404157366" cx="4" cy="4" r="4"></circle>
+        </g>
+        <circle id="Oval" stroke="#FFFFFF" opacity="0.442103795" cx="8.87564435" cy="20" r="3.5"></circle>
+        <path d="M8.48236689,16.3078156 C8.75850926,16.3078156 9.56804762,16.4170853 9.56804762,16.1409429 C9.56804762,15.8648005 8.75850926,15.8351666 8.48236689,15.8351666 C8.20622452,15.8351666 7.1975416,16.1102015 7.1975416,16.3863439 C7.1975416,16.6624862 8.20622452,16.3078156 8.48236689,16.3078156 Z" id="Oval" fill="#FFFFFF"></path>
+    </g>
+</svg>

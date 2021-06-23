@@ -1,0 +1,21 @@
+STRINGTABLE GVpoly
+{
+	GVpoly												"Polygon Operator";
+
+	GV_POLY_MODE									"Matrix Mode";
+		GV_POLY_OPERATOR_MODE_GLOBAL	"Global";
+		GV_POLY_OPERATOR_MODE_LOCAL	"Local";
+
+	GV_POLY_USE_DEFORMED		"Use Deformed Points";
+
+	GV_POLY_INPUT_OBJECT					"Object";
+	GV_POLY_INPUT_POLY					"Polygon Index";
+
+	GV_POLY_OUTPUT_NORMAL			"Polygon Normal";
+	GV_POLY_OUTPUT_CENTER			"Polygon Center";
+	GV_POLY_OUTPUT_POLY					"Polygon Count";
+	GV_POLY_OUTPUT_POINT1					"Index Point 1";
+	GV_POLY_OUTPUT_POINT2					"Index Point 2";
+	GV_POLY_OUTPUT_POINT3					"Index Point 3";
+	GV_POLY_OUTPUT_POINT4					"Index Point 4";
+}

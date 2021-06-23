@@ -1,0 +1,8 @@
+STRINGTABLE XSLAPosterizer
+{
+  XSLAPosterizer                          "Posterize Shader";
+
+  SLA_POSTERIZER_TEXTURE                  "Texture";
+  SLA_POSTERIZER_LEVELS                   "Levels";
+  SLA_POSTERIZER_FILTER                   "Filter Width";
+}

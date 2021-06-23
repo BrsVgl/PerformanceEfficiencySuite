@@ -1,0 +1,12 @@
+STRINGTABLE Ocube
+{
+	Ocube								"Cube Object";
+	PRIM_CUBE_LEN				"Size";
+	PRIM_CUBE_SEP				"Separate Surfaces";
+	PRIM_CUBE_SUBX			"Segments X";
+	PRIM_CUBE_SUBY			"Segments Y";
+	PRIM_CUBE_SUBZ			"Segments Z";
+	PRIM_CUBE_DOFILLET	"Fillet";
+	PRIM_CUBE_SUBF			"Fillet Subdivision";
+	PRIM_CUBE_FRAD			"Fillet Radius";
+}

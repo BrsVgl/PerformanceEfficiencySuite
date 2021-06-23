@@ -1,0 +1,12 @@
+STRINGTABLE GViterate
+{
+	GViterate									"Iterate Operator";
+	GV_ITERATE_INPUT_LOWER		"Iteration Start";
+	GV_ITERATE_INPUT_UPPER		"Iteration End";
+	GV_ITERATE_OPERATOR_ON		"On";
+	GV_ITERATE_LINK_INPUT		"Previous Iterator";
+
+	GV_ITERATE_OUTPUT								"Iteration";
+	GV_ITERATE_OUTPUT_COUNT							"Count";
+	GV_ITERATE_LINK_OUTPUT		"Previous Iterator";
+}

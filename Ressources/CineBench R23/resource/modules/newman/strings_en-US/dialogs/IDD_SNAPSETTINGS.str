@@ -1,0 +1,21 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_SNAPSETTINGS
+{
+  IDS_CURTIME        "Snap to Current Time";
+  IDS_DIALOG         "Snap Settings";
+  IDS_F_GRID         "Snap to Y Grid Value";
+  IDS_F_KEY          "Snap to Key Value";
+  IDS_KEY            "Snap to Key";
+  IDS_CLIP			 "Snap to Clip";
+  IDS_MARKER         "Snap to Marker";
+  IDS_PREVIEW        "Snap to Preview Range";
+  IDS_PRJIN          "Project In";
+  IDS_PRJOUT         "Project Out";
+  IDS_SNAP_STATIC    "Distance";
+  IDS_SNAP_STATIC1   "Distance Value";
+  IDS_STATIC1        "Group";
+  IDS_STATICFC       "F-Curve";
+  IDS_STATICGENERAL  "General";
+  
+}

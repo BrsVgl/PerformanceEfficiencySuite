@@ -1,0 +1,12 @@
+STRINGTABLE ToolSplineRound
+{
+  ToolSplineRound                         "Round";
+
+	MDATA_SPLINEROUND_POINTS                "Points";
+	MDATA_SPLINEROUND_TYPE                  "Type";
+		MDATA_SPLINEROUND_TYPE_LINEAR         "Linear";
+		MDATA_SPLINEROUND_TYPE_CUBIC          "Cubic";
+		MDATA_SPLINEROUND_TYPE_AKIMA          "Akima";
+		MDATA_SPLINEROUND_TYPE_BSPLINE        "B-Spline";
+		MDATA_SPLINEROUND_TYPE_BEZIER         "B\u00e9zier";
+}

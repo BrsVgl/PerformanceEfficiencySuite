@@ -1,0 +1,7 @@
+STRINGTABLE Fsphere
+{
+	Fsphere																		"Spherical Field";
+
+	SPHERICAL_SIZE														"Size";
+	SPHERICAL_CLIP														"Clip to Shape";
+}

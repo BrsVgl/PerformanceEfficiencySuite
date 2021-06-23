@@ -1,0 +1,6 @@
+STRINGTABLE GVinv
+{
+	GVinv						"Inv. Operator";
+	GV_INV_INPUT		"Input";
+	GV_INV_OUTPUT		"Output";
+}

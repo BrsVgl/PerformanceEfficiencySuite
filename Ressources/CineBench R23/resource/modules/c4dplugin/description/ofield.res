@@ -1,0 +1,26 @@
+CONTAINER Ofield
+{
+	NAME Ofield;
+	INCLUDE Obase;
+
+	GROUP ID_FIELDPROPERTIES
+	{
+		DEFAULT 1;
+
+		LONG FIELD_TYPE
+		{
+			ANIM OFF;
+			FIELD HIDE;
+			CYCLE
+			{
+			}
+		}
+
+		SEPARATOR { LINE; FIELD HIDE; }
+	}
+
+	INCLUDE Fieldremapper;
+
+	HIDEINFIELDS Obaselist;
+	HIDEINFIELDS ID_BASEOBJECT_GROUP1;
+}

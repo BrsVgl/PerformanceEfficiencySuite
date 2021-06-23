@@ -1,0 +1,8 @@
+STRINGTABLE Ofalloff_object
+{
+	Ofalloff_object										"Falloff Object";
+	
+	FALLOFF_OBJECTMODE_SIZE						"Sample Distance";
+	FALLOFF_OBJECTMODE_LINK						"Source Link";
+	FALLOFF_OBJECTMODE_SPLINEDETAIL		"Sample Detail";
+}

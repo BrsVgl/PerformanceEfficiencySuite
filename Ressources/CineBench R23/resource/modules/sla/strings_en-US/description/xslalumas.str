@@ -1,0 +1,64 @@
+STRINGTABLE XSLALumas
+{
+  XSLALumas                               "Lumas Shader";
+
+  SLA_LUMAS_DIFFUSE_ACTIVE                "Active";
+  SLA_LUMAS_DIFFUSE_COLOR                 "Color";
+  SLA_LUMAS_DIFFUSE_ALGORITHM             "Algorithm";
+    SLA_LUMAS_DIFFUSE_ALGO_INTERNAL       "Internal";
+    SLA_LUMAS_DIFFUSE_ALGO_ORENNAYAR      "Oren Nayar";
+  SLA_LUMAS_DIFFUSE_ROUGHNESS             "Roughness";
+  SLA_LUMAS_DIFFUSE_ILLUMINATION          "Illumination";
+  SLA_LUMAS_DIFFUSE_CONTRAST              "Contrast";
+
+  SLA_LUMAS_SPECULAR1_GROUP               "Specular 1";
+  SLA_LUMAS_SPECULAR1_ACTIVE              "Active";
+  SLA_LUMAS_SPECULAR1_COLOR               "Color";
+  SLA_LUMAS_SPECULAR1_INTENSITY           "Intensity";
+  SLA_LUMAS_SPECULAR1_SIZE                "Size";
+  SLA_LUMAS_SPECULAR1_CONTRAST            "Contrast";
+  SLA_LUMAS_SPECULAR1_GLARE               "Glare";
+  SLA_LUMAS_SPECULAR1_FALLOFF             "Falloff";
+
+  SLA_LUMAS_SPECULAR2_GROUP               "Specular 2";
+  SLA_LUMAS_SPECULAR2_ACTIVE              "Active";
+  SLA_LUMAS_SPECULAR2_COLOR               "Color";
+  SLA_LUMAS_SPECULAR2_INTENSITY           "Intensity";
+  SLA_LUMAS_SPECULAR2_SIZE                "Size";
+  SLA_LUMAS_SPECULAR2_CONTRAST            "Contrast";
+  SLA_LUMAS_SPECULAR2_GLARE               "Glare";
+  SLA_LUMAS_SPECULAR2_FALLOFF             "Falloff";
+
+  SLA_LUMAS_SPECULAR3_GROUP               "Specular 3";
+  SLA_LUMAS_SPECULAR3_ACTIVE              "Active";
+  SLA_LUMAS_SPECULAR3_COLOR               "Color";
+  SLA_LUMAS_SPECULAR3_INTENSITY           "Intensity";
+  SLA_LUMAS_SPECULAR3_SIZE                "Size";
+  SLA_LUMAS_SPECULAR3_CONTRAST            "Contrast";
+  SLA_LUMAS_SPECULAR3_GLARE               "Glare";
+  SLA_LUMAS_SPECULAR3_FALLOFF             "Falloff";
+
+  SLA_LUMAS_ANISO_GROUP                   "Anisotropy";
+  SLA_LUMAS_ANISO_ACTIVE                  "Active";
+  SLA_LUMAS_ANISO_PROJECTION              "Projection";
+    SLA_LUMAS_ANISO_PROJECTION_PLANAR                 "Planar";
+    SLA_LUMAS_ANISO_PROJECTION_AUTO_PLANAR            "Auto Planar";
+    SLA_LUMAS_ANISO_PROJECTION_SHRINK_WRAP            "Shrink Wrap";
+    SLA_LUMAS_ANISO_PROJECTION_RAD_AUTO_PLANAR        "Radial Auto Planar";
+    SLA_LUMAS_ANISO_PROJECTION_RAD_PAT_AUTO_PLANAR    "Radial Pattern Auto Planar";
+    SLA_LUMAS_ANISO_PROJECTION_RAD_PLANAR             "Radial Planar";
+    SLA_LUMAS_ANISO_PROJECTION_RAD_PATTERN_PLANAR     "Radial Pattern Planar";
+  SLA_LUMAS_ANISO_PROJ_SCALE              "Projection Scale";
+  SLA_LUMAS_ANISO_X_ROUGH                 "X Roughness";
+  SLA_LUMAS_ANISO_Y_ROUGH                 "Y Roughness";
+  SLA_LUMAS_ANISO_SPEC_CHANNEL_SPEC1      "Specular 1";
+  SLA_LUMAS_ANISO_SPEC_CHANNEL_SPEC2      "Specular 2";
+  SLA_LUMAS_ANISO_SPEC_CHANNEL_SPEC3      "Specular 3";
+  SLA_LUMAS_ANISO_AMPLITUDE               "Amplitude";
+  SLA_LUMAS_ANISO_SCALE                   "Scale";
+  SLA_LUMAS_ANISO_LENGTH                  "Length";
+  SLA_LUMAS_ANISO_ATTENUATION             "Attenuation";
+  SLA_LUMAS_ANISO_SCRATCH_CHANNEL_SPEC1   "Specular 1";
+  SLA_LUMAS_ANISO_SCRATCH_CHANNEL_SPEC2   "Specular 2";
+  SLA_LUMAS_ANISO_SCRATCH_CHANNEL_SPEC3   "Specular 3";
+}

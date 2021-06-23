@@ -1,0 +1,7 @@
+STRINGTABLE Orotation
+{
+	Orotation "Rotation Object";
+
+	ROTATIONOBJECT_STRENGTH		"Angle Speed";
+	ROTATIONOBJECT_SIZE				"Size";
+}

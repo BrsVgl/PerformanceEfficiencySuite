@@ -1,0 +1,5 @@
+STRINGTABLE GVcomment
+{
+	GVcomment									"Remark Operator";
+	GV_COMMENT_STRING					"Remark";
+}

@@ -1,0 +1,9 @@
+DIALOGSTRINGS IDD_EULERFILTER
+{
+	TITLE		"Euler Filter";
+	FROM		"From :";
+	TO			"To :";
+	SYNCHROT	"Synchronized Rotation";
+	MINGIMBAL	"Minimize Gimbal Lock";
+	ADJTANGENT	"Adjust Tangent";
+}

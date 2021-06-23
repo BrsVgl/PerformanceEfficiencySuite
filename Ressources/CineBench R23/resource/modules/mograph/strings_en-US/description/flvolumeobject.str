@@ -1,0 +1,11 @@
+STRINGTABLE FLvolumeobject
+{
+	FLvolumeobject															"Volume Object Field Layer";
+			
+	FIELDLAYER_VOLUME_OBJECT										"Volume Object";
+	FIELDLAYER_VOLUME_SAMPLEMODE								"Sample Mode";
+		FIELDLAYER_VOLUME_SAMPLEMODE_NEAREST			"Nearest";
+		FIELDLAYER_VOLUME_SAMPLEMODE_LINEAR				"Linear";
+		FIELDLAYER_VOLUME_SAMPLEMODE_QUADRATIC		"Quadratic";
+	FIELDLAYER_VOLUME_CLIP 											"Clip to Shape";
+}

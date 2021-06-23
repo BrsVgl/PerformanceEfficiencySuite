@@ -1,0 +1,7 @@
+STRINGTABLE GVresult
+{
+	GVresult							"Result Operator";
+
+	GV_RESULT_INPUT				"Input";
+	GV_RESULT_OUTPUT			"Output";
+}

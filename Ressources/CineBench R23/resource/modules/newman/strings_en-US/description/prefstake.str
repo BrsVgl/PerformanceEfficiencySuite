@@ -1,0 +1,26 @@
+STRINGTABLE Prefstake
+{
+	Prefstake "Takes";
+	PREF_TAKE_BASIC_GROUP                 "Basic";
+  PREF_TAKE_MAIN_AUTOTAKE               "AutoTake";
+  PREF_TAKE_MANAGER_GROUP               "Manager";
+  PREF_TAKE_MANAGER_SHOWATTRIBUTES      "Show Attributes";
+  PREF_TAKE_MANAGER_SIDEATTIBUTE        "Attributes On side";
+  PREF_TAKE_MANAGER_TREEMODE            "Tree Mode";
+  PREF_TAKE_MANAGER_TREEMODE_TAKE       "Take";
+  PREF_TAKE_MANAGER_TREEMODE_OVER       "Override";
+  PREF_TAKE_MANAGER_TREEMODE_DUAL       "Dual";
+
+  PREF_TAKE_DEFAULT_FILETR_GROUP        "Override Filter";
+  PREF_TAKE_DEFAULT_FILETR_OBJ          "Objects";
+  PREF_TAKE_DEFAULT_FILETR_TAG          "Tags";
+  PREF_TAKE_DEFAULT_FILETR_MAT          "Materials";
+  PREF_TAKE_DEFAULT_FILETR_SHD          "Shaders";
+  PREF_TAKE_DEFAULT_FILETR_LAY          "Layers";
+  PREF_TAKE_DEFAULT_FILETR_OTH          "Others";
+  PREF_TAKE_DEFAULT_FILETR_VIS          "Enabling/Visibility";
+  PREF_TAKE_DEFAULT_FILETR_TRN          "Transformation";
+  PREF_TAKE_DEFAULT_FILETR_PRM          "Parameters";
+  PREF_TAKE_DEFAULT_FILETR_CAM          "Cameras";
+  PREF_TAKE_DEFAULT_FILETR_RS           "Render Settings";
+}

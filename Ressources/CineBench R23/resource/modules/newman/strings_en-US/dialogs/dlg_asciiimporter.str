@@ -1,0 +1,25 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_ASCIIIMPORTER
+{
+	TDLG "English";
+	ASCIIIMPORTER		"ASCII Animation Import";
+	SEPERATOR		"Separator";
+	KOMMA_BUTTON		"Comma";
+	TAB_BUTTON		"Tab";		
+	SEMI_BUTTON		"Semicolon";
+	SONSTIGES_BUTTON	"Other character (one character only)";		
+	BOOL_BUTTON		"Bool";		
+	REAL_BUTTON		"Real";
+	INT_BUTTON		"Integer";
+	FRAME_BUTTON		"Frame";
+	SEQUENCE_BUTTON		"Project length";
+	FIRSTFRAME_BUTTON	"First value is frame";
+	TRACK			"Track";
+	TIME			"Time";
+	SYMBOL_ID		"Symbol";
+	STRING_BUTTON		"String";
+	HEADLINE		"Headline";
+	SCALING			"Scaling (only Real)";
+}
+

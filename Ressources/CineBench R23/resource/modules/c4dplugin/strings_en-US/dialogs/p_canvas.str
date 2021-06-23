@@ -1,0 +1,25 @@
+// C4D Dialog Strings
+
+DIALOGSTRINGS P_CANVAS
+{
+	TITLE "Canvas Size";
+	T2  "Current Size";
+	T3  "Add Borders";
+	T4  "Left";
+	T5  "Top";
+	T6  "Right";
+	T7  "Bottom";
+	T8 	"Symmetric";
+	T9 	"Transform UVW";
+	TC0 "Color";
+	TC1 "Diffusion";
+	TC2 "Luminance";
+	TC3 "Transparency";
+	TC4 "Reflection";
+	TC5 "Environment";
+	TC6 "Bump";
+	TC7 "Alpha";
+	TC8 "Specular";
+	TC9 "Displacement";
+	TC10 "Normal";
+}

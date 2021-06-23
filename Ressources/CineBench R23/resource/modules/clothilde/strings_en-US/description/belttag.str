@@ -1,0 +1,18 @@
+STRINGTABLE BeltTag
+{
+	Tbelt      "Belt Tag";
+
+	BELT_SET   "Set";
+	BELT_CLEAR "Clear";
+	BELT_SHOW  "Show";
+
+	BELT_LINK  "Belt on:";
+	BELT_F     "Influence";
+	BELT_S     "Hover";
+	BELT_F_MAP "Influence Map" "Map";
+	BELT_S_MAP "Hover Map"     "Map";
+
+	BELT_DRAW  "Draw";
+
+	BELT_TEXT  "Points:";
+}

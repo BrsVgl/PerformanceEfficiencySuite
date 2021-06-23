@@ -1,0 +1,8 @@
+STRINGTABLE Prefspaths
+{
+	Prefspaths										"Paths";
+	PREFS_TEXPATH_GROUP						"File Assets";
+	PREF_TEXPATHS									"Paths";
+	PREFS_DATABASE_PATHS_GROUP 		"Databases";
+	PREF_DATABASE_PATHS						"Paths";
+}

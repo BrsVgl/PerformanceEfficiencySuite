@@ -1,0 +1,10 @@
+STRINGTABLE Tretarget
+{
+	Tretarget "Retarget Expression Tag";
+
+	RT_SOURCE "Source";
+	RT_DEST   "Target";
+	RT_REF    "Neutral";
+	RT_USE_HIERARCHY "Use Hierarchy instead of names";
+	RT_LEGACY "Legacy";
+}

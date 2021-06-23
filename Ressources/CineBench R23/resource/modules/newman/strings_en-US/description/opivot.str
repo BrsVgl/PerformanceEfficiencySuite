@@ -1,0 +1,6 @@
+STRINGTABLE Opivot
+{
+	Opivot "Pivot";
+
+	OPIVOT_RAD	"Radius";
+}

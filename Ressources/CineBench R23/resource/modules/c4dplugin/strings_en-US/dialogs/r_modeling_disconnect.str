@@ -1,0 +1,5 @@
+DIALOGSTRINGS R_MODELING_DISCONNECT
+{
+  T1 "Disconnect";
+  T2 "Preserve Groups";
+}

@@ -1,0 +1,16 @@
+STRINGTABLE Osplinetext
+{
+	Osplinetext "Text Object";
+
+	PRIM_TEXT_TEXT						"Text";
+	PRIM_TEXT_ALIGN						"Align";
+		PRIM_TEXT_ALIGN_LEFT			"Left";
+		PRIM_TEXT_ALIGN_MIDDLE		"Middle";
+		PRIM_TEXT_ALIGN_RIGHT			"Right";
+	PRIM_TEXT_HSPACING				"Horizontal Spacing";
+	PRIM_TEXT_VSPACING				"Vertical Spacing";
+	PRIM_TEXT_HEIGHT					"Height";
+	PRIM_TEXT_SEPARATE				"Separate Letters";
+	PRIM_TEXT_FONT						"Font";
+	PRIM_TEXT_KERNING					"Kerning";
+}

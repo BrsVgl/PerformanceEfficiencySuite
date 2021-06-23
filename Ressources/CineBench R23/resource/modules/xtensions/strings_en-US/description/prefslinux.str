@@ -1,0 +1,6 @@
+STRINGTABLE Prefslinux
+{
+	Prefslinux "Linux";
+	PREFS_LINUX_BROWSER		"Browser Path";
+	PREFS_LINUX_IMAGEEDIT	"Image Edit Tool";
+}

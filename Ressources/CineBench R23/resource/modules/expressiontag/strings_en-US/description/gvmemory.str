@@ -1,0 +1,8 @@
+STRINGTABLE GVmemory
+{
+	GVmemory									"Memory Operator";
+	GV_MEMORY_HISTORY_DEPTH		"History Depth";
+	GV_MEMORY_HISTORY_SWITCH	"History Level";
+	GV_MEMORY_INPUT					"Input";
+	GV_MEMORY_OUTPUT					"Output";
+}

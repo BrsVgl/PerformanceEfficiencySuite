@@ -1,0 +1,10 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_NEW_PRESET_DIALOG
+{
+  IDS_NEW_PRESET_AUTHOR  "Author";
+  IDS_NEW_PRESET_DIALOG  "New Preset";
+  IDS_NEW_PRESET_INFO    "Information";
+  IDS_NEW_PRESET_NAME    "Name";
+  IDS_STATIC             "Group";
+}

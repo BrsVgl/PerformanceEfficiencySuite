@@ -1,0 +1,38 @@
+STRINGTABLE XSLASpline
+{
+  XSLASpline                            "Spline Shader";
+
+  ID_SLA_SPLINE_SPLINE_GROUP            "";
+
+  SLA_SPLINE_OBJECT                     "Spline";
+  SLA_SPLINE_BACKGROUND_COLOR           "Background Texture";
+  SLA_SPLINE_LINE_COLOR                 "Line Texture";
+  SLA_SPLINE_FILLET_COLOR               "Fill Texture";
+
+  SLA_SPLINE_X_OFFSET                   "X Offset";
+  SLA_SPLINE_Y_OFFSET                   "Y Offset";
+  SLA_SPLINE_X_SCALE                    "X Scale";
+  SLA_SPLINE_Y_SCALE                    "Y Scale";
+  SLA_SPLINE_USE_PLANE                  "Plane";
+    SLA_SPLINE_USE_PLANE_XZ             "XZ";
+    SLA_SPLINE_USE_PLANE_XY             "XY";
+    SLA_SPLINE_USE_PLANE_YZ             "YZ";
+  SLA_SPLINE_SINGLE_PIXEL_WIDTH         "Single Pixel";
+  SLA_SPLINE_LINE_WIDTH                 "Line Width";
+  SLA_SPLINE_SMOOTH_WIDTH               "Smooth Width";
+  SLA_SPLINE_HAS_CAPS                   "Caps";
+  SLA_SPLINE_FILL                       "Fill";
+  SLA_SPLINE_FILL_COLOR                 "Use Fill Color";
+  SLA_SPLINE_BUMP_WIDTH                 "Bump Width";
+
+  SLA_SPLINE_TEXT                       "Text Spline";
+  SLA_SPLINE_TEXT_TEXT                  "Text";
+  SLA_SPLINE_TEXT_FONT                  "Font";
+  SLA_SPLINE_TEXT_ALIGN                 "Align";
+    SLA_SPLINE_TEXT_ALIGN_LEFT          "Left";
+    SLA_SPLINE_TEXT_ALIGN_MIDDLE        "Center";
+    SLA_SPLINE_TEXT_ALIGN_RIGHT         "Right";
+  SLA_SPLINE_TEXT_HEIGHT                "Height";
+  SLA_SPLINE_TEXT_HSPACING              "H Spacing";
+  SLA_SPLINE_TEXT_VSPACING              "V Spacing";
+}

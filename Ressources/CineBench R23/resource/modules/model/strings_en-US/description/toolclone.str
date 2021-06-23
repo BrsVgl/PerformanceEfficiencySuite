@@ -1,0 +1,18 @@
+STRINGTABLE ToolClone
+{
+  ToolClone                               "Clone";
+
+	MDATA_CLONE_CNT													"Clones";
+	MDATA_CLONE_OFFSET											"Offset";
+	MDATA_CLONE_HOLES												"Holes";
+	MDATA_CLONE_SCALE												"Scale";
+	MDATA_CLONE_AXIS												"Axis";
+		MDATA_CLONE_AXIS_X										"X";
+		MDATA_CLONE_AXIS_Y										"Y";
+		MDATA_CLONE_AXIS_Z										"Z";
+	MDATA_CLONE_ROTATION										"Rotation";
+	MDATA_CLONE_LOCALMOVE										"Move Var.";
+	MDATA_CLONE_LOCALSCALE									"Scale Var.";
+	MDATA_CLONE_LOCALROTATE									"Rot. Var.";
+	MDATA_CLONE_KEEPFORM										"Uniform Scale";
+}

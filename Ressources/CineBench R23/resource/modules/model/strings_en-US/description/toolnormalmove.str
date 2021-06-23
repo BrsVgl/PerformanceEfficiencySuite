@@ -1,0 +1,6 @@
+STRINGTABLE ToolNormalMove
+{
+  ToolNormalMove           "Normal Move";
+
+	MDATA_NORMALMOVE_VALUE	 "Move";
+}

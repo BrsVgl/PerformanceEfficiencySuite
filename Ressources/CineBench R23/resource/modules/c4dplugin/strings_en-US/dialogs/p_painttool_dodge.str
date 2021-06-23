@@ -1,0 +1,11 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS P_PAINTTOOL_DODGE
+{
+	TITLE "Dodge Tool";
+
+	TSHADOW	"Shadows";
+	TMID		"Midtones";
+	THIGH		"Highlights";
+	TEXP		"Max. Exposure";
+}

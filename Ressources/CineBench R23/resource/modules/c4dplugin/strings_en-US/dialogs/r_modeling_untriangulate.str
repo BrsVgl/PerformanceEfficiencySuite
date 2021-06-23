@@ -1,0 +1,10 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS R_MODELING_UNTRIANGULATE
+{
+  IDS_STATIC   "Angle";
+  IDS_STATIC1  "Group";
+  T1           "Untriangulate";
+  T2           "Evaluate Angle";
+  T3           "Create N-gons";
+}

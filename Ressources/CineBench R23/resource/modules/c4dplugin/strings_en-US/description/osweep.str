@@ -1,0 +1,25 @@
+STRINGTABLE Osweep
+{
+	Osweep "Sweep Object";
+
+	SWEEPOBJECT_ISOPARM					"Isoparm Subdivision";
+	SWEEPOBJECT_GROWTH					"End Growth";
+	SWEEPOBJECT_SCALE						"End Scale";
+	SWEEPOBJECT_ROTATE					"End Rotation";
+	SWEEPOBJECT_PARALLEL				"Parallel Movement";
+	SWEEPOBJECT_RAILDIRECTION		"Use Rail Direction";
+	SWEEPOBJECT_RAILSCALE				"Use Rail Scale";
+	SWEEPOBJECT_CONSTANT				"Constant Cross Section";
+	SWEEPOBJECT_BANKING					"Banking";
+	SWEEPOBJECT_FLIPNORMALS			"Flip Normals";
+	SWEEPOBJECT_KEEPSEGMENTS		"Keep Segments";
+	SWEEPOBJECT_BIRAIL					"2-Rail";
+	SWEEPOBJECT_QUADS						"Untriangulate";
+	SWEEPOBJECT_STARTGROWTH			"Start Growth";
+	SWEEPOBJECT_GROWUV					"Stick UVs";
+	SWEEPOBJECT_SPLINESCALE			"Scale";
+	SWEEPOBJECT_SPLINEROTATION	"Rotation";
+	SWEEPOBJECT_PROFILES				"Details";
+	SWEEPOBJECT_ROTATIONFROM		"Rotation from" "From";
+	SWEEPOBJECT_ROTATIONTO			"Rotation to" "To";
+}

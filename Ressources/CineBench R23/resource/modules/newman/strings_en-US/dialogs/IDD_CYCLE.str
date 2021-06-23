@@ -1,0 +1,8 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_CYCLE
+{
+  IDS_DIALOG   "Cycle";
+  IDS_TEXT1  "Copies";
+  IDS_TEXT2  "Offset";
+}

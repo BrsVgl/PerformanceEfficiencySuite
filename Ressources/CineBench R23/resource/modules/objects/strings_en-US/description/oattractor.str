@@ -1,0 +1,8 @@
+STRINGTABLE Oattractor
+{
+	Oattractor								 "Attractor Object";
+
+	ATTRACTOROBJECT_SIZE			 "Size";
+	ATTRACTOROBJECT_STRENGTH	 "Strength";
+	ATTRACTOROBJECT_SPEEDLIMIT "Speed Limit";
+}

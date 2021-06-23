@@ -1,0 +1,8 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS P_PAINTTOOL_SHARPEN
+{
+	TITLE					"Sharpen Texture Tool";
+	TMERGELAYERS	"All visible layers";
+	TSHARPEN			"Sharpen Strength";
+}

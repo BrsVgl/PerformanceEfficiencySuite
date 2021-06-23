@@ -1,0 +1,10 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS P_PAINTTOOL_CLONE
+{
+	TITLE					"Clone Texture Tool";
+	TMERGELAYERS	"All visible layers";
+	TRELATIVE			"Relative";
+	TSCALE				"Scale";
+	TROTATION			"Rotation";
+}

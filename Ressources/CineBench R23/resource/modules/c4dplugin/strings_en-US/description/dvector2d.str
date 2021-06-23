@@ -1,0 +1,7 @@
+STRINGTABLE Dvector2d
+{
+	Dvector2D			"Vector 2D Datatype";
+
+	VECTOR2D_X		"X";
+	VECTOR2D_Y		"Y";
+}

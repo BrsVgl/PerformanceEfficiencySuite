@@ -1,0 +1,9 @@
+CONTAINER Fbase
+{
+	NAME Fbase;
+
+	GROUP ID_FILTERPROPERTIES
+	{
+		DEFAULT	1;
+	}
+}

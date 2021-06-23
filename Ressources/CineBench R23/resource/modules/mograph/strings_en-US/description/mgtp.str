@@ -1,0 +1,12 @@
+STRINGTABLE MGtp
+{
+	MGtp "Thinking Particles Clone";
+
+	MG_TP_USESUBGROUPS "Include Sub Groups";
+	MG_TP_STRETCH "Velocity Stretch";
+	MG_TP_SCALE "Particle Scale";
+
+	MG_TP_TYPE "Behavior";
+	MG_TP_TYPE_STANDARD "Standard TP";
+	MG_TP_TYPE_STRETCH "Stretch TP";
+}

@@ -1,0 +1,4 @@
+STRINGTABLE GVdummy
+{
+	GVdummy								"Dummy Operator";
+}

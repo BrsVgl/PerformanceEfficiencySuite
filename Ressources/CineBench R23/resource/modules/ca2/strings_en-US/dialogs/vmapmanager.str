@@ -1,0 +1,27 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS vmapmanager
+{
+  IDS_BUTTON2              "Transfer Maps";
+  IDS_DIALOG               "Vertexmap Manager";
+  IDS_FLIPDIRECTION_OFF    "Off";
+  IDS_FLIPDIRECTION_XY     "Flip Z";
+  IDS_FLIPDIRECTION_XZ     "Flip Y";
+  IDS_FLIPDIRECTION_YZ     "Flip X";
+  IDS_STATIC1              "Source";
+  IDS_STATIC10             "Space";
+  IDS_STATIC2              "Target";
+  IDS_STATIC3              "Transfer";
+  IDS_STATIC4              "Operations";
+  IDS_STATIC5              "Evaluation Method";
+  IDS_STATIC6              "Group";
+  IDS_STATIC8              "Group";
+  IDS_STATIC9              "Transform";
+  IDS_TRANSMODENORM        "Normals Projection";
+  IDS_TRANSMODENP          "Nearest Point";
+  IDS_TRANSMODENS          "Nearest Surface";
+  IDS_TRANSMODESOURCEAXIS  "Source Axis Projection";
+  IDS_TRANSMODETARGETAXIS  "Target Axis Projection";
+  IDS_VMSPACE_GLOBAL       "Global";
+  IDS_VMSPACE_LOCAL        "Local";
+}

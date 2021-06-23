@@ -1,0 +1,29 @@
+STRINGTABLE XSLAProximal
+{
+  XSLAProximal                              "Proximal Shader";
+
+  SLA_PROXIMAL_OBJECTS                      "Objects";
+  SLA_PROXIMAL_EXCLUDE_PARENT               "Exclude Parent";
+  SLA_PROXIMAL_INCLUDE_SUBOBJECTS           "Include Subobjects";
+  SLA_PROXIMAL_USE_VERTICES                 "Use Vertices";
+  SLA_PROXIMAL_USE_EDGES                    "Use Edges";
+  SLA_PROXIMAL_POLYGON_RADIUS               "Polygon Radius";
+  SLA_PROXIMAL_FUNCTION                     "Function";
+    SLA_PROXIMAL_FUNCTION_LINEAR            "Linear";
+    SLA_PROXIMAL_FUNCTION_SQUARE            "Square";
+    SLA_PROXIMAL_FUNCTION_CUBIC             "Cubic";
+    SLA_PROXIMAL_FUNCTION_STEP              "Step";
+    SLA_PROXIMAL_FUNCTION_INVERSE           "Inverse";
+    SLA_PROXIMAL_FUNCTION_INVERSE_SQUARE    "Inverse Square";
+    SLA_PROXIMAL_FUNCTION_INVERSE_CUBIC     "Inverse Cubic";
+    SLA_PROXIMAL_FUNCTION_SMOOTH            "Smooth";
+  SLA_PROXIMAL_BLEND_MODE                   "Blend Mode";
+    SLA_PROXIMAL_BLEND_MODE_LIGHTEN         "Lighten";
+    SLA_PROXIMAL_BLEND_MODE_SCREEN          "Screen";
+    SLA_PROXIMAL_BLEND_MODE_DIFFERENCE      "Difference";
+    SLA_PROXIMAL_BLEND_MODE_EXCLUSION       "Exclusion";
+    SLA_PROXIMAL_BLEND_MODE_ADD             "Add";
+  SLA_PROXIMAL_START_DISTANCE               "Start Distance";
+  SLA_PROXIMAL_END_DISTANCE                 "End Distance";
+  SLA_PROXIMAL_INTENSITY                    "Intensity";
+}

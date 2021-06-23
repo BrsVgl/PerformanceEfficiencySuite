@@ -1,0 +1,12 @@
+STRINGTABLE Dxrefmanager
+{
+	Dxrefmanager "Reference Manager";
+	
+	ID_CA_XREFMANAGER_GROUP_REFS "References";
+	ID_CA_XREFMANAGER_GROUP_FILE "File";
+	
+	ID_CA_XREFMANAGER_REF_LIST "";
+	ID_CA_XREFMANAGER_NAME "Name : ";
+	ID_CA_XREFMANAGER_RESOLVED_NAME "Resolved : ";
+	ID_CA_XREFMANAGER_NAMESPACE "Namespace : ";
+}

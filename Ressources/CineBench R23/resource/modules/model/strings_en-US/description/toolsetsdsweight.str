@@ -1,0 +1,15 @@
+STRINGTABLE ToolSetSDSWeight 
+{
+  ToolSetSDSWeight								"Weight Subdivision Surface";
+
+	MDATA_SDSWEIGHT_MODE										"Mode";
+		MDATA_SDSWEIGHT_MODE_SET							"Set";
+		MDATA_SDSWEIGHT_MODE_ADD							"Add";
+		MDATA_SDSWEIGHT_MODE_SUB							"Sub";
+	MDATA_SDSWEIGHT_STRENGTH								"Strength";
+	MDATA_SDSWEIGHT_INTERACTIVEMIN					"Interactive Minimum";
+	MDATA_SDSWEIGHT_INTERACTIVEMAX					"Interactive Maximum";
+	MDATA_SDSWEIGTH_SETSTRENGTH 						"Set";
+
+	MDATA_SDSWEIGHT													"Subdivision Surface Weights" "Subdivision Surface";
+}

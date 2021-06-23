@@ -1,0 +1,10 @@
+STRINGTABLE Oexplosion
+{
+	Oexplosion "Explosion Object";
+
+	EXPLOSIONOBJECT_STRENGTH "Strength";
+	EXPLOSIONOBJECT_PSPEED   "Speed";
+	EXPLOSIONOBJECT_ASPEED	 "Angle Speed";
+	EXPLOSIONOBJECT_ENDSIZE  "End Size";
+	EXPLOSIONOBJECT_RANDOM   "Randomness";
+}

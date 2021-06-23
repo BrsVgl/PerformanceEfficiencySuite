@@ -1,0 +1,5 @@
+STRINGTABLE Tuserdata
+{
+	Tuserdata 					"User Data Tag";
+	USERDATA_TAG_NOTE		"Note";
+}

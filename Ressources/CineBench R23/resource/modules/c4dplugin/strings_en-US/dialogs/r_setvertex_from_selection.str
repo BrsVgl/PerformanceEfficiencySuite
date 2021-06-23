@@ -1,0 +1,11 @@
+DIALOGSTRINGS R_SETVERTEX_FROM_SELECTION
+{
+	T1 "Set Vertex Weight";
+  T2 "Mode";
+  T3 "Set";
+  T4 "Add";
+  T5 "Subtract";
+	
+	TVAL "Value";
+	TFEATHER "Feather";
+}

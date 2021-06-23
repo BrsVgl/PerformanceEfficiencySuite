@@ -1,0 +1,38 @@
+STRINGTABLE Oparticle
+{
+	Oparticle "Particle Emitter Object";
+
+	ID_PARTICLE											"Particle";
+	ID_EMITTER  										"Emitter";
+	ID_INCLUDE											"Include";
+
+	PARTICLEOBJECT_BIRTHEDITOR			"Birthrate Editor";
+	PARTICLEOBJECT_BIRTHRAYTRACER		"Birthrate Renderer";
+	PARTICLEOBJECT_SPEED						"Speed";
+	PARTICLEOBJECT_SPEEDVAR					"Speed Variation" "Variation";
+	PARTICLEOBJECT_LIFETIME					"Lifetime";
+	PARTICLEOBJECT_LIFETIMEVAR			"Lifetime Variation" "Variation";
+	PARTICLEOBJECT_SIZE							"End Scale";
+	PARTICLEOBJECT_SIZEVAR					"Scale Variation" "Variation";
+	PARTICLEOBJECT_ROTATION					"Rotation";
+	PARTICLEOBJECT_ROTATIONVAR			"Rotational Variation" "Variation";
+	PARTICLEOBJECT_TANGENTIAL				"Tangential";
+	PARTICLEOBJECT_TYPE							"Emitter Type";
+		PARTICLEOBJECT_TYPE_PYRAMID 		"Pyramid";
+		PARTICLEOBJECT_TYPE_CONE    		"Cone";
+	PARTICLEOBJECT_SIZEX						"X-Size";
+	PARTICLEOBJECT_SIZEY						"Y-Size";
+	PARTICLEOBJECT_ANGLEH						"Angle Horizontal";
+	PARTICLEOBJECT_ANGLEV						"Angle Vertical";
+	PARTICLEOBJECT_START            "Start Emission";
+	PARTICLEOBJECT_STOP             "Stop Emission";
+	PARTICLEOBJECT_SEED             "Seed";
+	PARTICLEOBJECT_VISIBILITY       "Visibility";
+	PARTICLEOBJECT_SHOWOBJECTS			"Show Objects";
+	PARTICLEOBJECT_MODE					"Mode";
+	PARTICLEOBJECT_INCLUDE				"Modifiers";
+	PARTICLEOBJECT_MODE_INCLUDE			"Include";
+	PARTICLEOBJECT_MODE_EXCLUDE			"Exclude";
+	PARTICLEOBJECT_RENDERINSTANCES  "Render Instance";
+	PARTICLEOBJECT_RELATIVE_SPEED		"Relative Speed";
+}

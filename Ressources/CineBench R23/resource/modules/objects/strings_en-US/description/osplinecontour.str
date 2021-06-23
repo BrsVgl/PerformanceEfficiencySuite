@@ -1,0 +1,8 @@
+STRINGTABLE Osplinecontour
+{
+	Osplinecontour "Vectorizer";
+
+	PRIM_CONTOUR_TEXTURE			"Texture";
+	PRIM_CONTOUR_WIDTH				"Width";
+	PRIM_CONTOUR_TOLERANCE		"Tolerance";
+}

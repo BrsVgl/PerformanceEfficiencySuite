@@ -1,0 +1,8 @@
+STRINGTABLE FLSolid
+{
+	FLSolid																	"Solid Field Layer";
+
+	FIELDLAYER_SOLID_VALUE									"Value";
+	FIELDLAYER_SOLID_COLOR									"Color";
+	FIELDLAYER_SOLID_DIRECTION							"Direction";
+}

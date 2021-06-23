@@ -1,0 +1,25 @@
+DIALOGSTRINGS R_LINSENEDITOR
+{
+  T1 "Lens Editor";
+  T2 "Element";
+  T3 "Add";
+  T4 "Rem.";
+  T5 "Lens Type";
+  T6 "Position";
+  T7 "Size";
+  T8 "Color";
+  IDS_LENSTYP0	"Ring";
+  IDS_LENSTYP1	"Disc (1)";
+  IDS_LENSTYP2	"Disc (2)";
+  IDS_LENSTYP3	"Disc (3)";
+  IDS_LENSTYP4	"Point of light";
+  IDS_LENSTYP5	"Triangle (1)";
+  IDS_LENSTYP6	"Triangle (2)";
+  IDS_LENSTYP7	"Hexagon (1)";
+  IDS_LENSTYP8	"Hexagon (2)";
+  IDS_LENSTYP9	"Octagon (1)";
+  IDS_LENSTYP10	"Octagon (2)";
+  IDS_LENSTYP11	"Rainbow ring";
+  IDS_LENSTYP12	"Horizontal streak";
+  IDS_LENSTYP13	"Vertical streak";
+}

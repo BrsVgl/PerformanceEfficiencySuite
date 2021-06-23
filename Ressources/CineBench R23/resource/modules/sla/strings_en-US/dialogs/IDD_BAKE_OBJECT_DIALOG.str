@@ -1,0 +1,37 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_BAKE_OBJECT_DIALOG
+{
+  IDS_BAKE                 "Bake";
+  IDS_BAKE_OBJ_AO          "Ambient Occlusion";
+  IDS_BAKE_OBJ_ILLUMINATE  "Illuminate";
+  IDS_BAKE_OBJ_NORMALS     "Normals";
+  IDS_BAKE_OBJ_OPTIONS     "Options...";
+  IDS_BAKE_OBJ_REPLACE     "Replace Objects";
+  IDS_CANCEL               "Cancel";
+  IDS_DIALOG               "Bake Object";
+  IDS_KEEP_UV              "Keep UVs";
+  IDS_SINGLE_TEXTURE       "Single Texture";
+  IDS_STATIC1              "Group";
+  IDS_STATIC10             "Group";
+  IDS_STATIC11             "Format";
+  IDS_STATIC12             "Group";
+  IDS_STATIC13             "Static text";
+  IDS_STATIC14             "Group";
+  IDS_STATIC15             "Group";
+  IDS_STATIC16             "Color Depth";
+  IDS_STATIC17             "Path Name";
+  IDS_STATIC18             "Group";
+  IDS_STATIC19             "Group";
+  IDS_STATIC2              "Group";
+  IDS_STATIC20             "Supersampling";
+  IDS_STATIC21             "Pixel Border";
+  IDS_STATIC22             "Color Profile";
+  IDS_STATIC3              "Group";
+  IDS_STATIC4              "Group";
+  IDS_STATIC5              "Group";
+  IDS_STATIC6              "Group";
+  IDS_STATIC7              "Width";
+  IDS_STATIC8              "Height";
+  IDS_STATIC9              "Group";
+}

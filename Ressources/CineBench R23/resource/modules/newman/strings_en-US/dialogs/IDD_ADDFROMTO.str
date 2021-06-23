@@ -1,0 +1,8 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_ADDFROMTO
+{
+  IDS_DIALOG   "Add Frames";
+  IDS_TEXT1  "Add from";
+  IDS_TEXT2  "Add Count";
+}

@@ -1,0 +1,129 @@
+STRINGTABLE XSLABanji
+{
+  XSLABanji                               "Banji Shader";
+
+  ID_BANJI_DIFFUSE                        "Diffuse";
+  ID_BANJI_SPECULAR1                      "Specular 1";
+  ID_BANJI_SPECULAR2                      "Specular 2";
+  ID_BANJI_SPECULAR3                      "Specular 3";
+  ID_BANJI_TRANSPARENCY                   "Transparency";                
+  ID_BANJI_REFLECTION                     "Reflection";
+  ID_BANJI_ENVIRONMENT                    "Environment";
+  ID_BANJI_AMBIENT                        "Ambient";
+  ID_BANJI_ROUGHNESS                      "Roughness";
+  ID_BANJI_ANISOTROPY                    "Anisotropy";
+  ID_BANJI_ESOTERICA                      "Esoterica";
+
+  SLA_BANJI_DIFFUSE                       "Diffuse";
+  SLA_BANJI_SPECULAR1                     "Specular 1";
+  SLA_BANJI_SPECULAR2                     "Specular 2";
+  SLA_BANJI_SPECULAR3                     "Specular 3";
+  SLA_BANJI_TRANSPARENCY                  "Transparency";
+  SLA_BANJI_REFLECTION                    "Reflection";
+  SLA_BANJI_ENVIRONMENT                   "Environment";
+  SLA_BANJI_AMBIENT                       "Ambient";
+  SLA_BANJI_ROUGHNESS                     "Roughness";
+  SLA_BANJI_ANISOTROPY                   "Anisotropy";
+  SLA_BANJI_ESOTERICA                     "Esoterica";
+
+  SLA_BANJI_DIFFUSE_SURF_COLOR            "Surface Color";
+  SLA_BANJI_DIFFUSE_ALGORITHM             "Algorithm";
+    SLA_BANJI_DIFFUSE_ALGORITHM_INTERNAL    "Internal";
+    SLA_BANJI_DIFFUSE_ALGORITHM_OREN_NAYAR  "Oren Nayar";
+  SLA_BANJI_DIFFUSE_ROUGHNESS             "Roughness";
+  SLA_BANJI_DIFFUSE_SURF_ILLUMINATION     "Surface Illumination";
+  SLA_BANJI_DIFFUSE_CONTRAST              "Contrast";
+  SLA_BANJI_DIFFUSE_VOL_COLOR             "Volume Color";
+  SLA_BANJI_DIFFUSE_VOL_ILLUMINATION      "Volume Illumination";
+  SLA_BANJI_DIFFUSE_SHADOW_OPACITY        "Shadow Opacity";
+
+  SLA_BANJI_SPEC1_COLOR                   "Color";
+  SLA_BANJI_SPEC1_INTENSITY               "Intensity";
+  SLA_BANJI_SPEC1_SIZE                    "Size";
+  SLA_BANJI_SPEC1_CONTRAST                "Contrast";
+  SLA_BANJI_SPEC1_GLARE                   "Glare";
+  SLA_BANJI_SPEC1_FALLOFF                 "Falloff";
+
+  SLA_BANJI_SPEC2_COLOR                   "Color";
+  SLA_BANJI_SPEC2_INTENSITY               "Intensity";
+  SLA_BANJI_SPEC2_SIZE                    "Size";
+  SLA_BANJI_SPEC2_CONTRAST                "Contrast";
+  SLA_BANJI_SPEC2_GLARE                   "Glare";
+  SLA_BANJI_SPEC2_FALLOFF                 "Falloff";
+
+  SLA_BANJI_SPEC3_COLOR                   "Color";
+  SLA_BANJI_SPEC3_INTENSITY               "Intensity";
+  SLA_BANJI_SPEC3_SIZE                    "Size";
+  SLA_BANJI_SPEC3_CONTRAST                "Contrast";
+  SLA_BANJI_SPEC3_GLARE                   "Glare";
+  SLA_BANJI_SPEC3_FALLOFF                 "Falloff";
+
+  SLA_BANJI_TRANS_FRONT_OPACITY           "Front Opacity";
+  SLA_BANJI_TRANS_BACK_OPACITY            "Back Opacity";
+  SLA_BANJI_TRANS_EDGE_OPACITY            "Edge Opacity";
+  SLA_BANJI_TRANS_REFRACTION_INDEX        "Refraction Index";
+  SLA_BANJI_TRANS_INTERNAL_REFLECTION     "Internal Reflection";
+  SLA_BANJI_TRANS_SOLID_OBJECT            "Solid Object";
+
+  SLA_BANJI_REFLECTION_INTENSITY          "Intensity";
+  SLA_BANJI_REFLECTION_EDGE_INTENSITY     "Edge Intensity";
+  SLA_BANJI_REFLECTION_FALLOFF            "Falloff";
+  SLA_BANJI_REFLECTION_DEPTH_ATTENUATION  "Depth Attenuation";
+  SLA_BANJI_REFLECTION_REFLECTION_COLOR   "Reflection Color";
+  SLA_BANJI_REFLECTION_EDGE_COLOR         "Reflection Edge Color";
+
+  SLA_BANJI_ENVIRONMENT_IMAGE             "Image";
+  SLA_BANJI_ENVIRONMENT_INTENSITY         "Intensity";
+  SLA_BANJI_ENVIRONMENT_GLARE             "Glare";
+  SLA_BANJI_ENVIRONMENT_FALLOFF           "Falloff";
+  SLA_BANJI_ENVIRONMENT_UTILIZE_ANISO_SCRATCHES "Utilize Anisotropic Scratches";
+  SLA_BANJI_ENVIRONMENT_BLUR              "Blur";
+  SLA_BANJI_ENVIRONMENT_SAMPLES           "Samples";
+  SLA_BANJI_ENVIRONMENT_JITTER            "Jitter";
+  SLA_BANJI_ENVIRONMENT_ENVIRONMENT_COLOR "Environment Color";
+  SLA_BANJI_ENVIRONMENT_EDGE_COLOR        "Edge Color";
+
+  SLA_BANJI_AMBIENT_COLOR                 "Color";
+  SLA_BANJI_AMBIENT_INTENSITY             "Intensity";
+  SLA_BANJI_AMBIENT_EDGE_INTENSITY        "Edge Intensity";
+  SLA_BANJI_AMBIENT_FALLOFF               "Falloff";
+
+	SLA_BANJI_ROUGHNESS_SEED								"Seed";
+  SLA_BANJI_ROUGHNESS_NOISE               "Function";
+  SLA_BANJI_ROUGHNESS_AMPLITUDE           "Amplitude";
+  SLA_BANJI_ROUGHNESS_OCTAVES             "Octaves";
+  SLA_BANJI_ROUGHNESS_SCALE               "Scale";
+  SLA_BANJI_ROUGHNESS_SPEED               "Speed";
+  SLA_BANJI_ROUGHNESS_ATTENUATION         "Attenuation";
+  SLA_BANJI_ROUGHNESS_DELTA               "Delta";
+  SLA_BANJI_ROUGHNESS_HARD_BUMP           "Hard Bump";
+  SLA_BANJI_ROUGHNESS_ABSOLUTE            "Absolute";
+  SLA_BANJI_ROUGHNESS_LOW_CLIP            "Low Clip";
+  SLA_BANJI_ROUGHNESS_HIGH_CLIP           "High Clip";
+  SLA_BANJI_ROUGHNESS_GRIT_COLOR          "Roughness Color";
+  SLA_BANJI_ROUGHNESS_GRIT_INTENSITY      "Roughness Intensity";
+  SLA_BANJI_ROUGHNESS_GRIT_LOW_CLIP       "Roughness Low Clip";
+  SLA_BANJI_ROUGHNESS_GRIT_HIGH_CLIP      "Roughness High Clip";
+
+  SLA_BANJI_ANISOTROPY_PROJECTION        "Projection";
+    SLA_BANJI_ANISOTROPY_PROJECTION_PLANAR               "Planar";
+    SLA_BANJI_ANISOTROPY_PROJECTION_AUTO_PLANAR          "Auto Planar";
+    SLA_BANJI_ANISOTROPY_PROJECTION_SHRINK_WRAP          "Shrink Wrap";
+    SLA_BANJI_ANISOTROPY_PROJECTION_RADIAL_AUTO_PLANAR   "Radial Auto Planar";
+    SLA_BANJI_ANISOTROPY_PROJECTION_RAD_PATTERN_AUTO_PLANAR  "Radial Pattern Auto Planar";
+    SLA_BANJI_ANISOTROPY_PROJECTION_RADIAL_PLANAR        "Radial Planar";
+    SLA_BANJI_ANISOTROPY_PROJECTION_RAD_PATTERN_PLANAR   "Radial Pattern Planar";
+
+  SLA_BANJI_ANISOTROPY_PROJ_SCALE        "Projection Scale";
+  SLA_BANJI_ANISOTROPY_X_ROUGH           "Roughness X";
+  SLA_BANJI_ANISOTROPY_Y_ROUGH           "Roughness Y";
+  SLA_BANJI_ANISOTROPY_AMPL              "Amplitude";
+  SLA_BANJI_ANISOTROPY_SCALE             "Scale";
+  SLA_BANJI_ANISOTROPY_LENGTH            "Length";
+  SLA_BANJI_ANISOTROPY_ATT               "Attenuation";
+  SLA_BANJI_ANISOTROPY_CHANNEL1          "Specular 1";
+  SLA_BANJI_ANISOTROPY_CHANNEL2          "Specular 2";
+  SLA_BANJI_ANISOTROPY_CHANNEL3          "Specular 3";
+    
+  SLA_BANJI_ESOTERICA_OPACITY             "Global Shadow Opacity";
+}

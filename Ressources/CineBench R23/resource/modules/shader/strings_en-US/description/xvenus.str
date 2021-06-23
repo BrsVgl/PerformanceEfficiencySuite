@@ -1,0 +1,8 @@
+STRINGTABLE Xvenus
+{
+	Xvenus "Venus Shader";
+
+	VENUSSHADER_COLOR			"Color";
+	VENUSSHADER_SCALE			"Frequency";
+	VENUSSHADER_ROTATION	"Rotation";
+}

@@ -1,0 +1,9 @@
+DIALOGSTRINGS DLG_TRIGGER
+{
+	TITLE "Automatic Redraw";
+
+	TREDRAW "Redraw";
+	TTIME   "Every";
+	TUNIT   "Milliseconds";
+
+}

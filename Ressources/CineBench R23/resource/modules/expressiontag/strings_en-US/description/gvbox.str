@@ -1,0 +1,25 @@
+STRINGTABLE GVbox
+{
+	GVbox												"Bounding Box Operator";
+
+	GV_BOX_MODE									"Matrix Mode";
+		GV_BOX_OPERATOR_MODE_GLOBAL	"Global";
+		GV_BOX_OPERATOR_MODE_LOCAL	"Local";
+
+	GV_BOX_USE_DEFORMED		"Use Deformed Points";
+	GV_BOX_USE_HIERARCHY		"Include Children";
+
+	GV_BOX_INPUT_OBJECT					"Object";
+
+	GV_BOX_OUTPUT_POINT_MIN			"Box Minimum";
+	GV_BOX_OUTPUT_POINT_MAX			"Box Maximum";
+	GV_BOX_OUTPUT_POINT1			"Box Point 1";
+	GV_BOX_OUTPUT_POINT2			"Box Point 2";
+	GV_BOX_OUTPUT_POINT3			"Box Point 3";
+	GV_BOX_OUTPUT_POINT4			"Box Point 4";
+	GV_BOX_OUTPUT_POINT5			"Box Point 5";
+	GV_BOX_OUTPUT_POINT6			"Box Point 6";
+	GV_BOX_OUTPUT_POINT7			"Box Point 7";
+	GV_BOX_OUTPUT_POINT8			"Box Point 8";
+	GV_BOX_OUTPUT_POINT_SIZE		"Box Size";
+}

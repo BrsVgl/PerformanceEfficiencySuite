@@ -1,0 +1,6 @@
+STRINGTABLE FLQuantize
+{
+	FLQuantize																	"Quantize";
+
+	FIELDLAYER_QUANTIZE_STEPS										"Steps";
+}

@@ -1,0 +1,15 @@
+STRINGTABLE FLCurve
+{
+	FLCurve																	"Curve";
+
+	FIELDLAYER_CURVE_SPLINE									"Shape";
+	FIELDLAYER_CURVE_OFFSET									"Offset";
+	FIELDLAYER_CURVE_ANIMATIONSPEED					"Animation Speed";
+	FIELDLAYER_CURVE_PREMODE								"Before Curve";
+	FIELDLAYER_CURVE_POSTMODE								"After Curve";
+		FIELDLAYER_CURVE_MODE_CLAMP							"Clamp";
+		FIELDLAYER_CURVE_MODE_VELOCITY					"Continue";
+		FIELDLAYER_CURVE_MODE_LOOP							"Loop";
+		FIELDLAYER_CURVE_MODE_CURVE							"Curve";
+		FIELDLAYER_CURVE_MODE_PINGPONG					"Ping Pong";
+}

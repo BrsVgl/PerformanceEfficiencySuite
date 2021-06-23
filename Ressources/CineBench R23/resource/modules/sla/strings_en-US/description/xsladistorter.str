@@ -1,0 +1,22 @@
+STRINGTABLE XSLADistorter
+{
+  XSLADistorter                           "Distortion Shader";
+
+  SLA_DISTORTER_TYPE                      "Type";
+    SLA_DISTORTER_TYPE_DIRECTIONAL        "Directional";
+    SLA_DISTORTER_TYPE_BIDIRECTIONAL      "Bidirectional";
+    SLA_DISTORTER_TYPE_FLOW_FIELD         "Flow Field";
+  SLA_DISTORTER_WRAP                      "Wrap";
+    SLA_DISTORTER_WRAP_NONE               "None";
+    SLA_DISTORTER_WRAP_CYCLE              "Cycle";
+    SLA_DISTORTER_WRAP_CLAMP              "Clamp";
+    SLA_DISTORTER_WRAP_SEAMLESS           "Seamless";
+  SLA_DISTORTER_AMOUNT                    "Amount";
+  SLA_DISTORTER_X                         "X";
+  SLA_DISTORTER_Y                         "Y";
+  SLA_DISTORTER_Z                         "Z";
+  SLA_DISTORTER_DELTA                     "Delta";
+  SLA_DISTORTER_STEP                      "Step";
+  SLA_DISTORTER_TEXTURE                   "Texture";
+  SLA_DISTORTER_DISTORTER                 "Distorter";
+}

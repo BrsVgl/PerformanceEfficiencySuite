@@ -1,0 +1,72 @@
+STRINGTABLE Fieldremapper
+{
+	Fieldremapper						 					"Field Remapper";
+	
+	FIELD_REMAP_ENABLE								"Enable Remapping";
+	FIELD_REMAP_MIRROR								"Mirror Graph";
+
+	ID_FIELDCONTROLS									"Remapping";
+	ID_FIELDCONTROLSSUB								"Remap";
+
+	FIELD_GROUP_RANGE									"";
+	FIELD_GROUP_COLOR									"Color Remap";
+	FIELD_GROUP_CONTOUR								"Contour";
+	FIELD_GROUP_DIRECTION							"Direction";
+
+	FIELD_MULTIPLIER									"Multiplier";
+	FIELD_STRENGTH										"Strength";
+	FIELD_CLAMP_MIN										"Clamp Min";
+	FIELD_CLAMP_MAX										"Clamp Max";
+	FIELD_MIN													"Min";
+	FIELD_MAX													"Max";
+	FIELD_CONTOUR_MODE								"Contour Mode";
+		FIELD_CONTOUR_MODE_NONE						"None";
+		FIELD_CONTOUR_MODE_QUAD						"Quadratic";
+		FIELD_CONTOUR_MODE_STEP						"Step";
+		FIELD_CONTOUR_MODE_QUANTIZE				"Quantize";
+		FIELD_CONTOUR_MODE_CURVE					"Curve";
+	FIELD_INNER_OFFSET								"Inner Offset";
+	FIELD_CONTOUR_CURVE								"Curve";
+	FIELD_CONTOUR_STEPS								"Steps";
+	FIELD_CONTOUR_SPLINE							"Spline";
+	FIELD_CONTOUR_ANIMATION_SPEED			"Spline Animation Speed";
+	FIELD_CONTOUR_SPLINE_OFFSET				"Spline Offset";
+	FIELD_CONTOUR_SPLINE_RANGE				"Spline Range";
+	FIELD_INVERT											"Invert";
+	FIELD_COLOR												"Color";
+	FIELD_GRADIENT										"Gradient";
+	FIELD_COLOR_MODE									"Color Mode";
+		FIELD_COLOR_MODE_OFF						"No Remap";
+		FIELD_COLOR_MODE_COLOR					"Color";
+		FIELD_COLOR_MODE_GRADIENT				"Gradient";
+
+	FIELD_PREVIEW											"";
+
+	FIELD_MINMAX_MODE									"Min/Max Mode";
+		FIELD_MINMAX_MODE_REMAP					"Remap";
+		FIELD_MINMAX_MODE_CUT						"Cut";
+
+	FIELD_REMAP_NORMALDIRECTION				"Normalize Direction";
+
+	FIELD_DIRECTIONSUBGROUP						"Directions";
+
+	FIELD_DIRECTIONMODE								"Length";
+		FIELD_DIRECTIONMODE_OFF						"No Remap";
+		FIELD_DIRECTIONMODE_NORMALIZE			"Normalize";
+		FIELD_DIRECTIONMODE_REMAP					"Remap";
+		FIELD_DIRECTIONMODE_ATTENUATE			"Use Value";
+		FIELD_DIRECTIONMODE_INVERSESQUARE	"Inverse Square";
+	FIELD_DIRECTIONSCALE							"Scale";
+	FIELD_DIRECTIONINVERT							"Invert Direction";
+
+	FIELD_ROTATIONSUBGROUP						"Rotations";
+
+	FIELD_ROTATIONMODE								"Strength";
+		FIELD_ROTATIONMODE_OFF						"No Remap";
+		FIELD_ROTATIONMODE_NORMALIZE			"Normalize";
+		FIELD_ROTATIONMODE_REMAP					"Remap";
+		FIELD_ROTATIONMODE_ATTENUATE			"Use Value";
+		FIELD_ROTATIONMODE_INVERSESQUARE	"Inverse Square";
+	FIELD_ROTATIONSCALE								"Scale";
+	FIELD_ROTATIONINVERT							"Invert Rotations";
+}

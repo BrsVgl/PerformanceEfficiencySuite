@@ -1,0 +1,27 @@
+STRINGTABLE Prefsmemory
+{
+	Prefsmemory "Memory";
+	PREF_MEMORY_UNDO			"Undo Depth";
+	PREF_MEMORY_PVUSEAGE		"Memory (MB)";
+	PREF_MEMORY_PVHARDUSAGE		"Hard Drive (MB)";
+	PREF_MEMORY_PVHARDUNLIMIT	"Unlimited";
+	PREF_MEMORY_PVHARDFOLDER	"Cache Path";
+	
+	PREFS_MEMORY_RENDGROUP		"Renderer";
+	PREFS_MEMORY_DOCGROUP		"Project";
+	PREFS_MEMORY_BPGROUP		"BodyPaint 3D";
+	PREFS_MEMORY_SCULPTGROUP	"Sculpting";
+	PREFS_MEMORY_PHGROUP		"Motion Tracker";
+	
+	PREF_MEMORY_RENDERER		"Displacement (MB)";
+	PREF_MEMORY_MATERIAL		"Animated Materials (MB)";
+	PREF_MEMORY_BP				"Texture Undo (MB)";
+	PREF_MEMORY_BPUNDO			"Min. Undo Steps";
+	PREFS_MEMORY_PVGROUP		"Picture Viewer";
+
+	PREF_MEMORY_SCULPTUSAGE		"Memory (MB)";
+
+	PREF_MEMORY_PHFOOTAGEMAXCACHEMB		"Maximum Footage cache (MB)";
+	PREF_MEMORY_PHFOOTAGESYSRESERVEMB	"Minimum System reserve (MB)";
+
+}

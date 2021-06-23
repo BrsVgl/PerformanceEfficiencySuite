@@ -1,0 +1,9 @@
+STRINGTABLE Osinglepoly
+{
+	Osinglepoly "Polygon Object";
+
+	PRIM_POLY_WIDTH		"Width";
+	PRIM_POLY_HEIGHT	"Height";
+	PRIM_POLY_SUB			"Segments";
+	PRIM_POLY_TRIANG	"Triangle";
+}

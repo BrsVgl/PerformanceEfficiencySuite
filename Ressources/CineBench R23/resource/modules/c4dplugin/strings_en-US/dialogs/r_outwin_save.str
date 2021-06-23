@@ -1,0 +1,20 @@
+DIALOGSTRINGS R_OUTWIN_SAVE
+{
+  T1 "Save";
+  T2 "Format";
+  T3 "Name";
+  T4 "Name0000.TIF";
+  T5 "Name0000";
+  T6 "Name.0000";
+  T7 "Name000.TIF";
+  T8 "Name000";
+  T9 "Name.000";
+	TA "Name.0000.TIF";
+  T10 "Options...";
+  T11 "DPI";
+  T12 "Alpha Channel";
+  T16 "Path...";
+  TDN "Depth";
+  TMF "Save Multi-Passes";
+  TD1 "32 Bit/Channel";
+}

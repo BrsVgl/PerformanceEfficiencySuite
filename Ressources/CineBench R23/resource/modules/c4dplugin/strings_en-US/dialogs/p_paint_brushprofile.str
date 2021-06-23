@@ -1,0 +1,10 @@
+// C4D Dialog Strings
+
+DIALOGSTRINGS P_PAINT_BRUSHPROFILE
+{
+	TITLE "Brush Profile";
+	T2 	"100%";
+	T3  "Strength";
+	T4  "0%";
+	T5  "Radius";
+}

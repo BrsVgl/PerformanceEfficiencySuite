@@ -1,0 +1,15 @@
+STRINGTABLE Thistogram
+{
+	Thistogram "Histogram Tool";
+	
+	HISTOGRAM_PROPERTIES	"Histogram Properties";
+	
+	HISTOGRAM_RED		"Red";
+	HISTOGRAM_GREEN		"Green";	
+	HISTOGRAM_BLUE		"Blue";	
+	HISTOGRAM_LUMA		"Luminosity";
+		
+
+		
+			
+}

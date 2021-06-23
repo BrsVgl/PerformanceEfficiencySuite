@@ -1,0 +1,16 @@
+STRINGTABLE Fcone
+{
+	Fcone																					"Cone Field";
+
+	FIELD_CONE_CLIP																"Clip to Shape";
+	FIELD_CONE_DIRECTION													"Direction";
+	FIELD_CONE_RADIUS															"Radius";
+	FIELD_CONE_HEIGHT															"Height";
+
+	FIELD_CONE_DIRECTION_XP											"X+";
+	FIELD_CONE_DIRECTION_XN											"X-";
+	FIELD_CONE_DIRECTION_YP											"Y+";
+	FIELD_CONE_DIRECTION_YN											"Y-";
+	FIELD_CONE_DIRECTION_ZP											"Z+";
+	FIELD_CONE_DIRECTION_ZN											"Z-";
+}

@@ -1,0 +1,101 @@
+STRINGTABLE Glow
+{
+	GW_NAME			"Glow";
+	GW_MAXSIZE	"Size";
+	GW_DENS			"Intensity";
+	GW_BDENS		"Back Intensity";
+	GW_LUM			"Luminosity";
+	GW_GCOL			"Use Color" "Use";
+	GW_GEDGES		"Glow Edges";
+	GW_COL			"Color";
+	GW_ZSCALE		"Zoom Scale";
+	GW_DSCALE		"Distance Scale";
+	GW_BAL			"Balance";
+	GW_BLUM			"Back Luminosity";
+	GW_BLUMON		"Use Back Luminosity" "Use";
+
+	GW_NC_USE		"Use";
+	GW_NC_MIN		"Min. Intensity";
+	GW_NC_MAX		"Max. Intensity";
+	GW_NC_COLON		"Use Key Color";
+	GW_NC_COL		"Key Color";
+	GW_NC_COLVAR	"Color Variation";
+	GW_NC_SIZEON	"Use Size Gradient" "Use";
+	GW_NC_GSIZE		"Size Gradient" "Size";
+	GW_NC_DENSON	"Use Density Gradient" "Use";
+	GW_NC_GDENS		"Density Gradient" "Density";
+	GW_NC_LUMON		"Use Luminosity Gradient" "Use";
+	GW_NC_GLUM		"Luminosity Gradient" "Luminosity";
+	GW_NC_GCOL		"Use Color Gradient" "Use";
+	GW_NC_GRAD		"Color Gradient" "Color";
+
+	GW_AT_USE		"Use";
+	GW_AT_START		"Start Range";
+	GW_AT_END		"End Range";
+	GW_AT_POS		"Distance Position";
+	GW_AT_ZBUFFER	"Z-Buffer";
+	GW_AT_3DPOS		"3D Pos.";
+	GW_AT_SIZEON	"Use Size Gradient" "Use";
+	GW_AT_GSIZE		"Size Gradient" "Size";
+	GW_AT_DENSON	"Use Density Gradient" "Use";
+	GW_AT_GDENS		"Density Gradient" "Density";
+	GW_AT_LUMON		"Use Luminosity Gradient" "Use";
+	GW_AT_GLUM		"Luminosity Gradient" "Luminosity";
+	GW_AT_GCOL		"Use Color Gradient" "Use";
+	GW_AT_GRAD		"Color Gradient" "Color";
+
+	GW_AL_USE		"Use";
+	GW_AL_MIN		"Min. Alpha";
+	GW_AL_MAX		"Max. Alpha";
+	GW_AL_SIZEON	"Use Size Gradient" "Use";
+	GW_AL_GSIZE		"Size Gradient" "Size";
+	GW_AL_DENSON	"Use Density Gradient" "Use";
+	GW_AL_GDENS		"Density Gradient" "Density";
+	GW_AL_LUMON		"Use Luminosity Gradient" "Use";
+	GW_AL_GLUM		"Luminosity Gradient" "Luminosity";
+	GW_AL_GCOL		"Use Color Gradient" "Use";
+	GW_AL_GRAD		"Color Gradient" "Color";
+
+	GW_SN_USE		"Use";
+	GW_SN_SH		"Shininess";
+	GW_SN_SIZEON	"Use Size Gradient" "Use";
+	GW_SN_GSIZE		"Size Gradient" "Size";
+	GW_SN_DENSON	"Use Density Gradient" "Use";
+	GW_SN_GDENS		"Density Gradient" "Density";
+	GW_SN_LUMON		"Use Luminosity Gradient" "Use";
+	GW_SN_GLUM		"Luminosity Gradient" "Luminosity";
+	GW_SN_GCOL		"Use Color Gradient" "Use";
+	GW_SN_GRAD		"Color Gradient" "Color";
+
+
+	GW_FF_USE		"Use";
+	GW_FF_TYPE		"Noise Type";
+	GW_FF_TYPE_GAS  "Gaseous";
+	GW_FF_TYPE_FIRE	"Fire";
+	GW_FF_TYPE_ELEC "Electric";
+	GW_FF_INT		"Intensity";
+	GW_FF_DENS		"Density";
+	GW_FF_BRIGHT	"Brightness";
+	GW_FF_LUM		"Luminosity";
+	GW_FF_COLOR		"Color";
+	GW_FF_COLORON	"Use Color" "Use";
+	GW_FF_SCALE		"Scale";
+	GW_FF_EXP		"Peak Blend";
+	GW_FF_LEVEL		"Details";
+	GW_FF_PHASE		"Phase";
+	GW_FF_ANGLE		"Angle";
+	GW_FF_SPEED		"Drift";
+	GW_FF_PSTATIC	"Static Pos.";
+	GW_FF_ADD		"Ground Glow";
+	GW_FF_STR		"Stretch";
+
+	GW_CH_OBJON		"Use Object ID" "Use";
+	GW_CH_OBJ		"Object ID";
+
+	GW_GLOBALS_GROUP "Glow";
+	GW_NC_GROUP		"Nonclamped Color Attenuation" "Color";
+	GW_ATT_GROUP	"Distance Attenuation" "Distance";
+	GW_AL_GROUP		"Alpha Attenuation" "Alpha";
+	GW_SN_GROUP		"Surface Normal Attenuation" "Surface";
+	GW_FF_GROUP		"Noise";
+}

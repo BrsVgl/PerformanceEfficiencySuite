@@ -1,0 +1,35 @@
+STRINGTABLE Ofalloff_standard
+{
+	Ofalloff_standard					"Falloff Panel";
+	FALLOFF_FALLOFF						"Falloff";
+
+	FALLOFF_SCALE							"Scale";
+	FALLOFF_SIZE							"Size";
+	FALLOFF_SPLINE						"Spline";
+	FALLOFF_ANIM_SPEED				"Spline Animation Speed";
+	FALLOFF_STRENGTH					"Weight";
+	FALLOFF_CLAMPED						"Clamped";
+
+	FALLOFF_SHAPE_SLICE "Slice";
+	FALLOFF_SHAPE_OFFSET "Offset";
+	FALLOFF_SHAPE_TORUS_RADIUS "Radius";
+
+	FALLOFF_FUNCTION "Falloff Function";
+	FALLOFF_FUNCTION_LIN "Linear";
+	FALLOFF_FUNCTION_SPLINE "Spline";
+	FALLOFF_FUNCTION_INV "Inverse";
+	FALLOFF_FUNCTION_INVS "Inverse Square";
+	FALLOFF_FUNCTION_INVC "Inverse Cubic";
+	FALLOFF_FUNCTION_STEP "Step";
+
+	FALLOFF_FUNCTION_SPHERICAL "Spherical Falloff";
+	FALLOFF_FUNCTION_RADIUS "Outer Radius";
+
+	FALLOFF_SHAPE_AXIS "Orientation";
+	FALLOFF_SHAPE_AXIS_XP			"+X";
+	FALLOFF_SHAPE_AXIS_XN			"-X";
+	FALLOFF_SHAPE_AXIS_YP			"+Y";
+	FALLOFF_SHAPE_AXIS_YN			"-Y";
+	FALLOFF_SHAPE_AXIS_ZP			"+Z";
+	FALLOFF_SHAPE_AXIS_ZN			"-Z";
+}

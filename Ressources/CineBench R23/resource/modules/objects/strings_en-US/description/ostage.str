@@ -1,0 +1,10 @@
+STRINGTABLE Ostage
+{
+	Ostage "Stage Object";
+
+	STAGEOBJECT_CLINK			"Camera";
+	STAGEOBJECT_SLINK			"Sky";
+	STAGEOBJECT_FLINK			"Foreground";
+	STAGEOBJECT_BLINK			"Background";
+	STAGEOBJECT_ELINK			"Environment";
+}

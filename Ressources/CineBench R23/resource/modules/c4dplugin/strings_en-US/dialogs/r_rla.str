@@ -1,0 +1,10 @@
+DIALOGSTRINGS R_RLA
+{
+  T1 "RLA Options";
+	T2 "Z";
+	T3 "Object";
+	T4 "UV Coordinates";
+	T5 "Normal";
+	T6 "Non-Clamped Color";
+	T7 "Coverage";
+}

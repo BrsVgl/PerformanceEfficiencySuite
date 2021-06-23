@@ -1,0 +1,9 @@
+STRINGTABLE FLRangemap
+{
+	FLRangemap																	"Range Map";
+
+	FIELDLAYER_RANGEMAP_MININ										"Min Input";
+	FIELDLAYER_RANGEMAP_MINOUT									"Min Output";
+	FIELDLAYER_RANGEMAP_MAXIN										"Max Input";
+	FIELDLAYER_RANGEMAP_MAXOUT									"Max Output";
+}

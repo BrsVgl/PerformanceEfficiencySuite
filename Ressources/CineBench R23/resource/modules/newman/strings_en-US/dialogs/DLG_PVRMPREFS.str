@@ -1,0 +1,17 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_PVRMPREFS
+{
+	IDS_PVRMPREF_TITLE			"Picture Viewer / Render Manager";
+	IDS_PVPREFS_MEMORY			"Memory Usage";
+	IDS_PVPREFS_MEMORY2			"MB";
+	IDS_PVPREFS_HD				"HardDrive Usage";
+	IDS_PVPREFS_HD2				"MB";
+	IDS_PVPREFS_HDFOLDER		"HardDrive Storage";
+	IDS_PVPREFS_DRAWBUCKET		"Draw Render Buckets";
+	IDS_RMPREFS_HDFOLDER		"HardDrive Storage";
+	IDS_RMPREFS_NAMETEXT		"Render Manager";
+	IDS_PVPREFS_NAMETEXT		"Picture Viewer";
+	IDS_RMPREFS_LOGFILE			"Create Render Manager Logfile";
+	IDS_PVPREFS_HDUNLIMITED		"Unlimited";
+}

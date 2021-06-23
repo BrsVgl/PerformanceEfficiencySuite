@@ -1,0 +1,10 @@
+STRINGTABLE GVmograph_selection
+{
+	GVmograph_selection "MoGraph Selection";
+
+	GV_MG_SELECTION_IOBJECT	"Selection Tag";
+	GV_MG_SELECTION_ISELECT	"Select";
+	GV_MG_SELECTION_INDEX		"Index";
+	
+	GV_MG_SELECTION_OSELECT	"Selected";
+}

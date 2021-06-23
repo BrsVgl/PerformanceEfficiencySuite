@@ -1,0 +1,9 @@
+STRINGTABLE prefs
+{
+  prefs                   "Moves by Maxon Preferences";
+
+  PREFS_PORT              "Port";
+  PREFS_IPADDRESS         "This Computers IP Address";
+  PREFS_USE_IPADDRESS     "Manually Enter IP Address";
+  PREFS_FOLDER            "Download Folder";
+}

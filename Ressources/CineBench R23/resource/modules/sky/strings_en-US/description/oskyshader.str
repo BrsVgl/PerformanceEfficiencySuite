@@ -1,0 +1,342 @@
+STRINGTABLE Oskyshader
+{
+	Oskyshader                              "Physical Sky";
+
+	ID_SKY_GROUP_DATE_TIME                  "Time and Location";
+	ID_SKY_GROUP_SCENE_OBJECTS              "Scene Objects";
+	ID_SKY_GROUP_POSITION                   "Location";
+	ID_SKY_GROUP_ASTRO                      "Astro";
+	ID_SKY_GROUP_GENERAL                    "Details";
+	ID_SKY_GROUP_CLOUDS                     "Clouds";
+	ID_SKY_GROUP_VOL_CLOUDS                 "Volumetric Clouds";
+	ID_SKY_GROUP_FOG                        "Fog";
+	ID_SKY_GROUP_RAINBOW                    "Rainbow";
+	ID_SKY_GROUP_SUNBEAMS                   "Sunbeams";
+	ID_SKY_GROUP_SKY_OBJECTS                "Sky Objects";
+	ID_SKY_GROUP_ENABLE                     "Enable";
+	ID_SKY_GROUP_BEGINNER                   "Beginner";
+	ID_SKY_GROUP_ILLUMINATION               "Illumination";
+	ID_SKY_GROUP_PHYSICAL_SKY          			"Sky";
+	ID_SKY_GROUP_PHYSICAL_SUN             	"Sun";
+	ID_SKY_GROUP_PHYSICAL_ATM             	"Atmosphere";
+
+	SKY_EXTENDED_SETTINGS                   "Extended";
+	SKY_MODE                                "Mode";
+		SKY_MODE_SIMPLE                       "Simple";
+		SKY_MODE_INTERMEDIATE                 "Intermediate";
+		SKY_MODE_ADVANCED                     "Advanced";
+	SKY_SHOW_CLOUD_BOX                      "Show Bounding Box";
+	SKY_CLOUD_EDITOR_COLOR                  "Editor Color";
+	SKY_CLOUD_EDITOR_QUALITY                "Editor Quality";
+	SKY_UPDATE_EDITOR                       "Update Editor";
+	SKY_EXPRESSION_PRIORITY                 "Priority";
+
+	SKY_MATERIAL_PREVIEWSIZE                "Texture Preview Size";
+	SKY_MATERIAL_PREVIEWSIZE_DEF            "Default";
+	SKY_MATERIAL_PREVIEWSIZE_64             "64x64 (16 KB)";
+	SKY_MATERIAL_PREVIEWSIZE_128            "128x128 (64 KB)";
+	SKY_MATERIAL_PREVIEWSIZE_256            "256x256 (256 KB)";
+	SKY_MATERIAL_PREVIEWSIZE_512            "512x512 (1 MB)";
+	SKY_MATERIAL_PREVIEWSIZE_1024           "1024x1024 (4 MB)";
+	SKY_MATERIAL_PREVIEWSIZE_2048           "2048x2048 (16 MB)";
+	SKY_MATERIAL_PREVIEWSIZE_4096           "4096x4096 (64 MB)";
+
+	SKY_ASTRO_SUN                           "Sun";
+	SKY_ASTRO_MOON                          "Moon";
+	SKY_ASTRO_PLANET                        "Planet";
+
+	SKY_DATE_TIME                           "Time";
+	SKY_TIME_NOW                            "Current Time";
+	SKY_DATE_TODAY                          "Today";
+	SKY_DATE_ANIMATE                        "Animate Date";
+	SKY_TIME_ANIMATE                        "Animate Time";
+	SKY_SHOW_HUD                            "Show Location HUD";
+
+	SKY_POS_LATITUDE                        "Latitude";
+	SKY_POS_LONGITUDE                       "Longitude";
+	SKY_POS_CITY                            "x";
+	SKY_POS_CITY_COMBO                      "City";
+	SKY_POS_DST_START                       "DST Start";
+	SKY_POS_DST_END                         "DST End";
+	SKY_POS_TIME_ZONE                       "Time Zone Diff.";
+	SKY_POS_TIMEZONE                        "Time Zone";
+		SKY_POS_TZ_OS                         "Operating System";
+		SKY_POS_TZ_CUSTOM                     "Custom";
+	SKY_POS_DST_SETTINGS                    "Daylight Saving";
+		SKY_POS_DST_OFF                       "Off";
+		SKY_POS_DST_LAST_MARCH_LAST_OCT       "Last March Sunday to Last Oct. Sunday";
+		SKY_POS_DST_SECOND_MARCH_FIRST_NOV    "Second March Sunday to First Nov. Sunday";
+		SKY_POS_DST_FIRST_APR_LAST_OCT        "First April Sunday to Last Oct. Sunday";
+		SKY_POS_DST_FIRST_OCT_LAST_MARCH      "First October Sunday to Last March Sunday";
+		SKY_POS_DST_LAST_OCT_LAST_MARCH       "Last October Sunday to Last March Sunday";
+	SKY_POS_DST_TIME_ZONE                   "DS Time Zone";
+
+	SKY_ASTRO_SUN_SHOW                      "Show Sun";
+	SKY_ASTRO_MOON_SHOW                     "Show Moon";
+	SKY_ASTRO_PLANETS_SHOW                  "Show Planets";
+	SKY_ASTRO_SHOW_STARS                    "Show Stars";
+
+	SKY_GENERAL_MOISTURE                    "Effects Turbidity";
+	SKY_GENERAL_USER_HORIZON                "Custom Horizon";
+	SKY_GENERAL_USER_COLOR			"Color";
+	SKY_GENERAL_HORIZON_START               "Horizon Start";
+	SKY_GENERAL_USER_HORIZON_MAX_ALT        "Max. Altitude";
+	SKY_GENERAL_SCALE_MOON                  "Scale";
+	SKY_GENERAL_EARTH_RADIUS                "Earth Radius (km)";
+	SKY_GENERAL_EARTH_POS_ABOVE_NN          "Postition above Sea Level (m)";
+	SKY_GENERAL_MIN_MAG                     "Min Magnitude";
+	SKY_GENERAL_RESIZE_STARS                "Resize Stars with Magnitude";
+	SKY_GENERAL_LIGHTEN_UP_STARS            "Brighten Stars";
+	SKY_GENERAL_STAR_RADIUS                 "Star Radius";
+	SKY_GENERAL_SHOW_CONSTELLATIONS         "Show Constellations";
+	SKY_GENERAL_CONSTELLATION_COLOR         "Constellation color" "Color";
+	SKY_GENERAL_MOON_DIST_SCALE             "Distance Scale";
+	SKY_GENERAL_SUN_DIST_SCALE              "Distance Scale";
+	SKY_GENERAL_GRID_WIDTH                  "Grid Width";
+	SKY_GENERAL_CHANGE_SUN_COL              "Custom Color";
+	SKY_GENERAL_SUN_COLOR                   "Color";
+	SKY_GENERAL_STRENGTH                    "Atmosphere Strength";
+	SKY_GENERAL_GRID_COLOR                  "Grid Color";
+	SKY_GENERAL_GI_INFLUENCE               	"Cloud Influence";
+	SKY_GENERAL_GI_SATURATION  		"Saturation";           
+	SKY_GENERAL_LENSFLARES									"Lensflares";
+	SKY_GENERAL_MAX_FLARE_GLOW							"Glow Intensity";
+	SKY_GENERAL_MAX_FLARE_REFL							"Flare Intensity";
+	SKY_GENERAL_MOON_BRIGHT                 "Bright Intensity";
+	SKY_GENERAL_MOON_DARK                   "Dark Intensity";
+	SKY_GENERAL_SKY_DOME 			"Sky Dome Ambient Light" "Sky Dome Light";
+	SKY_GENERAL_MERGE_SUN    		"Merge Sky and Sun";       
+
+	SKY_CLOUD_ROLLOFF                       "Rolloff";
+	SKY_CLOUD_ENABLE                        "Clouds";
+	SKY_CLOUD_1_ACTIVE                    	"Layer 1";
+	SKY_CLOUD_1_NOISE                       "Noise 1"							"Noise";
+	SKY_CLOUD_1_SAVE_PRESET                 "Save as Preset...";
+	SKY_CLOUD_1_HEIGHT                      "Height 1"						"Height";
+	SKY_CLOUD_1_COLOR                       "Color 1"							"Color";
+	SKY_CLOUD_1_DENSITY                     "Density 1"						"Density";
+	SKY_CLOUD_1_COVERAGE                    "Coverage 1"					"Coverage";
+	SKY_CLOUD_1_THICKNESS                   "Thickness 1"					"Thickness";
+	SKY_CLOUD_1_TRANSPARENCY                "Transparency 1"			"Transparency";
+	SKY_CLOUD_1_SCALE_NS                    "Scale N-S 1"					"Scale N-S";
+	SKY_CLOUD_1_SCALE_WE                    "Scale W-E 1"					"W-E";
+	SKY_CLOUD_1_MOVE_NS                     "Pos. N-S 1"					"Pos. N-S";
+	SKY_CLOUD_1_MOVE_WE                     "Pos. W-E 1"					"W-E";
+	SKY_CLOUD_1_SPEED                       "Anim. Speed 1"				"Anim. Speed";
+	SKY_CLOUD_1_OFFSET                      "Noise Offset 1"			"Offset";
+	SKY_CLOUD_1_PREVIEW                     "";
+
+	SKY_CLOUD_2_ACTIVE                    	"Layer 2";
+	SKY_CLOUD_2_NOISE                       "Noise 2"							"Noise";
+	SKY_CLOUD_2_SAVE_PRESET                 "Save as Preset...";
+	SKY_CLOUD_2_HEIGHT                      "Height 2"						"Height";
+	SKY_CLOUD_2_COLOR                       "Color 2"							"Color";
+	SKY_CLOUD_2_DENSITY                     "Density 2"						"Density";
+	SKY_CLOUD_2_COVERAGE                    "Coverage 2"					"Coverage";
+	SKY_CLOUD_2_THICKNESS                   "Thickness 2"					"Thickness";
+	SKY_CLOUD_2_TRANSPARENCY                "Transparency 2"			"Transparency";
+	SKY_CLOUD_2_SCALE_NS                    "Scale N-S 2"					"Scale N-S";
+	SKY_CLOUD_2_SCALE_WE                    "Scale W-E 2"					"W-E";
+	SKY_CLOUD_2_MOVE_NS                     "Pos. N-S 2"					"Pos. N-S";
+	SKY_CLOUD_2_MOVE_WE                     "Pos. W-E 2"					"W-E";
+	SKY_CLOUD_2_SPEED                       "Anim. Speed 2"				"Anim. Speed";
+	SKY_CLOUD_2_OFFSET                      "Noise Offset 2"			"Offset";
+	SKY_CLOUD_2_PREVIEW                     "";
+
+	SKY_CLOUD_3_ACTIVE	                    "Layer 3";
+	SKY_CLOUD_3_NOISE                       "Noise 3"							"Noise";
+	SKY_CLOUD_3_SAVE_PRESET                 "Save as Preset...";
+	SKY_CLOUD_3_HEIGHT                      "Height 3"						"Height";
+	SKY_CLOUD_3_COLOR                       "Color 3"							"Color";
+	SKY_CLOUD_3_DENSITY                     "Density 3"						"Density";
+	SKY_CLOUD_3_COVERAGE                    "Coverage 3"					"Coverage";
+	SKY_CLOUD_3_THICKNESS                   "Thickness 3"					"Thickness";
+	SKY_CLOUD_3_TRANSPARENCY                "Transparency 3"			"Transparency";
+	SKY_CLOUD_3_SCALE_NS                    "Scale N-S 3"					"Scale N-S";
+	SKY_CLOUD_3_SCALE_WE                    "Scale W-E 3"					"W-E";
+	SKY_CLOUD_3_MOVE_NS                     "Pos. N-S 3"					"Pos. N-S";
+	SKY_CLOUD_3_MOVE_WE                     "Pos. W-E 3"					"W-E";
+	SKY_CLOUD_3_SPEED                       "Anim. Speed 3"				"Anim. Speed";
+	SKY_CLOUD_3_OFFSET                      "Noise Offset 3"			"Offset";
+	SKY_CLOUD_3_PREVIEW                     "";
+
+	SKY_CLOUD_4_ACTIVE	                    "Layer 4";
+	SKY_CLOUD_4_NOISE                       "Noise 4"							"Noise";
+	SKY_CLOUD_4_SAVE_PRESET                 "Save as Preset...";
+	SKY_CLOUD_4_HEIGHT                      "Height 4"						"Height";
+	SKY_CLOUD_4_COLOR                       "Color 4"							"Color";
+	SKY_CLOUD_4_DENSITY                     "Density 4"						"Density";
+	SKY_CLOUD_4_COVERAGE                    "Coverage 4"					"Coverage";
+	SKY_CLOUD_4_THICKNESS                   "Thickness 4"					"Thickness";
+	SKY_CLOUD_4_TRANSPARENCY                "Transparency 4"			"Transparency";
+	SKY_CLOUD_4_SCALE_NS                    "Scale N-S 4"					"Scale N-S";
+	SKY_CLOUD_4_SCALE_WE                    "Scale W-E 4"					"W-E";
+	SKY_CLOUD_4_MOVE_NS                     "Pos. N-S 4"					"Pos. N-S";
+	SKY_CLOUD_4_MOVE_WE                     "Pos. W-E 4"					"W-E";
+	SKY_CLOUD_4_SPEED                       "Anim. Speed 4"				"Anim. Speed";
+	SKY_CLOUD_4_OFFSET                      "Noise Offset 4"			"Offset";
+	SKY_CLOUD_4_PREVIEW                     "";
+
+	SKY_CLOUD_5_ACTIVE	                    "Layer 5";
+	SKY_CLOUD_5_NOISE                       "Noise 5"							"Noise";
+	SKY_CLOUD_5_SAVE_PRESET                 "Save as Preset...";
+	SKY_CLOUD_5_HEIGHT                      "Height 5"						"Height";
+	SKY_CLOUD_5_COLOR                       "Color 5"							"Color";
+	SKY_CLOUD_5_DENSITY                     "Density 5"						"Density";
+	SKY_CLOUD_5_COVERAGE                    "Coverage 5"					"Coverage";
+	SKY_CLOUD_5_THICKNESS                   "Thickness 5"					"Thickness";
+	SKY_CLOUD_5_TRANSPARENCY                "Transparency 5"			"Transparency";
+	SKY_CLOUD_5_SCALE_NS                    "Scale N-S 5"					"Scale N-S";
+	SKY_CLOUD_5_SCALE_WE                    "Scale W-E 5"					"W-E";
+	SKY_CLOUD_5_MOVE_NS                     "Pos. N-S 5"					"Pos. N-S";
+	SKY_CLOUD_5_MOVE_WE                     "Pos. W-E 5"					"W-E";
+	SKY_CLOUD_5_SPEED                       "Anim. Speed 5"				"Anim. Speed";
+	SKY_CLOUD_5_OFFSET                      "Noise Offset 5"			"Offset";
+	SKY_CLOUD_5_PREVIEW                     "";
+
+	SKY_CLOUD_6_ACTIVE	                    "Layer 6";
+	SKY_CLOUD_6_NOISE                       "Noise 6"							"Noise";
+	SKY_CLOUD_6_SAVE_PRESET                 "Save as Preset...";
+	SKY_CLOUD_6_HEIGHT                      "Height 6"						"Height";
+	SKY_CLOUD_6_COLOR                       "Color 6"							"Color";
+	SKY_CLOUD_6_DENSITY                     "Density 6"						"Density";
+	SKY_CLOUD_6_COVERAGE                    "Coverage 6"					"Coverage";
+	SKY_CLOUD_6_THICKNESS                   "Thickness 6"					"Thickness";
+	SKY_CLOUD_6_TRANSPARENCY                "Transparency 6"			"Transparency";
+	SKY_CLOUD_6_SCALE_NS                    "Scale N-S 6"					"Scale N-S";
+	SKY_CLOUD_6_SCALE_WE                    "Scale W-E 6"					"W-E";
+	SKY_CLOUD_6_MOVE_NS                     "Pos. N-S 6"					"Pos. N-S";
+	SKY_CLOUD_6_MOVE_WE                     "Pos. W-E 6"					"W-E";
+	SKY_CLOUD_6_SPEED                       "Anim. Speed 6"				"Anim. Speed";
+	SKY_CLOUD_6_OFFSET                      "Noise Offset 6"			"Offset";
+	SKY_CLOUD_6_PREVIEW                     "";
+
+	SKY_FOG_ENABLE                          "Fog";
+	SKY_FOG_COLOR                           "Color";
+	SKY_FOG_START                           "Start Height";
+	SKY_FOG_END                             "End Height";
+	SKY_FOG_MAXDIST                         "Max. Distance";
+	SKY_FOG_DENSITY                         "Density";
+	SKY_FOG_DENSITY_DISTRIB                 "Density Distribution";
+	SKY_FOG_NOISE                           "Noise";
+	SKY_FOG_SAMPLE_SIZE                     "Sample Size";
+	SKY_FOG_SCALE                           "Scale";
+	SKY_FOG_MOVEMENT                        "Movement";
+	SKY_FOG_ANIMATION_SPEED                 "Animation Speed";
+	SKY_FOG_NOISE_STRENGTH                  "Noise Strength";
+	SKY_FOG_SHADOW_INTENSITY                "Shadow Intensity";
+	SKY_FOG_ILLUM_INTENSITY                 "Illumination Intensity";
+
+	SKY_VOL_CLOUDS_RENDER                   "Volumetric Clouds";
+	SKY_VOL_CLOUDS_RECEIVE_SHADOWS          "Receive Shadows";
+	SKY_VOL_CLOUDS_ADJUST_ALTITUDE          "Adjust Altitude";
+	SKY_VOL_CLOUDS_EDGE_NOISE_NOISE         "Edge Noise";
+	SKY_VOL_CLOUDS_EDGE_NOISE_SCALE         "Scale";
+	SKY_VOL_CLOUDS_EDGE_NOISE_CONTRAST      "Contrast";
+	SKY_VOL_CLOUDS_SAMPLE_SIZE              "Sample Size";
+	SKY_VOL_CLOUDS_EDGE_NOISE_SPEED         "Noise Speed";
+	SKY_VOL_CLOUDS_LIGHT_LIST               "Lights";
+
+	SKY_RAINBOW_RENDER                      "Rainbow";
+	SKY_RAINBOW_MAX_STRENGTH                "Max. Strength";
+	SKY_RAINBOW_TURBIDITY_DEP               "Turbidity Dependent";
+	SKY_RAINBOW_TURBIDITY_THRESHOLD_MIN     "Min. Turbidity Threshold";
+	SKY_RAINBOW_TURBIDITY_THRESHOLD_MAX     "Max. Turbidity Threshold";
+	SKY_RAINBOW_1_INNER                     "First Rainbow Inner Angle";
+	SKY_RAINBOW_1_OUTER                     "First Rainbow Outer Angle";
+	SKY_RAINBOW_2_INNER                     "Secondary Rainbow Inner Angle";
+	SKY_RAINBOW_2_OUTER                     "Secondary Rainbow Outer Angle";
+	SKY_RAINBOW_START_CLIP                  "Start Clipping";
+	SKY_RAINBOW_END_CLIP                    "End Clipping";
+
+	SKY_BEAMS_ENABLE                        "Sunbeams";
+	SKY_BEAMS_INTENS                        "Intensity";
+	SKY_BEAMS_MIN_BRIGHTNESS                "Min. Brightness";
+	SKY_BEAMS_START                         "Start Distance";
+	SKY_BEAMS_END                           "End Distance";
+	SKY_BEAMS_SAMPLE_DIST                   "Sample Distance";
+	SKY_BEAMS_TURBIDITY_DEPENDENT           "Turbidity Dependent";
+	
+	SKY_REAL_SKY_SUN_SHADOW_TYPE            "Shadow Type" "Shadow";
+	SKY_SUN_SHADOW_TYPE_NONE                "None";
+	SKY_SUN_SHADOW_TYPE_HARD                "Raytraced (Hard)";
+	SKY_SUN_SHADOW_TYPE_AREA                "Area";
+	SKY_MATERIAL_GLOBALILLUM_GENERATE           "GI Generate" "Generate GI";
+	SKY_MATERIAL_GLOBALILLUM_GENERATE_STRENGTH  "GI Generate Strength" "Strength";
+	SKY_REAL_SKY_SUN_SHADOW_DENSITY         "Density";
+	SKY_REAL_SKY_SUN_SHADOW_TRANSPARENCY    "Transparency";
+
+	SKY_SKY_OBJECTS                         "Sky Objects";
+	SKY_SKY_OBECT_PLACE                     "Place Object...";
+
+	SKY_DATE_TIME_B                         "Time";
+	SKY_POS_CITY_COMBO_B                    "City";
+
+	SKY_OBJECT_SKY                          "Sky";
+	SKY_OBJECT_NULL                         "Sky Null";
+	SKY_OBJECT_SUN_OBJECT                   "Custom Sun Object";
+	SKY_OBJECT_SUN_LIGHT                    "Sun Light";
+	SKY_OBJECT_SUN_FLARE                    "Sun flare";
+	SKY_OBJECT_MATERIAL                     "Material";
+	SKY_OBJECT_MOON_OBJECT                  "Custom Moon Object";
+	SKY_OBJECT_MOON_LIGHT                   "Moon light";
+	SKY_OBJECT_SHADOW_PLANE                 "Shadow Plane";
+
+	SKY_PHYSICAL_SKY_ENABLE 		"Physical Sky";
+	SKY_REAL_SKY_SKY_ENABLED		"Enabled";
+	SKY_REAL_SKY_SKY_HORIZON		"Horizon Line";
+	SKY_REAL_SKY_SKY_COLOR_WARMNESS		"Color Warmth";
+	SKY_REAL_SKY_SKY_COLOR_CHROMATICITY	"Color Chromaticity";
+	SKY_REAL_SKY_SKY_INTENSITY		"Intensity";
+	SKY_REAL_SKY_SKY_SATURATION		"Saturation Correction";
+	SKY_REAL_SKY_SKY_HUE			"Hue Correction";
+	SKY_REAL_SKY_SKY_GAMMA			"Gamma Correction";
+	SKY_REAL_SKY_SKY_SEEN_INTENSITY		"As Seen Intensity";
+	SKY_REAL_SKY_SKY_INTENSITY_NIGHT	"Night Intensity Ratio";
+	SKY_REAL_SKY_SKY_DITHER			"Dithering";
+
+	SKY_REAL_SKY_TURBIDITY 			"Turbidity";
+	SKY_REAL_SKY_OZONE    			"Ozone (cm)";
+				
+	SKY_PHYSICAL_SUN_ENABLE 		"Sun";
+	SKY_REAL_SKY_SUN_COLOR_WARMNESS		"Color Warmth";
+	SKY_REAL_SKY_SUN_COLOR			"Preview Color";
+	SKY_REAL_SKY_SUN_SHADOW_COLOR		"Shadow Color" "Color";
+	SKY_REAL_SKY_SUN_INTENSITY		"Intensity";
+	SKY_REAL_SKY_SUN_SATURATION		"Saturation Correction";
+	SKY_REAL_SKY_SUN_HUE			"Hue Correction";
+	SKY_REAL_SKY_SUN_GAMMA			"Gamma Correction";
+	SKY_REAL_SKY_SUN_SIZE_RATIO		"Size Ratio";
+	SKY_REAL_SKY_SUN_SEEN_INTENSITY		"As Seen Intensity";
+	SKY_REAL_SKY_SUN_SAMPLING_QUALITY	"Shadow Accuracy" "Accuracy";
+	SKY_REAL_SKY_SUN_SAMPLING_SAMPLES_MIN	"Minimum Samples";
+	SKY_REAL_SKY_SUN_SAMPLING_SAMPLES_MAX	"Maximum Samples";
+
+	SKY_PHYSICAL_ATM_ENABLE 		"Atmosphere";
+	SKY_REAL_SKY_ATM_INTENSITY		"Intensity";
+	SKY_REAL_SKY_ATM_HORIZON		"Horizon Fade";		
+	SKY_REAL_SKY_ATM_SATURATION		"Saturation Correction";
+	SKY_REAL_SKY_ATM_HUE			"Hue Correction";
+	SKY_REAL_SKY_ATM_GAMMA			"Gamma Correction";
+	SKY_REAL_SKY_ATM_SCALE_RATIO		"World Scale Ratio";
+	SKY_REAL_SKY_ATM_DITHER			"Dithering";
+
+	SKY_TIMEANDLOCATION "Time and Location";
+	SKY_DETAILS "Details";
+	SKY_OBJECTS "Sky Objects";
+	
+	ID_SKY_GROUP_LAYER_1 "Layer 1";
+	ID_SKY_GROUP_LAYER_2 "Layer 2";
+	ID_SKY_GROUP_LAYER_3 "Layer 3";
+	ID_SKY_GROUP_LAYER_4 "Layer 4";
+	ID_SKY_GROUP_LAYER_5 "Layer 5";
+	ID_SKY_GROUP_LAYER_6 "Layer 6";
+	
+	SKY_CLOUDS_SHADOW "Cast Shadows";
+	
+	SKY_GROUP_PHYSICAL_SUN_SHADOW "Shadow";
+	SKY_PHYSICALSKYPAGE "Sky";
+
+	SKY_PRESET "Load Sky Preset...";
+	SKY_WEATHERPRESET "Load Weather Preset...";
+}

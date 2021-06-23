@@ -1,0 +1,9 @@
+STRINGTABLE Tcustomdatabase
+{
+	Tcustomdatabase "Custom Data Tag";
+
+	ID_CUSTOMDATATAG_TAGPROPRETY					"Custom Data";
+	ID_CUSTOMDATATAG_MODE									"Mode";
+	ID_CUSTOMDATATAG_MODE_VERTEX					"Vertex";
+	ID_CUSTOMDATATAG_MODE_POLYVERTEX			"Poly Vertex";
+}

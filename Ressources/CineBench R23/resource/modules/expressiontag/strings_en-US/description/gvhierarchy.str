@@ -1,0 +1,24 @@
+STRINGTABLE GVhierarchy
+{
+	GVhierarchy									"Hierarchy Operator";
+
+	GV_HIERARCHY_OBJECT_ID										"Reference";
+	GV_HIERARCHY_PATH_TYPE 									"Reference Mode";
+	GV_HIERARCHY_PATH_TYPE_START 						"Use Start Position";
+	GV_HIERARCHY_PATH_TYPE_ABSOLUTE 					"Absolute Reference";
+	GV_HIERARCHY_PATH_TYPE_RELATIVE 					"Relative Reference";
+
+	GV_HIERARCHY_START_TYPE_ID "Start Position";
+	GV_HIERARCHY_DISTANCE_ID "Start Distance";	
+	GV_HIERARCHY_PATH_ID "Reference Path";
+	GV_HIERARCHY_START_ID "Start Path";
+	GV_HIERARCHY_ITERATION_ID "Iteration Path";
+	GV_HIERARCHY_EXCLUDE_ID "Exclude";
+
+	GV_HIERARCHY_INPUT_OBJECT		"Object";
+	GV_HIERARCHY_INPUT_MAX			"Maximum Iterations";
+	GV_HIERARCHY_OPERATOR_ON		"On";
+
+	GV_HIERARCHY_OUTPUT_OBJECT		"Object";
+	GV_HIERARCHY_OUTPUT_COUNT		"Count";
+}

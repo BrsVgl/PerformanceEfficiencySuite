@@ -1,0 +1,70 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	IDS_NBP_ROOT "Panorama";
+	IDS_NBP_OBJECT "Panorama Object";
+	IDS_NBP_TAG "Panorama Tag";
+	
+	IDS_MATERIALTAG	"Material Tag";
+	IDS_SHADER_NBM "Node-based";
+	IDS_MULTIPLE_VALUES "<<Multiple Values>>";
+	IDS_TEXTUREUI "Texture";
+	IDS_BSDF_LAYER_UNCONNECTED "<<Unconnected>>";
+
+	IDS_PREVIEWIMAGE_DEFAULT	"Default";
+	IDS_PREVIEWIMAGE_SMALL		"Small";
+	IDS_PREVIEWIMAGE_MEDIUM		"Medium";
+	IDS_PREVIEWIMAGE_LARGE		"Large";
+	IDS_PREVIEWIMAGE_HUGE			"Huge";
+
+	IDS_BSDFLAYERS_ADDLAYER			"Add";
+	IDS_BSDFLAYERS_REMOVELAYER	"Remove";
+	IDS_BSDFLAYERS_COPY					"Copy";
+	IDS_BSDFLAYERS_PASTE				"Paste";
+	IDS_AOVLAYERS_ADD_TO_RENDERSETTINGS	"Add to Render Settings";
+	
+	IDS_MATPREVIEW_DEFAULT						"Default";
+	IDS_MATPREVIEW_SPHERE							"Sphere";
+	IDS_MATPREVIEW_CUBE								"Cube";
+	IDS_MATPREVIEW_ROUND_CUBE					"Rounded Cube";
+	IDS_MATPREVIEW_PLANE							"Plane";
+	IDS_MATPREVIEW_CYLINDER						"Cylinder";
+	IDS_MATPREVIEW_TORUS							"Torus";
+	IDS_MATPREVIEW_PLANE_BACK					"Plane Backlight";
+	IDS_MATPREVIEW_2TORUS							"Double Torus";
+	IDS_MATPREVIEW_KNOT								"Knot";
+	IDS_MATPREVIEW_MULTIPLE_OBJECTS		"Multiple Objects";
+	IDS_MATPREVIEW_CANDLE							"Candle";
+	IDS_MATPREVIEW_CLOTH							"Cloth";
+	IDS_MATPREVIEW_GEM								"Gem";
+	IDS_MATPREVIEW_OBJECTANIM					"Object (Anim)";
+	IDS_MATPREVIEW_OBJECT							"Object";
+	
+	IDS_PREVIEW_HUD							"Preview HUD";
+  IDS_PICCOPY	"This image is not in the project search path.|Do you want to create a copy at the project location?||The behavior can be changed on the Files page of the application preferences.";
+	IDS_COPYERROR "Could not copy file #";
+
+	IDS_TEXTUREUI_RESOLUTION	"Resolution";
+	IDS_TEXTUREUI_ALPHAS "Alpha Channels";
+	IDS_TEXTUREUI_LAYERS "Layers";
+	IDS_TEXTUREUI_COLORPROFILE "Color Profile";
+	IDS_TEXTUREUI_ASPECT "Aspect Ratio";
+	IDS_TEXTUREUI_DPI "DPI";
+	IDS_TEXTUREUI_NAME "Name";
+	IDS_TEXTUREUI_DURATION "Duration";
+	IDS_TEXTUREUI_FPS "FPS";
+	IDS_TEXTUREUI_ERROR "Error";
+	IDS_TEXTUREUI_CALCULATINGINFO "Calculating Informations...";
+	IDS_TEXTUREUI_URLNOTFOUND "URL not found.";
+	IDS_TEXTUREUI_CHOOSEFILE "Please choose a file.";
+	IDS_TEXTUREUI_YES "Yes";
+	IDS_TEXTUREUI_NO "No";
+	IDS_TEXTUREUI_CHOOSEIMAGETOLOAD "Choose an image to load...";
+
+	IDS_PREVIEW_NODE			"Node";
+	IDS_PREVIEW_MATERIAL	"Material";
+
+	IDS_AOV_ID_LABEL			"AOV ID";
+}

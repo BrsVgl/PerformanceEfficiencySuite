@@ -1,0 +1,18 @@
+CONTAINER Opyramid
+{
+	NAME Opyramid;
+	INCLUDE Obase;
+
+	GROUP ID_OBJECTPROPERTIES
+	{
+		VECTOR PRIM_PYRAMID_LEN { UNIT METER; MIN 0.0; }
+		LONG PRIM_PYRAMID_SUB { MIN 1; MAX 1000; }
+	}
+
+	INCLUDE Oprimitiveaxis;
+
+	GROUP ID_OBJECTPROPERTIES
+	{
+		BUTTON PRIM_PYRAMID_SWITCH_TO_UPDATED { } // To update legacy primitives to the new UV map.
+	}
+}

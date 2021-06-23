@@ -1,0 +1,13 @@
+// C4D-DialogResource
+
+DIALOG R_FREEHAND
+{
+  NAME T1;
+  GROUP
+  {
+    ROWS 1;
+    
+    STATICTEXT { NAME T2; }
+    EDITNUMBERARROWS IDC_FREEHAND_TOLERANCE { SCALE_H;NAME T3; }
+  }
+}

@@ -1,0 +1,7 @@
+STRINGTABLE ToolHairGrowSelection
+{
+	ToolHairGrowSelection "Grow Selection";
+
+	HAIR_GROWSELECTION_DISTANCE		"Distance";
+	HAIR_GROWSELECTION_NEIGHBORS	"Neighbors";
+}

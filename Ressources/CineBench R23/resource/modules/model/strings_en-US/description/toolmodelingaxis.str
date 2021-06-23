@@ -1,0 +1,45 @@
+STRINGTABLE ToolModelingAxis
+{
+  ToolModelingAxis							"Modeling Axis";
+	MDATA_AXIS_MODE 							"Axis";
+		MDATA_AXIS_MODE_WORLD					"World";
+		MDATA_AXIS_MODE_OBJECT				"Object";
+		MDATA_AXIS_MODE_SELECTED			"Selected";
+		MDATA_AXIS_MODE_ROOT					"Root";
+		MDATA_AXIS_MODE_PARENT				"Parent";
+		MDATA_AXIS_MODE_BOUNDS				"Bounds";
+		MDATA_AXIS_MODE_POINTS				"Points";
+		MDATA_AXIS_MODE_CAMERA				"Camera"; 
+		MDATA_AXIS_MODE_FREE					"Free";
+	MDATA_AXIS_FREE								"Retain Changes";
+	MDATA_AXIS_BOUNDS_X 					"X";
+	MDATA_AXIS_BOUNDS_Y 					"Y";
+	MDATA_AXIS_BOUNDS_Z 					"Z";
+	MDATA_AXIS_GROUP							"Modeling Axis";
+	MDATA_OBJECTAXIS_GROUP				"Object Axis";
+
+	MDATA_AXIS_ROT				"Orientation";
+	MDATA_AXIS_NORMAL_PSR		"Along Normals";
+	MDATA_AXIS_USER_POS			"Position" "Pos";
+	MDATA_AXIS_USER_ROTATION	"Rotation" "Rot";
+	MDATA_AXIS_USER_LOCK		"Lock";
+	MDATA_AXIS_USER				"Coord";
+	MDATA_AXIS_OBJECT_LINK		"Object";
+
+	MDATA_AXIS_ROT_AXIS			"Axis";
+	MDATA_AXIS_ROT_WORLD		"World";
+	MDATA_AXIS_ROT_OBJECT		"Object";
+	MDATA_AXIS_ROT_NORMALS		"Normal";
+	MDATA_AXIS_ROT_CAMERA		"Camera";
+	MDATA_AXIS_ROT_ROOT			"Root";
+	MDATA_AXIS_ROT_PARENT		"Parent";
+
+	MDATA_AXIS_USER_WORLD		"World";
+	MDATA_AXIS_USER_OBJECT		"Object";
+	MDATA_AXIS_USER_CAMERA		"Camera";
+	
+	MDATA_AXIS_GIMBALROTATION	"Gimballing Rotation";
+	MDATA_AXIS_LOCALMANIPULATION	"Per-Object Manipulation";
+
+	MDATA_AXIS_DIRTY			"";
+}

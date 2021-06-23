@@ -1,0 +1,12 @@
+STRINGTABLE Tool_AxisHelper
+{
+	Tool_AxisHelper "Placement";
+
+	ID_MG_TOOLAXIS_GROUPAXIS "Placement";
+
+	ID_MG_TOOLAXIS_MODE "Placement";
+	ID_MG_TOOLAXIS_MODE_DISTANCE "Distance from Camera";
+	ID_MG_TOOLAXIS_MODE_AUTO "Auto Plane";
+	ID_MG_TOOLAXIS_MODE_OBJECT "Object Surface";
+	ID_MG_TOOLAXIS_TARGETOBJECT "Target Object";
+}

@@ -1,0 +1,17 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_NEWPREFS
+{
+  IDS_BUTTON1  "Apply";
+  IDS_BUTTON2  "Cancel";
+  IDS_BUTTON3  "Undo";
+  IDS_CHECK1   "Checkbox";
+  IDS_DIALOG1  "Preferences";
+  IDS_STATIC1  "Group";
+  IDS_STATIC2  "Group";
+  IDS_STATIC3  "Group";
+  IDS_STATIC4  "Static text";
+  IDS_STATIC5  "Static text";
+  IDS_STATIC6  "Static text";
+  IDS_STATIC7  "Static text";
+}

@@ -1,0 +1,35 @@
+STRINGTABLE Oxref
+{
+	Oxref "XRef";
+	
+	ID_CA_XREF_PIVOT_GROUP "Pivot";
+	ID_CA_XREF_ANIM_GROUP "Animation";
+
+	ID_CA_XREF_SHOWOBJECTS "Show Objects";
+	ID_CA_XREF_FILE	"Reference";
+	
+	ID_CA_XREF_PROXY_FILE "Proxy Ref";
+	ID_CA_XREF_SWAP "Swap";
+	
+	ID_CA_XREF_REFRESH "Reload";
+	ID_CA_XREF_OPTIONS "Options...";
+	ID_CA_XREF_EDIT "Open for Edit";
+	
+	ID_CA_XREF_LOADED "Loaded";
+	ID_CA_XREF_NAMESPACE "Namespace";
+	
+	ID_CA_XREF_FILE_SELECT "...";
+	ID_CA_XREF_PROXY_FILE_SELECT "...";
+
+	ID_CA_XREF_ANIMATE "Animation";
+	ID_CA_XREF_TIME "Frame";
+	ID_CA_XREF_OFFSET "Offset";
+	ID_CA_XREF_SCALE "Scale";
+
+	ID_CA_XREF_GENERATOR "Generator";
+
+	ID_CA_XREF_PIVOT_POS "Position" "P";
+	ID_CA_XREF_PIVOT_SCL "Scale" "S";
+	ID_CA_XREF_PIVOT_ROT "Rotation" "R";
+	ID_CA_XREF_PIVOT "Pivot";
+}

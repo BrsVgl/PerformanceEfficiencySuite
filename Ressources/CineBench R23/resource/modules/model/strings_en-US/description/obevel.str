@@ -1,0 +1,85 @@
+STRINGTABLE obevel
+{
+  obevel	"Bevel Deformer";
+
+	O_BEVEL_MODE_COMPONENT_TYPE							"Component Mode";
+	O_BEVEL_MODE_COMPONENT_TYPE_POINT				"Points";
+	O_BEVEL_MODE_COMPONENT_TYPE_EDGE				"Edges";
+	O_BEVEL_MODE_COMPONENT_TYPE_POLYGON			"Polygons";
+
+	O_BEVEL_MODE_SELECTION_TYPE							"Selection Mode";
+	O_BEVEL_MODE_SELECTION_CURRENT					"Current";
+	O_BEVEL_MODE_SELECTION_TAG							"Tag";
+	O_BEVEL_RESTRICTION											"Selection";
+	O_BEVEL_USE_RESTRICTION									"Use Selection";
+	O_BEVEL_MODE_SELECTION_ANGLE_USE				"Use Angle";
+	O_BEVEL_MODE_SELECTION_ANGLE						"Normals Groups";
+	O_BEVEL_RESTRICTION_ADD									"Add";
+	O_BEVEL_RESTRICTION_REMOVE							"Remove";
+	O_BEVEL_RESTRICTION_START								"Selection";
+	
+	O_BEVEL_MODE_SELECTION_SELTAG						"Selection Tag";
+	O_BEVEL_MODE_SELECTION_ANGLE_VAL				"Angle Threshold";
+
+	O_BEVEL_GROUP_OPTION										"Option";
+	O_BEVEL_GROUP_POLYGON										"Polygon Extrusion";
+	O_BEVEL_GROUP_SHAPING										"Shaping";
+	O_BEVEL_GROUP_TOPOLOGY									"Topology";
+
+	O_BEVEL_MASTER_MODE											"Bevel Mode";
+	O_BEVEL_MASTER_MODE_CHAMFER							"Chamfer";
+	O_BEVEL_MASTER_MODE_SOLID								"Solid";
+
+	O_BEVEL_OFFSET_MODE											"Offset Mode";
+	O_BEVEL_OFFSET_MODE_FIXED								"Fixed Distance";
+	O_BEVEL_OFFSET_MODE_RADIAL							"Radial";
+	O_BEVEL_OFFSET_MODE_PROPORTIONAL				"Proportional";
+	
+	O_BEVEL_RADIUS													"Offset";
+	O_BEVEL_SUB															"Subdivision";
+	O_BEVEL_DEPTH														"Depth";
+	O_BEVEL_SHAPING_EXTR										"Depth";
+	O_BEVEL_LIMIT														"Limit";
+	
+	O_BEVEL_EXTRUSION												"Extrusion";
+	O_BEVEL_POLY_ANGLE											"Max Angle";
+	O_BEVEL_GROUP														"Preserve Groups";
+	
+	O_BEVEL_SHAPING_MODE										"Shape";
+	O_BEVEL_SHAPING_MODE_ROUND							"Round";
+	O_BEVEL_SHAPING_MODE_USER								"User";
+	O_BEVEL_SHAPING_MODE_PROFILE						"Profile";
+	
+	O_BEVEL_SHAPING_TENSION									"Tension";
+	O_BEVEL_SHAPING_SYMMETRY								"Symmetry";
+	O_BEVELL_SHAPING_CONSTANT								"Constant Cross Section";
+	O_BEVEL_SHAPING_SPLINE									"User Shape";
+	O_BEVEL_SHAPING_SPLINE_LINK							"Profile Spline";
+	
+	O_BEVEL_SHAPING_SPLINE_PLANE						"Profile Plane";
+	O_BEVEL_SHAPING_SPLINE_PLANE_XY					"XY";
+	O_BEVEL_SHAPING_SPLINE_PLANE_XZ					"XZ";
+	O_BEVEL_SHAPING_SPLINE_PLANE_ZY					"ZY";
+	
+	O_BEVEL_MITERING												"Mitering";
+	O_BEVEL_MITERING_DEFAULT								"Default";
+	O_BEVEL_MITERING_UNIFORM								"Uniform";
+	O_BEVEL_MITERING_RADIAL									"Radial";
+	O_BEVEL_MITERING_PATCH									"Patch";
+	
+	O_BEVEL_CORNER_ENDING										"Ending";
+	O_BEVEL_CORNER_ENDING_DEFAULT						"Default";
+	O_BEVEL_CORNER_ENDING_EXTEND						"Extend";
+	O_BEVEL_CORNER_ENDING_INSET							"Inset";
+	
+	O_BEVEL_PROUNDING_TYPE									"Partial Rounding";
+	O_BEVEL_PROUNDING_TYPE_FLAT							"None";
+	O_BEVEL_PROUNDING_TYPE_FULL							"Full";
+	O_BEVEL_PROUNDING_TYPE_CONVEX						"Convex";
+	
+	O_BEVEL_CORNER_NGON											"Corner N-gons";
+	O_BEVEL_ROUNDING_NGON										"Rounding N-gons";
+	O_BEVEL_SELECTION_PHONG_BREAK						"Phong Break Rounding";
+	O_BEVEL_SELECTION_PHONG_BREAK_M					"Phong Break Miters";
+}
+

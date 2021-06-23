@@ -1,0 +1,8 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_FORMULA_DLG
+{
+  IDS_DIALOG   "Formula";
+  IDS_TEXT1  "Formula";
+  IDS_TEXT2  "Keys";
+}

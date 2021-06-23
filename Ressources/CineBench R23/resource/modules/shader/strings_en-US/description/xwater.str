@@ -1,0 +1,10 @@
+STRINGTABLE Xwater
+{
+	Xwater "Water Shader";
+
+	WATERSHADER_COLOR			"Color";
+	WATERSHADER_SCALEX		"U Frequency";
+	WATERSHADER_SCALEY		"V Frequency";
+	WATERSHADER_FREQUENCY "T Frequency";
+	WATERSHADER_WIND			"Wind";
+}

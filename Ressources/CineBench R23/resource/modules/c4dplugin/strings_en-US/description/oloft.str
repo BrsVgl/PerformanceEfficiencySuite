@@ -1,0 +1,15 @@
+STRINGTABLE Oloft
+{
+	Oloft "Loft Object";
+
+	LOFTOBJECT_ISOPARM			"Isoparm Subdivision U";
+	LOFTOBJECT_SUBX					"Mesh Subdivision U";
+	LOFTOBJECT_SUBY					"Mesh Subdivision V";
+	LOFTOBJECT_CLOSEY				"Loop";
+	LOFTOBJECT_FLIPNORMALS	"Flip Normals";
+	LOFTOBJECT_LINEAR				"Linear Interpolation";
+	LOFTOBJECT_ORGANIC			"Organic Form";
+	LOFTOBJECT_ADAPTIVEY    "Subdivision per Segment";
+	LOFTOBJECT_FITUV		    "Adapt UV";
+	LOFTOBJECT_QUADS				"Untriangulate";
+}

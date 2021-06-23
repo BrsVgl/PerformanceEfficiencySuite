@@ -1,0 +1,34 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS P_PAINTTOOL_GRADIENT
+{
+	TITLE				"Gradient Tool";
+	TCOLOR			"Color";
+	TADD				"Add Preset";
+	TTYPE				"Type";
+	TLINEAR			"Linear";
+	TRADIAL			"Radial";
+	TCIRCLE			"Circle";
+	TREFLECTIVE	"Reflective";
+	TROUTE			"Route";
+	TDITHER			"Dither";
+	TALPHA			"Use Alpha";
+	TINVERT			"Invert";
+
+	TBLEND "Blend Mode";
+	TL0 "Normal";
+	TL1 "Dissolve";
+	TL2 "Difference";
+	TL3 "Lighten";
+	TL4 "Darken";
+	TL5 "Multiply";
+	TL6 "Screen";
+	TL7 "Add";
+	TL8 "Exclusion";
+	TL9 "Erase";
+	TSEP "";
+
+	TSTRENGTH				"Strength";
+	TNOISEVARIATION "Noise Variation";
+	TNOISESCALE			"Noise Scale";
+}

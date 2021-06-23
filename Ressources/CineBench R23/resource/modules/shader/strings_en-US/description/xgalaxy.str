@@ -1,0 +1,8 @@
+STRINGTABLE Xgalaxy
+{
+	Xgalaxy "Galaxy Shader";
+
+	GALAXYSHADER_COLOR			"Color";
+	GALAXYSHADER_ANGLE			"Angle";
+	GALAXYSHADER_SPIRALARMS	"Spiral Arms";
+}

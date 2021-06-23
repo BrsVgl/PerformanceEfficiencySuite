@@ -1,0 +1,6 @@
+DIALOGSTRINGS R_FREEHAND
+{
+  T1 "Freehand Curve";
+  T2 "Tolerance";
+  T3 "88888888";
+}

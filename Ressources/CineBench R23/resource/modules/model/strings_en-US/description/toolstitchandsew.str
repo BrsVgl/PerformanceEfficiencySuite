@@ -1,0 +1,6 @@
+STRINGTABLE ToolStitchAndSew
+{
+  ToolStitchAndSew	          "Stich and Sew";
+  MDATA_STITCHANDSEW_NGONS    "Create N-gons";
+  MDATA_STITCHANDSEW_VISIBLE  "Only Select Visible Elements";
+}

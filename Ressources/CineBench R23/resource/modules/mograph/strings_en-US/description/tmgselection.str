@@ -1,0 +1,13 @@
+STRINGTABLE Tmgselection
+{
+	Tmgselection "MoGraph Selection";
+
+	MGSELECTIONTAG_CLEAR					"Clear";
+	MGSELECTIONTAG_INVERT					"Invert";
+	MGSELECTIONTAG_NUMBERS				"Display Indices";
+	MGSELECTIONTAG_USEFIELDS			"Use Fields";
+	MGSELECTIONTAG_FIELDGROUP			"Fields";
+	MGSELECTIONTAG_FIELDS					"Fields";
+	MGSELECTIONTAG_FIELDTOLERANCE	"Tolerance";
+	MGSELECTIONTAG_FIELDDEFORM		"Use Deformed Points";
+}

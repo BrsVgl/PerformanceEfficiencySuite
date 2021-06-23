@@ -1,0 +1,10 @@
+CONTAINER CKdata
+{
+	NAME CKdata;
+	INCLUDE CKbase;
+
+	GROUP ID_CKEY_PROPERTIES
+	{
+		SHOW ID_DKEY_INTER;
+	}
+}

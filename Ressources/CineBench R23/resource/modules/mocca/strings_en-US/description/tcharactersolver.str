@@ -1,0 +1,8 @@
+STRINGTABLE Tcharactersolver
+{
+	Tcharactersolver "Character Solver Tag";
+	CS_SOURCE_CHARACTER	"Source Character";
+	CS_TARGET_CHARACTER	"Target Character";
+	CS_GOTORESTPOSE "Go to Reference Pose";
+	CS_SOLVERRESULT_GROUP "Result";
+}

@@ -1,0 +1,6 @@
+DIALOGSTRINGS R_RESETAXIS
+{
+  T1 "Reset Scale";
+  T4 "Compensate Points";
+  T5 "Reset Child Objects";
+}

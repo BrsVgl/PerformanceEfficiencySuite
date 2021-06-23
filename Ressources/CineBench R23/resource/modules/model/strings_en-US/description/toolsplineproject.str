@@ -1,0 +1,14 @@
+STRINGTABLE ToolSplineProject
+{
+  ToolSplineProject                       "Project";
+
+	MDATA_SPLINE_PROJECT_MODE								"Mode";
+		MDATA_SPLINE_PROJECT_MODE_VIEW        "View";
+		MDATA_SPLINE_PROJECT_MODE_XY          "XY Plane";
+		MDATA_SPLINE_PROJECT_MODE_ZY          "ZY Plane";
+		MDATA_SPLINE_PROJECT_MODE_XZ          "XZ Plane";
+		MDATA_SPLINE_PROJECT_MODE_X_AXIS      "X Axis";
+		MDATA_SPLINE_PROJECT_MODE_Y_AXIS      "Y Axis";
+		MDATA_SPLINE_PROJECT_MODE_Z_AXIS      "Z Axis";
+		MDATA_SPLINE_PROJECT_MODE_SPHERICAL   "Spherical";
+}

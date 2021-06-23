@@ -1,0 +1,10 @@
+CONTAINER Tuvw
+{
+	NAME Tuvw;
+	INCLUDE Tbase;
+
+	GROUP ID_TAGPROPERTIES
+	{
+		BOOL UVWTAG_LOCK { }
+	}
+}

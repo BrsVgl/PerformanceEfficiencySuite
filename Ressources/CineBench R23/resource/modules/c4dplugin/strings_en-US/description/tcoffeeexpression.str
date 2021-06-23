@@ -1,0 +1,5 @@
+STRINGTABLE Tcoffeeexpression
+{
+	Tcoffeeexpression "C.O.F.F.E.E. Expression";
+  COFFEEEXPRESSION_CODE "Code";
+}

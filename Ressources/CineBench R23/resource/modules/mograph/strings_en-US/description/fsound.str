@@ -1,0 +1,6 @@
+STRINGTABLE Fsound
+{
+	Fsound												"Sound Field";
+	
+	MGSOUNDFIELD_GADGET 					"Sound";
+}

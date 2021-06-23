@@ -1,0 +1,7 @@
+STRINGTABLE XSLAVertexMap
+{
+  XSLAVertexMap                           "Vertex Map Shader";
+
+  SLA_DIRTY_VMAP_OBJECT                   "Vertex Map";
+  SLA_DIRTY_VMAP_INVERT                   "Invert";
+}

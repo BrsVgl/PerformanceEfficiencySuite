@@ -1,0 +1,1 @@
+// C4D-DialogResourceDIALOG R_NAME{  NAME T1;  	GROUP	{		COLUMNS 2; 							STATICTEXT { NAME T2; }		EDITTEXT IDC_NAME { SIZE 250,0; }				}	DLGGROUP { OK;CANCEL;HELP; }}

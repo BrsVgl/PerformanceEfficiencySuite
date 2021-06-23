@@ -1,0 +1,6 @@
+STRINGTABLE FLStandard
+{
+	FLStandard															"Field Layer";
+
+	ID_FIELDLAYER_LINK											"Field";
+}

@@ -1,0 +1,7 @@
+// C4D Dialog Strings
+
+DIALOGSTRINGS P_FEATHER
+{
+	TITLE "Feather Selection";
+	TFEATHER "Feather";
+}

@@ -1,0 +1,9 @@
+STRINGTABLE Owind
+{
+	Owind 													"Wind Object";
+	WINDOBJECT_STRENGTH							"Wind Speed";
+	WINDOBJECT_SIZE									"Size";
+	WINDOBJECT_TURBULENCE						"Turbulence";
+	WINDOBJECT_TURBULENCE_SCALE			"Turbulence Scale";
+	WINDOBJECT_TURBULENCE_FREQUENCY	"Turbulence Frequency";
+}

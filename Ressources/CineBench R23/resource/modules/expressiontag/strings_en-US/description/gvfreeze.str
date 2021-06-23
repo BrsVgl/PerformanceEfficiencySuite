@@ -1,0 +1,7 @@
+STRINGTABLE GVfreeze
+{
+	GVfreeze					"Freeze Operator";
+	GV_FREEZE_INPUTSWITCH		"Switch";
+	GV_FREEZE_INPUTVALUE		"Value";
+	GV_FREEZE_OUTPUT				"Output";
+}

@@ -1,0 +1,8 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_PNG
+{
+	
+	TDLG 			"PNG Export Settings";
+	PNG_INTERLACED_TEXT	"Interlaced";
+}

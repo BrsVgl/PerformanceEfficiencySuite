@@ -1,0 +1,21 @@
+STRINGTABLE ToolBevel
+{
+  ToolBevel	"Bevel";
+
+	MDATA_BEVEL_PRESERVEGROUPS								"Preserve Groups";
+	MDATA_BEVEL_OFFSET1												"Extrusion";
+	MDATA_BEVEL_OFFSET2												"Inner Offset";
+	MDATA_BEVEL_ANGLE													"Maximum Angle";
+	MDATA_BEVEL_VARIANCE1											"Extrusion Variance" "Var.";
+	MDATA_BEVEL_VARIANCE2											"Inner Variance" "Var.";
+	MDATA_BEVEL_SUBDIVISION										"Subdivision";
+	MDATA_BEVEL_CREATENGONS										"Create N-gons";
+	MDATA_BEVEL_PATH													"Path";
+	MDATA_BEVEL_MODE                          "Type";
+		MDATA_BEVEL_MODE_LINEAR                 "Linear";
+		MDATA_BEVEL_MODE_OUTER_CIRCLE           "Convex";
+		MDATA_BEVEL_MODE_INNER_CIRCLE           "Concave";
+		MDATA_BEVEL_MODE_BEZIER                 "Bezier";
+		MDATA_BEVEL_MODE_USER                   "User";
+}
+

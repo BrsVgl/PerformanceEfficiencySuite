@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>category_cone</title>
+    <defs>
+        <linearGradient x1="50%" y1="43.8982175%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#5B5B5B" stop-opacity="0" offset="0.0218531469%"></stop>
+            <stop stop-color="#2E2E2E" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="27" height="14"></rect>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.307692,1.000000),rotate(90.000000),scale(1.000000,1.670996),translate(-0.500000,-0.000000)" id="radialGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="58.4822823%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="24.4454815%" y1="42.1853216%" x2="74.5820754%" y2="54.4172907%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.380681818" offset="17.0782343%"></stop>
+            <stop stop-color="#FFFFFF" offset="36.8245225%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.276797421" offset="66.4926258%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.5859506%" y1="70.3838846%" x2="59.1070324%" y2="63.3443878%" id="linearGradient-6">
+            <stop stop-color="#A9CEEB" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.660784528" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="category_cone" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M18,3 L29.4279808,19.1833405 C30.4304794,20.3176852 31,21.6179138 31,23 C31,27.418278 25.1797017,31 18,31 C10.8202983,31 5,27.418278 5,23 C5,22.1591754 5.21078999,21.3486478 5.60162465,20.5873374 L5.58558369,20.5810615 L5.66448332,20.4681768 C5.90631492,20.0217672 6.21034545,19.592859 6.57024738,19.185346 L18,3 Z" id="MXN_BG_ID" fill="#5DA9C8"></path>
+        <g id="MXN_0_ID" transform="translate(5.000000, 3.000000)">
+            <g id="Path" transform="translate(0.000000, 14.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                <path d="M0,6 C0,10.418278 5.82029825,14 13,14 C20.1797017,14 26,10.418278 26,6" fill="url(#radialGradient-4)" opacity="0.39953032" mask="url(#mask-3)"></path>
+            </g>
+            <path d="M13,-1.77635684e-15 L24.4279808,16.1833405 C25.4304794,17.3176852 26,18.6179138 26,20 C26,24.418278 20.1797017,28 13,28 C5.82029825,28 0,24.418278 0,20 C0,19.1591754 0.210789992,18.3486478 0.601624649,17.5873374 L0.585583686,17.5810615 L0.664483316,17.4681768 C0.906314924,17.0217672 1.21034545,16.592859 1.57024738,16.185346 L13,-1.77635684e-15 Z" id="Combined-Shape" fill="url(#linearGradient-5)" opacity="0.564313616"></path>
+            <path d="M13,1.27741664 L24.5922122,17.2911358 C25.2435445,17.2336351 25.5692107,18.2754815 25.5692107,20.4166748 C25.5692107,22.5578682 24.1675196,24.2583926 21.3641376,25.5182479 L13,1.27741664 Z" id="Path-44" fill="url(#linearGradient-6)"></path>
+        </g>
+        <path d="M17.9999936,3.86679303 L29.0355306,19.4943876 C29.9619674,20.5350778 30.5,21.7270538 30.5,23 C30.5,25.0575946 29.1057855,26.892289 26.9303394,28.2310251 C24.6448663,29.6374701 21.4859825,30.5 18,30.5 C14.5140175,30.5 11.3551337,29.6374701 9.06966056,28.2310251 C6.89421445,26.892289 5.5,25.0575946 5.5,23 C5.5,22.2384794 5.69259073,21.5049439 6.04181066,20.8244793 C6.33102565,20.2876345 6.619203,19.8824826 6.96274229,19.4963292 L6.96274229,19.4963292 L17.9999936,3.86679303 Z" id="MXN_FG_ID" stroke="#0A0A0A"></path>
+    </g>
+</svg>

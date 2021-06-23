@@ -1,0 +1,16 @@
+STRINGTABLE Otube
+{
+	Otube "Tube Object";
+
+	PRIM_TUBE_ORAD              "Outer Radius";
+	PRIM_TUBE_IRAD              "Inner Radius";
+	PRIM_TUBE_HEIGHT            "Height";
+	PRIM_TUBE_HSUB              "Height Segments";
+	PRIM_TUBE_CSUB	            "Cap Segments";
+	PRIM_TUBE_SEG               "Rotation Segments";
+	PRIM_TUBE_FILLET	          "Fillet";
+	PRIM_TUBE_FSUB		          "Fillet Segments" "Segments";				
+	PRIM_TUBE_FILLET_RADIUS	    "Fillet Radius" "Radius";
+	PRIM_TUBE_USE_NEW_VERSION   "";
+	PRIM_TUBE_SWITCH_TO_UPDATED "Switch to Updated Tube";
+}

@@ -1,0 +1,13 @@
+STRINGTABLE GVhair
+{
+	GVhair									"Hair Operator";
+
+	GV_HAIR_OBJECT							"Reference";
+	GV_HAIR_INPUT_OBJECT					"Object";
+	GV_HAIR_OUTPUT_GUIDE_COUNT				"Count";
+	GV_HAIR_OUTPUT_GUIDE_SEGMENTS			"Segments";
+	GV_HAIR_OBJECT_MODE						"Mode";
+	GV_HAIR_OBJECT_MODE_GUIDE				"Guides";
+	GV_HAIR_OBJECT_MODE_DYNAMIC_GUIDE		"Dynamic Guides";
+	GV_HAIR_OBJECT_MODE_HAIR				"Hairs";
+}

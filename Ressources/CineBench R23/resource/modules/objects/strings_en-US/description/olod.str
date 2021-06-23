@@ -1,0 +1,37 @@
+STRINGTABLE Olod
+{
+	Olod "LOD";
+
+	LOD_MODE "LOD Mode";
+		LOD_MODE_CHILD "Children";
+		LOD_MODE_MANUAL_GROUPS "Manual Groups";
+		LOD_MODE_SIMPLIFY "Simplify";
+
+	LOD_PROGRESIVE "Progressive";
+
+	LOD_CRITERIA "Criteria";
+		LOD_CRITERIA_MANUAL "User LOD Level";
+		LOD_CRITERIA_MANUAL_SLIDER "User LOD Value ";
+		LOD_CRITERIA_SCREEN_H "Screen Size H";
+		LOD_CRITERIA_SCREEN_V "Screen Size V";
+		LOD_CRITERIA_SCREEN_SURFACE "Screen Surface";
+		LOD_CRITERIA_CAMERA_DIST "Camera Distance";
+		LOD_CRITERIA_GLOBAL "Global";
+
+	LOD_BAR "LOD Bar";
+	LOD_CURRENT_LEVEL	"Current Level";
+	LOD_CAMERA_MINDIST "Min Dist";
+	LOD_CAMERA_MAXDIST "Max Dist";
+	LOD_LEVEL_COUNT_DYN "Level Count";
+
+	LOD_VIEWPORT_ONLY "Use LOD 0 for Rendering";
+	LOD_RENDER_INCREMENT "Render LOD Increment";
+	LOD_SHOW_UNASSIGNED "Always Show Unassigned Object";
+
+	LOD_CAMERA_CLIP "Use Camera Clip";
+	LOD_CAMERA_CLIP_SAFEDISTANCE "Cone Safe Distance";
+	LOD_CAMERA_CLIP_SAFESPHERE  "POV Safe Distance";
+	LOD_CAMERA_CLIP_AFFECTRENDER "Use Camera Clip in Render";
+	LOD_OPTIONS_GROUP "Options";
+	LOD_POLYGONIZE "Polygonize Objects";
+}

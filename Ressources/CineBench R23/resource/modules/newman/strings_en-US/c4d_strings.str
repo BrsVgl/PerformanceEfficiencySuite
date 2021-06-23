@@ -1,0 +1,2443 @@
+// Global StringResource
+// Global StringResource
+STRINGTABLE
+{
+	IDS_ANIM_PLA   "PLA";
+	IDS_ANIM_SOUND "Sound";
+	IDS_ANIM_MORPH "Morph";
+
+	IDS_SOUNDSTEREO "Stereo";
+	IDS_SOUNDMONO   "Mono";
+
+	IDS_RENDERSOUND_1	"Animating...";
+	IDS_RENDERSOUND_2	"Processing:";
+
+	IDS_OHNEWAV   	"Untitled";
+
+
+	IDS_OBJECTMANAGER  "Object Manager...";
+	IDH_OBJECTMANAGER  "Opens Object Manager";
+
+	IDS_LAYERMANAGER  "Layer Manager...";
+	IDH_LAYERMANAGER  "Open Layer Manager";
+
+	IDS_LAYER  "Layer";
+	IDS_FOLDER "Folder";
+	IDS_DEFAULT " --- Default ---";
+
+
+	IDC_SB_ADDTOLAYER "Add to Layer";
+
+	IDS_SB_VERTICAL "Vertical Tags";
+	IDH_SB_VERTICAL "Show Tags in vertical order";
+
+	IDS_SB_ICONSIZE1 "Small Icons";
+	IDH_SB_ICONSIZE1 "Switch to Small Icons Display";
+
+	IDS_SB_ICONSIZE2 "Medium Icons";
+	IDH_SB_ICONSIZE2 "Switch to Medium Icons Display";
+
+	IDS_SB_ICONSIZE3 "Large Icons";
+	IDH_SB_ICONSIZE3 "Switch to Large Icons Display";
+
+	IDS_SB_SHOW_PATH "Show Path Bar";
+	IDH_SB_SHOW_PATH "Show Path Bar";
+
+	IDS_SB_SHOW_FIND "Show Search Bar";
+	IDH_SB_SHOW_FIND "Show Search Bar";
+
+	IDS_SB_SET_PATH  "Set as Root";
+	IDH_SB_SET_PATH  "Set as Root";
+
+	IDS_SB_MAIN_PATH "Go to Main Level";
+	IDH_SB_MAIN_PATH "Go to Main Level";
+
+	IDS_SB_UP_PATH   "One Level Up";
+	IDH_SB_UP_PATH   "Go One Level Up";
+
+
+	IDS_SB_BOOK_ADD "Add Bookmark";
+	IDH_SB_BOOK_ADD "Add Bookmark";
+
+	IDS_SB_BOOK_MAN "Manage Bookmarks...";
+	IDH_SB_BOOK_MAN "Manage Bookmarks...";
+
+	IDS_SB_BOOK_RES "Default Bookmark";
+	IDH_SB_BOOK_RES "Default Bookmark";
+
+	IDS_SB_BOOK_TL "Timeline Bookmarks";
+	IDS_SB_BOOK_SB "Object Manager Bookmarks";
+
+	IDS_SB_SHOW_FLAT  "Flat Tree";
+	IDH_SB_SHOW_FLAT  "Display Flat Tree";
+
+	IDS_SB_SORT_NAME "Sort by Name";
+	IDH_SB_SORT_NAME "Sort by Name";
+
+	IDS_SB_SORT_TYPE "Sort by Type";
+
+	IDS_SB_SHOW_FILTER "Show Filter";
+	IDH_SB_SHOW_FILTER "WE Filter";
+
+	IDS_SB_EXPAND   "Unfold All";
+	IDH_SB_EXPAND   "Unfold All";
+
+	IDS_SB_COLLAPSE "Fold All";
+	IDH_SB_COLLAPSE "Fold All";
+
+	IDS_SB_SHOW_CUSTOM_ICONS "Show Custom Icons";
+	IDH_SB_SHOW_CUSTOM_ICONS "Show Custom Icons";
+
+	IDS_LM_SOLO        "Solo";
+	IDS_LM_VIEW        "View";
+	IDS_LM_RENDER      "Render";
+	IDS_LM_MANAGER     "Manager";
+	IDS_LM_LOCKED      "Locking";
+	IDS_LM_GENERATORS  "Generators";
+	IDS_LM_DEFORMERS   "Deformers";
+	IDS_LM_EXPRESSIONS "Expressions";
+	IDS_LM_ANIMATION   "Animation";
+	IDS_LM_XREF			 "XRef";
+
+	IDS_LM_S_TREE        "Name";
+	IDS_LM_S_SOLO        "S";
+	IDS_LM_S_VIEW        "V";
+	IDS_LM_S_RENDER      "R";
+	IDS_LM_S_MANAGER     "M";
+	IDS_LM_S_LOCKED      "L";
+	IDS_LM_S_GENERATORS  "G";
+	IDS_LM_S_DEFORMERS   "D";
+	IDS_LM_S_EXPRESSIONS "E";
+	IDS_LM_S_ANIMATION   "A";
+	IDS_LM_S_XREF	   "X";
+
+	IDH_LM_SOLO        "Show Solo Option";
+	IDH_LM_VIEW        "Show View Option";
+	IDH_LM_RENDER      "Show Render Option";
+	IDH_LM_MANAGER     "Show Manager Option";
+	IDH_LM_LOCKED      "Show Locked Option";
+	IDH_LM_GENERATORS  "Show Generators Option";
+	IDH_LM_DEFORMERS   "Show Deformers Option";
+	IDH_LM_EXPRESSIONS "Show Expressions Option";
+	IDH_LM_ANIMATION   "Show Animation Option";
+	IDH_LM_XREF			"Show XRef Option";
+
+	IDS_LM_FILE  "File";
+	IDS_LM_SHOW "View";
+
+	IDS_LM_ADD      "Add Objects to Layer";
+	IDH_LM_ADD      "Add Selected Objects to Layer";
+
+	IDS_LM_DEL      "Delete";
+	IDH_LM_DEL      "Delete Layer";
+
+	IDS_LM_SEL      "Select from Layer";
+	IDH_LM_SEL      "Select Objects on Layer";
+
+	IDS_LM_LAYER    "New Layer";
+	IDH_LM_LAYER    "New Layer";
+
+	IDS_LM_DEL_ALL  "Delete All";
+	IDH_LM_DEL_ALL  "Delete All Layers";
+
+	IDS_LM_EXPAND   "Unfold All";
+	IDH_LM_EXPAND   "Unfold All";
+
+	IDS_LM_COLLAPSE "Fold All";
+	IDH_LM_COLLAPSE "Fold All";
+
+	IDS_LM_OPEN     "Merge Layers Preset...";
+	IDH_LM_OPEN     "Merge Layers Preset";
+
+	IDS_LM_SAVE     "Save Layers Preset as...";
+	IDH_LM_SAVE     "Save Layers Preset";
+
+	IDS_LM_MERGE    "Merge Layers";
+	IDH_LM_MERGE    "Merge Layers";
+
+	IDS_LM_SELECTALL  "Select All";
+	IDH_LM_SELECTALL  "Select All";
+
+	IDS_LM_SELECTNONE "Select None";
+	IDH_LM_SELECTNONE "Select None";
+
+	IDS_LM_SELECTTOG  "Invert Selection";
+	IDH_LM_SELECTTOG  "Invert Selection";
+
+	IDS_LM_DEL_EMPTY "Delete Unused Layers";
+	IDH_LM_DEL_EMPTY "Delete Unused Layers";
+
+	IDS_LM_LAYERFROM "New Layer from Object Selection";
+	IDH_LM_LAYERFROM "New Layer from Selection";
+
+
+	IDS_SB_LAYERED "Layers";
+	IDH_SB_LAYERED "Layers";
+
+	IDS_SB_BOOK "Bookmarks";
+	IDH_SB_BOOK "Bookmarks";
+
+	IDS_SB_LAYERS "Layers";
+	IDH_SB_LAYERS "Layers";
+
+	IDS_SB_REMOVE "Remove from Layer";
+	IDH_SB_REMOVE "Remove from Layer";
+
+	IDS_SB_NEWLAYER "Add to New Layer";
+	IDH_SB_NEWLAYER "Add to New Layer";
+
+
+	IDS_SB_LISTSELECTIONS    "Restore Selection";
+	IDH_SB_LISTSELECTIONS    "Restore Selection";
+
+	IDS_SB_LOADOBJEKT        "Merge Objects...";
+	IDH_SB_LOADOBJEKT        "Merge Objects...";
+
+	IDS_SB_SAVEOBJEKT        "Save Selected Objects as...";
+	IDH_SB_SAVEOBJEKT        "Save Selected Objects as...";
+
+	IDS_SB_EXPORTOBJECT      "Export Selected Objects as...";
+	IDH_SB_EXPORTOBJECT      "Export Selected Objects as...";
+
+	IDS_SB_SAVEMELANGE		"Save Project for Cineware...";
+	IDH_SB_SAVEMELANGE		"Save Project for Cineware...";
+
+	IDS_SB_SELECTALL         "Select All";
+	IDH_SB_SELECTALL         "Select All";
+
+	IDS_SB_SELECTTOG         "Invert Selection";
+	IDH_SB_SELECTTOG         "Invert Selection";
+
+	IDS_SB_SELECTVISIBLE     "Select Visible";
+	IDH_SB_SELECTVISIBLE     "Select Visible";
+
+	IDS_SB_SELECTNONE        "Select None";
+	IDH_SB_SELECTNONE        "Select None";
+
+	IDS_SB_SELECTCHILDS      "Select Children";
+	IDH_SB_SELECTCHILDS      "Select Children";
+
+	IDS_SB_OBSEARCHAKTU      "Scroll to First Active";
+	IDH_SB_OBSEARCHAKTU      "Scroll to First Active";
+
+	IDS_SB_EDITAKTUOBJ       "Edit...";
+	IDH_SB_EDITAKTUOBJ       "Edit...";
+
+	IDS_SB_RENAME            "Rename...";
+	IDH_SB_RENAME            "Rename...";
+
+	IDS_SB_GROUP             "Group Objects";
+	IDH_SB_GROUP             "Group Objects";
+
+	IDS_SB_RESOLVE           "Ungroup Objects";
+	IDH_SB_RESOLVE           "Ungroup Objects";
+
+	IDS_SB_INFORMATIONOBJECT "Object Information...";
+	IDH_SB_INFORMATIONOBJECT "Display Object Information...";
+
+	IDS_SB_INFORMATIONSCENE  "Project Information...";
+	IDH_SB_INFORMATIONSCENE  "Display Project Information...";
+
+	IDS_SB_TRANSFERTAG       "Copy Tag to Children";
+	IDH_SB_TRANSFERTAG       "Copy Tag to Children";
+
+	IDS_SB_SELECTTAG         "Select Child Tags of Same Type";
+	IDH_SB_SELECTTAG         "Select Child Tags of Same Type";
+
+
+	IDS_SB_RESTORESELECTION  "Restore Selection";
+	IDS_SB_LOADTAGPRESET     "Load Tag Preset";
+	IDS_SB_MATERIALS         "Materials";
+	IDS_SB_RENDER            "Render";
+
+	IDS_SB_EDITORDISPLAY_NONE  "Editor Unchanged";
+	IDH_SB_EDITORDISPLAY_NONE  "Editor Unchanged";
+
+	IDS_SB_EDITORDISPLAY_ON    "Editor On";
+	IDH_SB_EDITORDISPLAY_ON    "Editor On";
+
+	IDS_SB_EDITORDISPLAY_OFF   "Editor Off";
+	IDH_SB_EDITORDISPLAY_OFF   "Editor Off";
+
+	IDS_SB_RENDERDISPLAY_NONE  "Renderer Unchanged";
+	IDH_SB_RENDERDISPLAY_NONE  "Renderer Unchanged";
+
+	IDS_SB_RENDERDISPLAY_ON    "Renderer On";
+	IDH_SB_RENDERDISPLAY_ON    "Renderer On";
+
+	IDS_SB_RENDERDISPLAY_OFF   "Renderer Off";
+	IDH_SB_RENDERDISPLAY_OFF   "Renderer Off";
+
+	IDS_SB_TOGGLE_OBJECT_STATE "Object Activation";
+	IDH_SB_TOGGLE_OBJECT_STATE "Object Activation";
+
+
+	IDS_BOOKMARK              "Bookmark.";
+
+	IDS_NOTHING	"None";
+	IDS_BYTES	"ca. # KBytes";
+
+	IDS_OHNETITEL	"Untitled.c4d";
+
+	IDS_SB_DELETE "Delete";
+	IDH_SB_DELETE "Delete";
+
+	IDS_SELECTION			"Selection";
+
+	IDS_SB_PLUGINTAGS "New Tag";
+	IDH_SB_PLUGINTAGS "Add New Tag";
+
+	IDS_NO_OBJECT_SELECTED "<< No Object selected >>";
+
+	IDS_SB_FUNCTIONS "Functions";
+
+	IDS_MATERIAL_MANAGER_FILE	"Create";
+	IDS_MATERIAL_MANAGER_FUNCTION	"Function";
+	IDS_LOADMATERIALPRESET "Load Material Preset";
+
+	IDS_DEFAULT_LAYER "(Undef. Layer)";
+
+	IDS_FILTER_HOOK "Filter Hook";
+
+	IDS_LM_PATH "Layerset.set";
+
+	IDS_FM_OBJECTS					"Objects";
+	IDS_FM_TAGS							"Tags";
+	IDS_FM_MATERIALS				"Materials";
+	IDS_FM_SHADERS					"Shaders";
+	IDS_FM_RENDERS					"Render Settings";
+	IDS_FM_POSTS						"Post Effects";
+	IDS_FM_SCULPT						"Sculpting Layer";
+	IDS_FM_TRACKS						"Tracks";
+	IDS_FM_LAYERS						"Layers";
+	IDS_FM_DOC							"Project";
+	IDS_FM_SUMMARY					"Summary";
+	IDS_FM_GVNODES					"XPresso Nodes";
+	IDS_FM_NLA							"Motion";
+	IDS_FM_SH								"Scene Hook";
+	IDS_FM_SUBSTANCE				"Substances";
+	IDS_FM_POINTGEN					"Point Generator";
+	IDS_FM_C4DCOREWRAPPER		"C4DCoreWrapper";
+
+	IDS_SB_EXP_SEL     "Unfold Selected";
+	IDH_SB_EXP_SEL     "Unfold Selected";
+
+	IDS_SB_COL_SEL     "Fold Selected";
+	IDH_SB_COL_SEL     "Fold Selected";
+
+	IDS_SB_SHOW_LEGACY "Right aligned Icons";
+
+	IDS_SB_CUT        "Cut";
+	IDH_SB_CUT        "Cut";
+
+	IDS_SB_COPY       "Copy";
+	IDH_SB_COPY       "Copy";
+
+	IDS_SB_PASTE      "Paste";
+	IDH_SB_PASTE      "Paste";
+
+	IDS_PIVOT "Pivot";
+
+	//Cathleen begin
+	IDS_TL_TIMELINE			"Timeline";
+	IDS_TL_TITLEPREFS		"Timeline/Spline Gadget";
+	IDS_TL_TITLE			"Timeline";
+	IDH_TIMELINE			"Open Timeline";
+	IDS_TL_CMD				"Timeline...";
+
+	IDS_TL_DOPESHEET		"Timeline (Dope Sheet)...";
+	IDS_TL_FCURVE			"Timeline (F-Curve)...";
+
+	// Menu strings
+	IDS_TL_M_REGIONTOOL			"Region Tool";
+
+	IDS_TL_M_NEWKEY				"Record Current State";
+	IDS_TL_M_REMOVE				"Delete Unused Tracks";
+
+	IDS_TL_M_DELETE				"Delete";
+	IDS_TL_M_PREFS				"Timeline Preferences...";
+	IDS_TL_M_SNAPSETDLG			"Snap Settings...";
+	IDS_TL_M_ANIMATEDONLY		"Show Animated";
+
+	IDS_TL_M_FIT				"Frame All";
+
+	IDS_TL_M_BAKE				"Bake";
+	IDS_TL_M_DELETEFRAME		"Delete every nth Key";
+	IDS_TL_M_RIDGE				"Ridge";
+	IDS_TL_M_RAMPUP				"Ramp up";
+	IDS_TL_M_RAMPDOWN			"Ramp down";
+
+	IDS_TL_M_SELALLOBJ			"Select All Objects";
+	IDS_TL_M_SELALLELEMENTS		"Select All Keys/Clips";
+	IDS_TL_M_DESELALLELEMENTS	"Deselect All Keys/Clips";
+	IDS_TL_M_INVERTSELOBJ		"Invert Object Selection";
+	IDS_TL_M_INVERTSELELEMENTS	"Invert Key/Clip Selection";
+	IDS_TL_M_SELKEYFROMTODLG	"Select Range...";
+
+	IDS_TL_M_FRACTIVEFRAME		"Go to Current Frame";
+	IDS_TL_M_FRSEL				"Frame Selected";
+	IDS_TL_M_FRSTART			"Go to Start";
+	IDS_TL_M_FREND				"Go to End";
+	IDS_TL_M_FRFROMTODLG		"Frame Range...";
+	IDS_TL_M_FRGLOBALTIME		"Frame Project Settings";
+	IDS_TL_M_FRMARKER			"Go to Marker";
+	IDS_TL_M_FRRIGHTMAR			"Go to Next Marker";
+	IDS_TL_M_FRLEFTMAR			"Go to Previous Marker";
+	IDS_TL_M_FRNEXTKEY			"Go to Next Keys/Motion Clip";
+	IDS_TL_M_FRPREVKEY			"Go to Previous Key/Motion Clip";
+	IDS_TL_M_FRPREVIEW			"Frame Preview Range";
+	IDS_TL_M_SETPREVSEL			"Set Preview to Selection";
+	IDS_TL_M_SETPREVFT			"Set Preview Range";
+	IDS_TL_M_SETPREVLT			"Set Preview to View";
+	IDS_TL_M_PLAYBACK			"Playback";
+	IDS_TL_M_GRIDSUB			"Subframes";
+	IDS_TL_M_GRID1				"Fine";
+	IDS_TL_M_GRID2				"Middle";
+	IDS_TL_M_GRID3				"Per Second";
+	
+	IDS_TL_M_FOLDALL			"Fold All";
+	IDS_TL_M_UNFOLDALL			"Unfold All";
+	IDS_TL_M_FOLDSELECTED		"Fold Selected";
+	IDS_TL_M_UNFOLDSELECTED		"Unfold Selected";
+	IDS_TL_M_BAKEOBJ			"Bake Objects";
+	IDS_TL_M_TRACKSPLINE		"Position Track to Spline";
+	IDS_TL_M_SPLINETRACK		"Spline to Position Track";
+
+	IDS_TL_M_REMOVESELOBJ		"Remove Selected Objects";
+	IDS_TL_M_REMOVEALLOBJ		"Remove All Objects";
+	IDS_TL_M_REMOVEFROMLAYER	"Remove from Layer";
+	IDS_TL_M_SETMARKERLT		"Create Markers at View Boundary";
+	IDS_TL_M_SETMARKERCT		"Create Marker at Current Frame";
+	IDS_TL_M_DELALLMARKER		"Delete All Markers";
+
+	IDS_TL_M_ADDTOLAYER			"Add to Layer";
+
+	IDS_TL_M_FUNCTIONS			"Function";
+
+	IDS_TL_M_SOFT				"Soft";
+	IDS_TL_M_LINEAR				"Linear";
+	IDS_TL_M_STEP				"Step";
+
+	IDS_TL_M_MIRRORX			"Mirror X";
+	IDS_TL_M_MIRRORY			"Mirror Y";
+	IDS_TL_M_SIMPLIFYCUR		"Simplify Curve";
+	IDS_TL_M_SHOWTANG			"Show All Tangents";
+
+	IDS_TL_M_SNAP				"Enable Snap";
+
+	IDS_TL_R_SUBMENU1				"Spline Types";
+
+	IDS_TL_R_SUBMENUOBJ1			"Before";
+	IDS_TL_R_SUBMENUOBJ2			"After";
+
+	IDS_TL_M_FCSHOWALL		"Show All Tracks";
+	IDS_TL_M_AUTORELATIVE	"Auto Relative";
+	IDS_TL_M_RESETRELATIVE	"Reset Relative";
+	IDS_TL_M_FORMULA		"Formula";
+
+	IDS_TL_STATUS_CURRFRAME	"Current Frame";
+	IDS_TL_STATUS_PREVIEW	"Preview";
+	IDS_TL_STATUS_SELECTION	"Selection";
+	IDS_TL_LOOPSHORT		"LC";
+	IDS_UNTRIMMED			"Org Time";
+
+	IDS_TL_VECTOR			"Vector";
+
+	IDS_TL_B_KEY      "Key/F-Curve/Motion Mode";
+	IDS_TL_SWITCHFC		"F-Curve Mode";
+	IDS_TL_SWITCHKEY	"Dope Sheet";
+	IDS_TL_SWITCHMOTION	"Motion Mode";
+
+	IDS_TL_M_SHOWATIVELAYER	"Show Only Active Animation Layer";
+	IDS_TL_M_LINKSELECTION	"Link TL/OM Selection";
+	IDS_TL_M_CLEANTRACKS	"Clean Tracks";
+
+	IDS_TL_M_ADDTRACKS			"Add Tracks";
+	IDS_TL_M_ADDPROPERTYTRACKS	"Add Property Tracks";
+	IDS_TL_M_ADDPLUGINTRACKS	"Add Special Tracks";
+
+	IDS_TL_M_ADDKEYATDLG	"Add Key At...";
+	IDS_TL_M_DELETEFRAMEDLG	"Delete every nth Frame...";
+	IDS_TL_M_DELETEFROMTODLG	"Delete Frames...";
+	IDS_TL_M_SETPREVFROMTODLG	"Set Preview Range...";
+	IDS_TL_M_SIMPLIFYDLG		"Simplify...";
+	IDS_TL_M_FORMULADLG			"Formula...";
+
+	IDS_TL_M_BAKEDLG			"Bake Objects...";
+
+	IDS_TL_M_QUANTIZE		"Quantize Selection";
+	IDS_TL_M_DELETEFROMTO	"Delete Frames";
+	IDS_TL_M_SETMARKERSELECTION	"Set Marker to Selection";
+
+	IDS_TL_M_ICONSIZE1	"Small Icons";
+	IDS_TL_M_ICONSIZE2	"Medium Icons";
+	IDS_TL_M_ICONSIZE3	"Large Icons";
+
+	IDS_TL_M_SHOWPATH	"Show Path Bar";
+	IDS_TL_M_SHOWSEARCH	"Show Search Bar";
+	IDS_TL_M_SHOWFILTER	"Show Filter";
+	IDS_TL_M_SHOWSOURCE	"Show Motion Sources";
+
+	IDS_TL_M_SETPATH	"Set as Root";
+	IDS_TL_M_MAINPATH	"Go to Main Level";
+	IDS_TL_M_UPPATH		"One Level Up";
+
+	IDS_TL_M_BOOKADD	"Add Bookmark";
+	
+	IDS_TL_PATHTEXT		"Path";
+
+	IDS_TL_M_LINKPREVIEW	"Link View with Preview Range";
+	IDS_TL_M_AUTOMATICMODE	"Automatic Mode";
+	IDS_TL_M_SHOWTANGENTCURVE	"Show Tangent of Selected Curves";
+	IDS_TL_M_MAYASTYLELINKING	"One Directional Selection Linking";
+	IDS_TL_M_SNAPSET		"Snap";
+	IDS_TL_M_ADDKEYAT		"Add the Key At";
+	IDS_TL_M_FRFROMTO		"Frame the View From/To";
+	IDS_TL_M_SELKEYFROMTO	"Select the Keys From/To";
+	IDS_TL_M_LOCKRATIO		"Lock Ratio";
+	IDS_TL_M_PLAY			"Play forward";
+	IDS_TL_M_ACTIVETAKE		"Show Only Active Take";
+	IDS_TL_M_BREAKDOWNCOLOR		"Breakdown Color";
+
+	IDS_TL_M_LAYERS		"Layers";
+
+	IDS_TL_SHOW			"Show";
+	IDC_TL_DYNMARKER	"Frame Marker";
+	IDC_TL_ADDTOLAYER	"Add to Layer";
+	IDS_TL_M_BOOKMARKS	"Bookmarks";
+	IDS_TL_M_DELSEARCH	"Delete Search";
+	IDC_TL_DYNSOUND		"Sounds";
+	IDS_TL_ALL			"All";
+
+	IDS_TL_M_DYNMARKER "Frame Marker";
+	IDS_TL_M_DYNSOUND	"Sounds";
+	IDS_WORLD_TL_HOOK	"Key Interpolation";
+	IDS_WORLD_TODO_HOOK	"To Do";
+	IDS_TODOTAG			"To Do";
+	IDS_TODO_CUSTOMGUI	"ToDo CustomGUI";
+	IDS_TODO_CUSTOMDATA	"ToDo CustomGUIData";
+	IDS_TODO_FRAME		"Frame";
+
+	IDS_FROM			"Start";
+	IDS_TO				"End";
+
+	IDS_OM_FEXISTS					"The specified name already exists.|Do you want to overwrite the existing file?";
+
+	IDS_TAKE_FILE_EXIST			"Some of specified name already exists.|Do you want to overwrite the existing files?";
+	IDS_TAKE_ANIMATED				"Animated";
+	IDS_LAYER_MODE					"Layer";
+
+	IDS_TL_M_QUANTIZEINTERACTION	"Enable Frame Snapping";
+
+	IDS_TL_M_FRFIRSTKEY		"Go to First Key/Motion Clip";
+	IDS_TL_M_FRLASTKEY		"Go to Last Key/Motion Clip";
+	IDS_TL_M_FRFIRSTMARKER	"Go to First Marker";
+	IDS_TL_M_FRLASTMARKER	"Go to Last Marker";
+
+	IDS_TL_M_VELOCITY		"Show Velocity";
+
+	IDS_DOCUMENT			"Project";
+	IDS_MARKER_HOOK			"Marker Hook";
+
+	IDS_TL_M_HIDESEL	"Hide Selected Elements";
+	IDS_TL_M_HIDEDESEL	"Hide Unselected Elements";
+	IDS_TL_M_UNHIDEALL	"Unhide All";
+
+	IDS_TL_M_LINKSM		"Link View to Object Manager";
+
+	IDS_TL_M_REGCUT		"Cut Keys/Motion Clips";
+	IDS_TL_M_REGPASTE	"Paste Keys/Motion Clips";
+	IDS_TL_M_REGCOPY	"Copy Key/Motion Clips";
+	IDS_TL_M_MUTE		"Key Mute";
+
+	IDS_TL_M_UNMUTE_OLD		"Key Unmute";
+	IDS_TL_M_REGROLLRIPPLE	"Ripple Edit";
+
+	IDS_TL_M_CYCLE			"Cycle";
+	
+	IDS_TL_M_CYCLEDLG		"Cycle...";
+
+	IDS_TL_M_SHOWSOUND		"Show Soundwave";
+	IDS_TL_M_COPY_TANGENT 	"Copy Ease";
+	IDS_TL_M_PASTE_TANGENT 	"Paste Ease";
+
+	IDS_TL_M_EASEIN			"Ease In";
+	IDS_TL_M_EASYEASE		"Ease Ease";
+	IDS_TL_M_EASEOUT		"Ease Out";
+	IDS_TL_M_UNIFY			"Unify";
+
+	IDS_TL_M_TRIMBEFORE		"Trim Before";
+	IDS_TL_M_TRIMAFTER		"Trim After";
+
+	IDS_TL_M_NEWLAYER		"Add to New Layer";
+
+	IDS_TL_M_TOLERANTSELECTION	"Tolerant Selection";
+	IDS_TL_M_SHOWTRACKVALUES	"Show Track Values";
+	IDS_TL_M_ENABLEPREVIEW		"Show Preview Range";
+	IDS_TL_M_SHOWMINMAX			"Show Min/Max Values";
+
+	IDS_TL_M_SNAPSHOT1ON	"View Snapshot 1";
+	IDS_TL_M_SNAPSHOT1MAKE	"Create Snapshot 1";
+	IDS_TL_R_SNASHOT1SWAP	"Swap Snapshot 1";
+
+	IDS_TL_M_SNAPSHOT2ON	"View Snapshot 2";
+	IDS_TL_M_SNAPSHOT2MAKE	"Create Snapshot 2";
+	IDS_TL_R_SNASHOT2SWAP	"Swap Snapshot 2";
+
+	IDS_TL_M_SNAPSHOT3ON	"View Snapshot 3";
+	IDS_TL_M_SNAPSHOT3MAKE	"Create Snapshot 3";
+	IDS_TL_R_SNASHOT3SWAP	"Swap Snapshot 3";
+
+	IDS_TL_M_SNAPSHOT4ON	"View Snapshot 4";
+	IDS_TL_M_SNAPSHOT4MAKE	"Create Snapshot 4";
+	IDS_TL_R_SNASHOT4SWAP	"Swap Snapshot 4";
+
+	IDS_TL_M_SNAPSHOT5ON	"View Snapshot 5";
+	IDS_TL_M_SNAPSHOT5MAKE	"Create Snapshot 5";
+	IDS_TL_R_SNASHOT5SWAP	"Swap Snapshot 5";
+
+	IDS_TL_M_ARROWLEFT	"Move Key/Motion Clip Left";
+	IDS_TL_M_ARROWRIGHT	"Move Key/Motion Clip Right";
+
+	IDS_TL_M_NOGRID		"No Grid";
+
+	IDS_TL_M_SHOWKEYSSELECTED		"Show Keys of Selected Curves";
+	IDS_TL_M_SHOWTANGENTSELECTED	"Show Tangents of Selected Keys";
+
+	IDS_TL_M_SHOWKEYS			"Show All Keys";
+	IDS_TL_M_MENUSLOPELENGTH	"Reset Tangents";
+
+	IDS_TL_M_MOVESEQCURVE		"Move Sequence/Curve";
+	IDS_TIMETRACK				"Time Track";
+	IDS_DEFAULTTRACK			"Track";
+
+	IDS_TL_M_RESETBOOKMARK "Default Bookmark";
+
+	IDS_TL_M_SOUND2DDLG	"2D Sound Rendering...";
+
+	IDS_TL_M_LOCKTIME		"Lock Time";
+	IDS_TL_M_LOCKVALUE		"Lock Value";
+	IDS_TL_M_AUTO			"Auto Tangents - Classic";
+	IDS_TL_M_BREAK			"Break Tangents";
+	IDS_TL_M_ZEROLOPE		"Zero Angle (Tangent)";
+	IDS_TL_M_ZEROLENGTH		"Zero Length (Tangent)";
+	IDS_TL_M_LOCKSLOPE		"Lock Tangent Angles";
+	IDS_TL_M_LOCKLENGTH		"Lock Tangent Length";
+	IDS_TL_M_CLAMP			"Clamp";
+
+	IDS_TL_M_KEYREDUCERDLG	"Key Reducer...";
+	IDS_TL_M_KEYREDUCER		"Key Reducer";
+	IDS_TL_M_HLERESETDLG	"Reset RM Curve...";
+
+	IDS_TL_M_ADDFROMTO		"Insert Frames";
+	IDS_TL_M_BREAKDOWN		"Breakdown";
+	IDS_TL_M_RBOFF			"Off Before";
+	IDS_TL_M_RBCONSTANT		"Constant Before";
+	IDS_TL_M_RBCONTINUE		"Continue Before";
+	IDS_TL_M_RBREPEAT		"Repeat Before";
+	IDS_TL_M_RBOFFSETREPEAT	"Offset Repeat Before";
+	IDS_TL_M_RBOSCILLATE	"Oscillate Before";
+	IDS_TL_M_RAOFF			"Off After";
+	IDS_TL_M_RACONSTANT		"Constant After";
+	IDS_TL_M_RACONTINUE		"Continue After";
+	IDS_TL_M_RAREPEAT		"Repeat After";
+	IDS_TL_M_RAOFFSETREPEAT	"Offset Repeat After";
+	IDS_TL_M_RAOSCILLATE	"Oscillate After";
+	IDS_TL_M_HLEMODE		"Reduced Modification Mode";
+	IDS_TL_M_HLE_MODNOCURVE	"No Curve Edit";
+	IDS_TL_M_HLE_CURVE		"Curve";
+	IDS_TL_M_HLE_MOVE		"Move";
+	IDS_TL_M_HLE_SCALE		"Scale";
+	IDS_TL_M_HLE_RESET		"Reset RM Curve";
+	IDS_TL_M_DELREGION		"Delete all Regions";
+
+	IDS_TL_M_MOVESCALEDLG	"Move/Scale...";
+	IDS_TL_M_MOVESCALE		"Move/Scale";
+
+	IDS_TL_M_PREPOSTON		"Show Before/After Curve";
+
+	IDS_TL_M_BAKECLIPS		"Bake Clips";
+	IDS_TL_M_CONVLAYERTOKEY	"Convert Layer to Keyframe Animation";
+
+	IDS_TL_M_SETCONSTANT	"Set Constant Velocity";
+	IDS_TL_M_DELCONSTANT	"Reset Constant Velocity";
+
+	IDS_TL_M_UNIFYTANGENT_L	"Unify Tangent Length";
+	IDS_TL_M_UNIFYTANGENT_A	"Unify Tangent Angle";
+
+	IDS_TL_M_KEEPANGLE		"Keep Visual Angle";
+
+	IDS_TL_M_NEWCLIP		"Add Motion Clip with Animation";
+	IDS_TL_M_NEWEMPTYLAYER	"Add Motion Layer";
+	IDS_TL_M_NEWMOTIONLAYER	"Add Motion Layer with Animation";
+
+	IDS_TL_M_CONVERTTOCLIP	"Convert to Motion Clip";
+	IDS_TL_M_NEWEMPTYCLIP	"Add Motion Clip";
+
+	IDS_TL_M_CONVERTTOSOURCE	"Convert to Motion Source";
+	IDS_TL_M_MOTIONINTL			"Show in Dope Sheet";
+	IDS_TL_M_MOTIONINFC			"Show in F-Curve Mode";
+	IDS_TL_M_MAKETRANSITION		"Make Transition";
+	IDS_TL_M_MAKECUTCONNECT		"Cut/Connect";
+	IDS_TL_M_MAKECOMPOUND		"Add Compound Motion Clip";
+	IDS_TL_M_MOTIONMOVEKEY		"Move Keys with Motion Clip";
+	IDS_TL_M_MTREMOVEMC			"Remove Motion Clips after Compound Creation";
+	IDS_TL_M_CREATECLIP			"Add Motion Clip";
+	IDS_TL_M_MOTIONVIEW			"Config Motion View";
+
+	IDS_TL_M_MTTLMOTION			"Add Motion";
+	IDS_TL_M_MTTLNEWSOURCE		"Add Motion Source";
+	IDS_TL_M_CLIPTOSOURCE		"Convert Motion Clip to Motion Source";
+
+	IDS_TL_M_CONVTOCLIPLAYER	"Convert to Motion Clip";
+
+	IDS_TL_M_FCINTERACTIONINLAYER	"F-Curve Interaction in Motion Layer";
+	IDS_TL_M_SHOWANIMATIONLAYER		"Show Animation Layer";
+
+	IDS_TL_M_NEWCLIPDLG		"Add Motion Clip at...";
+	IDS_TL_M_MOTIONVIEWDLG	"Motion View...";
+
+	IDS_MT_COPYSOURCEDLG	"Copy Motion Source...";
+	IDS_MT_ADDPICTURE		"Add Picture to Motion Source";
+
+	IDS_MT_MAKEANILAYERREL	"Add Relative Animation Layer";
+	IDS_MT_MAKEANILAYERABS	"Add Absolute Animation Layer";
+	IDS_MT_SOURCEFROMTODLG	"Add Motion Clip...";
+
+	IDS_TL_M_ADDFROMTODLG "Insert Frames...";
+	IDS_TL_M_ASCII 		"ASCII Animation Import...";
+	IDS_PLUGIN_DESCR	"Import ASCII files into the timeline";
+	IDS_HEADLINE		"File";
+	IDS_FINISHED		"Import was sucessful.";
+	IDS_INFO1			"Too many characters in the special character field.";
+	IDS_INFO2			"Wrong file format";
+	IDS_INFO3			"Problems: line:";
+	IDS_INFO4			"value:";
+	IDS_INFO5			"To many values in line";
+	IDS_INFO6			"Not enough values in line";
+
+	IDS_MT_STR_ACTIVE	    "Active";
+	IDS_MT_STR_MIXING		"Mixing";
+	IDS_MT_STR_ADDITATIV	"Relative";
+	IDS_MT_STR_OVERWRITE	"Absolute";
+
+	IDS_MT_STR_DEFAULT	"Default Layer ";
+
+	IDS_MT_PRESET		"Motion Source Preset";
+	IDS_PV_PRESET		"Filter Preset";
+	IDS_PRESET_EXISTS   "# already exists. Overwrite?";
+
+	//Cathleen end
+
+	// PowerSlider
+	IDS_PSLIDER_MANAGER				"Time Scrollbar";
+	IDS_PSLIDER_OPTIONS				"Options";
+	IDS_PSLIDER_EDIT				"Edit";
+	IDS_PSLIDER_CUT					"Cut";
+	IDS_PSLIDER_KILLMARKERS			"Delete Markers";
+	IDS_PSLIDER_COPY				"Copy";
+	IDS_PSLIDER_PASTE				"Paste";
+	IDS_PSLIDER_PASTEINPLACE		"Paste In Place";
+	IDS_PSLIDER_DELETE				"Delete";
+	IDS_PSLIDER_REVERSE				"Reverse Sequence";
+	IDS_PSLIDER_SELALL				"Select All";
+	IDS_PSLIDER_SELNONE				"Deselect All";
+	IDS_PSLIDER_UNLINKTIME			"Unlink Time";
+	IDS_PSLIDER_USEFRAMES			"Use Time Format";
+	IDS_PSLIDER_RIPPLE				"Ripple Edit";
+	IDS_PSLIDER_SHOWSOUND			"Show Soundwave";
+	IDS_PSLIDER_SPLITOFF			"No Split";
+	IDS_PSLIDER_SPLITKEYS			"Split PSR Keys";
+	IDS_PSLIDER_SPLITVECTOR			"Split Vector Keys";
+	IDS_PSLIDER_INACTIVE			"Show Inactive Keys";
+	IDS_PSLIDER_TRIMTOSEQ			"Trim to Work Area";
+	IDS_PSLIDER_EXPANDTODOC			"Expand to Full Time";
+	IDS_PSLIDER_QUANTIZE			"Quantize";
+	IDS_PSLIDER_SHIFTLEFT			"Shift Left";
+	IDS_PSLIDER_SHIFTRIGHT			"Shift Right";
+	IDS_PSLIDER_FILL				"Fill";
+	IDS_PSLIDER_POPUP				"Time Scrollbar Popup";
+	IDS_PSLIDER_ADVANCED			"Advanced Mode";
+	IDS_PSLIDER_SOUNDMENU			"Sounds";
+
+	IDS_PSLIDER_LINEAR		"Linear";
+	IDS_PSLIDER_STEP		"Step";
+	IDS_PSLIDER_SPLINE		"Spline";
+	IDS_PSLIDER_SOFT		"Ease";
+	IDS_PSLIDER_EASEIN		"Ease In";
+	IDS_PSLIDER_EASEOUT		"Ease Out";
+	IDS_PSLIDER_EASEEASE		"Ease Ease";
+	IDS_PSLIDER_SPLINETYPES		"Spline Types";
+	// PowerSlider
+
+	IDS_SB_REMOVEPARENT		"Delete Without Children";
+	IDH_SB_REMOVEPARENT		"Delete Without Children";
+
+	IDS_OBJECTMANAGER_TIT  "Objects";
+	IDS_LAYERMANAGER_TIT	"Layers";
+
+	IDS_TL_M_SPLINETYPE	"Spline";
+
+	IDS_TL_HELP_NEWKEY				"Create New Key";
+	IDS_TL_HELP_REMOVE				"Delete unused Tracks";
+	IDS_TL_HELP_SPLINETYPE			"Set the key type to spline";
+	IDS_TL_HELP_REGIONTOOL			"Activate the Region tool (CTRL: region copy/region deselection, SHIFT: Create several regions/Move Region without keys, ALT: move all regions) ";
+	IDS_TL_HELP_REGROLLRIPPLE		"Activate the Ripple Tool";
+	IDS_TL_HELP_DELETE				"Delete Tracks/Keys/Layer/Clips";
+	IDS_TL_HELP_PREFS				"Open the Timeline Preference Dialog";
+	IDS_TL_HELP_REGCUT				"Cut all selected keys/clips";
+	IDS_TL_HELP_REGPASTE			"Paste keys/clips at the selected tracks/layer";
+	IDS_TL_HELP_REGCOPY				"Copy all selected keys/clips";
+	IDS_TL_HELP_FIT_ALWAYS 			"Always frame selected tracks";
+	IDS_TL_HELP_PASTE_IN_PLACE 	"Paste the copied tracks at the same time they were";
+	
+
+
+
+	IDS_TL_HELP_SELALLOBJ			"Select all objects";
+	IDS_TL_HELP_SELALLELEMENTS		"Select all keys/clips";
+	IDS_TL_HELP_DESELALLELEMENTS	"Deselect all keys/clips";
+	IDS_TL_HELP_INVERTSELOBJ		"Invert object selection";
+	IDS_TL_HELP_INVERTSELELEMENTS	"Invert key/clip selection";
+	IDS_TL_HELP_SELKEYFROMTO		"Select keys/clips from/to";
+
+	IDS_TL_HELP_FRACTIVEFRAME		"Frame the view to the current time";
+	IDS_TL_HELP_FRSEL				"Frame the view to all selected keys/clips";
+	IDS_TL_HELP_FRSTART				"Frame the view to the Project Start";
+	IDS_TL_HELP_FREND				"Frame the view to the Project End";
+	IDS_TL_HELP_FRGLOBALTIME		"Frame the view to the Project Settings";
+	IDS_TL_HELP_FRMARKER			"Frame the view to the selected marker";
+	IDS_TL_HELP_FRRIGHTMAR			"Frame the view to the next marker";
+	IDS_TL_HELP_FRLEFTMAR			"Frame the view to the previous marker";
+	IDS_TL_HELP_FRNEXTKEY			"Go to the next key/motion clips";
+	IDS_TL_HELP_FRPREVKEY			"Go to the previous key/motion clips";
+	IDS_TL_HELP_FRFIRSTKEY			"Go to the first key/motion clips";
+	IDS_TL_HELP_FRLASTKEY			"Go to the last key/motion clips";
+	IDS_TL_HELP_FRPREVIEW			"Frame the view to the preview range";
+	IDS_TL_HELP_SETPREVSEL			"Set the preview range to the current selection range";
+	IDS_TL_HELP_SETPREVFT			"Set the preview range";
+	IDS_TL_HELP_SETPREVLT			"Set the preview range to the view range";
+	IDS_TL_HELP_FIT					"Frame all";
+	IDS_TL_HELP_FRFROMTO			"Frame the view from/to";
+
+	IDS_TL_HELP_ANIMATEDONLY		"Shows only animated elements";
+	IDS_TL_HELP_LINKPREVIEW			"Link the view to the preview range";
+	IDS_TL_HELP_AUTOMATICMODE		"Shows automatically all project elements";
+	IDS_TL_HELP_ICONSIZE1			"Define Icon Size 1";
+	IDS_TL_HELP_ICONSIZE2			"Define Icon Size 2";
+	IDS_TL_HELP_ICONSIZE3			"Define Icon Size 3";
+	IDS_TL_HELP_SHOWPATH			"Display the path bar";
+	IDS_TL_HELP_SETPATH				"Set the Timeline Path (Display Entry Point)";
+	IDS_TL_HELP_MAINPATH			"Set the Timeline Path to the project level";
+	IDS_TL_HELP_UPPATH				"Set the Timeline Path on element up";
+	IDS_TL_HELP_SHOWSEARCH			"Display the search bar";
+	IDS_TL_HELP_SHOWFILTER			"Display the Filter Manager";
+	IDS_TL_HELP_SHOWANIMATIONLAYER	"Display the Animation Layer in the Motion Mode";
+	IDS_TL_HELP_SHOWSOURCE			"Display the Motion Source Manager";
+	IDS_TL_HELP_DELSEARCH			"Clean the search entry";
+	IDS_TL_HELP_TOLERANTSELECTION	"Enable/Disable tolerant selection";
+	IDS_TL_HELP_SHOWTRACKVALUES		"Display the track values in the object area";
+	IDS_TL_HELP_ENABLEPREVIEW		"Enable/Disable the preview";
+	IDS_TL_HELP_LINKSM				"Link Timeline display with the Object Manager";
+
+	IDS_TL_HELP_HIDESEL				"Hide all selected tracks/layer";
+	IDS_TL_HELP_HIDEDESEL			"Hide all deselected tracks/layer";
+	IDS_TL_HELP_UNHIDEALL			"Unhide all";
+
+	IDS_TL_HELP_REMOVESELOBJ		"Remove selected objects in individual mode";
+	IDS_TL_HELP_REMOVEALLOBJ		"Remove all objects in individual mode";
+
+	IDS_TL_HELP_FOLDALL				"Fold all elements";
+	IDS_TL_HELP_UNFOLDALL			"Unfold all elements";
+	IDS_TL_HELP_BAKEOBJ				"Bake the selected objects";
+	IDS_TL_HELP_TRACKSPLINE			"Convert animation path to spline";
+	IDS_TL_HELP_SPLINETRACK			"Convert spline to animation path";
+	IDS_TL_HELP_BAKE				"Bake";
+
+	IDS_TL_HELP_DELETEFRAME			"Delete every nth frame";
+	IDS_TL_HELP_QUANTIZE			"Quantize the selected track";
+	IDS_TL_HELP_DELETEFROMTO		"Delete a frame range";
+	IDS_TL_HELP_TRIMBEFORE			"Delete all keys/clips before the current time";
+	IDS_TL_HELP_TRIMAFTER			"Delete all keys/clips after the current time";
+
+	IDS_TL_HELP_ADDKEYAT			"Add key at the given time";
+	IDS_TL_HELP_MUTE				"Mute the selected keys";
+	IDS_TL_HELP_UNMUTE_OLD			"";
+
+	IDS_TL_HELP_SNAP				"Enable the snap settings";
+	IDS_TL_HELP_SNAPSET				"Set the snap settings";
+	IDS_TL_HELP_QUANTIZEINTERACTION	"Quantize all timeline interactions (e.g Move)";
+
+	IDS_TL_HELP_GRID1				"Display fine grid settings";
+	IDS_TL_HELP_GRID2				"Display middle grid settings";
+	IDS_TL_HELP_GRID3				"Display per second grid";
+	IDS_TL_HELP_GRID4_OLD			"";
+	IDS_TL_HELP_GRIDSUB				"Display sub frame grid";
+	IDS_TL_HELP_NOGRID				"Display no grid";
+	IDS_TL_HELP_SHOWMINMAX			"Display the Min/Max Values in the F-Curves";
+	IDS_TL_HELP_SHOWSOUND			"Displays the soundwave in the F-Curve mode";
+	IDS_TL_HELP_COPY_TANGENT "Copy the selected tangent's shape";
+	IDS_TL_HELP_PASTE_TANGENT "Paste the copied tangent's shape";
+	IDS_TL_HELP_FOLDSELECTED		"Folds all selected objects";
+	IDS_TL_HELP_UNFOLDSELECTED		"Unfolds all selected objects";
+	IDS_TL_HELP_SHOWTANGENTCURVE		"Shows all key tangents of selected curves";
+
+	IDS_TL_HELP_MAYASTYLELINKING		"One Directional Selection Linking - OM to TL";
+	IDS_TL_HELP_ACTIVETAKE					"Displays only the active objects and tracks in the TL depending on the take";
+	IDS_TL_HELP_BREAKDOWNCOLOR			"Sets a key as a Breakdown Color.";
+
+	IDS_TL_HELP_VELOCITY				"Show velocity in F-Curve mode";
+	IDS_TL_HELP_AUTORELATIVE			"Set all selected curves to auto relative";
+	IDS_TL_HELP_RESETRELATIVE			"Reset all selected curves from auto relative";
+	IDS_TL_HELP_SHOWKEYSSELECTED		"Display keys of selected curves";
+	IDS_TL_HELP_SHOWTANGENTSELECTED		"Display tangents of selected keys";
+	IDS_TL_HELP_FCSHOWALL				"Show all tracks in F-Curve mode";
+	IDS_TL_HELP_SHOWKEYS				"Show all keys";
+	IDS_TL_HELP_MOVESEQCURVE			"Move the sequence in Dope Sheet and the curve in F-Curve mode";
+	IDS_TL_HELP_FUNCTIONS				"Set the selected tracks to function";
+	IDS_TL_HELP_SOFT					"Set the selected keys to Soft interpolation type";
+	IDS_TL_HELP_LINEAR					"Set the selected keys to Linear interpolation";
+	IDS_TL_HELP_STEP					"Set the selected keys to Step interpolation";
+	IDS_TL_HELP_EASEIN					"Set the selected keys to Ease In interpolation type";
+	IDS_TL_HELP_EASYEASE				"Set the selected keys to Ease Ease interpolation type";
+	IDS_TL_HELP_EASEOUT					"Set the selected keys to Ease Out interpolation type";
+	IDS_TL_HELP_MIRRORX					"Mirror the selected keys/curve in X direction";
+	IDS_TL_HELP_MIRRORY					"Mirror the selected keys/curve in Y direction";
+	IDS_TL_HELP_SIMPLIFYCUR				"Simplify the selected curve";
+	IDS_TL_HELP_SHOWTANG				"Show all tangents in FCmode";
+	IDS_TL_HELP_MENUSLOPELENGTH			"Reset the tangents of selected keys";
+
+	IDS_TL_HELP_AUTO				"Set the selected keys to auto tangents";
+	IDS_TL_HELP_BREAK				"Set the selected keys to break tangents";
+	IDS_TL_HELP_LOCKTIME			"Set the selected keys to locked time";
+	IDS_TL_HELP_LOCKVALUE			"Set the selected keys to locked value";
+	IDS_TL_HELP_ZEROLOPE			"Set the selected keys tangents to zero angle";
+	IDS_TL_HELP_ZEROLENGTH			"Set the selected keys tangents to zero length";
+	IDS_TL_HELP_LOCKSLOPE			"Set the selected keys tangents to locked angle";
+	IDS_TL_HELP_LOCKLENGTH			"Set the selected keys tangents to locked length";
+	IDS_TL_HELP_CLAMP				"Set the selected keys to clamp";
+
+	IDS_TL_M_AUTOFIXED				"AutoTangent - Fixed Slope";
+	IDS_TL_M_TANGENTWEIGHTED		"Weighted Tangent";
+	IDS_TL_M_REMOVEOVERSHOOT		"Remove Overshooting";
+	IDS_TL_M_AUTOWEIGHT				"Automatic Weighting";
+
+	IDS_TL_M_EULERFILTERDLG			"Euler Filter...";
+	IDS_TL_M_EULERFILTER			"Euler Filter";
+
+	IDS_TL_HELP_AUTOFIXED			"Fixed Slope AutoTangent";
+	IDS_TL_HELP_TANGENTWEIGHTED		"Weighted Tangent";
+	IDS_TL_HELP_REMOVEOVERSHOOT		"Remove Overshooting";
+	IDS_TL_HELP_AUTOWEIGHT			"Automatic Weighting";
+	IDS_TL_HELP_EULERFILTER			"Minimize angle between the keys";
+
+	IDS_TL_HELP_FORMULA				"Set the selected tracks/curves to formula";
+	IDS_TL_HELP_RIDGE				"Set the selected tracks/curves to ridge";
+	IDS_TL_HELP_RAMPUP				"Set the selected tracks/curves to ramp up";
+	IDS_TL_HELP_RAMPDOWN			"Set the selected tracks/curves to ramp down";
+	IDS_TL_HELP_CYCLE				"Set the selected tracks/curves to cylce";
+
+	IDS_TL_HELP_SNAPSHOT1ON			"Enable snapshot 1";
+	IDS_TL_HELP_SNAPSHOT1MAKE		"Create snapshot 1 from current curve";
+	IDS_TL_HELP_SNASHOT1SWAP			"Swap snapshot 1 with current curve";
+
+	IDS_TL_HELP_NEWLAYER			"Create a new Motion Layer.";
+	IDS_TL_HELP_REMOVEFROMLAYER		"Remove the element from the Motion Layer";
+
+	IDS_TL_HELP_RESETBOOKMARK		"Reset all settings to the default bookmark";
+	IDS_TL_HELP_BOOKADD				"Add a bookmark with the current settings";
+
+	IDS_TL_HELP_SETMARKERLT			"Add markers at begin/end of visible range";
+	IDS_TL_HELP_SETMARKERCT			"Add marker at current time";
+	IDS_TL_HELP_DELALLMARKER		"Delete all markers";
+	IDS_TL_HELP_SETMARKERSELECTION	"Set the marker to the selection time";
+	IDS_TL_HELP_FRFIRSTMARKER		"Frame the first marker";
+	IDS_TL_HELP_FRLASTMARKER		"Frame the last marker";
+
+	//Button IDs
+	IDS_TL_HELP_KEY				"Change Key/F-Curve/Motion mode";
+	IDS_TL_HELP_UNIFY			"Set the selected keys to unify";
+	IDS_TL_HELP_KEYREDUCER		"Reduce keys of selected tracks/curves";
+
+	IDS_TL_HELP_LINKSELECTION	"Link selection of Timeline and Object Manager";
+	IDS_TL_HELP_CLEANTRACKS		"Remove redundant keys";
+
+	IDS_TL_HELP_SNAPSHOT2ON		"Enable snapshot 2";
+	IDS_TL_HELP_SNAPSHOT3ON		"Enable snapshot 3";
+	IDS_TL_HELP_SNAPSHOT4ON		"Enable snapshot 4";
+	IDS_TL_HELP_SNAPSHOT5ON		"Enable snapshot 5";
+
+	IDS_TL_HELP_SNAPSHOT2MAKE	"Create snapshot 2 from current curve";
+	IDS_TL_HELP_SNAPSHOT3MAKE	"Create snapshot 3 from current curve";
+	IDS_TL_HELP_SNAPSHOT4MAKE	"Create snapshot 4 from current curve";
+	IDS_TL_HELP_SNAPSHOT5MAKE	"Create snapshot 5 from current curve";
+
+	IDS_TL_HELP_SNASHOT2SWAP	"Swap snapshot 2 with current curve";
+	IDS_TL_HELP_SNASHOT3SWAP	"Swap snapshot 3 with current curve";
+	IDS_TL_HELP_SNASHOT4SWAP	"Swap snapshot 4 with current curve";
+	IDS_TL_HELP_SNASHOT5SWAP	"Swap snapshot 5 with current curve";
+
+	IDS_TL_HELP_ADDFROMTO		"Insert frames from/to";
+	IDS_TL_HELP_BREAKDOWN		"Set the selected keys to relative";
+	IDS_TL_HELP_RBOFF			"Set the track before setting to off";
+	IDS_TL_HELP_RBCONSTANT		"Set the track before setting to constant";
+	IDS_TL_HELP_RBCONTINUE		"Set the track before setting to continue";
+	IDS_TL_HELP_RBREPEAT		"Set the track before setting to repeat";
+	IDS_TL_HELP_RBOFFSETREPEAT	"Set the track before setting to offset repeat";
+	IDS_TL_HELP_RBOSCILLATE		"Set the track before setting to oscillate";
+	IDS_TL_HELP_RAOFF			"Set the track after setting to off";
+	IDS_TL_HELP_RACONSTANT		"Set the track after setting to constant";
+	IDS_TL_HELP_RACONTINUE		"Set the track after setting to continue";
+	IDS_TL_HELP_RAREPEAT		"Set the track after setting to repeat";
+	IDS_TL_HELP_RAOFFSETREPEAT	"Set the track after setting to offset repeat";
+	IDS_TL_HELP_RAOSCILLATE		"Set the track after setting to oscillate";
+	IDS_TL_HELP_HLEMODE			"Enable the reduced modification curve (RMC) mode";
+	IDS_TL_HELP_HLE_MODNOCURVE	"Modify on the RMC curve and not the original curve";
+	IDS_TL_HELP_HLE_CURVE		"Display the RMC curve calculated from the original curve";
+	IDS_TL_HELP_HLE_MOVE		"Display the RMC move curve";
+	IDS_TL_HELP_HLE_SCALE		"Display the RMC scale curve";
+	IDS_TL_HELP_HLE_RESET		"Reset the selected RMC curve";
+	IDS_TL_HELP_PREPOSTON		"Display the before/after curve";
+	IDS_TL_HELP_MOVESCALE		"Move/Scale the selected keys";
+	IDS_TL_HELP_ARROWLEFT		"With the left arrow all selected keys are moved one frame to the left";
+	IDS_TL_HELP_ARROWRIGHT		"With the right arrow all selected keys are moved one frame to the right";
+	IDS_TL_HELP_DELREGION		"Delete all regions in region mode";
+
+	IDS_TL_HELP_NEWCLIP			"Create new motion clip with motion source";
+	IDS_TL_HELP_NEWEMPTYLAYER	"Create new motion layer";
+	IDS_TL_HELP_NEWMOTIONLAYER	"Create new motion layer with motion source";
+	IDS_TL_HELP_NEWEMPTYCLIP	"Create new motion clip";
+
+	IDS_TL_HELP_CONVERTTOSOURCE	"Convert clips to new source";
+	IDS_TL_HELP_MOTIONINTL		"Show motion in key view";
+	IDS_TL_HELP_MOTIONINFC		"Show motion in F-Curve view";
+	IDS_TL_HELP_MAKETRANSITION	"Create transition between 2 mclips in the layer track";
+	IDS_TL_HELP_MAKECUTCONNECT	"Cut/Connect/Trim  motion clips (SHIFT: Trim Before, CTRL: Trim After)";
+	IDS_TL_HELP_MAKECOMPOUND	"Create compound clip of the selected mclips";
+	IDS_TL_HELP_MOTIONMOVEKEY	"Move keys in layer track with clip move";
+	IDS_TL_HELP_MTREMOVEMC		"Remove original clips after compound clip creation";
+	IDS_TL_HELP_CREATECLIP		"Create new mclip";
+	IDS_TL_HELP_MOTIONVIEW		"Display the motion mode settings";
+	IDS_TL_HELP_MTTLMOTION		"Create new motion depending on the timeline selection";
+	IDS_TL_HELP_MTTLNEWSOURCE	"Create new source depending on the timeline selection";
+	IDS_TL_HELP_CLIPTOSOURCE	"Convert new motion source from selected motion clips";
+
+	IDS_TL_HELP_SWITCHFC		"Switch to F-Curve Mode";
+	IDS_TL_HELP_SWITCHKEY		"Switch to Dope Sheet";
+	IDS_TL_HELP_CONVTOCLIPLAYER	"Convert to motion clip";
+	IDS_TL_HELP_SWITCHMOTION	"Switch to Motion Mode";
+	IDS_TL_HELP_SHOWATIVELAYER	"Show the active Layer in the Timeline";
+	IDS_TL_HELP_FCINTERACTIONINLAYER	"F-Curve Interaction in Motion Mode";
+	
+	IDS_TL_HELP_SNAPSETDLG		"Open the snap settings dialog";
+	IDS_TL_HELP_SELKEYFROMTODLG	"Open the select keys from/to dialog";
+	IDS_TL_HELP_FRFROMTODLG		"Open the frame from/to dialog";
+	IDS_TL_HELP_ADDKEYATDLG		"Open the add key dialog";
+	IDS_TL_HELP_DELETEFRAMEDLG	"Open the delete every nth frame dialog";
+	IDS_TL_HELP_DELETEFROMTODLG	"Open the delete from/to dialog";
+
+	IDS_TL_HELP_SETPREVFROMTODLG	"Open the set preview dialog";
+	IDS_TL_HELP_ADDFROMTODLG		"Open the add frame from/to dialog";
+	IDS_TL_HELP_SIMPLIFYDLG			"Open the simplify dialog";
+	IDS_TL_HELP_FORMULADLG			"Open the formula dialog";
+	IDS_TL_HELP_CYCLEDLG			"Open the cycle dialog";
+	IDS_TL_HELP_SOUND2DDLG			"Open the sound 2D rendering dialog";
+	IDS_TL_HELP_SOUND3DDLG			"Open the sound 3D rendering dialog";
+	IDS_TL_HELP_KEYREDUCERDLG		"Open the Key Reducer dialog";
+	IDS_TL_HELP_HLERESETDLG			"Open the reset RMC dialog";
+	IDS_TL_HELP_MOVESCALEDLG		"Open the move/scale dialog";
+	IDS_FILTER_SELECT				"Select all '#'";
+	IDS_FILTER_DESELECT				"Deselect all '#'";
+
+	IDS_TL_HELP_BAKECLIPS		"Bake Clips";
+	IDS_TL_HELP_CONVLAYERTOKEY	"Convert Layer to Keyframes";
+
+	IDS_TL_HELP_SETCONSTANT		"Set the track to constant velocity";
+	IDS_TL_HELP_DELCONSTANT		"Delete the constant velocity on a track";
+
+	IDS_TL_HELP_UNIFYTANGENT_L	"Unifies the tangent length of the selected keys";
+	IDS_TL_HELP_UNIFYTANGENT_A	"Unifies the tangent angle of the selected keys";
+
+	IDS_TL_HELP_KEEPANGLE		"Keeps the visual angle between broken tangents";
+
+	IDS_TL_HELP_MOTIONFROMTODLG		"Open the create motion source from/to dialog";
+	IDS_TL_HELP_NEWCLIPDLG			"Open the create motion clip dialog";
+	IDS_TL_HELP_MOTIONVIEWDLG		"Open the motion mode settings";
+
+	IDS_TL_HELP_LOCKRATIO			"Lock the aspect ratio in the F-Curve mode";
+	IDS_TL_HELP_PLAY					"Play Forward";
+
+	//NLA begin
+	IDS_MT_SAVEALLSOURCE	"Save All Motion Sources As...";
+	IDS_MT_SAVESOURCE		"Save Motion Source As...";
+	IDS_MT_LOADSOURCE		"Load Motion Source...";
+	IDS_MT_RESETSOURCE		"Reset Motion Source Length";
+	IDS_MT_MAKE				"Create Motion";
+	IDS_MT_OPTIMIZE			"Clean Motion Source";
+
+	IDS_MT_OPENBROWSER	"Open Motion Source Preset...";
+	IDS_MT_SAVEBROWSER	"Save Motion Source Preset...";
+
+	IDS_MT_MAKEMOTIONLAYER		"Add Empty Motion Layer";
+
+	IDS_MT_GROUP			"Group Motion Source";
+	IDS_MT_UNGROUP			"Ungroup Motion Source";
+
+	IDS_MT_TAG				"Motion System";
+	IDS_MT_LAYER			"Motion Layer";
+	IDS_MT_LAYERANIM		"Animation Layer";
+	IDS_MT_CLIP				"Motion Clip";
+
+	IDS_MT_SOURCESTRUCT		"Motion Source Group";
+
+	IDS_MT_CLIPNAME			"Motion Clip";
+	IDS_MT_SOURCENAME1		"s";
+	IDS_MT_SOURCENAME2		"Motion Source";
+	IDS_MT_SOURCENAMECOPY	"Copy";
+	IDS_MT_LAYERNAME		"Layer";
+
+	IDS_MT_NOSOURCE			"No Motion Source";
+	IDS_MT_COMPOUND			"Compound Clip";
+
+	IDS_MT_SOURCECUSTOMGUI	"Motion Source Custom Gui";
+	IDS_MT_SOURCECUSTOMDATA "Motion Source Custom Data";
+
+	IDS_MT_BITMAPARRAYDATA	"Bitmap Array Data";
+	IDS_MT_BITMAPARRAYRENDERDATA "Motion Source Render Data";
+
+	IDS_MT_DISABLEMOTION	"Use Motion System";
+
+	IDS_MT_DELETEUNUSED		"Delete Unused Motion Sources";
+	IDS_MT_MAKESOURCE		"Store Animation in Source";
+
+	IDS_MT_COPYSOURCE		"Copy Motion Source";
+
+	IDS_SOURCEMAN		"Motion Sources";
+
+	IDS_HELP_DISABLEMOTION	"Disable the motion system";
+	IDS_HELP_MAKE			"Create new motion depending on the OM selection";
+	IDS_HELP_MAKESOURCE		"Create new source depending on the OM selection";
+	IDS_HELP_OPTIMIZE		"Optimize all motion source";
+	IDS_HELP_DELETEUNUSED	"Delete all Unused motion sources in project";
+	IDS_HELP_COPYSOURCE		"Copy the selected motion source";
+	IDS_HELP_SOURCEFROMTODLG	"Open the motion source dialog and create new source depending on the OM selection";
+
+	IDS_HELP_COPYSOURCEDLG	"Copy the selected motion source";
+	IDS_HELP_ADDPICTURE		"Add a self defined picture to the motion source";
+
+	IDS_HELP_MAKEANILAYERREL		"Create Relative Animation Layer";
+	IDS_HELP_MAKEANILAYERABS		"Create Absolute Animation Layer";
+	IDS_HELP_MAKEMOTIONLAYER	"Create a Motion Layer";
+
+	IDS_HELP_LOADSOURCE			"Load motion source in source manager";
+	IDS_HELP_SAVESOURCE			"Save motion source in source manager";
+	IDS_HELP_SAVEALLSOURCE		"Save all sources from Project";
+
+	IDS_HELP_GROUP				"Create a group from the selected motion source";
+	IDS_HELP_UNGROUP			"Ungroup the selected motion source";
+
+	IDS_HELP_SOUND2DDLG			"Open the 2D Sound Rendering Dialog.";
+
+	IDS_HELP_SNAPSETDLG			"Open the Snap Settings dialog to define your snap properties.";
+	IDS_HELP_SELKEYFROMTODLG	"Open the Select Keys dialog and select the keys of the selected tracks.";
+	IDS_HELP_FRFROMTODLG		"Open the Frame from/to dialog and frame the current TL view.";
+	IDS_HELP_ADDKEYATDLG		"Open the Add Key dialog and add keys to the selected tracks.";
+	IDS_HELP_DELETEFRAMEDLG		"Open the Delete every nth Frame dialog and every nth frame in the selected tracks.";
+	IDS_HELP_DELETEFROMTODLG	"Open the Delete Frames dialog and delete the defined range.";
+	IDS_HELP_SETPREVFROMTODLG	"Open the Set Preview dialog and define the preview range.";
+	IDS_HELP_ADDFROMTODLG		"Open the Add from/to dialog to insert empty frames.";
+	IDS_HELP_SIMPLIFYDLG		"Open the Simplify dialog and simplify the selected cuves.";
+	IDS_HELP_FORMULADLG			"Open the Formula dialog and set the curve of the selected tracks depending on the formula.";
+	IDS_HELP_CYCLEDLG			"Open the Cycle dialog and cycle the selected keys.";
+	IDS_HELP_KEYREDUCERDLG		"Open the Key Reducer and reduce keys of the selected tracks.";
+	IDS_HELP_HLERESETDLG		"Open the Reset HLE dialog to reset the selected HLE cuves.";
+	IDS_HELP_MOVESCALEDLG		"Open the Move Scale dialog and move/scale all selected keys.";
+	IDS_HELP_MOTIONFROMTODLG	"Open the Create Motion dialog and and add a motions to the first selected element in the TL.";
+	IDS_HELP_NEWCLIPDLG			"Open the New Clip dialog and add new clips to all selected layers in the TL.";
+	IDS_HELP_MOTIONVIEWDLG		"Open the Motion View dialog for define the Motion view properties.";
+	IDS_HELP_BAKEDLG			"Open the Bake dialog and bake all selected objects in the TL.";
+	IDS_HELP_EULERFILTERDLG		"Open the Euler Filter dialog and apply different functions to selected object rotation according to time range";
+
+	IDS_HELP_RESETSOURCE		"Reset motion source Length";
+
+	IDS_DELTA					"\u0394";
+	IDS_FC						"F-Curve Mode";
+	IDS_KEY						"Dope Sheet";
+	IDS_MOTION					"Motion Mode";
+
+	IDS_MT_SOURCE_SOURCENAME	"Name";
+	IDS_MT_SOURCE_SOURCEPIC		"Picture";
+	IDS_MT_SOURCE_SOURCESTART	"Start";
+	IDS_MT_SOURCE_SOURCEEND		"End";
+	IDS_MT_SOURCE_SOURCELENGTH	"Length";
+
+	//NLA end
+
+	IDS_NEWTL_M_FILE	"Create";
+	IDS_NEWTL_M_EDIT	"Edit";
+	IDS_NEWTL_M_SELECTION	"Selection";
+	IDS_NEWTL_M_LAYER	"Layer";
+	IDS_NEWTL_M_MARKER	"Marker";
+	IDS_NEWTL_M_VIEW	"View";
+	IDS_NEWTL_M_PREVIEW	"Preview";
+	IDS_NEWTL_M_ICONSIZE	"Icon Size";
+	IDS_NEWTL_M_FRAMEVIEW	"Frame";
+	IDS_NEWTL_M_FRKEY	"Frame Key";
+	IDS_NEWTL_M_FRMARKER	"Frame Marker";
+	IDS_NEWTL_M_OBJECTSTRACKS	"Functions";
+	IDS_NEWTL_M_OBJECTS	"Objects";
+	IDS_NEWTL_M_CURVES	"F-Curve";
+	IDS_NEWTL_M_PLAYBACK	"Playback";
+	IDS_NEWTL_M_GRID	"Grid";
+	IDS_NEWTL_M_KEY	"Key";
+	IDS_NEWTL_M_FUNCTIONS	"Shapes";
+	IDS_NEWTL_M_KEYSTTINGS	"Key Settings";
+	IDS_NEWTL_M_KEYINTERPOLATION	"Key Interpolation";
+	IDS_NEWTL_M_KEYINTERSPLINE	"Spline Types";
+	IDS_NEWTL_M_LOOP	"Loop";
+	IDS_NEWTL_M_BOOKMARK "Bookmarks";
+	IDS_NEWTL_M_MOTION	  "Motion System";
+	IDS_NEWTL_M_SNAPSHOTSWAP "Swap Snapshot";
+	IDS_NEWTL_M_SNAPSHOTMAKE "Make Snapshot";
+	IDS_NEWTL_M_SNAPSHOTON	"View Snapshot";
+	IDS_NEWTL_M_AFTER		"Track After";
+	IDS_NEWTL_M_BEFORE		"Track Before";
+	IDS_NEWTL_M_HLECURVEMODE	"Reduced Modification Type";
+	IDS_NEWTL_M_SHOWMENU	"Show";
+	IDS_NEWTL_M_HIDEMENU	"Hide";
+	IDS_NEWTL_M_LINK		"Link";
+	IDS_NEWTL_M_BAR			"Bars";
+	IDS_NEWTL_M_ADD			"Add";
+
+	//ProjectionMan begin
+	IDS_PM_FILENOTFOUND "Cannot find file '#'";
+	IDS_PM_SAVEFAIL "Projection Man was unable to save file:||#";
+	IDS_PM_IMAGEHOVER_FILENOTFOUND "File not found";
+	IDS_PM_IMAGEHOVER_MEMORYONLY "In Memory";
+	IDS_PM_UNASSIGNEDOBJECTS "Unassigned Objects";
+	IDS_PM_ANYCHANNEL "Any Channel";
+	IDS_PM_LINKCAMERATOVIEW "Link Camera to Active View";
+	IDS_PM_RENAMECAMERA "Rename Camera";
+	IDS_PM_UNPROTECTCAMERA "Un-Protect Camera";
+	IDS_PM_PROTECTCAMERA "Protect Camera";
+	IDS_PM_DUPLICATECAMERA "Duplicate Camera";
+	IDS_PM_PROTECTIONTESTEDITOR "Projection Test Render (Editor)...";
+	IDS_PM_PROTECTIONTESTFILE "Projection Test Render...";
+	IDS_PM_COVERAGERENDEREDITOR "Coverage Render (Editor)...";
+	IDS_PM_COVERAGERENDERFILE "Coverage Render...";
+	IDS_PM_NEWCAMERA "New Projection Camera ";
+	IDS_PM_IMAGE_FROM_FILE "Load Bitmap...";
+	IDS_PM_IMAGE_FROM_INMEMORY "Existing Bitmaps";
+	IDS_PM_IMAGE_FROM_COVERAGERENDER "Coverage Render...";
+	IDS_PM_IMAGE_FROM_NEW "New Bitmap...";
+	IDS_PM_USE_IMAGEALPHA "Use Image Alpha";
+	IDS_PM_REMOVE "Remove";
+	IDS_PM_NOIMAGE "<<no image>>";
+	IDS_PM_TITLE "Projection Man...";
+	IDS_PM_DLGTITLE "Projection Man";
+  IDS_PROJECTIONMAN_TOPHOTOSHOP "To Photoshop";
+  IDS_PROJECTIONMAN_BAKE "Bake";
+  IDS_PROJECTIONMAN_TOBP "To BodyPaint 3D";
+	IDS_PM_NAME "Name";
+	IDS_PM_PMAT "PMat";
+	IDS_PM_CHOOSE "Choose Layer Set: ";
+	IDS_PM_SELECTOBJECT "Please Select at least one object!";
+	IDS_PM_ALLOBJECTS "All Objects";
+	IDS_PM_SELECTIMAGE "Please Select an image";
+	IDS_PM_CAM "PCam";
+	IDS_PM_DELETE "The material '#' is no longer assigned to any object||Do you want to delete it?";
+	IDS_PM_TESTRENDER "Select Filename for test render";
+	IDS_PM_INHERITEDGROUP "Inheriting Objects";
+  IDS_PM_LAYERVIS_TO_SEL "Layer Selection from Texure Layer Visibility";
+  IDS_PM_LAYERVIS_FROM_SEL "Layer Selection to Texture Layer Visibility";
+  IDS_PM_EDIT_LAYERSET "Edit Layer Set...";
+  IDS_PM_CLEARCHANNEL "Clear Channel";
+  IDS_PM_CHANNELPAINENABLE "Enable 3D Paint";
+  IDS_PM_CHANNELPAINTDISABLE "Disable 3D Paint";
+  IDS_PM_MATPAINTENABLE "Enable 3D Paint";
+  IDS_PM_MATPAINTDISABLE "Disable 3D Paint";
+	IDS_PM_MMODE "Mode";
+	IDS_PM_MMODE_PS "Photoshop";
+	IDS_PM_MMODE_BP "BodyPaint 3D";
+	IDS_PMPREFSDIALOG "Projection Man";
+	IDS_PM_OPENINPS "Open in Photoshop...";
+	IDS_PM_OPENINBP "Open in BodyPaint 3D...";
+	IDS_PM_RELOAD_BITMAP "Reload Bitmap";
+	IDS_PM_CLOSE_BITMAP "Close Bitmap";
+	IDS_PM_RESOLUTIONGROUP "Image Format";
+	IDS_PM_FILENAME "Filename";
+	IDS_PM_DOTS "...";
+	IDS_PM_WIDTH "Width";
+	IDS_PM_HEIGHT "Height";
+	IDS_PM_OVERWRITE "'#' already exists and will be overwritten!";
+	IDS_PM_OVERWRITE_INMEM "An image with the name '#' is loaded and will be replaced!";
+	IDS_PM_CONTINUE "Do you want to continue?";
+	IDS_PM_NOPHOTOSHOP "Warning: Photoshop executable '#' not found|Please adjust your preferences.";
+	IDS_PM_ASSIGN "Do you want to assign the same Layer Set to each object?||YES - All objects get the same Layer Set|NO - All objects get a different Layer Set";
+	IDS_PM_ASSIGN2 "Do you want to assign the same Material to each object?||YES - All objects get the same Material|NO - All objects get a different Material";
+	IDS_PM_PSPATH_DEFAULT_WIN "C:\Program Files\Adobe\Photoshop 7.0\Photoshop.exe";
+  IDS_PM_PSPATH_DEFAULT_LINUX "";
+  IDS_PM_PSPATH_DEFAULT_MAC "Applications/Adobe Photoshop CS2/Adobe Photoshop CS2.app";
+  IDS_PM_MENU1 "General";
+  IDS_PM_MENU2 "Camera";
+  IDS_PM_MENU3 "Edit";
+	//ProjectionMan end
+
+
+//Picture Viewer begin
+	IDS_PV_TITLE					"Picture Viewer";
+	IDS_PV_MOVIEFORMAT				"Movie";
+	IDS_PV_FROMCACHE				"From Cache";
+	IDS_PV_COPY						"Copy";
+	IDS_PV_LOADERROR				"Unable to open file|#";
+
+	IDS_PICTUREVIEWER_DIALOGNEW		"Picture Viewer...";
+	IDH_PICTUREVIEWER_DIALOGNEW		"Opens a New Picture Viewer";
+
+	IDS_PICTUREVIEWER_DIALOG			"Picture Viewer";
+	IDS_PICTUREVIEWER_FOLDER_NODE		"Folder";
+	IDS_PICTUREVIEWER_PIC_NODE			"Image";
+
+	IDS_PICTUREVIEWER_FILTER		"Color Correction";
+	IDS_PICTUREVIEWER_SAVE			"Save Image as...";
+	IDH_PICTUREVIEWER_SAVE			"Active Image will be saved";
+
+	IDS_PICTUREVIEWER_OPEN			"Open Image...";
+	IDH_PICTUREVIEWER_OPEN			"Opens an existing Image";
+	IDS_PICTUREVIEWER_STOP			"Stop Rendering...";
+	IDH_PICTUREVIEWER_STOP			"Stops the Renderer";
+
+	IDS_PICTUREVIEWER_SMALL_ICONS	"Small Icons";
+	IDH_PICTUREVIEWER_SMALL_ICONS	"Use Small Icons";
+	IDS_PICTUREVIEWER_MEDIUM_ICONS	"Medium Icons";
+	IDH_PICTUREVIEWER_MEDIUM_ICONS	"Use Medium Icons";
+	IDS_PICTUREVIEWER_LARGE_ICONS	"Large Icons";
+	IDH_PICTUREVIEWER_LARGE_ICONS	"Use Large Icons";
+
+	IDS_PICTUREVIEWER_RENDER_OUTPUT	"Render Output";
+	IDH_PICTUREVIEWER_RENDER_OUTPUT	"Renders are sent to this Dialog";
+	IDS_PICTUREVIEWER_CLEAR			"Remove Image";
+	IDH_PICTUREVIEWER_CLEAR			"Remove the Active Image from the History";
+	IDS_PICTUREVIEWER_CLEARALL		"Remove All Images";
+	IDH_PICTUREVIEWER_CLEARALL		"Remove All Images from the History";
+
+	IDS_PICTUREVIEWER_REMOVEUNSAVED	"Clear Hard Disk Cache";
+	IDH_PICTUREVIEWER_REMOVEUNSAVED	"Clean up the Hard Disk Cache";
+
+	IDS_PICTUREVIEWER_SEND_TO_MBL			"Send to Magic Bullet Looks...";
+	IDH_PICTUREVIEWER_SEND_TO_MBL			"Opens Magic Bullet Looks with the current picture viewer image";
+	IDS_MAGICBULLETLOOKS_NOLOOK				"None";
+	IDS_MAGICBULLETLOOKS_UNTITLEDLOOK		"Untitled";
+
+	IDS_PICTUREVIEWER_COMPARE_AB			"AB Compare";
+	IDH_PICTUREVIEWER_COMPARE_AB			"Toggle AB Compare";
+	IDS_PICTUREVIEWER_COMPARE_SWAP			"Swap AB";
+	IDH_PICTUREVIEWER_COMPARE_SWAP			"Swaps AB Image Links";
+	IDS_PICTUREVIEWER_COMPARE_SWAPVH		"Swap Vert./Horiz.";
+	IDH_PICTUREVIEWER_COMPARE_SWAPVH		"Swaps between Vertical and Horizontal Compare";
+	IDS_PICTUREVIEWER_COMPARE_SHLINE		"Show Line";
+	IDH_PICTUREVIEWER_COMPARE_SHLINE		"Shows the Compare Line";
+	IDS_PICTUREVIEWER_COMPARE_SYNC			"Sync AB Animation";
+	IDH_PICTUREVIEWER_COMPARE_SYNC			"Syncronizes the AB Animation";
+	IDS_PICTUREVIEWER_COMPARE_SHTEXT		"Show Text";
+	IDH_PICTUREVIEWER_COMPARE_SHTEXT		"Shows the AB Image Names";
+	IDS_PICTUREVIEWER_COMPARE_SET_A			"Set as A";
+	IDH_PICTUREVIEWER_COMPARE_SET_A			"Sets The A Image";
+	IDS_PICTUREVIEWER_COMPARE_SET_B			"Set as B";
+	IDH_PICTUREVIEWER_COMPARE_SET_B			"Sets The B Image";
+	IDS_PICTUREVIEWER_COMPARE_ANIM_A		"Animate Second ";
+	IDH_PICTUREVIEWER_COMPARE_ANIM_A		"Animate The Second Component";
+	IDS_PICTUREVIEWER_COMPARE_DIFFERENCE		"Difference";
+	IDH_PICTUREVIEWER_COMPARE_DIFFERENCE		"Show the difference between A and B";
+
+	IDS_PICTUREVIEWER_SETPREVSTART			"Set as Preview Start";
+	IDH_PICTUREVIEWER_SETPREVSTART			"Defines the Preview Start range depending on the current time";
+	IDS_PICTUREVIEWER_SETPREVEND			"Set as Preview End";
+	IDH_PICTUREVIEWER_SETPREVEND			"Defines the Preview End range depending on the current time";
+
+	IDS_PICTUREVIEWER_PVDOCACHE				"Fill Cache";
+	IDH_PICTUREVIEWER_PVDOCACHE				"Cache maximum number of frames";
+
+	IDS_PICTUREVIEWER_GOTO_START			"Go to Preview Start";
+	IDH_PICTUREVIEWER_GOTO_START			"Go to Start of the Preview Area";
+	IDS_PICTUREVIEWER_GOTO_PREV				"Go to Previous Image";
+	IDH_PICTUREVIEWER_GOTO_PREV				"Go to Previous Image";
+	IDS_PICTUREVIEWER_PLAY_BACKWARDS		"Play Backwards";
+	IDH_PICTUREVIEWER_PLAY_BACKWARDS		"Play Backwards";
+	IDS_PICTUREVIEWER_PLAY_STOP				"Play Stop";
+	IDH_PICTUREVIEWER_PLAY_STOP				"Play Stop";
+	IDS_PICTUREVIEWER_PLAY_FORWARDS			"Play Forwards";
+	IDH_PICTUREVIEWER_PLAY_FORWARDS			"Play Forwards";
+	IDS_PICTUREVIEWER_GOTO_NEXT				"Go to Next Image";
+	IDH_PICTUREVIEWER_GOTO_NEXT				"Go to Next Image";
+	IDS_PICTUREVIEWER_GOTO_END				"Go to Preview End";
+	IDH_PICTUREVIEWER_GOTO_END				"Go to the End of the Preview Area";
+	IDS_PICTUREVIEWER_RUN					"Run from Start";
+	IDH_PICTUREVIEWER_RUN					"Run The Sequence from Start";
+	IDS_PICTUREVIEWER_LINK_TIME				"Link Time";
+	IDH_PICTUREVIEWER_LINK_TIME				"Links Project Time to Realtime Player Time";
+	IDS_PICTUREVIEWER_PINGPONG				"PingPong";
+	IDH_PICTUREVIEWER_PINGPONG				"PingPong The Ramplayer Timeline";
+
+	IDS_PICTUREVIEWER_CYCLE					"Cycle";
+	IDH_PICTUREVIEWER_CYCLE					"Cycle The Ramplayer Timeline";
+	IDS_PICTUREVIEWER_SIMPLE				"Simple";
+	IDH_PICTUREVIEWER_SIMPLE				"Simple Play The Ramplayer Timeline";
+
+	IDS_PICTUREVIEWER_SHOWEXPLORER		"Show File in Explorer/Finder";
+	IDH_PICTUREVIEWER_SHOWEXPLORER		"Show File in Explorer/Finder";
+
+	IDS_PICTUREVIEWER_SHOWBP			"Show in BodyPaint 3D";
+	IDH_PICTUREVIEWER_SHOWBP			"Shows the picture in BodyPaint 3D";
+
+	IDS_PICTUREVIEWER_PRESMODE			"Full-Screen Mode";
+	IDH_PICTUREVIEWER_PRESMODE			"Dislays the Picture Viewer in Full-Screen Mode";
+	IDS_PICTUREVIEWER_HIDEOUTLINE		"Hide Outline in Full-Screen Mode";
+	IDH_PICTUREVIEWER_HIDEOUTLINE		"Hides the Outline in the FullScreen Mode";
+	IDS_PICTUREVIEWER_ACTSAFE			"Show Action Safe";
+	IDH_PICTUREVIEWER_ACTSAFE			"Display the Action Safe Area in the Picture Viewer";
+	IDS_PICTUREVIEWER_TITLESAFE			"Show Title Safe";
+	IDH_PICTUREVIEWER_TITLESAFE			"Display the Title Safe Area in the Picture Viewer";
+	IDS_PICTUREVIEWER_COLORPROFILE		"Enable Color Profile";
+	IDH_PICTUREVIEWER_COLORPROFILE		"Enable the Color Profile in the Picture Viewer";
+
+	IDS_PICTUREVIEWER_TOPTAB_STATE		"Display Navigator/Histogram";
+	IDH_PICTUREVIEWER_TOPTAB_STATE		"Displays the Navigator and the Histogram in the Picture Viewer";
+
+	IDS_PICTUREVIEWER_FILTERSAVED		"Saved Elements";
+	IDS_PICTUREVIEWER_FILTERLOAD		"Loaded Elements";
+	IDS_PICTUREVIEWER_FILTERRENDER		"Rendered Elements";
+	IDS_PICTUREVIEWER_FILTERANIM		"Animations";
+	IDS_PICTUREVIEWER_FILTERSTILL		"Stills";
+
+	IDH_PICTUREVIEWER_FILTERSAVED		"Display all saved Elements";
+	IDH_PICTUREVIEWER_FILTERLOAD		"Display all loaded Elements";
+	IDH_PICTUREVIEWER_FILTERRENDER		"Display all rendered Elements";
+	IDH_PICTUREVIEWER_FILTERANIM		"Display all Animations";
+	IDH_PICTUREVIEWER_FILTERSTILL		"Display all Stills";
+
+
+	IDS_PICTUREVIEWER_12		"12.5%";
+	IDH_PICTUREVIEWER_12		"12.5% View";
+	IDS_PICTUREVIEWER_25		"25%";
+	IDH_PICTUREVIEWER_25		"25% View";
+	IDS_PICTUREVIEWER_50		"50%";
+	IDH_PICTUREVIEWER_50		"50% View";
+	IDS_PICTUREVIEWER_100		"100%";
+	IDH_PICTUREVIEWER_100		"100% View";
+	IDS_PICTUREVIEWER_200		"200%";
+	IDH_PICTUREVIEWER_200		"200% View";
+	IDS_PICTUREVIEWER_400		"400%";
+	IDH_PICTUREVIEWER_400		"400% View";
+	IDS_PICTUREVIEWER_800		"800%";
+	IDH_PICTUREVIEWER_800		"800% View";
+	IDS_PICTUREVIEWER_GROESSER	"Zoom In";
+	IDH_PICTUREVIEWER_GROESSER	"Zoom In";
+	IDS_PICTUREVIEWER_KLEINER	"Zoom Out";
+	IDH_PICTUREVIEWER_KLEINER	"Zoom Out";
+
+	IDS_PICTUREVIEWER_FITTOSCREEN	"Auto Zoom Mode";
+	IDH_PICTUREVIEWER_FITTOSCREEN	"Automatically adjusts the picture size to the view";
+
+	IDS_PICTUREVIEWER_NODE_FPS			"Sequence FPS";
+	IDH_PICTUREVIEWER_NODE_FPS			"Use Sequence FPS Value";
+	IDS_PICTUREVIEWER_VIDEOPOST_TEXT	"Info Text";
+
+	IDS_PICTUREVIEWER_TRACERWORKS			"The external renderer is calculating an image.|Do you want to stop it?";
+	IDS_PICTUREVIEWER_UNKNOWN_FORMAT		"Picture Viewer was unable to load file:||#";
+	IDS_PICTUREVIEWER_RELOAD		"File # is already present in the history.|Do you want to reload it?";
+	IDS_PICTUREVIEWER_DELETE		"Do you want to delete unsaved files?";
+	IDS_PICTUREVIEWER_SAVING				"Saving #";
+	IDS_PICTUREVIEWER_SAVE_OK				"Saved Ok";
+	IDS_PICTUREVIEWER_LOADING				"Loading";
+	IDS_PICTUREVIEWER_LOADING2				"Prepare Loading...";
+	IDS_PICTUREVIEWER_FEXISTS				"The specified name already exists. |#|Do you want to overwrite the existing file?";
+	IDS_PICTUREVIEWER_SAVEFAIL				"Picture Viewer was unable to save file:||#";
+
+	//IDS_PV_NOHDMEM							"Not enough space in the hard drive cache. Do you want to clear the cache? ||YES - The hard drive cache will be cleared |NO - The rendering will be canceled";
+	IDS_PICTUREVIEWER_HISTORY_NAME			"Name";
+
+	IDS_PV_ALLPV							"Additional Picture Viewers";
+	IDS_PICTUREVIEWER_RO					"Render Output";
+	IDS_PICTUREVIEWER_NAME					"Picture Viewer";
+
+	IDS_PICTUREVIEWER_ZOOM					"Zoom";
+	IDS_PICTUREVIEWER_SIZE					"Size: #x#";
+	IDS_PICTUREVIEWER_STEREO				"Stereoscopic: #";
+	IDS_PICTUREVIEWER_RGBDISPLAY			"RGB (# Bit)";
+	IDS_PICTUREVIEWER_GRAYDISPLAY			"Grayscale (# Bit)";
+	IDS_PICTUREVIEWER_RGBADISPLAY			"RGB+Alpha (# Bit)";
+	IDS_PICTUREVIEWER_GRAYADISPLAY		"Grayscale+Alpha (# Bit)";
+
+	IDS_PICTUREVIEWER_CLIPBOARD				"Clipboard";
+	IDS_PICTUREVIEWER_OF					"of";
+	IDS_PICTUREVIEWER_FRAME					"F";
+
+	IDS_PICTUREVIEWER_RENDER_STATUS_DLG		"Render Status";
+	IDH_PICTUREVIEWER_RENDER_STATUS_DLG		"Render Status";
+
+	IDS_PICTUREVIEWER_STATUS_RENDERING		"Rendering";
+	IDS_PICTUREVIEWER_STATUS_USERBREAK		"Interupted";
+	IDS_PICTUREVIEWER_STATUS_NOMEM			"Out Of Memory";
+	IDS_PICTUREVIEWER_STATUS_TEXMISSING		"Missing Texture";
+	IDS_PICTUREVIEWER_STATUS_FINISHED		"Finished";
+	IDS_PICTUREVIEWER_STATUS_FRAME			"Frame";
+	IDS_PICTUREVIEWER_STATUS_SEQUENCE		"Sequence";
+
+	IDS_MT_BAKE  "Baking";
+	IDS_TL_COPY	 "Copy";
+	IDS_MT_SOUND "Rendering Sound";
+
+	//Cat added
+	IDS_PICTUREVIEWER_PREFS					"Picture Viewer Preferences...";
+	IDH_PICTUREVIEWER_PREFS					"Display the Picture Viewer Preferences";
+
+	IDS_PICTUREVIEWER_DIALOGDUP				"Open Duplicates Picture Viewer";
+	IDH_PICTUREVIEWER_DIALOGDUP				"Open a Picture Viewer With The Same Settings";
+
+	IDS_PICTUREVIEWER_ASPECT				"Enable Pixel Aspect";
+	IDH_PICTUREVIEWER_ASPECT				"Enable Pixel Aspect";
+
+	IDS_PICTUREVIEWER_MULTIPASS			"Enable Multi-Pass Layers";
+	IDH_PICTUREVIEWER_MULTIPASS			"Enable Multi-Pass Layers";
+
+	IDS_PICTUREVIEWER_SHOWFILTER			"Enable Filter";
+	IDH_PICTUREVIEWER_SHOWFILTER			"Enable Filter";
+
+	IDS_PICTUREVIEWER_SHOWALPHA				"Enable Image Transparency";
+	IDH_PICTUREVIEWER_SHOWALPHA				"Shows the image transparency by displaying a grid under the transparent regions of the image";
+
+	IDS_PICTUREVIEWER_PLAYSOUND				"Play Sound";
+	IDH_PICTUREVIEWER_PLAYSOUND				"Play Sound in Picture Viewer";
+
+	IDS_PV_R_SUBMENUICON					"Icon Size";
+
+	IDS_PICTUREVIEWER_FOLDALL				"Fold All";
+	IDH_PICTUREVIEWER_FOLDALL				"Fold all folders in the history";
+
+	IDS_PICTUREVIEWER_UNFOLDALL				"Unfold All";
+	IDH_PICTUREVIEWER_UNFOLDALL				"Unfold all folders in the history";
+
+	IDS_PICTUREVIEWER_ADDTOLIST				"Add Rendering to List";
+	IDH_PICTUREVIEWER_ADDTOLIST				"Add Rendering to List";
+
+	IDS_PICTUREVIEWER_COPYRENDER			"Create Render Setting from Render...";
+	IDH_PICTUREVIEWER_COPYRENDER			"Create Render Setting from the Render";
+
+	IDS_PICTUREVIEWER_SHOWRENDER			"Show Rendering";
+	IDH_PICTUREVIEWER_SHOWRENDER			"Shows the active Rendering";
+
+	IDS_PICTUREVIEWER_CLEARCACHE			"Clear Cache";
+	IDH_PICTUREVIEWER_CLEARCACHE			"Clear the global cache";
+
+	IDS_PICTUREVIEWER_CACHE100		"Full Size";
+	IDH_PICTUREVIEWER_CACHE100		"Full Size";
+	IDS_PICTUREVIEWER_CACHE50		"Half Size";
+	IDH_PICTUREVIEWER_CACHE50		"Half Size";
+	IDS_PICTUREVIEWER_CACHE25		"Quarter Size";
+	IDH_PICTUREVIEWER_CACHE25		"Quarter Size";
+	IDS_PICTUREVIEWER_CACHE33		"Third Size";
+	IDH_PICTUREVIEWER_CACHE33		"Third Size";
+
+	IDS_PVSAVE_DEPTH_8		"8 bits/channel";
+	IDS_PVSAVE_DEPTH_16		"16 bits/channel";
+	IDS_PVSAVE_DEPTH_32		"32 bits/channel";
+
+	IDS_PVSAVE_NAMETYPE_0	"Name0000.TIF";
+	IDS_PVSAVE_NAMETYPE_1	"Name0000";
+	IDS_PVSAVE_NAMETYPE_2	"Name.0000";
+	IDS_PVSAVE_NAMETYPE_3	"Name000.TIF";
+	IDS_PVSAVE_NAMETYPE_4	"Name000";
+	IDS_PVSAVE_NAMETYPE_5	"Name.000";
+	IDS_PVSAVE_NAMETYPE_6	"Name.0000.TIF";
+
+	IDS_SAVE_IMAGE_STR "Still Image";
+	IDS_SAVE_ANIM_STR	"Animation";
+	IDS_SAVE_SELFR_STR	"Selected Frames";
+
+	IDS_PV_SAVEDLG			"Save Dialog";
+
+	IDS_PV_HIS_AB			"AB";
+	IDS_PV_HIS_TREE			"Name";
+	IDS_PV_HIS_PIC			"";
+	IDS_PV_HIS_FPS			"FPS";
+	IDS_PV_HIS_RES			"Resolution";
+	IDS_PV_HIS_REN			"R";
+	IDS_PV_HIS_RENDERTIME	"Render Time";
+	IDS_PV_HIS_FRNR			"F";
+	IDS_PV_HIS_A			"A";
+	IDS_PV_HIS_B			"B";
+
+	IDS_PVHISTORY_FN		"Directory";
+	IDS_PVHISTORY_FNNAME	"File Name";
+	IDS_PVHISTORY_TIME		"Added to List";
+	IDS_PVHISTORY_MEM		"Memory";
+	IDS_PVHISTORY_STEREOMEM "Stereoscopic Memory";
+	IDS_PVHISTORY_RENDER	"Render Time";
+	IDS_PVHISTORY_RENDER2	"total";
+	IDS_PVHISTORY_FPS		"FPS";
+	IDS_PVHISTORY_NAME		"Name";
+	IDS_PVHISTORY_INFO		"Information";
+	IDS_PVHISTORY_FRCOUNT	"Frame Count";
+	IDS_PVHISTORY_DEPTH		"Depth";
+	IDS_PVHISTORY_COLORPROFILE "Color Profile";
+	IDS_PVHISTORY_ANIM		"Animation";
+
+	IDS_PICTUREVIEWER_LAYER_NAME	"Layer";
+	IDS_PICTUREVIEWER_FILTER_NAME	"Filter";
+
+	IDS_PV_TIME				"Current";
+	IDS_PV_FPS				"FPS";
+	IDS_PV_SAVEANIMATION "Save Animation";
+
+	IDS_TAB_HISTORY		"History";
+	IDS_TAB_LAYER		"Layer";
+	IDS_TAB_FILTER		"Filter";
+	IDS_TAB_INFO		"Info";
+	IDS_TAB_NAVIGATOR	"Navigator";
+	IDS_TAB_HISTOGRAM	"Histogram";
+
+	ID_PV_FILTER_RED_STR	"Red";
+	ID_PV_FILTER_GRE_STR	"Green";
+	ID_PV_FILTER_SAT_STR	"Saturation";
+	ID_PV_FILTER_BLU_STR	"Blue";
+	ID_PV_FILTER_BRI_STR	"Brightness";
+	ID_PV_FILTER_CON_STR	"Contrast";
+	ID_PV_FILTER_GAM_STR	"Gamma";
+	ID_PV_FILTER_EXP_STR	"Exposure";
+	ID_PV_FILTER_BLP_STR	"Black Point";
+	ID_PV_FILTER_WHP_STR	"White Point";
+	ID_PV_FILTER_RESET_STR	"Reset Filter";
+	ID_PV_FILTER_ON_STR		"Enable Filter";
+	ID_PV_FILTER_INVERT_STR	"Invert";
+	ID_PV_FILTER_GRADING_STR "Grading Intensity";
+	ID_PV_FILTER_GRADINGMIN_STR "Min";
+	ID_PV_FILTER_GRADINGMAX_STR "Max";
+	ID_PV_FILTER_CURVE_STR	"Curve";
+	ID_PV_FILTER_CRED_STR	"Red";
+	ID_PV_FILTER_CGREEN_STR	"Green";
+	ID_PV_FILTER_CBLUE_STR	"Blue";
+	ID_PV_FILTER_TAB_STR	"Color Grading";
+	ID_PV_FILTER_CREATE_STR	"Create Post Effect...";
+	ID_PV_FILTER_TONEMAPPING_STR	"Tone Mapping";
+	ID_PV_FILTER_FILMIC_SHOULDER_ANGLE_STR			"Shoulder Angle";
+	ID_PV_FILTER_FILMIC_SHOULDER_LENGTH_STR			"Shoulder Length";
+	ID_PV_FILTER_FILMIC_SHOULDER_STRENGTH_STR		"Shoulder Strength";
+	ID_PV_FILTER_FILMIC_TOE_LENGTH_STR					"Toe Length";
+	ID_PV_FILTER_FILMIC_TOE_STRENGTH_STR				"Toe Strength";
+	ID_PV_FILTER_TONEMAPPER_MODE_STR 						"Tone Mapper";
+	ID_PV_FILTER_TONEMAPPER_MODE_DISABLED_STR 	"Disabled";
+	ID_PV_FILTER_TONEMAPPER_MODE_FILMIC1_STR 		"Filmic (Basic)";
+	ID_PV_FILTER_TONEMAPPER_MODE_FILMIC2_STR 		"Filmic (Advanced)";
+	ID_PV_FILTER_TONEMAPPER_MODE_REINHARD_STR 	"Reinhard";
+	ID_PV_FILTER_TONEMAPPER_MODE_ACES_STR 			"ACES";
+	ID_PV_FILTER_TONEMAPPER_MODE_UCHIMURA_STR		"Uchimura";
+	ID_PV_FILTER_TONEMAPPER_MODE_ACES_RRT_STR		"ACES (RRT)";
+	ID_PV_FILTER_SHADOWS_STR										"Shadows";
+	ID_PV_FILTER_MIDTONES_STR										"Midtones";
+	ID_PV_FILTER_HIGHLIGHTS_STR									"Highlights";
+	ID_PV_FILTER_LUT_STR												"LUT";
+	ID_PV_FILTER_LUT_APPLY_IN_SRGB_STR					"Apply in sRGB";
+
+	IDS_PV_CUSTOM			"Custom Background";
+	IDS_PV_WHITE			"White Background";
+	IDS_PV_BLACK			"Black Background";
+	IDS_PV_BG				"Default Background";
+
+	ID_PV_FILTER_LOADPS_STR	"Load Preset...";
+	ID_PV_FILTER_SAVEPS_STR	"Save Preset...";
+
+	ID_PV_INFOASPECT_STR	"Pixel Aspect";
+	ID_PV_INFOTITLE_STR		"Title Safe";
+	ID_PV_INFOACTION_STR	"Action Safe";
+	ID_PV_INFOAPPLY_STR		"Apply Changes to Animation";
+
+	ID_PV_NAVIZOOM_STR	"Zoom";
+	IDS_PVHISTORY_COLORPROFILE_NONE "None";
+
+	ID_PV_HISTOFILTER_STR	"Display Filter";
+	IDS_PV_HISTO_RGB		"RGB";
+	IDS_PV_HISTO_R			"Red";
+	IDS_PV_HISTO_G			"Green";
+	IDS_PV_HISTO_B			"Blue";
+	IDS_PV_HISTO_LUMI		"Luminance";
+	IDS_PV_HISTO_ALL		"All";
+
+	ID_PV_LAYER_ON_STR1		"Image";
+	ID_PV_LAYER_ON_STR2		"Single-Pass";
+	ID_PV_LAYER_ON_STR3		"Multi-Pass";
+
+	IDS_PICTUREVIEWER_SINGLEPASS		"Enable Single-Pass Layers";
+	IDH_PICTUREVIEWER_SINGLEPASS		"Enable Single-Pass Layers";
+
+	IDS_PICTUREVIEWER_CACHEAUTO		"Automatic Size";
+	IDH_PICTUREVIEWER_CACHEAUTO		"Automatic Size";
+
+	IDS_PICTUREVIEWER_RECENT		"Recent Files";
+	IDH_PICTUREVIEWER_RECENT		"Recent Files";
+
+	IDS_PICTUREVIEWER_OPENSTEREO	"Create Stereo Image From AB";
+	IDH_PICTUREVIEWER_OPENSTEREO	"Creates a Stereo Picture from the AB Selection (A -First Channel B - Second Channel)";
+
+
+	IDS_PVRM_PREFS			"Picture Viewer/Render Queue";
+
+	IDS_RM_TITLE			"Render Queue";
+	IDS_RM_CMD				"Render Queue...";
+	IDS_RM_NODE				"Render Queue Node";
+
+	IDS_RM_QUEUE			"In Queue";
+	IDS_RM_PROGRESS			"In Progress";
+	IDS_RM_FINISHED			"Finished";
+	IDS_RM_STOPPED			"Stopped";
+	IDS_RM_PAUSED			"Paused";
+	IDS_RM_ERROR			"Error";
+	IDS_RM_WARNING		"Warning";
+
+	IDS_RM_ERR_MEM						"Error - Out Of Memory";
+	IDS_RM_ERR_NOMACHINE			"Error - No Machine Available";
+	IDS_RM_ERR_TEX						"Error - Missing Textures";
+	IDS_RM_ERR_MP							"Error - MP";
+	IDS_RM_ERR_IMG						"Error - Saving Image";
+	IDS_RM_ERR_GI							"Error - Saving GI Cache";
+	IDS_RM_ERR_DEL						"Error - Project Deleted";
+	IDS_RM_ERR_UNKNOWN				"Error- Unknown";
+	IDS_RM_ERR_LOADINGPROJECT	"Error - Loading Project";
+
+	IDS_RM_PRESET			"Render Queue Preset";
+	IDS_RM_UPDATE			"Update";
+
+	IDS_RM_ERR_OUTPUT		"Error - Invalid Output Path";
+	IDS_RM_ERR_OUTPUTMULTI	"Error - Invalid Output Multi-Pass Path";
+	IDS_RM_ERR_TEXFAIL		"Error - Missing Files";
+	IDS_RM_ERR_TEXFAIL2		"Missing Files";
+
+	IDS_RM_TREE_POS			"Pos.";
+	IDS_RM_TREE_RENDER		"Render";
+	IDS_RM_TREE_NET			"Team";
+	IDS_RM_TREE_SCNE		"File";
+	IDS_RM_TREE_STUS		"Status";
+	IDS_RM_TREE_REN			"R";
+	IDS_RM_F				"F";
+
+  IDS_BROWSERPRESET_PRESETEXISTS	"A # with the name # already exists, do you want to overwrite it?";
+  IDS_TAKE_PRESET "Take Preset";
+
+	IDS_RM_TREE_TAKE		"Take";
+	IDS_RM_TREE_CAM			"Camera";
+	IDS_RM_TREE_RSET		"Render Settings";
+	IDS_RM_TREE_MSG			"Message";
+
+	IDS_TAB_BASIC			"Basic";
+	IDS_TAB_LOG				"Logfile";
+	IDS_TAB_STEREO			"Stereo";
+
+	IDS_PV_STEREO_CHANNEL		"Channel";
+	IDS_PV_STEREO_SAVE				"Save";
+	IDS_PV_STEREO_SAVE_FILE		"File";
+	IDS_PV_STEREO_SAVE_FOLDER		"Folder";
+	IDS_PV_STEREO_TYPE			"Mode";
+	IDS_PV_STEREO_PARALAX		"Additional Parallax (pixel)";
+	IDS_PV_STEREO_SWAP			"Swap Left/Right";
+	IDS_PV_STEREO_ANA_TYPE		"System";
+	IDS_PV_STEREO_ANA_COL_LEFT	"Left";
+	IDS_PV_STEREO_ANA_COL_RIGHT	"Right";
+	IDS_PV_STEREO_ANA_SYS		"Method";
+	IDS_PV_STEREO_SBS_ALIGN		"Alignment";
+	IDS_PV_STEREO_SBS_ALIGNLR	"Horizontal";
+	IDS_PV_STEREO_SBS_ALIGNOU	"Vertical";
+	IDS_PV_STEREO_SBS_SEPA		"Separation (pixel)";
+	IDS_PV_STEREO_SBS_LEFTMX	"Left Mirror X";
+	IDS_PV_STEREO_SBS_RIGHTMX	"Right Mirror X";
+	IDS_PV_STEREO_SBS_LEFTMY	"Mirror Y";
+	IDS_PV_STEREO_SBS_RIGHTMY	"Mirror Y";
+	IDS_PV_STEREO_SBS_INCLINE	"Incline";
+	IDS_PV_STEREO_INTER_TYPE	"Type";
+	
+	IDS_STEREO_ANA				"Anaglyph";
+	IDS_STEREO_SBS				"Side-by-Side";
+	IDS_STEREO_INTER			"Interlaced";
+	IDS_STEREO_MONO				"Mono";
+
+	IDS_STEREO_ANA_FULL_RB			"Red - Blue";
+	IDS_STEREO_ANA_FULL_RG			"Red - Green";
+	IDS_STEREO_ANA_FULL_RC			"Red - Cyan";
+	IDS_STEREO_ANA_FULL_YB			"Yellow - Blue";
+	IDS_STEREO_ANA_FULL_GM			"Green - Magenta";
+	IDS_STEREO_ANA_FULL_CT			"Custom";
+
+	IDS_STEREO_ANA_NON_FULL_R		"Red";
+	IDS_STEREO_ANA_NON_FULL_G		"Green";
+	IDS_STEREO_ANA_NON_FULL_B		"Blue";
+	IDS_STEREO_ANA_NON_FULL_Y		"Yellow";
+	IDS_STEREO_ANA_NON_FULL_M		"Magenta";
+	IDS_STEREO_ANA_NON_FULL_CT		"Custom";
+
+	IDS_STEREO_ANA_FULL			"Full";
+	IDS_STEREO_ANA_GRAY			"Gray";
+	IDS_STEREO_ANA_HALFCOL		"Half Color";
+	IDS_STEREO_ANA_OPT			"Optimized";
+	IDS_STEREO_ANA_COL			"Color";
+	
+	IDS_STEREO_INTER_VERT		"Vertical";
+	IDS_STEREO_INTER_HOR		"Horizontal";
+	IDS_STEREO_INTER_CHECKER	"Checkerboard";
+
+	IDS_STEREO					"Stereoscopic";
+
+	IDS_PV_STEREO_MODE_ORG		"Non-Stereoscopic Image";
+	IDS_PV_STEREO_MODE_STEREO	"Merged Stereoscopic Image";
+	IDS_PV_STEREO_MODE_MONO		"Single Channel";
+	IDS_PV_STEREO_MODE_INTER	"Interactive Merge";
+	IDS_PV_STEREO_MODE_ALLCHANNELS "Individual Channels";
+
+	IDS_RM_COPY				"Copy of";
+	IDS_RM_OPEN				"Open...";
+	IDS_RM_PERSPECTIVE		"Default Camera";
+	IDS_RM_PERSSHORT		"Editor";
+	IDS_RM_INCREMENT		"Incremental Image Name";
+	IDS_RM_INCREMENT2		"incremental Muti-Pass Image Name";
+	IDS_RM_AUTOMATIC		"Automatic Image Name";
+	IDS_RM_MODIFIED			"Project modified";
+
+
+	IDS_RM_CLEARALL			"Do you really want to delete the jobs in the queue and stop rendering?";
+	IDS_RM_CLEARALL2		"Do you really want to delete the jobs in the queue?";
+	IDS_RM_SAVE				"Do you want to save the changes to the|project before adding it to the Render Queue?";
+	IDS_RM_TO				"To";
+	IDS_RM_OF				"of";
+	IDS_RM_ON				"on";
+	IDS_RM_OFF				"off";
+	IDS_RM_POS				"Pos.";
+	IDS_RM_JOB				"Job";
+	IDS_RM_DUMMY			"Project";
+	IDS_RM_DEFAULT			"Default";
+
+	IDS_RM_M_DELETESCENE	"Delete";
+	IDS_RM_M_ADDSCENE		"Add Current Project";
+	IDS_RM_M_EDITSCENE		"Edit Project";
+	IDS_RM_M_STARTRENDER	"Start Rendering";
+	IDS_RM_M_PAUSERENDER	"Pause Rendering";
+	IDS_RM_M_STOPRENDER		"Stop Rendering";
+	IDS_RM_M_RESETRENDER	"Revert to Saved";
+	IDS_RM_M_SHOWINPV		"Open in Picture Viewer...";
+	IDS_RM_M_SHOWINFINDER	"Open in Explorer/Finder...";
+	IDS_RM_M_OPENFILE		"Open...";
+	//IDS_RM_M_UPDATESCENE	"Update Project";
+	//IDS_RM_M_SAVETOFILE		"Save Project";
+	IDS_RM_M_PREFERENCE		"Renderer Preferences...";
+	IDS_RM_M_GLOBADD		"Add to Render Queue...";
+	IDS_RM_M_CLEARALL		"Delete All";
+	IDS_RM_M_OPENLOG		"Open Log";
+	IDS_RM_M_OPENOUTPUT		"Open Image in Finder/Explorer";
+	IDS_RM_M_OPENOUTMULTIPUT "Open Multi-Pass Image in Finder/Explorer";
+	IDS_RM_M_OPENDETAILS	"Display Details";
+
+	IDS_RM_M_LOADPRESET		"Load Preset...";
+	IDS_RM_M_SAVEPRESET		"Save Preset...";
+
+	IDS_RM_M_FILTERSYS		"System";
+	IDS_RM_M_FILTERRENDER	"Render";
+	IDS_RM_M_FILTERSCENE	"Project";
+
+	IDS_RM_M_TEXTURE		"Texture Errors";
+	IDS_RM_M_CHECKTEXTURE	"Check Textures";
+	IDH_RM_M_TEXTURE		"Stops rendering if a texture error occurs";
+	IDH_RM_M_CHECKTEXTURE	"Checks the projects for texture errors before rendering";
+
+
+	IDS_RM_STOPRENDERING		"The Render Queue is calculating an image.|Do you want to stop it?";
+
+	IDH_RM_M_DELETESCENE	"Deletes the current project from list";
+	IDH_RM_M_ADDSCENE		"Adds the last saved project state of the current project to the render queue";
+	IDH_RM_M_EDITSCENE		"Opens the selected project in C4D";
+	IDH_RM_M_STARTRENDER	"Starts the Rendering of the first Project";
+	IDH_RM_M_PAUSERENDER	"Pauses the current Rendering";
+	IDH_RM_M_STOPRENDER		"Stops the current Rendering";
+	IDH_RM_M_RESETRENDER	"Resets the Rendering";
+	IDH_RM_M_SHOWINPV		"Displays the Rendering in the Picture Viewer";
+	IDH_RM_M_SHOWINFINDER	"Shows the Project in the Finder";
+	IDH_RM_M_OPENFILE		"Adds a Project to the Render Queue";
+
+	IDH_RM_M_PREFERENCE		"Opens the preferences for the render queue";
+	IDH_RM_M_GLOBADD		"Adds the last saved project state of the current project to the render queue";
+	IDH_RM_M_CLEARALL		"Deletes all Jobs in the Render Queue";
+	IDH_RM_M_OPENLOG		"Opens the Log File with the default application";
+	IDH_RM_M_OPENOUTPUT		"Shows the Output in Finder/Explorer";
+	IDH_RM_M_OPENOUTMULTIPUT "Shows the MutiPass Output in Finder/Explorer";
+	IDH_RM_M_OPENMULTI		"Shows the Multipass in Finder/Explorer";
+
+	IDH_RM_M_LOADPRESET		"Loads a Preset into the Render Queue";
+	IDH_RM_M_SAVEPRESET		"Saves the Render Queue to a Preset ";
+
+	IDH_RM_M_FILTERSYS		"Displays only the system information in the log tab";
+	IDH_RM_M_FILTERRENDER	"Displays only the render information in the log tab";
+	IDH_RM_M_FILTERSCENE	"Displays only the project information in the log tab";
+
+	IDH_RM_M_OPENDETAILS	"Displays the information and log tab";
+
+
+
+	IDS_RM_LOG_MACHINEINFO		"Machine Information";
+	IDS_RM_LOG_MACHINENAME		"Machine Name";
+	IDS_RM_LOG_USER				"User Name";
+	IDS_RM_LOG_PROCESSORTYPE	"Processor Type";
+	IDS_RM_LOG_PROCESSORNAME	"Processor Name";
+	IDS_RM_LOG_PROCESSORNUMBER	"Processor Count";
+	IDS_RM_LOG_OS				"OS";
+	IDS_RM_LOG_OSVERSION		"OS Version";
+	IDS_RM_LOG_OGLNAME			"OGL Vendor";
+	IDS_RM_LOG_OGLRENDERNAME	"OGL Card";
+	IDS_RM_LOG_OGLINFO			"OGL Information";
+	IDS_RM_LOG_C4DINFO			"C4D Information";
+	IDS_RM_LOG_C4DVERSION		"C4D Version";
+	IDS_RM_LOG_C4DPLUGINS		"C4D Plugins";
+
+	IDS_RM_LOG_FILEINFO		"File Information";
+	IDS_RM_LOG_FILENAME		"File Name";
+	IDS_RM_LOG_FILEPATH		"File Path";
+	IDS_RM_LOG_RENDERDATA	"Render Data";
+	IDS_RM_LOG_RENDERSET	"Render Settings";
+	IDS_RM_LOG_CAMERA		"Camera";
+	IDS_RM_LOG_WIDTH		"Width";
+	IDS_RM_LOG_HIGHT		"Height";
+	IDS_RM_LOG_FILMASPECT	"Film Aspect";
+	IDS_RM_LOG_PIXELASPECT	"Pixel Aspect";
+	IDS_RM_LOG_FPS			"FPS";
+	IDS_RM_LOG_FROM			"From";
+	IDS_RM_LOG_TO			"To";
+	IDS_RM_LOG_STEPS		"Step";
+	IDS_RM_LOG_SAVEINFO		"Save Information";
+	IDS_RM_LOG_MPINFO		"Multipass Information";
+	IDS_RM_LOG_PATH			"Path";
+	IDS_RM_LOG_DEPTH		"Depth";
+	IDS_RM_LOG_FORMAT		"Format";
+	IDS_RM_LOG_MPPASSES		"Multipasses";
+	IDS_RM_LOG_VIDEOPOST	"Post Effects";
+	IDS_RM_LOG_FILE			"File";
+	IDS_RM_LOG_RENDERINFO	"Render Information";
+	IDS_RM_LOG_TEXERROR		"Texture Error";
+	IDS_RM_LOG_GENERAL		"General Render Information";
+	IDS_RM_LOG_ADDED		"Project Added";
+	IDS_RM_LOG_STARTED		"Rendering Started";
+	IDS_RM_LOG_TIME			"Rendering Time";
+	IDS_RM_LOG_RESULT		"Rendering Result";
+	IDS_RM_LOG_RENDERENGINE	"Render Engine";
+
+	IDS_TAKE_CMD_ADDTORQALL "Add Project With All Takes";
+	IDS_TAKE_CMD_ADDTORQSELECTED "Add Project With Marked Takes";
+	IDS_TAKE_CMD_LOADTORQALL	"Open With All Takes";
+	IDS_TAKE_CMD_LOADTORQSELECTED "Open With Marked Takes";
+
+	IDH_TAKE_CMD_ADDTORQALL "Add Current Project All Takes";
+	IDH_TAKE_CMD_ADDTORQSELECTED "Add Current Project Marked Takes";
+	IDH_TAKE_CMD_LOADTORQALL "Add a File to the Render Queue All Takes";
+	IDH_TAKE_CMD_LOADTORQSELECTED "Add a File to the Render Queue Marked Takes";
+
+	IDS_MESSAGE "Message:";
+	IDS_NAME	"File:";
+	IDS_QUEUE	"Added to Queue:";
+	IDS_START	"Render started on:";
+	IDS_RTIME	"Render Time:";
+	IDS_ETIME	"Estimated Time:";
+	IDS_LFRAME	"Last Frame:";
+	IDS_EMPTY	"";
+
+	IDS_RES "Resolution";
+
+	IDS_LOGPATH "Log:";
+	IDS_TEXPATH	"Texture Error:";
+	IDS_RENDER 	"Render Settings";
+	IDS_CAMERA	"Camera";
+	IDS_MPATH 	"Multi-Pass File:";
+	IDS_OPATH		"Output File:";
+	IDS_RENDERQUEUE_AUTORENAMING "Auto Renaming";
+	IDS_WARNING "Warning: Files will be overwritten if they already exist.";
+
+
+	IDS_JOB "Jobs:";
+
+	// Combine command
+	IDS_COMBINE								"Combine Project...";
+	IDS_COMBINE_HELP					"Combines and re-organizes the project by materials or layers";
+	IDS_COMB_COMBINEMODE					"Combine mode";
+	IDS_COMB_COMBINEMODE_JOIN			"Join Command (no Normal tag support)";
+	IDS_COMB_COMBINEMODE_CONNECT	"Connect & Delete (Normal tag support)";
+	IDS_COMB_MODE							"Mode";
+	IDS_COMB_MODE_BYMAT				"By Material";
+	IDS_COMB_MODE_BYLAYER			"By Layer";
+	IDS_COMB_REMOVEINACTIVE		"Remove inactive objects";
+	IDS_COMB_CLEANUP					"Clean up hierarchy";
+	IDS_COMB_JOIN							"Convert & join geometries";
+	IDS_COMB_JOIN_NONORMALTAGONLY	"Only without Normal tag";
+	IDS_COMB_CLEANUP2					"Remove duplicate Texture and Selection tags";
+	IDS_COMB_INFO							"Please note: Merge will not function properly after combining geometry";
+	IDC_COMB_STATUS_STAGE			"Stage #:";
+	IDS_COMB_STATUS_STAGE_0		"Removing inactive objects";
+	IDS_COMB_STATUS_STAGE_1		"Unique naming of #";
+	IDS_COMB_STATUS_STAGE_1_M	"Materials";
+	IDS_COMB_STATUS_STAGE_1_L	"Layers";
+	IDS_COMB_STATUS_STAGE_2		"Creating new groups";
+	IDS_COMB_STATUS_STAGE_3		"Resolving instance objects";
+	IDS_COMB_STATUS_STAGE_3A	"Resolving sculpt objects";
+	IDS_COMB_STATUS_STAGE_3B	"Resolving texture inheritance";
+	IDS_COMB_STATUS_STAGE_4		"Sorting objects";
+	IDS_COMB_STATUS_STAGE_5		"Cleaning up old hierarchy";
+	IDS_COMB_STATUS_STAGE_6		"Joining geometries";
+	IDS_COMB_STATUS_STAGE_7		"Cleaning up hierarchy";
+	IDS_COMB_STATUS_STAGE_8		"Cleaning up materials, material tags, selection tags";
+	IDS_COMBRES_OK						"Successfully finished!#Processing took # msec (# objects before, # after)";
+	IDS_COMBRES_OUTOFMEMORY		"Out of memory!";
+	IDS_COMBRES_UNKNOWNERROR	"Unknown error!";
+	IDS_COMBRES_NA						"Combine Project: N/A";
+	IDS_COMB_OBJ_MASTER				"Master";
+	IDS_COMB_OBJ_MAT					"Mat";
+	IDS_COMB_OBJ_LAYER				"Layer";
+	IDS_COMB_PROGRESS_TITLE		"Combine Progress";
+
+	// Combine AC18 command
+	IDS_COMBINEAC18										"ArchiCAD 18+ Scene Combine...";
+	IDS_COMBINEAC18_SHORTNAME					"CombineAC18+";
+	IDS_COMBINEAC18_HELP							"Combines and reorganizes an exported project from ArchiCAD 18 or later";
+	IDS_COMBINEAC18_NOTEXTURE					"No Material";
+	IDS_COMBINEAC18_CREATEUNDO				"Create undo";
+	IDS_COMBINEAC18_DOSTAGE_KILLCRAP	"Stage 1: Remove crappy objects";
+	IDS_COMBINEAC18_DOSTAGE_JOIN			"Stage 2: Join Objects";
+	IDS_COMBINEAC18_DOSTAGE_REMOVE		"Stage 3: Remove original objects";
+	IDS_COMBINEAC18_DOSTAGE_CLEANUPTAGS					"Stage 4: Cleanup tags";
+	IDS_COMBINEAC18_INFO1							"Do you want to run the 'Scene Combine' command to optimize the geometry?";
+	IDS_COMBINEAC18_INFO2							"Please note: MergeUpdate will not function properly after combining geometry";
+	IDS_COMBINEAC18_MSG_START					"Starting...";
+	IDS_COMBINEAC18_MSG_RECURSE_START	"Recursing hierarchy below '#'...";
+	IDS_COMBINEAC18_MSG_PGROUP_START	"Processing object group '#'...";
+	IDS_COMBINEAC18_MSG_KCO						"Killing crappy objects...";
+	IDS_COMBINEAC18_MSG_KCO_FAIL			"Killing crappy objects failed!";
+	IDS_COMBINEAC18_MSG_BM						"Building combine map...";
+	IDS_COMBINEAC18_MSG_BM_FAIL				"Building combine map failed!";
+	IDS_COMBINEAC18_MSG_PM						"Processing combine map...";
+	IDS_COMBINEAC18_MSG_PM_FAIL				"Processing combine map failed!";
+	IDS_COMBINEAC18_MSG_PROCESSING		"Processing group '#'";
+	IDS_COMBINEAC18_MSG_FINISHED			"Processing finished successfully (needed # seconds, reduced object count by #, reduced tag count by #)";
+	IDS_COMBINEAC18_MSG_FINISHED_ERR	"Processing cancelled due to errors. See console for more information.";
+	IDS_COMBINEAC18_STATS_STATS				"Statistics";
+	IDS_COMBINEAC18_STATS_RESULT			"Result: #";
+	IDS_COMBINEAC18_STATS_RESULT_TRUE						"Successful";
+	IDS_COMBINEAC18_STATS_RESULT_FALSE					"Failed";
+	IDS_COMBINEAC18_STATS_FISHY				"The results seem inconclusive, please check the results!";
+	IDS_COMBINEAC18_STATS_NA					"N/A";
+	IDS_COMBINEAC18_STATS_COMPL				"Overall process";
+	IDS_COMBINEAC18_STATS_COMPL_TIME	"Time: # seconds";
+	IDS_COMBINEAC18_STATS_COMPL_GROUPCNT				"Groups processed: #";
+	IDS_COMBINEAC18_STATS_COMPL_OBJCNT_BEFORE		"Object count before: #";
+	IDS_COMBINEAC18_STATS_COMPL_OBJCNT_AFTER		"Object count after: #";
+	IDS_COMBINEAC18_STATS_COMPL_RATIO						"Optimization ratio: #";
+	IDS_COMBINEAC18_STATS_UMN					"Unique material names";
+	IDS_COMBINEAC18_STATS_UMN_CNT			"Number of changed material names: #";
+	IDS_COMBINEAC18_STATS_UMN_TIME		"Time to ensure unique material names: # seconds";
+	IDS_COMBINEAC18_STATS_KCO					"Remove crappy objects";
+	IDS_COMBINEAC18_STATS_KCO_CNT			"Number of found crappy objects: #";
+	IDS_COMBINEAC18_STATS_KCO_KILLED_CNT				"Number of removed crappy objects: #";
+	IDS_COMBINEAC18_STATS_KCO_TIME		"Time to remove crappy objects: # seconds";
+	IDS_COMBINEAC18_STATS_BM					"Build Combine Maps";
+	IDS_COMBINEAC18_STATS_BM_OBJCNT		"Number of objects to process: #";
+	IDS_COMBINEAC18_STATS_BM_ENTRYCNT	"Number of map entries: #";
+	IDS_COMBINEAC18_STATS_BM_TIME			"Time to build maps: # seconds";
+	IDS_COMBINEAC18_STATS_PM					"Process Combine Maps";
+	IDS_COMBINEAC18_STATS_PM_RESULT_OBJCNT			"Number of generated result objects: #";
+	IDS_COMBINEAC18_STATS_PM_REMOVED_OBJCNT			"Number of removed original objects: #";
+	IDS_COMBINEAC18_STATS_PM_TIME			"Time to process maps: # seconds";
+	IDS_COMBINEAC18_STATS_CR					"Cleanup material restrictions";
+	IDS_COMBINEAC18_STATS_CR_ITERATED_TEX_CNT		"Number of iterated material tags: #";
+	IDS_COMBINEAC18_STATS_CR_ITERATED_SEL_CNT		"Number of iterated selection tags: #";
+	IDS_COMBINEAC18_STATS_CR_ENTRIES_CNT				"Number of map entries created: #";
+	IDS_COMBINEAC18_STATS_CR_DEL_CNT	"Number of texture/selection tags removed: #";
+	IDS_COMBINEAC18_STATS_CR_CREATED_CNT				"Number of texture/selection tags created: #";
+	IDS_COMBINEAC18_STATS_CR_TIME			"Time to cleanup material restrictions: # seconds";
+	IDS_COMBINEAC18_STATS_CT					"Cleanup double tags";
+	IDS_COMBINEAC18_STATS_CT_ITERATED_CNT				"Number of iterated tags: #";
+	IDS_COMBINEAC18_STATS_CT_SUBITERATED_CNT		"Number of subiterations: #";
+	IDS_COMBINEAC18_STATS_CT_REMOVED_CNT				"Number of tags removed: #";
+	IDS_COMBINEAC18_STATS_CT_TIME			"Time to cleanup tags: # seconds";
+	IDS_COMBINEAC18_PARAMS_PARAMS			"Combine ArchiCAD 18 settings";
+	IDS_COMBINEAC18_PARAMS_CREATEUNDO	"Create Undo: #";
+	IDS_COMBINEAC18_PARAMS_STAGE1			"Stage 1: Remove crappy objects: #";
+	IDS_COMBINEAC18_PARAMS_STAGE2			"Stage 2: Join objects: #";
+	IDS_COMBINEAC18_PARAMS_STAGE3			"Stage 3: Remove original objects: #";
+	IDS_COMBINEAC18_PARAMS_OPT_YES		"Yes";
+	IDS_COMBINEAC18_PARAMS_OPT_NO			"No";
+	IDS_COMBINEAC18_SHDLG_TITLE				"Automatic ArchiCAD 18+ Scene Combine";
+	IDS_COMBINEAC18_SHDLG_INFO1				"You have opened a document that was exported from ArchiCAD 18 or later!";
+	IDS_COMBINEAC18_SHDLG_INFO2				"Do you want to run the 'Scene Combine' command to optimize the geometry?";
+	IDS_COMBINEAC18_SHDLG_YES					"Yes";
+	IDS_COMBINEAC18_SHDLG_NO					"No";
+	IDS_COMBINEAC18_SHDLG_DONTSHOWAGAIN					"Don't show this message again after this file has been saved.";
+
+  IDS_VPWATERMARK											"Watermark";
+	// Strings that appear in the Watermark's Text layer
+	IDS_VPWATERMARK_RENDERTIME					"Render Time:";
+	IDS_VPWATERMARK_ACTIVECAMERA				"Camera:";
+	IDS_VPWATERMARK_TIMECODE						"Timecode:";
+	IDS_VPWATERMARK_DATE								"Date:";
+	IDS_VPWATERMARK_SCENENAME						"Project:";
+	IDS_VPWATERMARK_POLYCOUNT						"Polycount:";
+	IDS_VPWATERMARK_C4DVERSION					"Version:";
+	IDS_VPWATERMARK_MACHINEINFO					"Machine:";
+	IDS_VPWATERMARK_EDITORCAMERA				"Default";
+	IDS_VPWATERMARK_DEFAULT_CUSTOMTEXT	"by";
+	IDS_VPWATERMARK_MP_COLOR						"Watermark";
+	IDS_VPWATERMARK_MP_ALPHA						"Watermark (Alpha)";
+	IDS_VPWATERMARK_LOGOERROR						"Error opening watermark logo bitmap:";
+	IDS_VPWATERMARK_NA									"N/A";
+	IDS_VPWATERMARK_PROJECTION_PERSPECTIVE	"Perspective";
+	IDS_VPWATERMARK_PROJECTION_PARALLEL			"Parallel";
+	IDS_VPWATERMARK_PROJECTION_LEFT					"Left";
+	IDS_VPWATERMARK_PROJECTION_RIGHT				"Right";
+	IDS_VPWATERMARK_PROJECTION_FRONT				"Front";
+	IDS_VPWATERMARK_PROJECTION_BACK					"Back";
+	IDS_VPWATERMARK_PROJECTION_TOP					"Top";
+	IDS_VPWATERMARK_PROJECTION_BOTTOM				"Bottom";
+	IDS_VPWATERMARK_PROJECTION_MILITARY			"Military";
+	IDS_VPWATERMARK_PROJECTION_FROG					"Frog";
+	IDS_VPWATERMARK_PROJECTION_BIRD					"Bird";
+	IDS_VPWATERMARK_PROJECTION_GENTLEMAN		"Gentleman";
+	IDS_VPWATERMARK_PROJECTION_ISOMETRIC		"Isometric";
+	IDS_VPWATERMARK_PROJECTION_DIMETRIC			"Dimetric";
+  IDS_VPWATERMARK_TAKE                    "Take :";
+
+	// The following strings are all the same as the RDATA strings from the render settings (see xtensions)
+	IDS_VPWATERMARK_RDATA_RENDERENGINE_STANDARD					"Standard";
+	IDS_VPWATERMARK_RDATA_FORMATDEPTH_8									"8 Bit";
+	IDS_VPWATERMARK_RDATA_FORMATDEPTH_16								"16 Bit";
+	IDS_VPWATERMARK_RDATA_FORMATDEPTH_32								"32 Bit";
+	IDS_VPWATERMARK_RDATA_ANTIALIASING_NONE							"None";
+	IDS_VPWATERMARK_RDATA_ANTIALIASING_GEOMETRY					"Geometry";
+	IDS_VPWATERMARK_RDATA_ANTIALIASING_BEST							"Best";
+	IDS_VPWATERMARK_RDATA_AAFILTER_STILLIMAGE						"Cubic (Still Image)";
+	IDS_VPWATERMARK_RDATA_AAFILTER_ANIMATION						"Gauss (Animation)";
+	IDS_VPWATERMARK_RDATA_AAFILTER_BOX									"Box";
+	IDS_VPWATERMARK_RDATA_AAFILTER_CATMULL							"Catmull";
+	IDS_VPWATERMARK_RDATA_AAFILTER_MITCHELL							"Mitchell";
+	IDS_VPWATERMARK_RDATA_AAFILTER_SINC									"Sinc";
+	IDS_VPWATERMARK_RDATA_AAFILTER_VIDEO								"PAL/NTSC";
+	IDS_VPWATERMARK_RDATA_AAFILTER_TRIANGLE							"Triangle";
+	IDS_VPWATERMARK_RDATA_AALEVEL_1											"1x1";
+	IDS_VPWATERMARK_RDATA_AALEVEL_2											"2x2";
+	IDS_VPWATERMARK_RDATA_AALEVEL_4											"4x4";
+	IDS_VPWATERMARK_RDATA_AALEVEL_8											"8x8";
+	IDS_VPWATERMARK_RDATA_AALEVEL_16										"16x16";
+	IDS_VPWATERMARK_XMB_SAMPLER_ADAPTIVE								"Adaptive";
+	IDS_VPWATERMARK_XMB_SAMPLER_FIXED										"Fixed";
+	IDS_VPWATERMARK_XMB_SAMPLER_INTERACTIVE							"Progressive";
+	// The following strings are all the same as the strings from the Global Illumination descriptions
+	IDS_VPWATERMARK_GI_SETUP_MASTER_MODE_IC_IC					"IR (Still Image)";
+	IDS_VPWATERMARK_GI_SETUP_MASTER_MODE_IC_IC_CAMERA		"IR (Camera Animation)";
+	IDS_VPWATERMARK_GI_SETUP_MASTER_MODE_QMC						"QMC";
+	IDS_VPWATERMARK_GI_SETUP_MASTER_MODE_IC_QMC					"IR + QMC (Still Image)";
+	IDS_VPWATERMARK_GI_SETUP_MASTER_MODE_IC_QMC_CAMERA	"IR + QMC (Camera Animation)";
+	IDS_VPWATERMARK_GI_SETUP_MASTER_MODE_IC_QMC_FULL		"IR + QMC (Full Animation)";
+	IDS_VPWATERMARK_GI_SETUP_MASTER_MODE_IC_QMC_FULL_NET	"IR + QMC (Team Render)";
+	IDS_VPWATERMARK_GI_SETUP_MASTER_MODE_SKY						"Sky Sampler";
+	IDS_VPWATERMARK_GI_SETUP_RADIANCE_MODE_NORMAL				"Normal";
+	IDS_VPWATERMARK_GI_SETUP_RADIANCE_MODE_POINTS				"Visualize Texels";
+	IDS_VPWATERMARK_GI_SETUP_RADIANCE_MODE_SHADED				"Visualize Shading";
+	IDS_VPWATERMARK_GI_SETUP_RADIANCE_MODE_SHADED_FRONT	"Visualize Shading (Front)";
+	IDS_VPWATERMARK_GI_SETUP_RADIANCE_MODE_SHADED_BACK	"Visualize Shading (Back)";
+	IDS_VPWATERMARK_MSG_ACTIVE													"on";
+	IDS_VPWATERMARK_MSG_INACTIVE												"off";
+	// Names/Titles of placeholders
+	IDS_WATERMARK_PH_C4DTYPE									"C4D Type";
+	IDS_WATERMARK_PH_C4DVERSION								"C4D Version";
+	IDS_WATERMARK_PH_BUILDID									"C4D Build ID";
+	IDS_WATERMARK_PH_OSTYPE										"OS Type";
+	IDS_WATERMARK_PH_OSVER										"OS Version";
+	IDS_WATERMARK_PH_CPUTYPE									"CPU Type";
+	IDS_WATERMARK_PH_CPUNAME									"CPU Name";
+	IDS_WATERMARK_PH_CPUMHZ										"CPU GHz";
+	IDS_WATERMARK_PH_CPUCNT										"CPU Count";
+	IDS_WATERMARK_PH_CPUHTCNT									"CPU Hyperthread Count";
+	IDS_WATERMARK_PH_MACHINE									"Machine";
+	IDS_WATERMARK_PH_MACHMDL									"Machine Model";
+	IDS_WATERMARK_PH_PHYSRAM									"Physical Memory";
+	IDS_WATERMARK_PH_COMPNAME									"Computer Name";
+	IDS_WATERMARK_PH_TRCOMPNAME								"Computer Name (Team Render Client)";
+	IDS_WATERMARK_PH_USERNAME									"User Name";
+	IDS_WATERMARK_PH_DOCCOPYRIGHT							"Project Copyright";
+	IDS_WATERMARK_PH_DOCAUTHOR								"Project Author";
+	IDS_WATERMARK_PH_LICNAME									"License Name";
+	IDS_WATERMARK_PH_LICORG										"License Organization";
+	IDS_WATERMARK_PH_LICNR										"License Number";
+	IDS_WATERMARK_PH_DOCNAME									"Project Name";
+	IDS_WATERMARK_PH_DOCPATH									"Project Path";
+	IDS_WATERMARK_PH_RENDERER									"Renderer: Name";
+	IDS_WATERMARK_PH_RAYDEPTH									"Renderer: Ray Depth";
+	IDS_WATERMARK_PH_REFLDEPTH								"Renderer: Reflection Depth";
+	IDS_WATERMARK_PH_SHADOWDEPTH							"Renderer: Shadow Depth";
+	IDS_WATERMARK_PH_FORMATDEPTH							"Renderer: Output Format Depth";
+	IDS_WATERMARK_PH_AAFILTER									"Antialias Filter";
+	IDS_WATERMARK_PH_AA												"Antialias Mode";
+	IDS_WATERMARK_PH_AATHRESHOLD							"Antialias Threshold";
+	IDS_WATERMARK_PH_AAMAX										"Antialias Max";
+	IDS_WATERMARK_PH_AAMIN										"Antialias Min";
+	IDS_WATERMARK_PH_RAYTHRESHOLD							"Renderer: Ray Threshold";
+	IDS_WATERMARK_PH_LOD											"Renderer: Level of Detail";
+	IDS_WATERMARK_PH_GI_MODE									"Mode";
+	IDS_WATERMARK_PH_GI_DIFFDEPTH							"Diffuse Depth";
+	IDS_WATERMARK_PH_GI_ACCURACY							"Accuracy";
+	IDS_WATERMARK_PH_GI_SAMPLES								"Samples";
+	IDS_WATERMARK_PH_GI_DENSITY								"Density";
+	IDS_WATERMARK_PH_XMB_MBLUR								"Motion Blur";
+	IDS_WATERMARK_PH_XMB_SAMPLING							"Sampling";
+	IDS_WATERMARK_PH_XMB_BLURRY								"Blurry";
+	IDS_WATERMARK_PH_XMB_GI										"GI";
+	IDS_WATERMARK_PH_XMB_HDRTHRESH						"HDR Threshold";
+	IDS_WATERMARK_PH_RENDERTIME								"Render Time";
+	IDS_WATERMARK_PH_POLYCOUNT								"Polygon count";
+	IDS_WATERMARK_PH_CAM_NAME									"Active Camera";
+	IDS_WATERMARK_PH_CAM_FL										"Focal Length";
+	IDS_WATERMARK_PH_CAM_TARGETDIST						"Focus Distance";
+	IDS_WATERMARK_PH_CAM_WB										"White Balance (K)";
+	IDS_WATERMARK_PH_CAM_PHY_FNUMBER					"Physical Camera: F-Stop (f/#)";
+	IDS_WATERMARK_PH_CAM_PHY_ISO							"Physical Camera: ISO";
+	IDS_WATERMARK_PH_CAM_PHY_GAIN							"Physical Camera: Gain (dB)";
+	IDS_WATERMARK_PH_CAM_PHY_SHUTTER					"Physical Camera: Shutter Speed (s)";
+	IDS_WATERMARK_PH_CAM_PHY_DISTORT					"Physical Camera: Lens Distortion";
+	IDS_WATERMARK_PH_CAM_PHY_ABERRATION				"Physical Camera: Chromatic Aberration";
+	IDS_WATERMARK_PH_OBJCOUNT									"Object count";
+	IDS_WATERMARK_PH_LIGHTCOUNT								"Light count";
+	IDS_WATERMARK_PH_STARTTIME								"Render Start Time";
+	IDS_WATERMARK_PH_STARTDATE								"Render Start Date";
+	IDS_WATERMARK_PH_RENDERSETTING						"Render Setting Name";
+	IDS_WATERMARK_PH_XMB_SAMPLER							"Sampler Name";
+	IDS_WATERMARK_PH_GI_SAMPLING_HEMISPHERIC	"Hemispherical Sampling";
+	IDS_WATERMARK_PH_GI_SAMPLING_AREA					"Discrete Area Sampling";
+	IDS_WATERMARK_PH_GI_SAMPLING_SKY					"Discrete Sky Sampling";
+	IDS_WATERMARK_PH_GI_SAMPLING_RADMAP				"Radiosity Maps";
+  IDS_WATERMARK_PH_TAKE                     "Take";
+
+	// Placeholder categories
+	IDS_WATERMARK_PH_CAT_CINEMA								"Cinema 4D";
+	IDS_WATERMARK_PH_CAT_SYSTEM								"System";
+	IDS_WATERMARK_PH_CAT_DOC									"Project";
+	IDS_WATERMARK_PH_CAT_RENDERER							"Renderer";
+	IDS_WATERMARK_PH_CAT_STATS								"Statistics";
+	IDS_WATERMARK_PH_CAT_GI										"Global Illumination";
+	IDS_WATERMARK_PH_CAT_XMB									"Physical Renderer";
+	IDS_WATERMARK_PH_CAT_CAM									"Camera";
+	IDS_WATERMARK_PH_CAT_AA										"Anti-Aliasing";
+
+	// PositionPass Videopost Effect
+	IDS_VPPOSITIONPASS												"Position Pass";
+	IDS_VPPOSITIONPASS_MP											"Position";
+	IDS_VPPOSITIONPASS_MP_WORLD								"World";
+	IDS_VPPOSITIONPASS_MP_CAMERA							"Camera";
+	IDS_VPPOSITIONPASS_MP_OBJECT							"Object";
+
+	// NormalPass Videopost Effect
+	IDS_VPNORMALPASS													"Normal Pass";
+	IDS_VPNORMALPASS_MP												"Normal";
+	IDS_VPNORMALPASS_MP_WORLD									"World";
+	IDS_VPNORMALPASS_MP_CAMERA								"Camera";
+	IDS_VPNORMALPASS_MP_OBJECT								"Object";
+
+  IDS_COMMANDER_TITLE_STR                   "Commander";
+  IDS_COMMANDER_DLGMAIN_EDIT_INPUT_HELP     "Enter your command...";
+  IDS_COMMANDER_DLGMAIN_LABEL_NORESULT      "Sorry, no results found - try altering your search.";
+  IDS_COMMANDER_MODULNAME_XP                "XPresso Editor";
+  IDS_COMMANDER_MODULNAME_TP                "Thinking Particles";
+  IDS_COMMANDER_MODULNAME_CA                "Character Animation";
+  IDS_COMMANDER_LABEL_TAG                   "Tag";
+  IDS_COMMANDER_CONTEXT_EXECUTECMD          "Execute";
+  IDS_COMMANDER_CONTEXT_APPLYTAG            "Apply";
+  IDS_COMMANDER_CONTEXT_SHOWITMHELP         "Show Help for";
+  IDS_COMMANDER_MODULNAME_TR				"Team Render";
+
+  IDS_CMD_TIMELINESCROLL  				"Timeline Scroll Bar (Key Area)";
+  IDS_CMD_TIMELINESCROLL_HELP  			"Timeline Scroll Bar (Key Area)";
+  IDS_CMD_TIMELINESCROLL2 				"Timeline Scroll Bar (Power Area)";
+  IDS_CMD_TIMELINESCROLL2_HELP			"Timeline Scroll Bar (Power Area)";
+
+  IDS_SEARCH_HELP						"Search";
+  IDS_DELETEINFO						"You are about to delete a job. A deleted job can't be resumed. Do you want to continue?";
+
+	IDS_TAKE_MANAGER_TITLE					"Takes";
+	IDS_TAKE_MANAGER								"Take Manager";
+	IDS_TAKE_MANAGER_HELP						"Opens the Take Manager";
+
+	IDS_TAKE_NEW										"New Take";
+	IDS_TAKE_NEW_HELP								"Creates a new take";
+	IDS_TAKE_DELETE									"Delete Takes";
+	IDS_TAKE_DELETE_HELP						"Deletes selected takes";
+
+	IDS_TAKE_RENDERALL							"Render All Takes to PV";
+	IDS_TAKE_RENDERALL_HELP					"Renders all takes to the Picture Viewer";
+	IDS_TAKE_RENDERSELECTED					"Render Marked Takes to PV";
+	IDS_TAKE_RENDERSELECTED_HELP		"Renders all marked takes to the Picture Viewer";
+
+	IDS_TAKE_RENDERALL_TR						"Team Render All Takes to PV";
+	IDS_TAKE_RENDERALL_HELP_TR			"Renders all takes with Team Render to the Picture Viewer";
+	IDS_TAKE_RENDERSELECTED_TR			"Team Render Marked Takes to PV";
+	IDS_TAKE_RENDERSELECTED_HELP_TR	"Renders marked takes with Team Render to the Picture Viewer";
+
+	IDS_TAKE_NAMEMAIN                   "Main";
+	IDS_TAKE_NAMEDEFAULT                "New Take";
+	IDS_TAKE_NAMECOPY                   "Copy";
+
+	IDS_TAKE_TAKEOBJECT                 "Take";
+	IDS_TAKE_OVERIDEOBJECT              "Override";
+	IDS_TAKE_OVERRIDE_GROUP             "Group";
+	IDS_TAKE_OVERRIDE_GROUP_NAME        "New Group";
+	IDS_TAKE_OVERRIDE_GROUPPLACEHOLDER	"Place Holder Object";
+
+	IDS_OVERRIDE_FOLDERNAME							"Overrides";
+	IDS_OVERRIDE_FOLDERNAMEOBJ					"Objects";
+	IDS_OVERRIDE_FOLDERNAMETAG					"Tags";
+	IDS_OVERRIDE_FOLDERNAMEMAT					"Materials";
+	IDS_OVERRIDE_FOLDERNAMESHADER				"Shaders";
+	IDS_OVERRIDE_FOLDERNAMERENDER				"RenderSettings";
+	IDS_OVERRIDE_FOLDERNAMEVP						"Post Effects";
+	IDS_OVERRIDE_FOLDERNAMELAYER				"Layers";
+	IDS_OVERRIDE_FOLDERNAMEOTHER				"Others";
+  IDS_OVERRIDE_FOLDERNAMEGROUP        "Override Groups";
+
+  IDS_TAKE_COMBO_GETFROMPARENT        "Inherit From Parent";
+  IDS_TAKE_COMBO_DEFAULTCAMERA        "Default Camera";
+
+  IDS_TAKE_AUTOTAKE                   "Auto Take";
+	IDS_TAKE_AUTOTAKE_HELP              "Toggles Auto Take mode";
+  IDS_TAKE_SHOWINMAIN                 "Show Overrides In Main Take";
+  IDS_TAKE_SHOWINMAIN_HELP            "Show/Hide Overrides In Main Take";
+  IDS_TAKE_SHOWEMPTYFOLDER            "Show Empty Folders";
+  IDS_TAKE_SHOWEMPTYFOLDER_HELP       "Shows/hides empty category folders";
+  IDS_TAKE_OVERGROUP                  "Add Override Group";
+  IDS_TAKE_OVERGROUP_HELP             "Creates a new override group";
+  IDS_TAKE_ISOLATE                    "Current Take to New Document";
+  IDS_TAKE_ISOLATE_HELP               "Converts the current take to a new document";
+  IDS_TAKE_EXPORTALL                  "Save All Takes with Assets";
+  IDS_TAKE_EXPORTALL_HELP             "Saves all takes with their assets";
+  IDS_TAKE_EXPORTMRK                  "Save Marked Takes with Assets";
+  IDS_TAKE_EXPORTMRK_HELP             "Saves marked takes with their assets";
+  IDS_TAKE_SHOWTAKETREE               "Take Tree Mode";
+	IDS_TAKE_SHOWTAKETREE_HELP          "Shows Take tree only";
+  IDS_TAKE_SHOWOVERRIDETREE           "Override Tree Mode";
+  IDS_TAKE_SHOWOVERRIDETREE_HELP      "Shows Override tree only";
+  IDS_TAKE_SHOWDOUBLETREE             "Dual Tree Mode";
+  IDS_TAKE_SHOWDOUBLETREE_HELP        "Shows Take and Override tree";
+  IDS_TAKE_LINKSELECTION              "Link Selection to Other Managers";
+  IDS_TAKE_LINKSELECTION_HELP         "Links selections in the Take Manager to other managers";
+  IDS_TAKE_LOCKOVERRIDES              "Lock Overrides";
+  IDS_TAKE_LOCKOVERRIDES_HELP         "Locks all override types";
+  IDS_TAKE_ALL                        "All";
+  IDS_TAKE_ALL_HELP                   "Enables all overrides";
+  IDS_TAKE_NONE                       "None";
+  IDS_TAKE_NONE_HELP                  "Disables all overrides";
+  IDS_TAKE_OBJ                        "Objects";
+  IDS_TAKE_OBJ_HELP                   "Allows new overrides for objects";
+  IDS_TAKE_TAG                        "Tags";
+  IDS_TAKE_TAG_HELP                   "Allows new overrides for tags";
+  IDS_TAKE_MAT                        "Materials";
+  IDS_TAKE_MAT_HELP                   "Allows new overrides for materials";
+  IDS_TAKE_SHD                        "Shaders";
+  IDS_TAKE_SHD_HELP                   "Allows new overrides for shaders";
+  IDS_TAKE_LAY                        "Layers";
+  IDS_TAKE_LAY_HELP                   "Allows new overrides for layers";
+  IDS_TAKE_OTH                        "Others";
+  IDS_TAKE_OTH_HELP                   "Allows new overrides for other categories";
+  IDS_TAKE_PRM                        "Parameters";
+  IDS_TAKE_PRM_HELP                   "Allows to override parameters";
+  IDS_TAKE_RS                         "Render Settings";
+  IDS_TAKE_RS_HELP                    "Allows to override the used render settings";
+  IDS_TAKE_CAM                        "Camera";
+  IDS_TAKE_CAM_HELP                   "Allows to override the current render camera";
+  IDS_TAKE_TRS                        "Transformations";
+  IDS_TAKE_TRS_HELP                   "Allows to override object transformations (PSR)";
+  IDS_TAKE_VIS                        "Enable Status/Visibility";
+  IDS_TAKE_VIS_HELP                   "Allows to override the enable status and visibility";
+
+  IDS_TAKE_SEARCHDEFAULTSTRING        "Search";
+
+  IDS_TAKE_USERDATA_MENU              "User Data";
+  IDS_TAKE_USERDATA_ADDUSERATA        "Add User Data";
+  IDS_TAKE_USERDATA_MANUSERATA        "Manage User Data";
+  IDS_TAKE_USERDATA_PASTEUSERDATA     "Paste User Data Interface";
+  IDS_TAKE_PREFS                      "Takes";
+
+  IDS_TAKETREE_COL_CAT                "Category";
+  IDS_TAKETREE_COL_VAL                "Value";
+  IDS_TAKETREE_COL_PARENT             "Owner";
+  IDS_TAKETREE_COL_V                  "V";
+  IDS_TAKETREE_COL_TAGS               "Group Tag";
+
+  IDS_TAKE_NEWCHILD                   "New Child Take";
+  IDS_TAKE_ASSIGNMENT                 "Take Assignment";
+  IDS_TAKE_REMOVE                     "Remove from Current Take";
+	IDS_TAKE_REMOVE_OBJ									"Removes selected objects from the current take";
+	IDS_TAKE_REMOVE_TAG									"Removes selected tags from the current take";
+	IDS_TAKE_REMOVE_MAT									"Removes selected materials from the current take";
+	IDS_TAKE_REMOVE_LAY									"Removes selected layers from the current take";
+
+  IDS_TAKE_SAVEPRESET                 "Save Take Preset";
+  IDS_TAKE_LOADPRESET                 "Load Take Preset";
+	IDS_TAKE_SAVEPRESET_HELP						"Saves a preset of the selected take";
+	IDS_TAKE_LOADPRESET_HELP						"Loads a take preset";
+
+	IDS_TAKE_VALUE_TRUE									"True";
+	IDS_TAKE_VALUE_FALSE								"False";
+
+	IDS_TAKE_FLUSH                     	"Remove from All Takes";
+	IDS_TAKE_FLUSH_OBJ									"Removes selected objects from all takes";
+	IDS_TAKE_FLUSH_TAG									"Removes selected tags from all takes";
+	IDS_TAKE_FLUSH_MAT									"Removes selected materials from all takes";
+	IDS_TAKE_FLUSH_LAY									"Removes selected layers from all takes";
+
+	IDS_TOKEN_RS 												"Render Settings";
+	IDS_TOKEN_RS_EXAMPLE							  "MyRenderSettings";
+	IDS_TOKEN_CAM 											"Current Camera";
+	IDS_TOKEN_CAM_EXAMPLE 							"MyCamera";
+	IDS_TOKEN_TAKE 											"Current Take Name";
+	IDS_TOKEN_TAKE_EXAMPLE 							"MyTake";
+	IDS_TOKEN_PASS											"Current Pass Name";
+	IDS_TOKEN_PASS_EXAMPLE 							"MyPass";
+	IDS_TOKEN_USERPASS 									"Current Pass Name (User Defined)";
+	IDS_TOKEN_USERPASS_EXAMPLE 					"MyUserPass";
+	IDS_TOKEN_PRJ 											"Project Name";
+	IDS_TOKEN_PRJ_EXAMPLE 							"MyDocument";
+	IDS_TOKEN_FRAME 										"Current Frame";
+	IDS_TOKEN_FRAME_EXAMPLE 						"0000";
+	IDS_TOKEN_RATE 											"Frame Rate";
+	IDS_TOKEN_RATE_EXAMPLE 							"00";
+	IDS_TOKEN_RES 											"Resolution";
+	IDS_TOKEN_RES_EXAMPLE 							"0000x0000";
+	IDS_TOKEN_RANGE 										"Frame Range";
+	IDS_TOKEN_RANGE_EXAMPLE 						"000_000";
+
+	IDS_TAKE_MERGE_REASSIGN_MESSAGE			"Do you want to reassign included takes?";
+	IDS_TAKE_MERGE_TITLE								"Reassign Takes";
+	IDS_TAKE_MERGE_NOTE1 								"Drag & drop into destination field reassigns source take.";
+	IDS_TAKE_MERGE_NOTE2 								"Drag & drop into destination tree inserts source take.";
+	IDS_TAKE_MERGE_RESET 								"Reset";
+	IDS_TAKE_MERGE_DEST									"Destination: ";
+	IDS_TAKE_MERGE_SOURCE								"Source: ";
+
+	IDS_TAKE_COMBO_CAMERAPARENT     	  "Inherit Camera";
+	IDS_TAKE_COMBO_RSPARENT     	 			"Inherit Render Settings";
+
+	IDS_TAKEMISSINGASSET								"Missing Assets";
+	IDS_TAKEOUTPUTERROR									"Output Errors";
+	IDS_TAKERENDER_OVER									" Already exists do you really want to overwrite it?";
+	IDS_TAKERANDER_CONFLICT							" File name conflict with file name in";
+	IDS_TAKERENDER_DYNAMICS							" WARNING: The document contains dynamic simulations!";
+
+	IDS_TAKE_COPY_DESC									"Copy selection to clipboard";
+	IDS_TAKE_PASTE_DESC									"Paste selection from clipboard";
+
+	IDS_NET_HARDWAREANDSOFTWARENOTSUPPORTED		"Software and hardware renderings are not supported in Team Render";
+
+	IDS_RESOLUTIONMISMATCH							"Warning!||The exporter doesn't support the resolution|Resolution: #x# -> #x#||The output might be padded or will fail.";
+	IDS_RESOLUTIONMISMATCH_NO_WARNINGS	"<<No Warnings>>";
+    
+    IDS_HELPDIALOG_TITLE                            "Help";
+    IDS_FILTER_TRACK "Filter Track Name   :";
+    IDS_FILTER_OBJ   "Filter Object Name :";
+    IDS_TL_M_FIT_ALWAYS "Auto Frame Mode";
+    IDS_TL_M_PASTE_IN_PLACE "Paste In Place";
+}

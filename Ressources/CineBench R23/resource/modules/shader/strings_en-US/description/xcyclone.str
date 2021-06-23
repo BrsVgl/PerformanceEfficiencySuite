@@ -1,0 +1,9 @@
+STRINGTABLE Xcyclone
+{
+	Xcyclone "Cyclone Shader";
+
+	CYCLONESHADER_COLOR			"Color";
+	CYCLONESHADER_FREQUENCY	"Frequency";
+	CYCLONESHADER_ROTATION	"Rotation";
+	CYCLONESHADER_LEVEL			"Level";
+}

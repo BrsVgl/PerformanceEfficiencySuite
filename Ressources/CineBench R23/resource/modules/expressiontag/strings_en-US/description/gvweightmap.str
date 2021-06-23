@@ -1,0 +1,10 @@
+STRINGTABLE GVweightmap
+{
+	GVweightmap									"Vertex Map Operator";
+	GV_WEIGHTMAP_INPUT_TAG			"Tag";
+	GV_WEIGHTMAP_INPUT_INDEX		"Index";
+	GV_WEIGHTMAP_INPUT_VALUE		"Value";
+
+	GV_WEIGHTMAP_OUTPUT_VALUE		"Value";
+	GV_WEIGHTMAP_OUTPUT_COUNT		"Count";
+}

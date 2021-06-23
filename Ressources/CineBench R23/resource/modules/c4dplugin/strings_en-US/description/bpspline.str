@@ -1,0 +1,14 @@
+STRINGTABLE BPspline
+{
+	BPspline													"Path";
+	ID_PAINTSPLINE_GROUP							"Properties";
+	ID_PAINTSPLINE_INFO_GROUP					"Info";
+	ID_PAINTSPLINE_SEGMENTS						"Segments: ";
+	ID_PAINTSPLINE_POINTS							"Point Count: ";
+	ID_PAINTSPLINE_PREVIEW						"Preview";
+
+	ID_PAINTSPLINE_GROUP_COORDS				"Coordinates" "Coord.";
+	ID_PAINTSPLINE_POSITION						"Position" "P";
+	ID_PAINTSPLINE_ROTATION						"Rotation" "R";
+	ID_PAINTSPLINE_SCALE							"Scale" "S";
+}

@@ -1,0 +1,14 @@
+STRINGTABLE Opolyreduxgen
+{
+	Opolyreduxgen "Polygon Reduction Generator";
+
+	POLYREDUXOBJECT_REDUCE_ALL_AS_ONE			"Reduce all generator children as one object";
+	POLYREDUXOBJECT_STRENGTH							"Reduction Strength";
+	POLYREDUXOBJECT_TRIANGLE_COUNT				"Triangle Count";
+	POLYREDUXOBJECT_VERTEX_COUNT					"Vertex Count";
+	POLYREDUXOBJECT_REMAINING_EDGES_COUNT	"Remaining Edges";
+	POLYREDUXOBJECT_NO_REDUCTION					"Zero remaining edges to collapse. No reduction possible.";
+	POLYREDUXOBJECT_PRESERVE_3D_BOUNDARY	"Preserve 3D Boundaries";
+	POLYREDUXOBJECT_PRESERVE_UV_BOUNDARY 	"Preserve UV Boundaries";
+	POLYREDUXOBJECT_REDUCE_BOUNDARY_ANGLE	"Boundary Reduction Angle";
+}

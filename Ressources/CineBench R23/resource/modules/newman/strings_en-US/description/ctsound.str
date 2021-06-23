@@ -1,0 +1,22 @@
+STRINGTABLE CTsound
+{
+	CTsound			 		 			"Sound";
+	CID_SOUNDPROPERTIES 		"Sound Properties" "Sound";
+	CID_SOUND_NAME	   			"Sound";
+
+	CID_SOUND_LOAD   			"...";
+	CID_SOUND_PLAY	   			"Play Sound";
+	CID_SOUND_STOP	   			"Stop Sound";
+
+	CID_SOUND_START        "Start Time";
+
+	CID_SOUND_SIZE         "Size";
+	CID_SOUND_FREQ         "Frequency";
+	CID_SOUND_LENGTH       "Length";
+	CID_SOUND_CHANNEL      "Channel";
+	CID_SOUND_BITS         "Bits";
+	CID_SOUND_ONOFF        "Use Sound";
+}
+
+
+

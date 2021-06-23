@@ -1,0 +1,34 @@
+STRINGTABLE TLWorld
+{
+	TLWorld					"Key Interpolation";
+	TLWORLD_OVERDUB			"Overdub";
+	TLWORLD_LOCKV			"Lock Value";
+	TLWORLD_LOCKT			"Lock Time";
+	TLWORLD_LOCKTA			"Lock Tangent Angles";
+	TLWORLD_LOCKTL			"Lock Tangent Lengths";
+	TLWORLD_AUTO			"Auto Tangents";
+	TLWORLD_AUTOTYPE		"Slope";
+		TLWORLD_AUTOTYPE_CLASSIC	"Classic";
+		TLWORLD_AUTOTYPE_FIXEDSLOPE	"Fixed Slope";
+	TLWORLD_WEIGHTEDTANGENT	"Weighted Tangents";
+	TLWORLD_AUTOWEIGHT		"Automatic Weighting";
+	TLWORLD_CLAMP			"Clamp";
+	TLWORLD_REMOVEOVERSHOOT "Remove Overshooting";
+	TLWORLD_BREAK			"Break Tangents";
+	TLWORLD_KEEPVISUALANGLE "Keep Visual Angle";
+	TLWORLD_INTER			"Interpolation";
+	TLWORLD_INTER_SP		"Spline";
+	TLWORLD_INTER_LI		"Linear";
+	TLWORLD_INTER_ST		"Step";
+	TLWORLD_QUATINTER		"Quaternion Interpolation";
+		TLWORLD_QUATINTER_SPLINE	"Spline (SQUAD)";
+		TLWORLD_QUATINTER_LINEAR	"Linear (SLERP)";
+		TLWORLD_QUATINTER_CUBIC		"Cubic";
+	TLWORLD_BREAKDOWN		"Breakdown";
+	TLWORLD_BREAKDOWNCOLOR	"Breakdown Color";
+	TLWORLD_PRESET		"Key Preset";
+		TLWORLD_PRESET_CLASSICAUTO	"AutoKey Classic";
+		TLWORLD_PRESET_NEWAUTO		"AutoKey No Overshoot";
+		TLWORLD_PRESET_NEWAUTOWEIGHTED	"AutoKey Weighted";
+		TLWORLD_PRESET__CUSTOM		"Custom";
+}

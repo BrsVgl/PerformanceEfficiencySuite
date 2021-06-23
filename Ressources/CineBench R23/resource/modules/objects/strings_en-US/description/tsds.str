@@ -1,0 +1,8 @@
+STRINGTABLE Tsds
+{
+  Tsds                      "SDS Weight";
+
+  SDSTAG_USE_SDS_STEPS      "Change Subdivision";
+  SDSTAG_SUBEDITOR          "Subdivision Editor";
+  SDSTAG_SUBRAY             "Subdivision Renderer";
+}

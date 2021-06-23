@@ -1,0 +1,8 @@
+STRINGTABLE Dpresets
+{
+	Dpresets "Presets";
+	
+	ID_CA_PRESETS_LIST "";
+	ID_CA_PRESETS_NAME "Name";
+	ID_CA_PRESETS_NAME_FILE "...";
+}

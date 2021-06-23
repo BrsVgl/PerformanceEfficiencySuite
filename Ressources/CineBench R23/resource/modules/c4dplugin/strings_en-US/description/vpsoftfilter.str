@@ -1,0 +1,5 @@
+STRINGTABLE VPsoftfilter
+{
+	VPsoftfilter					"Soft Filter";
+	VP_SOFTFILTERSTRENGTH	"Strength";
+}

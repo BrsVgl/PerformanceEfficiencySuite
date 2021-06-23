@@ -1,0 +1,20 @@
+STRINGTABLE Tcolpicker
+{
+	Tcolpicker "Color Picker Tool";
+	
+	GRP_COLOR_PICKER_PROPERTIES	"Color Picker Properties";
+	GRP_COLOR_PICKER		"Color Pick";
+	ID_COLOR_PICKER_SRC		"Original";
+	ID_COLOR_PICKER_DST		"Final";
+	ID_COLOR_PICKER_U		"U";
+	ID_COLOR_PICKER_V		"V";
+	ID_COLOR_PICKER_X		"X";
+	ID_COLOR_PICKER_Y		"Y";
+	
+	ID_COLOR_PICK_CROSS				"Cross";
+	ID_COLOR_PICK_CROSS_SMALL		"Small Cross";
+	ID_COLOR_PICK_CROSS_LARGE_X		"X Guide";
+	ID_COLOR_PICK_CROSS_LARGE_Y		"Y Guide";
+	ID_COLOR_PICK_CROSS_LARGE_XY	"X and Y Guide";
+	
+}

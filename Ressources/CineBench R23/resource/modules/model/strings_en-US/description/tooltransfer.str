@@ -1,0 +1,11 @@
+STRINGTABLE ToolTransfer
+{
+  ToolTransfer										"Transfer";
+	MDATA_TRANSFER_OBJECT_LINK			"Transfer to";
+	MDATA_TRANSFER_USE_MOVE					"Enable Move";
+	MDATA_TRANSFER_USE_MOVE_X				"Enable Move X" "X";
+	MDATA_TRANSFER_USE_MOVE_Y				"Enable Move Y" "Y";
+	MDATA_TRANSFER_USE_MOVE_Z				"Enable Move Z" "Z";
+	MDATA_TRANSFER_USE_ROTATION			"Enable Rotation";
+	MDATA_TRANSFER_USE_SCALE				"Enable Scale";
+}

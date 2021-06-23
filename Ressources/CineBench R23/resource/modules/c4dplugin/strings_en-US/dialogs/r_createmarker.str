@@ -1,0 +1,20 @@
+DIALOGSTRINGS R_CREATEMARKER
+{
+	TITLE "Create Markers";
+	MARKER_NAME "Name/Prefix";
+	MARKER_LAYER "Layer";
+  TIME "Time";
+  TIME_LENGTH "Length";
+  TAB_SINGLE "Single Marker";
+  TAB_MULTI "Multiple Markers";
+  PREVIEWRANGE "Use Preview Range";
+  COLOR "Color";
+  BPM_NAME "BPM/Count";
+  BPM "BPM";
+  COUNT_NAME "Count";
+  COLORFIRST "Color Gradient";
+  COLORFLAST "Last Color";
+  MODE "Mode";
+  AUTOLENGTH "Use Length";
+  LAYER "Layer";
+}

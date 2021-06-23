@@ -1,0 +1,7 @@
+STRINGTABLE Mbase
+{
+	Mbase				 		 							"Material";
+	ID_MATERIALPROPERTIES					"Material Properties" "Material";
+	MATERIAL_PAGE_PROPERTIES			"Main";
+	ID_MATERIALGROUP_CUSTOM				"Custom Channels" "Custom";
+}

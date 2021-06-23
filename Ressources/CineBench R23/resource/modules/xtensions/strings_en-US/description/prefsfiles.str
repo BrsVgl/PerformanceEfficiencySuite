@@ -1,0 +1,29 @@
+STRINGTABLE Prefsfiles
+{
+	Prefsfiles "Files";
+	PREF_FILE_BACKUP									"Backup Copies";
+	PREF_FILE_AUTOEVERY								"Save";
+	PREF_FILE_AUTOMIN									"Every (min)";
+	PREF_FILE_AUTOLIMIT								"Limit";
+	PREF_FILE_AUTOCOPIES							"To (Copies)";
+	PREF_FILE_AUTOSAVETO							"Save to";
+	PREF_FILE_AUTOSAVE_PRJ						"Project Directory";
+	PREF_FILE_AUTOSAVE_USR						"User Directory";
+	PREF_FILE_AUTOSAVE_CST						"Custom Directory";
+	PREF_FILE_AUTOSAVEDIR							"";
+
+	PREF_FILE_ASSETS_LINK							"Link Assets to Project";
+		PREF_FILE_ASSETS_LINK_RELATIVE		"Copy Assets to Project Location";
+		PREF_FILE_ASSETS_LINK_ABSOLUTE		"Use Absolute Path";
+		PREF_FILE_ASSETS_LINK_ASK					"Always Ask";
+
+	PREF_FILE_RECENT									"Recent Files";
+	PREF_FILE_HELP										"Local Help Path";
+
+	PREFS_FILE_AUTOSAVE								"Auto-Save";
+	PREFS_FILE_BASIC									"Basic";
+	ID_FILES_GROUP_XREF								"XRefs Project Load/Save";
+
+	ID_FILES_XREFPREFS_DEFERRED_LOAD	"Deferred Refresh on Project Open";
+	ID_FILES_XREFPREFS_REDUCED_SAVE		"Reduced References on Project Save";
+}

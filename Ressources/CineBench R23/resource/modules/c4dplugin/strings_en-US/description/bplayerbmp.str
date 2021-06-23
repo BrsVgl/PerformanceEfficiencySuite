@@ -1,0 +1,7 @@
+STRINGTABLE BPlayerbmp
+{
+	BPlayerbmp													"Bitmap Layer";
+	ID_PAINTLAYERBMP_OFFSET_X						"Offset X";
+	ID_PAINTLAYERBMP_OFFSET_Y						"Offset Y";
+	ID_PAINTLAYERBMP_MODE 							"Mode";
+}

@@ -1,0 +1,10 @@
+STRINGTABLE Teye
+{
+  Teye                              "Moves Eye Tag";   
+
+  EYETAG_CAPTURE                    "Capture";
+  EYETAG_EYE                        "Eye";
+  EYETAG_EYE_LEFT                   "Left";
+  EYETAG_EYE_RIGHT                  "Right";
+  EYETAG_EYE_IOS12_EYETRACKING      "Use iOS 12 Eye Tracking";
+}

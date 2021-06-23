@@ -1,0 +1,11 @@
+STRINGTABLE ToolExtrudeInner
+{
+  ToolExtrudeInner	"Extrude Inner";
+
+	MDATA_EXTRUDEINNER_PRESERVEGROUPS					"Preserve Groups";
+	MDATA_EXTRUDEINNER_OFFSET									"Offset";
+	MDATA_EXTRUDEINNER_ANGLE									"Maximum Angle";
+	MDATA_EXTRUDEINNER_VARIANCE								"Offset Variation";
+	MDATA_EXTRUDEINNER_SUBDIVISION						"Subdivision";
+	MDATA_EXTRUDEINNER_CREATENGONS						"Create N-gons";
+}

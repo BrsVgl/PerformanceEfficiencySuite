@@ -1,0 +1,16 @@
+// C4D Dialog Strings
+
+DIALOGSTRINGS P_ZOOM
+{
+	TITLE "Set Zoom";
+	T2  "Zoom Factor";
+	TC0 "12.5%";
+	TC1 "25%";
+	TC2 "50%";
+	TC3 "75%";
+	TC4 "100%";
+	TC5 "150%";
+	TC6 "200%";
+	TC7 "400%";
+	TC8 "800%";
+}

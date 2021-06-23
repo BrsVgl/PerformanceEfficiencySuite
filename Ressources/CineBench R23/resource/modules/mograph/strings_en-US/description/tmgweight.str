@@ -1,0 +1,14 @@
+STRINGTABLE Tmgweight
+{
+	Tmgweight "MoGraph Weightmap";
+
+	MGWEIGHTTAG_CLEAR					"Clear";
+	MGWEIGHTTAG_INVERT				"Invert";
+
+	MGWEIGHTTAG_USEFIELDS			"Use Fields";
+	MGWEIGHTTAG_FIELDS				"Fields";
+
+	MGWEIGHTTAG_GROUP_FIELDS	"Fields";
+
+	MGWEIGHTTAG_FIELDDEFORM		"Use Deformed Points";
+}

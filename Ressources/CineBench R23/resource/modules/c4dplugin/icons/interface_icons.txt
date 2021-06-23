@@ -1,0 +1,2818 @@
+100004810 // Vertical Tags
+100004753 // Layers
+465001154 // Off After
+1051587,16,16 // Cubic Bias Interpolation
+465001155 // Constant After
+465001156 // Continue After
+465001157 // Repeat After
+1026936,20,20 // VS Brush
+1026937,20,20 // VS Line
+1026938,20,20 // VS Shape
+1026939,20,20 // VS Lasso
+1026940,20,20 // VS Text
+13931 // Use as Render View
+13663 // X-Ray
+13639 // All Views
+13635 // View 1
+13636 // View 2
+13637 // View 3
+13638 // View 4
+13524 // Use Deformers
+13523 // Use Generators
+13522 // Use Expressions
+465001158 // Offset Repeat After
+465001159 // Oscillate After
+13364 // Backface Culling
+1026941,20,20 // VS Shape
+12499 // Display Tags
+1022970 // Face Builder Template
+310002001,10,10 // RESOURCEIMAGE_EMPTY_TRI_LEFT
+310002002,10,10 // RESOURCEIMAGE_RED_TRI_LEFT
+310002003,10,10 // RESOURCEIMAGE_EMPTY_RED_TRI_LEFT
+-12156 // Coordinate System
+1050995 // Volume Tag
+1051236 // Image Sequence
+1051235 // Image
+5104 // Floor
+5106 // Environment
+5110 // Deflector
+5111 // Gravity
+5112 // Rotation
+5113 // Wind
+5114 // Friction
+5115 // Turbulence
+5119 // Attractor
+5121 // Foreground
+5122 // Background
+5124 // Destructor
+5128 // Bend
+5129 // Bulge
+5131 // Shear
+5133 // Taper
+5134 // Twist
+5136 // Stage
+5138 // Microphone
+5139 // Loudspeaker
+5143 // Wrap
+5145 // Explosion
+5146 // Formula
+5147 // Melt
+5148 // Shatter
+5149 // Wind
+5151 // Stereo Microphone
+465002004 // Sounds
+5159 // Cube
+5160 // Sphere
+5161 // Platonic
+5162 // Cone
+5163 // Torus
+5164 // Disc
+5165 // Tube
+5166 // Figure
+5167 // Pyramid
+5168 // Plane
+5169 // Landscape
+5170 // Cylinder
+5171 // Capsule
+5172 // Oil Tank
+5173 // Relief
+5174 // Polygon
+5175 // Profile
+5176 // Flower
+5177 // Formula
+5178 // Text
+5179 // n-Side
+5180 // 4-Side
+5181 // Circle
+5182 // Arc
+5183 // Cissoid
+5184 // Cycloid
+5185 // Helix
+5186 // Rectangle
+5187 // Star
+5188 // Cogwheel
+5189 // Vectorizer
+5190 // Selection
+5678 // Sun
+5698 // Vibrate
+5699 // Align To Spline
+5700 // Align To Path
+12002 // Stop
+1027593 // Workplane Locked
+431000006 // Workplane Locked X
+431000007 // Workplane Locked Y
+431000008 // Workplane Locked Z
+1027594 // Workplane Planar
+1027595 // Workplane Camera
+1027636 // Workplane Interactive
+431000011 // Workplane Align
+1027657 // Guide Object
+1027720 // Guide Tool
+1027821 // Use Guides
+1027822 // Kill Guide
+440000113 // Guide Snapping
+440000114 // Intersection Snapping
+1026818 // Camera calibrator
+12091 // Gouraud Shading
+12092 // Quick Shading
+12093 // Wireframe
+12094 // New...
+12095 // Open...
+12096 // Merge...
+12098 // Save
+12099 // Render to Picture Viewer
+12100 // Camera
+12101 // Object
+12102 // Object Axis
+12104 // Quit
+12105 // Undo
+12106 // Cut
+12107 // Copy
+12108 // Paste
+12109 // Delete
+12112 // Select All
+~300000160,12112 // AM Multiple
+12113 // Deselect All
+100004772 // Group Objects
+5100 // Polygon Object
+5102 // Omni Light
+5105 // Sky
+440000116 // Spline Snapping
+17972 // Workplane Mode
+440000117 // Dynamic Guide Snapping
+431000005 // Quantizing
+12134 // Mirror Horizontally
+12135 // Mirror Vertically
+12139 // Points
+12141 // Reverse Sequence
+12142 // Set First Point
+12144 // Connect
+12147 // Redraw
+12148 // Frame Scene Without Camera/Light
+12149 // Frame Default
+12150 // Magnify
+12151 // Frame Active Objects
+12153 // X-Axis / Heading
+12154 // Y-Axis / Pitch
+12155 // Z-Axis / Bank
+12156 // Coordinate System
+100004700 // Object Manager
+12159 // Material Manager
+465001510 // Timeline
+12161 // Render Settings...
+12162 // Render Active Objects
+12163 // Render View
+12165 // Render Region
+5103 // Camera
+12167 // Save All Materials as...
+12168 // Remove Unused Materials
+12169 // Apply
+465001802 // Cache Auto Size
+465001805 // Create Stereo Image From AB
+100004788 // New Tag
+1022143 // Calculate FPS
+12184 // Texture
+13365 // Textures
+12186 // Coordinate Manager
+12187 // Polygons
+12188 // Structure Manager
+12190 // Hard Interpolation
+12191 // Soft Interpolation
+465001537 // To Do Tag
+400009001 // Performance View
+13521 // Use Animation
+12196 // Spline Object
+1028155 // Select Xref
+12201 // Link Active Object
+12202 // Editor Camera
+1028156 // Refresh Selected Xref
+1028157 // Unload Selected Xref
+12211 //Remove Duplicate Materials
+12218 //Save as...
+1028158 // Exchange Selected Xref
+12233 //Current State to Object
+5107 //Loft NURBS
+12235 //Generate UVW Coordinates
+12236 //Make Editable
+5116 //Extrude NURBS
+5117 //Lathe NURBS
+5118 //Sweep NURBS
+5108 //FFD
+5109 //Emitter
+5123 //Bone
+100004777 // Copy Tag To Children
+1028160 // Open Selected Xref
+12252 // Render Materials
+12253 // Render All Materials
+12255 //Save Project...
+1028162 // Xref Options
+1028163 // Remove Selected Xref
+465001091 //Soft Interpolation
+465001806 // PV AB Sync
+431000009 // Align Selection To Workplane
+12270 //Revert to Saved...
+5120 //Bezier NURBS
+1027744 // Motion Camera
+1027745 // Camera Morph
+12287 //Configure...
+12288 //Frame Scene
+440000138 // Tool Specific Snapping
+100004775 //Scene Information
+100004774 //Object Information
+12297 //Redo
+12298 //Model
+1028271 // Camera Crane
+100004778 //Select Identical Child Tags
+431000012 // Workplane Axis Mode
+12305 //Console
+12317 //Reset System...
+100004773 //Expand Object Group
+430000700 //Picture Viewer
+12333 // Sort Materials
+465001097 // Mirror X
+465001098 // Mirror Y
+465001082 // Show Velocity
+310002013,10,10 // RESOURCEIMAGE_YELLOW_DIAMOND
+310002015,10,10 // RESOURCEIMAGE_YELLOW_TRI_LEFT
+310002014,10,10 // RESOURCEIMAGE_YELLOW_TRI_RIGHT
+310002016,10,10 // RESOURCEIMAGE_EMPTY_YELLOW_DIAMOND
+310002017,10,10 // RESOURCEIMAGE_YELLOW_CIRCLE
+310002018,10,10 // RESOURCEIMAGE_EMPTY_YELLOW_CIRCLE
+310002019,10,10 // RESOURCEIMAGE_EMPTY_BLUE_CIRCLE
+310002020,10,10 // RESOURCEIMAGE_BLUE_CIRCLE
+465001130 // Unify
+1028287,12,12 // Xrefs on Layer Manager
+1028288,12,12 // Xrefs off Layer Manager
+100004840 // Xrefs Layer Manager
+440000140 // Modeling AM Mode
+431000017 // Guide Plane
+16377 // MAXON Support
+12372 //Bake Particles...
+12373 //Project Settings...
+300002136 // Team Render Machines
+1028165 // Exchange Xrefs
+1028164 // Exchange Proxies
+1028104 // Render Xrefs
+1028081,14,14 // Alembic
+1028082,14,14 // Alembic Animated
+1028161 // Show In Explorer
+12390 //Close All
+12391 //Save All
+5125 //Metaball
+1028083 // Alembic Big
+12410 //Record Active Objects
+12411 //Play Backwards
+12412 //Play Forwards
+12413 //Goto Prev Frame
+12414 //Goto Next Frame
+12415 //Goto Prev Key
+12416 //Goto Next Key
+12417 //Position
+12418 //Scale
+12419 //Rotation
+12421 //Point Level Animation
+12422 //Parameter
+12423 //Preview Range
+12424 //All Frames
+12425 //Autokeying
+12426 //Simple
+12427 //Cycle
+12428 //Ping-Pong
+12429 //1
+12431 //5
+12432 //10
+12433 //15
+12435 //24
+12436 //25
+12437 //30
+12441 //Project
+465001212 //2D Sound Rendering...
+310002021,10,10 // RESOURCEIMAGE_EMPTY_YELLOW_CIRCLE_LEFT
+310002022,10,10 // RESOURCEIMAGE_EMPTY_YELLOW_CIRCLE_RIGHT
+12458 //Goto Frame...
+431000013 // Mid Point Snapping
+5126 //Instance
+12473 //Hide Selected
+12474 //Hide Unselected
+12475 //Unhide All
+12476 //Invert Visibility
+12477 //Undo View
+12478 //Redo View
+12479 //Invert
+~12374,12479 // Inherit Invert
+~1017495,12479 // Inherit Invert
+5142 //Symmetry
+12497 //Box
+12498 //Skeleton
+300002149 // Add Machine
+12501 //Goto Start
+12502 //Goto End
+300002162 // Load Machines
+100004748 //Fold All
+100004749 //Unfold All
+12512 //New Render Settings...
+12513 //Delete Render Settings
+12516 //Stereo
+12517 //DTS 5.1
+5140 //Null Object
+12519 //Target Camera
+12520 //Target Light
+5150 //Array
+465001213 //3D Sound Rendering...
+12539 //Isoparms
+12540 //Lines
+300002161 // Save Machines
+12552 //Set Selection
+12554 //SDDS 7.1
+300002174 // Verify Machines
+12556 //DDS EX 6.1
+12557 //Select Connected
+12559 //Shrink Selection
+12558 //Grow Selection
+12562 //Move Down Sequence
+12563 //Move Up Sequence
+12566 //Equal Tangent Length
+12567 //Equal Tangent Direction
+12568 //Join Segment
+12569 //Break Segment
+310002010,10,10 // RESOURCEIMAGE_EMPTY_TRI_RIGHT
+310002011,10,10 // RESOURCEIMAGE_RED_TRI_RIGHT
+310002012,10,10 // RESOURCEIMAGE_EMPTY_RED_TRI_RIGHT
+310002004,10,10 // RESOURCEIMAGE_EMPTY_DIAMOND
+310002005,10,10 // RESOURCEIMAGE_RED_DIAMOND
+310002006,10,10 // RESOURCEIMAGE_EMPTY_RED_DIAMOND
+12664 //Close
+300000186 //Command Manager
+12668 //Global Status Bar
+13015 //New Material
+13017 //Load Materials...
+13020 // Save Materials as...
+100004769 //Search First Active Object
+13038 //Frame Selected Elements
+13316 //Explode Segments
+13320 //Undo (Action)
+13323 //Select All
+13324 //Deselect All
+465001206 //Goto Marker...
+465001138 // Create Snapshot 2
+465001142 // Swap Snapshot 2
+465001134 // View Snapshot 2
+465001139 // Create Snapshot 3
+465001143 // Swap Snapshot 3
+465001135 // View Snapshot 3
+300002168 // Unverify Machines
+13577 //Assign UVW Coordinates
+100004762 // Show Search Bar
+~1029823,100004762 // Inherit Show Search Bar
+~300002160,100004762 // Inherit Show Search Bar
+~465001045,100004762 // Inherit Show Search Bar
+13620 //Single View
+13621 //2 Views Stacked
+13622 //2 Views Side by Side
+13623 //3 Views Top Split
+13624 //3 Views Bottom Split
+13625 //3 Views Left Split
+13626 //3 Views Right Split
+13627 //4 Views
+13628 //4 Views Top Split
+13629 //4 Views Bottom Split
+13630 //4 Views Left Split
+13631 //4 Views Right Split
+13632 //4 Views Stacked
+13633 //4 Views Side by Side
+465001140 // Create Snapshot 4
+465001144 // Swap Snapshot 4
+465001136 // View Snapshot 4
+465001141 // Create Snapshot 5
+465001145 // Swap Snapshot 5
+465001137 // View Snapshot 5
+100004746 // Enable Filter
+13746 //Menu Manager
+13770 //Set Vertex Weight...
+100004722 // One Level Up
+~13957,12109 // Inherit Delete
+300002155 // Show Info
+13971 //Linear
+14000 //Akima
+14001 //Bezier
+14002 //B-Spline
+14003 //Create Outline
+14004 //Cross Section
+14005 //Cubic
+14006 //Line Up
+14011 //Selection Info
+440000101 // Normals
+14023 //Align Normals
+14029 //Disconnect
+14038 //Mirror
+14039 //Optimize...
+14041 //Reverse Normals
+14046 //Split
+14047 //Subdivide...
+14048 //Triangulate
+14050 //Untriangulate...
+14055 //Freehand
+300002154 // Show Name
+16194 //Flush Illumination Caches
+16297 //Find First Active Material
+16298 //Select Materials of Active Objects
+465001032 //Frame All
+465001017 //Frame Selection
+300002156 // Show Checkbox
+300002158 // Show Bucket Color
+465001096 //Ease In
+465001094 //Ease Out
+465001095 //Easy Ease
+1029486 // Texture Manager
+465001083 //Auto Relative
+465001084 //Reset Relative
+1028186 // Save Weights
+1028185 // Load Weights
+16351 //Edges
+16370 //Select Texture Tags/Objects
+16388 //Select Children
+465001034 //Show All Animated
+16391 //Play Sound
+1027026 // Create Sculpting Layer
+1027025 // Add Folder
+1027029 // Clear Layer
+1027030 // Clear Mask
+~1027028,12109 // Inherit Delete
+1027039 // Invert Mask
+1027032 // Merge Visible Layers
+1027033 // Flatten
+1027034 // Delete Higher Level Layers
+1024015 // Sculpting Layers
+1028866 // Copy Mask
+16716 //Break Phong Shading
+16717 //Unbreak Phong Shading
+16718 //Select Broken Phong Edges
+1028867 // Paste Mask
+1027556 // Repeat Brush
+16725 // Load Textures
+16726 // Unload Textures
+1026708 // Inflate
+1026710 // Fill
+1026715 // Scrape
+1026518 // Wax
+170766 // UV Seams
+17038 // UV Editing
+17040 //Magnet
+17041 //Non-Uniform Scale
+17042 //Shear U
+17043 //Shear V
+300002153 // Show Icon
+17105 //Gouraud Shading (Lines)
+17106 //Constant Shading
+17107 //Quick Shading (Lines)
+17108 //Hidden Line
+17138 //Configure All...
+17199 //MaxonForm
+17201 //Constant Shading (Lines)
+1027042 // Show Masked
+1027041 // Hide Masked
+50000 //Render Settings
+51000 //Documents
+52000 //Recent Files
+53000 //Plugins
+300002157 // Show Address
+56000 //Default Layout
+60000 //Export Filter
+65000 //Scripts
+66000 //Keyframe Selection
+69000 //Selection Filter
+70000 //Display Filter
+17892 // Change Point Order
+150013 //3D Painting Mode
+170000 //New Texture...
+170001 //Open Texture...
+170002 //Revert Texture to Saved...
+170003 //Close Texture
+170004 //Save Texture
+170005 //Save Texture as...
+170006 //Save Texture as Copy...
+100004719 // Show Path Bar
+170773 //Show UV Display
+170022 //Mirror U
+170023 //Mirror V
+170025 //Fit to Screen
+170026 //Zoom 100%
+14063 //Zoom In
+170028 //Zoom Out
+170029 //Set Zoom...
+170050 //New Layer
+170051 //Add Layer Mask
+170052 //Duplicate Layer
+170053 //Delete Layer
+170054 //Flatten  
+170055 //Flatten Visible Layers
+170056 //Merge Layer Down
+170057 //Merge Linked
+170058 //Selection from Layer
+170059 //New Alpha Channel
+170060 //Convert to Grayscale
+170061 //Convert to RGB
+170064 //Bitmap Properties
+170103 //New Texture View
+170105 //Color Settings
+170106 //Brush Presets
+170107 //Color Presets
+170108 //Layer Manager
+170119 //Multi Channel Mode
+170120 //Close All Textures
+170121 //Save All Textures
+170122 //Select Circle
+170123 //Select Rectangle
+170124 //Select Polylines
+170125 //Select Lasso
+170126 //Magic Wand
+170127 //Select Color Range
+170128 //Select All
+170129 //Deselect All
+170130 //Invert All
+170131 //Move Layer
+170132 //Magnify
+170133 //Eyedropper
+170134 //Brush
+170135 //Clone Tool
+170136 //Eraser
+170137 //Fill Bitmap
+170138 //Transform Bitmap
+170139 //Draw Line
+170140 //Draw Text
+170141 //Draw Polygon Shape
+170145 //Texture Size...
+170146 //Canvas Size...
+170147 //Rotate Texture...
+170148 //Flip Texture Horizontal...
+170149 //Flip Texture Vertical...
+170150 //Fill Layer
+170151 //Fill Polygons
+170152 //Outline Polygons
+170153 //Create Mask from Selection
+170154 //Display Selected Channel
+170155 //Tile U
+170156 //Tile V
+1050249 // Quickstart
+1050984 // Reset Node Space
+200001025 // Edit Asset
+170220 //Edit Selection Mask
+170221 //Remap...
+170222 //Store UV
+170223 //Restore UV
+170224 //Start Interactive Mapping
+170225 //Stop Interactive Mapping
+170228 //Reset UV
+170229 //Fit Canvas to UV
+170231 //Add Selection to Layer Mask
+170232 //Subtract Selection from Layer Mask
+170238 //Selection from Layer (Add)
+170239 //Selection from Layer (Sub)
+100004745 // Flat Tree
+170437 //Feather...
+170438 //Grow Selection...
+170439 //Shrink Selection...
+170442 //Undo (Texture)
+170567 //Crop Texture...
+170576 //Projection Painting
+170592 //Gradient Tool
+170613 //Apply Projection
+170614 //Discard Projection
+170615 //Toggle Fore-/Background
+170620 //Hide Selection
+170625 //Paint Setup Wizard
+170647 //Dodge Tool
+170648 //Burn Tool
+170649 //Smear Tool
+170650 //Sponge Tool
+170664 //New Layer Set
+170667 //Detach Projection Plane
+100004780 // Editor On
+100004781 // Editor Off
+100004779 // Editor Unchanged
+100004783 // Renderer On
+100004784 // Renderer Off
+100004782 // Renderer Unchanged
+170646 // Rotate Brush CCW
+170645 // Rotate Brush CW
+170639 // Increase Brush Size
+170640 // Decrease Brush Size
+170641 // Increase Brush Hardness
+170642 // Decrease Brush Hardness
+170643 // Increase Brush Pressure
+170644 // Decrease Brush Pressure
+1023413 // Open In Photoshop
+1022478 // Open In Bodypaint3D
+1023410 // Reload Bitmap
+1023411 // Close Bitmap
+17995 // Show Normal Tag
+12507 // Jump Page Down
+12506 // Jump Page Up
+1027384 // Commander
+1000468 //Attribute Manager
+1000474 //Preferences...
+1000581 //Send Scene Back...
+1000974 //Make Preview...
+1001001 //Look at Camera
+1001002 //Atom Array
+1001003 //Spherify
+12505 // Jump Last Selection
+1001084 //Script Manager
+1001143 // ID_GV_OPERATOR_DUMMY
+300000136 // ID_GV_OPERATOR_GROUP
+~300000137,1001143 // Inherit ID_GV_OPERATOR_DUMMY
+1001149 //XPresso Tag
+1001253 //Polygon Reduction Deformer
+1001414 //Particle Geometry
+12504 // Jump Next Selection
+1002603 //Explosion FX
+1007455 //HyperNURBS
+1007573 //Weight HyperNURBS
+1007579 //HyperNURBS Weight
+1008796 //Spline Rail
+1008982 //Spline Deformer
+1018424 // Tree View
+1009661 //Edge Cut
+1009671 //Edge to Spline
+1018433 // Clean Up Database
+200000215 // Send To Archicad
+1010136 //Melt
+200000167 // Send To Allplan
+1026720 // Import Script
+1010865 //Boole
+1011012 //Sketch Style
+1011126 //Matrix Extrude
+1011133 //Bake Texture...
+1011145 //Create Sky
+58000 // 3D Shader
+~1011146,1011145 // Inherit Create Sky
+1011147 //Sky Manager...
+1011160 //Relax UV
+1011161 //Copy UV Polygon
+1011162 //Paste UV Polygon
+1011163 //Max UV
+1011164 //Flip Sequence
+1011165 //Cycle CW UV
+1011166 //Cycle CCW UV
+1011167 //UV Terrace
+1011168 //UV Manager...
+1011169 //Fit UV to Canvas
+1011170 //Optimal Mapping
+1011171 //Transform
+1011172 //Realign
+1011177 //Search
+1011178 //Fill Selection
+1011179 //Outline Selection
+1011180 //Ring Selection
+1011181 //Convert Selection
+1011182 //Measure & Construction
+1011183 //Extrude
+1011192 //Loop Selection
+1011194 //Cloud Group
+1011196 //Cloud
+~450000058,1011196 // Inherit Cloud
+~450000059,1011194 // Inherit Cloud Group
+1011198 //Bake Texture Tag
+1011961 //Sketch Render
+1015924 //Collapse
+1016007 //Film Move
+1016008 //Film Magnify
+1016009 //Film Zoom
+12508 // Jump Home
+12509 // Jump End
+~1016010,14063 // Inherit Zoom In
+~1016011,170028 // Inherit Zoom Out
+431000163 //Knife
+12193 // Fit To Region
+12192 // Fit To Image
+12132 // Fit To Object
+1016160 //N-gon Triangulation
+1016173 //Retriangulate N-gons
+1016174 //Remove N-gons
+18182 //Show Axis
+1016177 //Increase HN Subdivision
+1016178 //Decrease HN Subdivision
+1016179 //Use Isoline Editing
+1016185 //Magnet
+1016202 //Brush
+12133 // Adapt To View
+12130 // Adapt To Object Axis
+12131 // Adapt To World Axis
+1017163 // Content Browser
+1018432 // Content Browser Preferences
+1017326 //Hair Collider
+1017448 //Live Selection
+1017454 //Move
+1017457 //Points
+1017458 //Guides
+1017459 //Roots
+1017460 //Tips
+1017487 //Vertex
+1017488 //Select All
+1017489 //Deselect All
+1017490 //Hide
+1017491 //Show All
+1029813 // Select All
+1017510 //Grow Selection
+1017530 //Convert Selected
+1017531 //Lock Selected
+1017532 //Unlock All
+1017533 //Hide Locked
+1017534 //Scale
+1017540 //Convert To Spline
+1017541 //Convert From Spline
+1017542 //Cut
+1017548 //Clump
+1017549 //Straighten
+1017568 //Push
+1029814 // Deselect All
+1017581 //Brush
+1017617 //Comb
+1017637 //Even Segments
+1017638 //Set Roots
+1017640 //Add Guides
+1017642 //Unroot Guides
+1017671 //Hair Tangents
+1017729 //Hair Material
+1017746 //Hair Selection
+~1017747,1017746 // Inherit Hair Selection
+1029815 // Select Missing Textures
+1017874 //Light
+1018007 //Set As Dynamics
+1018036 //Delete Guides
+1018051 //Copy Guides
+1018052 //Cut Guides
+1018053 //Paste Guides
+1018065 //Symmetry Manager
+1018066 //Symmetry
+1018067 //Mirror
+1018068 //Spline Dynamics
+1018074 //Constraint
+1018100 //Lasso Selection
+1018101 //Polygon Selection
+1018102 //Rectangle Selection
+1018123 //Soft-Selection Manager
+1018124 //Soft-Selection
+1018164 //Dynamics Interaction
+1018166 //Curl
+1018169 //Rotate
+1018329 //Hair Vertex
+1018373 //Selection
+1018385 //Render
+1018396 //Feathers Object
+1018401 //Add Hair
+~1017578,1018401 // Inherit Add Hair
+~1017305,1018401 // Inherit Add Hair
+1018421 //Hair Enabled
+1018462 //Connect Guides
+1018463 //Split Guides
+1018464 //Select Hidden
+1018465 //Paste To New
+1018466 //Hairs To Guides
+1018467 //Next Vertex
+1018468 //Prev Vertex
+1018470 //Unlock Selected
+1029824 // Texture
+1018544 //Cloner Object
+1018545 //Matrix Object
+1018561 //Shader Effector
+1018643 //Random Effector
+1018655 //Tracer
+1018685 //Displace Deformer
+1018774 //Spline Effector
+1018775 //Inheritance Effector
+1018791 //Fracture Object
+1018820 //Virtual Walkthrough Tool
+1018880 //Walkthrough Collision Orbit Tool
+1018881 //Step Effector
+1018882 // Old Sound Effector
+1018883 //Formula Effector
+1018889 //Target Effector
+1018935 //Time Effector
+1018957 //MG Instance Object
+1029828 // Materials
+1019221 //Spline Wrap
+1019234 //Delay Effector
+1019268 //Text Object
+1029829 // Channel
+1029830 // Layer
+1019337 //Cache Tag
+1019342 //Linear Clone Tool
+1019343 //Radial Clone Tool
+1019344 //Grid Clone Tool
+1019351 //Group Effector
+1019358 //Extrude
+1019396 //Spline Mask
+~1019597,1018820  // Inherit Virtual Walkthrough Tool
+1029818 // Show in Attributes Manager
+100001200 //Cappucino
+1015650 // Material Exchanger
+17013 // Material
+17014 // Material List
+17533 // Layers In Single Line
+17891 // Polygon Groups to Objects
+16744 // Color Channel
+16746 // Luminance Channel
+16748 // Reflection Channel
+16747 // Transparency Channel
+16749 // Environment Channel
+16750 // Bump Channel
+100001609 //Auto Redraw
+16751 // Alpha Channel
+16753 // Displacement Channel
+16745 // Diffusion Channel
+16765 // Normal Channel
+16766 // Custom Channel
+16752 // Specular Channel
+100001622 //Add UpVector
+1027538 // Baking Sculpt
+170086 // Import Bodypaint3D Presets
+170070 // Load Brushes
+100001735 //Retarget
+170071 // Export Selection
+100001740 //Quaternion
+17015 // Layer Manager (compact)
+100004007 //Cloth Nurbs
+100004020 //Cloth
+100004021 //Collider
+100004022 //Belt
+100004023 //Cache Tool
+200000031 //Default Light...
+200000065 //Set Point Value
+200000067 //Duplicate
+200000068 //Arrange
+200000069 //Transfer
+200000070 //Randomize
+200000071 //Center
+~200000082,1011182 // Inherit Measure&Construction
+17016 // Layer Manager (expanded/compact)
+200000083 //Live Selection
+200000084 //Rectangle Selection
+200000085 //Lasso Selection
+200000086 //Polygon Selection
+200000088 //Move
+200000089 //Scale
+200000090 //Rotate
+200000108 //32-bit Preview Options...
+450000000 //Normal Move
+450000001 //Normal Scale
+450000002 //Normal Rotate
+450000003 //Smooth Shift
+450000004 //Extrude Inner
+431000015 //Bevel
+450000006 //Create Polygon
+450000007 //Add Point
+450000008 //Bridge
+450000009 //Weld
+450000010 //Close Polygon Hole
+450000011 //Stitch and Sew
+450000012 //Slide
+450000014 //Iron
+450000017 //Set Objects
+450000023 //Cloud Tool
+450000039 //Round
+450000042 //Clone
+450000043 //Chamfer
+450000045 //Array
+450000046 //Project
+1026724 // Delete Script
+450000051 //Bake Object...
+450000057 //Connect Clouds
+17017 // Layer Manager (expanded)
+17018 // Layer Manager (active texture)
+465000402 //External Compositing
+1041349 // User Data Tag
+202537 //Area Light
+202538 //Infinite Light
+202536 //Spot Light
+202539 //Save Incremental...
+431000018 // auto snapping
+431000019 //2D Snapping
+431000016 //3D Snapping
+440000128 // Axis Snapping
+440000127 // Workplane Snapping
+440000123 // Edge Snapping
+431000001 // Gridline Snapping
+431000000 // Grid Snapping
+440000124 // Midpoint Snapping
+440000121 // Enable Snapping
+440000129 // Perpendicular Snapping
+440000115 // Point Snapping
+100004841 // Save Project For Melange
+440000125 // Polygon Snapping
+440000122 // Spline Midpoint Snapping
+"snapping splinegrid" // Spline Grid Snapping
+"snapping tangent" // Tangent Snapping
+9000,20,20 // Menu
+12678,5,5 // Layout Submenu Indicator
+12679,20,20 // Unlocked
+-12679,20,20 // Locked
+12680,20,20 // Histogram Window Icon
+300000118,9,9 // Plus
+300000119,9,9 // Minus
+5616 // Material Tag
+200000122,10,10 // RESOURCEIMAGE_EMPTY_CIRCLE
+300000121,10,10 // RESOURCEIMAGE_RED_CIRCLE
+300000122,10,10 // RESOURCEIMAGE_EMPTY_RED_CIRCLE
+1040017 // Logger Settings
+1028462 // Grow Grass
+1026725 // Duplicate Script
+300000126,20,20 // AM Left
+300000127,20,20 // AM Right
+300000128,20,20 // AM Up
+300000129,20,20 // AM Duplicate
+13563,18,18 // Pan
+13564,18,18 // Dolly
+13565,18,18 // Orbit
+13640,18,18 // 4 sided view
+1029821 // Relink Textures
+12097,13,13 // Closer Released
+-12097,13,13 // Closer Pressed
+300000130,18,18 // Paintsetupwizard State 0
+300000131,18,18 // Paintsetupwizard State 1
+300000132,18,18 // Paintsetupwizard State 2
+300000133 // Xpresso 
+300000134 // Xpresso 
+300000135 // Xpresso Calculator
+1029819 // Localize
+1029820 // Globalize
+300000138 // Xpresso
+~1019010,300000138 // Inherit Xpresso
+~1019296,300000138 // Inherit Xpresso
+~1019302,300000138 // Inherit Xpresso
+300000139 // Xpresso
+300000140 // Xpresso 
+300000141 // TP Node
+300000142 // CoffeeScript
+1029816 // Select Textures Of Active Materials
+5629 // Protection Tag 
+5684 // Metaball Tag 
+5612 // Phong Tag 
+5636 // Motionblur Tag 
+5647 // WWW Tag 
+5637 // Compositing Tag 
+5613 // Display Tag 
+5675 // Coffee Expression Tag
+1029822 // Replace Texture(s) With
+5685 // Bake Particle Tag
+5674 // Pointselection Tag 
+5673 // Polygonselection Tag 
+5671 // UVW Tag 
+1029825 // Suggested Path 
+5676 // Target Expression Tag 
+1029826 // Real Path
+5701 // Edge Selection Tag 
+5693 // Stop Tag 
+5690 // Sticktexture Tag 
+5711 // Normal Tag 
+5682 // Vertexmap Tag 
+5683 // Restriction Tag 
+300000187,14,14 // RESOURCEIMAGE_CLEARSELECTION
+300000143 // UVW Tag Locked
+300000144 // Instance Object Broken
+300000145 // Light Shadows
+300000146 // Light Spot
+300000147 // Light Spot, Shadows
+300000148 // Light Infinite
+300000149 // Light Infinite, Shadows
+300000150 // Light Area
+300000151 // Light Area, Shadows
+~202537,300000150 // inherit Area Light
+~202538,300000148 // Inherit Infinite Light
+~202536,300000146 // Inherit Spot Light
+~13541,5678 // Inherit Sun
+300000152 // AM ViewPort
+~12544,300000152 // Inherit AM Viewport
+300000153 // AM CTrack
+300000154 // AM BaseKey
+465002000 // Add Tracks
+300000156 // AM BaseTrack 
+300000157 // AM Unknown
+300000158 // AM PluginShader
+300000159 // AM PaintBitmap
+465001187 // Add Motion
+300000250,6,9 // IRR Arrow
+1029827 // New File Path
+~5101,12196 //Spline Object
+1041451 // Field Force
+202535 // Online Learning
+1018640 // MG Effector Active
+1018641 // MG Effector Inactive
+1015549 // DWG Base Curve
+1015545 // DWG Base Group
+1015548 // DWG Base Surface
+1015547 // DWG Mapped Curve
+1015546 // DWG Trimmed Surface
+1015589 // DWG Entity
+1015588,24,24 // DWG Import
+~1001446,300000141 // Inherit TP Draw
+-170119 //Multi Channel Mode
+300000161,15,15 // BP Eye Active
+300000162,15,15 // BP Eye Inactive
+300000163,15,15 // BP Pen Active
+300000164,15,15 // BP Pen Inactive
+300000165,15,15 // BP Alpha Active
+300000166,15,15 // BP Alpha Inactive
+300000167,15,15 // BP Linked Active
+300000168,15,15 // BP Linked Inactive
+300000169,6,6 // BP Axis
+300000170,15,15 // BP Crossed
+300000171,14,16 // RESOURCEIMAGE_MOCCATREEVIEWNO
+300000172,14,16 // RESOURCEIMAGE_MOCCATREEVIEWYES
+300000173,14,16 // RESOURCEIMAGE_MOCCATREEVIEWLOCKED
+1050518 // Proxy
+1018533 // Fill
+170735 // Assign Profile
+170734 // Convert To Profile
+170087 // Export Selection
+170573 // Empty Canvas
+1052838 // Open Folder
+300000180 // RESOURCEIMAGE_BITMAPFILTERMINUS
+300000181 // RESOURCEIMAGE_CLOTHING1
+300000182 // RESOURCEIMAGE_CLOTHING2
+300000183 // RESOURCEIMAGE_CLOTHING3
+300000184 // RESOURCEIMAGE_CLOTHING4
+1009313,15,15	// IN_EXCLUDE_ICON_1_ON
+1009314,15,15	// IN_EXCLUDE_ICON_2_ON
+1009315,15,15	// IN_EXCLUDE_ICON_3_ON
+1009316,15,15	// IN_EXCLUDE_ICON_4_ON
+300000103,15,15	// IN_EXCLUDE_TRANSPARENCY_ON
+300000104,15,15	// IN_EXCLUDE_REFLECTION_ON
+300000105,15,15	// IN_EXCLUDE_REFRACTION_ON
+1009317,15,15	// IN_EXCLUDE_ICON_1_OFF
+1009318,15,15	// IN_EXCLUDE_ICON_2_OFF
+1009319,15,15	// IN_EXCLUDE_ICON_3_OFF
+1009320,15,15	// IN_EXCLUDE_ICON_4_OFF
+300000100,15,15	// IN_EXCLUDE_TRANSPARENCY_OFF
+300000101,15,15	// IN_EXCLUDE_REFLECTION_OFF
+300000102,15,15	// IN_EXCLUDE_REFRACTION_OFF
+200000126,16,16 // LAYERMASK1
+465001148 // Off Before
+465001149 // Constant Before
+465001150 // Continue Before
+465001151 // Repeat Before
+465001152 // Offset Repeat Before
+465001153 // Oscillate Before
+1029347 // Mirror Mask +X
+200000134,16,16 // LAYEREMPTY
+1029346 // Mirror Mask -X
+1029351 // Mirror Mask +Z
+1029350 // Mirror Mask -Z
+1029349 // Mirror Mask +Y
+1029348 // Mirror Mask -Y
+1029341 // Mirror Layer +X
+1029340 // Mirror Layer -X
+1029345 // Mirror Layer +Z
+1029344 // Mirror Layer +Z
+1029343 // Mirror Layer +Y
+1029342 // Mirror Layer -Y
+1029353 // Mirror Object +X
+1029352 // Mirror Object -X
+1029357 // Mirror Object +Z
+1029356 // Mirror Object -Z
+1029355 // Mirror Object +Y
+1029354 // Mirror Object -Y
+1029358 // Equalize X
+300000188 // RESOURCEIMAGE_GENERICCOMMAND
+~100004701,100004700 // inherit ObjectManager
+~100004702,100004700 // inherit ObjectManager
+~100004703,100004700 // inherit ObjectManager
+~465001511,465001510 // inherit Timeline
+~465001512,465001510 // inherit Timeline
+~465001513,465001510 // inherit Timeline
+100004704 // Layer Manager
+1019362 // CA_JOINT_OBJECT_ID
+1019363 // CA_SKIN_OBJECT_ID
+1019364 // CA_CONSTRAINT_TAG_ID
+1019365 // CA_WEIGHT_TAG_ID
+1019561 // CA_IK_TAG_ID
+1019862 // CA_IKSPLINE_TAG_ID
+1019499 // CA_WEIGHT_TOOL_ID
+1019600 // CA_JOINT_TOOL_ID
+1019953 // CA_MIRROR_TOOL_ID
+1029360 // Equalize Z
+1029359 // Equalize Y
+1019949 // CA_COMMAND_JOINTS_TO_SPLINE
+1019950 // CA_COMMAND_SPLINE_TO_JOINTS
+1019884 // CA_COMMAND_ADD_IK_ID
+1019881 // CA_COMMAND_BIND_ID
+1021334 // CA_COMMAND_ALIGN_TOOL_ID
+1019954 // CA_COMMAND_SET_POSE
+1019937 // CA_COMMAND_RESET_POSE
+1019938 // CA_COMMAND_TO_PREFERRED
+1019939 // CA_COMMAND_SET_PREFERRED
+1019940 // CA_COMMAND_RESET_PSR
+1019941 // CA_COMMAND_CONVERT_TO_NULLS
+1019942 // CA_COMMAND_CONVERT_TO_JOINTS
+1019943 // CA_COMMAND_SELECTED_TO_JOINTS
+1019944 // CA_COMMAND_SWITCH_IK
+1019945 // CA_COMMAND_SWITCH_SYMMETRY
+1019946 // CA_COMMAND_COPY_CHAIN
+1019947 // CA_COMMAND_MAP_CHAIN
+1019948 // CA_COMMAND_MIRROR_CHAIN
+1019951 // CA_COMMAND_REMOVE_PARENT
+300001034 // VisualSelector
+~300001035,300001034 // inherit VisualSelector Tag
+1019764 // Morph Brush
+1019768 // Morph Deformer
+1019774 // Shrinkwrap Deformer
+1019773 // VAMP
+1019744 // DriverTag
+1024237 // MorphTag
+1018327 // TensionTag
+1019592 // Muscle Object
+1019632 // Muscle Deformer
+1019731 // ID_MORPH_ACTIVETAG	
+1019662 // ID_MORPH_BASEMORPHTAG	
+300002179 // Machine Status Render
+~1019663,5676 // Inherit Target Expression
+1019677 // CA_OBJECT_FALLOFF OBJECT
+300002181 // Machine Status Failure
+300002182 // Machine Status No Sharing
+300002183 // Network Status Idle
+300002184 // Network Status Render
+300000193,20,20 // AM Focus On
+300000194,20,20 // AM Focus Off
+300000196,20,20 // RESOURCEIMAGE_SCENEBROWSER_FILTER1
+300000197,20,20 // RESOURCEIMAGE_SCENEBROWSER_FILTER2
+300000198,20,20 // RESOURCEIMAGE_SCENEBROWSER_FIND1
+300000199,20,20 // RESOURCEIMAGE_SCENEBROWSER_FIND2
+300000200,20,20 // RESOURCEIMAGE_SCENEBROWSER_PATH1
+300000201,20,20 // RESOURCEIMAGE_SCENEBROWSER_PATH2
+~300000195,300000200 // Inherit RESOURCEIMAGE_SCENEBROWSER_PATH1
+300002186 // Network Status Failure 
+1018958 // Fur Object
+~1019952,170140  // Inherit Text Tool
+300002187 // Network Status No Sharing
+1018483 // Powerslider
+~100004768,16388 // inherit Select Children
+// ~100004794,1016207 inherit Invert Selection
+~440000016,1018544 // Inherit Cloner Object
+300002178 // Machine Status Idle
+440000017 // Cloner mode Linear
+440000018 // Cloner mode Radial
+440000019 // Cloner mode GridArray
+465001514 // Timeline Marker
+~465001007,1000474 // Timeline Preferences
+300000202,13,13 // RESOURCEIMAGE_TIMELINE_STATE1
+300000203,13,13 // RESOURCEIMAGE_TIMELINE_STATE2
+300000204,13,13 // RESOURCEIMAGE_TIMELINE_STATE3
+300000205,13,13 // RESOURCEIMAGE_TIMELINE_STATE4
+300000206,13,13 // RESOURCEIMAGE_TIMELINE_STATE5
+300000207,13,13 // RESOURCEIMAGE_TIMELINE_STATE6
+300000208,13,13 // RESOURCEIMAGE_TIMELINE_KEYSTATE1
+300000209,13,13 // RESOURCEIMAGE_TIMELINE_KEYSTATE2
+300000210,13,13 // RESOURCEIMAGE_TIMELINE_KEYSTATE3
+300000211,13,13 // RESOURCEIMAGE_TIMELINE_KEYSTATE4
+300000212,13,13 // RESOURCEIMAGE_LAYERMANAGER_STATE1
+300000213,13,13 // RESOURCEIMAGE_LAYERMANAGER_STATE2
+300000214,13,13 // RESOURCEIMAGE_LAYERMANAGER_STATE3
+300000215,13,13 // RESOURCEIMAGE_LAYERMANAGER_STATE4
+300000216,13,13 // RESOURCEIMAGE_LAYERMANAGER_STATE5
+300000217,13,13 // RESOURCEIMAGE_LAYERMANAGER_STATE6
+300000218,13,13 // RESOURCEIMAGE_LAYERMANAGER_STATE7
+300000219,13,13 // RESOURCEIMAGE_LAYERMANAGER_STATE8
+300000220,13,13 // RESOURCEIMAGE_LAYERMANAGER_STATE9
+300000221,13,13 // RESOURCEIMAGE_LAYERMANAGER_STATE10
+300000222,13,13 // RESOURCEIMAGE_LAYERMANAGER_STATE11
+300000223,13,13 // RESOURCEIMAGE_LAYERMANAGER_STATE12
+300000224,13,13 // RESOURCEIMAGE_LAYERMANAGER_STATE13
+300000225,13,13 // RESOURCEIMAGE_LAYERMANAGER_STATE14
+300000226,13,13 // RESOURCEIMAGE_LAYERMANAGER_STATE15
+300000227,13,13 // RESOURCEIMAGE_LAYERMANAGER_STATE16
+170694 // New Brush Library
+170699 // New Color Library
+300000230,17,17 // RESOURCEIMAGE_OBJECTMANAGER_STATE1
+300000231,17,17 // RESOURCEIMAGE_OBJECTMANAGER_STATE2
+300000232,17,17 // RESOURCEIMAGE_OBJECTMANAGER_STATE3
+300000233,17,17 // RESOURCEIMAGE_OBJECTMANAGER_STATE4
+300000234,5,5 // RESOURCEIMAGE_OBJECTMANAGER_DOT1
+300000235,5,5 // RESOURCEIMAGE_OBJECTMANAGER_DOT2
+300000236,5,5 // RESOURCEIMAGE_OBJECTMANAGER_DOT3
+300000237,5,5 // RESOURCEIMAGE_OBJECTMANAGER_DOT4
+300000238,6,8 // RESOURCEIMAGE_OBJECTMANAGER_LOCK
+300000239,24,24 // RESOURCEIMAGE_TIMELINE_FOLDER1
+300000240,24,24 // RESOURCEIMAGE_TIMELINE_FOLDER2
+300000241,24,24 // RESOURCEIMAGE_TIMELINE_FOLDER3
+300000242,24,24 // RESOURCEIMAGE_TIMELINE_FOLDER4
+300000243,24,24 // RESOURCEIMAGE_TIMELINE_ROOT1
+300000244,24,24 // RESOURCEIMAGE_TIMELINE_ROOT2
+300000245,24,24 // RESOURCEIMAGE_TIMELINE_ROOT3
+300000246,15,15 // RESOURCEIMAGE_OBJECTMANAGER_DISP1
+1053624 // Create Automatic UV
+300000248,20,20 // RESOURCEIMAGE_OBJECTMANAGER_DISP3
+300000249,20,20 // RESOURCEIMAGE_OBJECTMANAGER_DISP4
+~-12411,12002 // Stop Inheritance
+~-12412,12002 // Stop Inheritance
+300000251,20,20 // RESOURCEIMAGE_BROWSER_DESKTOP
+170775 // No Boundaries
+300000253,20,20 // RESOURCEIMAGE_BROWSER_PRESET
+300000254,20,20 // RESOURCEIMAGE_BROWSER_CATALOG
+170009 // Show UV Mesh
+300000256,20,20 // RESOURCEIMAGE_BROWSER_PLAY
+300000257,20,20 // RESOURCEIMAGE_BROWSER_PAUSE
+300000258,20,20 // RESOURCEIMAGE_BROWSER_SMALLVIEW
+300000259,20,20 // RESOURCEIMAGE_BROWSER_BIGVIEW
+170109 // BP Color
+170111 // BP Luminance
+170112 // BP Transparency
+170113 // BP Reflection
+170114 // BP Environment
+170115 // BP Bump
+170116 // BP Alpha
+170117 // BP Specular Color
+170118 // BP Displacement
+170110 // BP Diffusion
+170674 // BP Normal
+170624 // BP ActiveChannel
+465001004 // Region Tool
+465001005 // Ripple
+465001092 // Linear
+465001093 // Step
+465001003 // Spline
+465001108 // Lock Tangent Angles
+465001109 // Lock Tangent Length
+465001106 // Zero Angle
+465001107 // Zero Length
+465001102 // Auto Tangents
+465001103 // Break Tangents
+465001117 // Create Snapshot
+465001118 // Swap Snapshot
+465001116 // View Snapshot
+~465001073,440000121 // Inherit Enable Snap
+465003528 // Open Multipass Image In Finder/Explorer
+465001072 // Key Unmute
+465001071 // Key Mute
+465001028 // Frame Preview Range
+465001020 // Frame Project Settings
+465001202 // Frame Range
+465001089 // Move Curve
+1010819 // Axis Center
+1011981 // View Center
+1011982 // Center Axis To
+1011983 // Center To Parent
+1011984 // Center Parent To
+1011985 // Center Object To
+1011010 // ConnectObject
+430000021 // IRR
+430000041 // IRR Settings
+202624 // New Hair Material
+1020190 // Use Constraints
+465001037 // Automatic Mode
+465001075 // Enable Frame Snapping
+465001200 // Snap Settings...
+~440000135,465001200 // Inherit Snap Settings
+1012129 // Path Selection
+1019730 // Phong Break Selection
+465001036 // Link View with Preview Range
+465001101 // Zero Angle/Length
+1019458 // MoGraph BakeTag With Cache
+1019485 // MoGraph BakeTag
+170686 // Freeze 3D View
+17427 // Layer Color
+200000118 // Xref
+~12324,170026 // Inherit Zoom 100%
+~13954,14063 // Inherit Zoom In
+~13955,170028 // Inherit Zoom Out
+300002144 // TeamRender To Picture Viewer
+12409 // Execute Last Plugin
+300002167 // Share Machine Over Network
+200000162 // Convert Object Selection To Xref
+200000163 // Convert Material Selection To Xref
+1021284 // Jiggle Deformer
+1021318 // Point Cache
+1021280 // Squetch Deformer
+1019883 // Align
+1021283 // Cluster Deformer
+1021285 // Create Cluster
+1021319 // Relax Deformer
+1021286 // Paint Tool
+1021340 // Mograph Selection Tool
+1021338 // Mograph Selection Tag
+1021344 // Mograph Selection Xpresso Node
+1021287 // Mograph Volume Effector
+1021337 // Mograph Plain Effector
+465001163 // HLE Move
+465001164 // HLE Scale
+465001162 // HLE Curve
+465001216 // MoveScale Dialog
+465001132 // Link TL/OM Selection
+440000043 // Dissolve component tool
+440000044 // Spin Edge tool
+440000042 // Connect component tool
+440000045 // Lighting tool
+17190 // Show Help
+1019760 // Help
+1021302 // Geometry Cache Tag
+465001160 // Reduced Modification Mode
+170726 // Color Replacement Tool
+170725 // Sharpen Tool
+170724 // Blur Tool
+1021103 // Boundary To Circle
+1021131 // Boundary To Quad
+1019830 // Unstitch UV
+1019827 // Line Up UV
+300000263,20,20 // Arrow Down
+170723 // Create UV Mesh Layer
+1022285 // Set Doodle Viewport
+1022257 // Doodle Paint
+1022286 // Doodle Eraser
+1022242 // Doodle Object
+1022280 // Remove Doodle Frame
+1022215 // Add Doodle Frame
+1022281 // Clear Doodle Frame
+1022211 // Doodle Bitmap
+170730 // Show Tiled Texture
+170704 // Define Brush Preset...
+170705 // Define Color Preset...
+170706 // Define Wallpaper Preset...
+170657 // Convert To 8 Bit / Channel
+170658 // Convert To 16 Bit / Channel
+170659 // Convert To 32 Bit / Channel
+465003000 // Motion Tag
+465003048 // Add Relative Animation Layer
+465003065 // Add Empty Motion Layer
+465003003 // Animation Layer
+465003001 // Motion Layer
+465003037 // Use The Motion System
+465003044 // Add Motion Clip
+465003002 // Motion Clip
+465001203 // Add Key At...
+465001023 // Goto Previous Marker
+465001022 // Goto Next Marker
+465001127 // Goto First Marker
+465001128 // Goto Last Marker
+465002003 // Frame Marker
+1015840 // ASCII Animation Import...
+17552 // Lock Layout
+~1016207, 12479 // Inherit Invert
+~465001013, 12479 // Inherit Invert
+~100004794, 12479 // Inherit Invert
+~100004799, 12479 // Inherit Invert
+~465001014, 12479 // Inherit Invert
+202586 // New Default Material
+100004842 // Show Custom Icons
+465001026 // Goto First Key/Motion Clip
+465001027 // Goto Last Key/Motion Clip
+465001016 // Goto Current Frame
+465001215 // Reset RM Curve...
+465001018 // Goto Start
+465001019 // Goto End
+163000 // Color Groups
+162000 // Brush Groups
+465003007 // Move Copy Vertical TL
+465003008 // Move Copy Horizontal TL
+465003009 // Scale TL
+465003010 // Trim TL
+465003011 // Move Vertical TL
+465003012 // Move Horizontal TL
+465003013 // Cut/Connect
+465003014 // Make Transition
+465003015,13,13 // Absolute mode (anim layers)
+465003016,13,13 // Relative mode (anim layers)
+1022384 // Duplicate Doodle Frame
+1022433,15,15 // define RESOURCEIMAGE_PREVIOUSPAGE
+1022434,15,15 // define RESOURCEIMAGE_FOLLOWINGPAGE
+1051237 // Video Type
+1051238 // Audio Type
+1051239 // Other Type
+1051240 // External Cache Type
+1051241 // Referenced 3D Type
+1022420 // add mirror constraint
+1022415 // add aim constraint
+1022426 // add axis constraint
+1022424 // add origin constraint
+1022416 // add parent constraint
+1022425 // add plane constraint
+1022428 // add point constraint
+1022418 // add clamp constraint
+1022421 // add position constraint
+1022423 // add scale constraint
+1022422 // add rot constraint
+1022429 // add spline constraint
+1022414 // add psr constraint
+1022419 // add spring constraint
+1022427 // add surface constraint
+1022417 // add up constraint
+200000185 // color fill adjustment layer
+200000186 // gradient fill adjustment layer
+200000187 // pattern fill adjustment layer
+200000188 // levels adjustment layer
+200000189 // curves adjustment layer
+200000190 // color balance adjustment layer
+200000191 // brightness/contrast adjustment layer
+200000192 // black & white adjustment layer
+200000193 // hue/saturation adjustment layer
+200000194 // selective color adjustment layer
+200000195 // channel mixer adjustment layer
+200000196 // gradient map adjustment layer
+200000197 // photo filter adjustment layer
+200000198 // exposure adjustment layer
+200000199 // invert adjustment layer
+200000200 // threshold adjustment layer
+200000201 // posterize adjustment layer
+100004839 // Pivot Object
+1026759 // Render Icon
+1026760 // Load Icon
+200000202 // generic adjustment layer
+1022476 // ID_PROJECTIONMAN_TOPHOTOSHOP
+1022477 // ID_PROJECTIONMAN_BAKE
+100004726 // Solo (Layer Browser)
+465001713 // Create Render Settings From Render
+~100004727,12499 // Inherit Display Tags
+100004728 // Render (Layer Browser)
+100004729 // Manager (Layer Browser)
+100004730 // Locking (Layer Browser)
+431000024 // Cursor Polygon Extrusion (Bevel)
+431000023 // Cursor Edge (Bevel)
+431000022 // Cursor Depth (Bevel)
+431000025 // Cursor Duplicate
+~100004731,13523 // Inherit Generators (Layer Browser)
+~100004732,13524 // Inherit Deformers (Layer Browser)
+~100004733,13522 // Inherit Expressions (Layer Browser)
+~100004734,13521 // Inherit Animation (Layer Browser)
+100004738 // New Layer (Layer Browser)
+100004760 // Remove Unused Layers (Layer Browser)
+100004739 // Delete All (Layer Browser)
+100004796 // Merge Layers (Layer Browser)
+100004737 // Select from Layer (Layer Browser)
+17423 // Enhanced OpenGL
+17424 // Transparency
+17425 // Shadows
+17426 // Post Effects
+17551 // Noises
+100004723 // Add Bookmark
+100004725 // Default Bookmark
+100004807 // Bookmarks
+100004724 // Manage Bookmarks...
+~1021417, 100004723 // Inherit Add Bookmark
+~1021418, 100004724 // Inherit Manage Bookmarks...
+~465001122, 100004723 // Inherit Add Bookmark
+~465002002, 100004807 // Inherit Bookmarks
+~465001121, 100004725 // Inherit Default Bookmark
+~100004791, 100004724 // Inherit Manage Bookmarks...
+200000045 // ProjectionMan
+1051186 // Node Space
+1001083 // Command Line
+1001058 // Convert HDR Cross...
+1001059 // Convert HDR Probe...
+13553 // Make Tab
+13643 // Transpose
+17934 // Top Tab
+17935 // Left Tab
+17936 // Right Tab
+12673 // Save Layout As...
+1016707 // SpaceMouse Dialog
+12670 // Load Layout...
+12672 // Save As Startup Layout
+13859 // Low Level Project Detail
+13860 // Medium Level Project Detail
+13861 // High Level Project Detail
+1001439 // Thinking Particles Settings...
+12077 // Perspective
+12078 // Parallel
+12079 // Left
+12080 // Right
+12081 // Front
+12082 // Back
+12083 // Top
+12084 // Bottom
+12085 // Military
+12086 // Frog
+12087 // Bird
+12088 // Gentleman
+12089 // Isometric
+12090 // Dimetric
+13375 // New Palette
+16554 // New Group Window...
+12676 // Load Palette...
+13740 // Edit Palettes
+12674 // Reset Layout
+~13685, 12109 // Inherit Delete
+12677 // Save Palette As...
+13644 // 1 Row/Column Palette
+13645 // 2 Row/Column Palette
+13646 // 3 Row/Column Palette
+13647 // 4 Row/Column Palette
+13648 // 5 Row/Column Palette
+12221 // Rename
+~14082,12221 // Inherit Rename
+~170074,12221 // Inherit Rename
+~170090,12221 // Inherit Rename
+~100004771,12221 // Inherit Rename
+300000264,15,15 // RESOURCEIMAGE_EYETRISTATE
+12671 // Fold Palette
+13684 // Unfold Command
+13906 // Lock Icon
+17580 // Edit Script...
+12541 // Undock
+13653 // Icons
+13654 // Text
+13655 // Vertical
+17380 // Show Logo
+13658 // Small Icons
+13659 // Medium Icons
+13657 // Large Icons
+13656 // Original Size
+12434 // 18
+12443 // 50
+12438 // 60
+12439 // 100
+12440 // 250
+12430 // 500
+~13018,1015840 // Inherit Import ASCII
+~12530,12139 // Inherit Points
+~12532,12187 // Inherit Polygons
+~12534,17038 // Inherit UVW
+~17112,1016160 // Inherit N-Gons
+~17999,440000101 // Inherit Normals
+~18067,1007573 // Inherit SDS Weights
+13899 // Vertex Map
+170036 // No Icons
+465001170 // Delete all Regions
+1019740 // Back
+1019739 // Forward
+1019741 // Up One Level
+1019910 // Computer
+1019909 // Desktop
+1019911 // Home Directory
+1019906 // Presets
+1019907 // Catalogs
+1019908 // Recent Items
+1019905 // Search Results
+1019904 // Favorites
+1018426 // New Browser
+~100004742,12095 // Inherit Open
+~100004743,12218 // Inherit Save As...
+~170696,12218 // Inherit Save As...
+~170695,12098 // Inherit Save
+~170079,13658 // Inherit Small Icons
+~170080,13659 // Inherit Medium Icons
+~170081,13657 // Inherit Large Icons
+~170095,13658 // Inherit Small Icons
+~170096,13659 // Inherit Medium Icons
+~170097,13657 // Inherit Large Icons
+~170037,13658 // Inherit Small Icons
+~170038,13659 // Inherit Medium Icons
+~170039,13657 // Inherit Large Icons
+~100004706,13658 // Inherit Small Icons
+~100004707,13659 // Inherit Medium Icons
+~100004708,13657 // Inherit Medium Icons
+~465001038,13658 // Inherit Small Icons
+~465001039,13659 // Inherit Medium Icons
+~465001040,13657 // Inherit Medium Icons
+465003052 // Motion Source Groups
+1021824 // Walk Cycle tag
+1022957 // Foot
+1022956 // Hand
+1021433 // Character
+1022798 // Wings
+1022795 // Digit
+1022792 // Pelvis
+1022794 // Spine
+1022797 // Tail
+1022793 // Limb
+1022796 // Head
+1025028 // Weights Manager
+1022251 // Save Template
+1022250 // Load Template
+1022252 // Save Template As
+1022253 // Reload Templates
+1022912 // Joints To Polys
+1022964 // Wing Template
+1022963 // Insect Template
+1022962 // Quad Template
+1022971 // Tails and Tentacles Template
+1022968 // Reptile Template
+1022965 // Amphibian Template
+1022967 // Fish Template
+1022966 // Alien Template
+1022292 // Character Component Object
+1022113 // Component Tag
+1022941 // Component Type Controller
+1022942 // Component Share Off
+1022932 // Component Share On
+1022943 // Component Selflink Off
+1022933 // Component Selflink On
+1019601 // Toggle On Off
+1016709 // Fly
+465001769 // Histogram
+1016710 // Move
+1016708 // Navigate
+160000 // Texture List
+170082 // New Color Group
+170066 // New Brush Group
+430000765 // Toggle AB Compare
+430000767 // Swap AB
+465001723 // Swap Vert/Hor
+430000769 // Set As B
+430000768 // Set As A
+430000772 // Animate B
+430000771 // Animate Second
+430000773 // Difference
+~430000748,16391 // Inherit Play Sound
+~430000751,12428 // Inherit Ping-Pong
+430000775 // 12,5%
+430000776 // 25%
+430000777 // 50%
+430000779 // 200%
+430000780 // 400%
+430000781 // 800%
+430000740 // Clear History
+430000739 // Clear Image
+430000731 // Stop Rendering
+~430000738,13931 // Inherit Use as Render View
+430000749 // Run From Start
+~440000051,5675 // Inherit Coffee Expression Tag
+170098 // Add Single Channel Preset
+1019222 // PolyFX
+440000054 // MoSpline Object
+16768 // Connect+Delete
+~110059,12373 // Inherit Project Settings
+180000102 // Active Rigid Body
+180000043 // Passive Rigid Body
+465001191 // Key Mode
+465001190 // FC Mode
+465001193 // Motion Mode
+17734 // Full Screen (Group)
+~465001059,100004749 // Inherit Fold All
+~465001060,100004748 // Inherit Unfold All
+465001080 // Subframes
+465001076 // Fine
+465001077 // Middle
+465001081 // No Grid
+465001078 // Per Second
+465001052 // Link View To Object Manager
+170230 // Add Multi Channel Preset
+100004750 // Sort By Name
+100004721 // Goto Main Level
+~465001043,100004721 // Inherit Goto Main Level
+465001124 // Create Marker At Current Frame
+465001125 // Delete All Markers
+~1018535,465001125 // Inherit Delete All Markers
+465001126 // Set Marker To Selection
+465001123 // Create Markers At View Boundary
+465001056 // Unhide All
+465001054 // Hide Selected Elements
+465001055 // Hide Unselected Elements
+465001050 // Show Preview Range
+465001051 // Show Key Symbols
+465001049 // Show Track Values
+465001196 // Show Animation Layer
+465001194 // Show Only Active Animation Layer
+465001214 // Key Reducer
+~465001219,450000051 // Inherit Bake Object...
+16739 // Mini Icons
+~16740,13658 // Inherit Small Icons
+~16741,13659 // Inherit Medium Icons
+~16742,13657 // Inherit Large Icons
+12203 // Edit Selected Material
+12103 // About
+100004809 // Add To New Layer (Layer Browser)
+~200000146,100004809 // Inherit Add To New Layer (Layer Browser)
+~465001119,100004809 // Inherit Add To New Layer (Layer Browser)
+100004759 // Remove From Layer (Layer Browser)
+~200000147,100004759 // Inherit Remove From Layer (Layer Browser)
+~465001120,100004759 // Inherit Remove From Layer (Layer Browser)
+100004736 // Add Objects To Layer (Layer Browser)
+~100004740,465001060 // Inherit Unfold All (Layer Browser)
+~100004741,100004749 // Inherit Fold All (Layer Browser)
+100004801 // New Layer From Object Selection (Layer Browser)
+100004803 // Unfold Selected
+100004802 // Fold Selected
+100004785 // Object Activation
+1016209 // Show Objects
+1016208 // Hide Objects
+465001105 // Lock Value
+465001104 // Lock Time
+100004758 // Layers... (Layer Browser)
+~465002001,100004758 // Inherit Layers... (Layer Browser)
+465001147 // Make Relative
+465001211 // Cycle...
+1019966 // Show Soundwave
+465001058 // Remove All Objects
+465001057 // Remove Selected Objects
+465001166 // Show Before/After Curve
+465001068 // Trim Before
+465001069 // Trim After
+465001205 // Delete Frames...
+465001208 // Insert Frames...
+465001204 // Delete Every nth Frame...
+465001133 // Clean Tracks
+465001209 // Simplify...
+465001161 // No Curve Edit
+465001087 // Show All Tracks
+465001088 // Show All Keys
+465001085 // Show Keys Of Selected Curves
+465001086 // Show Tangents Of Selected Keys
+465001100 // Show All Tangents
+465001002 // Delete Unused Tracks
+465001207 // Set Preview Range
+465001029 // Set Preview To Selection
+465001031 // Set Preview To View
+100004720 // Set As Root
+~465001042,100004720 // Inherit Set As Root
+465001048 // Tolerant Selection
+465001201 // Select Range
+465001001 // Record Current State
+465001112 // Ridge
+465001113 // Ramp Up
+465001114 // Ramp Down
+465001210 // Formula
+180000151 // Active Rigid Body (Disabled State)
+465001110 // Clamp
+465001066 // Quantize Selection
+~1018538,465001066 // Inherit Quantize Selection
+1020042 // Use Time Format
+1020034 // No Split
+1020035 // Split Vector Keys
+1018529 // Split PSR Keys
+1018530 // Show Inactive Keys
+1020041 // Unlink Time
+1021362 // Advanced Mode
+465001035 // Show Branches
+465001053 // Show Vector Track
+465001300 // Set Constant Velocity
+465001301 // Reset Constant Velocity
+465001062 // Position Track To Spline
+465001063 // Spline To Position Track
+13021 // Export ASCII Data
+170078 // As Icon
+~170094,170078 // Inherit As Icon
+~170604,170078 // Inherit As Icon
+170077 // As List
+~170093,170077 // Inherit As List
+~170603,170077 // Inherit As List
+1018422 // As Icons
+1018423 // As List
+1018427 // New Folder
+1018429 // New Preset Library
+1018428 // New Catalog
+1018431 // Refresh
+1018406 // Search Bar
+1020075 // Cinema 4D Scene Files
+1020076 // Other 3D Scene Files
+1020077 // Images
+1020078 // Movies
+1020079 // Other Known File Formats
+1020080 // Unknown File Formats
+300002180 // Machine Renders for someone else
+170007 // Copy Merged
+170099 // Overwrite Preset
+300002185 // Network Renders for someone else
+17124 // Show Window Title
+16546 // Link XYZ Subchannels
+16001 // Default Interpolation
+16000 // Custom Interpolation
+16002 // Custom Preferences...
+1001019 // Select Tool
+170687 // Merge Texture
+100004764 // Merge Objects...
+100004765 // Save Objects As...
+1018525 // Expand To Full Time
+1018520 // Reverse Sequence
+170340 // Paste Into Selection
+170703 // Project On Hidden Polygons
+13016 // New Line
+~12294,200000084 // Inherit Rectangle Selection
+~170027,14063 // Inherit Zoom In
+~14064,170028 // Inherit Zoom Out
+400009000 // Start Xpresso Calculation
+1001138 // Xpresso Pool
+13964 // Use Render LOD For Editor Rendering
+16547 // Show Fcurves...
+16430 // Show Tracks...
+16767 // Show Motions...
+1023417 // Protect Camera
+1023420 // Enable 3D Paint
+1023421 // Disable 3D Paint
+~17258,1023420 // Inherit Enable 3D Paint
+~17259,1023421 // Inherit Disable 3D Paint
+1023416 // Link Camera To Active View
+~1023422,12109 // Inherit Delete
+1023419 // Duplicate Camera
+1023418 // Un-Protect Camera
+~465001176,465003044 // Inherit Add Motion Clip
+465001217 // Add Motion Clip At...
+465001172 // Add Motion Clip With Animation
+465001182 // Add Compound Motion Clip
+465001218 // Motion View
+~465001181,465003013 // Inherit Cut/Connect
+~465001180,465003014 // Inherit Make Transition
+~465001173,465003065 // Inherit Add Empty Motion Layer
+465001171 // Bake Clips
+465001174 // Add Motion Layer With Animation
+465001188 // Add Motion Source
+465001177 // Convert To Motion Source
+465001197 // Show Motion Sources
+465001192 // Convert To Motion Clip
+465001179 // Show In FCurve Mode
+465001178 // Show In Key Mode
+465001189 // Convert Motion Clip To Motion Source
+465001195 // FCurves Interaction In Motion Layer
+465001183 // Move Keys With Motion Clip
+465001184 // Remove Motion Clips After Compound Creation
+465001198 // Convert Layer To Keyframe Animation
+~465001061,450000051 // Inherit Bake Object
+450000220 // Check For Updates
+~465001067,465001205 // Inherit Delete Frames
+~465001146,465001208 // Inherit Insert Frames
+~170607,13657 // Inherit Large Icons
+~170606,13659 // Inherit Medium Icons
+~170605,13658 // Inherit Small Icons
+300000110 // Save Material Preset
+300000112 // Save Object Preset
+300000114 // Save Tag Preset
+465003067 // Save Motion Source Preset
+465001716 // Full Size
+465001717 // Half Size
+465001718 // Quarter Size
+465001724 // Show Line
+465001725 // Show Text
+465001726 // Set As Preview Start
+465001727 // Set As Preview End
+430000750 // Link Time
+465001715 // Clear Cache
+465001719 // Show Multipass Layers
+465001722 // Show Filter
+465001734 // Fill Cache
+~465001710,100004749 // Inherit Fold All
+~465001711,100004748 // Inherit Unfold All
+465001714 // Show Rendering
+465001712 // Add Rendering To List
+~465001705,1000474 // Inherit Preferences
+465001731,20,20 // Show Right Part PV
+465001732,20,20 // Hide Right Part PV
+465001708 // Show Pixel Aspect
+180000100 // Mograph Dynamics Hook
+465001733,24,24 // Not Cached Frames
+465001736 // Third Size
+465001739 // Show Single Pass Layers
+465001740,10,10 // PV Orange Dot
+465001743,10,10 // PV Green Dot
+465001747,10,10 // PV Grey Dot A
+465001748,10,10 // PV Grey Dot B
+465001741,10,10 // PV Orange Dot A
+465001744,10,10 // PV Green Dot A
+465001742,10,10 // PV Orange Dot B
+465001745,10,10 // PV Green Dot B
+465001746,10,10 // PV Grey Dot
+180000103 // Force Object
+~465001730,1019458 // Inherit MoCache
+465001735 // PV Cache
+300002229 // Connection Test
+~465001738,16391 // Inherit Sound Off
+1050869 // Sound Off
+465003508,10,10 // COMMAND_RM_REDDOT
+170768 // Filled Polygons
+170763 // Multi-Color Islands
+170762 // Distortion
+170760 // UV Overlaps
+170769 // Pins
+170759 // UV Component Highlighting
+465001776,23,23 // Full Screen PV no sound
+465001777,23,23 // Full Screen PV no sound roll
+170761 // Checkerboard
+1053040 // Sort By
+1053469 // Mirror Selection
+431000202 // Resolve Non Manifold
+465001782,23,23 // Full Screen PV cache
+465001783,23,23 // Full Screen PV cache roll
+1054357 // Add Pin Selection
+1053373 // Weld UV
+465001786,23,23 // Full Screen PV sound
+465001787,23,23 // Full Screen PV sound roll
+1053312 // Weld and Relax UV
+1053110 // Pack UV
+1053659 // Pack UV
+1053301 // Unwrap UV
+1054358 // Remove Pin Seletion
+465002126 // Clear Pin Selection
+465001759 // Show Title Safe
+465001760 // Show Action Safe
+465001768 // Show Color Profile
+465001764 // Animations
+465001763 // Stills
+465001765 // Rendered Elements
+465001766 // Loaded Elements
+465001767 // Saved Elements
+465001761 // Full Screen Mode
+~17301,465001761 // Inherit Full Screen Mode
+~17733,465001761 // Inherit Full Screen Mode
+465001794 // Exit Full Screen Mode
+465001795 // Exit Full Screen Mode roll
+465003527 // Save Preset
+465001796,20,20 // Hide RQ Bottom
+465003512 // Edit Scene
+465003511 // Add Current Scene
+465003526 // Load Preset
+465003533 // Texture Errors
+1054169 // Unwrap Pack UV
+465003523 // Open Log
+465003530 // System
+465003531 // Render
+465003532 // Scene
+465003525 // Send To Render Queue
+~465003516,12270 // Inherit Revert To Saved
+~465003515,430000731 // Inherit Stop Rendering
+~465003513,12099 // Inherit Render to Picture Viewer
+~465003519,430000740 // Inherit Remove All Images
+1024476 // Camera Deformer
+200000270,20,18 // PickIcon
+1023334 // Add Bounds Constraint
+180000012 // Motor
+1023866 // Python Generator
+1026374 // Reset All
+200000271,20,18 // PickIcon 2nd State
+465003500 // Render Queue
+1024544 // Collision Deformer
+300002189,10,10 // Status Bar Net Render For Other
+1024490 // Plugin Manager
+1022735 // Script Folder
+1024001 // Python Script Manager
+1022604 // Python Sandbox
+1022537 // Python Editor
+1023699 // Source Protector
+200000273 // Reload All Textures
+1023335 // Freeze Transformation
+1023336 // Unfreeze Transformation
+300000265 // Light Photometric
+300000266 // Light Photometric, Shadows
+1024552 // Surface Deformer
+1024543 // Mesh Deformer
+1024542 // Correction Deformer
+1024529 // Smoothing Deformer
+180000011 // Dynamics Joint / Hinge
+180000161 // Cardan
+180000162 // Ball Socket
+180000163 // Ragdoll
+180000164 // Slider
+180000165 // Twistslider
+180000166 // Planar
+180000167 // Box
+180000168 // Suspension
+180000169 // Fixed
+1025075 // Python Wrong Generator
+1025074 // Python Wrong Tag
+180000010 // Spring
+1025539 // Set Parent
+1025540 // Unparent
+465003068 // Add Absolute Animation Layer
+180000044 // Ghost Rigid Body
+1025120 // Tutorials
+180000181 // Angular Spring
+180000182 // Linear + Angular Spring
+180000185 // Linear Motor
+180000186 // Linear + Angular Motor
+1025169 // PSR Morph
+1025170 // Point Morph
+180000042 // Soft Body
+~1024557,13015 // Inherit New Material
+~300001070,300000265 // Load IES Light
+1022807 // Run Script
+~1024314,13957 // Inherit Clear (Python Console)
+1025203 // Clear Scope (Python Console)
+1024169 // Flatten Brush
+1024171 // Pinch Brush
+1024197 // Grab Brush
+1024506 // Mask Brush
+1024170 // Smooth Brush
+1024168 // Pull Brush
+1024195 // Increase Object Subdivisions
+1024196 // Decrease Object Subdivisions
+1024189 // Erase Brush
+1024194 // Subdivide Object
+1023800 // Sculpt Tag
+1027984 // Sculpt Frozen Tag
+1029169 // Amplify Brush
+1025779,10,8 // next day
+1025781,10,8 // previous day
+1025782,14,8 // previous year
+1025780,14,8 // next year
+200000277 // Scale Document
+180000045 // Dynamics Cache Tag
+1024712 // Create Polygon Copy
+1024713 // Create Polygon Copy For Every Level
+1026886 // Extract Object From Layer
+1026879 // Extract Object From Mask
+1029259 // Project Mesh
+1025776 // Xref Manager
+1025763 // Add Xref
+1025773 // Refresh Xrefs
+17863 // Stereo
+~13039,5100 // Empty Polygon
+465001303 // Unify Tangent Angle
+465001302 // Unify Tangent Length
+465001304 // Keep Visual Angle
+440000088 // Move Parent
+1026375 // Reload Python Plugins
+300000116 // Script Log
+1025800 // Python Effector
+450000256 // Stereo Camera
+440000102 // Normal Rotation
+-440000102 // Gimbal Rotation
+465001305 // Show Min/Max Values
+1026593 // Combine Scene
+1025699 // Replace With
+1025623 // Project Object
+1022304 // Paste Component
+1022305 // Delete COmponent
+1022307 // Paste To Component
+1022309 // Mirror To Component
+1022302 // Copy Component
+1022303 // Cut Component
+1022308 // Paste Mirror Component
+1026519 // Knife Sculpting Tool
+100004786 // Select Visible
+1026689,13,13 // Hub
+1026690,13,13 // Hub off
+1026691,13,13 // Target 
+1026692,13,13 // Target off
+1026693,13,13 // Settings
+1026694,13,13 // Settings off
+1026695,13,13 // Action
+1026696,13,13 // Action off
+440000092 // Cursor mode
+440000094 // Object mode
+440000093 // Center mode
+440000095 // Camera mode 
+13957 // Clear Console
+12500 // Linear Workflow
+13858 // Previous Project
+13857 // Next Project
+1026893,14,14 // Reference Icon overlay
+1026918 // Foot Step
+440000109 // Nudge Right
+440000108 // Nudge Left
+440000106 // Nudge Up
+440000107 // Nudge Down
+440000104 // Lock Camera Pivot
+1026225 // Sculpt Symmetry
+1021420 // Set Camera Pivot
+465003534 // Check Textures
+170767 // UV Connectivity
+430000774 // Auto Zoom Mode
+440000153 // Spline Cut Cursor
+431000034 // Poly Cut Cursor
+440000155 // Close Spline Cursor
+440000156 // Bridge Spline Cursor
+431000037 // Bridge Poly Cursor
+440000158 // Tweak Tangent
+440000157 // Tweak Point
+431000038 // Tweak Poly Point
+431000033 // Add Poly Point Cursor
+431000145 // Remove From Current Take
+440000149 // Spline Pen Tool
+431000041 // Tweak Poly (plane) Cursor
+431000039 // Tweak Edge Cursor
+440000152 // Add Point Cursor
+440000154 // Delete Point Cursor
+431000151 // Remove All Overrides
+431000040 // Tweak Poly (normal) Cursor
+431000028 // Bevel Deformer
+1028393 // Motion Tracker
+1029912 // Mask Constraint
+1029911 // Camera Orientation Constraint
+1029910 // Planar Constraint
+1029908 // Position Constraint
+1029909 // Vector Constraint
+1031228 // Auto Tracking Forwards
+1031229 // Auto Tracking Backwards
+1031227 // Auto Tracking
+1031231 // Manual Tracking Forwards
+1031230 // Manual Tracking Backwards
+1031230 // Manual Tracking
+1031235 // Create Camera Constraint
+1031337 // Create Planar Constraint
+1031335 // Create Position Constraint
+1031336 // Create Vector Constraint
+1031334 // Create Mask Constraint
+1031330 // Insert Auto Keyframe
+1031331 // Delete Key
+1031234 // Show Graph View
+1031225 // Trim
+1031226 // Untrim
+1031233 // Full Solve
+1029529 // Unsubdivide
+1030659 // Annotation Tag
+431000044 // Extrude Poly Cursor
+431000042 // Extrude Point Cursor
+1031207 // UV Peeler
+431000043 // Extrude Edge Cursor
+440000159 // Tweak Edge Cursor
+1031728 // Warning
+1031429 // Select Brush
+1031339 // 3D Mode
+1031338 // 2D Mode
+1035447 // Delta Mush Deformer
+300002193 // Open Webinterface
+300002192 // Open Repository
+1031333 // Add User Track
+1031683 // Select User Tracks
+1031690 // Delete Selected
+1031691 // Restore Deleted
+1031689 // Invert Visibility
+1031685 // Invert Selection
+440000141,16,16 // RESOURCEIMAGE_KEYFRAME_BUTTON_UP
+440000142,16,16 // RESOURCEIMAGE_KEYFRAME_BUTTON_OVER
+440000143,16,16 // RESOURCEIMAGE_KEYFRAME_BUTTON_DOWN
+440000178,16,16 // RESOURCEIMAGE_KEYFRAME_BUTTON_EDGE
+1031686 // Hide Selected
+1031687 // Hide Unselected
+1031688 // Unhide All
+1031682 // Select All Auto Tracks
+1031684 // Select Reconstructed Tracks
+1031706 // Smart Tracking Forwards
+1031707 // Smart Tracking Backwards
+1031705 // Smart Tracking
+431000058 // Solo Off
+431000060 // Solo Hierarchy
+431000059 // Solo Single
+431000061 // Solo Selection
+1030871 // Annotation Tool
+440000163 // Tweak Tool
+440000164 // Interaction Tag
+1032090 // Archicad 18 Scene Combine
+1032517 // Houdini Asset Generator
+1032518,14,18 // Houdini Object Generator
+1034659 // Get More Information
+1032272 // Houdini Get Assets from Orbolt
+1032273 // Houdini Asset Library Manager
+1032265	// Houdini Load Asset
+1032274 // Houdini Save Scene
+1032516 // Houdini Visit C4D Plugin Forum
+1032268	// Get Houdini Installer
+1033498,22,22 // Free
+1033499,22,22 // Monochromatic
+1033500,22,22 // Complementary
+1033501,22,22 // Analogous
+1033502,22,22 // Split Complementary
+1033503,22,22 // Tetrad
+1033504,22,22 // Equiangular
+1033619,22,22 // Locked
+1033505,22,22 // Add Color
+1033506,22,22 // Remove Color
+1033621,22,22 // Free Inactive
+1033622,22,22 // Monochromatic Inactive
+1033623,22,22 // Complementary Inactive
+1033624,22,22 // Analogous Inactive
+1033625,22,22 // Split Complementary Inactive
+1033626,22,22 // Tetrad Inactive
+1033627,22,22 // Equiangular Inactive
+1033620,22,22 // Unlocked
+1033489,20,20 // Color Wheel Disabled
+1033490,20,20 // Color Spectrum Disabled
+1033491,20,20 // Color Picture Disabled
+1033492,20,20 // Color RGB Disabled
+1033493,20,20 // Color HSV Disabled
+1033494,20,20 // Color Kelvin Disabled
+1033495,20,20 // Color Mixer Disabled
+1033496,20,20 // Color Swatches Disabled
+1033497,20,20 // Color Picker Disabled
+1033760,20,20 // Add Group
+1033761,27,27 // Folder
+1033507,20,20 // Mosaic Disabled
+1033759,20,20 // Delete
+1033756 // Houdini Asset Generator Red
+1033757,14,18 // Houdini Object Generator Red
+431000053 // Take Manager
+431000056 // New Take
+431000077 // Create A New Override Group
+431000067 // Render All Takes
+431000068 // Render Checked Takes
+431000095 // Render All Takes With TR
+431000096 // Render Checked Takes With TR
+431000097 // Send Open File With All Takes To RQ
+431000098 // Send Open File With Selected Takes To RQ
+431000099 // Open And Send File With All Takes to RQ
+431000100 // Open And Send File With Selected Takes to RQ
+431000069 // Isolate Current Take In A New Document
+431000070 // Generate A Save Project With Assets For Each Take
+431000071 // Generate A Save Project With Assets For Each Selected Take
+431000101 // Syncronize Take Manager Selection With Other OM MM And LM Selections
+431000081 // Autotake
+431000137,20,20 // Show AM
+431000083 // Show Folder In Take Tree Even If Empty
+431000087 // Define A Single Take Tree Mode
+431000088 // Define A Single Override Tree Mode
+431000089 // Define A Dual Take/Override Tree Mode
+431000107 // Global Toggle For Others Override
+431000108 // Global Toggle For Main Override
+431000106 // Global Toggle For Layer Override
+431000075 // Override Group Node
+431000054 // Take Node
+431000138,14,18 // Tag Flag
+431000128 // Object
+431000129 // Tag
+431000130 // Material
+431000131,10,10 // Take Mark
+431000132 // Default Camera
+431000133 // Parent Camera
+431000136 // Actual Render Settings
+431000135 // Parent Render Settings
+1033878,20,20 // Color wheel enabled
+1033879,20,20 // Spectrum enabled
+1033880,20,20 // Picture enabled
+1033881,20,20 // RGB enabled
+1033882,20,20 // HSV enabled
+1033884,20,20 // Kelvin enabled
+1033883,20,20 // Mixer enabled
+1033885,20,20 // Swatches enabled
+1033886,20,20 // Screenpicker enabled
+1033887,20,20 // Mosaic enabled
+1033992,20,20 // Color wheel light
+1033993,20,20 // Spectrum light
+1033994,20,20 // Picture light
+1033995,20,20 // RGB light
+1033996,20,20 // HSV light
+1033997,20,20 // Kelvin light
+1033998,20,20 // Mixer light
+1033999,20,20 // Swatches light
+1034000,20,20 // Screenpicker
+1034001,20,20 // Mosaic
+1034124,22,22 // Delete All Colors
+440000167 // Spline Smooth
+440000174 // Spline Arc
+440000150 // Spline Sketch
+440000168 // Spline Bool Union
+440000169 // Spline Bool Subtraction
+440000170 // Spline Bool Land
+440000213 // Spline Bool Intersect
+440000212 // Spline Bool Or
+440000214 // Spline Mouse Rotate
+440000215 // Spline Mouse Angle
+440000216 // Spline Mouse Scale
+465001542 // FCurve TL
+465001313 // Show Tangent Curve
+465001309 // Auto Tangent Fixed Slope
+465001312 // Automatic Weighting
+465001310 // Weighted Tangent
+465001311 // Remove Overshoot
+465001316 // Lock Ratio
+465003006,13,18 // Quaternions
+465001314 // One Directional Selection Linking
+1032514 // Lens Distortion Tool
+1034010 // 2D Tracking Errors
+1034011 // 2D Tracking Speed
+1034012 // 2D Tracking Acceleration
+1034008 // Top-Down Mode
+1034009 // Graph Mode
+1034017 // Show Filter Trims
+431000057 // Delete Take
+431000121 // Save Take Preset
+431000122 // Load Take Preset
+1034807 // Clear Textures
+440000347 // Add Mask
+465001317 // Show Only Active Take
+465001220 // Euler Filter...
+1033522 // Sculpt To Posemorph
+465001955 // Cineware To After Effects
+1035588,20,20 // ColorChooser Compact (on)
+1035589,20,20 // ColorChooser Compact (off-light)
+1035590,20,20 // ColorChooser Compact (off-dark)
+18071 // Viewport Reflections
+440000110 // Viewport Vertex Normals
+18069 // Viewport Tessellation
+18070 // SSAO
+18063 // Select Materials with Same Reflectance
+440000237 // Swap Cloner Matrix
+440000235 // Honeycomb Cloner
+440000219 // Push Apart Effector
+440000234 // ReEffector
+440000232 // MoGraph Weight Painting Tool
+440000231 // MoGraph Weight Tag
+1037025 // InExclude Pointsource Visibility
+1036557 // Fracture Object
+1037026 // InExclude Pointsource Visibility Off
+1032106 // Substance Engine Ok
+1032150 // Substance Engine Not Loaded
+1032151 // Substance Engine Error
+1032109 // Load Substance Asset
+1032108 // Substance Engine Manager
+1036975 // Re-import Substance Asset
+1032107 // Substance Scene Hook
+1036101 // Shadow Catcher Shader
+440000242 // Hide MoGraph Selection
+1001381 // Thinking Particles Group
+1022972 // Character Object Custom Component
+440000241 // MoGraph Cache Disabled
+440000239 // MoGraph External Cache
+440000240 // MoGraph External Cache Empty
+440000238 // MoGraph External Cache Disabled
+465001320 // Breakdown Color
+200000299 // Priority Offset Tag
+1035609 // Lock View On Tracks
+1036376 // Auto Update Tracks
+1036537 // Nudge Track Right
+1036536 // Nudge Track Left
+1036538 // Nudge Track Up
+1036539 // Nudge Track Down
+1036370 // Full Footage
+1036371 // Keep In Foreground
+1036372 // Frame Selected Tracks
+1036373 // Frame All Tracks
+1036448 // Automatic Point Distributor
+431000169 // Convert Vertex Map
+1036100 // Object Tracker
+1036375 // Object Tracker Command
+431000045 // Per Vertex Color Tag
+431000171 // Per Polygon Vertex Color Tag
+431000165 // Loop Cutter
+431000164 // Plane Cutter
+18068 // SDS Weights Per Edge
+1055068 // Motion Solver Tag
+1039003 // Spherical Camera
+1038947 // Depth Of Field
+431000174 // LOD Object
+431000185 // LOD Backface Culling
+1038338 // Alembic Green A
+1038339 // Alembic Green Animation
+1038340 // Alembic Red Animation
+1038341 // Alembic White Animation
+1038337 // Alembic Broken Asset Link
+1038450 // Open Substance Folder
+1038403 // Delete Substance
+1038404 // Select Substance Assets Based On Selected Materials
+1038405 // Select Substance Assets Based On Marked Materials
+1038406 // Select Substance Assets Based On Selected Objects/Tags
+1038407 // Select Materials Using The Selected Substance Assets
+1038408 // Select Objects Using The Selected Substance Assets
+1038409 // Enable All Substance Assets
+1038410 // Disable All Substance Assets
+1038412 // Create Standard Material
+1038413 // Create Metallic Material
+1038414 // Create Glossy Material
+1038415 // Duplicated Selected Substance Assets
+1038416 // Duplicated Selected Substance Assets And Materials
+1038417 // Apply A Substance Preset To The Selected Substance Assets
+1038418 // Merge A Substance Preset Into The Selected Substance Assets
+1038419 // Export A Substance Preset For The Selected Substance Assets
+1038420 // Create-Update Disk Cache For Selected Substance Assets
+1038421 // Create-Update Disk Cache For Changed Substance Assets
+1038422 // Create-Update Disk Cache For All Substance Assets
+1038423 // Delete Disk Cache For Selected Substance Assets
+1038424 // Delete Disk Cache For All Substance Assets
+1038369 // Flat Sort
+1038370 // Hierarchical Sort
+1038376 // Name Sort
+1038371 // Weight Tag Sort
+1038367 // Link List To Object Selection
+1038368 // Lock Mode
+202673 // Create Multiple Markers
+1054858 // Character Definition Tag
+300001090 // Use Preview Settings
+300001089 // Use Offline Settings
+300001091 // Allow Camera Updates
+300001093 // Allow Light Updates
+300001092 // Allow Material Updates
+300001094 // Allow Geometry Updates
+202522 // PBR Light
+202520 // PBR Material
+300001095 // Synchronize Viewport
+300001087 // Start ProRender
+465002101 // Polygon Reduction GENERATOR
+465002319 // NE - Layout All
+465002346 // NE - Show Grid
+465002229 // NE - Show Grid Off
+465002345 // NE - Show Propagated
+465002230 // NE - Show Propagated off
+1040448 // Radial Field
+465002221,20,20 // NE - Left Pane on
+440000277 // Python Field
+440000266 // Linear Field
+465002225,20,20 // NE - Switch Pane on
+465002224,20,20 // NE - Switch Pane off
+440000309 // FIELD - Value on
+440000310 // FIELD - Value off
+440000312 // FIELD - Color on
+440000313 // FIELD - Color off
+440000314 // FIELD - Slope vector on
+440000315 // FIELD - Slope vector off
+440000319 // FIELD - Alpha on
+440000320 // FIELD - Alpha off
+440000322 // FIELD - Clamp off
+440000321 // FIELD - Clamp on
+440000267 // Box Field
+440000243 // Spherical Field
+440000269 // Cone Field
+440000272 // Torus Field
+440000268 // Cylinder Field
+440000274 // Capsule Field
+440000282 // Shader Field
+440000281 // Random Field
+440000283 // Sound Fieldlayer
+440000280 // Formula Field
+465002300 // Frame All
+465002307 // Frame Selected
+465002320 // Center All
+465002308 // Center Selected
+465002343 // Bezier Wires
+465002333 // Step Up
+465002311 // Layout Selected
+465002331 // Propagate Port
+465002336 // Create In Port
+465002337 // Create Out Port
+"xxx_unused" // 
+"xxx_unused" // 
+465002355 // Show Navigator
+465002350 // Show Preview
+465002351 // Hide Preview
+465002342 // Remove Unused Ports
+465002315 // Remove Unused Nodes
+465002349 // Node State - Show All
+465002348 // Node State - Show Connected
+465002347 // Node State - Show Collapsed
+465002358 // Set Solo Node
+465002359 // Clear Solo Node
+465002356 // Set As Start Node
+465002357 // Clear Start Node
+465002302 // Group Nodes
+465002313 // Dissolve Group
+465002328 // Select In Material Manager
+465002327 // Open In Material Editor
+200001021 // Nodes Commander
+202541 // New Node-Based Material
+465002339 // Convert Group To Asset
+465002340 // Convert Asset To Group
+465002312 // Create Empty Group
+465002231 // History
+465002316 // Select Connected
+465002211 // Open Node Editor
+465002214 // Open Locked Node Editor
+465002336 // Create InPort
+465002337 // Create OutPort
+200001023 // Save As New Asset
+200001024 // Quit Edit Asset Mode
+200001022 // Save As New Version
+465002306 // Duplicate
+1039686,16,16 // Linear Interpolation Gradient
+1039687,16,16 // None Interpolation Gradient
+1039688,16,16 // Blend Interpolation Gradient
+1039685,16,16 // Cubic Interpolation Gradient
+1039588,16,16 // Smooth Interpolation Gradient
+202549 // Save As Default Scene
+200001004 // Data Description Definition Editor
+1040449 // Folder
+200001040 // Show Errors
+440000293 // Step Fieldlayer
+1040451 // Time Fieldlayer
+1040379 // Freeze Fieldlayer
+440000276 // Spline Fieldlayer
+440000327 // Object Fieldlayer
+440000252 // Solid Fieldlayer
+440000279 // Group Field
+440000328 // VDB Fieldlayer
+440000291 // Delay Modifier Layer
+440000294 // Weightmap Fieldlayer
+440000325 // MoGraph Weights Fieldlayer
+440000290 // Noise Remap Modifier Layer
+440000298 // Gradient Modifier Layer
+12577 // 2D Tracks Mode
+1040420 // Python Modifier Layer
+1040450 // Formula Modifier Layer
+440000300 // Invert Modifier Layer
+440000297 // Curve Modifier Layer
+440000299 // Quantize Modifier Layer
+440000301 // Colorize Modifier Layer
+440000295 // Clamp Modifier Layer
+440000296 // Remap Modifier Layer
+440000302 // RangeMap Modifier Layer
+440000292 // Decay Modifier Layer
+1039955 // 2D Track Magnifier Window
+1034262 // 2D Navigation Mode
+1039867 // VDB Volume Group
+1040747 // VDB Loader Missing
+1040746 // VDB Group Missing
+1039861 // VDB Volume Mesher
+1039858 // VDB SDF
+1040742 // VDB VECTOR
+1040741 // VDB FOG
+1040744 // VDB FOG Missing
+1040745 // VDB VECTOR Missing
+1040743 // VDB SDF Missing
+1039859 // VDB Builder SDF
+1040740 // VDB Builder FOG
+1039866 // VDB Loader
+1040114 // VDB Reshape Filter SDF
+1040738 // VDB Reshape Filter FOG
+1040113 // VDB Smooth Filter SDF
+1040737 // VDB Smooth Filter FOG
+1039863 // VDB Volume Mesh
+"xxx_unused" // VDB Volume Builder SDF Baked
+"xxx_unused" // VDB Volume Builder FOG Baked
+"xxx_unused" // Bake Layer
+465002280 // Asset
+1040584,20,20 // Alpha
+1040585,20,20 // Alpha disabled Light
+1040586,20,20 // Alpha disabled dark
+1040587,20,20 // Hexadecimal
+1040588,20,20 // Hexadecimal disabled Light
+1040589,20,20 // Hexadecimal disabled dark
+440000330 // Particle Layerfield
+1040766 // Open File in PV
+1040767 // Open File in Attribute Manager
+1040765 // Open File in Explorer
+1001072 // Material Editor
+1040814 // Bake As Alembic
+1040815 // Bake As Alembic + Delete
+465002281 // Locked Asset
+465002282 // Locked Category
+465002283 // Material Asset
+465002284 // File Asset
+202565 // New Uber Material
+1040830,20,20 // Linear
+1040831,20,20 // Linear disabled Light
+1040832,20,20 // Linear disabled Dark
+1052849 // Locked Folder Preset
+1040962 // Reshape Layer SDF
+1040961 // Reshape Layer FOG
+1040960 // Smooth Layer SDF
+1040959 // Smooth Layer FOG
+465002220,20,20 // NE Show Left OFF
+465002222,20,20 // NE Show Right OFF
+55000 // Use Camera
+1040937 // Global Swatches
+300001097 // Send To Picture Viewer
+440000334 // Rotation Filter Off
+1038963 // UV Gizmo
+1050503 // External Cache
+1050504 // Referenced 3D
+1050505 // Other
+202623 // New Grass Material
+1051133 // Mouth
+1050850 // Resolution
+1050849 // Format
+1050557 // Take
+1050882 // File Size
+1050522 // Consolidate Assets
+1050848 // Type
+1050586 // Element Type
+170755 // Show UV HUD
+170758 // Show UV Units
+1051191 // Anchor Point
+170757 // Show Mini Axis
+170756 // Show Axis
+1051242 // Referenced 3D Sequence Type
+1051243 // External Cache Sequence Type
+1051195 // Distortion
+465002309 // Select All Nodes
+465002310 // Deselect All
+465002337 // New Output Node
+465002336 // New Input Node
+1051275 // Vector Volume Type
+465002105 // Fog Filter Multiply
+465002106 // Fog Layer Multiply
+465002107 // Fog Filter Invert
+465002108 // Fog Layer Invert
+465002109 // Fog Filter RangeMap
+465002110 // Fog Layer RangeMap
+465002111 // Fog Filter Curve
+465002112 // Fog Layer Curve
+465002115 // Fog Filter Scale
+465002116 // Fog Layer Scale
+465002117 // Fog Filter Rotate
+465002118 // Fog Layer Rotate
+465002119 // Vector Filter Invert
+465002120 // Vector Layer Invert
+465002121 // Vector Filter Normalize
+465002122 // Vector Layer Normalize
+465002123 // Vector Filter Curl
+465002124 // Vector Layer Curl
+12682 // Vector Direction
+202628 // New Sketch Material
+202626 // New Pyrocluster Volume Tracer
+202625 // New Pyrocluster Material
+202627 // New Shadow Catcher
+13680 // License Manager
+12681 // Vector Length
+200000204 // Sign Out
+200000264 // Legal Information
+450000229 // Manual Installation
+465002113 // Vector Filter Smooth
+465002114 // Vector Layer Smooth
+431000117 // All
+431000118 // None
+1051433 // Group By Asset Name
+1051534 // Group By Type
+1051435 // Group By Element Type
+1051437 // Group By Take
+1051539 // Group By Format
+1051540 // No Grouping
+1051438 // Group By Node Space
+1051436 // Group By Layer
+1051590,20,20 // Menu Highlighted
+300002209 // Ping
+1051496 // Sign-Out
+465002103 // Close and Open SDF Filter
+465002104 // Close and Open SDF Layer
+440000348 // Mask List
+440000338 // Convert Channels Layer
+440000349 // Sublist Folder
+300002005 // Export Licensing Overview
+1052837 // Closed Folder
+1052869 // Controller Left
+1052870 // Controller Right
+18165 // Filter Polygon
+18164 // Filter Null
+18166 // Filter Spline
+18167 // Filter Generator
+18168 // Filter SDS
+18169 // Filter Deformer
+18170 // Filter Camera
+18171 // Filter Light
+18185 // Filter Joint
+18173 // Filter Particle
+18192 // Filter Field
+18191 // Filter Hair
+18172 // Filter Environment
+18174 // Filter Other
+18175 // Filter Grid
+18189 // Filter Base Grid
+18177 // Filter World Axis
+18181 // Filter Multi-Select Axes
+18190 // Filter Handles
+18188 // Filter Object Highlighting
+18180 // Filter Component Highlighting
+18179 // Filter SDS Mesh
+18183 // Filter SDS Cage
+18184 // Filter Ngon Lines
+18187 // Filter Guides
+18193 // Filter Animation Path
+18186 // Filter Ghosting
+18176 // Filter Horizon
+1054230 // GoZ Install
+1054167 // GoZ Export
+1053946 // GoZ Import
+1054392 // GoZ Polygroup
+18159 // Configure Similar
+18163 // Save Filter Preset
+18162 // Load Filter Preset
+18194 // Geometry Only Filter Preset
+18195 // Default Filter Preset
+170764 // Configure UV Texture View
+170765 // Configure All UV Texture Views
+170774 // Lines
+465001321 // Auto Frame Mode
+1054750 // Remesher
+440000352 // Snap to Pixel
+1054189 // Node Editor (Scene)
+"xxx_unused" // 
+1026946 // Lips Component
+1026947 // Mouth Component
+1026945 // Nose Component
+1026944 // Ear Component
+1026943 // Eye Component
+1026942 // Leg Component
+1055217 // Image Transparency
+18203 // Magic Bullet Looks
+300001116 // Send to Magic Bullet Looks
+202664 // Delete Keys
+1055304 // USD Data Tag
+1055356 // USD Importer
+1055413 // Update USD Changes
+1055414 // Close USD Bridge
+465001323 // Copy Tangents
+465001324 // Paste Tangents
+202666 // Record Hierarchy
+202665 // Record Animated
+202662 // Set Minimum Preview Range to Current Time
+202663 // Set Maximum Preview Range to Current Time
+202670 // Set Ranges to Markers
+202672 // Go to Next Range
+202671 // Go to Previous Range
+202667 // Show Position
+202669 // Show Scale
+202668 // Show Rotation
+170777 // UV Straighten
+1055347 // UV Rectangularize
+1055207 // Align UV Islands
+1055471 // Create New Pose
+1055470 // Create New Group
+1055469 // Create New Library
+1055473 // Thumbnail View
+1055474 // Render Thumbnail
+1054538 // Pose Library Browser
+1055476 // Assign Pose
+1055475 // Save Library
+1055221 // Open Capture
+1055222 // Merge Capture
+1055223 // Download
+1055224 // Play in Default App
+1055226 // Delete Capture Locally
+1055229 // Moves Preferences
+1055227 // Resync Previews
+1055228 // Remove Undownloaded
+~18160,431000117 // All
+~18161,431000118 // None
+~440000333,12419 // Inherit Rotation
+~465002223,465001731,20,20 // Inherit Right Pane on
+~465003535,1040765 // Inherit Open File in Explorer
+~1040768,465002328 // Inherit Select In Material Manager
+~1040764,1028161 // Inherit Show In Explorer
+~465001750,1028161 // Inherit Show In Explorer
+~1040768,465002327 // Inherit Open In Material Editor
+~1034257,465001081 // Inherit Display no grid
+~1034258,465001080 // Inherit Display subframes
+~1034259,465001076 // Inherit Display fine grid
+~1034260,465001077 // Inherit Display middle grid
+~1034261,465001078 // Inherit Display per-second grid
+~1034014,465001032 // Inherit Frame All
+~1034015,465001017 // Inherit Frame Selected
+~1034016,465001016 // Inherit Go to Current Frame
+~465001315,12113 // Inherit Deselect All
+~465001307,100004803 // Inherit Fold Selected
+~465001308,100004802 // Inherit Unfold Selected
+~1028155,12112 // Inherit Select All
+~1028159,12236 // Inherit Make Editable
+~465003521,1028161 // Inherit Show Image in Finder/Explorer
+~1027742,1027744 // Inherit Motion Camera
+~1027743,1027745 // Inherit Camera Morph
+~1024182,1024194 // Inherit Subdivide for Sculpt Scenehook
+~1024033,1024168 // Inherit Pull Brush for Sculpt Object
+~1026657,1027026 // Inherit Animation Layer for Sculpt Layer
+~300000181,100004020 // Inherit Cloth
+~200000283,1026693 // Inherit 4 sided view
+~1022749,1025800 // Inherit Python Effector
+~465001306,1019966 // Inherit Show Soundwave
+~300000228,300000205,13,13 // Inherit RESOURCEIMAGE_LAYERMANAGER_STATE17
+~300000229,300000206,13,13 // Inherit RESOURCEIMAGE_LAYERMANAGER_STATE18
+~465001044,100004722 // Inherit One Level Up
+~200000127,200000126,16,16 // LAYERMASK2
+~200000128,200000126,16,16 // LAYERMASK3
+~200000129,200000126,16,16 // LAYERMASK4
+~200000130,200000126,16,16 // LAYERMASK5
+~200000131,200000126,16,16 // LAYERMASK6
+~200000132,200000126,16,16 // LAYERMASK7
+~200000133,200000126,16,16 // LAYERMASK8
+~465001041,100004719 // Inherit Show Path Bar
+~1028270,1028271 // Inherit Camera Crane
+~465001803,52000 // Inherit Recent Files
+~300002159,100004746 // Inherit Enable Filter
+~465001046,100004746 // Inherit Enable Filter
+~12194,13521 // Inherit Animation
+~300002170,17190 // Inherit Show Help
+~300000179,14063 // Inherit Zoom In
+~300000180,170028 // Inherit Zoom Out
+~1028463,1028462 // Inherit Grow Grass
+~431000134,12100 // Inherit Camera Mode
+~465001541,465001510 // inherit Timeline
+~431000146,431000145 // Inherit Remove From Current Take
+~431000147,431000145 // Inherit Remove From Current Take
+~431000148,431000145 // Inherit Remove From Current Take
+~431000152,431000151 // Inherit Remove All Overrides
+~431000153,431000151 // Inherit Remove All Overrides
+~431000154,431000151 // Inherit Remove All Overrides
+~1036374,1028393 // Inherit Motion Tracker Object
+~18065,431000045 // Inherit Vertex Colors
+~1036560,1036557 // Inherit Fracture Tag From Fracturing
+~440000255,1018882 // Sound Effector use Old Sound Effector Icon
+~1037184,1028083 // Alembic Morph Tag use Alembic Generator Icon
+~465002318,431000001 // Inherit Gridline Snapping
+~465002325,14063 // Inherit Zoom In
+~465002326,170028 // Inherit Zoom Out
+~465002352,170026 // Inherit Zoom 100%
+~1041110,12577 // Inherit 2D Tracks Mode
+~465001025,12415 // Inherit Goto Previous Key/Clip
+~465001024,12416 // Inherit Goto Next Keys/Clip
+~440000193,12109 // Inherit Delete
+~1051196,465003011 // Inherit Move Vertical
+~1051193,200000088 // Inherit Move
+~1051188,200000089 // Inherit Scale
+~1051190,200000090 // Inherit Rotate
+~1051197,465003012 // Inherit Move Horizontal
+~1050500,13365 // Inherit Image
+~1050501,1000974 // Inherit Video
+~1050502,465002004 // Inherit Audio
+~440000347,170059 // Inherit New Alpha
+~300000255,300000199,20,20 // Inherit Search
+~300000247,300000199,15,15 // Inherit Search
+~300000252,300000201 // Inherit Home
+~300000260,300000252 // Onlinehelp Home
+~465003518,12095 // Inherit Open
+~1026719,12095 // Inherit Open
+~1026718,12094 // Inherit New
+~1026721,12098 // Inherit Save
+~1026723,12218 // Inherit Save as
+~1026722,12391 // Inherit Save All
+~202540,202549 // Inherit Save As Default Scene
+~1018523,465001005 // Inherit Ripple
+~300000123,300000136 // Inherit Folder
+~465001752,300000136 // Inherit Folder
+~430000031,12098 // Inherit Save
+~1050981,465001715 // Inherit Flush Cache
+~465003517,300001097 // Inherit open in PV
+~465001753,465001715 // Inherit Clear Cache
+~1039689,300000136 // Inherit ID_GV_OPERATOR_GROUP
+~300001088,300001087 // Inherit Start ProRender
+~1018532,440000109 // Inherit Nudge Right
+~1018531,440000108 // Inherit Nudge Left
+~18178,170755 // Filter HUD
+~1053310,170103 // Inherit New Texture View
+~1055313,300001116 // Send to Magic Bullet Looks from Picture Viewer (temporary)
+~170776,465002346 // Inherit Show Grid
+~1035496,1035447 // Inherit Delta Mush Deformer
+~1055225,1028161 // Inherit Show in Explorer/Finder
+~1055274,1000474 // Inherit Preferences
+~1055472, 12109 // Inherit Delete
+~1055477,1054538 // Inherit Pose Library Browser
+~1054188,1054189 // Inherit Scene Nodes

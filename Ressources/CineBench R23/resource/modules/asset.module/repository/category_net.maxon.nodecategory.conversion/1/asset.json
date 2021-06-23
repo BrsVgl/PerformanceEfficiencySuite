@@ -1,0 +1,12 @@
+﻿{
+	"identification": "net.maxon.fileformat.category",
+	"content": {
+		"referenceDataType": "net.maxon.interface.datadictionary-C",
+		"_impl": {
+			"_mode": 1,
+			"_keyType": "net.maxon.datatype.internedid",
+			"_fastData": [
+			]
+		}
+	}
+}

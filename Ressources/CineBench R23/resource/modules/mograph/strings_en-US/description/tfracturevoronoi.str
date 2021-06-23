@@ -1,0 +1,23 @@
+STRINGTABLE tfracturevoronoi
+{
+	tfracturevoronoi "Point Source Object";
+	
+	ID_FRACTURETAG_FRACTURELINK  			"Belonging Generator";
+	ID_FRACTURETAG_POINTCREATIONTYPE 		"Creation Method";
+	ID_FRACTURETAG_POINTAMOUNT 				"Point Amount";
+	ID_FRACTURETAG_VERTICES 				"Vertices";
+	ID_FRACTURETAG_EDGES 					"Edge Centers";
+	ID_FRACTURETAG_POLYS 					"Polygon Centers";
+	ID_FRACTURETAG_SURFACE					"Surface";
+	ID_FRACTURETAG_VOLUME 					"Volume";
+	ID_FRACTURETAG_SEED						"Seed";
+	ID_FRACTURETAG_OFFSET 					"Offset";
+	ID_FRACTURETAG_LOCK 					"Fix Points to Generator";
+	ID_FRACTURETAG_TP_SUBGROUPS				"Sub Groups";
+	ID_FRACTURETAG_SPLINE_DISTRIBUTION		"Distribution";
+	ID_FRACTURETAG_SPLINE_EVEN				"Even";
+	ID_FRACTURETAG_SPLINE_STEP				"Step";
+	ID_FRACTURETAG_SPLINE_COUNT				"Count";
+	ID_FRACTURETAG_SPLINE_VERTICES			"Vertices";
+
+}

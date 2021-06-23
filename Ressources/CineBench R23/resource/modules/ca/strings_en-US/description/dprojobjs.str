@@ -1,0 +1,17 @@
+STRINGTABLE Dprojobjs
+{
+	Dprojobjs "Project Objects";
+	
+	ID_CA_PROJOBJS_GROUP_OPTIONS "Options";
+	
+	ID_CA_PROJOBJS_CHILDREN "Children";
+	
+	ID_CA_PROJOBJS_DEF_MODE "Default";
+	ID_CA_PROJOBJS_SHIFT_MODE "Shift";
+	ID_CA_PROJOBJS_CTRL_MODE "Control";
+	
+	ID_CA_PROJOBJS_MODE_PROJECT "Project Inside";
+	ID_CA_PROJOBJS_MODE_POINTS "Points to Surface";
+	ID_CA_PROJOBJS_MODE_SURFACE "Project to Surface";
+	ID_CA_PROJOBJS_MODE_COLLIDE "Collide";
+}

@@ -1,0 +1,14 @@
+STRINGTABLE Osplinearc
+{
+	Osplinearc "Arc Object";
+
+	PRIM_ARC_TYPE							"Type";
+		PRIM_ARC_TYPE_ARC					"Arc";
+		PRIM_ARC_TYPE_SECTOR			"Sector";
+		PRIM_ARC_TYPE_SEGMENT			"Segment";
+		PRIM_ARC_TYPE_RING				"Ring";
+	PRIM_ARC_RADIUS						"Radius";
+	PRIM_ARC_INNER						"Inner Radius";
+	PRIM_ARC_START						"Start Angle";
+	PRIM_ARC_END							"End Angle";
+}

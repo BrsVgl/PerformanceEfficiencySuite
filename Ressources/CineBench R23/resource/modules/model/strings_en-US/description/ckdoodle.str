@@ -1,0 +1,10 @@
+STRINGTABLE CKdoodle
+{
+	CKDOODLE "Doodle Key";
+
+	CK_DOODLE_PREVIEW		"Image";
+	CK_DOODLE_IMAGE			"Link";
+	CK_DOODLE_CHOOSE		">";
+	CK_DOODLE_TITLE			"Title";
+	CK_DOODLE_BODY			"Description";
+}

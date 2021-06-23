@@ -1,0 +1,8 @@
+STRINGTABLE CKmorph
+{
+	CKmorph  "Morph Key";
+
+	CID_MORPHKEY_LINK  "Morph Target";
+	CID_MORPHKEY_BIAS  "Bias";
+	CID_MORPHKEY_CUBIC "Smooth";
+}

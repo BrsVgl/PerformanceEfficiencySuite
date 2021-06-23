@@ -1,0 +1,16 @@
+STRINGTABLE Oplatonic
+{
+	Oplatonic "Platonic Object";
+
+	PRIM_PLATONIC_RAD						"Radius";
+	PRIM_PLATONIC_SUB						"Segments";
+	PRIM_PLATONIC_TYPE					"Type";
+		PRIM_PLATONIC_TYPE_TETRA		"Tetra";
+		PRIM_PLATONIC_TYPE_HEXA			"Hexa";
+		PRIM_PLATONIC_TYPE_OCTA			"Octa";
+		PRIM_PLATONIC_TYPE_DODECA		"Dodeca";
+		PRIM_PLATONIC_TYPE_ICOSA		"Icosa";
+		PRIM_PLATONIC_TYPE_BUCKY		"Bucky";
+	PRIM_PLATONIC_USE_NEW_VERSION	"";
+	PRIM_PLATONIC_SWITCH_TO_UPDATED	"Switch to Updated Platonic";
+}

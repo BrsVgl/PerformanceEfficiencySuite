@@ -1,0 +1,132 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	IDS_ADVREND_NAME					"Advanced Render";
+	IDS_DBLUR_NAME						"Depth of Field";
+	IDS_GLOW_NAME						"Glow";
+	IDS_HLIGHT_NAME						"Highlights";
+	IDS_SPECTRAL_NAME					"Spectral";
+	STR_PREPARING_PHOTONTREE				"Preparing Photon Tree...";
+	STR_FREEING_PHOTONTREE					"Freeing Photons...";
+	STR_CASTING_PHOTONS					"Casting Photons of '#' (# Photons / # MB)";
+	STR_CONVERTHDRCROSS					"Convert HDR Cross...";
+	STR_CONVERTHDRPROBE					"Convert HDR Probe...";
+	IDS_MENU_ABOUT						"About HDR Convert";
+	IDS_MENU_THANKS						"Thanks to Ken Turkowski, maker of DeFish";
+	IDS_SAVE_ERROR						"Could not save image";
+	IDS_MBLUR_NAME						"Vector Motion Blur";
+	STR_STAT_MOTIONBLUR					"Calculating Vector Motion Blur...";
+	IDS_GLOW_NAME2						"Glow (Multiply)";
+	IDS_MBLUR_NAME2						"Vector Motion Blur (Multiply)";
+	IDS_SSS_NAME              				"Subsurface Scattering";
+	IDS_OBJECTGI						"Calculating Object GI...";
+	IDS_COLORMAPPING					"Color Mapping";
+	IDS_AO_NAME						"Ambient Occlusion";
+	IDS_CYLINDERLENS					"Cylindrical Lens";
+
+	// --- GI/AO Main
+	IDS_GI_RENDER_FINISHED_PREFIX				"Frame finished in ";
+	IDS_GI_RENDER_FINISHED_SUFIX				" seconds.";
+	IDS_GI_RENDER_FRAME					"Rendering Frame: ";
+	IDS_GI_RENDER_CACHE_LOAD				"GI Cache has been loaded from file: ";
+	IDS_GI_RENDER_CACHE_SAVE				"GI Cache has been saved into file: ";
+	IDS_GI_RENDER_RADIANCE_LOAD				"Radiosity Maps has been loaded from file: ";
+	IDS_GI_RENDER_RADIANCE_SAVE				"Radiosity Maps has been saved into file: ";
+	IDS_GI_RENDER_LIGHT_MAPPING_LOAD			"Light Mapping has been loaded from file: ";
+	IDS_GI_RENDER_LIGHT_MAPPING_SAVE			"Light Mapping has been saved into file: ";
+	IDS_GI_RENDER_AO_LOAD					"AO Cache has been loaded from file: ";
+	IDS_GI_RENDER_AO_SAVE					"AO Cache has been saved into file: ";
+	IDS_GI_RENDER_INCORRECT_GI				"Incorrect GI Cache Version!";
+	IDS_GI_RENDER_INCORRECT_RADIANCE			"Incorrect GI Radiosity Maps Version!";
+	IDS_GI_RENDER_INCORRECT_LIGHT_MAPPING			"Incorrect GI Light Mapping Version!";
+	IDS_GI_RENDER_INCORRECT_AO				"Incorrect AO Cache Version!";
+	IDS_GI_RENDER_RADIANCE_MISMATCH				"The Radiosity Maps do not match the current scene!";
+	IDS_GI_RENDER_USED_RECORDS_1				"Used # 1st Radiance Records: ";
+	IDS_GI_RENDER_USED_RECORDS_2				"Used # 2nd Radiance Records: ";
+	IDS_GI_RENDER_USED_RECORDS_3				"Used # 3rd Radiance Records: ";
+	IDS_GI_RENDER_USED_RECORDS_4				"Used # 4th Radiance Records: ";
+	IDS_GI_RENDER_USED_RECORDS_5				"Used # 5th Radiance Records: ";
+	IDS_GI_RENDER_USED_RECORDS_6				"Used # 6th Radiance Records: "; 
+	IDS_GI_RENDER_USED_RECORDS_7				"Used # 7th Radiance Records: "; 
+	IDS_GI_RENDER_USED_RECORDS_8				"Used # 8th Radiance Records: ";
+	IDS_GI_RENDER_USED_RECORDS_AO				"Used AO Records: ";
+	IDS_GI_RENDER_ERROR_ALLOCATE				"GI ERROR - VD Allocate Failed";
+	IDS_GI_RENDER_CACHE_NONWRITABLE				"GI Irradiance Cache File cannot be written - please check output path!";
+	IDS_GI_RENDER_RADIANCE_NONWRITABLE			"GI Radiosity Maps File cannot be written - please check output path!";
+	IDS_GI_RENDER_LIGHT_MAPPING_NONWRITABLE			"GI Light Mapping File cannot be written - please check output path!";
+	IDS_GI_RENDER_AO_NONWRITABLE				"AO Cache File cannot be written - please check output path!";
+	IDS_GI_RENDER_LOADING_IRRADIANCE			"Loading Irradiance Cache File...";
+	IDS_GI_RENDER_LOADING_RADIANCE				"Loading Radiosity Maps File...";
+	IDS_GI_RENDER_LOADING_LIGHT_MAPPING			"Loading Light Mapping File...";
+	IDS_GI_RENDER_LOADING_AO				"Loading AO Cache File...";
+	IDS_GI_RENDER_SAVING_IRRADIANCE				"Saving Irradiance Cache File...";
+	IDS_GI_RENDER_SAVING_RADIANCE				"Saving Radiosity Maps File...";
+	IDS_GI_RENDER_SAVING_LIGHT_MAPPING			"Saving Light Mapping File...";
+	IDS_GI_RENDER_SAVING_AO					"Saving AO Cache File...";
+
+	// --- GI Prepass
+	IDS_GI_PREPASS_TITLE					"Irradiance Cache Prepass...";
+	IDS_GI_PREPASS_PRESAMPLING				"Irradiance Cache Prepass - Pre-Sampling";
+	IDS_GI_PREPASS_QUICK					"Irradiance Cache Prepass - Quick Pass";
+	IDS_GI_PREPASS_MAIN					"Irradiance Cache Prepass - Main Pass";
+	IDS_GI_PREPASS_LEAST_SQUARES				"Irradiance Cache Prepass - Least Squares Correction Pass";
+	IDS_GI_PREPASS_PROXIMITY				"Irradiance Cache Prepass - Proximity Correction Pass";
+	IDS_GI_PREPASS_PROXIMITY_COLOR				"Irradiance Cache Prepass - Proximity and Color Correction Pass";
+	IDS_GI_PREPASS_RADIANCE_MAPS				"Computing Radiosity Maps...";
+	IDS_GI_PREPASS_SAMPLES_EXISTING				"Existing Sample Count: ";
+	IDS_GI_PREPASS_SAMPLES_ESTIMATING			"Estimating Sample Count...";
+	IDS_GI_PREPASS_SAMPLES_COUNT_ACCURACY			"Sample Count Accuracy: ";
+	IDS_GI_PREPASS_SAMPLES_COUNT_THRESHOLD			"Sample Count Threshold: ";
+	IDS_GI_PREPASS_SAMPLES_COUNT_ESTIMATE			"Sample Count Estimate: ";
+	IDS_GI_PREPASS_SAMPLES_COUNT_TIME			"Sample Count Estimate Time: ";
+	IDS_GI_PREPASS_SAMPLES_COUNT_TIME_SUFIX			" seconds.";
+	IDS_GI_PREPASS_SAMPLES_COUNT				"Sample Count: ";
+	IDS_GI_PREPASS_RENDERING				"Rendering...";
+	IDS_GI_PREPASS_FINISHED_PREFIX				"Prepass finished in ";
+	IDS_GI_PREPASS_FINISHED_SUFIX				" seconds.";
+	IDS_GI_PREPASS_ERROR_MT_INIT				"GI ERROR - MPThread Init";
+	IDS_GI_PREPASS_ERROR_MT_START				"GI ERROR - MPThread Start";
+
+	// --- Light Mapping Prepass
+	IDS_LM_PREPASS_TITLE					"Light Mapping Prepass...";
+	IDS_LM_PREPASS_MAIN					"Light Mapping Prepass";
+
+	// --- AO Prepass
+	IDS_AO_PREPASS_TITLE					"AO Cache Prepass...";
+	IDS_AO_PREPASS_MAIN					"AO Cache Prepass";
+	IDS_AO_PREPASS_RENDERING				"Rendering...";
+	IDS_AO_PREPASS_FINISHED_PREFIX				"Prepass finished in ";
+	IDS_AO_PREPASS_FINISHED_SUFIX				" seconds.";
+	
+	// --- GI Setup
+	IDS_GI_ANIMATION_SETUP_BYTES				"# Records, # MB";
+	IDS_GI_ANIMATION_SETUP_OBJECTS				"# Objects, # MB";
+
+	// --- TR Mimatch
+	IDS_GI_TR_CACHE_MISMATCH				"Legacy Irradiance Cache does not support distributed Team Rendering. The rendering will continue using the latest Irradiance Cache. ";
+
+	IDS_OLDGI "Old Global Illumination";
+	IDS_NEWGI "Global Illumination";
+	IDS_OLDCAUSTICS "Caustics";
+
+	IDS_PYRO_NAME           	"PyroCluster";
+	IDS_PYRO_NAME2			"PyroCluster (Multiply)";
+	IDS_PYRO_VTNAME			"PyroCluster - VolumeTracer";
+	IDS_PYRO_VPNAME			"PyroCluster - VideoPost";
+	IDS_PREVIEW				"PyroCluster-Preview";
+
+	IDS_PARAM_RESET			"Do you really want to reset all Parameters ?";
+	IDS_PARAM_CONVERT		"Do you really want to convert Parameters ?";
+
+	IDS_REND_BSP			"Building BSP-Tree...";
+	IDS_REND_IMAGE			"Rendering Image...";
+	IDS_REND_DEEPSHAD		"Rendering Volume-ShadowMaps...";
+
+	IDS_TEAMRENDER			"Team Render";
+	IDS_SAVINGAOCACHES	"Saving AO Caches";
+	IDS_SAVINGGICACHES	"Saving GI Caches";
+	IDS_SAVINGLMCACHES	"Saving LM Caches";
+	IDS_SAVINGRMCACHES	"Saving RM Caches";
+}

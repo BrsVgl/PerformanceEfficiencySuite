@@ -1,0 +1,7 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDC_DELETEFRAME
+{
+  IDS_DIALOG  "Delete every nth frame";
+  IDS_TIME  "Time";
+}

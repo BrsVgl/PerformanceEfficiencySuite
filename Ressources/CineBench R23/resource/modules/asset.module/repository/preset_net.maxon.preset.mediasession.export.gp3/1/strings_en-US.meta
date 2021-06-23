@@ -1,0 +1,108 @@
+﻿{
+	"identification": "net.maxon.asset.metadata",
+	"content": {
+		"dataType": "<net.maxon.interface.datadescriptiondefinition>C",
+		"content": {
+			"referenceClassType": "net.maxon.class.datadescriptiondefinition",
+			"_info": {},
+			"_description": [
+				{
+					"referenceDataType": "net.maxon.interface.datadictionary-C",
+					"_impl": {
+						"_mode": 1,
+						"_keyType": "net.maxon.datatype.internedid",
+						"_fastData": [
+							"net.maxon.description.base.command",
+							{
+								"dataType": "net.maxon.datatype.id",
+								"content": "exportedstring"
+							},
+							"net.maxon.description.base.identifier",
+							{
+								"dataType": "net.maxon.datatype.internedid",
+								"content": "highquality9600kbit@e2a5f93f-6a10-4d6b-9c63-c12feda51306"
+							},
+							"net.maxon.description.string.base.translatedstring",
+							{
+								"dataType": "net.maxon.interface.string-C",
+								"content": "High Quality - 9600 kBit"
+							}
+						]
+					}
+				},
+				{
+					"referenceDataType": "net.maxon.interface.datadictionary-C",
+					"_impl": {
+						"_mode": 1,
+						"_keyType": "net.maxon.datatype.internedid",
+						"_fastData": [
+							"net.maxon.description.base.command",
+							{
+								"dataType": "net.maxon.datatype.id",
+								"content": "exportedstring"
+							},
+							"net.maxon.description.base.identifier",
+							{
+								"dataType": "net.maxon.datatype.internedid",
+								"content": "mediumquality4800kbit@925133e1-29b1-412a-b3e6-82d82c4f4997"
+							},
+							"net.maxon.description.string.base.translatedstring",
+							{
+								"dataType": "net.maxon.interface.string-C",
+								"content": "Medium Quality - 4800 kBit"
+							}
+						]
+					}
+				},
+				{
+					"referenceDataType": "net.maxon.interface.datadictionary-C",
+					"_impl": {
+						"_mode": 1,
+						"_keyType": "net.maxon.datatype.internedid",
+						"_fastData": [
+							"net.maxon.description.base.command",
+							{
+								"dataType": "net.maxon.datatype.id",
+								"content": "exportedstring"
+							},
+							"net.maxon.description.base.identifier",
+							{
+								"dataType": "net.maxon.datatype.internedid",
+								"content": "webhigh2400kbit@0427d746-02a9-42cc-b340-bb136afc1850"
+							},
+							"net.maxon.description.string.base.translatedstring",
+							{
+								"dataType": "net.maxon.interface.string-C",
+								"content": "Web High - 2400 kBit"
+							}
+						]
+					}
+				},
+				{
+					"referenceDataType": "net.maxon.interface.datadictionary-C",
+					"_impl": {
+						"_mode": 1,
+						"_keyType": "net.maxon.datatype.internedid",
+						"_fastData": [
+							"net.maxon.description.base.command",
+							{
+								"dataType": "net.maxon.datatype.id",
+								"content": "exportedstring"
+							},
+							"net.maxon.description.base.identifier",
+							{
+								"dataType": "net.maxon.datatype.internedid",
+								"content": "weblow1200kbit@a508bf73-7202-43ae-870b-848244c3ae7f"
+							},
+							"net.maxon.description.string.base.translatedstring",
+							{
+								"dataType": "net.maxon.interface.string-C",
+								"content": "Web Low - 1200 kBit"
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

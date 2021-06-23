@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>category_capsule</title>
+    <defs>
+        <linearGradient x1="0%" y1="51.7717527%" x2="100%" y2="51.7717527%" id="linearGradient-1">
+            <stop stop-color="#D6D6D6" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.586511145" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="40.0361963%" cy="27.4601965%" fx="40.0361963%" fy="27.4601965%" r="60.4889853%" gradientTransform="translate(0.400362,0.274602),scale(0.896054,1.000000),rotate(66.436361),translate(-0.400362,-0.274602)" id="radialGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="category_capsule" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="MXN_BG_ID" fill="#5DA9C8" x="10" y="2" width="16" height="32" rx="8"></rect>
+        <g id="MXN_0_ID" transform="translate(10.000000, 2.000000)">
+            <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="16" height="32" rx="8"></rect>
+            <path d="M8,14.3368704 C12.418278,14.3368704 16,12.418278 16,8 C16,3.581722 12.418278,0 8,0 C3.581722,0 0,3.581722 0,8 C0,12.418278 3.581722,14.3368704 8,14.3368704 Z" id="Oval" fill="url(#radialGradient-2)" opacity="0.686337426"></path>
+            <g id="Group" transform="translate(3.000000, 1.000000)" fill="#FFFFFF">
+                <circle id="Oval" cx="3" cy="3" r="1"></circle>
+            </g>
+        </g>
+        <rect id="MXN_FG_ID" stroke="#0A0A0A" x="10.5" y="2.5" width="15" height="31" rx="7.5"></rect>
+    </g>
+</svg>

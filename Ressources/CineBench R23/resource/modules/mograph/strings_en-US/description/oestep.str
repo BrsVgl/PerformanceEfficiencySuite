@@ -1,0 +1,7 @@
+STRINGTABLE Oestep
+{
+	Oestep "Step";
+
+	MGSTEPEFFECTOR_SPLINE "Spline";
+	MGSTEPEFFECTOR_GAP "Step Gap";
+}

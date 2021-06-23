@@ -1,0 +1,11 @@
+STRINGTABLE Xformula
+{
+	Xformula "Formula Shader";
+
+	FORMULASHADER_EXPRESSION	"Expression";
+    FORMULASHADER_USEWORLDSPACE "Use Global Coordinates";
+	FORMULASHADER_GRP "Variables";
+	FORMULASHADER_HELP01 "u,v,w - UVW Map Coordinates";
+	FORMULASHADER_HELP02 "x,y,z - Shading Point Coordinates";
+	FORMULASHADER_HELP03 "t - Time (in seconds)";
+}

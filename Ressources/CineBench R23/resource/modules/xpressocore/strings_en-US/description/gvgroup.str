@@ -1,0 +1,9 @@
+STRINGTABLE GVgroup
+{
+	GVgroup							"XGroup";
+	GV_GROUP_INPUTS_FIRST		"Inputs First";
+	GV_GROUP_ENABLED		"Enable";
+	GV_GROUP_ACTIVE		"Active";
+	GV_GROUP_LOCK		"Protect...";
+	GV_GROUP_UNLOCK		"Unprotect...";
+}

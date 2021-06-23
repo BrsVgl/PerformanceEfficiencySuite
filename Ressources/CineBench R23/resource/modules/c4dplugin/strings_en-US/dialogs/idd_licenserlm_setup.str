@@ -1,0 +1,11 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_LICENSERLM_SETUP
+{
+	IDS_DIALOG				"Setup RLM";
+	IDS_INSTALL_LICENSE		"Offline License";
+	IDS_STATIC3				"Server";
+	IDS_STATIC4				"Port";
+	IDS_PASSWD 				"Password";
+	IDS_INSTALL_HARDWAREID	"RLM Hardware ID";
+}

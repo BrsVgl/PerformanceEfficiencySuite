@@ -1,0 +1,15 @@
+STRINGTABLE Xbase
+{
+	Xbase				 		 		"Shader";
+	ID_SHADERPROPERTIES "Shader Properties" "Shader";
+	SHADER_MIPOFFSET 		"Blur Offset";
+	SHADER_MIPSCALE 		"Blur Scale";
+	
+	ID_GPUPROPERTIES			"ProRender";
+	SHADER_GPUTEXENABLED		"Override Defaults";
+	SHADER_GPUTEXSIZEX			"Texture Size X";
+	SHADER_GPUTEXSIZEY			"Texture Size Y";
+	SHADER_GPUTEXBITDEPTH		"Texture Bit Depth";
+	SHADER_GPUTEXBITDEPTH_8		"8 Bit";
+	SHADER_GPUTEXBITDEPTH_32	"32 Bit";
+}

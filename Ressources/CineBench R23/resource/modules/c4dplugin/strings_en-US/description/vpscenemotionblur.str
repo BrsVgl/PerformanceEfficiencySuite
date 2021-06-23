@@ -1,0 +1,14 @@
+STRINGTABLE VPscenemotionblur
+{
+	VPscenemotionblur		"Sub-Frame Motion Blur";
+	VP_SMBSUB						"Samples";
+	VP_SMBDITHER				"Dithering";
+	VP_SMBSUB_5					"5 Times";
+	VP_SMBSUB_9					"9 Times";
+	VP_SMBSUB_16				"16 Times";
+	VP_SMBSUB_25				"25 Times";
+	VP_SMBSUB_36				"36 Times";
+	VP_SMBSUB_49				"49 Times";
+	VP_SMBAARESTRICTION	"Antialiasing Restriction";
+	VP_SMBCAMERAOFFSET	"Camera Offset";
+}

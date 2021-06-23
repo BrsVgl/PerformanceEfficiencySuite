@@ -1,0 +1,10 @@
+STRINGTABLE Toolbodypart
+{
+	Toolbodypart "Character BodyPart Tool";
+
+	TBP_PART_JOINTS_NAME			"Joints";
+	TBP_PART_CONTROLS_NAME			"IK Control";
+	TBP_PART_INCLUDESTRING_NAME		"Strings to Include";
+	TBP_PART_EXCLUDESTRING_NAME		"Strings to Exclude";
+	TBP_PART_IDENTIFIER_NAME		"Identifier";
+}

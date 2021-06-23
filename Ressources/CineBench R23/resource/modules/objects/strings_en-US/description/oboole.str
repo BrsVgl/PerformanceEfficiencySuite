@@ -1,0 +1,27 @@
+STRINGTABLE Oboole
+{
+	Oboole "Boole Object";
+
+	BOOLEOBJECT_TYPE	"Boolean Type";
+		BOOLEOBJECT_TYPE_UNION     "A union B";
+		BOOLEOBJECT_TYPE_SUBTRACT  "A subtract B";
+		BOOLEOBJECT_TYPE_INTERSECT "A intersect B";
+		BOOLEOBJECT_TYPE_WITHOUT   "A without B";
+
+  BOOLEOBJECT_SINGLE_OBJECT   "Create single object";
+  BOOLEOBJECT_HIDE_NEW_EDGES  "Hide new edges";
+  BOOLEOBJECT_BREAK_CUT_EDGES "Create Phong breaks at intersections";
+  BOOLEOBJECT_SEL_CUT_EDGES   "Select intersections";
+  BOOLEOBJECT_OPTIMIZE_LEVEL  "Optimize Points";
+	BOOLEOBJECT_BEVEL           "Fillet";
+	//BOOLEOBJECT_BEVEL_INNER     "Inner";
+	BOOLEOBJECT_BEVEL_WIDTH     "Width";
+	BOOLEOBJECT_BEVEL_SUBDIVISION "Subdivision";
+	BOOLEOBJECT_BEVEL_MODE      "Type";
+		BOOLEOBJECT_BEVEL_LINEAR          "Linear";
+		BOOLEOBJECT_BEVEL_OUTER_CIRCLE    "Convex";
+		BOOLEOBJECT_BEVEL_INNER_CIRCLE    "Concave";
+		BOOLEOBJECT_BEVEL_BEZIER          "Bezier";
+
+  BOOLEOBJECT_HIGHQUALITY "High Quality";
+}

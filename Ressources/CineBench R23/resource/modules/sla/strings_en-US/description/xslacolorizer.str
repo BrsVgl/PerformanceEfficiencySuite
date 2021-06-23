@@ -1,0 +1,17 @@
+STRINGTABLE XSLAColorizer
+{
+  XSLAColorizer                           "Colorizer Shader";
+
+  SLA_COLORIZER_INPUT                     "Input";
+  SLA_COLORIZER_INPUT_LUMINANCE           "Luminance";
+  SLA_COLORIZER_INPUT_HUE                 "Hue";
+  SLA_COLORIZER_INPUT_SATURATION          "Saturation";
+  SLA_COLORIZER_INPUT_LIGHTNESS           "Lightness";
+  SLA_COLORIZER_INPUT_RED                 "Red";
+  SLA_COLORIZER_INPUT_GREEN               "Green";
+  SLA_COLORIZER_INPUT_BLUE                "Blue";
+  SLA_COLORIZER_CYCLE                     "Cycle";
+
+  SLA_COLORIZER_TEXTURE                   "Texture";
+  SLA_COLORIZER_GRADIENT                  "Gradient";
+}

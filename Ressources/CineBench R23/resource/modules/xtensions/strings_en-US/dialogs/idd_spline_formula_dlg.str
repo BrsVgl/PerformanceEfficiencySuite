@@ -1,0 +1,8 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_SPLINE_FORMULA_DLG
+{
+  IDS_SPLINE_FORMULA_DIALOG  "User Formula";
+  IDS_STATIC1                "y = f(x) =";
+  IDS_STATIC2                "Control Points";
+}

@@ -1,0 +1,8 @@
+STRINGTABLE ToolLoopSelection
+{
+	ToolLoopSelection	"Loop Selection";
+
+	MDATA_LOOP_SEL_STOP_AT_SELECTIONS			"Stop at Selections";
+	MDATA_LOOP_SEL_STOP_AT_NON_QUADS			"Stop at Non-Quads";
+	MDATA_LOOP_SEL_STOP_AT_POLES					"Stop at Poles";
+}

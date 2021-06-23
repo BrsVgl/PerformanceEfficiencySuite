@@ -1,0 +1,11 @@
+STRINGTABLE Tmotionblur
+{
+	Tmotionblur 			"Motion Blur";
+
+	MOTIONBLURTAG_STRENGTH 		"Strength";
+
+	MOTIONBLURTAG_MODE		"Mode";
+	MOTIONBLURTAG_MODE_FULL		"Full Motion";
+	MOTIONBLURTAG_MODE_MOTION	"No Deformation";
+	MOTIONBLURTAG_MODE_NONE		"No Motion Blur";
+}

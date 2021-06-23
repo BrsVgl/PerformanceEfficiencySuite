@@ -1,0 +1,8 @@
+STRINGTABLE Ofriction
+{
+	Ofriction "Friction Object";
+
+	FRICTIONOBJECT_STRENGTH					"Strength";
+	FRICTIONOBJECT_ANGULAR_STRENGTH	"Angular Strength";
+	FRICTIONOBJECT_SIZE							"Size";
+}

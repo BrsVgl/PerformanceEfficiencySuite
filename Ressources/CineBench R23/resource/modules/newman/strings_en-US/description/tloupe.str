@@ -1,0 +1,10 @@
+STRINGTABLE Tloupe
+{
+	Tloupe "Loupe Tool";
+	
+	LOUPE_PROPERTIES	"Loupe Properties";
+	LOUPE_RADLOOP		"Radius Source";
+	LOUPE_RADAREA		"Radius Destination";	
+	LOUPE_COLOR			"Color";
+	LOUPE_ANGLE			"Angle";
+}

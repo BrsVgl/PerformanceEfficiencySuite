@@ -1,0 +1,13 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS P_PAINTTOOL_SELECTCOLOR
+{
+	TITLE "Select Color Range";
+	TMERGELAYERS "All visible layers";
+	TAA "Anti-Aliasing";
+	TTOLERANCE "Tolerance";
+	TNEWSELECTION "New selection";
+	TNEWINVSEL "New inverse selection";
+	TADDSELECTION "Add to selection (SHIFT)";
+	TSUBSELECTION "Subtract from selection (ALT)";
+}

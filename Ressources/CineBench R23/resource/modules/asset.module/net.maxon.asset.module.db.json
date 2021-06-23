@@ -1,0 +1,130 @@
+﻿{
+	"identification": "net.maxon.fileid.descriptiondefinition",
+	"content": {
+		"_descriptionsVersion": 6,
+		"_descriptions": [
+			"net.maxon.asset.base",
+			{
+				"referenceClassType": "net.maxon.class.datadescriptiondefinition",
+				"_info": {
+					"referenceDataType": "net.maxon.interface.datadictionary-C",
+					"_impl": {
+						"_mode": 1,
+						"_keyType": "net.maxon.datatype.internedid",
+						"_fastData": [
+							"net.maxon.description.data.info.includefile",
+							{
+								"dataType": "net.maxon.interface.url-C",
+								"content": {
+									"referenceDataType": "net.maxon.interface.url-C",
+									"_scheme": "relative",
+									"_path": "frameworks/asset.framework/source/maxon/datadescription_asset.h",
+									"_authority": {},
+									"_data": {}
+								}
+							}
+						]
+					}
+				},
+				"_description": [
+					{
+						"referenceDataType": "net.maxon.interface.datadictionary-C",
+						"_impl": {
+							"_mode": 1,
+							"_keyType": "net.maxon.datatype.internedid",
+							"_fastData": [
+								"net.maxon.description.base.command",
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "attribute"
+								},
+								"net.maxon.description.base.identifier",
+								{
+									"dataType": "net.maxon.datatype.internedid",
+									"content": "net.maxon.asset.base.protected"
+								},
+								"net.maxon.description.data.base.datatype",
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "bool"
+								}
+							]
+						}
+					}
+				]
+			},
+			"net.maxon.asset.globalstrings",
+			{
+				"referenceClassType": "net.maxon.class.datadescriptiondefinition",
+				"_info": {
+					"referenceDataType": "net.maxon.interface.datadictionary-C",
+					"_impl": {
+						"_mode": 1,
+						"_keyType": "net.maxon.datatype.internedid",
+						"_fastData": [
+							"net.maxon.description.data.info.includefile",
+							{
+								"dataType": "net.maxon.interface.url-C",
+								"content": {
+									"referenceDataType": "net.maxon.interface.url-C",
+									"_scheme": "relative",
+									"_path": "frameworks/asset.framework/source/maxon/asset_strings.h",
+									"_authority": {},
+									"_data": {}
+								}
+							}
+						]
+					}
+				},
+				"_description": []
+			}
+		],
+		"_guiDescriptionsVersion": 6,
+		"_guiDescriptions": [
+			"net.maxon.asset.base",
+			{
+				"referenceClassType": "net.maxon.class.datadescriptiondefinition",
+				"_info": {},
+				"_description": []
+			},
+			"net.maxon.asset.globalstrings",
+			{
+				"referenceClassType": "net.maxon.class.datadescriptiondefinition",
+				"_info": {
+					"referenceDataType": "net.maxon.interface.datadictionary-C",
+					"_impl": {
+						"_mode": 1,
+						"_keyType": "net.maxon.datatype.internedid",
+						"_fastData": []
+					}
+				},
+				"_description": [
+					{
+						"referenceDataType": "net.maxon.interface.datadictionary-C",
+						"_impl": {
+							"_mode": 1,
+							"_keyType": "net.maxon.datatype.internedid",
+							"_fastData": [
+								"net.maxon.description.base.command",
+								{
+									"dataType": "net.maxon.datatype.id",
+									"content": "exportedstring"
+								},
+								"net.maxon.description.base.identifier",
+								{
+									"dataType": "net.maxon.datatype.internedid",
+									"content": "net.maxon.asset.globalstrings.presetdeleteerror"
+								},
+								"net.maxon.description.ui.base.multilinetitle",
+								{
+									"dataType": "bool",
+									"content": true
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,23 @@
+STRINGTABLE XSLAFilter
+{
+	XSLAFilter                              "Filter Shader";
+
+	SLA_FILTER_TEXTURE                      "Texture";
+	SLA_FILTER_HUE                          "Hue";
+	SLA_FILTER_SATURATION                   "Saturation";
+	SLA_FILTER_LIGHTNESS                    "Lightness";
+	SLA_FILTER_COLORIZE                     "Colorize";
+	SLA_FILTER_BRIGHNESS                    "Brightness";
+	SLA_FILTER_CONTRAST                     "Contrast";
+	SLA_FILTER_GAMMA                        "Gamma";
+	SLA_FILTER_CLIPPING                     "Enable Clipping";
+	SLA_FILTER_LOW_CLIP                     "Low Clip";
+	SLA_FILTER_HIGH_CLIP                    "High Clip";
+	SLA_FILTER_GRADING											"Gradation Curves";
+	SLA_FILTER_GRADING_ENABLED							"Enabled";
+	SLA_FILTER_GRADING_INTENSITY						"Intensity";
+	SLA_FILTER_GRADING_CURVE_RGB						"RGB";
+	SLA_FILTER_GRADING_CURVE_R							"R";
+	SLA_FILTER_GRADING_CURVE_G							"G";
+	SLA_FILTER_GRADING_CURVE_B							"B";
+}

@@ -1,0 +1,6 @@
+STRINGTABLE Tabcompare
+{
+	Tabcompare "AB Compare";
+	
+	ABCOMPARE_PROPERTIES	"AB Compare Properties";			
+}

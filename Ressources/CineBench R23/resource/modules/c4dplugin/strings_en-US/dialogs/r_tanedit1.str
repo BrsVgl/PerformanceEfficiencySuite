@@ -1,0 +1,10 @@
+DIALOGSTRINGS R_TANEDIT1
+{
+  T1 "Values and Tangents";
+  T2 "X";
+  T3 "Y";
+  T4 "Z";
+  T5 "Value";
+  T6 "Left Tangent";
+  T7 "Right Tangent";
+}

@@ -1,0 +1,9 @@
+STRINGTABLE Osplinenside
+{
+	Osplinenside "n-Side Object";
+
+	PRIM_NSIDE_RADIUS					"Radius";
+	PRIM_NSIDE_SIDES					"Sides";
+	PRIM_NSIDE_ROUNDING				"Rounding";
+	PRIM_NSIDE_RRADIUS				"Radius";
+}

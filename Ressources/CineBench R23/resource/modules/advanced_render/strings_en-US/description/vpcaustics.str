@@ -1,0 +1,17 @@
+STRINGTABLE VPcaustics
+{
+	VPcaustics "Caustics";
+
+	VPCAUSTICS_ENABLEDIFFUSE				"Surface Caustics";
+	VPCAUSTICS_ENABLEVOLUME					"Volume Caustics";
+	VPCAUSTICS_STEPSIZE							"Step Size";
+	VPCAUSTICS_SAMPLERADIUS				  "Sample Radius";
+	VPCAUSTICS_SAMPLES						  "Samples";
+	VPCAUSTICS_STRENGTH							"Strength";
+	VPCAUSTICS_RECOMPUTE						"Recompute";
+		VPCAUSTICS_RECOMPUTE_FIRSTTIME		"First Time";
+		VPCAUSTICS_RECOMPUTE_ALWAYS				"Always";
+		VPCAUSTICS_RECOMPUTE_NEVER				"Never";
+	VPCAUSTICS_SAVESOLUTION					"Save Solution";
+	VPCAUSTICS_CAMERASOLUTION       "Single Animation Solution";
+}

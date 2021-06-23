@@ -1,0 +1,7 @@
+STRINGTABLE GVcross
+{
+	GVcross						"Cross Operator";
+	GV_CROSS_INPUT1 	"Input 1";
+	GV_CROSS_INPUT2 	"Input 2";
+	GV_CROSS_OUTPUT		"Output";
+}

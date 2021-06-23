@@ -1,0 +1,8 @@
+STRINGTABLE Ofield
+{
+	Ofield														"Field";
+
+	ID_FIELDPROPERTIES								"Field";
+
+	FIELD_TYPE												"Type";
+}

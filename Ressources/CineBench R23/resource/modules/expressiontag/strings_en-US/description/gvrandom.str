@@ -1,0 +1,17 @@
+STRINGTABLE GVrandom
+{
+	GVrandom												"Random Operator";
+
+	GV_RANDOM_MODE									"Random Mode";
+		GV_RANDOM_MODE_FREE 						"Free";
+		GV_RANDOM_MODE_TIME							"Time";
+	GV_RANDOM_POSITIVE								"Positive Only";
+
+	GV_RANDOM_SEED						"Random Seed";
+
+	GV_RANDOM_OUTPUT_BOOL						"Bool";
+	GV_RANDOM_OUTPUT_INTEGER				"Integer";
+	GV_RANDOM_OUTPUT_REAL						"Real";
+	GV_RANDOM_OUTPUT_VECTOR					"Vector";
+	GV_RANDOM_OUTPUT_NORMAL					"Normal";
+}

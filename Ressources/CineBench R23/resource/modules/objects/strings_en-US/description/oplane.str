@@ -1,0 +1,9 @@
+STRINGTABLE Oplane
+{
+	Oplane "Plane Object";
+
+	PRIM_PLANE_WIDTH	"Width";
+	PRIM_PLANE_HEIGHT	"Height";
+	PRIM_PLANE_SUBW		"Width Segments";
+	PRIM_PLANE_SUBH		"Height Segments";
+}

@@ -1,0 +1,7 @@
+STRINGTABLE XSLABuffy
+{
+  XSLABuffy                               "Normal Direction Shader";
+
+  SLA_BUFFY_COLOR_1                       "Color 1";
+  SLA_BUFFY_COLOR_2                       "Color 2";
+}

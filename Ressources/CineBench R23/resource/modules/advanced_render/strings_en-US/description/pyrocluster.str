@@ -1,0 +1,24 @@
+STRINGTABLE PyroCluster
+{
+	PSIMF_NAME			"PyroCluster - VolumeTracer";
+	PSIMF_GLOBALS_GROUP	"Globals";
+
+	PSIMF_RENDOBJ		"Render Objects";
+	PSIMF_RENDHOBJ		"Render Hidden Objects";
+	PSIMF_RENDMODE		"Render Mode";
+
+	REND_MODE_HIGH		"Crispy";
+	REND_MODE_MEDIUM	"Crispy-Gas";
+	REND_MODE_LOW		"Hazy";
+	REND_MODE_USER		"User";
+
+	PSIMF_STEP			"World Step Size";
+	PSIMF_LIMIT			"Ray Trans. Limit";
+	PSIMF_MAPSTEP		"ShadowMap Step Size";
+	PSIMF_MAPLIMIT		"ShadowMap Trans. Limit";
+	PSIMF_SHADSTEP		"Raytraced Step Size";
+	PSIMF_SHADLIMIT		"Raytraced Trans. Limit";
+	
+	PSIMF_RTCORRECT		"RayTrans. Correction";
+	PSIMF_VOLFILTER		"Volume Light";
+}

@@ -1,0 +1,9 @@
+STRINGTABLE Omograph_fracture
+{
+	Omograph_fracture "Fracture Object";
+
+	MGFRACTUREOBJECT_MODE "Mode";
+	MGFRACTUREOBJECT_MODE_NONE "Straight";
+	MGFRACTUREOBJECT_MODE_EXPLODE "Explode Segments";
+	MGFRACTUREOBJECT_MODE_EXCONNECT "Explode Segments & Connect";
+}

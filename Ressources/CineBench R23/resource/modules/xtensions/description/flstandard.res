@@ -1,0 +1,12 @@
+CONTAINER FLStandard
+{
+	NAME FLStandard;
+
+	INCLUDE FLbase;
+
+	GROUP	FLBase
+	{
+		HIDDEN;
+		LINK ID_FIELDLAYER_LINK { HIDDEN; }
+	}
+}

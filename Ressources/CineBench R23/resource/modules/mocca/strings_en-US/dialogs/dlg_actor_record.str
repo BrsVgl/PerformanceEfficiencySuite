@@ -1,0 +1,51 @@
+DIALOGSTRINGS DLG_ACTOR_RECORD
+{
+	TITLE "Cappucino";
+
+	T6 "Start";
+	T7 "End";
+
+	TLAYER "Layer";
+
+	TL1 "Layer 1";
+	TL2 "Layer 2";
+	TL3 "Layer 3";
+	TL4 "Layer 4";
+	TL5 "Layer 5";
+	TL6 "Layer 6";
+	TL7 "Layer 7";
+	TL8 "Layer 8";
+
+	TSTART "Start Realtime";
+	TSTOP  "Stop Realtime";
+	TSINGLE "Single Keyframe";
+	TRECORD "Record";
+
+	TRECORD_TYPE_POSITION  "Position";
+	TRECORD_TYPE_SCALE     "Scale";
+	TRECORD_TYPE_ROTATION  "Rotation";
+	TRECORD_TYPE_MORPH     "PLA";
+	TRECORD_TYPE_HIERARCHY "Hierarchy";
+
+	TMODE "Selection";
+
+	THOW      "Action";
+	TWHEN     "When";
+	TWHERE    "Where";
+	TWHAT     "What";
+
+	TRANGE    "Range";
+	TATIME    "Start at Current Time";
+	TREWIND   "Rewind Time";
+
+
+	TDOCUMENT "Project";
+	TPREVIEW  "Preview";
+	TRENDER   "Render";
+	TUSER     "User";
+
+
+	T_T1 "Object Manager";
+	T_T2 "Timeline";
+}
+

@@ -1,0 +1,17 @@
+DIALOGSTRINGS IDD_COFFEESCRIPT_DIALOG
+{
+  T1 "Script Manager";
+  T7 "Static";
+  T8 "Line:";
+  T9 "Position:";
+  T10 "Execute";
+  TA "Script";
+  T13 "Shortcut...";
+
+  TR3 "Name";
+  TR4 "Information";
+  TR5 "Menu State";
+  TR7 "Show in Script Menu";
+  TR8 "Add Event";
+  TR9 "Export...";
+}

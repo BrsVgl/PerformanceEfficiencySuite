@@ -1,0 +1,78 @@
+STRINGTABLE Tcompositing
+{
+	Tcompositing "Compositing Tag";
+
+	COMPOSITINGTAG_CASTSHADOW				"Cast Shadows";
+	COMPOSITINGTAG_RECEIVESHADOW		"Receive Shadows";
+	COMPOSITINGTAG_SEENBYCAMERA			"Seen by Camera";
+	COMPOSITINGTAG_SEENBYRAYS				"Seen by Rays";
+	COMPOSITINGTAG_BACKGROUND				"Compositing Background";
+	COMPOSITINGTAG_BACKGROUND_GI				"Compositing Background for HDR Maps";
+	COMPOSITINGTAG_AAOVERWRITE			"Force Antialiasing";
+	COMPOSITINGTAG_AAMINLEVEL				"Antialiasing Min" "Min";
+	COMPOSITINGTAG_AAMAXLEVEL				"Antialiasing Max" "Max";
+		COMPOSITINGTAG_AALEVEL_1				"1x1";
+		COMPOSITINGTAG_AALEVEL_2				"2x2";
+		COMPOSITINGTAG_AALEVEL_4				"4x4";
+		COMPOSITINGTAG_AALEVEL_8				"8x8";
+		COMPOSITINGTAG_AALEVEL_16				"16x16";
+	COMPOSITINGTAG_AATHRESHOLD			"Antialiasing Threshold" "Threshold";
+	COMPOSITINGTAG_SEENBYGI					"Seen by GI";
+	COMPOSITINGTAG_GROUPOBJBUFFER		"Add to Object Buffer" "Object Buffer";
+	COMPOSITINGTAG_ENABLECHN0				"Enable Buffer A" "Enable";
+	COMPOSITINGTAG_ENABLECHN1				"Enable Buffer B" "Enable";
+	COMPOSITINGTAG_ENABLECHN2				"Enable Buffer C" "Enable";
+	COMPOSITINGTAG_ENABLECHN3				"Enable Buffer D" "Enable";
+	COMPOSITINGTAG_ENABLECHN4				"Enable Buffer E" "Enable";
+	COMPOSITINGTAG_ENABLECHN5				"Enable Buffer F" "Enable";
+	COMPOSITINGTAG_ENABLECHN6				"Enable Buffer G" "Enable";
+	COMPOSITINGTAG_ENABLECHN7				"Enable Buffer H" "Enable";
+	COMPOSITINGTAG_ENABLECHN8				"Enable Buffer I" "Enable";
+	COMPOSITINGTAG_ENABLECHN9				"Enable Buffer J" "Enable";
+	COMPOSITINGTAG_ENABLECHN10			"Enable Buffer K" "Enable";
+	COMPOSITINGTAG_ENABLECHN11			"Enable Buffer L" "Enable";
+	COMPOSITINGTAG_IDCHN0						"Object Buffer A" "Buffer";
+	COMPOSITINGTAG_IDCHN1						"Object Buffer B" "Buffer";
+	COMPOSITINGTAG_IDCHN2						"Object Buffer C" "Buffer";
+	COMPOSITINGTAG_IDCHN3						"Object Buffer D" "Buffer";
+	COMPOSITINGTAG_IDCHN4						"Object Buffer E" "Buffer";
+	COMPOSITINGTAG_IDCHN5						"Object Buffer F" "Buffer";
+	COMPOSITINGTAG_IDCHN6						"Object Buffer G" "Buffer";
+	COMPOSITINGTAG_IDCHN7						"Object Buffer H" "Buffer";
+	COMPOSITINGTAG_IDCHN8						"Object Buffer I" "Buffer";
+	COMPOSITINGTAG_IDCHN9						"Object Buffer J" "Buffer";
+	COMPOSITINGTAG_IDCHN10					"Object Buffer K" "Buffer";
+	COMPOSITINGTAG_IDCHN11					"Object Buffer L" "Buffer";
+	COMPOSITINGTAG_SELFSHADOW				"Self Shadowing";
+
+	COMPOSITINGTAG_SEENBYTRANSPARENCY	"Seen by Transparency";
+	COMPOSITINGTAG_SEENBYREFLECTION		"Seen by Reflection";
+	COMPOSITINGTAG_SEENBYREFRACTION   "Seen by Refraction";
+	COMPOSITINGTAG_SEENBYAO						"Seen by AO";
+	COMPOSITINGTAG_EXCLUSION_LIST  "Objects";
+  COMPOSITINGTAG_EXCLUSION_MODE  "Mode";
+  	COMPOSITINGTAG_EXCLUSION_MODE_INCLUDE	"Include";
+  	COMPOSITINGTAG_EXCLUSION_MODE_EXCLUDE	"Exclude";
+
+	COMPOSITINGTAG_GROUPINEXCLUSION   "Exclusion";
+
+	COMPOSITINGTAG_MATTEOBJECT				"Matte Object";
+	COMPOSITINGTAG_MATTECOLOR					"Matte Color" "Color";
+
+	COMPOSITINGTAG_GIENABLED				"Enable GI Parameters";
+	COMPOSITINGTAG_GIINTENSITY				"Intensity Ratio";
+	COMPOSITINGTAG_GIQUALITY				"Stochastic Samples Ratio";
+	COMPOSITINGTAG_GIDENSITY				"Record Density Ratio";
+	COMPOSITINGTAG_GIANIMATED				"Animated Object";	
+	COMPOSITINGTAG_GIANIMATED_RADIUS			"Object's Radius of Influence Scale";	
+	COMPOSITINGTAG_GIQMC					"Enable Forced QMC Sampling";
+	COMPOSITINGTAG_GITRANSPARENCY				"Enable Transparency Overlook";
+	COMPOSITINGTAG_GIINTERPOLATION				"Enable Interpolation Grouping";
+	COMPOSITINGTAG_GROUPGI					"GI";
+	
+	COMPOSITINGTAG_GROUPRPR					"ProRender";
+	COMPOSITINGTAG_RPRSHADOWCATCHER	"Shadow Catcher Alpha";
+	COMPOSITINGTAG_RPRLIGHTPORTAL		"Light Portal";
+	COMPOSITINGTAG_RPROBJECTGROUPID_GROUP "Multi-Passes";
+	COMPOSITINGTAG_RPROBJECTGROUPID "Object Group ID";
+}

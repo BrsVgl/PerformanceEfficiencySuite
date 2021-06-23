@@ -1,0 +1,7 @@
+STRINGTABLE CKsound
+{
+	CKsound			 		 			 "Sound Key";
+	CID_SOUNDKEYPROPERTIES "Sound Properties";
+	CID_SOUNDKEY_VOLUME    "Volume";
+	CID_SOUNDKEY_BALANCE   "Balance";
+}

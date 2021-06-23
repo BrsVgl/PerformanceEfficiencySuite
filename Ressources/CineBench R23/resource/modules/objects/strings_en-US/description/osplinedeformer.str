@@ -1,0 +1,12 @@
+STRINGTABLE Osplinedeformer
+{
+  Osplinedeformer               "Spline Deformer Object";
+
+  SPLINEDEFORMEROBJECT_ORIGINAL_SPLINE     "Original Spline";
+  SPLINEDEFORMEROBJECT_MODIFY_SPLINE       "Modifying Spline";
+  SPLINEDEFORMEROBJECT_RADIUS              "Radius";
+  SPLINEDEFORMEROBJECT_SPLINECONTROL       "Shape";
+  SPLINEDEFORMEROBJECT_USE_LENGTH          "Use Length";
+  SPLINEDEFORMEROBJECT_USE_POLYS					 "Full Polygons";
+  SPLINEDEFORMEROBJECT_B_APPROX            "B-Spline Approximation";
+}

@@ -1,0 +1,9 @@
+STRINGTABLE GVoverride
+{
+	GVoverride "Override Operator";
+	GV_OVERRIDE_INPUT 	"Input";
+	GV_OVERRIDE_OUTPUT	"Output";
+	GV_OVERRIDE_OUTPUT_NAME "Current Take Name";
+	GV_OVERRIDE_INPUT_MAIN	"Main";
+}
+

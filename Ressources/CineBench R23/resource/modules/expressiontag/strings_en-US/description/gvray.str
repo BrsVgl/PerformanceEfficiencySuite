@@ -1,0 +1,19 @@
+STRINGTABLE GVray
+{
+	GVray								"Ray Operator";
+
+	GV_RAY_TEST_ONLY "Test Only";
+	GV_RAY_GLOBAL "Global Coordinates";
+
+	GV_RAY_INPUT_OBJECT	"Object";
+	GV_RAY_INPUT_POINT1 "Ray Point1";
+	GV_RAY_INPUT_POINT2 "Ray Point2";
+
+	GV_RAY_OUTPUT "Collision";
+	GV_RAY_OUTPUT_HITPOS "Hit Position";
+	GV_RAY_OUTPUT_FACE_INDEX "Face Index";
+	GV_RAY_OUTPUT_FACE_NORMAL "Face Normal";
+	GV_RAY_OUTPUT_PHONG_NORMAL "Phong Normal";
+	GV_RAY_OUTPUT_DISTANCE "Distance";
+	GV_RAY_OUTPUT_BACKFACE "Is Backface";
+}

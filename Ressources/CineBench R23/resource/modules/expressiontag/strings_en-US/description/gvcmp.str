@@ -1,0 +1,17 @@
+STRINGTABLE GVcmp
+{
+	GVcmp									"Compare Operator";
+
+	GV_CMP_FUNCTION				"Function";
+		GV_EQU_NODE_FUNCTION 				"==";
+		GV_LESS_NODE_FUNCTION				"<";
+		GV_LESSEQU_NODE_FUNCTION			"<=";
+		GV_GREATER_NODE_FUNCTION			">";
+		GV_GREATEREQU_NODE_FUNCTION			">=";
+		GV_NOT_EQU_NODE_FUNCTION 			"!=";
+
+	GV_CMP_INPUT1					"Input 1";
+	GV_CMP_INPUT2					"Input 2";
+
+	GV_CMP_OUTPUT					"Output";
+}

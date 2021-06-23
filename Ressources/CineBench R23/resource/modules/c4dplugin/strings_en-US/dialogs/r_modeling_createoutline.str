@@ -1,0 +1,8 @@
+DIALOGSTRINGS R_MODELING_CREATEOUTLINE
+{
+  T1 "Create Outline";
+  T2 "Create New Object";
+  T3 "Distance";
+  T4 "88888888";
+  T5 "Apply";
+}

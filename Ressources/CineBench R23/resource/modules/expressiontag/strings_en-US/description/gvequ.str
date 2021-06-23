@@ -1,0 +1,7 @@
+STRINGTABLE GVequ
+{
+	GVequ					"'=' Operator";
+	GV_EQU_NEGATE	"Not Equal";
+	GV_EQU_INPUT 	"Input";
+	GV_EQU_OUTPUT	"Output";
+}

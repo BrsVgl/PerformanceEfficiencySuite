@@ -1,0 +1,38 @@
+STRINGTABLE renderstatus
+{
+	renderstatus "Render Status";
+
+	RS_RENDER_GRP		"Render";
+		RS_PASS			"Pass";
+		RS_LAST_FRAME	"LastFrame";
+		RS_ELAPSED		"Elapsed";
+		RS_REMAINING	"Remaining";
+		RS_FRAME		"Frame";	
+	
+	RS_OUTPUT_GRP		"Output Settings";	
+		RS_NAME			"Name";
+		RS_FOLDER		"Folder";
+		RS_FORMAT		"Format";
+		RS_DEPTH		"Depth";
+		RS_CAMERA		"Camera";
+		RS_VIEWPORT		"Viewport";
+		RS_SIZE			"Size";
+		RS_IMAGE_ASPECT	"Image Aspect";
+		RS_PIXEL_ASPECT	"Pixel Aspect";
+		RS_FIELDS		"Fields";
+		RS_GAMMA		"Gamma";
+		RS_ALIASING		"Antialiasing";
+	
+	RS_SCENE_STATS_GRP	"Project Statistics";	
+		RS_OBJECTS		"Objects";
+		RS_LIGHTS		"Lights";
+		RS_POLYGONS		"Polygons";
+		RS_POINTS		"Points";
+		RS_MATERIALS	"Materials";
+		RS_CPUS			"CPU Count";
+		
+	
+	RS_CONSOLE_GRP		"Console";
+	
+
+}

@@ -1,0 +1,11 @@
+STRINGTABLE ToolBase
+{
+  ToolBase	"Base Tool";
+
+	MDATA_MAINGROUP "Options";
+	MDATA_COMMANDGROUP	"Tool";
+	MDATA_NEWTRANSFORM "New Transform";
+	MDATA_DEFAULTVALUES "Reset Values";
+	MDATA_APPLY	"    Apply    ";
+	MDATA_INTERACTIVE "Realtime Update";
+}

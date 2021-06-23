@@ -1,0 +1,12 @@
+STRINGTABLE VPcomic
+{
+	VPcomic									"Cel Renderer";
+	VP_COMICCOLOR						"Color";
+	VP_COMICILLUMINATION		"Illumination";
+	VP_COMICOUTLINE					"Outline";
+	VP_COMICEDGES						"Edges";
+	VP_COMICEDGECOLOR				"Edge Color";
+	VP_COMICBACKCOLOR				"Background Color";
+	VP_COMICQUANTIZE				"Quantize";
+	VP_COMICQUANTIZELEVEL		"Steps";
+}

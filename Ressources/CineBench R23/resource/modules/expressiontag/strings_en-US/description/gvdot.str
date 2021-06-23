@@ -1,0 +1,7 @@
+STRINGTABLE GVdot
+{
+	GVdot						"Dot Operator";
+	GV_DOT_INPUT1 	"Input 1";
+	GV_DOT_INPUT2 	"Input 2";
+	GV_DOT_OUTPUT		"Output";
+}

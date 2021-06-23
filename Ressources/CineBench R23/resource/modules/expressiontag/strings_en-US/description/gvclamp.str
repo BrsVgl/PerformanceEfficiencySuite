@@ -1,0 +1,9 @@
+STRINGTABLE GVclamp
+{
+	GVclamp								"Clamp Operator";
+
+	GV_CLAMP_INPUT1				"Min";
+	GV_CLAMP_INPUT2				"Max";
+	GV_CLAMP_INPUT3				"Value";
+	GV_CLAMP_OUTPUT				"Output";
+}

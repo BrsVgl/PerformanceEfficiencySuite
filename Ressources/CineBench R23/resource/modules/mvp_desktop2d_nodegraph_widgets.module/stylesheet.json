@@ -1,0 +1,1221 @@
+﻿{
+	"identification": "Stylesheet",
+	"content": {
+		"referenceDataType": "net.maxon.interface.datadictionary-C",
+		"_impl": {
+			"_mode": 1,
+			"_keyType": "net.maxon.datatype.internedid",
+			"_fastData": [
+				"net.maxon.mvp.stylesheet.appwidget.border_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.20000000298023225,
+						"g": 0.20000000298023225,
+						"b": 0.20000000298023225,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.appwidget.enabled_opacity",
+				{
+					"dataType": "float64",
+					"content": 0.10000000149011612
+				},
+				"net.maxon.mvp.stylesheet.appwidget.error_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.8999999761581421,
+						"g": 0.27000001072883608,
+						"b": 0.27000001072883608,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.appwidget.error_hcolor",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.3700000047683716,
+						"g": 0.3700000047683716,
+						"b": 1.0,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.appwidget.focus_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.95294,
+						"g": 0.61176,
+						"b": 0.23137,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.appwidget.highlight_easein_delay",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.appwidget.highlight_easein_duration",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.appwidget.highlight_easeout_delay",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.appwidget.highlight_easeout_duration",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.appwidget.highlight_opacity",
+				{
+					"dataType": "float64",
+					"content": 1.0
+				},
+				"net.maxon.mvp.stylesheet.appwidget.hitmin_size",
+				{
+					"dataType": "float64",
+					"content": 4.0
+				},
+				"net.maxon.mvp.stylesheet.appwidget.implicit_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.698039233684539,
+						"g": 0.46274513006210329,
+						"b": 0.062745101749897,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.appwidget.implicit_hcolor",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 1.0,
+						"g": 0.6899999976158142,
+						"b": 0.0,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.appwidget.selection_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.95294,
+						"g": 0.61176,
+						"b": 0.23137,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.appwidget.selection_hcolor",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 1.0,
+						"g": 0.8235294818878174,
+						"b": 0.7843137979507446,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.appwidget.unsupported_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.3499999940395355,
+						"g": 0.3499999940395355,
+						"b": 0.800000011920929,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.appwidget.unsupported_hcolor",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.44999998807907107,
+						"g": 0.44999998807907107,
+						"b": 0.8999999761581421,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.appwidget.widget_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.area.max_zoom",
+				{
+					"dataType": "float64",
+					"content": 2.0
+				},
+				"net.maxon.mvp.stylesheet.area.min_zoom",
+				{
+					"dataType": "float64",
+					"content": 0.01
+				},
+				"net.maxon.mvp.stylesheet.image.border_update_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.52157,
+						"g": 0.63922,
+						"b": 0.8,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.image.border_update_width",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 2.0,
+						"unit": 0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodegraph.asset_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.9333333333333334,
+						"g": 0.34901960784313726,
+						"b": 0.36470588235294118,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodegraph.autoscroll_border",
+				{
+					"dataType": "float64",
+					"content": 30.0
+				},
+				"net.maxon.mvp.stylesheet.nodegraph.autoscroll_delay",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.5
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodegraph.back_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.25882,
+						"g": 0.25882,
+						"b": 0.25882,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodegraph.grid_major_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.3,
+						"g": 0.3,
+						"b": 0.3,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodegraph.grid_major_linewidth",
+				{
+					"dataType": "float64",
+					"content": 1.0
+				},
+				"net.maxon.mvp.stylesheet.nodegraph.grid_minor_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.3,
+						"g": 0.3,
+						"b": 0.3,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodegraph.grid_minor_linewidth",
+				{
+					"dataType": "float64",
+					"content": 1.0
+				},
+				"net.maxon.mvp.stylesheet.nodegraph.grid_nth",
+				{
+					"dataType": "uint64",
+					"content": 4
+				},
+				"net.maxon.mvp.stylesheet.nodegraph.grid_step",
+				{
+					"dataType": "float64",
+					"content": 8.0
+				},
+				"net.maxon.mvp.stylesheet.nodegraph.highlight_easein_delay",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.05
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodegraph.highlight_easein_duration",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.3
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodegraph.highlight_easeout_delay",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.05
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodegraph.highlight_easeout_duration",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodegraph.snap_radius",
+				{
+					"dataType": "float64",
+					"content": 20.0
+				},
+				"net.maxon.mvp.stylesheet.nodegraph.x_space",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 50.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodegraph.y_space",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 20.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodenavigation.back_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.22,
+						"g": 0.22,
+						"b": 0.22,
+						"a": 0.
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodenavigation.border_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.2,
+						"g": 0.2,
+						"b": 0.2,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodenavigation.group_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.5,
+						"g": 0.5,
+						"b": 0.5,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodenavigation.highlight_easein_delay",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodenavigation.highlight_easein_duration",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodenavigation.highlight_easeout_delay",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodenavigation.highlight_easeout_duration",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodenavigation.window_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.5,
+						"g": 0.5,
+						"b": 0.5,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.back_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.16862745098039218,
+						"g": 0.16862745098039218,
+						"b": 0.16862745098039218,
+						"a": 0.9019607843137255
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.back_color_alpha_low_lod",
+				{
+					"dataType": "float64",
+					"content": 0.8
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.back_color_header",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.13725490196078433,
+						"g": 0.13725490196078433,
+						"b": 0.13725490196078433,
+						"a": 0.9019607843137255
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.back_color_io",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.12549019607843138,
+						"g": 0.12549019607843138,
+						"b": 0.12549019607843138,
+						"a": 0.7058823529411764
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.border_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.0,
+						"g": 0.0,
+						"b": 0.0,
+						"a": 0.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.category_area_height",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 4.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.comment_font_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.86,
+						"g": 0.74,
+						"b": 0.47,
+						"a": 0.8
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.comment_font_color_highlight",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.8,
+						"g": 0.7,
+						"b": 0.6,
+						"a": 0.4
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.comment_font_size",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 13.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.comment_gap",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 2.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.comment_icon_size",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 16.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.comment_width",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 160.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.dimming",
+				{
+					"dataType": "float64",
+					"content": 0.3
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.highlight_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 0.03
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.highlight_easein_delay",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.highlight_easein_duration",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.highlight_easeout_delay",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.highlight_easeout_duration",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.icon_size",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 20.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.icons_bottom_margin",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 4.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.icons_top_margin",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 4.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.image_bottom_margin",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 0.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.image_size",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 72.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.image_top_margin",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 8.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.lod_zoom_threshold",
+				{
+					"dataType": "float64",
+					"content": 0.45
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.min_icon_size",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 16.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.ports_bottom_margin",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 12.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.ports_top_margin",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 4.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.previewbutton",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 16.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.rounding",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 8.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.rounding_preview",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 4.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.show_layout_grid_debug",
+				{
+					"dataType": "bool",
+					"content": false
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.start_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.44999998807907107,
+						"g": 0.699999988079071,
+						"b": 0.41999998688697817,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.start_implicit_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.5,
+						"g": 0.5,
+						"b": 0.0,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.start_selection_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 0.0,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.title_back_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.5,
+						"g": 0.5,
+						"b": 0.5,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.title_gap",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 2.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.titlefont_dark_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.5,
+						"g": 0.5,
+						"b": 0.5,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.titlefont_light_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.9,
+						"g": 0.9,
+						"b": 0.9,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.titlefont_min_size",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 10.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.titlefont_size",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 14.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.xsize_default",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 128.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.xsize_default_io",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 20.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.nodev2widget.xsize_min",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 90.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.portname.font_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.85,
+						"g": 0.85,
+						"b": 0.85,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portname.highlight_easein_delay",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portname.highlight_easein_duration",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portname.highlight_easeout_delay",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portname.highlight_easeout_duration",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.05
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.back_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.3607843137254902,
+						"g": 0.3607843137254902,
+						"b": 0.3607843137254902,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.bsdf_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.4,
+						"g": 0.75,
+						"b": 0.53,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.bsdf_hcolor",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.55,
+						"g": 0.9,
+						"b": 0.68,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.color_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.83,
+						"g": 0.75,
+						"b": 0.28,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.color_hcolor",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.98,
+						"g": 0.9,
+						"b": 0.43,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.complex_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.5,
+						"g": 0.5,
+						"b": 0.5,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.complex_hcolor",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.65,
+						"g": 0.65,
+						"b": 0.65,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.diameter",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 9.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.group_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.3,
+						"g": 0.3,
+						"b": 0.3,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.highlight_easein_delay",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.highlight_easein_duration",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.highlight_easeout_delay",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.highlight_easeout_duration",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.inner_padding",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 1.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.major_line_spacing",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 8.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.min_sizex",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 10.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.minor_line_spacing",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 0.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.other_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.4,
+						"g": 0.6,
+						"b": 0.8,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.other_hcolor",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.45,
+						"g": 0.65,
+						"b": 0.85,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.outer_padding",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 5.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.port_name_padding",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 5.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.size_x",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 12.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.size_y",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 20.0,
+						"unit": 2
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.tree_folder_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.7,
+						"g": 0.7,
+						"b": 0.7,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.tree_line_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.3,
+						"g": 0.3,
+						"b": 0.3,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.value_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.75,
+						"g": 0.75,
+						"b": 0.75,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.value_hcolor",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.95,
+						"g": 0.95,
+						"b": 0.95,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.vector_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.65,
+						"g": 0.47,
+						"b": 0.89,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.portslot.vector_hcolor",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.75,
+						"g": 0.55,
+						"b": 1.0,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.scrollarea.arrow_foreground_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.529411764705882,
+						"g": 0.529411764705882,
+						"b": 0.529411764705882,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.scrollarea.arrow_highlight_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.7,
+						"g": 0.7,
+						"b": 0.7,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.scrollarea.background_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.23921568627451,
+						"g": 0.23921568627451,
+						"b": 0.23921568627451,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.scrollarea.base_size",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 14.0,
+						"unit": 0
+					}
+				},
+				"net.maxon.mvp.stylesheet.scrollarea.scroll_step",
+				{
+					"dataType": "net.maxon.mvp.datatype.canvasunitvalue",
+					"content": {
+						"value": 10.0,
+						"unit": 0
+					}
+				},
+				"net.maxon.mvp.stylesheet.scrollarea.silder_foreground_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.349019607843137,
+						"g": 0.349019607843137,
+						"b": 0.349019607843137,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.scrollarea.slider_highlight_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.6,
+						"g": 0.6,
+						"b": 0.6,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.wire.default_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.6000000238418579,
+						"g": 0.6000000238418579,
+						"b": 0.6000000238418579,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.wire.default_hcolor",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.8999999761581421,
+						"g": 0.8999999761581421,
+						"b": 0.8999999761581421,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.wire.dependency_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.5,
+						"g": 0.5,
+						"b": 0.5,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.wire.dependency_hcolor",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.6,
+						"g": 0.6,
+						"b": 0.6,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.wire.dimmed_opacity",
+				{
+					"dataType": "float64",
+					"content": 0.35
+				},
+				"net.maxon.mvp.stylesheet.wire.group_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.458823561668396,
+						"g": 0.458823561668396,
+						"b": 0.458823561668396,
+						"a": 0.3019607961177826
+					}
+				},
+				"net.maxon.mvp.stylesheet.wire.group_hcolor",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.6039215922355652,
+						"g": 0.6039215922355652,
+						"b": 0.6039215922355652,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.wire.highlight_easein_delay",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.02
+					}
+				},
+				"net.maxon.mvp.stylesheet.wire.highlight_easein_duration",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.05
+					}
+				},
+				"net.maxon.mvp.stylesheet.wire.highlight_easeout_delay",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.02
+					}
+				},
+				"net.maxon.mvp.stylesheet.wire.highlight_easeout_duration",
+				{
+					"dataType": "net.maxon.datatype.timevalue",
+					"content": {
+						"_value": 0.05
+					}
+				},
+				"net.maxon.mvp.stylesheet.wire.portbundle_color",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.5,
+						"g": 0.5,
+						"b": 0.5,
+						"a": 1.0
+					}
+				},
+				"net.maxon.mvp.stylesheet.wire.portbundle_hcolor",
+				{
+					"dataType": "net.maxon.parametrictype.col<4,float64>",
+					"content": {
+						"r": 0.6,
+						"g": 0.6,
+						"b": 0.6,
+						"a": 1.0
+					}
+				}
+			]
+		}
+	}
+}

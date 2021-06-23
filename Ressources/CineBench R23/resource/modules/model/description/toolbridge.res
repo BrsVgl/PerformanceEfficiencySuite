@@ -1,0 +1,15 @@
+CONTAINER ToolBridge
+{
+	NAME ToolBridge;
+	INCLUDE ToolBase;
+
+	HIDE MDATA_COMMANDGROUP;
+
+	GROUP MDATA_MAINGROUP
+	{
+		BOOL MDATA_BRIDGE_DELETE { ANIM OFF;}
+		LONG MDATA_BRIDGE_SUBDIVISION { MIN 0; ANIM OFF; MINSLIDER 0; MAXSLIDER 10; CUSTOMGUI LONGSLIDER;}
+		// To get the desired behavior of having a [0,10] slider but allow any value in the value field, need to specify MIN as the max negative value +1.  
+		LONG MDATA_BRIDGE_SPIN_STEPS { MIN -2147483647; ANIM OFF; MINSLIDER 0; MAXSLIDER 10; CUSTOMGUI LONGSLIDER;}
+	}
+}

@@ -1,0 +1,13 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_CREATECLIP
+{
+  IDS_DIALOG	"Add New Clip at";
+  IDS_STATIC    "Clip Name";
+  IDS_STATIC3   "";
+  IDS_STATIC4   "Start";
+  IDS_STATIC5   "End";
+  IDS_STATIC7   "";
+  IDS_STATIC9   "";
+  IDS_CHECK		"Create Source";
+}

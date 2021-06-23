@@ -1,0 +1,21 @@
+CONTAINER Tbase
+{
+	NAME Tbase;
+
+	INCLUDE Obaselist;
+
+	GROUP Tbase
+	{
+		FIELD HIDE;
+	}
+
+	GROUP ID_TAGPROPERTIES
+	{
+		DEFAULT	1;
+	}
+
+	GROUP Obaselist
+	{
+		SHOW ID_BASELIST_ICON_SETTINGS_GROUP;
+	}
+}

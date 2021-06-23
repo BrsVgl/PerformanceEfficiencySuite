@@ -1,0 +1,14 @@
+STRINGTABLE xslidetool
+{
+  xslidetool	"Slide Tool";
+
+	MDTA_SLIDE_OFFSET										"Offset";
+	MDTA_SLIDE_SHIFT										"Shift";
+	MDTA_SLIDE_OFFSET_MODE							"Offset Mode";
+	MDTA_SLIDE_OFFSET_MODE_FIXED				"Fixed Distance";
+	MDTA_SLIDE_OFFSET_MODE_PROPORTIONAL	"Proportional";
+	MDTA_SLIDE_CLONE										"Clone";
+	MDTA_SLIDE_OFFSET_LIMIT							"Limit";
+	MDTA_SLIDE_CURVATURE								"Preserve Curvature";
+	MDTA_SLIDE_TEMP_CLONE								"Temp Clone";
+}

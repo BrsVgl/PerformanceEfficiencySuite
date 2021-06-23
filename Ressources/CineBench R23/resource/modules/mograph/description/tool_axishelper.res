@@ -1,0 +1,26 @@
+CONTAINER Tool_AxisHelper
+{
+	NAME	Tool_AxisHelper;
+
+	GROUP ID_MG_TOOLAXIS_GROUPAXIS
+	{
+		LONG	ID_MG_TOOLAXIS_MODE
+		{
+			CYCLE
+			{
+				ID_MG_TOOLAXIS_MODE_DISTANCE;
+				ID_MG_TOOLAXIS_MODE_AUTO;
+				ID_MG_TOOLAXIS_MODE_OBJECT;
+			}
+			ANIM	OFF;
+		}
+		LINK	ID_MG_TOOLAXIS_TARGETOBJECT
+		{
+			ACCEPT
+			{
+				Obase;
+			}
+			ANIM	OFF;
+		}
+	}
+}

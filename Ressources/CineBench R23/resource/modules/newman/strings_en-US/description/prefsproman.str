@@ -1,0 +1,15 @@
+STRINGTABLE Prefsproman
+{
+	Prefsproman "Projection Man";
+	PREF_PM_WIDTH		"Default Texture Width";
+	PREF_PM_HEIGHT		"Default Texture Height";
+	PREF_PM_CHANNEL		"Default Channel";
+	PREF_PM_CHANNEL_LA	"Luminance, Alpha";
+	PREF_PM_CHANNEL_CA	"Color, Alpha";
+	PREF_PM_PSPATH		"Photoshop Path";
+	PREF_PM_WPATH		"Work Path";
+	PREF_PM_MODE		"Mode";
+	PREF_PM_MODE_PS		"Photoshop";
+	PREF_PM_MODE_BP3D	"BodyPaint 3D";
+
+}

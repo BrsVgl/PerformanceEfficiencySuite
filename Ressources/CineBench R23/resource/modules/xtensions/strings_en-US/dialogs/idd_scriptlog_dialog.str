@@ -1,0 +1,7 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_SCRIPTLOG_DIALOG
+{
+	T1 "Script Log";
+	IDC_SCRIPTLOG_EDIT "";
+}

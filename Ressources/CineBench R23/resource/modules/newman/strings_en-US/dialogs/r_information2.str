@@ -1,0 +1,9 @@
+DIALOGSTRINGS R_INFORMATION2
+{
+  T1 "Information";
+  T2 "Memory:";
+  T3 "Static";
+  T4 "Points:";
+  T5 "Polygons:";
+  T6 "Objects:";
+}

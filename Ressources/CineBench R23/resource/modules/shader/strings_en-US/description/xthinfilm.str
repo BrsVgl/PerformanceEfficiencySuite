@@ -1,0 +1,39 @@
+////////////////////////////////////////////////////////////////
+// Thin Film
+////////////////////////////////////////////////////////////////
+// (c) 1989-2015 Maxon Computer GmbH, all rights reserved
+////////////////////////////////////////////////////////////////
+
+STRINGTABLE xthinfilm
+{
+	xthinfilm																	"Thin Film Shader";
+
+  THINFILMSHADER_LAYERCOLOR									"Color";
+  THINFILMSHADER_LAYERCOLOR_TEX_LINK				"Texture";
+	THINFILMSHADER_LAYERMIXSTRENGTH						"Mix Strength";
+  THINFILMSHADER_RELATIVETHICKNESS					"Variation (nm)";
+  THINFILMSHADER_RELATIVECHANGE_TEX_LINK		"Texture";
+  THINFILMSHADER_AVERAGETHICKNESS						"Thickness (nm)";
+
+	THINFILMSHADER_IOR_PRESET									"IOR Preset";
+		THINFILMSHADER_IOR_PRESET_CUSTOM				"Custom";
+		THINFILMSHADER_IOR_PRESET_BEER					"Beer";
+		THINFILMSHADER_IOR_PRESET_DIAMOND				"Diamond";
+		THINFILMSHADER_IOR_PRESET_EMERALD				"Emerald";
+		THINFILMSHADER_IOR_PRESET_ETHANOL				"Ethanol";
+		THINFILMSHADER_IOR_PRESET_GLASS					"Glass";
+		THINFILMSHADER_IOR_PRESET_JADE					"Jade";
+		THINFILMSHADER_IOR_PRESET_MILK					"Milk";
+		THINFILMSHADER_IOR_PRESET_OIL_VEGETABLE	"Oil (Vegetable)";
+		THINFILMSHADER_IOR_PRESET_PEARL					"Pearl";
+		THINFILMSHADER_IOR_PRESET_PET						"PET";
+		THINFILMSHADER_IOR_PRESET_PLEXIGLASS		"Plexiglas";
+		THINFILMSHADER_IOR_PRESET_RUBY					"Ruby";
+		THINFILMSHADER_IOR_PRESET_SAPPHIRE			"Sapphire";
+		THINFILMSHADER_IOR_PRESET_WATER					"Water";
+		THINFILMSHADER_IOR_PRESET_WATER_ICE			"Water (Ice)";
+		THINFILMSHADER_IOR_PRESET_WHISKEY				"Whiskey";
+
+  THINFILMSHADER_IOR												"IOR";
+  THINFILMSHADER_NUMSPECTRALSAMPLE					"Spectral Samples";
+}

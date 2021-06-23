@@ -1,0 +1,9 @@
+STRINGTABLE GVselection
+{
+	GVselection									"Selection Operator";
+	GV_SELECTION_INPUT_TAG		"Tag";
+	GV_SELECTION_OPERATOR_ON	"On";
+
+	GV_SELECTION_OUTPUT								"Iteration";
+	GV_SELECTION_OUTPUT_COUNT						"Count";
+}

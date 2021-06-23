@@ -1,0 +1,8 @@
+STRINGTABLE GVmatrixmulvect
+{
+	GVmatrixmulvect						"MatrixMulVector Operator";
+	GV_MATRIXMULVECT_NORMAL		"Normal";
+	GV_MATRIXMULVECT_INPUT1		"Matrix";
+	GV_MATRIXMULVECT_INPUT2		"Vector";
+	GV_MATRIXMULVECT_OUTPUT		"Vector";
+}

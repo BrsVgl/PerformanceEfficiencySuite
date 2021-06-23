@@ -1,0 +1,9 @@
+STRINGTABLE Xcheckerboard
+{
+	Xcheckerboard "Checkerboard Shader";
+
+	CHECKERBOARDSHADER_COLOR1	"Color 1";
+	CHECKERBOARDSHADER_COLOR2 "Color 2";
+	CHECKERBOARDSHADER_SCALEX	"U Frequency";
+	CHECKERBOARDSHADER_SCALEY	"V Frequency";
+}

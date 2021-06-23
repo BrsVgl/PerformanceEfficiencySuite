@@ -1,0 +1,23 @@
+STRINGTABLE GVmograph_data
+{
+	GVmograph_data "Motion Graphics Data";
+
+	GV_MG_DATA_INDEX "Index";
+	GV_MG_DATA_IMATRIX "Local Matrix";
+	GV_MG_DATA_ICOLOR "Color";
+	GV_MG_DATA_IUV "UV";
+	GV_MG_DATA_IVISIBLE "Visibility";
+	GV_MG_DATA_IWEIGHT "Weight";
+	GV_MG_DATA_OBJECT "Object";
+
+	GV_MG_DATA_OCOUNT "Count";
+	GV_MG_DATA_OMATRIX "Local Matrix";
+	GV_MG_DATA_OCOLOR "Color";
+	GV_MG_DATA_OUV "UV";
+	GV_MG_DATA_OVISIBLE "Visibility";
+	GV_MG_DATA_OWEIGHT "Weight";
+	GV_MG_DATA_OGMATRIX "Global Matrix";
+	GV_MG_DATA_OGPOS "Position";
+	GV_MG_DATA_OGSCA "Scale";
+	GV_MG_DATA_OGROT "Rotation";
+}

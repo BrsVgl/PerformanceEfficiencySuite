@@ -1,0 +1,18 @@
+STRINGTABLE Oformula
+{
+	Oformula "Formula Object";
+
+	FORMULAOBJECT_FX			"X(x,y,z,t)";
+	FORMULAOBJECT_FY			"Y(x,y,z,t)";
+	FORMULAOBJECT_FZ			"Z(x,y,z,t)";
+	FORMULAOBJECT_SIZE		"Size";
+	FORMULAOBJECT_DLT			"d(u,v,x,y,z,t)";
+	FORMULAOBJECT_EFFECT	"Effect";
+		FOEFFECT_MANUAL				"Manual";
+		FOEFFECT_SPHERICAL		"Spherical";
+		FOEFFECT_CYLINDRICAL	"Cylindrical";
+		FOEFFECT_XRADIAL			"X Radial";
+		FOEFFECT_YRADIAL			"Y Radial";
+		FOEFFECT_ZRADIAL			"Z Radial";
+	FORMULAOBJECT_FITTOPARENT	"Fit to Parent";
+}

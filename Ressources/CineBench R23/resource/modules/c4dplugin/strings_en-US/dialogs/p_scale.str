@@ -1,0 +1,29 @@
+// C4D Dialog Strings
+
+DIALOGSTRINGS P_SCALE
+{
+	TITLE "Scale Texture";
+	T2  "Current Size";
+	T3  "New Size (of all selected textures)";
+	T4  "Width";
+	T5  "Height";
+	T6 	"Lock Aspect Ratio";
+	T7  "User-defined Size";
+	T8  "Maximum Size";
+	T9  "Average Size";
+	T10 "Minimum Size";
+	T11 "Interpolation";
+	T12 "Nearest Neighbor";
+	T13 "Bilinear";
+	TC0 "Color";
+	TC1 "Diffusion";
+	TC2 "Luminance";
+	TC3 "Transparency";
+	TC4 "Reflection";
+	TC5 "Environment";
+	TC6 "Bump";
+	TC7 "Alpha";
+	TC8 "Specular";
+	TC9 "Displacement";
+	TC10 "Normal";
+}

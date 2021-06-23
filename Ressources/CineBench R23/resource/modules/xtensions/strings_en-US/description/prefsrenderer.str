@@ -1,0 +1,12 @@
+STRINGTABLE Prefsrenderer
+{
+	Prefsrenderer "Renderer";
+	PREF_RENDERER_THREADCUSTOM		"Custom Number of Render Threads";
+	PREF_RENDERER_THREADNUMBER		"";
+	PREF_RENDERER_THREADPRIORITY	"Adapt Thread Priority";
+	PREF_RENDERER_LOWERPROCESSPRIORITY	"Lower Process Priority";
+	PREF_RENDERER_CREATELOG			"Create Renderer Log File";
+	PREF_RENDERER_GLOBALILLUM		"Show Global Illumination Info in Console";
+	PREF_RENDERER_RENDERQUEUELOG	"Render Queue Log";
+	PREF_RENDERER_RENDERQUEUE_AUTORENAME	"Auto Renaming";
+}

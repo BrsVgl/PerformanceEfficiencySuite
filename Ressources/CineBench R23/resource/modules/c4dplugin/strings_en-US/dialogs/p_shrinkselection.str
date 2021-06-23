@@ -1,0 +1,7 @@
+// C4D Dialog Strings
+
+DIALOGSTRINGS P_SHRINKSELECTION
+{
+	TITLE "Shrink Selection";
+	TRAD "Radius";
+}

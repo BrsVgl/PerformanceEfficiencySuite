@@ -1,0 +1,14 @@
+STRINGTABLE Tvertexcolor
+{
+	Tvertexcolor																"Vertex Color Tag";
+
+	ID_VERTEXCOLORFIELDSGROUP										"Fields";
+	ID_VERTEXCOLOR_VERTEXCOLORMODE							"Vertex Colors";
+	ID_VERTEXCOLOR_VERTEXCOLORMODE_VERTEX				"Points Only";
+	ID_VERTEXCOLOR_VERTEXCOLORMODE_POLYGON			"Polygon Points";
+	ID_VERTEXCOLOR_ALPHAMODE										"Display Alpha";
+	ID_VERTEXCOLOR_DRAWPOINTS										"Draw Points Always";
+	ID_VERTEXCOLOR_USEFIELDS										"Use Fields";
+	ID_VERTEXCOLOR_FIELDS												"Fields";
+	ID_VERTEXCOLOR_USEDEFORMEDPOINTS						"Use Deformed Points";
+}

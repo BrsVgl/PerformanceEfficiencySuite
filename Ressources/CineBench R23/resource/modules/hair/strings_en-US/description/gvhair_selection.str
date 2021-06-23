@@ -1,0 +1,15 @@
+STRINGTABLE GVHair_selection
+{
+	GVHair_selection							"Hair Selection Operator";
+	GV_HAIR_SELECTION_INPUT_TAG					"Tag";
+	GV_HAIR_SELECTION_OPERATOR_ON				"On";
+
+	GV_HAIR_SELECTION_OUTPUT					"Iteration";
+	GV_HAIR_SELECTION_OUTPUT_COUNT				"Count";
+
+	GV_HAIR_SELECTION_MODE		"Mode";
+
+	GV_HAIR_SELECTION_MODE_ASIS	"As Selection";
+	GV_HAIR_SELECTION_MODE_POINTS "Points";
+	GV_HAIR_SELECTION_MODE_GUIDES "Guides";
+}

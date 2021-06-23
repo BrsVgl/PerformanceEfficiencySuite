@@ -1,0 +1,10 @@
+CONTAINER GVdynamic
+{
+	NAME GVdynamic;
+	INCLUDE GVbase;
+
+	GROUP ID_GVPROPERTIES
+	{
+		LONG GV_DYNAMIC_DATATYPE { CYCLE {} }
+	}
+}

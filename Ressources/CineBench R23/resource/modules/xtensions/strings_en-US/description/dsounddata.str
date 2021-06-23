@@ -1,0 +1,16 @@
+STRINGTABLE Dsounddata
+{
+  Dsounddata																	  "Sound Datatype";
+
+	SOUNDDATASUBCHANNEL_GROUP											"Sound Data";
+
+	SOUNDDATASUBCHANNEL_PROBE_GROUP								"Probes";
+	
+	SOUNDDATASUBCHANNEL_LOG												"Linear/Log";
+	SOUNDDATASUBCHANNEL_DIRECTION									"Gradient Direction";
+		SOUNDDATASUBCHANNEL_DIRECTION_HORIZ						"Horizontal";
+		SOUNDDATASUBCHANNEL_DIRECTION_VERT						"Vertical";
+	SOUNDDATASUBCHANNEL_GRADIENT									"Gradient";
+	SOUNDDATASUBCHANNEL_FREEEZE										"Freeze";
+	
+}

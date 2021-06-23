@@ -1,0 +1,14 @@
+STRINGTABLE ToDoWorld
+{
+	ToDoWorld				"To Do";	
+	TODOWORLD_DONE			"Move Selected Items to Done";
+	TODOWORLD_TASK			"Move Selected Items to Task";
+	TODOWORLD_DONE_NOTE		"Note";
+	TODOWORLD_TASK_NOTE		"Note";
+	TODOWORLD_TASK_GROUP	"Task";
+	TODOWORLD_TASK_TREE		"Task";
+	TODOWORLD_DONE_GROUP	"Done";
+	TODOWORLD_DONE_TREE		"Done";
+	TODOWORLD_TASK_DELETE	"Delete";
+	TODOWORLD_DONE_DELETE	"Delete";
+}

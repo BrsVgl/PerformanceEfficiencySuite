@@ -1,0 +1,262 @@
+STRINGTABLE XSLAMabel
+{
+  XSLAMabel                               "Mabel Shader";
+
+  SLA_MABEL_DIFFUSE_ALGORITHM_INTERNAL    "Internal";
+  SLA_MABEL_DIFFUSE_ALGORITHM_OREN_NAYAR  "Oren Nayar";
+
+	SLA_MABEL_SEED													"Seed";
+  SLA_MABEL_NOISE_NONE                    "None";
+  SLA_MABEL_NOISE_BOX_NOISE               "Box";
+  SLA_MABEL_NOISE_BLIST_TURB              "Blistered Turbulence";
+  SLA_MABEL_NOISE_BUYA                    "Buya";
+  SLA_MABEL_NOISE_CELL_NOISE              "Cell Noise";
+  SLA_MABEL_NOISE_CRANAL                  "Cranal";
+  SLA_MABEL_NOISE_DENTS                   "Dents";
+  SLA_MABEL_NOISE_DISPL_TURB              "Displaced Turbulence";
+  SLA_MABEL_NOISE_FBM                     "FBM";
+  SLA_MABEL_NOISE_HAMA                    "Hama";
+  SLA_MABEL_NOISE_LUKA                    "Luka";
+  SLA_MABEL_NOISE_MOD_NOISE               "Mod Noise";
+  SLA_MABEL_NOISE_NAKI                    "Naki";
+  SLA_MABEL_NOISE_NOISE                   "Noise";
+  SLA_MABEL_NOISE_NUTOUS                  "Nutous";
+  SLA_MABEL_NOISE_OBER                    "Ober";
+  SLA_MABEL_NOISE_PEZO                    "Pezo";
+  SLA_MABEL_NOISE_POXO                    "Poxo";
+  SLA_MABEL_NOISE_RANDOM                  "Random";
+  SLA_MABEL_NOISE_SEMA                    "Sema";
+  SLA_MABEL_NOISE_STUPL                   "Stupl";
+  SLA_MABEL_NOISE_TURBULENCE              "Turbulence";
+  SLA_MABEL_NOISE_VL_NOISE                "VL Noise";
+  SLA_MABEL_NOISE_WAVY_TURB               "Wavy Turbulence";
+  SLA_MABEL_NOISE_SEPARATOR               "";
+  SLA_MABEL_NOISE_CELL_VORONOI            "Cell Voronoi";
+  SLA_MABEL_NOISE_DISPL_VORONOI           "Displaced Voronoi";
+  SLA_MABEL_NOISE_SPARSE_CONV             "Sparse Convolution";
+  SLA_MABEL_NOISE_VORONOI_1               "Voronoi 1";
+  SLA_MABEL_NOISE_VORONOI_2               "Voronoi 2";
+  SLA_MABEL_NOISE_VORONOI_3               "Voronoi 3";
+  SLA_MABEL_NOISE_ZADA                    "Zada";
+
+  SLA_MABEL_PROJECTION_PLANAR               "Planar";
+  SLA_MABEL_PROJECTION_AUTO_PLANAR          "Auto Planar";
+  SLA_MABEL_PROJECTION_SHRINK_WRAP          "Shrink Wrap";
+  SLA_MABEL_PROJECTION_RADIAL_AUTO_PLANAR   "Radial Auto Planar";
+  SLA_MABEL_PROJECTION_RAD_PATTERN_AUTO_PLANAR  "Radial Pattern Auto Planar";
+  SLA_MABEL_PROJECTION_RADIAL_PLANAR        "Radial Planar";
+  SLA_MABEL_PROJECTION_RAD_PATTERN_PLANAR   "Radial Pattern Planar";
+
+  ID_MABEL_VEINING                        "Veining";
+  ID_MABEL_DIFFUSE_A                      "Diffuse A";
+  ID_MABEL_SPECULAR1_A                    "Specular 1 A";
+  ID_MABEL_SPECULAR2_A                    "Specular 2 A";
+  ID_MABEL_SPECULAR3_A                    "Specular 3 A";
+  ID_MABEL_REFLECTION_A                   "Reflection A";
+  ID_MABEL_ENVIRONMENT_A                  "Environment A";
+  ID_MABEL_AMBIENT_A                      "Ambient A";
+  ID_MABEL_ROUGHNESS_A                    "Roughness A";
+  ID_MABEL_ANISOTROPY_A                  "Anisotropy A";
+
+  ID_MABEL_DIFFUSE_B                      "Diffuse B";
+  ID_MABEL_SPECULAR1_B                    "Specular 1 B";
+  ID_MABEL_SPECULAR2_B                    "Specular 2 B";
+  ID_MABEL_SPECULAR3_B                    "Specular 3 B";
+  ID_MABEL_REFLECTION_B                   "Reflection B";
+  ID_MABEL_ENVIRONMENT_B                  "Environment B";
+  ID_MABEL_AMBIENT_B                      "Ambient B";
+  ID_MABEL_ROUGHNESS_B                    "Roughness B";
+  ID_MABEL_ANISOTROPY_B                  "Anisotropy B";
+
+  SLA_MABEL_VEINING                       "Veining";
+  SLA_MABEL_SURFACE                       "Surface";
+  SLA_MABEL_SURFACE_1                     "Surface 1";
+  SLA_MABEL_SURFACE_2                     "Surface 2";
+  SLA_MABEL_SURFACE_BOTH                  "Both";
+
+  SLA_MABEL_DIFFUSE_A                     "Diffuse A";
+  SLA_MABEL_SPECULAR1_A                   "Specular 1 A";
+  SLA_MABEL_SPECULAR2_A                   "Specular 2 A";
+  SLA_MABEL_SPECULAR3_A                   "Specular 3 A";
+  SLA_MABEL_REFLECTION_A                  "Reflection A";
+  SLA_MABEL_ENVIRONMENT_A                 "Environment A";
+  SLA_MABEL_AMBIENT_A                     "Ambient A";
+  SLA_MABEL_ROUGHNESS_A                   "Roughness A";
+  SLA_MABEL_ANISOTROPY_A                 "Anisotropy A";
+
+  SLA_MABEL_DIFFUSE_B                     "Diffuse B";
+  SLA_MABEL_SPECULAR1_B                   "Specular 1 B";
+  SLA_MABEL_SPECULAR2_B                   "Specular 2 B";
+  SLA_MABEL_SPECULAR3_B                   "Specular 3 B";
+  SLA_MABEL_REFLECTION_B                  "Reflection B";
+  SLA_MABEL_ENVIRONMENT_B                 "Environment B";
+  SLA_MABEL_AMBIENT_B                     "Ambient B";
+  SLA_MABEL_ROUGHNESS_B                   "Roughness B";
+  SLA_MABEL_ANISOTROPY_B                 "Anisotropy B";
+
+  SLA_MABEL_VEINING_TURBULENCE            "Veining Turbulence";
+  SLA_MABEL_VEINING_STIRRING              "Veining Stirring";
+  SLA_MABEL_VEINING_SCALE                 "Veining Scale";
+  SLA_MABEL_VEINING_OCTAVES               "Veining Octaves";
+  SLA_MABEL_VEINING_SIZE                  "Veining Size";
+  SLA_MABEL_VEINING_CONTRAST              "Veining Contrast";
+  SLA_MABEL_VARIANCE_TURBULENCE           "Variance Turbulence";
+  SLA_MABEL_VARIANCE_AMPLITUDE            "Variance Amplitude";
+  SLA_MABEL_VARIANCE_OCTAVES              "Variance Octaves";
+  SLA_MABEL_VARIANCE_SCALE                "Variance Scale";
+  SLA_MABEL_VARIANCE_CONTRAST             "Variance Contrast";
+
+  SLA_MABEL_DIFFUSE_COLOR_A               "Color";
+  SLA_MABEL_DIFFUSE_ALGORITHM_A           "Algorithm";
+  SLA_MABEL_DIFFUSE_ROUGHNESS_A           "Roughness";
+  SLA_MABEL_DIFFUSE_ILLUMINATION_A        "Illumination";
+  SLA_MABEL_DIFFUSE_CONTRAST_A            "Contrast";
+
+  SLA_MABEL_SPEC1_COLOR_A                 "Color";
+  SLA_MABEL_SPEC1_INTENSITY_A             "Intensity";
+  SLA_MABEL_SPEC1_SIZE_A                  "Size";
+  SLA_MABEL_SPEC1_CONTRAST_A              "Contrast";
+  SLA_MABEL_SPEC1_GLARE_A                 "Glare";
+  SLA_MABEL_SPEC1_FALLOFF_A               "Falloff";
+
+  SLA_MABEL_SPEC2_COLOR_A                 "Color";
+  SLA_MABEL_SPEC2_INTENSITY_A             "Intensity";
+  SLA_MABEL_SPEC2_SIZE_A                  "Size";
+  SLA_MABEL_SPEC2_CONTRAST_A              "Contrast";
+  SLA_MABEL_SPEC2_GLARE_A                 "Glare";
+  SLA_MABEL_SPEC2_FALLOFF_A               "Falloff";
+
+  SLA_MABEL_SPEC3_COLOR_A                 "Color";
+  SLA_MABEL_SPEC3_INTENSITY_A             "Intensity";
+  SLA_MABEL_SPEC3_SIZE_A                  "Size";
+  SLA_MABEL_SPEC3_CONTRAST_A              "Contrast";
+  SLA_MABEL_SPEC3_GLARE_A                 "Glare";
+  SLA_MABEL_SPEC3_FALLOFF_A               "Falloff";
+
+  SLA_MABEL_REFLECTION_INTENSITY_A        "Intensity";
+  SLA_MABEL_REFLECTION_EDGE_INTENSITY_A   "Edge Intensity";
+  SLA_MABEL_REFLECTION_FALLOFF_A          "Falloff";
+  SLA_MABEL_REFLECTION_REFLECTION_COLOR_A "Reflection Color";
+  SLA_MABEL_REFLECTION_EDGE_COLOR_A       "Reflection Edge Color";
+
+  SLA_MABEL_ENVIRONMENT_IMAGE             "Image";
+  SLA_MABEL_ENVIRONMENT_INTENSITY_A       "Intensity";
+  SLA_MABEL_ENVIRONMENT_GLARE_A           "Glare";
+  SLA_MABEL_ENVIRONMENT_FALLOFF_A         "Falloff";
+  SLA_MABEL_ENVIRONMENT_UTILIZE_ANISO_SCRATCHES_A "Utilize Anisotropic Scratches";
+  SLA_MABEL_ENVIRONMENT_BLUR_A            "Blur";
+  SLA_MABEL_ENVIRONMENT_SAMPLES_A         "Samples";
+  SLA_MABEL_ENVIRONMENT_JITTER_A          "Jitter";
+  SLA_MABEL_ENVIRONMENT_ENVIRONMENT_COLOR_A "Environment Color";
+  SLA_MABEL_ENVIRONMENT_EDGE_COLOR_A      "Edge Color";
+
+  SLA_MABEL_AMBIENT_COLOR_A               "Color";
+  SLA_MABEL_AMBIENT_INTENSITY_A           "Intensity";
+  SLA_MABEL_AMBIENT_EDGE_INTENSITY_A      "Edge Intensity";
+  SLA_MABEL_AMBIENT_FALLOFF_A             "Falloff";
+
+	SLA_MABEL_ROUGHNESS_SEED_A							"Seed";
+  SLA_MABEL_ROUGHNESS_NOISE_A             "Function";
+  SLA_MABEL_ROUGHNESS_AMPLITUDE_A         "Amplitude";
+  SLA_MABEL_ROUGHNESS_OCTAVES_A           "Octaves";
+  SLA_MABEL_ROUGHNESS_SCALE_A             "Scale";
+  SLA_MABEL_ROUGHNESS_ATTENUATION_A       "Attenuation";
+  SLA_MABEL_ROUGHNESS_DELTA_A             "Delta";
+  SLA_MABEL_ROUGHNESS_HARD_BUMP_A         "Hard Bump";
+  SLA_MABEL_ROUGHNESS_ABSOLUTE_A          "Absolute";
+  SLA_MABEL_ROUGHNESS_LOW_CLIP_A          "Low Clip";
+  SLA_MABEL_ROUGHNESS_HIGH_CLIP_A         "High Clip";
+  SLA_MABEL_ROUGHNESS_GRIT_COLOR_A        "Grit Color";
+  SLA_MABEL_ROUGHNESS_GRIT_INTENSITY_A    "Grit Intensity";
+  SLA_MABEL_ROUGHNESS_GRIT_LOW_CLIP_A     "Grit Low Clip";
+  SLA_MABEL_ROUGHNESS_GRIT_HIGH_CLIP_A    "Grit High Clip";
+
+  SLA_MABEL_ANISOTROPY_PROJECTION_A      "Projection";
+  SLA_MABEL_ANISOTROPY_PROJ_SCALE_A      "Projection Scale";
+  SLA_MABEL_ANISOTROPY_X_ROUGH_A         "Roughness X";
+  SLA_MABEL_ANISOTROPY_Y_ROUGH_A         "Roughness Y";
+  SLA_MABEL_ANISOTROPY_AMPL_A            "Amplitude";
+  SLA_MABEL_ANISOTROPY_SCALE_A           "Scale";
+  SLA_MABEL_ANISOTROPY_LENGTH_A          "Length";
+  SLA_MABEL_ANISOTROPY_ATT_A             "Attenuation";
+  SLA_MABEL_ANISOTROPY_CHANNEL1_A        "Specular 1";
+  SLA_MABEL_ANISOTROPY_CHANNEL2_A        "Specular 2";
+  SLA_MABEL_ANISOTROPY_CHANNEL3_A        "Specular 3";
+
+
+  SLA_MABEL_DIFFUSE_COLOR_B               "Color";
+  SLA_MABEL_DIFFUSE_ALGORITHM_B           "Algorithm";
+  SLA_MABEL_DIFFUSE_ROUGHNESS_B           "Roughness";
+  SLA_MABEL_DIFFUSE_ILLUMINATION_B        "Illumination";
+  SLA_MABEL_DIFFUSE_CONTRAST_B            "Contrast";
+
+  SLA_MABEL_SPEC1_COLOR_B                 "Color";
+  SLA_MABEL_SPEC1_INTENSITY_B             "Intensity";
+  SLA_MABEL_SPEC1_SIZE_B                  "Size";
+  SLA_MABEL_SPEC1_CONTRAST_B              "Contrast";
+  SLA_MABEL_SPEC1_GLARE_B                 "Glare";
+  SLA_MABEL_SPEC1_FALLOFF_B               "Falloff";
+
+  SLA_MABEL_SPEC2_COLOR_B                 "Color";
+  SLA_MABEL_SPEC2_INTENSITY_B             "Intensity";
+  SLA_MABEL_SPEC2_SIZE_B                  "Size";
+  SLA_MABEL_SPEC2_CONTRAST_B              "Contrast";
+  SLA_MABEL_SPEC2_GLARE_B                 "Glare";
+  SLA_MABEL_SPEC2_FALLOFF_B               "Falloff";
+
+  SLA_MABEL_SPEC3_COLOR_B                 "Color";
+  SLA_MABEL_SPEC3_INTENSITY_B             "Intensity";
+  SLA_MABEL_SPEC3_SIZE_B                  "Size";
+  SLA_MABEL_SPEC3_CONTRAST_B              "Contrast";
+  SLA_MABEL_SPEC3_GLARE_B                 "Glare";
+  SLA_MABEL_SPEC3_FALLOFF_B               "Falloff";
+
+  SLA_MABEL_REFLECTION_INTENSITY_B        "Intensity";
+  SLA_MABEL_REFLECTION_EDGE_INTENSITY_B   "Edge Intensity";
+  SLA_MABEL_REFLECTION_FALLOFF_B          "Falloff";
+  SLA_MABEL_REFLECTION_REFLECTION_COLOR_B "Reflection Color";
+  SLA_MABEL_REFLECTION_EDGE_COLOR_B       "Reflection Edge Color";
+
+  SLA_MABEL_ENVIRONMENT_INTENSITY_B       "Intensity";
+  SLA_MABEL_ENVIRONMENT_GLARE_B           "Glare";
+  SLA_MABEL_ENVIRONMENT_FALLOFF_B         "Falloff";
+  SLA_MABEL_ENVIRONMENT_UTILIZE_ANISO_SCRATCHES_B "Utilize Anisotropic Scratches";
+  SLA_MABEL_ENVIRONMENT_BLUR_B            "Blur";
+  SLA_MABEL_ENVIRONMENT_SAMPLES_B         "Samples";
+  SLA_MABEL_ENVIRONMENT_JITTER_B          "Jitter";
+  SLA_MABEL_ENVIRONMENT_ENVIRONMENT_COLOR_B "Environment Color";
+  SLA_MABEL_ENVIRONMENT_EDGE_COLOR_B      "Edge Color";
+
+  SLA_MABEL_AMBIENT_COLOR_B               "Color";
+  SLA_MABEL_AMBIENT_INTENSITY_B           "Intensity";
+  SLA_MABEL_AMBIENT_EDGE_INTENSITY_B      "Edge Intensity";
+  SLA_MABEL_AMBIENT_FALLOFF_B             "Falloff";
+
+	SLA_MABEL_ROUGHNESS_SEED_B							"Seed";
+  SLA_MABEL_ROUGHNESS_NOISE_B             "Function";
+  SLA_MABEL_ROUGHNESS_AMPLITUDE_B         "Amplitude";
+  SLA_MABEL_ROUGHNESS_OCTAVES_B           "Octaves";
+  SLA_MABEL_ROUGHNESS_SCALE_B             "Scale";
+  SLA_MABEL_ROUGHNESS_ATTENUATION_B       "Attenuation";
+  SLA_MABEL_ROUGHNESS_DELTA_B             "Delta";
+  SLA_MABEL_ROUGHNESS_HARD_BUMP_B         "Hard Bump";
+  SLA_MABEL_ROUGHNESS_ABSOLUTE_B          "Absolute";
+  SLA_MABEL_ROUGHNESS_LOW_CLIP_B          "Low Clip";
+  SLA_MABEL_ROUGHNESS_HIGH_CLIP_B         "High Clip";
+  SLA_MABEL_ROUGHNESS_GRIT_COLOR_B        "Grit Color";
+  SLA_MABEL_ROUGHNESS_GRIT_INTENSITY_B    "Grit Intensity";
+  SLA_MABEL_ROUGHNESS_GRIT_LOW_CLIP_B     "Grit Low Clip";
+  SLA_MABEL_ROUGHNESS_GRIT_HIGH_CLIP_B    "Grit High Clip";
+
+  SLA_MABEL_ANISOTROPY_PROJECTION_B      "Projection";
+  SLA_MABEL_ANISOTROPY_PROJ_SCALE_B      "Projection Scale";
+  SLA_MABEL_ANISOTROPY_X_ROUGH_B         "Roughness X";
+  SLA_MABEL_ANISOTROPY_Y_ROUGH_B         "Roughness Y";
+  SLA_MABEL_ANISOTROPY_AMPL_B            "Amplitude";
+  SLA_MABEL_ANISOTROPY_SCALE_B           "Scale";
+  SLA_MABEL_ANISOTROPY_LENGTH_B          "Length";
+  SLA_MABEL_ANISOTROPY_ATT_B             "Attenuation";
+  SLA_MABEL_ANISOTROPY_CHANNEL1_B        "Specular 1";
+  SLA_MABEL_ANISOTROPY_CHANNEL2_B        "Specular 2";
+  SLA_MABEL_ANISOTROPY_CHANNEL3_B        "Specular 3";
+}

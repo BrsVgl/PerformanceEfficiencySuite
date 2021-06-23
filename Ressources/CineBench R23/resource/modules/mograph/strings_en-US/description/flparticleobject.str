@@ -1,0 +1,11 @@
+STRINGTABLE FLparticleobject
+{
+	FLparticleobject														"Particle Field Layer";
+	
+	FIELDLAYER_PARTICLE_OBJECT									"Particle Object";
+	FIELDLAYER_PARTICLE_DISTANCE								"Radius";
+	FIELDLAYER_PARTICLE_CLIP 										"Clip to Shape";
+	FIELDLAYER_PARTICLE_COLOR_ALPHA							"Color Alpha";
+	FIELDLAYER_PARTICLE_COLOR_ALPHA_NONE				"None";
+	FIELDLAYER_PARTICLE_COLOR_ALPHA_VALUE				"Strength";
+}

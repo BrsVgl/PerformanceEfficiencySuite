@@ -1,0 +1,15 @@
+STRINGTABLE GVfloatfunc
+{
+	GVfloatfunc							"FloatFunc Operator";
+	GV_FLOATFUNC_FUNC 			"Function";
+		TYPE_EXP						"Exp";
+		TYPE_LN						"Ln";
+		TYPE_LN10						"Ln10";
+		TYPE_SQRT						"Sqrt";
+		TYPE_FLOOR						"Floor";
+		TYPE_CEIL						"Ceil";
+		TYPE_POW						"Pow";
+		TYPE_POW2						"Pow2";
+	GV_FLOATFUNC_INPUT			"Value";
+	GV_FLOATFUNC_OUTPUT			"Output";
+}

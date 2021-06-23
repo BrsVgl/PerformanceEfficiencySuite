@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>category_tube</title>
+    <defs>
+        <linearGradient x1="0%" y1="51.7717527%" x2="100%" y2="51.7717527%" id="linearGradient-1">
+            <stop stop-color="#D6D6D6" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.538980551" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" gradientTransform="translate(0.500000,0.500000),scale(0.583333,1.000000),rotate(90.000000),scale(1.000000,2.450627),translate(-0.500000,-0.500000)" id="radialGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="51.4423077%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.247131774" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" gradientTransform="translate(0.500000,0.500000),scale(0.571429,1.000000),rotate(90.000000),scale(1.000000,1.552179),translate(-0.500000,-0.500000)" id="radialGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="51.4423077%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#000000" stop-opacity="0.498798077" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.0239018794" offset="74.350795%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.313346809" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="50%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0.594542177" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="category_tube" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M30,10 L30,25.180593 C29.888725,28.9576748 24.5588674,32 18,32 C11.372583,32 6,28.8937492 6,25.0619946 L6.002,25.18 L6,25.180593 L6,10 L30,10 Z" id="MXN_BG_ID" fill="#5DA9C8"></path>
+        <g id="MXN_0_ID" transform="translate(6.000000, 4.000000)">
+            <path d="M24,6 L24,21.180593 C23.888725,24.9576748 18.5588674,28 12,28 C5.372583,28 0,24.8937492 0,21.0619946 L0.002,21.18 L0,21.180593 L0,6 L24,6 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+            <ellipse id="Oval" fill="#5DA9C8" cx="12" cy="7.5" rx="12" ry="7.5"></ellipse>
+            <ellipse id="Oval" stroke-opacity="0.202715253" stroke="#FFFFFF" stroke-width="0.5" fill="url(#radialGradient-2)" opacity="0.960425967" cx="12" cy="8" rx="11.75" ry="6.75"></ellipse>
+            <ellipse id="Oval" fill="url(#radialGradient-3)" opacity="0.199451265" cx="12" cy="7.57142857" rx="8" ry="4.57142857"></ellipse>
+            <ellipse id="Oval" stroke="url(#linearGradient-5)" stroke-width="0.5" fill="url(#linearGradient-4)" style="mix-blend-mode: hard-light;" cx="12" cy="7.19047619" rx="5.75" ry="3.17857143"></ellipse>
+        </g>
+        <path d="M18,4.5 C21.2302076,4.5 24.1789614,5.28086647 26.4118861,6.57407365 C28.5724784,7.82538916 30.0680676,9.55599633 30.4207485,11.5277288 L30.4207485,11.5277288 L30.4996165,25.4498561 C29.9360037,27.451522 28.3622709,29.2004298 26.1810582,30.4561155 C23.9620256,31.7335735 21.1118521,32.5 18,32.5 C14.8804013,32.5 12.023696,31.7298973 9.82174184,30.4464076 C7.67151573,29.1930695 6.14274028,27.4504971 5.66053537,25.4552205 L5.66053537,25.4552205 L5.50055338,11.5291695 C5.8939844,9.55496952 7.41106877,7.82184039 9.58629565,6.56960059 C11.8279272,5.2791328 14.7735398,4.5 18,4.5 Z" id="MXN_FG_ID" stroke="#0A0A0A"></path>
+    </g>
+</svg>

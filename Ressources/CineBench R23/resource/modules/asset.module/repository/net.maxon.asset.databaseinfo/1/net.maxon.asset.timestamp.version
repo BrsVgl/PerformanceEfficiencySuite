@@ -1,0 +1,9 @@
+﻿{
+	"identification": "net.maxon.asset.metadata",
+	"content": {
+		"dataType": "net.maxon.datatype.universaldatetime",
+		"content": {
+			"timestamp": 1518520807
+		}
+	}
+}

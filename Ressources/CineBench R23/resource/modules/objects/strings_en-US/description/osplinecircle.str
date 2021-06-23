@@ -1,0 +1,10 @@
+STRINGTABLE Osplinecircle
+{
+	Osplinecircle "Circle Object";
+
+	PRIM_CIRCLE_ELLIPSE				"Ellipse";
+	PRIM_CIRCLE_RING					"Ring";
+	PRIM_CIRCLE_RADIUS				"Radius";
+	PRIM_CIRCLE_RADIUSY				"Radius Y";
+	PRIM_CIRCLE_INNER					"Inner Radius";
+}

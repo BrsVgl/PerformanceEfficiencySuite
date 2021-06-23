@@ -1,0 +1,9 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS P_PAINTTOOL_FILLBITMAP
+{
+	TITLE "Fill Bitmap";
+	TMERGELAYERS "All visible layers";
+	TAA "Anti-Aliasing";
+	TTOLERANCE "Tolerance";
+}

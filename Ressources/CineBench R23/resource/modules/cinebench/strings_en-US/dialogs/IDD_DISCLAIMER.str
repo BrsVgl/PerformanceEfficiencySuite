@@ -1,0 +1,10 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_DISCLAIMER
+{
+  IDS_BUTTON   "Accept";
+  IDS_BUTTON1  "Decline";
+  IDS_DIALOG   "";
+  IDS_STATIC   "";
+  IDS_STATIC1  "";
+}

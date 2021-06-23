@@ -1,0 +1,8 @@
+STRINGTABLE ocacapsulefalloff
+{
+	ocacapsulefalloff		"Falloff Capsule";
+	
+	ID_CA_CAPSULEFALLOFF_OBJECT_TOP "Top";
+	ID_CA_CAPSULEFALLOFF_OBJECT_BOTTOM "Bottom";
+
+}

@@ -1,0 +1,6 @@
+STRINGTABLE GVswitch
+{
+	GVswitch							"Switch Operator";
+	GV_SWITCH_VAL 				"Value";
+	GV_SWITCH_OUTPUT			"Output";
+}

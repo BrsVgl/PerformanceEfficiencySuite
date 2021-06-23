@@ -1,0 +1,52 @@
+CONTAINER Ttension
+{
+	NAME Ttension;
+	INCLUDE Texpression;
+	
+	GROUP ID_TAGPROPERTIES
+	{
+		DEFAULT 1;
+
+		GROUP {
+			COLUMNS 3;
+			BUTTON TENSIONTAG_FIX { }
+			LONG TENSIONTAG_MODE {
+				CYCLE {
+					TENSIONTAG_MODE_RELATIVE;
+					TENSIONTAG_MODE_ABSOLUTE;
+				}
+			}
+			BOOL TENSIONTAG_CLAMPED { }
+		}
+		
+		GROUP
+		{
+			COLUMNS 2;
+			
+			REAL TENSIONTAG_AMOUNT { UNIT REAL; MIN 0.0; MAXSLIDER 100.0; STEP 0.1; CUSTOMGUI REALSLIDER; }
+			
+			STATICTEXT { JOINEND; }
+
+			LINK TENSIONTAG_FOLD 
+			{
+				ACCEPT { Tbase; }
+				REFUSE { Obase; }
+			}
+			BUTTON TENSIONTAG_MAKEFOLD {}
+			
+			LINK TENSIONTAG_STRETCH 
+			{
+				ACCEPT { Tbase; }
+			}
+			BUTTON TENSIONTAG_MAKESTRETCH {}
+			
+			LINK TENSIONTAG_SELECTION 
+			{
+				ACCEPT { Tpolygonselection; }
+			}
+			
+			SEPARATOR { }
+		}
+
+	}
+}

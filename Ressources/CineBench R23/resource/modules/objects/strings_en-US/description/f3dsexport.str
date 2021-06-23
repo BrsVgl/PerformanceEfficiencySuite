@@ -1,0 +1,6 @@
+STRINGTABLE F3dsexport
+{
+	F3dsexport "3D Studio Export";
+	F3DSEXPORTFILTER_SCALE	"Scale";
+	F3DSEXPORTFILTER_SPLITTEXCOORDS "Split Discontinuous Points";
+}

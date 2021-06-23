@@ -1,0 +1,84 @@
+﻿{
+	"identification": "net.maxon.asset.metadata",
+	"content": {
+		"dataType": "<net.maxon.interface.datadescriptiondefinition>C",
+		"content": {
+			"referenceClassType": "net.maxon.class.datadescriptiondefinition",
+			"_info": {},
+			"_description": [
+				{
+					"referenceDataType": "net.maxon.interface.datadictionary-C",
+					"_impl": {
+						"_mode": 1,
+						"_keyType": "net.maxon.datatype.internedid",
+						"_fastData": [
+							"net.maxon.description.base.command",
+							{
+								"dataType": "net.maxon.datatype.id",
+								"content": "exportedstring"
+							},
+							"net.maxon.description.base.identifier",
+							{
+								"dataType": "net.maxon.datatype.internedid",
+								"content": "c4dobjectspace@d22c8b13340849d6a66757b55a35cc33"
+							},
+							"net.maxon.description.string.base.translatedstring",
+							{
+								"dataType": "net.maxon.interface.string-C",
+								"content": "C4D Object Space"
+							}
+						]
+					}
+				},
+				{
+					"referenceDataType": "net.maxon.interface.datadictionary-C",
+					"_impl": {
+						"_mode": 1,
+						"_keyType": "net.maxon.datatype.internedid",
+						"_fastData": [
+							"net.maxon.description.base.command",
+							{
+								"dataType": "net.maxon.datatype.id",
+								"content": "exportedstring"
+							},
+							"net.maxon.description.base.identifier",
+							{
+								"dataType": "net.maxon.datatype.internedid",
+								"content": "c4dtangentspace@757f6133942249158b66cc296c68fecd"
+							},
+							"net.maxon.description.string.base.translatedstring",
+							{
+								"dataType": "net.maxon.interface.string-C",
+								"content": "C4D Tangent Space"
+							}
+						]
+					}
+				},
+				{
+					"referenceDataType": "net.maxon.interface.datadictionary-C",
+					"_impl": {
+						"_mode": 1,
+						"_keyType": "net.maxon.datatype.internedid",
+						"_fastData": [
+							"net.maxon.description.base.command",
+							{
+								"dataType": "net.maxon.datatype.id",
+								"content": "exportedstring"
+							},
+							"net.maxon.description.base.identifier",
+							{
+								"dataType": "net.maxon.datatype.internedid",
+								"content": "c4dworldspace@6e2df5b1dbe34196a7b1022b8a7868b6"
+							},
+							"net.maxon.description.string.base.translatedstring",
+							{
+								"dataType": "net.maxon.interface.string-C",
+								"content": "C4D World Space"
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

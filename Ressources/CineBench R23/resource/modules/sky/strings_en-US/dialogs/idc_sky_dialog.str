@@ -1,0 +1,13 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDC_SKY_DIALOG
+{
+  IDS_DIALOG    "Sky Manager";
+  IDS_STATIC27  "Group";
+  IDS_STATIC28  "Current time: ";
+  IDS_STATIC29  "";
+  IDS_STATIC39  "Group";
+  IDS_STATIC40  "Group";
+  DDDD1 "Load Sky Preset...";
+	DDDD2 "Load Weather Preset...";
+}

@@ -1,0 +1,7 @@
+STRINGTABLE Omorphdeformer
+{
+	Omorphdeformer							"Morph Deformer Object";
+	
+	MORPHDEFORMER_TARGETMORPH		"Morph Tag";
+	MORPHDEFORMER_STRENGTH			"Overall Strength";
+}

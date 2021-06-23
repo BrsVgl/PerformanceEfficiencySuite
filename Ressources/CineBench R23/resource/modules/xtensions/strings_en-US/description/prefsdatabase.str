@@ -1,0 +1,5 @@
+STRINGTABLE Prefsdatabase
+{
+	Prefsdatabase					"Database";
+	PREF_DATABASE_PATHS		"Search Paths";
+}

@@ -1,0 +1,41 @@
+////////////////////////////////////////////////////////////////
+// xwood
+////////////////////////////////////////////////////////////////
+// (c) 1989-2010 Maxon Computer GmbH, all rights reserved
+////////////////////////////////////////////////////////////////
+
+STRINGTABLE xwood
+{
+	xwood																"Wood";
+
+	WOODSHADER_LEGACY										"Legacy";
+
+	WOODSHADER_RINGMODE									"Annual Rings";
+	WOODSHADER_SCALE										"Scale";
+	WOODSHADER_STRETCH									"Stretch";
+	WOODSHADER_RING_SCALE								"Ring Scale";
+	WOODSHADER_GRAIN_SCALE							"Grain Scale";
+	WOODSHADER_GRAINY										"Grainy";
+	WOODSHADER_WAVY											"Wavy";
+	WOODSHADER_WAVY_SCALE								"Wavy Scale";
+	WOODSHADER_RING_WAVY								"Wavy Rings";
+	WOODSHADER_RING_WAVY_SCALE					"Wavy Rings Scale";
+	WOODSHADER_SHIFT										"Shift";
+	WOODSHADER_COLOR										"Color";
+	WOODSHADER_COLOR_PRESET							"Type";
+		WOODSHADER_COLOR_PRESET_CUSTOM			"Custom";
+		WOODSHADER_COLOR_PRESET_WALNUT			"Walnut";
+		WOODSHADER_COLOR_PRESET_MAHAGONY		"Mahogany";
+		WOODSHADER_COLOR_PRESET_JACARANDA		"Jacaranda";
+		WOODSHADER_COLOR_PRESET_PINEWOOD		"Pinewood";
+
+	WOODSHADER_SIMPLE_COLOR							"Color";
+	WOODSHADER_SIMPLE_SCALE							"Frequency";
+	WOODSHADER_SIMPLE_TURBULENCE				"Turbulence";
+	WOODSHADER_SIMPLE_TYPE							"Type";
+		WOODSHADER_SIMPLE_TYPE_CUSTOM				"Custom";
+		WOODSHADER_SIMPLE_TYPE_WALNUT				"Walnut";
+		WOODSHADER_SIMPLE_TYPE_MAHOGANY			"Mahogany";
+		WOODSHADER_SIMPLE_TYPE_JACARANDA		"Jacaranda";
+		WOODSHADER_SIMPLE_TYPE_PINEWOOD			"Pinewood";
+}

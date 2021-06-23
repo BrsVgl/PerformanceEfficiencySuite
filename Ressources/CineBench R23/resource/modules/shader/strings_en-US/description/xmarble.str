@@ -1,0 +1,8 @@
+STRINGTABLE Xmarble
+{
+	Xmarble "Marble Shader";
+
+	MARBLESHADER_COLOR			"Color";
+	MARBLESHADER_SCALE			"Frequency";
+	MARBLESHADER_TURBULENCE	"Turbulence";
+}

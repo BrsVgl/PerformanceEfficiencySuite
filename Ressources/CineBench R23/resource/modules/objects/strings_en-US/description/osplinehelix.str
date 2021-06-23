@@ -1,0 +1,13 @@
+STRINGTABLE Osplinehelix
+{
+	Osplinehelix "Helix Object";
+
+	PRIM_HELIX_START					"Start Angle";
+	PRIM_HELIX_END						"End Angle";
+	PRIM_HELIX_RADIUS1				"Start Radius";
+	PRIM_HELIX_RADIUS2				"End Radius";
+	PRIM_HELIX_HEIGHT					"Height";
+	PRIM_HELIX_RADIALBIAS			"Radial Bias";
+	PRIM_HELIX_HEIGHTBIAS			"Height Bias";
+	PRIM_HELIX_SUB						"Subdivision";
+}

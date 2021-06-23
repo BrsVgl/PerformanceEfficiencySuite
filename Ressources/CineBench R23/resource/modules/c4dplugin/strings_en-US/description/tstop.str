@@ -1,0 +1,7 @@
+STRINGTABLE Tstop
+{
+	Tstop "Stop Tag";
+
+	STOPTAG_GENERATOR "Stop Generators";
+	STOPTAG_MODIFIER  "Stop Deformers";
+}

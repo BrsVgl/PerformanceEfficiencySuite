@@ -1,0 +1,10 @@
+STRINGTABLE Ometaball
+{
+	Ometaball "Metaball Object";
+
+	METABALLOBJECT_THRESHOLD		"Hull Value";
+	METABALLOBJECT_SUBEDITOR		"Editor Subdivision";
+	METABALLOBJECT_SUBRAY				"Render Subdivision";
+	METABALLOBJECT_EXPONENTIAL	"Exponential Falloff";
+	METABALLOBJECT_ACCURATENORMALS	"Accurate Normals";
+}

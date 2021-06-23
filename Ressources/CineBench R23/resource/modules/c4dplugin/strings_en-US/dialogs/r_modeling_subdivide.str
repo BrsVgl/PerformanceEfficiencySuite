@@ -1,0 +1,13 @@
+DIALOGSTRINGS R_MODELING_SUBDIVIDE
+{
+  T1 "Subdivide";
+  T2 "Iterations";
+  T3 "88888888";
+  T4 "Smooth Subdivision";
+  T5 "Maximum Angle";
+  T6 "Subdivisions";
+  T7 "Pattern";
+  T8 "Catmull-Clark";
+  T9 "Loop";
+  T10 "Opposite";
+}

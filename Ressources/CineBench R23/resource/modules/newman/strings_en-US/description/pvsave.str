@@ -1,0 +1,24 @@
+STRINGTABLE Pvsave
+{
+	Pvsave	 "Settings";
+	
+	ID_PV_SAVE_PROPERTIES_GRP	"Save";
+	ID_PV_SAVE_ALL				"All";
+	ID_PV_SAVE_FILE				"File";
+	ID_PV_SAVE_FORMAT			"Format";
+	ID_PV_SAVE_FORMAT_DEPTH		"Depth";
+		ID_PV_SAVE_DEPTH_8		"8 bits/channel";
+		ID_PV_SAVE_DEPTH_16		"16 bits/channel";
+		ID_PV_SAVE_DEPTH_32		"32 bits/channel";
+	ID_PV_SAVE_DPI				"DPI";
+	ID_PV_SAVE_MULTIPASS		"Layers";
+	ID_SAVE_CURRENT_SOUND		"Sound";
+	ID_PV_SAVE_OPTIONS			"Options";
+	ID_PV_SAVE_OK				"Save";
+	
+
+	ID_PV_SAVE_SAVE			"Save ";
+		ID_SAVE_CURRENT_FRAME		"Active Frame";
+		ID_SAVE_CURRENT_SEQUENCE	"Active Sequence";
+		ID_SAVE_SELECTED			"Selected Frames";		
+}

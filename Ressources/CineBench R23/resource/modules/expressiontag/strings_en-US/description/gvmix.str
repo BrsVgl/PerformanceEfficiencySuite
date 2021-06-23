@@ -1,0 +1,9 @@
+STRINGTABLE GVmix
+{
+	GVmix												"Mix Operator";
+	GV_MIX_INPUT_MIXINGFACTOR		"Mixing Factor";
+	GV_MIX_INPUT1								"Input 1";
+	GV_MIX_INPUT2								"Input 2";
+
+	GV_MIX_OUTPUT								"Output";
+}

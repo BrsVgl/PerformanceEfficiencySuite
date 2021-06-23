@@ -1,0 +1,7 @@
+STRINGTABLE Fshader
+{
+	Fshader "Shader Field";
+	
+	FIELD_SHADER_FRAME_DEPENDENT "Frame";
+	FIELD_SHADER_REFRESH_GROUP "Refresh";
+}

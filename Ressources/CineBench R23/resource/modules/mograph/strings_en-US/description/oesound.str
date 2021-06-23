@@ -1,0 +1,7 @@
+STRINGTABLE Oesound
+{
+	Oesound "Sound";
+
+  MGSOUNDEFFECTOR_GADGET "Sound";
+
+}

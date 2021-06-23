@@ -1,0 +1,6 @@
+STRINGTABLE Fgroup
+{
+	Fgroup																"Group Field";
+	
+	FIELDGROUP_FIELDS											"Fields";
+}

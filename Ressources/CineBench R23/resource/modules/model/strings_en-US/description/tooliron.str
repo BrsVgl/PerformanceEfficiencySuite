@@ -1,0 +1,8 @@
+STRINGTABLE ToolIron
+{
+  ToolIron	"Iron";
+
+	MDATA_IRON_ANGLE	"Angle";
+	MDATA_IRON_PERCENT	"Strength";
+	MDATA_IRON_PRESERVEBOUNDARY "Preserve Boundaries";
+}

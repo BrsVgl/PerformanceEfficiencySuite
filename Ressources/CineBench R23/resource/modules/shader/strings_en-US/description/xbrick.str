@@ -1,0 +1,119 @@
+////////////////////////////////////////////////////////////////
+// Brick
+////////////////////////////////////////////////////////////////
+// (c) 1989-2010 Maxon Computer GmbH, all rights reserved
+////////////////////////////////////////////////////////////////
+
+STRINGTABLE xbrick
+{
+	xbrick 												"Brick";
+
+	BRICK_GROUP_DIMENSIONS				"Dimensions";
+	BRICK_SCALE			         			"Scale";
+	BRICK_WIDTH										"Brick Width";
+	BRICK_HEIGHT									"Brick Height";
+	BRICK_SHIFT										"Shift";
+	BRICK_SHIFT_RESET							"Reset Every nth Row";
+	BRICK_HALFWIDTH								"Half Width Every nth Row";
+	BRICK_HALFWIDTH_SHIFT					"Shift";
+
+	BRICK_GROUP_GAPS							"Gaps";
+	BRICK_GAPSIZE									"Size";
+	BRICK_DEPTH										"Depth";
+	BRICK_GAPNOTCH								"Groove";
+	BRICK_NOISE_SCALE							"Size Variation Scale";
+	BRICK_NOISE_INTENSITY					"Size Variation";
+
+	BRICK_GROUP_COLOR							"Colors";
+	BRICK_COL											"Brick Color";
+	BRICK_ALTCOL									"Alt. Brick Color";
+	BRICK_GAPCOL									"Gap Color";
+	BRICK_COL_NOISE_SCALE					"Brick Noise Scale";
+	BRICK_GAPCOL_NOISE_SCALE			"Gap Noise Scale";
+	BRICK_COL_NOISE_OCT						"Octaves";
+	BRICK_COL_DETAILS_INTENSITY		"Detail";
+	BRICK_COL_DETAILS_SCALE				"Detail Scale";
+	BRICK_COL_DETAILS_OCT					"Detail Octaves";
+	BRICK_ALTCOL_VPERIOD					"Alt. Color Every n Rows";
+	BRICK_ALTCOL_HPERIOD					"Alt. Color Every n Columns";
+	BRICK_ALTCOL_BALANCE_HPERIOD	"Balance Alt. Color Period";
+	
+	BRICK_TEX											"Brick Texture";
+	BRICK_TEX_LINK								"Texture";
+	BRICK_TEX_OFFSET							"Offset";
+	BRICK_TEX_OFFSET_RANDOM				"Random";
+	BRICK_TEX_SCALE								"Scale";
+	BRICK_TEX_OPACITY							"Opacity";
+	BRICK_TEX_BLENDMODE						"Blend Mode";
+	BRICK_TEX_FLIP								"Flip";
+	BRICK_TEX_DETAILGROUP					"Texture Details";
+	
+	BRICK_ALTTEX									"Alt. Brick Texture";
+	BRICK_ALTTEX_LINK							"Texture";
+	BRICK_ALTTEX_OFFSET						"Offset";
+	BRICK_ALTTEX_OFFSET_RANDOM		"Random";
+	BRICK_ALTTEX_SCALE						"Scale";
+	BRICK_ALTTEX_OPACITY					"Opacity";
+	BRICK_ALTTEX_BLENDMODE				"Blend Mode";
+	BRICK_ALTTEX_FLIP							"Flip";
+	BRICK_ALTTEX_DETAILGROUP			"Texture Details";
+	
+	BRICK_GAPTEX									"Gap Texture";
+	BRICK_GAPTEX_LINK							"Texture";
+	BRICK_GAPTEX_SCALE						"Scale";
+	BRICK_GAPTEX_OPACITY					"Opacity";
+	BRICK_GAPTEX_BLENDMODE				"Blend Mode";
+	BRICK_GAPTEX_FLIP							"Flip";
+	BRICK_GAPTEX_DETAILGROUP			"Texture Details";
+
+	BRICK_BLENDMODE_NORMAL				"Normal";
+	BRICK_BLENDMODE_MULTIPLY			"Multiply";
+	BRICK_BLENDMODE_OVERLAY				"Overlay";
+	BRICK_BLENDMODE_DODGE					"Dodge";
+	BRICK_BLENDMODE_BURN					"Burn";
+	BRICK_BLENDMODE_LIGHTEN				"Lighten";
+	BRICK_BLENDMODE_DARKEN				"Darken";
+	BRICK_BLENDMODE_COLOR					"Color";
+	
+	BRICK_GROUP_DIRT							"Dirt";
+	BRICK_DIRT_ENABLE							"Enable";
+	BRICK_DIRT_ENABLE_BRICK				"Brick";
+	BRICK_DIRT_ENABLE_GAP					"Gap";
+	BRICK_DIRT_OPACITY						"Opacity";
+	BRICK_DIRT_GAP_BLEND					"Gap Blending";
+	BRICK_DIRT_BRICK_BLEND				"Brick Blending";
+	BRICK_DIRT_COL								"Color";
+	BRICK_DIRT_ALPHA							"Opacity";
+	BRICK_DIRT_COL_SCALE					"Color Scale";
+	BRICK_DIRT_COL_OCT						"Octaves";
+	BRICK_DIRT_ALPHA_SCALE				"Opacity Scale";
+	BRICK_DIRT_ALPHA_SHIFT				"Shift";
+	BRICK_DIRT_ALPHA_OCT					"Octaves";
+
+	BRICK_DIRTTEX									"Dirt Texture";
+	BRICK_DIRTTEX_LINK						"Texture";
+	BRICK_DIRTTEX_COLOR_LINK			"Color Texture";
+	BRICK_DIRTTEX_ALPHA_CONTRAST	"Alpha Contrast";
+	BRICK_DIRTTEX_ALPHA_BIAS			"Alpha Bias";
+	BRICK_DIRTTEX_ALPHA_INVERT		"Alpha Invert";
+	BRICK_DIRTTEX_RAIN						"Rain";
+	BRICK_DIRTTEX_RAIN_SAMPLES		"Samples";
+	BRICK_DIRTTEX_RAIN_DOCOLOR		"Blur Color Texture";
+	BRICK_DIRTTEX_SHIFT						"Shift";
+	BRICK_DIRTTEX_SCALE						"Scale";
+	BRICK_DIRTTEX_FLIP						"Flip";
+	BRICK_DIRTTEX_MULTIPLYCOLOR		"Multiply with Gradient";
+	BRICK_DIRTTEX_DETAILGROUP			"Texture Details";
+
+	BRICK_DISPLACEMENTMODE								"Displacement Mode";
+	BRICK_DISPLACEMENTMODE_ENABLE					"Enable";
+	BRICK_DISPLACEMENTMODE_SLOPE_MODE			"Slope Direction";
+		BRICK_DISPLACEMENTMODE_MODE_SLOPE_RANDOM		"Random";
+		BRICK_DISPLACEMENTMODE_MODE_SLOPE_LEFT			"Left";
+		BRICK_DISPLACEMENTMODE_MODE_SLOPE_RIGHT			"Right";
+		BRICK_DISPLACEMENTMODE_MODE_SLOPE_UP				"Up";
+		BRICK_DISPLACEMENTMODE_MODE_SLOPE_DOWN			"Down";
+	BRICK_DISPLACEMENTMODE_RANDOM_HEIGHT	"Height Variation";
+	BRICK_DISPLACEMENTMODE_RANDOM_SLOPE		"Slope Intensity";
+	BRICK_DISPLACEMENTMODE_SEED						"Seed";
+}

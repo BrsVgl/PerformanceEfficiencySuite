@@ -1,0 +1,17 @@
+STRINGTABLE MT_LAYER
+{
+	MT_LAYER       			"Motion Layer";
+	ID_MT_LAYER_MUTE		"Mute";
+	ID_MT_LAYER_PASSTHROUGH	"Passthrough";
+	ID_MT_LAYER_VALUE		"Layer Value";
+	ID_MT_LAYER_SOLO		"Solo";
+
+	ID_MT_LAYER_MODE   		"Mode";
+	ID_MT_LAYER_MODE_MIX	"Mixing";
+	ID_MT_LAYER_MODE_ADD	"Relative";
+	ID_MT_LAYER_MODE_REP	"Absolute";
+
+	ID_MT_LAYER_ACTIVE		"Active";
+
+	ID_MT_LAYER_QUATERNION	"Quaternion Interpolation";
+}

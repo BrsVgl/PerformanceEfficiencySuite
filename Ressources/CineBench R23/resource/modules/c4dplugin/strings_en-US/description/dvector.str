@@ -1,0 +1,8 @@
+STRINGTABLE Dvector
+{
+	Dvector			"Vector Datatype";
+
+	VECTOR_X		"X";
+	VECTOR_Y		"Y";
+	VECTOR_Z		"Z";
+}

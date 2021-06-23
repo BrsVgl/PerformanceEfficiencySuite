@@ -1,0 +1,120 @@
+STRINGTABLE XSLABanzi
+{
+  XSLABanzi                               "Banzi Shader";
+
+  ID_BANZI_WOOD                           "Wood";
+  ID_BANZI_DIFFUSE                        "Diffuse";
+  ID_BANZI_SPECULAR1                      "Specular 1";
+  ID_BANZI_SPECULAR2                      "Specular 2";
+  ID_BANZI_SPECULAR3                      "Specular 3";
+  ID_BANZI_REFLECTION                     "Reflection";
+  ID_BANZI_ENVIRONMENT                    "Environment";
+  ID_BANZI_AMBIENT                        "Ambient";
+  ID_BANZI_ROUGHNESS                      "Roughness";
+  ID_BANZI_ANISOTROPY                    "Anisotropy";
+
+  SLA_BANZI_WOOD                          "Wood";
+  SLA_BANZI_DIFFUSE                       "Diffuse";
+  SLA_BANZI_SPECULAR1                     "Specular 1";
+  SLA_BANZI_SPECULAR2                     "Specular 2";
+  SLA_BANZI_SPECULAR3                     "Specular 3";
+  SLA_BANZI_REFLECTION                    "Reflection";
+  SLA_BANZI_ENVIRONMENT                   "Environment";
+  SLA_BANZI_AMBIENT                       "Ambient";
+  SLA_BANZI_ROUGHNESS                     "Roughness";
+  SLA_BANZI_ANISOTROPY                   "Anisotropy";
+
+  SLA_BANZI_WOOD_GRADIENT                 "Color";
+  SLA_BANZI_WOOD_RING_INTENSITY           "Ring intensity";
+  SLA_BANZI_WOOD_RING_SCALE               "Ring Scale";
+  SLA_BANZI_WOOD_RING_TURBULENCE          "Ring Turbulence";
+  SLA_BANZI_WOOD_TURBULENCE_SCALE         "Turbulence Scale";
+  SLA_BANZI_WOOD_RING_VARIANCE            "Ring Variance";
+  SLA_BANZI_WOOD_CORE_VARIANCE            "Core Variance";
+  SLA_BANZI_WOOD_VARIANCE_SCALE           "Variance Scale";
+  SLA_BANZI_WOOD_RADIAL_VARIANCE          "Radial Variance";
+  SLA_BANZI_WOOD_RADIAL_VARIANCE_SCALE    "Variance Scale";
+  SLA_BANZI_WOOD_GRAIN_INTENSITY          "Grain Intensity";
+  SLA_BANZI_WOOD_GRAIN_SCALE              "Grain Scale";
+  SLA_BANZI_WOOD_ATTENUATION              "Attenuation";
+
+  SLA_BANZI_DIFFUSE_SURF_COLOR            "Surface Color";
+  SLA_BANZI_DIFFUSE_ALGORITHM             "Algorithm";
+    SLA_BANZI_DIFFUSE_ALGORITHM_INTERNAL    "Internal";
+    SLA_BANZI_DIFFUSE_ALGORITHM_OREN_NAYAR  "Oren Nayar";
+  SLA_BANZI_DIFFUSE_ROUGHNESS             "Roughness";
+  SLA_BANZI_DIFFUSE_SURF_ILLUMINATION     "Surface Illumination";
+  SLA_BANZI_DIFFUSE_CONTRAST              "Contrast";
+
+  SLA_BANZI_SPEC1_COLOR                   "Color";
+  SLA_BANZI_SPEC1_INTENSITY               "Intensity";
+  SLA_BANZI_SPEC1_SIZE                    "Size";
+  SLA_BANZI_SPEC1_CONTRAST                "Contrast";
+  SLA_BANZI_SPEC1_GLARE                   "Glare";
+  SLA_BANZI_SPEC1_FALLOFF                 "Falloff";
+
+  SLA_BANZI_SPEC2_COLOR                   "Color";
+  SLA_BANZI_SPEC2_INTENSITY               "Intensity";
+  SLA_BANZI_SPEC2_SIZE                    "Size";
+  SLA_BANZI_SPEC2_CONTRAST                "Contrast";
+  SLA_BANZI_SPEC2_GLARE                   "Glare";
+  SLA_BANZI_SPEC2_FALLOFF                 "Falloff";
+
+  SLA_BANZI_SPEC3_COLOR                   "Color";
+  SLA_BANZI_SPEC3_INTENSITY               "Intensity";
+  SLA_BANZI_SPEC3_SIZE                    "Size";
+  SLA_BANZI_SPEC3_CONTRAST                "Contrast";
+  SLA_BANZI_SPEC3_GLARE                   "Glare";
+  SLA_BANZI_SPEC3_FALLOFF                 "Falloff";
+
+  SLA_BANZI_REFLECTION_INTENSITY          "Intensity";
+  SLA_BANZI_REFLECTION_EDGE_INTENSITY     "Edge Intensity";
+  SLA_BANZI_REFLECTION_FALLOFF            "Falloff";
+  SLA_BANZI_REFLECTION_REFLECTION_COLOR   "Reflection Color";
+  SLA_BANZI_REFLECTION_EDGE_COLOR         "Reflection Edge Color";
+
+  SLA_BANZI_ENVIRONMENT_IMAGE             "Image";
+  SLA_BANZI_ENVIRONMENT_INTENSITY         "Intensity";
+  SLA_BANZI_ENVIRONMENT_GLARE             "Glare";
+  SLA_BANZI_ENVIRONMENT_FALLOFF           "Falloff";
+  SLA_BANZI_ENVIRONMENT_UTILIZE_ANISO_SCRATCHES "Utilize Anisotropic Scratches";
+  SLA_BANZI_ENVIRONMENT_BLUR              "Blur";
+  SLA_BANZI_ENVIRONMENT_SAMPLES           "Samples";
+  SLA_BANZI_ENVIRONMENT_JITTER            "Jitter";
+  SLA_BANZI_ENVIRONMENT_ENVIRONMENT_COLOR "Environment Color";
+  SLA_BANZI_ENVIRONMENT_EDGE_COLOR        "Edge Color";
+
+  SLA_BANZI_AMBIENT_COLOR                 "Color";
+  SLA_BANZI_AMBIENT_INTENSITY             "Intensity";
+  SLA_BANZI_AMBIENT_EDGE_INTENSITY        "Edge Intensity";
+  SLA_BANZI_AMBIENT_FALLOFF               "Falloff";
+
+  SLA_BANZI_ROUGHNESS_AMPLITUDE           "Amplitude";
+  SLA_BANZI_ROUGHNESS_DELTA               "Delta";
+  SLA_BANZI_ROUGHNESS_LOW_CLIP            "Low Clip";
+  SLA_BANZI_ROUGHNESS_HIGH_CLIP           "High Clip";
+  SLA_BANZI_ROUGHNESS_GRIT_COLOR          "Grit Color";
+  SLA_BANZI_ROUGHNESS_GRIT_INTENSITY      "Grit Intensity";
+  SLA_BANZI_ROUGHNESS_GRIT_LOW_CLIP       "Grit Low Clip";
+  SLA_BANZI_ROUGHNESS_GRIT_HIGH_CLIP      "Grit High Clip";
+
+  SLA_BANZI_ANISOTROPY_PROJECTION        "Projection";
+    SLA_BANZI_ANISOTROPY_PROJECTION_PLANAR               "Planar";
+    SLA_BANZI_ANISOTROPY_PROJECTION_AUTO_PLANAR          "Auto Planar";
+    SLA_BANZI_ANISOTROPY_PROJECTION_SHRINK_WRAP          "Shrink Wrap";
+    SLA_BANZI_ANISOTROPY_PROJECTION_RADIAL_AUTO_PLANAR   "Radial Auto Planar";
+    SLA_BANZI_ANISOTROPY_PROJECTION_RAD_PATTERN_AUTO_PLANAR  "Radial Pattern Auto Planar";
+    SLA_BANZI_ANISOTROPY_PROJECTION_RADIAL_PLANAR        "Radial Planar";
+    SLA_BANZI_ANISOTROPY_PROJECTION_RAD_PATTERN_PLANAR   "Radial Pattern Planar";
+
+  SLA_BANZI_ANISOTROPY_PROJ_SCALE        "Projection Scale";
+  SLA_BANZI_ANISOTROPY_X_ROUGH           "Roughness X";
+  SLA_BANZI_ANISOTROPY_Y_ROUGH           "Roughness Y";
+  SLA_BANZI_ANISOTROPY_AMPL              "Amplitude";
+  SLA_BANZI_ANISOTROPY_SCALE             "Scale";
+  SLA_BANZI_ANISOTROPY_LENGTH            "Length";
+  SLA_BANZI_ANISOTROPY_ATT               "Attenuation";
+  SLA_BANZI_ANISOTROPY_CHANNEL1          "Specular 1";
+  SLA_BANZI_ANISOTROPY_CHANNEL2          "Specular 2";
+  SLA_BANZI_ANISOTROPY_CHANNEL3          "Specular 3";
+}

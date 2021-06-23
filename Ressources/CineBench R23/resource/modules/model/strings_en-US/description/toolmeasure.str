@@ -1,0 +1,52 @@
+STRINGTABLE ToolMeasure
+{
+  ToolMeasure											"Measure & Construction Tool";
+
+	MDATA_MEASURE_SELECTION					"Selection";
+	MDATA_MEASURE_NEW								"New Measure";
+	MDATA_MEASURE_DELETE						"Delete Measure";
+	MDATA_MEASURE_CREATEOBJECT			"Create Object";
+
+	MDATA_MEASURE_3RD_POINT					"3rd Point";
+
+	MDATA_MEASURE_SHOWDIST1					"Measure Distance 1" "Measure";
+	MDATA_MEASURE_SHOWDIST2					"Measure Distance 2" "Measure";
+	MDATA_MEASURE_SHOWANGLE					"Measure Angle" "Measure";
+	MDATA_MEASURE_DIR1							"Revert Direction" "Reverse";
+	MDATA_MEASURE_DIR2							"Revert Direction" "Reverse";
+	MDATA_MEASURE_FIXROT						"Revert Axis" "Reverse";
+	MDATA_MEASURE_VISIBLE						"Show";
+
+	MDATA_MEASURE_COLORP						"Point Color" "Points";
+	MDATA_MEASURE_COLOR1						"Color 1" "Rule 1";
+	MDATA_MEASURE_COLOR2						"Color 2" "Rule 2";
+
+	MDATA_MEASURE_DIST1							"Distance 1";
+	MDATA_MEASURE_DIST2							"Distance 2";
+	MDATA_MEASURE_ANGLE							"Angle";
+
+	MDATA_MEASURE_PNT1_LINK					"Point 1 Object"   "Object";
+	MDATA_MEASURE_PNT1_MODE					"Point 1 Mode"     "Mode";
+	MDATA_MEASURE_PNT1_IDX					"Point 1 Index"    "Index";
+	MDATA_MEASURE_PNT1_VECTOR				"Point 1 Position" "Position";
+
+	MDATA_MEASURE_PNT2_LINK					"Point 2 Object"    "Object";
+	MDATA_MEASURE_PNT2_MODE					"Point 2 Mode"      "Mode";
+	MDATA_MEASURE_PNT2_IDX					"Point 2 Index"     "Index";
+	MDATA_MEASURE_PNT2_VECTOR				"Point 2 Position"  "Position";
+
+	MDATA_MEASURE_PNT3_LINK					"Point 3 Object"    "Object";
+	MDATA_MEASURE_PNT3_MODE					"Point 3 Mode"      "Mode";
+	MDATA_MEASURE_PNT3_IDX					"Point 3 Index"     "Index";
+	MDATA_MEASURE_PNT3_VECTOR				"Point 3 Position"  "Position";
+
+		MDATA_MEASURE_PNT_MODE_FREE			"World";
+		MDATA_MEASURE_PNT_MODE_POINT		"Point Ref.";
+		MDATA_MEASURE_PNT_MODE_EDGE			"Edge Ref.";
+		MDATA_MEASURE_PNT_MODE_POLY			"Polygon Ref.";
+
+	MDATA_MEASUREGROUP_COLORS				"Colors";
+	MDATA_MEASUREGROUP_P1						"Point1";
+	MDATA_MEASUREGROUP_P2						"Point2";
+	MDATA_MEASUREGROUP_P3						"Point3";
+}

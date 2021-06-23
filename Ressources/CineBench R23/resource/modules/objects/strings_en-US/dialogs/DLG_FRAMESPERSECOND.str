@@ -1,0 +1,13 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_FRAMESPERSECOND
+{
+	TNAME "Frames Per Second";
+	TACTIVEVIEW "Active View";
+	TTIMER "Timer (TEST-OPTION)";
+	TSTART "Start";
+	TSTOP "Stop";
+	TANIM "Anim Test";
+	TREVERSE "Reverse Anim";
+	TTEXTUREVIEW "Texture View";
+}

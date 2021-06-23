@@ -1,0 +1,13 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	IDS_TITLE "Anonymous Application Activity";
+	
+	IDS_DESCRIPTION_HEADLINE "Anonymous Application Activity";
+	IDS_DESCRIPTION_PARAGRAPH "Here at Maxon we are always trying to make a good thing better. To help us do that, Cinema 4D will occasionally report its activity and performance back to Maxon. This helps us direct our efforts more precisely, and tells us where we are getting things right and where we can improve Cinema 4D for you. All data is strictly, absolutely, completely and totally anonymous. There is no relationship between the user or the device, and the data sent. You can turn this function off under Preferences->Communication->Anonymous Application Activity by selecting \u2019Disable\u2019.";
+
+	IDS_CONNECTING_TO_SERVER "Establish connection to server ...";
+	IDS_SERVER_NOT_REACHABLE "Server currently not available. Please try again later.";
+}

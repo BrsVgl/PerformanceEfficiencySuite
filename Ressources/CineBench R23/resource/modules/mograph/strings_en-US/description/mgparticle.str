@@ -1,0 +1,7 @@
+STRINGTABLE MGparticle
+{
+	MGparticle "Particle Clone";
+
+	MG_PARTICLE_STRETCH "Velocity Stretch";
+	MG_PARTICLE_SCALE "Particle Scale";
+}

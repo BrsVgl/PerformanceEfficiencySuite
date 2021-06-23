@@ -1,0 +1,10 @@
+STRINGTABLE Xearth
+{
+	Xearth "Earth Shader";
+
+	EARTHSHADER_SEA				"Sea Level";
+	EARTHSHADER_LAND 			"Land Level";
+	EARTHSHADER_MOUNTAIN	"Mountain Level";
+	EARTHSHADER_FREQUENCY	"Frequency";
+	EARTHSHADER_LEVEL			"Level";
+}

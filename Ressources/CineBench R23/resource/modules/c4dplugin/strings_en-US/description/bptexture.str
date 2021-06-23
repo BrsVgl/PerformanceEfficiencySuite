@@ -1,0 +1,11 @@
+STRINGTABLE BPtexture
+{
+	BPtexture													"Texture";
+	ID_PAINTTEXTURE_FILENAME					"Filename";
+	ID_PAINTTEXTURE_MODE							"Mode";
+	ID_PAINTTEXTURE_SAVEFORMAT				"File Format";
+	ID_PAINTTEXTURE_PATHS 						"Paths";
+	ID_PAINTTEXTURE_ICCPROFILE				"Color Profile";
+	ID_PAINTTEXTURE_DPI								"DPI";
+	ID_PAINTTEXTURE_ASPECTRATIO				"Aspect Ratio";
+}

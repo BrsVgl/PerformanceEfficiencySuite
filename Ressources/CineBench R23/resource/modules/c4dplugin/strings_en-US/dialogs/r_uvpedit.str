@@ -1,0 +1,6 @@
+DIALOGSTRINGS R_UVPEDIT
+{
+  T2 "U";
+  T3 "V";
+  T4 "W";
+}

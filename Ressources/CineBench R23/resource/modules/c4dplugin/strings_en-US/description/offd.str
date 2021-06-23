@@ -1,0 +1,10 @@
+STRINGTABLE Offd
+{
+	Offd "FFD Object";
+
+	FFDOBJECT_SIZE	"Grid Size";
+	FFDOBJECT_XSUB  "Grid Points X";
+	FFDOBJECT_YSUB  "Grid Points Y";
+	FFDOBJECT_ZSUB  "Grid Points Z";
+	FFDOBJECT_FITTOPARENT	"Fit to Parent";
+}

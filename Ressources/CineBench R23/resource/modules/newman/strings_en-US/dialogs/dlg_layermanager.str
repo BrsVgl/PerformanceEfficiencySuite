@@ -1,0 +1,13 @@
+DIALOGSTRINGS DLG_LAYERMANAGER
+{
+	TITLE "Layer Manager";
+
+	TADD    "Add";
+	TSEL    "Sel";
+	TDEL    "Del";
+	TLAYER  "New";
+	TACTIVE "Active";
+
+	TBUTTON "Button";
+}
+

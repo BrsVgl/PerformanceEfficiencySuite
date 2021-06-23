@@ -1,0 +1,19 @@
+STRINGTABLE vppositionpass
+{
+	vppositionpass														"Position Pass";
+	
+	VP_POSITIONPASS_INFO											"To get the Position Pass, add the Multipass Layer 'Post Effects' to your render settings.";
+	VP_POSITIONPASS_FLIP											"Channel Order";
+		VP_POSITIONPASS_FLIP_RGB									"RGB";
+		VP_POSITIONPASS_FLIP_RBG									"RBG";
+		VP_POSITIONPASS_FLIP_GBR									"GBR";
+		VP_POSITIONPASS_FLIP_GRB									"GRB";
+		VP_POSITIONPASS_FLIP_BGR									"BGR";
+		VP_POSITIONPASS_FLIP_BRG									"BRG";
+	VP_POSITIONPASS_SPACE											"Space";
+		VP_POSITIONPASS_SPACE_WORLD								"World";
+		VP_POSITIONPASS_SPACE_CAMERA							"Camera";
+		VP_POSITIONPASS_SPACE_OBJECT							"Object";
+	VP_POSITIONPASS_SCALE											"Scale";
+	VP_POSITIONPASS_INVERTZ										"Invert Z";
+}

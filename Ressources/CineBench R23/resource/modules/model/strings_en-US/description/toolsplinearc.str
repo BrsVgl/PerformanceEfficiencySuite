@@ -1,0 +1,32 @@
+STRINGTABLE ToolSplineArc
+{
+  ToolSplineArc	"Spline Arc";
+
+	MDATA_GUIGROUP								"Display";
+	MDATA_NUMERICGROUP							"Transform";
+
+	MDATA_SPLINEARC_MODE						"Type";
+		MDATA_SPLINEARC_MODE_THREEPOINT				"Three Point";
+		MDATA_SPLINEARC_MODE_CENTEREDGE				"Center then Edge";
+		MDATA_SPLINEARC_MODE_LINE					"Edge Lines";
+
+	MDATA_SPLINEARC_FIRSTPOINT					"First Point";
+	MDATA_SPLINEARC_MIDPOINT					"Middle Point";
+	MDATA_SPLINEARC_ENDPOINT					"End Point";
+	MDATA_SPLINEARC_CENTER						"Center";
+	MDATA_SPLINEARC_RADIUS						"Radius";
+	MDATA_SPLINEARC_ANGLE						"Angle";
+	MDATA_SPLINEARC_FULLCIRCLE					"Full Circle";
+
+	MDATA_SPLINEARC_HYPERBOLICLINES				"Hyperbolic Lines";
+	MDATA_SPLINEARC_ROTATEPOINT					"Rotation Point";
+		MDATA_SPLINEARC_ROTATEPOINT_CENTER			"Center";
+		MDATA_SPLINEARC_ROTATEPOINT_FIRST			"First Arc Point";
+		MDATA_SPLINEARC_ROTATEPOINT_MIDDLE			"Middle Arc Point";
+		MDATA_SPLINEARC_ROTATEPOINT_LAST			"Last Arc Point";
+
+	MDATA_SPLINEARC_POINTINDEX1					"First Insert Spline Point Index";
+	MDATA_SPLINEARC_OBJECT1							"Object First Insert Spline Point Index Belongs To";
+	MDATA_SPLINEARC_POINTINDEX2					"Second Insert Spline Point Index";
+	MDATA_SPLINEARC_OBJECT2							"Object Second Insert Spline Point Index Belongs To";
+}

@@ -1,0 +1,93 @@
+CONTAINER Prefsmaterial
+{
+	NAME Prefsmaterial;
+
+	GROUP PREF_MM_MAIN_GROUP
+	{
+		DEFAULT 1;
+		COLUMNS 1;
+
+		GROUP PREF_MM_MATPREVIEWGROUP
+		{
+			DEFAULT 1;
+			COLUMNS 1;
+
+			LONG PREF_MM_SIZE
+			{
+				ANIM OFF;
+				CYCLE
+				{
+					PREF_MM_SIZE_SMALL;
+					PREF_MM_SIZE_MED;
+					PREF_MM_SIZE_LARGE;
+					PREF_MM_SIZE_HUGE;
+				}
+			}
+
+			LONG PREF_MM_SHSCENE
+			{
+				ANIM OFF;
+				CYCLE
+				{
+
+				}
+			}
+
+			LONG PREF_MM_MATSCENE
+			{
+				ANIM OFF;
+				CYCLE
+				{
+
+				}
+			}
+
+			LONG PREF_MM_FRATE { ANIM OFF; MIN 1; MAX 100; }
+
+			LONG PREF_MM_PREV { ANIM OFF; MIN 0; }
+		}
+
+		GROUP PREF_MM_NODE_NODEEDITORGROUP
+		{
+			DEFAULT 1;
+			COLUMNS 1;
+
+			LONG PREF_MM_NODE_PREVIEW_SIZE
+			{
+				ANIM OFF;
+				CYCLE
+				{
+					PREF_MM_NODE_PREVIEW_SIZE_SMALL;
+					PREF_MM_NODE_PREVIEW_SIZE_MED;
+					PREF_MM_NODE_PREVIEW_SIZE_LARGE;
+					PREF_MM_NODE_PREVIEW_SIZE_HUGE;
+				}
+			}
+
+			LONG PREF_MM_NODE_MAT_PREVIEW_SCENE
+			{
+				ANIM OFF;
+				CYCLE
+				{
+
+				}
+			}
+
+			BOOL PREF_MM_NODE_PREVIEWNAME  { ANIM OFF; }
+		}
+
+		GROUP PREF_MM_MATMANAGERGROUP
+		{
+			DEFAULT 1;
+			COLUMNS 1;
+			LONG PREF_MM_DEFAULT_MATERIAL
+			{
+				ANIM OFF;
+				CYCLE
+				{
+
+				}
+			}
+		}
+	}
+}

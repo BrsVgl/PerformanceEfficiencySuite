@@ -1,0 +1,5 @@
+STRINGTABLE Fstlexport
+{
+	Fstlexport	"STL Export";
+	STLEXPORTFILTER_SCALE	"Scale";
+}

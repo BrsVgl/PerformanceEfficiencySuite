@@ -1,0 +1,303 @@
+STRINGTABLE VPgisetup
+{
+	VPgisetup					"GI Setup";
+	
+	GI_GROUP_MAIN					"Global Illumination";
+	GI_GROUP_GENERAL				"General";
+	GI_GROUP_QMC					"Sampling";	
+	//GI_SETUP_QMC_HEMISPHERE			"Hemispherical Sampling";
+	GI_SETUP_QMC_AREA				"Discrete Area Sampling";
+	GI_SETUP_QMC_SKY				"Discrete Sky Sampling";
+	GI_SETUP_QMC_AO					"Ambient Occlusion"; 
+	GI_SETUP_QMC_RADIANCE				"Radiosity Maps";
+	GI_GROUP_IRRADIANCE				"Irradiance Cache (Legacy)";
+	GI_GROUP_CACHES					"Cache Files";
+	GI_GROUP_CACHES_IRRADIANCE			"Irradiance Caches";
+	GI_GROUP_CACHES_RADIANCE			"Radiosity Maps";
+	GI_GROUP_CACHES_LIGHT_MAPPING			"Light Mapping";
+	GI_GROUP_CACHES_LOCATION			"File Location";
+	GI_GROUP_IC2					"Irradiance Cache";
+	GI_GROUP_RADIANCE				"Radiosity Maps";
+	GI_GROUP_LIGHT_MAPPING				"Light Mapping";
+	GI_GROUP_OPTIONS				"Options";
+
+	// --- Static
+	GI_SETUP_DATA_STATIC_DEPTH 			"";
+
+	// --- Main
+	GI_SETUP_DATA_UI_MODE				"Control Level";		
+
+	// --- Animation
+	GI_SETUP_DATA_ANIMATION_METHOD			"GI Mode";
+
+	// --- Presets
+	GI_SETUP_DATA_PRESETS				"Preset";
+
+	// --- Depth and Methods
+	GI_SETUP_DATA_DIFFUSE_DEPTH			"Diffuse Depth";
+	GI_SETUP_DATA_PRIMARY_METHOD			"Primary Method";
+ 	GI_SETUP_DATA_PRIMARY_INTENSITY			"Intensity";
+ 	GI_SETUP_DATA_SECONDARY_METHOD			"Secondary Method";
+	GI_SETUP_DATA_SECONDARY_INTENSITY		"Intensity";
+
+	// --- Gamma & Saturation
+	GI_SETUP_DATA_GAMMA_METHOD			"Gamma Correction";
+	GI_SETUP_DATA_GAMMA_VALUE			"Gamma";
+	// ---
+	GI_SETUP_DATA_PRIMARY_SATURATION		"Saturation";
+	GI_SETUP_DATA_SECONDARY_SATURATION		"Saturation";
+	
+	// --- Extra
+	GI_SETUP_DATA_EXTRA_DEBUG_LEVEL			"Debug Information Level";
+	GI_SETUP_DATA_EXTRA_DIFFUSE_ONLY		"Diffuse Illumination Only";
+	GI_SETUP_DATA_EXTRA_HIDE_PREPASS		"Hide Prepass";
+	GI_SETUP_DATA_EXTRA_NON_DIFFUSE_CUTOFF		"Glass/Mirror Optimization";
+	GI_SETUP_DATA_EXTRA_REFLECTIVECAUSTICS		"Reflective Caustics";
+	GI_SETUP_DATA_EXTRA_REFRACTIVECAUSTICS		"Refractive Caustics";
+	GI_SETUP_DATA_EXTRA_SHOW_SAMPLES		"Show Samples";
+	
+	// --- 
+	GI_SETUP_DATA_QMC_COUNT				"Sample Count";
+	GI_SETUP_DATA_QMC_COUNT_METHOD			"Samples";
+	GI_SETUP_DATA_QMC_COUNT_THRESHOLD		"Accuracy";
+	GI_SETUP_DATA_QMC_ENABLED			"Hemispherical Sampling";
+	// ---
+	GI_SETUP_DATA_QMC_AREA_ENABLED			"Discrete Area Sampling";
+	GI_SETUP_DATA_QMC_AREA_FORCE			"Force Per-Pixel";
+	GI_SETUP_DATA_QMC_AREA_CUSTOM			"Custom Count";
+ 	GI_SETUP_DATA_QMC_AREA_COUNT			"Sample Count";
+	// ---	
+	GI_SETUP_DATA_QMC_SKY_ENABLED			"Discrete Sky Sampling";
+	GI_SETUP_DATA_QMC_SKY_FORCE			"Force Per-Pixel";
+	GI_SETUP_DATA_QMC_SKY_CUSTOM			"Custom Count";
+	GI_SETUP_DATA_QMC_SKY_COUNT			"Sample Count";
+	// ---
+	GI_SETUP_DATA_QMC_AO_ENABLED			"Ambient Occlusion";
+	GI_SETUP_DATA_QMC_AO_GRADIENT 			"Color";
+	GI_SETUP_DATA_QMC_AO_DISTANCE_MIN		"Minimum Ray Length";
+	GI_SETUP_DATA_QMC_AO_DISTANCE_MAX 		"Maximum Ray Length";
+	GI_SETUP_DATA_QMC_AO_CONTRAST 			"Contrast";
+	GI_SETUP_DATA_QMC_AO_SELF			"Self Shadowing Only";
+	
+	// --- Radiosity Maps
+	GI_SETUP_DATA_RADIANCE_ENABLE			"Radiosity Maps";
+	GI_SETUP_DATA_RADIANCE_MODE			"Mode";
+	GI_SETUP_DATA_RADIANCE_SCALE			"Map Density";
+	GI_SETUP_DATA_RADIANCE_SAMPLES			"Sampling Subdivisions";
+	// ---	
+	GI_SETUP_DATA_RADIANCE_AREA_ENABLE		"Area Sampling";
+	GI_SETUP_DATA_RADIANCE_AREA_SAMPLES		"Sample Count";
+	// ---
+	GI_SETUP_DATA_RADIANCE_SKY_ENABLE		"Sky Sampling";
+	GI_SETUP_DATA_RADIANCE_SKY_SAMPLES		"Sample Count";
+
+	// --- Light Mapping
+	GI_SETUP_DATA_LIGHT_MAPPING_ENABLE		"Light Mapping";
+	GI_SETUP_DATA_LIGHT_MAPPING_MODE		"Mode";
+	// ---
+	GI_SETUP_DATA_LIGHT_MAPPING_PATH_COUNT		"Path Count (x1000)";
+	GI_SETUP_DATA_LIGHT_MAPPING_PATH_DEPTH		"Maximum Depth";
+	GI_SETUP_DATA_LIGHT_MAPPING_PATH_DIRECT		"Direct Lights";
+	GI_SETUP_DATA_LIGHT_MAPPING_PATH_CAMERA		"Use Camera Path";
+	GI_SETUP_DATA_LIGHT_MAPPING_PATH_SHOW_PATHS	"Show Preview Paths";
+	// ---
+	GI_SETUP_DATA_LIGHT_MAPPING_PATH_SCALE_MODE	"Scale";
+	GI_SETUP_DATA_LIGHT_MAPPING_PATH_SCALE_SCREEN	"Samples Size";
+	GI_SETUP_DATA_LIGHT_MAPPING_PATH_SCALE_WORLD	"Samples Size";
+	// ---
+	GI_SETUP_DATA_LIGHT_MAPPING_PREFILTER		"Prefilter";
+	GI_SETUP_DATA_LIGHT_MAPPING_PREFILTER_COUNT	"Prefilter Samples";
+	// ---
+	GI_SETUP_DATA_LIGHT_MAPPING_FILTER		"Interpolation Method";
+	GI_SETUP_DATA_LIGHT_MAPPING_FILTER_COUNT	"Sample Count";
+	GI_SETUP_DATA_LIGHT_MAPPING_FILTER_SCALE	"Size Ratio";
+	// ---
+	GI_SETUP_DATA_LIGHT_MAPPING_RADIANCE		"Build Radiosity Maps";
+	GI_SETUP_DATA_LIGHT_MAPPING_RADIANCE_SCALE	"Map Density";
+	GI_SETUP_DATA_LIGHT_MAPPING_RADIANCE_SAMPLES	"Sampling Subdivisions";
+
+	// --- Irradiance Cache (Legacy)
+	GI_SETUP_DATA_IR_DENSITY_QUALITY		"Record Density";
+	GI_SETUP_DATA_IR_DENSITY_RADIUS_MAX		"Radius";
+	GI_SETUP_DATA_IR_DENSITY_RADIUS_MIN		"Minimum Radius";
+	GI_SETUP_DATA_IR_DENSITY_CONTROL		"Density Control";
+	GI_SETUP_DATA_IR_DENSITY_RATE_MIN		"Min Rate";
+	GI_SETUP_DATA_IR_DENSITY_RATE_MAX		"Max Rate";
+	GI_SETUP_DATA_IR_DENSITY_PROXIMITY		"Use Proximity Correction";
+	
+	GI_SETUP_DATA_IR_INTERPOLATION_METHOD		"Interpolation Method";	
+	GI_SETUP_DATA_IR_INTERPOLATION_SMOOTHING	"Smoothing";
+ 	GI_SETUP_DATA_IR_INTERPOLATION_MAX_SAMPLES	"Records";
+	GI_SETUP_DATA_IR_INTERPOLATION_MAX_RADIUS_SCALE	"Scale";
+	GI_SETUP_DATA_IR_INTERPOLATION_DT_SHOW_EDGES	"Show Triangulation";
+
+	GI_SETUP_DATA_IR_COLOR_QUALITY			"Cache Refinement";
+	GI_SETUP_DATA_IR_COLOR_PASSES			"Passes";
+	GI_SETUP_DATA_IR_COLOR_THRESHOLD		"Color Threshold";
+	GI_SETUP_DATA_IR_COLOR_COOEF			"Strength";
+	GI_SETUP_DATA_IR_COLOR_CUTOFF			"Cutoff";
+
+	GI_SETUP_DATA_IR_CACHE_SECONDARY		"Cache Secondary";
+	GI_SETUP_DATA_IR_DISTANCE_MAP_ENABLED		"Distance Map";
+	GI_SETUP_DATA_IR_VISIBILITY_CHECK_ENABLED	"Check Record Visibility";
+
+	GI_SETUP_DATA_IR_DETAILS_ENABLE			"Details Enhancement";
+	GI_SETUP_DATA_IR_DETAILS_RADIUS			"Radius"; 
+	GI_SETUP_DATA_IR_DETAILS_RATIO			"Quality Ratio";
+	GI_SETUP_DATA_IR_DETAILS_ADAPTIVE		"Adaptive Mode";
+	GI_SETUP_DATA_IR_DETAILS_ESTIMATE		"Estimate Secondary";
+	GI_SETUP_DATA_IR_DETAILS_MODE			"Mode";
+
+	// --- Cache Files
+	GI_SETUP_DATA_CACHE_FLUSH			"Flush Cache(s)";
+	GI_SETUP_DATA_CACHE_LOCK			"Skip Prepass (If Present)";
+	GI_SETUP_DATA_CACHE_AUTOLOAD			"Auto Load";
+	GI_SETUP_DATA_CACHE_AUTOSAVE			"Auto Save";
+	GI_SETUP_DATA_CACHE_ANIMATION			"Full Animation Mode";
+	GI_SETUP_DATA_CACHE_CUSTOM_PATH_ENABLED		"Custom Location";
+	GI_SETUP_DATA_CACHE_CUSTOM_PATH			"Location";
+	GI_SETUP_DATA_CACHE_PREPASS			"Prepass Only";
+
+	GI_SETUP_DATA_RADIANCE_FLUSH			"Flush Cache(s)";
+	GI_SETUP_DATA_RADIANCE_MEMORY			"";
+	GI_SETUP_DATA_RADIANCE_AUTOLOAD			"Auto Load";
+	GI_SETUP_DATA_RADIANCE_AUTOSAVE			"Auto Save";
+	GI_SETUP_DATA_RADIANCE_ANIMATION		"Full Animation Mode";
+
+	GI_SETUP_DATA_LIGHT_MAPPING_FLUSH		"Flush Cache(s)";
+	GI_SETUP_DATA_LIGHT_MAPPING_MEMORY		"";
+	GI_SETUP_DATA_LIGHT_MAPPING_AUTOLOAD		"Auto Load";
+	GI_SETUP_DATA_LIGHT_MAPPING_AUTOSAVE		"Auto Save";
+	GI_SETUP_DATA_LIGHT_MAPPING_ANIMATION		"Full Animation Mode";
+
+	GI_SETUP_DATA_IC2_QUALITY			"Record Density";
+	GI_SETUP_DATA_IC2_RATE_MIN			"Min Rate";
+	GI_SETUP_DATA_IC2_RATE_MAX			"Max Rate";
+	GI_SETUP_DATA_IC2_DENSITY			"Density";
+	GI_SETUP_DATA_IC2_DETAILS			"Minimum Spacing";
+	GI_SETUP_DATA_IC2_MAX_LIMIT			"Maximum Spacing";
+	GI_SETUP_DATA_IC2_SMOOTHING			"Smoothing";
+	GI_SETUP_DATA_IC2_COLOR				"Color Refinement";
+	GI_SETUP_DATA_IC2_SCALE				"Screen Scale";
+	// ---
+	GI_SETUP_DATA_IC2_GRADIENT			"EXPERIMENTAL - Position Gradients";
+	GI_SETUP_DATA_IC2_DETAIL_REDUCTION		"EXPERIMENTAL - Detail Quality";
+	GI_SETUP_DATA_IC2_OVERTURE			"EXPERIMENTAL - Additional Overture Pass";
+	// ---
+	GI_SETUP_DATA_IC2_A				"DEBUG - Real A";
+	GI_SETUP_DATA_IC2_B				"DEBUG - Real B";
+	GI_SETUP_DATA_IC2_FLAG_A			"DEBUG - Flag A";
+	GI_SETUP_DATA_IC2_FLAG_B			"DEBUG - Flag B";
+	GI_SETUP_DATA_IC2_MODE				"DEBUG - Mode";
+	
+	GI_SETUP_DATA_IC2_MODE_NORMAL			"Normal";
+	GI_SETUP_DATA_IC2_MODE_WEIGHTED			"Weighted";
+	GI_SETUP_DATA_IC2_MODE_SIMPLE			"Simple";
+	GI_SETUP_DATA_IC2_MODE_SECONDARY		"Secondary";
+	
+ 	GI_SETUP_METHOD_QMC				"Quasi-Monte Carlo (QMC)";
+ 	GI_SETUP_METHOD_IRRADIANCE_CACHE		"Irradiance Cache (Legacy)";
+	GI_SETUP_METHOD_IC2				"Irradiance Cache";
+	GI_SETUP_METHOD_CACHE				"Irradiance Cache";
+	GI_SETUP_METHOD_RADIANCE			"Radiosity Maps";
+	GI_SETUP_METHOD_LIGHT_MAPPING			"Light Mapping";
+	GI_SETUP_METHOD_NONE				"None";
+
+	// ---
+	GI_SETUP_ANIMATION_MODE_NONE			"Single Frame";
+	GI_SETUP_ANIMATION_MODE_CAMERA			"Camera Only";
+	GI_SETUP_ANIMATION_MODE_FULL			"Complete Animation";
+	GI_SETUP_ANIMATION_MODE_FULL_NET		"Complete Animation - Team Render";
+
+	// ---
+	GI_SETUP_MASTER_MODE_IC2			"Irradiance Cache";
+	GI_SETUP_MASTER_MODE_QMC			"QMC";
+	GI_SETUP_MASTER_MODE_IC_IC			"Irradiance Cache (Legacy)";
+	GI_SETUP_MASTER_MODE_IC_QMC			"Irradiance Cache + QMC (Legacy)";
+
+	// ---
+	GI_SETUP_COUNT_USER				"Custom Sample Count";
+	GI_SETUP_COUNT_CUSTOM				"Custom Accuracy";
+	GI_SETUP_COUNT_LOW				"Low";
+	GI_SETUP_COUNT_MEDIUM				"Medium";
+	GI_SETUP_COUNT_HIGH				"High";
+
+	// ---
+	GI_SETUP_QUALITY_CUSTOM				"Custom";
+	GI_SETUP_QUALITY_PREVIEW			"Preview";		
+	GI_SETUP_QUALITY_LOW				"Low";
+	GI_SETUP_QUALITY_MEDIUM				"Medium";
+	GI_SETUP_QUALITY_HIGH				"High";
+	GI_SETUP_QUALITY_HIGH_DETAILS			"High (Details)";
+
+	// ---
+	GI_SETUP_COLOR_CUSTOM				"Custom";
+	GI_SETUP_COLOR_NONE				"None";
+	GI_SETUP_COLOR_LOW				"Low";
+	GI_SETUP_COLOR_MEDIUM				"Medium";
+	GI_SETUP_COLOR_HIGH				"High";
+	GI_SETUP_COLOR_VERY_HIGH			"Very High";
+
+	// ---
+	GI_SETUP_DETAILS_COMBINE			"Combine (Normal)";
+	GI_SETUP_DETAILS_DETAILS			"Details Only (Preview)";
+	GI_SETUP_DETAILS_GLOBAL				"Global Only (Preview)";
+
+	// ---
+	GI_SETUP_SMOOTHING_CUSTOM			"Custom";		
+	GI_SETUP_SMOOTHING_MINIMAL			"Minimal";
+	GI_SETUP_SMOOTHING_WEAK				"Weak";
+	GI_SETUP_SMOOTHING_MEDIUM			"Medium";
+	GI_SETUP_SMOOTHING_HEAVY			"Heavy";
+	GI_SETUP_SMOOTHING_VERY_HEAVY			"Very Heavy";
+
+	GI_SETUP_INTERPOLATION_LEAST_SQUARES		"Least Squares";
+	GI_SETUP_INTERPOLATION_WEIGHTED			"Weighted Average";
+	GI_SETUP_INTERPOLATION_NONE			"None";
+
+	// ---
+	GI_SETUP_DEBUG_NONE				"None";
+	GI_SETUP_DEBUG_MINIMAL				"Minimal";
+	GI_SETUP_DEBUG_COMPLETE				"Complete";
+
+	// ---
+	GI_SETUP_RADIANCE_MODE_NORMAL			"Normal";
+	GI_SETUP_RADIANCE_MODE_POINTS			"Visualize Texels";
+	GI_SETUP_RADIANCE_MODE_SHADED			"Visualize Shading";
+	GI_SETUP_RADIANCE_MODE_SHADED_FRONT		"Visualize Shading (Front)";
+	GI_SETUP_RADIANCE_MODE_SHADED_BACK		"Visualize Shading (Back)";
+
+	// ---
+	GI_SETUP_LIGHT_MAPPING_MODE_NORMAL		"Normal";
+	GI_SETUP_LIGHT_MAPPING_MODE_VISUALIZE		"Visualize";
+
+	// ---
+	GI_SETUP_LIGHT_MAPPING_FILTER_NONE		"None";
+	GI_SETUP_LIGHT_MAPPING_FILTER_NEAREST		"Nearest";
+	GI_SETUP_LIGHT_MAPPING_FILTER_FIXED		"Fixed";
+
+	// ---
+	GI_SETUP_LIGHT_MAPPING_SCALE_SCREEN		"Screen";
+	GI_SETUP_LIGHT_MAPPING_SCALE_WORLD		"World";
+
+	// --- Presets
+	GI_SETUP_PRESET_CUSTOM				"Custom";
+	GI_SETUP_PRESET_DEFAULT				"Default";
+	// ---
+	GI_SETUP_PRESET_INTERIOR_PREVIEW		"Interior - Preview";
+	GI_SETUP_PRESET_INTERIOR_PREVIEW_DIFFUSE	"Interior - Preview (High Diffuse Depth)";
+	GI_SETUP_PRESET_INTERIOR_PREVIEW_AREA		"Interior - Preview (Small Illuminants)"; 
+	GI_SETUP_PRESET_INTERIOR_HIGH			"Interior - High";
+	GI_SETUP_PRESET_INTERIOR_HIGH_DIFFUSE		"Interior - High (High Diffuse Depth)";
+	GI_SETUP_PRESET_INTERIOR_HIGH_AREA		"Interior - High (Small Illuminants)";
+	// ---
+	GI_SETUP_PRESET_EXTERIOR_PREVIEW		"Exterior - Preview";
+	GI_SETUP_PRESET_EXTERIOR_SKY			"Exterior - Physical Sky";
+	GI_SETUP_PRESET_EXTERIOR_HDR			"Exterior - HDR Image";
+	// ---
+	GI_SETUP_PRESET_OBJECT_PREVIEW			"Object Visualization - Preview";
+	GI_SETUP_PRESET_OBJECT_HIGH			"Object Visualization - High";
+	// ---
+	GI_SETUP_PRESET_PROGRESSIVE			"Progressive - No Prepass";
+	GI_SETUP_PRESET_PROGRESSIVE_PREPASS		"Progressive - Fast Complete Diffuse";
+}

@@ -1,0 +1,121 @@
+STRINGTABLE XSLADanel
+{
+  XSLADanel                               "Danel Shader";
+
+  ID_DANEL_DIFFUSE                        "Diffuse";
+  ID_DANEL_SPECULAR1                      "Specular 1";
+  ID_DANEL_SPECULAR2                      "Specular 2";
+  ID_DANEL_SPECULAR3                      "Specular 3";
+  ID_DANEL_REFLECTION                     "Reflection";
+  ID_DANEL_ENVIRONMENT                    "Environment";
+  ID_DANEL_AMBIENT                        "Ambient";
+  ID_DANEL_ROUGHNESS                      "Roughness";
+  ID_DANEL_ANISOTROPY                    "Anisotropy";
+  ID_DANEL_ILLUMINATION                   "Illumination";
+
+  SLA_DANEL_DIFFUSE                       "Diffuse";
+  SLA_DANEL_SPECULAR1                     "Specular 1";
+  SLA_DANEL_SPECULAR2                     "Specular 2";
+  SLA_DANEL_SPECULAR3                     "Specular 3";
+  SLA_DANEL_REFLECTION                    "Reflection";
+  SLA_DANEL_ENVIRONMENT                   "Environment";
+  SLA_DANEL_AMBIENT                       "Ambient";
+  SLA_DANEL_ROUGHNESS                     "Roughness";
+  SLA_DANEL_ANISOTROPY                   "Anisotropy";
+
+  SLA_DANEL_DIFFUSE_COLOR                 "Color";
+  SLA_DANEL_DIFFUSE_ALGORITHM             "Algorithm";
+    SLA_DANEL_DIFFUSE_ALGORITHM_INTERNAL    "Internal";
+    SLA_DANEL_DIFFUSE_ALGORITHM_OREN_NAYAR  "Oren Nayar";
+  SLA_DANEL_DIFFUSE_ROUGHNESS             "Roughness";
+  SLA_DANEL_DIFFUSE_ILLUMINATION          "Illumination";
+  SLA_DANEL_DIFFUSE_CONTRAST              "Contrast";
+
+  SLA_DANEL_SPEC1_COLOR                   "Color";
+  SLA_DANEL_SPEC1_INTENSITY               "Intensity";
+  SLA_DANEL_SPEC1_SIZE                    "Size";
+  SLA_DANEL_SPEC1_CONTRAST                "Contrast";
+  SLA_DANEL_SPEC1_GLARE                   "Glare";
+  SLA_DANEL_SPEC1_FALLOFF                 "Falloff";
+
+  SLA_DANEL_SPEC2_COLOR                   "Color";
+  SLA_DANEL_SPEC2_INTENSITY               "Intensity";
+  SLA_DANEL_SPEC2_SIZE                    "Size";
+  SLA_DANEL_SPEC2_CONTRAST                "Contrast";
+  SLA_DANEL_SPEC2_GLARE                   "Glare";
+  SLA_DANEL_SPEC2_FALLOFF                 "Falloff";
+
+  SLA_DANEL_SPEC3_COLOR                   "Color";
+  SLA_DANEL_SPEC3_INTENSITY               "Intensity";
+  SLA_DANEL_SPEC3_SIZE                    "Size";
+  SLA_DANEL_SPEC3_CONTRAST                "Contrast";
+  SLA_DANEL_SPEC3_GLARE                   "Glare";
+  SLA_DANEL_SPEC3_FALLOFF                 "Falloff";
+
+  SLA_DANEL_REFLECTION_INTENSITY          "Intensity";
+  SLA_DANEL_REFLECTION_EDGE_INTENSITY     "Edge Intensity";
+  SLA_DANEL_REFLECTION_FALLOFF            "Falloff";
+  SLA_DANEL_REFLECTION_DISTANCE_FALLOFF   "Distance Falloff";
+  SLA_DANEL_REFLECTION_MIN                "Min";
+  SLA_DANEL_REFLECTION_MAX                "Max";
+  SLA_DANEL_REFLECTION_UTILIZE_ANISO_SCRATCHES "Utilize Anisotropic Scratches";
+  SLA_DANEL_REFLECTION_BLUR               "Blur";
+  SLA_DANEL_REFLECTION_SAMPLES            "Samples";
+  SLA_DANEL_REFLECTION_JITTER             "Jitter";
+  SLA_DANEL_REFLECTION_REFLECTION_COLOR   "Reflection Color";
+  SLA_DANEL_REFLECTION_EDGE_COLOR         "Reflection Edge Color";
+
+  SLA_DANEL_ENVIRONMENT_IMAGE             "Image";
+  SLA_DANEL_ENVIRONMENT_INTENSITY         "Intensity";
+  SLA_DANEL_ENVIRONMENT_GLARE             "Glare";
+  SLA_DANEL_ENVIRONMENT_FALLOFF           "Falloff";
+  SLA_DANEL_ENVIRONMENT_UTILIZE_ANISO_SCRATCHES "Utilize Anisotropic Scratches";
+  SLA_DANEL_ENVIRONMENT_BLUR              "Blur";
+  SLA_DANEL_ENVIRONMENT_SAMPLES           "Samples";
+  SLA_DANEL_ENVIRONMENT_JITTER            "Jitter";
+  SLA_DANEL_ENVIRONMENT_ENVIRONMENT_COLOR "Environment Color";
+  SLA_DANEL_ENVIRONMENT_EDGE_COLOR        "Edge Color";
+
+  SLA_DANEL_AMBIENT_COLOR                 "Color";
+  SLA_DANEL_AMBIENT_INTENSITY             "Intensity";
+  SLA_DANEL_AMBIENT_EDGE_INTENSITY        "Edge Intensity";
+  SLA_DANEL_AMBIENT_FALLOFF               "Falloff";
+
+	SLA_DANEL_ROUGHNESS_SEED								"Seed";
+  SLA_DANEL_ROUGHNESS_NOISE               "Function";
+
+  SLA_DANEL_ROUGHNESS_AMPLITUDE           "Amplitude";
+  SLA_DANEL_ROUGHNESS_OCTAVES             "Octaves";
+  SLA_DANEL_ROUGHNESS_SCALE               "Scale";
+  SLA_DANEL_ROUGHNESS_SPEED               "Speed";
+  SLA_DANEL_ROUGHNESS_ATTENUATION         "Attenuation";
+  SLA_DANEL_ROUGHNESS_DELTA               "Delta";
+  SLA_DANEL_ROUGHNESS_HARD_BUMP           "Hard Bump";
+  SLA_DANEL_ROUGHNESS_ABSOLUTE            "Absolute";
+  SLA_DANEL_ROUGHNESS_LOW_CLIP            "Low Clip";
+  SLA_DANEL_ROUGHNESS_HIGH_CLIP           "High Clip";
+  SLA_DANEL_ROUGHNESS_GRIT_COLOR          "Grit Color";
+  SLA_DANEL_ROUGHNESS_GRIT_INTENSITY      "Grit Intensity";
+  SLA_DANEL_ROUGHNESS_GRIT_LOW_CLIP       "Grit Low Clip";
+  SLA_DANEL_ROUGHNESS_GRIT_HIGH_CLIP      "Grit High Clip";
+
+  SLA_DANEL_ANISOTROPY_PROJECTION        "Projection";
+    SLA_DANEL_ANISOTROPY_PROJECTION_PLANAR               "Planar";
+    SLA_DANEL_ANISOTROPY_PROJECTION_AUTO_PLANAR          "Auto Planar";
+    SLA_DANEL_ANISOTROPY_PROJECTION_SHRINK_WRAP          "Shrink Wrap";
+    SLA_DANEL_ANISOTROPY_PROJECTION_RADIAL_AUTO_PLANAR   "Radial Auto Planar";
+    SLA_DANEL_ANISOTROPY_PROJECTION_RAD_PATTERN_AUTO_PLANAR  "Radial Pattern Auto Planar";
+    SLA_DANEL_ANISOTROPY_PROJECTION_RADIAL_PLANAR        "Radial Planar";
+    SLA_DANEL_ANISOTROPY_PROJECTION_RAD_PATTERN_PLANAR   "Radial Pattern Planar";
+
+  SLA_DANEL_ANISOTROPY_PROJ_SCALE        "Projection Scale";
+  SLA_DANEL_ANISOTROPY_X_ROUGH           "Roughness X";
+  SLA_DANEL_ANISOTROPY_Y_ROUGH           "Roughness Y";
+  SLA_DANEL_ANISOTROPY_AMPL              "Amplitude";
+  SLA_DANEL_ANISOTROPY_SCALE             "Scale";
+  SLA_DANEL_ANISOTROPY_LENGTH            "Length";
+  SLA_DANEL_ANISOTROPY_ATT               "Attenuation";
+  SLA_DANEL_ANISOTROPY_CHANNEL1          "Specular 1";
+  SLA_DANEL_ANISOTROPY_CHANNEL2          "Specular 2";
+  SLA_DANEL_ANISOTROPY_CHANNEL3          "Specular 3";
+}

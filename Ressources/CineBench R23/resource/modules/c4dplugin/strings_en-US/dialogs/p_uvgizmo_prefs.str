@@ -1,0 +1,14 @@
+DIALOGSTRINGS P_UVGIZMO_PREFS
+{
+	TITLE					"UV Manager";
+
+	TGIZMOLINKMODE			"Keep Neighbor Components";
+
+	THIDEGIZMO				"Hide Transform Controls";
+
+	TGIZMOSOFTSELECT		"Soft Selection";
+
+	TGIZMOUSE				"Enable";
+
+	TGIZMORADIUS			"Radius";
+}

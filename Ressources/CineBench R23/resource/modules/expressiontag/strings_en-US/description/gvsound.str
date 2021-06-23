@@ -1,0 +1,33 @@
+STRINGTABLE GVsound
+{
+	GVsound									"Sound Operator";
+
+	GV_SOUND_FILENAME 				"Filename";
+
+	GV_SOUND_TIME					"Time";
+	GV_SOUND_PROBE					"Probe";	
+	GV_SOUND_PLAY					"Play";	
+	GV_SOUND_SAMPLE					"Sample";
+	GV_SOUND_OUTPUT_LEFT				"Left";
+	GV_SOUND_OUTPUT_RIGHT				"Right";
+	GV_SOUND_LENGTH					"Length";
+	GV_SOUND_SAMPLES				"Samples";
+	GV_SOUND_FFT_RES				"Bands";
+	GV_SOUND_FFT_BIN					"Band";
+	GV_SOUND_FFT_BIN_LEFT			"Left Mag";
+	GV_SOUND_FFT_BIN_RIGHT			"Right Mag";
+
+	GV_SOUND_FFT_RES_4				"4";
+	GV_SOUND_FFT_RES_8				"8";
+	GV_SOUND_FFT_RES_16				"16";
+	GV_SOUND_FFT_RES_32				"32";
+	GV_SOUND_FFT_RES_64				"64";
+	GV_SOUND_FFT_RES_128			"128";
+	GV_SOUND_FFT_RES_256			"256";
+	GV_SOUND_FFT_RES_512			"512";
+	GV_SOUND_FFT_RES_1024			"1024";
+	GV_SOUND_FFT_RES_2048			"2048";
+	GV_SOUND_FFT_RES_4096			"4096";
+	GV_SOUND_FFT_RES_8192			"8192";
+
+}

@@ -1,0 +1,19 @@
+// C4D Dialog Strings
+
+DIALOGSTRINGS P_FLIP
+{
+	TITLE "Flip Texture";
+	T2  "Current Size";
+	T3 	"Transform UVW";
+	TC0 "Color";
+	TC1 "Diffusion";
+	TC2 "Luminance";
+	TC3 "Transparency";
+	TC4 "Reflection";
+	TC5 "Environment";
+	TC6 "Bump";
+	TC7 "Alpha";
+	TC8 "Specular";
+	TC9 "Displacement";
+	TC10 "Normal";
+}

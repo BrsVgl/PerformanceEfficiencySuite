@@ -1,0 +1,21 @@
+STRINGTABLE GVspline
+{
+	GVspline												"Spline Operator";
+
+	GV_SPLINE_MODE									"Matrix Mode";
+		GV_SPLINE_OPERATOR_MODE_GLOBAL	"Global";
+		GV_SPLINE_OPERATOR_MODE_LOCAL	"Local";
+
+	GV_SPLINE_USE_NATURAL		"Use Uniform Distribution";
+	GV_SPLINE_ALL_SEGMENTS		"Use All Segments";
+
+	GV_SPLINE_INPUT_OBJECT					"Object";
+	GV_SPLINE_INPUT_POINT					"Offset";
+	GV_SPLINE_INPUT_SEGMENT					"Segment";
+
+	GV_SPLINE_OUTPUT_POSITION			"Position";
+	GV_SPLINE_OUTPUT_TANGENT			"Tangent";
+	GV_SPLINE_OUTPUT_LENGTH				"Length";
+	GV_SPLINE_OUTPUT_IS_CLOSED			"Closed";
+	GV_SPLINE_OUTPUT_SEGMENTS			"Segments";
+}

@@ -1,0 +1,11 @@
+STRINGTABLE vpmagicbulletlooks
+{
+	vpmagicbulletlooks								"Magic Bullet Looks";
+	
+
+	VP_MAGICBULLETLOOKS_LOOKSBUILDER				"Open Magic Bullet Looks...";
+	VP_MAGICBULLETLOOKS_LOOKNAME					"Look";
+	VP_MAGICBULLETLOOKS_PREVIEWAFTER				"Preview";
+	VP_MAGICBULLETLOOKS_STRENGTH					"Mix";
+	VP_MAGICBULLETLOOKS_SAVEPREVIEW					"Save Preview";
+}

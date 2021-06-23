@@ -1,0 +1,10 @@
+STRINGTABLE Xmg_camera
+{
+	Xmg_camera "Camera Shader";
+
+	MGCAMERASHADER_LINK			"Camera";
+	MGCAMERASHADER_HSCALE		"Horizontal Scale";
+	MGCAMERASHADER_VSCALE		"Vertical Scale";
+	MGCAMERASHADER_CALC_FG	"Include Foreground";
+	MGCAMERASHADER_CALC_BG	"Include Background";
+}

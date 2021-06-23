@@ -1,0 +1,9 @@
+STRINGTABLE CNurbsObject
+{
+	Tcnurbs         "Cloth Surface";
+	CNURBS_FAK      "Factor";
+	CNURBS_SUB      "Subdivisions";
+	CNURBS_LIMIT    "Limit";
+	CNURBS_DOUBLE   "Thickness";
+	CNURBS_PARALLEL "Bulging";
+}

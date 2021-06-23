@@ -1,0 +1,14 @@
+STRINGTABLE ToolDoodle
+{
+  ToolDoodle	"Doodle";
+
+	MDATA_DOODLE_COLOR				"Color";
+  MDATA_DOODLE_SIZE					"Size";
+  MDATA_DOODLE_OPACITY			"Opacity";
+  MDATA_DOODLE_HARDNESS			"Hardness";
+  MDATA_DOODLE_SPACING			"Spacing";
+  MDATA_DOODLE_SIPRESSURE		"Pressure";
+  MDATA_DOODLE_OPPRESSURE		"Pressure";
+  MDATA_DOODLE_HAPRESSURE		"Pressure";
+  MDATA_DOODLE_AUTOFRAME		"Auto-Add Frames";
+}

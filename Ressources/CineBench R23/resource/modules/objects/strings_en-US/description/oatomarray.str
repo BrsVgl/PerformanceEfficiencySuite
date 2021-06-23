@@ -1,0 +1,9 @@
+STRINGTABLE Oatomarray
+{
+	Oatomarray				"Atom Array";
+
+	ATOMARRAYOBJECT_CRAD		"Cylinder Radius";
+	ATOMARRAYOBJECT_SRAD		"Sphere Radius";
+	ATOMARRAYOBJECT_SUB		"Subdivisions";
+	ATOMARRAYOBJECT_SINGLE	"Single Elements";
+}

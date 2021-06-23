@@ -1,0 +1,11 @@
+STRINGTABLE GVinclude
+{
+	GVinclude							"ObjectList Operator";
+
+	GV_INCLUDE_LIST "Iteration List";
+
+	GV_INCLUDE_OPERATOR_ON "On";
+
+	GV_INCLUDE_OUTPUT_OBJECT "Instance";
+	GV_INCLUDE_OUTPUT_COUNT "Count";
+}

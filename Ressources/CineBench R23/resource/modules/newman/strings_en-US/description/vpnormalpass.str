@@ -1,0 +1,18 @@
+STRINGTABLE vpnormalpass
+{
+	vpnormalpass														"Normal Pass";
+	
+	VP_NORMALPASS_INFO											"To get the Normal Pass, add the Multipass Layer 'Post Effects' to your render settings.";
+	VP_NORMALPASS_FLIP											"Channel Order";
+		VP_NORMALPASS_FLIP_RGB									"RGB";
+		VP_NORMALPASS_FLIP_RBG									"RBG";
+		VP_NORMALPASS_FLIP_GBR									"GBR";
+		VP_NORMALPASS_FLIP_GRB									"GRB";
+		VP_NORMALPASS_FLIP_BGR									"BGR";
+		VP_NORMALPASS_FLIP_BRG									"BRG";
+	VP_NORMALPASS_SPACE											"Space";
+		VP_NORMALPASS_SPACE_WORLD								"World";
+		VP_NORMALPASS_SPACE_CAMERA							"Camera";
+		VP_NORMALPASS_SPACE_OBJECT							"Object";
+	VP_NORMALPASS_INVERTZ										"Invert Z";
+}

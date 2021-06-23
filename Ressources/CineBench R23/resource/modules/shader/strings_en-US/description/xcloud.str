@@ -1,0 +1,10 @@
+STRINGTABLE Xcloud
+{
+	Xcloud "Cloud Shader";
+
+	CLOUDSHADER_COLOR		"Color";
+	CLOUDSHADER_SCALEX	"U Frequency";
+	CLOUDSHADER_SCALEY	"V Frequency";
+	CLOUDSHADER_LEVEL		"Level";
+	CLOUDSHADER_COMPATIBILITY "Compatibility Mode";
+}

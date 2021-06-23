@@ -1,0 +1,8 @@
+STRINGTABLE GVtrack
+{
+	GVtrack												"Track Operator";
+	
+	GV_TRACK_LINK									"Track";
+	GV_TRACK_INPUT_TIME						"Time";
+	GV_TRACK_OUTPUT_VALUE					"Value";
+}

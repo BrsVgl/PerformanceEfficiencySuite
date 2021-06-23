@@ -1,0 +1,7 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_CONSOLE_DIALOG
+{
+	T1 "Command Line";
+	IDC_CONSOLE_EDIT "";
+}

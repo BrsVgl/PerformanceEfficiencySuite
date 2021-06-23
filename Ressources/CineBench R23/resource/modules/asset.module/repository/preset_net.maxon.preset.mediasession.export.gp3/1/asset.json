@@ -1,0 +1,175 @@
+﻿{
+	"identification": "net.maxon.fileformat.preset",
+	"content": {
+		"_content": [
+			"highquality9600kbit@e2a5f93f-6a10-4d6b-9c63-c12feda51306",
+			{
+				"referenceDataType": "net.maxon.interface.datadictionary-C",
+				"_impl": {
+					"_mode": 1,
+					"_keyType": "net.maxon.datatype.internedid",
+					"_fastData": [
+						"net.maxon.mediasession.export.datarate",
+						{
+							"dataType": "net.maxon.datatype.bytesvalue",
+							"content": {
+								"_value": 1200000
+							}
+						},
+						"net.maxon.mediasession.export.keyframes",
+						{
+							"dataType": "int32",
+							"content": 0
+						},
+						"net.maxon.mediasession.mf.export.audio.codec",
+						{
+							"dataType": "net.maxon.datatype.id",
+							"content": "aac"
+						},
+						"net.maxon.mediasession.mf.export.audio.kilobitrate",
+						{
+							"dataType": "int64",
+							"content": 192
+						},
+						"net.maxon.mediasession.mf.export.audio.samplerate",
+						{
+							"dataType": "int64",
+							"content": 48000
+						},
+						"net.maxon.mediasession.mf.export.codec",
+						{
+							"dataType": "net.maxon.datatype.id",
+							"content": "H.264"
+						}
+					]
+				}
+			},
+			"mediumquality4800kbit@925133e1-29b1-412a-b3e6-82d82c4f4997",
+			{
+				"referenceDataType": "net.maxon.interface.datadictionary-C",
+				"_impl": {
+					"_mode": 1,
+					"_keyType": "net.maxon.datatype.internedid",
+					"_fastData": [
+						"net.maxon.mediasession.export.datarate",
+						{
+							"dataType": "net.maxon.datatype.bytesvalue",
+							"content": {
+								"_value": 600000
+							}
+						},
+						"net.maxon.mediasession.export.keyframes",
+						{
+							"dataType": "int32",
+							"content": 0
+						},
+						"net.maxon.mediasession.mf.export.audio.codec",
+						{
+							"dataType": "net.maxon.datatype.id",
+							"content": "aac"
+						},
+						"net.maxon.mediasession.mf.export.audio.kilobitrate",
+						{
+							"dataType": "int64",
+							"content": 192
+						},
+						"net.maxon.mediasession.mf.export.audio.samplerate",
+						{
+							"dataType": "int64",
+							"content": 44100
+						},
+						"net.maxon.mediasession.mf.export.codec",
+						{
+							"dataType": "net.maxon.datatype.id",
+							"content": "H.264"
+						}
+					]
+				}
+			},
+			"webhigh2400kbit@0427d746-02a9-42cc-b340-bb136afc1850",
+			{
+				"referenceDataType": "net.maxon.interface.datadictionary-C",
+				"_impl": {
+					"_mode": 1,
+					"_keyType": "net.maxon.datatype.internedid",
+					"_fastData": [
+						"net.maxon.mediasession.export.datarate",
+						{
+							"dataType": "net.maxon.datatype.bytesvalue",
+							"content": {
+								"_value": 300000
+							}
+						},
+						"net.maxon.mediasession.export.keyframes",
+						{
+							"dataType": "int32",
+							"content": 0
+						},
+						"net.maxon.mediasession.mf.export.audio.codec",
+						{
+							"dataType": "net.maxon.datatype.id",
+							"content": "aac"
+						},
+						"net.maxon.mediasession.mf.export.audio.kilobitrate",
+						{
+							"dataType": "int64",
+							"content": 192
+						},
+						"net.maxon.mediasession.mf.export.audio.samplerate",
+						{
+							"dataType": "int64",
+							"content": 44100
+						},
+						"net.maxon.mediasession.mf.export.codec",
+						{
+							"dataType": "net.maxon.datatype.id",
+							"content": "H.264"
+						}
+					]
+				}
+			},
+			"weblow1200kbit@a508bf73-7202-43ae-870b-848244c3ae7f",
+			{
+				"referenceDataType": "net.maxon.interface.datadictionary-C",
+				"_impl": {
+					"_mode": 1,
+					"_keyType": "net.maxon.datatype.internedid",
+					"_fastData": [
+						"net.maxon.mediasession.export.datarate",
+						{
+							"dataType": "net.maxon.datatype.bytesvalue",
+							"content": {
+								"_value": 150000
+							}
+						},
+						"net.maxon.mediasession.export.keyframes",
+						{
+							"dataType": "int32",
+							"content": 0
+						},
+						"net.maxon.mediasession.mf.export.audio.codec",
+						{
+							"dataType": "net.maxon.datatype.id",
+							"content": "aac"
+						},
+						"net.maxon.mediasession.mf.export.audio.kilobitrate",
+						{
+							"dataType": "int64",
+							"content": 96
+						},
+						"net.maxon.mediasession.mf.export.audio.samplerate",
+						{
+							"dataType": "int64",
+							"content": 44100
+						},
+						"net.maxon.mediasession.mf.export.codec",
+						{
+							"dataType": "net.maxon.datatype.id",
+							"content": "H.264"
+						}
+					]
+				}
+			}
+		]
+	}
+}

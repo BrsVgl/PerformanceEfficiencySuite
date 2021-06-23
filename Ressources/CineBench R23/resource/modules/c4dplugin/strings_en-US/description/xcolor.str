@@ -1,0 +1,7 @@
+STRINGTABLE Xcolor
+{
+	Xcolor "Color Shader";
+
+	COLORSHADER_COLOR				"Color";
+	COLORSHADER_BRIGHTNESS	"Brightness";
+}

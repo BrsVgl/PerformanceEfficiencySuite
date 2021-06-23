@@ -1,0 +1,6 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS P_PAINTTOOL_BRUSH
+{
+	TITLE "Brush Tool";
+}

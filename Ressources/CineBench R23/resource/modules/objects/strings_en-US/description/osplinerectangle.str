@@ -1,0 +1,9 @@
+STRINGTABLE Osplinerectangle
+{
+	Osplinerectangle "Rectangle Object";
+
+	PRIM_RECTANGLE_WIDTH			"Width";
+	PRIM_RECTANGLE_HEIGHT			"Height";
+	PRIM_RECTANGLE_ROUNDING		"Rounding";
+	PRIM_RECTANGLE_RADIUS			"Radius";
+}

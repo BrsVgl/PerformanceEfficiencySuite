@@ -1,0 +1,8 @@
+STRINGTABLE GVdetails
+{
+	GVdetails									"Index Operator";
+	GV_DETAILS_INPUT_OBJECT		"Instance";
+
+	GV_DETAILS_OUTPUT_OBJECT	"Instance";
+	GV_DETAILS_OUTPUT_INDEX		"Index";
+}

@@ -1,0 +1,15 @@
+STRINGTABLE XSLABanj
+{
+  XSLABanj                                "Backlight Shader";
+
+  SLA_BANJ_COLOR                          "Color";
+  SLA_BANJ_ALGORITHM                      "Algorithm";
+    SLA_BANJ_ALGORITHM_INTERNAL           "Internal";
+    SLA_BANJ_ALGORITHM_OREN_NAYAR         "Oren Nayar";
+		SLA_BANJ_ALGORITHM_SIMPLE							"Simple";
+  SLA_BANJ_ILLIMINATION                   "Illumination";
+  SLA_BANJ_ROUGHNESS                      "Roughness";
+  SLA_BANJ_SHADOW_INTENSITY               "Shadow Intensity";
+  SLA_BANJ_CLIP                           "Clip";
+  SLA_BANJ_CONTRAST                       "Contrast";
+}

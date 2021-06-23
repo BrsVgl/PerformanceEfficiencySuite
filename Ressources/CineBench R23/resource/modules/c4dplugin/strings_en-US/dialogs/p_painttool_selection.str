@@ -1,0 +1,24 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS P_PAINTTOOL_SELECTION
+{
+	TITLE "Selection Tools";
+	TAA "Anti-Aliasing";
+	TTOLERANCE "Feather";
+
+	TNEWSELECTION "New selection";
+	TNEWINVSEL "New inverse selection";
+	TADDSELECTION "Add to selection (SHIFT)";
+	TSUBSELECTION "Subtract from selection (ALT)";
+
+	TSHAPE "Shape";
+		TCIRCLE   "Circle";
+		TRECT     "Rectangle";
+		TFREEHAND "Freehand";	
+		TLINES    "PolyLines";
+
+	THANDLE "Handle";
+		TRECTH    "Box";
+		TDIAMETER "Diameter";
+		TMIDPOINT "Center";
+}

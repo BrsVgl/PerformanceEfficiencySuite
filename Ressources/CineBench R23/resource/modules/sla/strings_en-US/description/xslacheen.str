@@ -1,0 +1,135 @@
+STRINGTABLE XSLACheen
+{
+  XSLACheen                               "Cheen Shader";
+
+  ID_CHEEN_GRADIENTS                      "Gradients";
+  ID_CHEEN_DIFFUSE                        "Diffuse";
+  ID_CHEEN_SPECULAR1                      "Specular 1";
+  ID_CHEEN_SPECULAR2                      "Specular 2";
+  ID_CHEEN_SPECULAR3                      "Specular 3";
+  ID_CHEEN_TRANSPARENCY                   "Transparency";                
+  ID_CHEEN_REFLECTION                     "Reflection";
+  ID_CHEEN_ENVIRONMENT                    "Environment";
+  ID_CHEEN_AMBIENT                        "Ambient";
+  ID_CHEEN_ROUGHNESS                      "Roughness";
+  ID_CHEEN_ANISOTROPY                    "Anisotropy";
+  ID_CHEEN_ESOTERICA                      "Esoterica";
+
+  SLA_CHEEN_GRADIENTS_COLOR               "Color";
+  SLA_CHEEN_GRADIENTS_OPACITY             "Opacity";
+
+  SLA_CHEEN_GRADIENTS                     "Gradients";
+  SLA_CHEEN_DIFFUSE                       "Diffuse";
+  SLA_CHEEN_SPECULAR1                     "Specular 1";
+  SLA_CHEEN_SPECULAR2                     "Specular 2";
+  SLA_CHEEN_SPECULAR3                     "Specular 3";
+  SLA_CHEEN_TRANSPARENCY                  "Transparency";
+  SLA_CHEEN_REFLECTION                    "Reflection";
+  SLA_CHEEN_ENVIRONMENT                   "Environment";
+  SLA_CHEEN_AMBIENT                       "Ambient";
+  SLA_CHEEN_ROUGHNESS                     "Roughness";
+  SLA_CHEEN_ANISOTROPY                   "Anisotropy";
+  SLA_CHEEN_ESOTERICA                     "Esoterica";
+
+  SLA_CHEEN_DIFFUSE_SURF_COLOR            "Surface Color";
+  SLA_CHEEN_DIFFUSE_ALGORITHM             "Algorithm";
+    SLA_CHEEN_DIFFUSE_ALGORITHM_INTERNAL    "Internal";
+    SLA_CHEEN_DIFFUSE_ALGORITHM_OREN_NAYAR  "Oren Nayar";
+  SLA_CHEEN_DIFFUSE_ROUGHNESS             "Roughness";
+  SLA_CHEEN_DIFFUSE_SURF_ILLUMINATION     "Surface Illumination";
+  SLA_CHEEN_DIFFUSE_CONTRAST              "Contrast";
+  SLA_CHEEN_DIFFUSE_VOL_COLOR             "Volume Color";
+  SLA_CHEEN_DIFFUSE_VOL_ILLUMINATION      "Volume Illumination";
+  SLA_CHEEN_DIFFUSE_SHADOW_OPACITY        "Shadow Opacity";
+
+  SLA_CHEEN_SPEC1_COLOR                   "Color";
+  SLA_CHEEN_SPEC1_INTENSITY               "Intensity";
+  SLA_CHEEN_SPEC1_SIZE                    "Size";
+  SLA_CHEEN_SPEC1_CONTRAST                "Contrast";
+  SLA_CHEEN_SPEC1_GLARE                   "Glare";
+  SLA_CHEEN_SPEC1_FALLOFF                 "Falloff";
+
+  SLA_CHEEN_SPEC2_COLOR                   "Color";
+  SLA_CHEEN_SPEC2_INTENSITY               "Intensity";
+  SLA_CHEEN_SPEC2_SIZE                    "Size";
+  SLA_CHEEN_SPEC2_CONTRAST                "Contrast";
+  SLA_CHEEN_SPEC2_GLARE                   "Glare";
+  SLA_CHEEN_SPEC2_FALLOFF                 "Falloff";
+
+  SLA_CHEEN_SPEC3_COLOR                   "Color";
+  SLA_CHEEN_SPEC3_INTENSITY               "Intensity";
+  SLA_CHEEN_SPEC3_SIZE                    "Size";
+  SLA_CHEEN_SPEC3_CONTRAST                "Contrast";
+  SLA_CHEEN_SPEC3_GLARE                   "Glare";
+  SLA_CHEEN_SPEC3_FALLOFF                 "Falloff";
+
+  SLA_CHEEN_TRANS_FRONT_OPACITY           "Front Opacity";
+  SLA_CHEEN_TRANS_BACK_OPACITY            "Back Opacity";
+  SLA_CHEEN_TRANS_EDGE_OPACITY            "Edge Opacity";
+  SLA_CHEEN_TRANS_REFRACTION_INDEX        "Refraction Index";
+  SLA_CHEEN_TRANS_INTERNAL_REFLECTION     "Internal Refraction";
+  SLA_CHEEN_TRANS_SOLID_OBJECT            "Solid Object";
+
+  SLA_CHEEN_REFLECTION_INTENSITY          "Intensity";
+  SLA_CHEEN_REFLECTION_EDGE_INTENSITY     "Edge Intensity";
+  SLA_CHEEN_REFLECTION_FALLOFF            "Falloff";
+  SLA_CHEEN_REFLECTION_DEPTH_ATTENUATION  "Depth Attenuation";
+  SLA_CHEEN_REFLECTION_REFLECTION_COLOR   "Reflection Color";
+  SLA_CHEEN_REFLECTION_EDGE_COLOR         "Reflection Edge Color";
+
+  SLA_CHEEN_ENVIRONMENT_IMAGE             "Image";
+  SLA_CHEEN_ENVIRONMENT_INTENSITY         "Intensity";
+  SLA_CHEEN_ENVIRONMENT_GLARE             "Glare";
+  SLA_CHEEN_ENVIRONMENT_FALLOFF           "Falloff";
+  SLA_CHEEN_ENVIRONMENT_UTILIZE_ANISO_SCRATCHES "Utilize Anisotropic Scratches";
+  SLA_CHEEN_ENVIRONMENT_BLUR              "Blur";
+  SLA_CHEEN_ENVIRONMENT_SAMPLES           "Samples";
+  SLA_CHEEN_ENVIRONMENT_JITTER            "Jitter";
+  SLA_CHEEN_ENVIRONMENT_ENVIRONMENT_COLOR "Environment Color";
+  SLA_CHEEN_ENVIRONMENT_EDGE_COLOR        "Edge Color";
+
+  SLA_CHEEN_AMBIENT_COLOR                 "Color";
+  SLA_CHEEN_AMBIENT_INTENSITY             "Intensity";
+  SLA_CHEEN_AMBIENT_EDGE_INTENSITY        "Edge Intensity";
+  SLA_CHEEN_AMBIENT_FALLOFF               "Falloff";
+
+	SLA_CHEEN_ROUGHNESS_SEED								"Seed";
+  SLA_CHEEN_ROUGHNESS_NOISE               "Function";
+
+  SLA_CHEEN_ROUGHNESS_AMPLITUDE           "Amplitude";
+  SLA_CHEEN_ROUGHNESS_OCTAVES             "Octaves";
+  SLA_CHEEN_ROUGHNESS_SCALE               "Scale";
+  SLA_CHEEN_ROUGHNESS_SPEED               "Speed";
+  SLA_CHEEN_ROUGHNESS_ATTENUATION         "Attenuation";
+  SLA_CHEEN_ROUGHNESS_DELTA               "Delta";
+  SLA_CHEEN_ROUGHNESS_HARD_BUMP           "Hard Bump";
+  SLA_CHEEN_ROUGHNESS_ABSOLUTE            "Absolute";
+  SLA_CHEEN_ROUGHNESS_LOW_CLIP            "Low Clip";
+  SLA_CHEEN_ROUGHNESS_HIGH_CLIP           "High Clip";
+  SLA_CHEEN_ROUGHNESS_GRIT_COLOR          "Grit Color";
+  SLA_CHEEN_ROUGHNESS_GRIT_INTENSITY      "Grit Intensity";
+  SLA_CHEEN_ROUGHNESS_GRIT_LOW_CLIP       "Grit Low Clip";
+  SLA_CHEEN_ROUGHNESS_GRIT_HIGH_CLIP      "Grit High Clip";
+
+  SLA_CHEEN_ANISOTROPY_PROJECTION        "Projection";
+    SLA_CHEEN_ANISOTROPY_PROJECTION_PLANAR               "Planar";
+    SLA_CHEEN_ANISOTROPY_PROJECTION_AUTO_PLANAR          "Auto Planar";
+    SLA_CHEEN_ANISOTROPY_PROJECTION_SHRINK_WRAP          "Shrink Wrap";
+    SLA_CHEEN_ANISOTROPY_PROJECTION_RADIAL_AUTO_PLANAR   "Radial Auto Planar";
+    SLA_CHEEN_ANISOTROPY_PROJECTION_RAD_PATTERN_AUTO_PLANAR  "Radial Pattern Auto Planar";
+    SLA_CHEEN_ANISOTROPY_PROJECTION_RADIAL_PLANAR        "Radial Planar";
+    SLA_CHEEN_ANISOTROPY_PROJECTION_RAD_PATTERN_PLANAR   "Radial Pattern Planar";
+
+  SLA_CHEEN_ANISOTROPY_PROJ_SCALE        "Projection Scale";
+  SLA_CHEEN_ANISOTROPY_X_ROUGH           "Roughness X";
+  SLA_CHEEN_ANISOTROPY_Y_ROUGH           "Roughness Y";
+  SLA_CHEEN_ANISOTROPY_AMPL              "Amplitude";
+  SLA_CHEEN_ANISOTROPY_SCALE             "Scale";
+  SLA_CHEEN_ANISOTROPY_LENGTH            "Length";
+  SLA_CHEEN_ANISOTROPY_ATT               "Attenuation";
+  SLA_CHEEN_ANISOTROPY_CHANNEL1          "Specular 1";
+  SLA_CHEEN_ANISOTROPY_CHANNEL2          "Specular 2";
+  SLA_CHEEN_ANISOTROPY_CHANNEL3          "Specular 3";
+    
+  SLA_CHEEN_ESOTERICA_OPACITY             "Global Shadow Opacity";
+}

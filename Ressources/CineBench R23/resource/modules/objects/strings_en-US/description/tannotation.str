@@ -1,0 +1,23 @@
+STRINGTABLE Tannotation
+{
+  Tannotation                   "Annotation Tag";
+	ANNOTATIONTAG_GROUPDISPLAY		"Display";
+  ANNOTATIONTAG_COLOR           "Color";
+	ANNOTATIONTAG_COLORFROMLAYER	"Inherit from Layer";
+
+  ANNOTATIONTAG_VIEWPORT_SHOW   "Show in Viewport";
+  ANNOTATIONTAG_VIEWPORT_ALL    "All Views";
+	ANNOTATIONTAG_SCALEFLAG				"Scale";
+  ANNOTATIONTAG_EXPORT          "Export";
+	ANNOTATIONTAG_FOLD						"Fold";
+
+  ANNOTATIONTAG_SHOW_ALL        "Show all";
+  ANNOTATIONTAG_HIDE_ALL        "Hide all";
+  ANNOTATIONTAG_HIDE_OTHERS     "Hide all but this";
+  
+  ANNOTATIONTAG_GROUPSETTINGS        "Annotation";
+  ANNOTATIONTAG_TEXT            "Text";
+  ANNOTATIONTAG_URL             "URL";
+  ANNOTATIONTAG_URL_INFO        "URL Info";
+  ANNOTATIONTAG_URL_GO          "Visit URL";
+}

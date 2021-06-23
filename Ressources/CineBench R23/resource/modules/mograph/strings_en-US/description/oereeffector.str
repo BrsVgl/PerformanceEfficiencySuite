@@ -1,0 +1,66 @@
+STRINGTABLE Oereeffector
+{
+	Oereeffector "ReEffector";
+
+	MGREEFFECTOR_GROUPEFFECTOR				"Effector";
+	MGREEFFECTOR_GROUPPARAMETER				"Parameter";
+	MGREEFFECTOR_GROUPTRANSFORM				"Transform";
+	MGREEFFECTOR_GROUPCOLOR						"Color";
+	MGREEFFECTOR_GROUPOTHER						"Other";
+
+	MGREEFFECTOR_STRENGTH							"Strength";
+
+	MGREEFFECTOR_EFFECTORS						"Effectors";
+
+	MGREEFFECTOR_POSITION							"Position";
+		MGREEFFECTOR_POSITION_X						"Position.X";
+		MGREEFFECTOR_POSITION_Y						"Position.Y";
+		MGREEFFECTOR_POSITION_Z						"Position.Z";
+
+	MGREEFFECTOR_SCALE								"Scale";
+		MGREEFFECTOR_SCALE_X							"Scale.X";
+		MGREEFFECTOR_SCALE_Y							"Scale.Y";
+		MGREEFFECTOR_SCALE_Z							"Scale.Z";
+
+	MGREEFFECTOR_ROTATION							"Rotation";
+		MGREEFFECTOR_ROTATION_H						"Rotation.H";
+		MGREEFFECTOR_ROTATION_P						"Rotation.P";
+		MGREEFFECTOR_ROTATION_B						"Rotation.B";
+
+	MGREEFFECTOR_COLOR								"Color";
+		MGREEFFECTOR_COLOR_R							"Color.R";
+		MGREEFFECTOR_COLOR_G							"Color.G";
+		MGREEFFECTOR_COLOR_B							"Color.B";
+
+	MGREEFFECTOR_WEIGHT								"Weight";
+	MGREEFFECTOR_CLONE								"Modify Clone";
+	MGREEFFECTOR_TIME									"Time";
+	MGREEFFECTOR_U										"U Transform";
+	MGREEFFECTOR_V										"V Transform";
+	MGREEFFECTOR_VISIBILITY						"Visiblity";
+
+	MGREEFFECTOR_POSITION_STRENGTH		"Position Strength" " ";
+		MGREEFFECTOR_POSITION_STRENGTH_X	"Position.X Strength" " ";
+		MGREEFFECTOR_POSITION_STRENGTH_Y	"Position.Y Strength" " ";
+		MGREEFFECTOR_POSITION_STRENGTH_Z	"Position.Z Strength" " ";
+	MGREEFFECTOR_SCALE_STRENGTH				"Scale Strength" " ";
+		MGREEFFECTOR_SCALE_STRENGTH_X			"Scale.X Strength" " ";
+		MGREEFFECTOR_SCALE_STRENGTH_Y			"Scale.Y Strength" " ";
+		MGREEFFECTOR_SCALE_STRENGTH_Z			"Scale.Z Strength" " ";
+	MGREEFFECTOR_ROTATION_STRENGTH		"Rotation Strength" " ";
+		MGREEFFECTOR_ROTATION_STRENGTH_H	"Rotation.H Strength" " ";
+		MGREEFFECTOR_ROTATION_STRENGTH_P	"Rotation.P Strength" " ";
+		MGREEFFECTOR_ROTATION_STRENGTH_B	"Rotation.B Strength" " ";
+	MGREEFFECTOR_COLOR_STRENGTH				"Color Strength" " ";
+		MGREEFFECTOR_COLOR_STRENGTH_R			"Color.R Strength" " ";
+		MGREEFFECTOR_COLOR_STRENGTH_G			"Color.G Strength" " ";
+		MGREEFFECTOR_COLOR_STRENGTH_B			"Color.B Strength" " ";
+	MGREEFFECTOR_WEIGHT_STRENGTH			"Weight Strength" " ";
+	MGREEFFECTOR_CLONE_STRENGTH				"Clone Strength" " ";
+	MGREEFFECTOR_TIME_STRENGTH				"Time Strength" " ";
+	MGREEFFECTOR_U_STRENGTH						"U Strength" " ";
+	MGREEFFECTOR_V_STRENGTH						"V Strength" " ";
+
+	MGREEFFECTOR_VISIBILITY_STRENGTH	"Visibility Strength" " ";
+	MGREEFFECTOR_SELECTION						"Selection";
+}

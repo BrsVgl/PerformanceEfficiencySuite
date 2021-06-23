@@ -1,0 +1,8 @@
+DIALOGSTRINGS R_MODELING_OPTIMIZE
+{
+  T1 "Optimize";
+  T2 "Polygons";
+  T3 "Unused Points";
+  T4 "Points";
+  T5 "Tolerance";
+}

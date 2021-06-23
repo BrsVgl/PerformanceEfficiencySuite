@@ -1,0 +1,27 @@
+STRINGTABLE ToolSoftSelection 
+{
+	ToolSoftSelection		"Soft Selection";
+	MDATA_SOFTSELECTION		"Soft Selection";
+
+	MDATA_SOFT_FALLOFF                    	"Falloff";
+		MDATA_SOFT_FALLOFF_LINEAR							"Linear";
+		MDATA_SOFT_FALLOFF_DOME								"Dome";
+		MDATA_SOFT_FALLOFF_BELL								"Bell";
+		MDATA_SOFT_FALLOFF_CIRCLE							"Circle";
+		MDATA_SOFT_FALLOFF_NEEDLE							"Needle";
+		MDATA_SOFT_FALLOFF_VMAP								"Vertex Map";
+		MDATA_SOFT_FALLOFF_SPLINE							"Spline";
+	MDATA_SOFT_RADIUS                    		"Radius";
+	MDATA_SOFT_STRENGTH											"Strength";
+	MDATA_SOFT_MODE												"Mode";
+	MDATA_SOFT_RUBBER												"Rubber";
+	MDATA_SOFT_SURFACE											"Surface";
+	MDATA_SOFT_WIDTH	                      "Width";
+	MDATA_SOFT_SPLINE											"Spline" " ";
+	MDATA_SOFT_MODE_GROUPS					"Group";
+	MDATA_SOFT_MODE_CENTER					"Center";
+	MDATA_SOFT_MODE_ALL						"All";
+	MDATA_SOFT_PREVIEW						"Preview";
+	MDATA_SOFT_ENABLE						"Enable";
+	MDATA_SOFT_RESTRICT						"Restrict";
+}

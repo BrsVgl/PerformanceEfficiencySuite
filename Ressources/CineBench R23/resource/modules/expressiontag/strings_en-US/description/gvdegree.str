@@ -1,0 +1,11 @@
+STRINGTABLE GVdegree
+{
+	GVdegree "Degree Operator";
+	
+	GV_DEGREE_FUNCTION_ID "Function";
+		GV_RAD2DEGREE_NODE_FUNCTION "Radians to Degree";
+		GV_DEGREE2RAD_NODE_FUNCTION "Degree to Radians";
+	GV_DEGREE_INPUT  "Input";
+	GV_DEGREE_OUTPUT "Output";
+}
+

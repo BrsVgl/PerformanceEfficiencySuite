@@ -1,0 +1,11 @@
+STRINGTABLE ToolHairRotate
+{
+	ToolHairRotate "Rotate";
+	HAIR_ROTATE_IK				"Hair IK";
+	HAIR_ROTATE_COLLISIONS		"Collisions";
+	HAIR_ROTATE_RADIUS			"Coll. Radius";
+	HAIR_ROTATE_AROUND			"Pivot";
+	HAIR_ROTATE_AMOUNT			"Rotation";
+	HAIR_ROTATE_AROUND_ROOT		"Root";
+	HAIR_ROTATE_AROUND_CURSOR	"Cursor";
+}

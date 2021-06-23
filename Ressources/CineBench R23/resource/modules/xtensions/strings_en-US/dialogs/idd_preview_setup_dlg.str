@@ -1,0 +1,16 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_PREVIEW_SETUP_DLG
+{
+  IDS_DIALOG   "Project Settings";
+  IDS_STATIC   "Original Size";
+  IDS_STATIC1  "Group";
+  IDS_STATIC2  "Static text";
+  IDS_STATIC3  "Preview Size";
+  IDS_STATIC4  "Relative Scale";
+  IDS_STATIC5  "Animation Start";
+  IDS_STATIC6  "Static text";
+  IDS_STATIC7  "Environment Color";
+  IDS_STATIC8  "Environment Strength";
+  IDS_STATIC9  "Group";
+}

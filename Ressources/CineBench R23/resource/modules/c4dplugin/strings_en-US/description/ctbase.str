@@ -1,0 +1,34 @@
+STRINGTABLE CTbase
+{
+	CTbase				 		 						"Track";
+
+	ID_CTRACK_PROPERTIES					"Track Properties" "Properties";
+
+	ID_CTRACK_NAME 								"Name";
+	ID_CTRACK_ANIMOFF							"Enable Animation";
+	ID_CTRACK_CONSTANTVELOCITY_V	"Constant Velocity";
+	ID_CTRACK_ANIMSOLO						"Solo Animation";
+	ID_CTRACK_FCURVE_COLOR 				"Color";
+	ID_CTRACK_FCURVE_OFFSET 			"F-Curve Offset";
+	ID_CTRACK_FCURVE_SCALE 				"F-Curve Scale";
+
+	ID_CTRACK_TIME            		"Time Track";
+	ID_CTRACK_TIME_RELATIVE       "Relative Mapping";
+
+	ID_CTRACK_BEFORE          		"Before";
+	ID_CTRACK_AFTER           		"After";
+		ID_CTRACK_OFF          				"Off";
+		ID_CTRACK_CONSTANT     				"Constant";
+		ID_CTRACK_CONTINUE     				"Continue";
+		ID_CTRACK_REPEAT       				"Repeat";
+		ID_CTRACK_OFFSETREPEAT 				"Offset Repeat";
+		ID_CTRACK_OSCILLATE    				"Oscillate";
+		ID_CTRACK_USE_PREF						"Use Pref. Color";
+
+	ID_CTRACK_BEFORE_CNT          "Repetitions";
+	ID_CTRACK_AFTER_CNT           "Repetitions";
+
+}
+
+
+

@@ -1,0 +1,14 @@
+STRINGTABLE TakeBase
+{
+	TakeBase "Take";
+
+	TAKEBASE_MAINGROUP		"Take";
+	TAKEBASE_INDEX				"Index";
+	TAKEBASE_CAMERA				"Camera";
+	TAKEBASE_RDATA				"Render Settings";
+	TAKEBASE_OVERRIDES		"Override List";
+	TAKEBASE_CAMERA_COMBO "Camera";
+	TAKEBASE_RDATA_COMBO	"Render Settings";
+	TAKEBASE_NOTES				"Notes";
+	TAKEBASE_CHECK				"Checked";
+}

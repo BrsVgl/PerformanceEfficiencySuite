@@ -1,0 +1,12 @@
+STRINGTABLE Xsunburst
+{
+	Xsunburst "Sunburst Shader";
+
+	SUNBURSTSHADER_COLOR			"Color";
+	SUNBURSTSHADER_SCALE_R 		"R Frequency";
+	SUNBURSTSHADER_SCALE_A 		"A Frequency";
+	SUNBURSTSHADER_FREQUENCY	"T Frequency";
+	SUNBURSTSHADER_TURBULENCE "Turbulence";
+	SUNBURSTSHADER_RADIUS			"Radius";
+	SUNBURSTSHADER_HEIGHT 		"Height";
+}

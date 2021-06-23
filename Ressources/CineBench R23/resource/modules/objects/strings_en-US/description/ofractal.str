@@ -1,0 +1,18 @@
+STRINGTABLE Ofractal
+{
+	Ofractal	"Landscape Object";
+	PRIM_FRACTAL_LEN	"Size"; 
+	PRIM_FRACTAL_SUBW "Width Segments";
+	PRIM_FRACTAL_SUBH "Depth Segments";
+	PRIM_FRACTAL_ROUGH "Rough Furrows";
+	PRIM_FRACTAL_FINE  "Fine Furrows";
+	PRIM_FRACTAL_SCALE "Scale";
+	PRIM_FRACTAL_BLEVEL "Sea Level";
+	PRIM_FRACTAL_TLEVEL	"Plateau Level";
+	PRIM_FRACTAL_MULTIFRACTAL "Multifractal";
+	PRIM_FRACTAL_BORDERS   "Borders At Sea Level";
+	PRIM_FRACTAL_SPHERICAL "Spherical";
+	PRIM_FRACTAL_SEED "Seed";	
+	PRIM_FRACTAL_USE_NEW_VERSION	"";
+	PRIM_FRACTAL_SWITCH_TO_UPDATED	"Switch to Updated Landscape";
+}

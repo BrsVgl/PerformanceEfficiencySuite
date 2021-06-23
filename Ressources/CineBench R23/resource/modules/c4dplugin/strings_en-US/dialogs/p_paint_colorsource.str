@@ -1,0 +1,37 @@
+// C4D Dialog Strings
+
+DIALOGSTRINGS P_PAINT_COLORSOURCE
+{
+	TITLE "Colors";
+	T2 	"Blending Mode";
+	T3  "Ignore Filter";
+	T4  "Solid Color";
+	T5  "Texture Paint";
+	T6  "Wallpaper";
+	T7  "Source X/Y";
+	T8  "Tiling";
+	T9  "Dest. X/Y";
+	T10 "Scale";
+	T11 "Rot.";
+	TPP "...";
+	
+	TL0 "Normal";
+	TL1 "Dissolve";
+	TL2 "Difference";
+	TL3 "Lighten";
+	TL4 "Darken";
+	TL5 "Multiply";
+	TL6 "Screen";
+	TL7 "Add";
+	TL8 "Exclusion";
+	TL9 "Erase";
+	
+	TN0	"Locked";
+	TN1 "Mouse Hit";
+	TN2 "Brush Pos.";
+
+	TCOLOR "Color";
+	TCHN "Channels";
+
+	TSEP "";
+}

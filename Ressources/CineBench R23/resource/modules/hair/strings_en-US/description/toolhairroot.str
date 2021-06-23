@@ -1,0 +1,8 @@
+STRINGTABLE ToolHairRoot
+{
+	ToolHairRoot "Set Roots";
+
+	HAIR_TOOL_ROOT_DISTANCE			"Distance Limit";
+	HAIR_TOOL_ROOT_CHECK_TIPS		"Check Tips";
+	HAIR_TOOL_ROOT_ALIGN_ROOT		"Align Root";
+}

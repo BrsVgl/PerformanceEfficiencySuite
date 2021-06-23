@@ -1,0 +1,43 @@
+STRINGTABLE vstag
+{
+	vstag	"Visual Selector Tag";
+
+
+	ID_VS_TAG_SETTINGS	"Settings";
+	ID_VS_TAG_NAME		"Name";
+	ID_VS_TAG_IMAGE		"Image File";
+
+	ID_VS_TAG_LOCK		"Lock HotSpots";
+	ID_VS_BASE_SIZE		"Base Size";
+
+
+	
+	ID_VS_TAG_ASPECT		"Aspect Ratio";	
+	ID_VS_TAG_ASPECT_11		"1/1";	
+	ID_VS_TAG_ASPECT_43		"4/3";	
+	ID_VS_TAG_ASPECT_34		"3/4";	
+	ID_VS_TAG_ASPECT_169	"16/9";	
+
+	ID_VS_TAG_HOTSPOT_ADD		"Add";
+	ID_VS_TAG_HOTSPOT_REMOVE	"Remove";
+
+	ID_VS_TAG_HOTSPOTS_GRP		"HotSpots";
+	ID_VS_TAG_DYNAMIC_HOTSPOTS	"HotSpots";
+
+	ID_VS_TAG_DYNAMIC_NAME		"Text";
+	ID_VS_TAG_DYNAMIC_LINK		"Link";
+	ID_VS_TAG_DYNAMIC_BUTTON	"Icon";
+	ID_VS_TAG_DYNAMIC_ACTION	"Action";
+
+
+	ID_VS_TAG_ACTION_NONE		"None";
+	ID_VS_TAG_ACTION_AXIS		"Axis";
+	ID_VS_TAG_ACTION_MOVE		"Move";
+	ID_VS_TAG_ACTION_SCALE		"Scale";
+	ID_VS_TAG_ACTION_ROTATE		"Rotate";
+	ID_VS_TAG_ACTION_SPECIAL	"Command";
+	ID_VS_TAG_DYNAMIC_COMMAND	"Command Id";
+
+
+
+}

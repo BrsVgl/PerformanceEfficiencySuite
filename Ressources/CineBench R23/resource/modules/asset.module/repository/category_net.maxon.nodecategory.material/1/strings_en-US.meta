@@ -1,0 +1,36 @@
+﻿{
+	"identification": "net.maxon.asset.metadata",
+	"content": {
+		"dataType": "<net.maxon.interface.datadescriptiondefinition>C",
+		"content": {
+			"referenceClassType": "net.maxon.class.datadescriptiondefinition",
+			"_info": {},
+			"_description": [
+				{
+					"referenceDataType": "net.maxon.interface.datadictionary-C",
+					"_impl": {
+						"_mode": 1,
+						"_keyType": "net.maxon.datatype.internedid",
+						"_fastData": [
+							"net.maxon.description.base.command",
+							{
+								"dataType": "net.maxon.datatype.id",
+								"content": "exportedstring"
+							},
+							"net.maxon.description.base.identifier",
+							{
+								"dataType": "net.maxon.datatype.internedid",
+								"content": "net.maxon.object.base.name"
+							},
+							"net.maxon.description.string.base.translatedstring",
+							{
+								"dataType": "net.maxon.interface.string-C",
+								"content": "Material"
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

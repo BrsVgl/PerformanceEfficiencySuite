@@ -1,0 +1,11 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDC_EDGE_CUT_DIALOG
+{
+  IDS_BUTTON   "Cut";
+  IDS_CHECK    "Keep selection";
+  IDS_DIALOG   "Edge Cut";
+  IDS_STATIC1  "Group";
+  IDS_STATIC2  "Subdivisions:";
+  IDS_STATIC   "Group";
+}

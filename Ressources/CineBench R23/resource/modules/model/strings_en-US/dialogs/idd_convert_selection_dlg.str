@@ -1,0 +1,17 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_CONVERT_SELECTION_DLG
+{
+  IDS_BUTTON  "Convert";
+  IDS_STATIC  "Group";
+  T1          "Convert Selection";
+  T2          "Points";
+  T3          "Edges";
+  T4          "Polygons";
+  T5          "UV Points";
+  T6          "UV Polygons";
+  T7          "Current";
+  T8          "to";
+  T9          "Tolerant";
+  T10         "UV Edges";
+}

@@ -1,0 +1,31 @@
+STRINGTABLE MGspline
+{
+	MGspline "Spline Object Clone";
+
+	MG_SPLINE_COUNT "Count";
+	MG_SPLINE_OFFSET "Offset";
+	MG_SPLINE_LOOP "Loop";
+	MG_SPLINE_OFFSETVAR "Offset Variation";
+	MG_SPLINE_RATE "Rate";
+	MG_SPLINE_RATEVAR "Rate Variation";
+	MG_SPLINE_PERSEG "Per Segment";
+	MG_SPLINE_SEED "Random Seed";
+	MG_SPLINE_MODE "Distribution";
+	MG_SPLINE_MODE_COUNT "Count";
+	MG_SPLINE_MODE_STEP "Step";
+	MG_SPLINE_MODE_EVEN "Even";
+	MG_SPLINE_MODE_GROUP1 "Group 1";
+	MG_SPLINE_MODE_GROUP2	"Group 2";
+	MG_SPLINE_MODE_GROUP3	"Group 3";
+	MG_SPLINE_MODE_GROUP4	"Group 4";
+	MG_SPLINE_MODE_VERTEX "Vertex";
+	MG_SPLINE_MODE_AXIS "Axis";
+	MG_SPLINE_STEP "Step";
+	MG_SPLINE_SMOOTH "Smooth Rotation";
+	MG_SPLINE_START "Start";
+	MG_SPLINE_END "End";
+	MG_SPLINE_RAIL "Rail";
+	MG_SPLINE_RAIL_TARGET "Target";
+	MG_SPLINE_RAIL_SCALE "Scale";
+	MG_SPLINE_VOLUME_SPREAD "Volume Spread";
+}

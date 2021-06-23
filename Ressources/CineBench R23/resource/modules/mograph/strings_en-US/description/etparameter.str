@@ -1,0 +1,22 @@
+STRINGTABLE ETparameter
+{
+	ETparameter																"Parameter Effector Tag";
+
+	ETPARAMETERTAG_STRENGTH										"Strength";
+	ETPARAMETERTAG_RESET											"Reset";
+	ETPARAMETERTAG_MODE												"Mode";
+		ETPARAMETERTAG_MODE_ABSOLUTE							"Absolute";
+		ETPARAMETERTAG_MODE_RELATIVE							"Relative";
+	ETPARAMETERTAG_HIDEUNUSED									"Hide Unchanged";
+	ETPARAMETERTAG_FIELDS											"Fields";
+	ETPARAMETERTAG_FIELDPOINT									"Sample Point Mode";
+	ETPARAMETERTAG_FIELDPOINT_EXPRESSION				"As Standard Expression";
+	ETPARAMETERTAG_FIELDPOINT_DOUBLE						"Double Execution";
+	ETPARAMETERTAG_FIELDPOINT_NOEXPRESSION			"Disable Expressions";
+	ETPARAMETERTAG_FIELDPOINT_GLOBALDOUBLE			"Global Double Exectution";
+	ETPARAMETERTAG_FIELDPOINT_FIXPOINT					"Fixed Point";
+	ETPARAMETERTAG_FIXPOSITION								"Fix Position";
+
+	ETPARAMETERTAG_OBJECT											"Object";
+	ETPARAMETERTAG_FIELDGROUP									"Fields";
+}

@@ -1,0 +1,20 @@
+STRINGTABLE Mfog
+{
+	Mfog "Fog Shader";
+
+	FOGSHADER_SAMPLES						"Samples";
+	FOGSHADER_VOLUMETRIC				"Volumetric";
+	FOGSHADER_SCALE							"Frequency";
+
+	FOGSHADER_COLOR							"Color";
+	FOGSHADER_TYPE							"Type";
+	FOGSHADER_TYPE_LINEAR				"Linear";
+	FOGSHADER_TYPE_EXPONENTIAL	"Exponential";
+	FOGSHADER_TYPE_NODECREASE		"No Decrease";
+	FOGSHADER_THICKNESS					"Thickness";
+	FOGSHADER_DECREASE					"Decrease";
+	
+	FOGSHADER_TURBULENCE				"Turbulence";
+	FOGSHADER_AMPLITUDE					"Amplitude";
+	FOGSHADER_FREQUENCY					"T Frequency";
+}

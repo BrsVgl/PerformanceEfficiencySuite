@@ -1,0 +1,14 @@
+STRINGTABLE Taligntospline
+{
+	Taligntospline "Align to Spline Expression";
+
+	ALIGNTOSPLINETAG_LINK							"Spline Path";
+	ALIGNTOSPLINETAG_RAIL							"Rail Path";
+	ALIGNTOSPLINETAG_TANGENTIAL				"Tangential";
+	ALIGNTOSPLINETAG_POSITION					"Position";
+	ALIGNTOSPLINETAG_SEGMENT					"Segment";
+	ALIGNTOSPLINETAG_AXIS							"Axis";
+		ALIGNTOSPLINETAG_AXIS_X					"X";
+		ALIGNTOSPLINETAG_AXIS_Y					"Y";
+		ALIGNTOSPLINETAG_AXIS_Z					"Z";
+}

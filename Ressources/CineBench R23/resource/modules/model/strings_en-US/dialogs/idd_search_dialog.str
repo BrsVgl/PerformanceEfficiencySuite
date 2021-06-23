@@ -1,0 +1,21 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_SEARCH_DIALOG
+{
+  IDS_BUTTON       "Filter...";
+  IDS_CHECK1       "From Current Object";
+  IDS_CHECK2       "Include Children";
+  IDS_CHECK        "Select Only First";
+  IDS_CONTAINS     "Contains";
+  IDS_ENDSWIDTH    "Ends With";
+  IDS_EXACT_MATCH  "Exact Match";
+  IDS_STARTSWITH   "Starts with";
+  IDS_STATIC3      "Options";
+  IDS_STATIC4      "Group";
+  IDS_STATIC8      "Group";
+  IDS_STATIC9      "[type]";
+  IDS_STATIC       "Type";
+  IDS_TYPE_OBJECT  "Objects";
+  IDS_TYPE_TAG     "Tags";
+  T1               "Search";
+}

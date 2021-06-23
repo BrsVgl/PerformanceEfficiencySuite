@@ -1,0 +1,11 @@
+CONTAINER Tuserdata
+{
+	NAME Tuserdata;
+	INCLUDE Tbase;
+
+	GROUP Obaselist
+	{
+		SCALE_V;
+		STRING USERDATA_TAG_NOTE { ANIM OFF; CUSTOMGUI MULTISTRING; SCALE_V; }
+	}
+}

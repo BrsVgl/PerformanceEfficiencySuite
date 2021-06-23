@@ -1,0 +1,9 @@
+STRINGTABLE GVvect2real
+{
+	GVvect2real							"Vector2Real Operator";
+
+	GV_VECT2REAL_INPUT			"Input";
+	GV_VECT2REAL_OUTPUTX		"X";
+	GV_VECT2REAL_OUTPUTY		"Y";
+	GV_VECT2REAL_OUTPUTZ		"Z";
+}

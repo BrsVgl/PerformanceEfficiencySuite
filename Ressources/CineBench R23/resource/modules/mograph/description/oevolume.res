@@ -1,0 +1,11 @@
+CONTAINER Oevolume
+{
+	NAME		Oevolume;
+
+	INCLUDE Obaseeffector;
+
+	GROUP		ID_MG_BASEEFFECTOR_GROUPEFFECTOR
+	{
+		LINK MGVOLUMEEFFECTOR_OBJECT { }
+	}
+}

@@ -1,0 +1,17 @@
+DIALOGSTRINGS P_UVEDIT_REMAP
+{
+  TITLE "Remap";
+	T1    "Color";
+	T2    "Diffusion";
+	T3    "Luminance";
+	T4    "Transparency";
+	T5    "Reflection";
+	T6    "Environment";
+	T7    "Bump";
+	T8    "Alpha";
+	T9    "Specular";
+	T10   "Displacement";
+	T11   "Normal";
+
+	TB    "Cut";
+}

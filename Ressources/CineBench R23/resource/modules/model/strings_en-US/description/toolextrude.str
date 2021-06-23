@@ -1,0 +1,21 @@
+STRINGTABLE ToolExtrude
+{
+  ToolExtrude	"Extrude";
+
+	MDATA_EXTRUDE_PRESERVEGROUPS							"Preserve Groups";
+	MDATA_EXTRUDE_OFFSET											"Offset";
+	MDATA_EXTRUDE_ANGLE												"Maximum Angle";
+	MDATA_EXTRUDE_VARIANCE										"Offset Variation";
+	MDATA_EXTRUDE_EDGEANGLE										"Rotation";
+	MDATA_EXTRUDE_EDGESNAP										"Quantize Rotation";
+	MDATA_EXTRUDE_EDGESNAPVALUE								"Angle";
+	MDATA_EXTRUDE_SUBDIVISION                 "Subdivision";
+	MDATA_EXTRUDE_CREATENGONS                 "Create N-gons";
+	MDATA_EXTRUDE_CREATECAPS                  "Create Caps";
+	MDATA_EXTRUDE_BEVEL												"Bevel";
+	MDATA_EXTRUDE_BEVEL_VARIANCE							"Bevel Variation";
+
+	MDATA_EXTRUDE_POLYGON_GROUP               "Polygons";
+	MDATA_EXTRUDE_EDGE_GROUP             	  	"Edges";
+	MDATA_EXTRUDE_POINT_GROUP               	"Points";
+}

@@ -1,0 +1,38 @@
+STRINGTABLE XSLAFusion
+{
+  XSLAFusion                              "Fusion Shader";
+
+  SLA_FUSION_MODE                         "Mode";
+    SLA_FUSION_MODE_NORMAL                "Normal";
+    SLA_FUSION_MODE_SEP_1                 "";
+    SLA_FUSION_MODE_MULTIPLY              "Multiply";
+    SLA_FUSION_MODE_SCREEN                "Screen";
+    SLA_FUSION_MODE_OVERLAY               "Overlay";
+    SLA_FUSION_MODE_HARD_LIGHT            "Hard Light";
+    SLA_FUSION_MODE_SOFT_LIGHT            "Soft Light";
+    SLA_FUSION_MODE_SEP_2                 "";
+    SLA_FUSION_MODE_DODGE                 "Dodge";
+    SLA_FUSION_MODE_BURN                  "Burn";
+    SLA_FUSION_MODE_SEP_3                 "";
+    SLA_FUSION_MODE_DARKEN                "Darken";
+    SLA_FUSION_MODE_LIGHTEN               "Lighten";
+    SLA_FUSION_MODE_ADD                   "Add";
+    SLA_FUSION_MODE_SUBTRACT              "Subtract";
+    SLA_FUSION_MODE_DIFFERENCE            "Difference";
+    SLA_FUSION_MODE_EXCLUSION             "Exclusion";
+    SLA_FUSION_MODE_SEP_4                 "";
+    SLA_FUSION_MODE_HUE                   "Hue";
+    SLA_FUSION_MODE_SAT                   "Saturation";
+    SLA_FUSION_MODE_COLOR                 "Color";
+    SLA_FUSION_MODE_LUMINANCE             "Luminance";
+    SLA_FUSION_MODE_SEP_5                 ""; 
+    SLA_FUSION_MODE_LEVR                  "Levr";
+
+  SLA_FUSION_BLEND                        "Blend";
+  SLA_FUSION_USE_MASK                     "Use Mask";
+  SLA_FUSION_INVERT_MASK                  "Invert Mask";
+  SLA_FUSION_INVERT_OUTPUT                "Invert Output";
+  SLA_FUSION_BLEND_CHANNEL                "Blend Channel";
+  SLA_FUSION_MASK_CHANNEL                 "Mask Channel";
+  SLA_FUSION_BASE_CHANNEL                 "Base Channel";
+}

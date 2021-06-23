@@ -1,0 +1,7 @@
+STRINGTABLE Texpression
+{
+	Texpression "Expression";
+
+  EXPRESSION_PRIORITY "Priority";
+  EXPRESSION_ENABLE   "Enable";
+}

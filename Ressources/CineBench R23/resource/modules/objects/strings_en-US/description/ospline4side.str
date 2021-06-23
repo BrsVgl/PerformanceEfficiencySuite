@@ -1,0 +1,13 @@
+STRINGTABLE Ospline4side
+{
+	Ospline4side "4-Sided Object";
+
+	PRIM_4SIDE_TYPE						"Type";
+		PRIM_4SIDE_TYPE_DIAMOND				"Diamond";
+		PRIM_4SIDE_TYPE_KITE					"Kite";
+		PRIM_4SIDE_TYPE_PARALLELOGRAM	"Parallelogram";
+		PRIM_4SIDE_TYPE_TRAPEZIUM			"Trapezium";
+	PRIM_4SIDE_A							"a";
+	PRIM_4SIDE_B							"b";
+	PRIM_4SIDE_ANGLE					"Angle";
+}

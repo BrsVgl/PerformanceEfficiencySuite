@@ -1,0 +1,18 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS P_PAINTTOOL_TRANSFORM
+{
+	TITLE "Transform Bitmap Tool";
+	TMODE "Mode";
+	TAUTO "Auto";
+	TFREE "Move";
+	TSCALE "Scale";
+	TROTATE "Rotate";
+	TPERSP "Perspective";
+	TSHEAR "Shear";
+	TAPPLY "Apply";
+	TMIRRORX "Flip Horizontal";
+	TMIRRORY "Flip Vertical";
+	TROTATECW "Rotate 90\u00b0 CW";
+	TROTATECCW "Rotate 90\u00b0 CCW";
+}

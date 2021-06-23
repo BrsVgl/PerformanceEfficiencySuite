@@ -1,0 +1,8 @@
+STRINGTABLE Ospherify
+{
+	Ospherify "Spherify Object";
+
+	SPHERIFYOBJECT_RADIUS		"Radius";
+	SPHERIFYOBJECT_STRENGTH	"Strength";
+	SPHERIFYOBJECT_FITTOPARENT	"Fit to Parent";
+}

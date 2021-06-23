@@ -1,0 +1,7 @@
+STRINGTABLE Xskyshader
+{
+	Xskyshader                              "Sky Shader";
+
+	SKY_MATERIAL_PAGE_PROPERTIES            "Properties";
+	SKY_MATERIAL_SKY_TAG                    "Use Sky Object";
+}

@@ -1,0 +1,35 @@
+STRINGTABLE ToolLiveSelection 
+{
+  ToolLiveSelection								"Live Selection";
+
+	MDATA_SELECTLIVE_VISIBLE								"Only Select Visible Elements";
+	MDATA_SELECTLIVE_RADIUS									"Radius";
+	MDATA_SELECTLIVE_RADIUS_PEN_PRESSURE		"Pressure Dependent Radius";
+	MDATA_SELECTLIVE_TOLERANT_EDGE					"Tolerant Edge/Polygon Selection";
+
+	MDATA_VERTEXPAINT_MODE									"Mode";
+		MDATA_VERTEXPAINT_MODE_ABS						"Absolute";
+		MDATA_VERTEXPAINT_MODE_ADD						"Add";
+		MDATA_VERTEXPAINT_MODE_SUB						"Subtract";
+
+	MDATA_VERTEXPAINT_STRENGTH							"Strength";
+	MDATA_VERTEXPAINT_STRENGTH_PEN_PRESSURE "Pressure Dependent Strength";
+	MDATA_VERTEXPAINT_RADIUS_PEN_PRESSURE		"Pressure Dependent Radius";
+
+	MDATA_SDSWEIGHT_MODE										"Mode";
+		MDATA_SDSWEIGHT_MODE_SET							"Set";
+		MDATA_SDSWEIGHT_MODE_ADD							"Add";
+		MDATA_SDSWEIGHT_MODE_SUB							"Sub";
+	MDATA_SDSWEIGHT_STRENGTH								"Strength";
+	MDATA_SDSWEIGHT_INTERACTIVEMIN					"Interactive Minimum";
+	MDATA_SDSWEIGHT_INTERACTIVEMAX					"Interactive Maximum";
+	MDATA_SDSWEIGTH_SETSTRENGTH 						"Set";
+
+	MDATA_VERTEXPAINT		 										"Vertex Painting";
+	MDATA_SDSWEIGHT													"Subdivision Surface Weights" "Subdivision Surface";
+
+	MDATA_SELECTLIVE_MODE										"Mode";
+	MDATA_SELECTLIVE_MODE_NORMAL						"Normal";
+	MDATA_SELECTLIVE_MODE_VERTEXPAINT				"Vertex Painting";
+	MDATA_SELECTLIVE_MODE_SOFTSELECTION			"Soft Selection";
+}

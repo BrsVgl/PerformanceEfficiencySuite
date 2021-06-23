@@ -1,0 +1,9 @@
+STRINGTABLE Oprimitiveslice
+{
+	PRIM_SLICE        "Slice";
+	PRIM_SLICEFROM    "From";
+	PRIM_SLICETO      "To";
+	PRIM_REGULAR      "Regular Grid";
+	PRIM_REGULARWIDTH "Width";
+	ID_SLICE "Slice";
+}

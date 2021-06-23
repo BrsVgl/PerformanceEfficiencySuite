@@ -1,0 +1,26 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_PVOPEN
+{
+  IDS_DIALOG   "Open";
+  IDS_STATIC   "Group";
+  IDS_STATIC1  "Type";
+  IDS_STATIC2  "From";
+  IDS_STATIC3  "Group";
+  IDS_STATIC4  "Group";
+  IDS_STATIC5  "To";
+  PC_OPEN_IMAGE_STR "Still Image";
+  PC_OPEN_ANIM_STR	"Animation";
+  
+  IDS_STATIC6	"FPS";
+  IDS_STATIC7	"Pixel Aspect";
+  
+	PV_OPEN_ASPECT_CUSTOM	"Custom";
+	PV_OPEN_ASPECT_SQUARE	"Square";
+	PV_OPEN_ASPECT_NTSC		"D1/DV NTSC (0.9)";
+	PV_OPEN_ASPECT_PAL		"D1/DV PAL (1.067)";
+	PV_OPEN_ASPECT_NTSCWIDE	"D1/DV NTSC Widescreen (1.2)";
+	PV_OPEN_ASPECT_HDV		"HDV Anamorphic (1.333)";
+	PV_OPEN_ASPECT_PALWIDE	"D1/DV PAL Widescreen (1.422)";
+	PV_OPEN_ASPECT_ANAMOR	"Anamorphic 2:1 (2.0)";
+}

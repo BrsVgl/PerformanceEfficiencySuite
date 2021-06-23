@@ -1,0 +1,11 @@
+DIALOGSTRINGS IDD_EXPRESSION
+{
+  T1 "Expression Editor";
+  T2 "Load...";
+  T3 "Save...";
+  T4 "Compile...";
+  T7 "";
+  T8 "Line:";
+  T9 "Position:";
+  T10 "Execute";
+}

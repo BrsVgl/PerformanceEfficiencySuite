@@ -1,0 +1,6 @@
+DIALOGSTRINGS DLG_DILUTIONER
+{
+	TITLE "Reduction";
+	TREDUCTION "Reduction Fourier";
+	TREDUCTION2 "Reduction Inflection";
+}

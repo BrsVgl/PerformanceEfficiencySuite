@@ -1,0 +1,8 @@
+STRINGTABLE ToolRingSelection
+{
+	ToolRingSelection	"Ring Selection";
+
+	MDATA_RING_SEL_STOP_AT_SELECTIONS			"Stop at Selections";
+	MDATA_RING_SEL_STOP_AT_NON_QUADS			"Stop at Non-Quads";
+	MDATA_RING_SEL_STOP_AT_POLES					"Stop at Poles";
+}

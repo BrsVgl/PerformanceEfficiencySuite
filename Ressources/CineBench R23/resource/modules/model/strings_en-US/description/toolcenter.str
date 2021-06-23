@@ -1,0 +1,11 @@
+STRINGTABLE ToolCenter
+{
+  ToolCenter										"Center";
+	MDATA_CENTER_XAXIS						"X Axis";
+	MDATA_CENTER_YAXIS						"Y Axis";
+	MDATA_CENTER_ZAXIS						"Z Axis";
+		MDATA_CENTER_NONE							"----";
+		MDATA_CENTER_POS							"Positive";
+		MDATA_CENTER_CENTER						"Middle";
+		MDATA_CENTER_NEG							"Negative";
+}

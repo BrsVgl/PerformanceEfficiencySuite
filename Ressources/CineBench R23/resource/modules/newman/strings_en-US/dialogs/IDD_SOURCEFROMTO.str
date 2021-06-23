@@ -1,0 +1,34 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_SOURCEFROMTO
+{
+  IDS_CHECK     "Create Motion Clip";
+  IDS_CHECK1    "Position";
+  IDS_CHECK10   "Timeslider";
+  IDS_CHECK11   "Key Selection";
+  IDS_CHECK12   "PLA";
+  IDS_CHECK13   "Remove Included Animation from Original Object";
+  IDS_CHECK14   "Bake Expressions";
+  IDS_CHECK15   "Create Pictures";
+  IDS_CHECK2    "Rotation";
+  IDS_CHECK3    "Scale";
+  IDS_CHECK4    "Parameter";
+  IDS_CHECK5    "Keyframeselection";
+  IDS_CHECK6    "All";
+  IDS_CHECK7    "Complete Time Range";
+  IDS_DIALOG    "Add Motion Clip";
+  IDS_STATIC    "Source name";
+  IDS_STATIC1   "Group";
+  IDS_STATIC10  "Group";
+  IDS_STATIC11  "Include";
+  IDS_STATIC12  "Group";
+  IDS_STATIC13  "Hierarchy";
+  IDS_STATIC2   "Static text";
+  IDS_STATIC3   "Time";
+  IDS_STATIC4   "Start";
+  IDS_STATIC5   "End";
+  IDS_STATIC6   "Static text";
+  IDS_STATIC7   "Tracks";
+  IDS_STATIC8   "Group";
+  IDS_STATIC9   "Group";
+}

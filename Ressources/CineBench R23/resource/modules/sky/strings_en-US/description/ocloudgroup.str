@@ -1,0 +1,15 @@
+STRINGTABLE OCloudGroup
+{
+	OCloudGroup               "Cloud Group";
+
+	SKY_CLOUD_GROUP_FALLOFF_MIN     "Min. Falloff";
+	SKY_CLOUD_GROUP_FALLOFF_MAX     "Max. Falloff";
+	SKY_CLOUD_GROUP_LUM_FALLOFF_MIN "Min. Lum. Falloff";
+	SKY_CLOUD_GROUP_LUM_FALLOFF_MAX "Max. Lum. Falloff";
+	SKY_CLOUD_GROUP_COLOR_1         "Color 1";
+	SKY_CLOUD_GROUP_COLOR_2         "Color 2";
+	SKY_CLOUD_GROUP_TRANS_FALLOFF_MIN "Min. Trans. Falloff";
+	SKY_CLOUD_GROUP_TRANS_FALLOFF_MAX "Max. Trans. Falloff";
+	SKY_CLOUD_GROUP_ALTITUDE_MIN    "Min. Altitude";
+	SKY_CLOUD_GROUP_ALTITUDE_MAX    "Max. Altitude";
+}

@@ -1,0 +1,10 @@
+STRINGTABLE Xfire
+{
+	Xfire "Fire Shader";
+
+	FIRESHADER_SCALEX 		"U Frequency";
+	FIRESHADER_SCALEY 		"V Frequency";
+	FIRESHADER_FREQUENCY 	"T Frequency";
+	FIRESHADER_TURBULENCE "Turbulence";
+	FIRESHADER_COLOR			"Color";
+}

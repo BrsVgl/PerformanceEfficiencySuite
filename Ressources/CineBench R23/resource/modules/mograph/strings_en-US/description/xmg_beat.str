@@ -1,0 +1,9 @@
+STRINGTABLE Xmg_beat
+{
+	Xmg_beat "Beat Shader";
+
+	MGBEATSHADER_BPM "Beats Per Minute";
+	MGBEATSHADER_PEAK "Peak Range";
+	MGBEATSHADER_SHAPE "Range Curve";
+	MGBEATSHADER_INVERSE "Inverse";
+}

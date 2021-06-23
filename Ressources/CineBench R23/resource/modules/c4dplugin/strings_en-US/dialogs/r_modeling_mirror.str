@@ -1,0 +1,20 @@
+DIALOGSTRINGS R_MODELING_MIRROR
+{
+  T1 "Mirror";
+  T2 "Coordinate System";
+  T3 "Object";
+  T4 "World";
+  T5 "Screen";
+  T6 "Mirror Plane";
+  T7 "XY";
+  T8 "ZY";
+  T9 "XZ";
+  T10 "Duplicate Points";
+  T11 "Snap to Points";
+  T12 "Duplicate Tag Selection";
+  T13 "Weld Points";
+  T14 "88888888";
+  T15 "Value";
+  T16 "  Apply  ";
+  T17 "Symmetric";
+}

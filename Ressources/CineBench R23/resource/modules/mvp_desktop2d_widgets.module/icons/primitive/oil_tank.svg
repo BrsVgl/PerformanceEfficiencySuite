@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>category_oil_tank</title>
+    <defs>
+        <linearGradient x1="0%" y1="51.7717527%" x2="100%" y2="51.7717527%" id="linearGradient-1">
+            <stop stop-color="#D6D6D6" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.549907124" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="43.5779065%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="43.5779065%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="34.5318816%" cy="38.2106977%" fx="34.5318816%" fy="38.2106977%" r="130.936237%" gradientTransform="translate(0.345319,0.382107),scale(0.500000,1.000000),scale(1.000000,0.994749),translate(-0.345319,-0.382107)" id="radialGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.647699956" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="category_oil_tank" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M18,4 C25.1797017,4 31,7.6862915 31,11 L31,11 L32,11 L32,27 L30.9620648,27.0002991 C30.4511523,30.3563809 24.8430265,33 18,33 C11.1569735,33 5.5488477,30.3563809 5.03793515,27.0002991 L4,27 L4,11 L5,11 C5,7.6862915 10.8202983,4 18,4 Z" id="MXN_BG_ID" fill="#5DA9C8"></path>
+        <g id="MXN_0_ID" transform="translate(4.000000, 4.000000)">
+            <path d="M28,7 L28,24 L27.8580245,24.0006912 C26.8869703,27.3926484 21.0524648,30 14,30 C6.94753523,30 1.11302966,27.3926484 0.14197553,24.0006912 L0,24 L0,7 L1,7 L1,7 C1,10.3137085 6.82029825,13 14,13 C21.1797017,13 27,10.3137085 27,7 L28,7 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+            <ellipse id="Oval" stroke="url(#linearGradient-2)" stroke-width="0.5" opacity="0.0980282738" cx="14" cy="22.5" rx="12.75" ry="6.25"></ellipse>
+            <ellipse id="Oval" stroke="url(#linearGradient-3)" stroke-width="0.5" opacity="0.227632068" cx="14" cy="7" rx="12.75" ry="5.75"></ellipse>
+            <path d="M14,13 C21.1797017,13 27,10.3137085 27,7 C27,3.6862915 21.1797017,0 14,0 C6.82029825,0 1,3.6862915 1,7 C1,10.3137085 6.82029825,13 14,13 Z" id="Oval" fill="url(#radialGradient-4)" opacity="0.651529948" style="mix-blend-mode: hard-light;"></path>
+            <g id="highlight" transform="translate(6.000000, 0.000000)" fill="#FFFFFF">
+                <circle id="Oval" cx="4" cy="4" r="1"></circle>
+            </g>
+        </g>
+        <path d="M31.491,10.998 L31.5,10.6085028 L31.5,26.601745 C31.4748839,27.5003888 31.1126488,28.3525649 30.492093,29.1311427 C29.8086808,29.9885829 28.8162764,30.7550159 27.5955009,31.3995415 C25.1276528,32.7024767 21.737966,33.5 18,33.5 C14.2905663,33.5 10.9241523,32.7145619 8.46126202,31.4292662 C6.14005954,30.2179124 4.59942069,28.5649238 4.50456904,26.6840109 L4.50456904,26.6840109 L4.50011082,10.9983385 C4.5,9.69858877 4.86814087,8.88640318 5.50182885,8.11230418 C6.19926456,7.26033239 7.21737847,6.45895937 8.47229826,5.76913141 C10.8540806,4.45986837 14.0811851,3.55899536 17.642594,3.50283221 C21.636253,3.5 24.941913,4.38292595 27.3893252,5.69403961 C28.685387,6.38835844 29.7386481,7.20094846 30.4609278,8.06722571 C31.1175498,8.85475531 31.5,9.68288686 31.5000772,10.4912166 L31.5000772,10.4912166 L31.491,10.998 Z" id="MXN_FG_ID" stroke="#0A0A0A"></path>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_MOTIONSETTINGS
+{
+  IDS_CHECK    "Start";
+  IDS_CHECK1   "Looptime";
+  IDS_CHECK2   "End";
+  IDS_CHECK3   "Trim";
+  IDS_CHECK4   "Loop Count";
+  IDS_CHECK5   "Scale";
+  IDS_CHECK6   "FCurve in Motion Layer";
+  IDS_CHECK7   "Picture";
+  IDS_CHECK8   "Untrimmed Values";
+  IDS_DIALOG   "Motion  View";
+  IDS_RADIO    "Clip Name";
+  IDS_RADIO1   "Source";
+  IDS_STATIC   "Text";
+  IDS_STATIC1  "Time";
+  IDS_STATIC2  "Group";
+  IDS_RADIO2   "No Name";
+}

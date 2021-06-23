@@ -1,0 +1,35 @@
+// C4D Dialog Strings
+
+DIALOGSTRINGS P_NEWBITMAP
+{
+ TNAME "Name";
+ TITLE "New Texture";
+ TWIDTH "Width";
+ THEIGHT "Height";
+
+ TMODE "Mode";
+ TRGB "RGB";
+ TGREY "Grayscale";
+
+ TDEPTH "Bits per channel";
+ TDEPTH1 "8 bit";
+ TDEPTH2 "16 bit";
+ TDEPTH3 "32 bit";
+
+ TMEM "Max. Memory/Layer:";
+ TFILL "Color";
+ TFILLBG "Background";
+ TFILLFG "Foreground";
+ TFILLTRANS "Transparent";
+ TFILLCOLOR "Color";
+
+ TPIXEL "pixels";
+ TINCH "inches";
+ TCM "cm";
+ TRESOLUTION "Resolution";
+ TDPI "pixels/inch (dpi)";
+ TDPC "pixels/cm";
+
+ TFROMDISC "From Disc";
+ TNEW "New Texture";
+}

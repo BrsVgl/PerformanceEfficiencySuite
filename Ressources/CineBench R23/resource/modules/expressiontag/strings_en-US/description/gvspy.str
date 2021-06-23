@@ -1,0 +1,7 @@
+STRINGTABLE GVspy
+{
+	GVspy							"Spy Operator";
+
+	GV_SPY_INPUT			"Input";
+	GV_SPY_OUTPUT			"Output";
+}

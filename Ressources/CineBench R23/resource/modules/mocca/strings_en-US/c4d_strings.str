@@ -1,0 +1,187 @@
+// Global StringResource
+
+STRINGTABLE
+{
+  IDS_NO_REFERNCE      "No reference";
+
+	P2P_RDATA_NAME       "P2P Setting";
+
+	IDS_MOMIX            "MoMix";
+
+	IDS_EFFECTOR_TIP			".Tip Effector";
+	IDS_EFFECTOR_ROOT			".Root Effector";
+	IDS_TARGET_TIP				".Tip Goal";
+	IDS_TARGET_ROOT				".Root Goal";
+	IDS_UPV								".Up";
+	IDS_REMOVED_CB_TAGS			"Number of removed Claude Bonet Tags";
+
+
+	IDS_MOTION  "Motion.";
+	IDS_MOTION1 "Motion.1";
+	IDS_MOTION2 "Motion.2";
+
+	IDS_LIB "Lib";
+	IDS_POSE "Pose ";
+	IDS_COPY ".Copy";
+
+	IDS_EMPTY "Empty";
+	IDS_BONETOOLHELP "Bone Tool";
+
+	IDS_MENU_ABOUT           "About MOCCA...";
+
+	IDS_USESOFTIK            "Use MOCCA IK";
+	IDS_SETUPIKCHAIN         "Setup IK Chain";
+	IDS_ADDANCHOR            "Add Anchor";
+	IDS_ADDROOTGOAL          "Add Root Goal";
+	IDS_ADDTIPGOAL           "Add Tip Goal";
+	IDS_ADDUPVECTOR          "Add UpVector";
+	IDS_SETCHAINRESTPOSITION "Set Chain Rest Position";
+	IDS_SETCHAINRESTROTATION "Set Chain Rest Rotation";
+	IDS_AUTOREDRAW           "Auto Redraw...";
+	IDS_SPERRE               "Auto IK-Lock";
+
+	IDS_CAPPUCINO			"Cappucino...";
+	IDS_KEYREDUCER		"KeyReducer";
+	IDS_TIMEWARP		  "TimeWarp";
+
+	IDS_CLAUDEBONET       "Claude Bonet";
+	IDS_BONETOOL          "Bone Tool";
+	IDS_BMDLG_BONEMIRROR	"Bone Mirror";
+
+	IDS_P2PLIBRARY    "P2P Library";
+	IDS_P2PMANAGER    "P2P Manager";
+	IDS_PYNTHESIZER   "PoseMixer";
+	IDS_MOMIXOBJECT   "MoMix Object";
+
+	IDS_MOBLEND_SETUP "Setup Motion Blend Tracks";
+	IDS_MOBLEND_GHOST "Show Transitions";
+
+
+	IDS_TIMETOOL     "Time Tool";
+
+	IDS_STEP "Step";
+
+	IDS_PYN_ENABLED				" Enabled";
+	IDS_PYN_VALUE					" Value";
+	IDS_PYN_LINK					" Link";
+
+	IDS_MOBLEND_TREE "Motion Blend Treeview";
+
+	IDS_MOTION_SEQ "Motion";
+	IDS_MOTRANS_SEQ "Transition";
+
+
+	IDS_RETARGET "Retarget";
+
+	IDS_PMIX_ENABLED " Enabled";
+	IDS_PMIX_VALUE	 " Value";
+	IDS_PMIX_LINK	 " Pose";
+	IDS_NPOSEMIXER "PoseMixer";
+
+	IDS_QUATERNION "Quaternion";
+
+	IDS_PMIX_RECORD_L	 " Record";
+	IDS_PMIX_RECORD_S	 "R";
+
+	IDS_TIMETOOLHELP "Time Warp: Click and drag to change project time.";
+	IDS_HLP_BONETOOL "Bone Tool: Click and drag tip points. Hold down SHIFT to split bones, CTRL to add tip bones.";
+	IDS_HLP_CB "Claude Bonet: Click to paint. Hold down SHIFT to add, CTRL to remove paint.";
+	// Bone Mirror
+
+	IDS_BMDLG_TITLE	 "Bone Mirror";
+	IDS_BMDLG_PLANE		"Plane";
+	IDS_BMDLG_PLANE_YZ	"YZ";
+	IDS_BMDLG_PLANE_XZ	"XZ";
+	IDS_BMDLG_PLANE_XY	"XY";
+	IDS_BMDLG_ORIGIN		"Origin";
+	IDS_BMDLG_SELECTED	"Selected";
+	IDS_BMDLG_TOPMOST		"Top Most";
+	IDS_BMDLG_WORLD		"World";
+	IDS_BMDLG_AUTOCENTRE	"Auto Find Center";
+	IDS_BMDLG_SEARCH		"Match Search";
+	IDS_BMDLG_SUFFIX		"Suffix";
+	IDS_BMDLG_PREFIX		"Prefix";
+	IDS_BMDLG_REPLACE		"Replace";
+	IDS_BMDLG_WITH		"with";
+	IDS_BMDLG_CLONETAGS	"Clone Tags";
+	IDS_BMDLG_CLONEANIM	"Clone Animation";
+	IDS_BMDLG_MIRRORCHILDS	"Mirror Children";
+	IDS_BMDLG_MIRRORCONST	"Mirror Constraints";
+	IDS_BMDLG_MIRRORINF	"Mirror Influences";
+	IDS_BMDLG_MIRROR		"Mirror";
+	IDS_BMDLG_PARENT		"Parent";
+	IDS_BMDLG_DEF_PREFIX	"R_";
+	IDS_BMDLG_DEF_SUFFIX	"";
+	IDS_BMDLG_BONEMIRROR_HELP	"Bone Mirror";
+
+  IDS_BT_CHECKOUTSUB	"Do you want sub-objects to be included?";
+
+	IDS_MOCCASUBMENU "Soft IK / Bones";
+	IDS_MOCCACONVERSION "Conversion";
+
+	IDS_ANIM_P2P "Pose";
+
+	// ---------------------------------------
+	// Character Definition Strings
+	IDS_CHARACTERDEF "Character Definition";
+	IDS_BODYPART_SKELETON "Skeleton";
+	IDS_BODYPART_CONTROLLERS "Controllers";
+	// Main Part
+	IDS_BODYPART_TORSO_NAME "Torso";
+	IDS_BODYPART_LEFTARM_NAME "Left Arm";
+	IDS_BODYPART_RIGHTARM_NAME "Right Arm";
+	IDS_BODYPART_LEFTHAND_NAME "Left Fingers";
+	IDS_BODYPART_RIGHTHAND_NAME "Right Fingers";
+	IDS_BODYPART_LEFTLEG_NAME "Left Leg";
+	IDS_BODYPART_RIGHTLEG_NAME "Right Leg";
+	IDS_BODYPART_LEFTFOOT_NAME "Left Toes";
+	IDS_BODYPART_RIGHTFOOT_NAME "Right Toes";
+	// Torso
+	IDS_BODYPART_TORSO_HIPS_NAME "Hips";
+	IDS_BODYPART_TORSO_SPINE_NAME "Spine";
+	IDS_BODYPART_TORSO_NECK_NAME "Neck";
+	IDS_BODYPART_TORSO_HEAD_NAME "Head";
+	// Arm
+	IDS_BODYPART_ARM_CLAVICLE_NAME "Clavicle";
+	IDS_BODYPART_ARM_BICEP_NAME "Bicep";
+	IDS_BODYPART_ARM_FOREARM_NAME "Forearm";
+	IDS_BODYPART_ARM_HAND_NAME "Hand";
+	// Leg
+	IDS_BODYPART_LEG_THIGH_NAME "Thigh";
+	IDS_BODYPART_LEG_SHIN_NAME "Shin";
+	IDS_BODYPART_LEG_FOOT_NAME "Foot";
+	// Hand
+	IDS_BODYPART_HAND_PALM_NAME "Palm";
+	IDS_BODYPART_HAND_THUMB_NAME "Thumb";
+	IDS_BODYPART_HAND_INDEX_NAME "Index";
+	IDS_BODYPART_HAND_MIDDLE_NAME "Middle";
+	IDS_BODYPART_HAND_RING_NAME "Ring";
+	IDS_BODYPART_HAND_LITLLE_NAME "Little";
+	IDS_BODYPART_NEWPARTNAME "Body Part";
+	// ---------------------------------------
+
+	IDS_TOOLBODYPART_NAME "Character BodyPart Tool";
+	IDS_TOOLBODYPART_HELP "";
+	IDS_CHARACTERDEFINITION_PRESET "Character Definition Preset";
+	IDS_BROWSERPRESET_PRESETEXISTS	"A # with the name # already exists, do you want to overwrite it?";
+
+	IDS_TOOLCHARACTERDEF_NAME "Character Definition Tool";
+	IDS_TOOLCHARACTERDEF_HELP "";
+	IDS_TOOLCHARACTERDEF_COLUMN1_NAME "Name";
+	IDS_TOOLCHARACTERDEF_COLUMN2_NAME "Joints";
+	IDS_TOOLCHARACTERDEF_COLUMN3_NAME "Reference Pose";
+	IDS_TOOLCHARACTERDEF_REFERENCECOMPLETE "Yes";
+	IDS_TOOLCHARACTERDEF_REFERENCEPARTIAL "Partial";
+	IDS_TOOLCHARACTERDEF_REFERENCEMISSING "No";
+	IDS_TOOLCHARACTERDEF_STATUS_EXTRACT "# of # objects extracted";
+
+	IDS_CHARACTERSOLVER "Motion Solver";
+	IDS_SOLVERTAG_COMPONENTMATCH "# body parts matched with # body parts";
+	IDS_SOLVERTAG_OBJECTMATCH "#/# objects matched with #/# objects";
+	IDS_SOLVERTAG_STATUS_SOURCE "Source character definition not found";
+	IDS_SOLVERTAG_STATUS_SOURCEREF "Source reference pose not found";
+	IDS_SOLVERTAG_STATUS_SOURCESKEL "Source has no skeleton defined";
+	IDS_SOLVERTAG_STATUS_TARGET "Target character definition not found";
+	IDS_SOLVERTAG_STATUS_TARGETREF "Target reference pose not found";
+	IDS_SOLVERTAG_STATUS_TARGETSKEL "Target has no skeleton defined";
+}

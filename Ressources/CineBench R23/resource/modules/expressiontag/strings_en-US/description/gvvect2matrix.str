@@ -1,0 +1,10 @@
+STRINGTABLE GVvect2matrix
+{
+	GVvect2matrix "Vectors2Matrix Operator";
+
+	GV_VECT2MATRIX_OFF	"Offset";
+	GV_VECT2MATRIX_V1		"V1";
+	GV_VECT2MATRIX_V2		"V2";
+	GV_VECT2MATRIX_V3		"V3";
+	GV_VECT2MATRIX_OUT	"Matrix";
+}

@@ -1,0 +1,32 @@
+DIALOGSTRINGS R_LINSENGLUEHEN
+{
+  T1 "Glow Editor";
+  T2 "Glow";
+  T3 "Element 1";
+  T4 "Element 2";
+  T5 "Element 3";
+  T6 "Element 4";
+  T7 "Element 5";
+  T8 "Type";
+  T9 "Inactive";
+  T10 "Type 1";
+  T11 "Type 2";
+  T12 "Type 3";
+  T13 "Type 4";
+  T14 "Size";
+  T15 "R";
+  T16 "Beams";
+  T17 "Manual";
+  T18 "Type 5";
+  T19 "Angle";
+  T20 "Edit...";
+  T21 "Ring";
+  T22 "Rainbow Ring";
+  Tx2 "Thickness";
+  Tx3 "Beams";
+  Tx4 "Breaks";
+  Tx5 "Width";
+  Tx6 "Random Distribution";
+  Tx7 "Random Beam Length";
+  Tx8 "Star-like";
+}

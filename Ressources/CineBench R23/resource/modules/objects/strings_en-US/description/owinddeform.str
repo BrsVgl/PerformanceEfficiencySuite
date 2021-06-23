@@ -1,0 +1,12 @@
+STRINGTABLE Owinddeform
+{
+	Owinddeform "Wind Deform Object";
+
+	WINDDEFORMOBJECT_AMPLITUDE  "Amplitude";
+	WINDDEFORMOBJECT_SIZE       "Size";
+	WINDDEFORMOBJECT_FREQUENCY	"Frequency";
+	WINDDEFORMOBJECT_TURBULENCE "Turbulence";
+	WINDDEFORMOBJECT_FX         "fx";
+	WINDDEFORMOBJECT_FY				  "fy";
+	WINDDEFORMOBJECT_FLAG			  "Flag";
+}

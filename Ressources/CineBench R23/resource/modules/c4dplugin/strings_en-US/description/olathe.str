@@ -1,0 +1,11 @@
+STRINGTABLE Olathe
+{
+	Olathe "Lathe Object";
+
+	LATHEOBJECT_ISOPARM			"Isoparm Subdivision";
+	LATHEOBJECT_SUB					"Subdivision";
+	LATHEOBJECT_MOVE				"Movement";
+	LATHEOBJECT_SCALE				"Scaling";
+	LATHEOBJECT_ROTATE			"Angle";
+	LATHEOBJECT_FLIPNORMALS	"Flip Normals";
+}

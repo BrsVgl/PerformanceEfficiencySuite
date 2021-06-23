@@ -1,0 +1,22 @@
+STRINGTABLE Xchanlum
+{
+	Xchanlum "ChanLum";
+
+	CHANLUM_SAMPLES		"Samples";
+	CHANLUM_OFFSET		"Inital Offset";
+	CHANLUM_RADIUS		"Sample Radius";
+	CHANLUM_TYPE		"Sample Type";
+	CHANLUM_STOCASTIC	"Stochastic";
+	CHANLUM_GAUSSIAN	"Gaussian";
+	CHANLUM_SHADOWS		"Shadows";
+	CHANLUM_TYPE_NORMAL	"Along Normal";
+	CHANLUM_TYPE_AREA	"Area";
+	CHANLUM_SEED		"Seed";
+	CHANLUM_LIGHTS_MODE	"Use Lights";
+	CHANLUM_LIGHTS		"Lights";
+	CHANLUM_LIGHTS_MODE_INCLUDE	"Include";
+	CHANLUM_LIGHTS_MODE_EXCLUDE	"Exclude";
+	CHANLUM_LIGHTS_LIGHT_EXCLUSION	"Use Light Exclusion";
+
+	CHANLUM_TYPE_TEST1	"Test1";
+}

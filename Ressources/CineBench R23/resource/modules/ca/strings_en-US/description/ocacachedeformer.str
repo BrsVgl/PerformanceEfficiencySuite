@@ -1,0 +1,6 @@
+STRINGTABLE Ocacachedeformer
+{
+	Ocacachedeformer "Point Cache";
+	
+	ID_CA_CACHEDEFORMER_OBJECT_TAG "Tag";
+}

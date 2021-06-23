@@ -1,0 +1,10 @@
+STRINGTABLE Oprimitiveaxis
+{
+	PRIM_AXIS         "Orientation";
+	PRIM_AXIS_XP			"+X";
+	PRIM_AXIS_XN			"-X";
+	PRIM_AXIS_YP			"+Y";
+	PRIM_AXIS_YN			"-Y";
+	PRIM_AXIS_ZP			"+Z";
+	PRIM_AXIS_ZN			"-Z";
+}

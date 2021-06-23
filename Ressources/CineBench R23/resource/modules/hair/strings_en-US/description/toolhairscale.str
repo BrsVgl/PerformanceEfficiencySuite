@@ -1,0 +1,15 @@
+STRINGTABLE ToolHairScale
+{
+	ToolHairScale "Scale";
+
+	HAIR_SCALE_TYPE		"Along";
+
+	HAIR_SCALE_TYPE_ROOT	"Root";
+	HAIR_SCALE_TYPE_NORMALS	"Normal";
+	HAIR_SCALE_TYPE_WORLD	"World";
+	HAIR_SCALE_TYPE_LENGTH	"Length";
+
+	HAIR_SCALE_RELATIVE		"Relative";
+	HAIR_SCALE_PERCENT		"Percent";
+	HAIR_SCALE_ABSOLUTE		"Absolute";
+}

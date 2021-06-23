@@ -1,0 +1,8 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDC_PREVIEW
+{
+  IDS_PREVIEW  "Preview Range";
+  IDS_FROM	  "Time from";
+  IDS_TO			"Time to";
+}

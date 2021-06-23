@@ -1,0 +1,6 @@
+STRINGTABLE VPcylinderlens
+{
+	VPcylinderlens "Cylindrical Lens";
+	CYLINDERLENS_HORIZONTALFOV "Horizontal Field of View";
+	CYLINDERLENS_VERTICALSIZE	"Vertical Size";
+}

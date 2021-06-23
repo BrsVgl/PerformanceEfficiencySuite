@@ -1,0 +1,71 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS R_REGISTER
+{
+  IDS_BUTTON          "Valid Until";
+  IDS_BUTTON1         "Valid Until";
+  IDS_REGISTER_PASTE  "Paste";
+  IDS_STATIC          "";
+  IDS_STATIC1         "Registration";
+  IDS_STATIC10        "";
+  IDS_STATIC11        "Error";
+  IDS_STATIC12        "";
+  IDS_STATIC13        "";
+  IDS_STATIC14        "Lease Time";
+  IDS_STATIC15        "";
+  IDS_STATIC16        "State";
+  IDS_STATIC17        "";
+  IDS_STATIC18        "Server info";
+  IDS_STATIC19        "";
+  IDS_STATIC2         "Personalize";
+  IDS_STATIC20        "Group";
+  IDS_STATIC21        "Group";
+  IDS_STATIC22        "";
+  IDS_STATIC23        "";
+  IDS_STATIC24        "";
+  IDS_STATIC25        "";
+  IDS_STATIC26        "";
+  IDS_STATIC27        "";
+  IDS_STATIC28        "";
+  IDS_STATIC29        "";
+  IDS_STATIC3         "Enter your serial numbers here";
+  IDS_STATIC30        "";
+  IDS_STATIC31        "";
+  IDS_STATIC32        "";
+  IDS_STATIC33        "";
+  IDS_STATIC34        "Static text";
+  IDS_STATIC35        "Group";
+  IDS_STATIC4         "Group";
+  IDS_STATIC5         "Group";
+  IDS_STATIC6         "License Server / RLM";
+  IDS_STATIC7         "Server Address";
+  IDS_STATICUSER      "Username";
+  IDS_STATICPASSWD    "Password";
+  IDS_STATIC8         "";
+  IDS_STATIC9         "Server Port";
+  T1                  "License Manager";
+  T2                  "Serial Number";
+  T3                  "Name";
+  T4                  "Company";
+  T5                  "Street";
+  T6                  "City";
+  T7                  "Country";
+  T8                  "Ethernet ID";
+  T9                  "Machine Name";
+  T10                 "User Name";
+	TTYPE								"License Type";
+	TTYPE_REGULAR				"Serial Number";
+	TTYPE_LICENSESERVER "License Server";
+	TTYPE_RLM 					"RLM License Server";
+	TTYPE_ACCOUNT				"Maxon Account";
+
+	TEDITION_PRIME			"Cinema 4D Prime";
+	TEDITION_BODYPAINT	"BodyPaint 3D";
+	TEDITION_VISUALIZE  "Cinema 4D Visualize";
+	TEDITION_BROADCAST  "Cinema 4D Broadcast";
+	TEDITION_STUDIO     "Cinema 4D Studio";
+  IDS_REGISTER_BACKWARD "\u25C0";
+  IDS_REGISTER_FORWARD "\u25B6";
+  IDS_REGISTER_HOME "\u27F3";
+  IDS_LICENSETYPE     "License Type";
+}

@@ -1,0 +1,48 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_PVSAVE
+{
+  IDS_DIALOG   "Save";
+  IDS_STATIC   "Group";
+  IDS_STATIC1  "Type";
+  IDS_STATIC2  "From";
+  IDS_STATIC3  "Group";
+  IDS_STATIC4  "Group";
+  IDS_STATIC5  "To";
+  IDS_STATIC6  "6";
+  IDS_STATIC7  "7";
+  IDS_STATIC8  "Format";
+  IDS_STATIC9  "Options...";
+  IDS_STATIC10  "Depth";
+  IDS_STATIC11  "Name";
+  IDS_STATIC12  "Layers";
+  IDS_STATIC13  "Alpha Channel";
+  IDS_STATIC14  "Sound";
+  IDS_STATIC16  "FPS";
+  IDS_STATIC17  "DPI";
+  IDS_STATIC18	"Reset to Default";
+  
+	
+	IDS_PVSAVE_NAMETYPE_0	"Name0000.TIF";
+	IDS_PVSAVE_NAMETYPE_1	"Name0000";
+	IDS_PVSAVE_NAMETYPE_2	"Name.0000";
+	IDS_PVSAVE_NAMETYPE_3	"Name000.TIF";
+	IDS_PVSAVE_NAMETYPE_4	"Name000";
+	IDS_PVSAVE_NAMETYPE_5	"Name.000";
+	IDS_PVSAVE_NAMETYPE_6	"Name.0000.TIF";
+  
+
+  IDS_STATIC15		"Use Filter";
+  IDS_STATIC19		"Save Layer seperatly";
+  IDS_STATIC20		"Save as Square Pixel";
+  IDS_STATIC21		"Rescale";
+  IDS_STATIC22		"Pixel Width/Height";
+  IDS_STATIC23		"";
+  IDS_STATIC22a		"Display Width/Height";
+  IDS_STATIC23a		"";
+  IDS_STATIC24		"Lock Original Pixel Width/Height Ratio";
+  IDS_STATIC25		"Save AB Compare";
+  IDS_STATIC26		"Advanced Settings (flatten layers)";
+  IDS_STATIC27		"Stereoscopic";
+	IDS_ASPECTRATIO	"Aspect Ratio";
+}

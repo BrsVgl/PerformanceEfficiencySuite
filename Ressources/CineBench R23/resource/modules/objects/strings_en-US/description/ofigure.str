@@ -1,0 +1,10 @@
+STRINGTABLE Ofigure
+{
+	Ofigure "Figure Object";
+
+	PRIM_FIGURE_HEIGHT						"Height";
+	PRIM_FIGURE_SUB								"Segments";
+	PRIM_FIGURE_LEGACY_AXIS_MODE	"Legacy Axis Mode";
+	PRIM_FIGURE_USE_NEW_VERSION   "";
+	PRIM_FIGURE_SWITCH_TO_UPDATED "Switch to Updated Figure";
+}

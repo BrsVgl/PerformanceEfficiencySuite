@@ -1,0 +1,6 @@
+STRINGTABLE FLRemap
+{
+	FLRemap																	"Remap";
+
+	FIELDLAYER_REMAP_VALUE									"Value";
+}

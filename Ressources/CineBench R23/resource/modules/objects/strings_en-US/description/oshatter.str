@@ -1,0 +1,9 @@
+STRINGTABLE Oshatter
+{
+	Oshatter "Shatter Object";
+
+	SHATTEROBJECT_STRENGTH    "Strength";
+	SHATTEROBJECT_ANGLESPEED	"Angle Speed";
+	SHATTEROBJECT_SCALE				"End Size";
+	SHATTEROBJECT_RANDOM      "Randomness";
+}

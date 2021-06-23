@@ -1,0 +1,9 @@
+STRINGTABLE Oturbulence
+{
+	Oturbulence "Turbulence Object";
+
+	TURBULENCEOBJECT_STRENGTH		"Strength";
+	TURBULENCEOBJECT_SIZE				"Size";
+	TURBULENCEOBJECT_SCALE			"Scale";
+	TURBULENCEOBJECT_FREQUENCY	"Frequency";
+}

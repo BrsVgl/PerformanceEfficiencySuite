@@ -1,0 +1,139 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	IDS_ODISC							"Disc";
+	IDS_OSINGLEPOLY				"Polygon";
+	IDS_OTORUS						"Torus";
+	IDS_OCUBE							"Cube";
+	IDS_OSPHERE						"Sphere";
+	IDS_OPLATONIC					"Platonic";
+	IDS_OFIGURE						"Figure";
+	IDS_OPYRAMID					"Pyramid";
+	IDS_OPLANE						"Plane";
+	IDS_OTUBE							"Tube";
+	IDS_OFRACTAL					"Landscape";
+	IDS_OCONE							"Cone";
+	IDS_OCYLINDER					"Cylinder";
+	IDS_OCAPSULE					"Capsule";
+	IDS_OOILTANK					"Oil Tank";
+	IDS_ORELIEF						"Relief";
+	IDS_OSPLINECIRCLE			"Circle";
+	IDS_OSPLINEARC				"Arc";
+	IDS_OSPLINECISSOID		"Cissoid";
+	IDS_OSPLINECYCLOID		"Cycloid";
+	IDS_OSPLINEPROFILE		"Profile";
+	IDS_OSPLINECONTOUR		"Vectorizer";
+	IDS_OSPLINEHELIX			"Helix";
+	IDS_OSPLINERECTANGLE  "Rectangle";
+	IDS_OSPLINESTAR				"Star";
+	IDS_OSPLINECOGWHEEL		"Cogwheel";
+	IDS_OSPLINEFLOWER			"Flower";
+	IDS_OSPLINEFORMULA		"Formula";
+	IDS_OSPLINETEXT				"Text";
+	IDS_OSPLINE4SIDE			"4-Side";
+	IDS_OSPLINENSIDE			"n-Side";
+
+	IDS_OBACKGROUND				"Background";
+	IDS_OFOREGROUND				"Foreground";
+	IDS_OCONPLANE					"Construction Plane";
+	IDS_OENVIRONMENT			"Environment";
+	IDS_OFLOOR						"Floor";
+	IDS_OSTAGE						"Stage";
+	IDS_OMICROPHONE				"Microphone";
+
+	IDS_OPARTICLEBASE			"Particle Modifier";
+	IDS_OGRAVITATION			"Gravity";
+	IDS_OATTRACTOR				"Attractor";
+	IDS_ODESTRUCTOR				"Destructor";
+	IDS_ODEFLECTOR				"Deflector";
+	IDS_OFRICTION					"Friction";
+	IDS_OROTATION					"Rotation";
+	IDS_OTURBULENCE				"Turbulence";
+	IDS_OWIND							"Wind";
+
+	IDS_OBEND							"Bend";
+	IDS_OBULGE						"Bulge";
+	IDS_OTWIST						"Twist";
+	IDS_OTAPER						"Taper";
+	IDS_OSHEAR						"Shear";
+
+	IDS_OEXPLOSION				"Explosion";
+	IDS_OFORMULA					"Formula";
+	IDS_OMELT							"Melt";
+	IDS_OSHATTER					"Shatter";
+	IDS_OWINDDEFORM				"Wind";
+	IDS_OWRAP							"Wrap";
+
+	IDS_OPOLYREDUCTION		"Polygon Reduction";
+	IDS_POLYREDUCTION			"Reducing Polygons from # to #";
+  IDS_BOOLEOBJECT             "Boole";
+
+  IDS_VERTEX						"Face";
+  IDS_HANDEFFECTOR			"Hand Effector";
+  IDS_FOOTEFFECTOR			"Foot Effector";
+  IDS_FIGURELEFT				"Left";
+  IDS_FIGURERIGHT				"Right";
+  IDS_HEADEFFECTOR			"Head Effector";
+  IDS_UPPERBODY					"Upper Body";
+  IDS_NECK							"Neck";
+  IDS_UPPERARM					"Upper Arm";
+  IDS_LOWERARM					"Lower Arm";
+  IDS_UPPERKNEE					"Thigh";
+  IDS_LOWERKNEE					"Shin";
+  IDS_HAND							"Hand";
+	IDS_FOOT							"Foot";
+	IDS_HEAD							"Head";
+	IDS_PELVIS						"Pelvis";
+  IDS_JOINT							"Joint";
+  IDS_TEXTCONTENT				"Text";
+
+	// Polygon Reduction Generator
+	IDS_OPOLYREDUX_GENERATOR										"Polygon Reduction";
+	IDS_POLYREDUX_PREPROCESSING_REDUCTION				"Poly Reduction: Pre-Processing (#/#)";
+	IDS_POLYREDUX_PREPROCESSING_TRIANGULATING 	"Poly Reduction: Triangulating";
+	IDS_POLYREDUX_PREPROCESSING_OPTIMIZING			"Poly Reduction: Optimizing Mesh";
+	IDS_POLYREDUX_PREPROCESSING_INIT_COSTS			"Poly Reduction: Initializing Cost Values (#/#)";
+	IDS_POLYREDUX_PREPROCESSING_INIT_STACK 			"Poly Reduction: Initializing Stack (#/#)";
+	IDS_POLYREDUX_PREPROCESSING_FINALIZE_STACK	"Poly Reduction: Finalizing Stack (#/#)";
+	IDS_POLYREDUX_PREPROCESSING_COUNTING_EDGES 	"Poly Reduction: Counting Edges (#/#)";
+
+	// Commands
+	IDS_ALTERNATE_DELETE_COMPONENTS_COMMAND			"Alternate Modeling Delete Component Command";
+	IDS_REMOVE_NON_MANIFOLD	"Resolve Non-Manifold";
+	IDS_SELECT_ISLAND_FROM_EDGE "Select Island From An Edge Selection";
+	IDS_CUT_ISLAND_FROM_EDGE "Cut Island From An Edge Selection";
+	IDS_UNWRAP_ISLAND_FROM_EDGE "Unwrap Island From An Edge Selection";
+	IDS_MODELING_UVUNWRAP "UV Unwrap...";
+	IDS_UV_WELD "UV Weld";
+	IDS_UV_WELD_RELAX "UV Weld and Relax...";
+	IDS_MODELING_MIRROR_SELECTION "Mirror Selection...";
+
+	IDS_SPLINETOMESH_MESSAGE_BODY "Generating Body";
+	IDS_SPLINETOMESH_MESSAGE_CAPS "Generating Caps";
+
+	IDS_MELT_ERROR "Geometry can't be processed, one or more resulting polygons contains duplicated vertices";
+
+	IDS_TOGGLEMODE "Toggle Modeling Mode";
+	IDS_TOGGLEMODE_HELP "Switch between the geometry component modes";
+
+	IDS_PAINT_ENABLEMATERIAL "Do you want to enable the selected material?|This will permanently load all material textures into memory!";
+	IDS_UNTRIANGULATE "Untriangulate";
+	IDS_UNTRIANGULATE_HELP "Attempts to convert triangles to quadrangles";
+
+	// Pin selection command strings
+	IDS_ADDPINSELECTION_COMMAND "Add UV Pins";
+	IDS_REMOVEPINSELECTION_COMMAND "Remove UV Pins";
+	IDS_CLEARPINSELECTION_COMMAND "Clear UV Pins";
+
+	IDS_AUTOUV_STATUS "Processing Automatic UV";
+	IDS_PACKUV_STATUS "Processing Pack UV";
+	IDS_UNWRAPPACKUV_STATUS "Processing Unwrap Pack UV";
+	IDS_PACKUVGEOMETRIC_STATUS "Processing Pack UV (Geometric)";
+	IDS_PACKUVGEOMETRIC_FAIL_GENERAL "Pack UV failed";
+	IDS_PACKUVGEOMETRIC_FAIL_EXCESSIVE_MIN_SPACING "Pack UV failed - spacing too high";	
+	IDS_PACKUVGEOMETRIC_FAIL_BAD_GEOMETRY "Pack UV failed - bad geometry";
+
+	IDS_REMESHERCOMMAND "Remesh...";
+}

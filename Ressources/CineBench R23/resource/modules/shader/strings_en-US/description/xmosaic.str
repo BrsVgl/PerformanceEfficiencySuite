@@ -1,0 +1,9 @@
+STRINGTABLE Xmosaic
+{
+	Xmosaic "Pixel Shader";
+
+	MOSAICSHADER_TEXTURE	"Texture";
+	MOSAICSHADER_SMOOTH		"Smooth";
+	MOSAICSHADER_TILE_U		"Tiles U";
+	MOSAICSHADER_TILE_V		"Tiles V";
+}

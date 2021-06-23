@@ -1,0 +1,25 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_ADDUSERDATA
+{
+  IDS_CHECK     "Min";
+  IDS_CHECK1    "Max";
+  IDS_CHECK2    "Checkbox";
+  IDS_CHECK3    "Slider";
+  IDS_CHECK4    "Slider";
+  IDS_DIALOG    "Add User Data";
+  IDS_STATIC    "Data Type";
+  IDS_STATIC1   "Data Type";
+  IDS_STATIC10  "Group";
+  IDS_STATIC11  "Static text";
+  IDS_STATIC12  "Group";
+  IDS_STATIC13  "Static text";
+  IDS_STATIC2   "Interface";
+  IDS_STATIC3   "Unit";
+  IDS_STATIC4   "Min";
+  IDS_STATIC5   "Max";
+  IDS_STATIC6   "Step";
+  IDS_STATIC7   "Name";
+  IDS_STATIC8   "Step";
+  IDS_STATIC9   "Options";
+}

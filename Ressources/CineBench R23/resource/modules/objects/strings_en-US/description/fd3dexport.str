@@ -1,0 +1,12 @@
+STRINGTABLE Fd3dexport
+{
+	Fd3dexport "Direct 3D Export";
+  D3DEXPORTFILTER_SCALE								"Scale";
+  D3DEXPORTFILTER_FORMAT							"Format";
+  D3DEXPORTFILTER_CONVERTTEXTURENAME	"Adapt Textures";
+  D3DEXPORTFILTER_TEMPLATES 					"Save Templates";
+  D3DEXPORTFILTER_NORMALS 						"Save Normals";
+  D3DEXPORTFILTER_TEXTURES 						"Export Textures";
+  D3DEXPORTFILTER_SAVEMESH 						"Generate Mesh";
+  D3DEXPORTFILTER_TEXTURESUFFIX				"Suffix";
+}

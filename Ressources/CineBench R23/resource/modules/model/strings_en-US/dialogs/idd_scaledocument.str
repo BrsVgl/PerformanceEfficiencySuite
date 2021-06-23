@@ -1,0 +1,12 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_SCALEDOCUMENT
+{
+  IDS_CHECK    "Check box";
+  IDS_DIALOG   "Scale Project";
+  IDS_STATIC   "Group";
+  IDS_STATIC1  "Current Scale";
+  IDS_STATIC2  "Target Scale";
+  IDS_STATIC3  "Group";
+  IDS_STATIC4  "Effective Scale";
+}

@@ -1,0 +1,13 @@
+STRINGTABLE Omograph_extrude
+{
+	Omograph_extrude "Motion Graphics Extrude Deformer";
+
+	MGEXTRUDEDEFORMER_STEPS "Extrusion Steps";
+	MGEXTRUDEDEFORMER_SELECTION "Polygon Selection";
+
+	MGEXTRUDEDEFORMER_MODE "Transform";
+	MGEXTRUDEDEFORMER_MODE_ROOT "From Root";
+	MGEXTRUDEDEFORMER_MODE_STEP "Per Step";
+
+	MGEXTRUDEDEFORMER_SPLINE "Sweep Spline";
+}

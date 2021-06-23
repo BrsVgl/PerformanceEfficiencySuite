@@ -1,0 +1,13 @@
+STRINGTABLE XSLAFalloff
+{
+  XSLAFalloff                             "Falloff Shader";
+
+  SLA_FALLOFF_VECTOR                      "Direction";
+  SLA_FALLOFF_SPACE                       "Space";
+    SLA_FALLOFF_SPACE_OBJECT              "Object";
+    SLA_FALLOFF_SPACE_WORLD               "World";
+    SLA_FALLOFF_SPACE_CAMERA              "Camera";
+  SLA_FALLOFF_USE_BUMP                    "Use Bump";
+
+  SLA_FALLOFF_GRADIENT                    "Gradient";
+}

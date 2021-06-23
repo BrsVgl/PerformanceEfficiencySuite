@@ -1,0 +1,14 @@
+STRINGTABLE ToolArray
+{
+  ToolArray                               "Array";
+
+	MDATA_ARRAY_XCNT												"Clones X";
+	MDATA_ARRAY_YCNT												"Y";
+	MDATA_ARRAY_ZCNT												"Z";
+	MDATA_ARRAY_OFFSET											"Offset";
+	MDATA_ARRAY_HOLES												"Holes";
+	MDATA_ARRAY_LOCALMOVE										"Move Var.";
+	MDATA_ARRAY_LOCALSCALE									"Scale Var.";
+	MDATA_ARRAY_LOCALROTATE									"Rot. Var.";
+	MDATA_ARRAY_KEEPFORM										"Uniform Scale";
+}

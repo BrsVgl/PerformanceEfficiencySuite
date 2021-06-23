@@ -1,0 +1,14 @@
+STRINGTABLE Osniper
+{
+	Osniper "Interactive Render Region";
+
+	IRR_DETAIL						"Detail";
+	IRR_ENABLE						"Enable";
+	IRR_LOCKTOVIEWPORT		"Lock to View";
+	IRR_ALPHAMODE					"Alpha Mode";
+	IRR_GADGETOVERLAY			"Gadget Overlay";
+	IRR_SAVE_VIEW					"Save View...";
+	IRR_SAVE_IRR					"Save...";
+}
+
+

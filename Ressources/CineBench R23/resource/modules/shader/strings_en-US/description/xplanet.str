@@ -1,0 +1,10 @@
+STRINGTABLE Xplanet
+{
+	Xplanet "Planet Shader";
+
+	PLANETSHADER_TYPE							"Type";
+	PLANETSHADER_TYPE_SATURN 			"Saturn";
+	PLANETSHADER_TYPE_SATURNRING	"Saturn's Ring";
+	PLANETSHADER_TYPE_URANUS			"Uranus";
+	PLANETSHADER_TYPE_NEPTUNE			"Neptune";
+}

@@ -1,0 +1,6 @@
+STRINGTABLE Taligntopath
+{
+	Taligntopath "Align to Path Expression";
+
+	ALIGNTOPATHTAG_LOOKAHEAD	"Look Ahead";
+}

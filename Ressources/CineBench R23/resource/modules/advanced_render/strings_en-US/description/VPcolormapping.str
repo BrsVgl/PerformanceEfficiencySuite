@@ -1,0 +1,9 @@
+STRINGTABLE VPcolormapping
+{
+	VPcolormapping "Color Mapping";
+	COLORMAPPING_EXPONENTIAL "Exponential";
+	COLORMAPPING_HSV "HSV Model";
+	COLORMAPPING_DARKMULTIPLIER	 "Dark Multiplier";
+	COLORMAPPING_BRIGHTMULTIPLIER	"Bright Multiplier";
+	COLORMAPPING_BACKGROUND "Affect Background";
+}

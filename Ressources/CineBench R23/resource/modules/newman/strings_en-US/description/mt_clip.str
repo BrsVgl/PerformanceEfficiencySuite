@@ -1,0 +1,48 @@
+STRINGTABLE MT_CLIP
+{
+	MT_CLIP       					  "Motion Clip";
+	ID_MT_CLIP_VIEWSTART	    "Start";
+	ID_MT_CLIP_VIEWEND		    "End";
+	ID_MT_CLIP_LOOP			      "Loops";
+	ID_MT_CLIP_TYPEFADEOUT	  "Blending";
+	ID_MT_CLIP_FADEOFF		    "OFF";
+	ID_MT_CLIP_FADELINEAR	    "Linear";
+	ID_MT_CLIP_FADESPLINE	    "Spline";
+	ID_MT_CLIP_SOURCE		      "Source";
+	ID_MT_CLIP_TRIMSTART	    "\u0394 Start";
+	ID_MT_CLIP_TRIMEND		    "\u0394 End";
+	ID_MT_CLIP_TIMWARPWND	    "Timing";
+	ID_MT_CLIP_LOOPRELATIVE	  "Relative Loop";
+	ID_MT_CLIP_FADESPLINEWND  "Spline";
+	ID_MT_CLIP_EASEIN		      "Ease In";
+	ID_MT_CLIP_FADEEASE		    "Easy Ease";
+	ID_MT_CLIP_EASEOUT		    "Ease Out";
+	ID_MT_CLIP_ANIMROOT			  "Animation Root";
+	ID_MT_CLIP_POSITION       "Rel Pos.";
+	ID_MT_CLIP_ROTATION       "Rel Rot.";
+	ID_MT_CLIP_COLOR          "Color";
+	ID_MT_CLIP_LOCK				    "Locked";
+
+	ID_MT_CLIP_MIX_START      "Blend Start";
+	ID_MT_CLIP_MIX_END        "Blend End";
+
+	ID_MT_CLIP_EXPERT_PAGE    "Advanced";
+	ID_MT_CLIP_TREE_PAGE      "Hierarchy";
+
+	ID_MT_CLIP_SOURCEVIEW	    "Source View";
+	
+	ID_MT_TRIM				        "Trim";
+	ID_MT_CLIP_AUTO		        "Auto Blend Range";
+	ID_MT_CLIP_AUTOGAP	      "Blend Gap";
+	
+	ID_MT_CLIP_PIVOT	        "Pivot";
+	ID_MT_CLIP_CREATEPIVOT	  "Create Pivot";
+	ID_MT_CLIP_CREATEPIVOTK	  "Create Keyframed Pivot";
+
+	ID_MT_CLIP_SNAP1          "Snap to Start Time";
+	ID_MT_CLIP_SNAP2          "Snap to Actual Time";
+	ID_MT_CLIP_SNAP3          "Snap to End Time";
+
+	ID_MT_CLIP_GHOST          "Show Ghost";
+	
+}

@@ -1,0 +1,24 @@
+STRINGTABLE GVnoise
+{
+	GVnoise												"Noise Operator";
+
+	GV_NOISE_FUNCTION									"Noise Type";
+		GV_NOISE_NOISE 						"Noise";
+		GV_NOISE_TURBULENCE					"Turbulence";
+		GV_NOISE_FRACTAL					"Wavy Turbulence";
+		GV_NOISE_FBM						"Fractal Brown Movement";
+	GV_NOISE_POSITIVE						"Positive Only";
+
+	GV_NOISE_LEVELS						"Octaves";
+	GV_NOISE_TIME						"Time";
+	GV_NOISE_X						"X Coordinate";
+	GV_NOISE_Y						"Y Coordinate";
+	GV_NOISE_Z						"Z Coordinate";
+	GV_NOISE_VECTOR						"Vector";
+	GV_NOISE_FREQUENCY					"Frequency";
+	GV_NOISE_SCALE							"Scale";
+	GV_NOISE_AMPLITUDE					"Amplitude";
+	GV_NOISE_SEED					"Seed";
+
+	GV_NOISE_OUTPUT						"Noise";
+}

@@ -1,0 +1,8 @@
+STRINGTABLE ToolLoopSelectionLegacy
+{
+	ToolLoopSelectionLegacy	"Loop Selection (LEGACY)";
+
+	MDATA_LOOP_SEL_STOP_AT_BOUNDS  "Stop at Boundary Edges";
+	MDATA_LOOP_SEL_SELECT_BOUNDS   "Select Boundary Loop";
+	MDATA_LOOP_SEL_GREEDY_SEARCH   "Greedy Search";
+}

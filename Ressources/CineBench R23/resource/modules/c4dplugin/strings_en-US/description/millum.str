@@ -1,0 +1,21 @@
+STRINGTABLE Millum
+{
+	ID_MATERIALGROUP_ILLUMINATION					"Illumination";
+	MATERIAL_PAGE_ILLUMINATION						"Illumination";
+	
+	MATERIAL_GLOBALILLUM_GENERATE					"GI Generate" "Generate GI";
+	MATERIAL_GLOBALILLUM_GENERATE_STRENGTH	"GI Generate Strength" "Strength";
+	MATERIAL_GLOBALILLUM_RECEIVE					"GI Receive" "Receive GI";
+	MATERIAL_GLOBALILLUM_RECEIVE_STRENGTH "GI Receive Strength" "Strength";
+	MATERIAL_GLOBALILLUM_SATURATION				"GI Receive Saturation" "Saturation";
+	MATERIAL_GLOBALILLUM_GENERATE_SATURATION 		"GI Generate Saturation" "Saturation";	
+	MATERIAL_GLOBALILLUM_AREA 								"Polygon Light";
+	MATERIAL_GLOBALILLUM_PORTAL								"Portal";
+
+	MATERIAL_CAUSTICS_GENERATE						"Caustics Generate" "Generate Caustics";
+	MATERIAL_CAUSTICS_GENERATE_STRENGTH   "Caustics Generate Strength" "Strength";
+	MATERIAL_CAUSTICS_RECEIVE							"Caustics Receive" "Receive Caustics";
+	MATERIAL_CAUSTICS_RECEIVE_STRENGTH    "Caustics Receive Strength" "Strength";
+	MATERIAL_CAUSTICS_SAMPLERADIUS				"Caustics Sample Radius" "Radius";
+	MATERIAL_CAUSTICS_SAMPLES							"Caustics Samples" "Samples";
+}

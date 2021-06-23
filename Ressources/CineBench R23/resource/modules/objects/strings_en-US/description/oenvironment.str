@@ -1,0 +1,12 @@
+STRINGTABLE Oenvironment
+{
+	Oenvironment "Environment Object";
+
+	ENVIRONMENT_AMBIENT					"Environment Color";
+	ENVIRONMENT_AMBIENTSTRENGTH	"Environment Strength";
+	ENVIRONMENT_FOGENABLE				"Enable Fog";
+	ENVIRONMENT_FOG							"Fog Color" "Color";
+	ENVIRONMENT_FOGSTRENGTH			"Fog Strength" "Strength";
+	ENVIRONMENT_FOGDISTANCE			"Fog Distance" "Distance";
+	ENVIRONMENT_AFFECTBACKGROUND	"Affect Background";
+}

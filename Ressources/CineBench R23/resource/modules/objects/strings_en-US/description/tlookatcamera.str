@@ -1,0 +1,5 @@
+STRINGTABLE Tlookatcamera
+{
+	Tlookatcamera 			"Look At Camera Expression";
+	LOOKATCAMERA_PITCH	"Change Pitch Rotation";
+}

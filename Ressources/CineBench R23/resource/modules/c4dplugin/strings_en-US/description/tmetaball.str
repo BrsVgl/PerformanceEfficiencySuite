@@ -1,0 +1,13 @@
+STRINGTABLE Tmetaball
+{
+	Tmetaball "Metaball Tag";
+
+	METABALLTAG_NEGATIVE	        "Negative Influence";
+	METABALLTAG_STRENGTH	        "Strength";
+	METABALLTAG_RADIUS		        "Radius";
+	METABALLTAG_TYPE							"Type";
+		METABALLTAG_TYPE_SPHERE				"Sphere";
+		METABALLTAG_TYPE_LINE					"Line";
+		METABALLTAG_TYPE_TRIANGLE			"Triangle";
+	METABALLTAG_SOLID				"Solid";
+}

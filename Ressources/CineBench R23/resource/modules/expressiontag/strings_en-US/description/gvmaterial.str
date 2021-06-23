@@ -1,0 +1,14 @@
+STRINGTABLE GVmaterial
+{
+	GVmaterial									"Material Operator";
+	
+	GV_MATERIAL_TYPE				"Material Type";
+	GV_MATERIAL_EXCLUDE_ID		"Exclude";
+
+	GV_MATERIAL_INPUT_START		"First Material";
+	GV_MATERIAL_INPUT_COUNT		"Maximum Materials";
+	GV_MATERIAL_OPERATOR_ON		"On";
+
+	GV_MATERIAL_OUTPUT_MATERIAL		"Material";
+	GV_MATERIAL_OUTPUT_COUNT		"Count";
+}

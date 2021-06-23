@@ -1,0 +1,15 @@
+CONTAINER Xmg_falloff
+{
+	NAME Xmg_falloff;
+
+	INCLUDE Mpreview;
+	INCLUDE Xbase;
+
+	GROUP	ID_SHADERPROPERTIES
+	{
+		SCALE_V;
+		SCALE_H;
+
+		FIELDLIST MGFALLOFFSHADER_LIST { ANIM ON; SCALE_V; SCALE_H; }
+	}
+}

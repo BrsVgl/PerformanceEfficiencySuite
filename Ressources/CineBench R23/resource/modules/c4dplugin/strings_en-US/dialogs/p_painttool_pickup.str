@@ -1,0 +1,10 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS P_PAINTTOOL_PICKUP
+{
+	TITLE "Eyedropper Tool";
+	TSOLIDCOLOR "Solid Color";
+	TTEXTURE "Texture";
+	TSAMPLE "Sample Radius";
+	TMERGELAYERS "All visible layers";
+}

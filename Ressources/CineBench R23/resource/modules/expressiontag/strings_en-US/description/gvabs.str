@@ -1,0 +1,7 @@
+STRINGTABLE GVabs
+{
+	GVabs									"Abs Operator";
+
+	GV_ABS_INPUT					"Input";
+	GV_ABS_OUTPUT					"Output";
+}

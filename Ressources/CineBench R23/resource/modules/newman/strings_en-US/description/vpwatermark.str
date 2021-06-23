@@ -1,0 +1,76 @@
+STRINGTABLE vpwatermark
+{
+	vpwatermark																"Watermark";
+	
+	VP_WATERMARK_PREVIEW											"Preview";
+	VP_WATERMARK_PREVIEW_IMAGE								"";
+
+	VP_WATERMARK_IMG													"Image Properties";
+	VP_WATERMARK_IMG_FILENAME									"Filename";
+	VP_WATERMARK_IMG_OPACITY									"Opacity";
+	VP_WATERMARK_IMG_BLENDMODE								"Blend Mode";
+		VP_IMG_BLENDMODE_NORMAL										"Normal";
+		VP_IMG_BLENDMODE_LIGHTEN									"Lighten";
+		VP_IMG_BLENDMODE_DARKEN										"Darken";
+		VP_IMG_BLENDMODE_MULTIPLY									"Multiply";
+		VP_IMG_BLENDMODE_AVERAGE									"Average";
+		VP_IMG_BLENDMODE_ADD											"Add";
+		VP_IMG_BLENDMODE_SUBTRACT									"Subtract";
+		VP_IMG_BLENDMODE_DIFFERENCE								"Difference";
+		VP_IMG_BLENDMODE_NEGATION									"Negation";
+		VP_IMG_BLENDMODE_SCREEN										"Screen";
+		VP_IMG_BLENDMODE_EXCLUSION								"Exclusion";
+		VP_IMG_BLENDMODE_OVERLAY									"Overlay";
+		VP_IMG_BLENDMODE_SOFTLIGHT								"Soft Light";
+		VP_IMG_BLENDMODE_HARDLIGHT								"Hard Light";
+		VP_IMG_BLENDMODE_COLORDODGE								"Color Dodge";
+		VP_IMG_BLENDMODE_COLORBURN								"Color Burn";
+		VP_IMG_BLENDMODE_LINEARDODGE							"Linear Dodge";
+		VP_IMG_BLENDMODE_LINEARBURN								"Linear Burn";
+		VP_IMG_BLENDMODE_LINEARLIGHT							"Linear Light";
+		VP_IMG_BLENDMODE_VIVIDLIGHT								"Vivid Light";
+		VP_IMG_BLENDMODE_PINLIGHT									"Pin Light";
+		VP_IMG_BLENDMODE_HARDMIX									"Hard Mix";
+		VP_IMG_BLENDMODE_REFLECT									"Reflect";
+		VP_IMG_BLENDMODE_GLOW											"Glow";
+		VP_IMG_BLENDMODE_PHOENIX									"Phoenix";
+		VP_IMG_BLENDMODE_COLOR										"Color";
+		VP_IMG_BLENDMODE_COLOR_INV								"Color (inverse)";
+	VP_WATERMARK_IMG_SCALE										"Scale";
+	VP_WATERMARK_IMG_SCALE_ASPECT							"Keep Aspect Ratio";
+	VP_WATERMARK_IMG_SCALE_KEEPSIZE							"Keep Original Size";
+	VP_WATERMARK_IMG_POS_X										"Horizontal Alignment";
+	VP_WATERMARK_IMG_POS_Y										"Vertical Alignment";
+		VP_WATERMARK_POS_CENTER										"Center";
+		VP_WATERMARK_POS_LEFT											"Left";
+		VP_WATERMARK_POS_RIGHT										"Right";
+		VP_WATERMARK_POS_TOP											"Top";
+		VP_WATERMARK_POS_BOTTOM										"Bottom";
+	VP_WATERMARK_IMG_ENABLE										"Enable";
+	VP_WATERMARK_IMG_MARGIN										"Margin";
+
+	VP_WATERMARK_TEXT													"Text Properties";
+	VP_WATERMARK_TEXT_TIMECODE								"Time Code";
+	VP_WATERMARK_TEXT_DATE										"Date";
+	VP_WATERMARK_TEXT_RENDERTIME							"Render Time";
+	VP_WATERMARK_TEXT_C4DVERSION							"Version Info";
+	VP_WATERMARK_TEXT_ACTIVECAMERA						"Active Camera";
+	VP_WATERMARK_TEXT_SCENENAME								"Project Name";
+	VP_WATERMARK_TEXT_CUSTOM									"Footer";
+	VP_WATERMARK_TEXT_CUSTOM_TEXT							"Text";
+	VP_WATERMARK_TEXT_FONT										"Font";
+	VP_WATERMARK_TEXT_SHOWLABELS							"Show Labels";
+	VP_WATERMARK_TEXT_POS_Y										"Vertical Alignment";
+	VP_WATERMARK_TEXT_COLOR										"Color";
+	VP_WATERMARK_TEXT_BG_COLOR								"Background Color";
+	VP_WATERMARK_TEXT_BG_OPACITY							"Background Opacity";
+	VP_WATERMARK_TEXT_ENABLE									"Enable";
+	VP_WATERMARK_TEXT_POLYCOUNT								"Polygon Count";
+	VP_WATERMARK_TEXT_DYNAMICLAYOUT						"Dynamic Layout";
+	VP_WATERMARK_TEXT_MACHINEINFO							"Machine Info";
+
+	VP_WATERMARK_ADVANCED											"Advanced";
+	VP_WATERMARK_ADVANCED_ADDMULTIPASS				"Add Multipass Layer";
+	VP_WATERMARK_ADVANCED_RENDERHUD						"Render HUD";
+  VP_WATERMARK_TEXT_TAKE                    "Take";
+}

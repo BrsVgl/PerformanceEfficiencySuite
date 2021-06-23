@@ -1,0 +1,20 @@
+STRINGTABLE Mshadowcatcher
+{
+	Mshadowcatcher "Shadow Catcher";
+	
+	SHADOWCATCHER_MATERIALPROPERTIES					"Shadow Catcher";
+
+	SHADOWCATCHER_REFLECTION_COLOR						"Background Reflection     ";
+
+	SHADOWCATCHER_SHADOWS_GROUP								"Shadows";
+	SHADOWCATCHER_SHADOWS											"Catch Shadows";
+	SHADOWCATCHER_SHADOW_STRENGTH							"Shadow Strength";
+	SHADOWCATCHER_SHADOW_COLOR								"Shadow Color";
+	SHADOWCATCHER_SHADOW_LIGHTING							"Include Lighting              ";
+	
+	SHADOWCATCHER_REFLECTIONS_GROUP						"Reflections";
+	SHADOWCATCHER_REFLECTIONS									"Catch Reflections";
+	SHADOWCATCHER_REFLECTIONS_STRENGTH				"Reflection Strength         ";
+	SHADOWCATCHER_REFLECTIONS_MASK						"Reflection Mask";
+	
+}

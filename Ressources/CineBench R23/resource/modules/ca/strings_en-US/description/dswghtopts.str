@@ -1,0 +1,8 @@
+STRINGTABLE Dswghtopts
+{
+	Dswghtopts "Save Weights Options";
+
+	ID_CA_SAVEWEIGHTS_ZERO "Zero Weights";
+	ID_CA_SAVEWEIGHTS_TEXT "As Text";
+	ID_CA_SAVEWEIGHTS_PERPNT "Per Point";
+}

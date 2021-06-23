@@ -1,0 +1,11 @@
+STRINGTABLE GVlink
+{
+	GVlink							"LinkList Operator";
+
+	GV_LINK_LIST "Link List";
+
+	GV_LINK_OPERATOR_INDEX "Index";
+
+	GV_LINK_OUTPUT "Link";
+	GV_LINK_OUTPUT_COUNT "Count";
+}

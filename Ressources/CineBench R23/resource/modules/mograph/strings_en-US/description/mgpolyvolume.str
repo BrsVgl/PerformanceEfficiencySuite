@@ -1,0 +1,10 @@
+STRINGTABLE MGpolyvolume
+{
+	MGpoly "Polygon Object Clone";
+
+	MG_POLYVOLUME_SEED	"Seed";
+	MG_POLYVOLUME_COUNT "Count";
+	MG_POLYVOLUME_MODE	"Volume Mode";
+		MG_POLYVOLUME_MODE_RANDOM		"Random";
+		MG_POLYVOLUME_MODE_SURFACE	"Surface";
+}

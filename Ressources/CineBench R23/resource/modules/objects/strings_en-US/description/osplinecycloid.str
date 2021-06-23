@@ -1,0 +1,14 @@
+STRINGTABLE Osplinecycloid
+{
+	Osplinecycloid "Cycloid Object";
+
+	PRIM_CYCLOID_TYPE					"Type";
+  	PRIM_CYCLOID_TYPE_CYCLOID     "Cycloid";
+  	PRIM_CYCLOID_TYPE_EPICYCLOID  "Epicycloid";
+  	PRIM_CYCLOID_TYPE_HYPOCYCLOID "Hypocycloid";
+  PRIM_CYCLOID_RADIUS				"Radius";
+	PRIM_CYCLOID_R						"r";
+	PRIM_CYCLOID_A						"a";
+	PRIM_CYCLOID_START				"Start Angle";
+	PRIM_CYCLOID_END					"End Angle";
+}

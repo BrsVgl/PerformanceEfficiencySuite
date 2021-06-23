@@ -1,0 +1,67 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_PM_RENDEREXTERNAL
+{
+  IDS_CHECK1      "Straight Alpha";
+  IDS_CHECK2      "Start Photoshop";
+  IDS_CHECK3      "Animation";
+  IDS_CHECK4      "Selected Objects Only";
+  IDS_CHECK       "Save Alpha Channel";
+  IDS_CHECK5      "Constant Shaded";
+  IDS_CHECK6      "Draw Edges";
+  IDS_IDD_DIALOG  "Render Projection";
+  IDS_STATIC10    "To";
+  IDS_STATIC11    "Static text";
+  IDS_STATIC12    "Group";
+  IDS_STATIC13    "Group";
+  IDS_STATIC14    "Filename";
+  IDS_STATIC15    "Group";
+  IDS_STATIC16    "";
+  IDS_STATIC17    "";
+  IDS_STATIC1     "Width";
+  IDS_STATIC2     "Height";
+  IDS_STATIC3     "Group";
+  IDS_STATIC4     "Options";
+  IDS_STATIC5     "";
+  IDS_STATIC6     "";
+  IDS_STATIC7     "Group";
+  IDS_STATIC8     "Alpha Channel";
+  IDS_STATIC9     "From";
+  IDS_STATIC      "ImageSize";
+  
+  TNAME "Name";
+  TITLE "New Texture";
+  TWIDTH "Width";
+  THEIGHT "Height";
+
+  TPIX2 "PX";
+  TSIZE "Size";
+  TFILENAME "Filename";
+  TDOTS "...";
+
+  TMODE "Mode";
+  TRGB "RGB";
+  TGREY "Grayscale";
+
+  TDEPTH "Bits per channel";
+  TDEPTH1 "8 bit";
+  TDEPTH2 "16 bit";
+  TDEPTH3 "32 bit";
+
+  TMEM "Max. Memory/Layer:";
+  TFILL "Color";
+  TFILLBG "Background";
+  TFILLFG "Foreground";
+  TFILLTRANS "Transparent";
+  TFILLCOLOR "Color";
+
+  TPIXEL "pixels";
+  TINCH "inches";
+  TCM "cm";
+  TRESOLUTION "Resolution";
+  TDPI "pixels/inch (dpi)";
+  TDPC "pixels/cm";
+
+  TFROMDISC "From Disc";
+  TNEW "New Texture";  
+}

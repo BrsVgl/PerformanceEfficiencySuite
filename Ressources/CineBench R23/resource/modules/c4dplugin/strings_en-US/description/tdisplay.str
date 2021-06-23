@@ -1,0 +1,94 @@
+STRINGTABLE Tdisplay
+{
+	Tdisplay "Display Tag";
+
+	DISPLAYTAG_SDISPLAYMODE					"Shading Mode";
+		DISPLAYTAG_SDISPLAY_GOURAUD					"Gouraud Shading";
+		DISPLAYTAG_SDISPLAY_GOURAUD_WIRE		"Gouraud Shading (Lines)";
+		DISPLAYTAG_SDISPLAY_QUICK						"Quick Shading";
+		DISPLAYTAG_SDISPLAY_QUICK_WIRE			"Quick Shading (Lines)";
+		DISPLAYTAG_SDISPLAY_FLAT						"Constant Shading";
+		DISPLAYTAG_SDISPLAY_FLAT_WIRE				"Constant Shading (Lines)";
+		DISPLAYTAG_SDISPLAY_HIDDENLINE			"Hidden Line";
+		DISPLAYTAG_SDISPLAY_NOSHADING				"Lines";
+
+	DISPLAYTAG_WDISPLAYMODE					"Style";
+		DISPLAYTAG_WDISPLAY_WIREFRAME				"Wireframe";
+		DISPLAYTAG_WDISPLAY_ISOPARMS				"Isoparms";
+		DISPLAYTAG_WDISPLAY_BOX							"Box";
+		DISPLAYTAG_WDISPLAY_SKELETON				"Skeleton";
+
+	DISPLAYTAG_BACKFACECULLING				"Backface Culling";
+	DISPLAYTAG_TEXTURES								"Materials";
+	DISPLAYTAG_REFLECTIONS						"Reflections";
+	DISPLAYTAG_TESSELLATION						"Tessellation";
+	DISPLAYTAG_LEVELOFDETAIL					"Level of Detail";
+	DISPLAYTAG_VISIBILITY							"Visibility";
+
+	DISPLAYTAG_AFFECT_DISPLAYMODE			"Use Shading Mode" "Use";
+	DISPLAYTAG_AFFECT_BACKFACECULLING "Use Backface Culling" "Use";
+	DISPLAYTAG_AFFECT_TEXTURES				"Use Materials" "Use";
+	DISPLAYTAG_AFFECT_REFLECTIONS			"Use Reflections" "Use";
+	DISPLAYTAG_AFFECT_TESSELLATION		"Use Tessellation" "Use";
+	DISPLAYTAG_AFFECT_LEVELOFDETAIL		"Use Level of Detail" "Use";
+	DISPLAYTAG_AFFECT_VISIBILITY			"Use Visiblity" "Use";
+
+	DISPLAYTAG_VDISPLAYMODE						"Volume Vector";
+	DISPLAYTAG_VDISPLAY_LENGTH				"Length";
+	DISPLAYTAG_VDISPLAY_DIRECTION			"Direction";
+
+	ONION_ONLY_RANGE "Use Range";
+	ONION_FROM       "Start";
+	ONION_TO         "End";
+
+	ONION_FRAMES_BEFORE "Frames Before";
+	ONION_FRAMES_AFTER  "Frames After";
+	ONION_FRAMES_STEP   "Frames Step";
+
+	ONION_KEYS_BEFORE   "Keys Before";
+	ONION_KEYS_AFTER    "Keys After";
+
+	ONION_CUSTOM       "Custom Frames";
+
+	ONION_COL_FRAMES_BEFORE "Frames Before Color" " ";
+	ONION_COL_FRAMES_AFTER  "Frames After Color" " ";
+	ONION_COL_KEYS_BEFORE   "Keys Before Color" " ";
+	ONION_COL_KEYS_AFTER    "Keys After Color" " ";
+	ONION_COL_CUSTOM        "Custom Color" " ";
+
+	ONION_MODE            "Draw Mode";
+		ONION_MODE_OBJECT   "Object";
+		ONION_MODE_POINT    "Point";
+		ONION_MODE_AXIS     "Axis";
+		ONION_MODE_TRAIL    "Trail";
+		ONION_MODE_MTRAIL   "Multi Trail";
+		ONION_MODE_VELOCITY "Velocity";
+
+	ONION_USE             "Enable";
+	ONION_USE_KEYS        "Use Keys";
+	ONION_USE_CUSTOM      "Use Custom";
+
+	ONION_SCALE         "Scale";
+	ONION_PSIZE         "Size";
+	
+	ONION_DISPLAYMODE   "Shading Mode";
+		ONION_DISPLAY_GOURAUD		"Gouraud Shading";
+		ONION_DISPLAY_GOURAUD_WIRE	"Gouraud Shading (Lines)";
+		ONION_DISPLAY_QUICK			"Quick Shading";
+		ONION_DISPLAY_QUICK_WIRE	"Quick Shading (Lines)";
+		ONION_DISPLAY_FLAT			"Constant Shading";
+		ONION_DISPLAY_FLAT_WIRE		"Constant Shading (Lines)";
+		ONION_DISPLAY_NOSHADING		"Lines";
+		
+	ONION_XRAY          "XRay";
+
+	ONION_CACHE         "Use Cache";
+	ONION_CALCULATE     "Calculate Cache";
+	ONION_DELCACHE      "Empty Cache";
+	ONION_CACHE_INFO1   "Cached: ";
+	
+
+
+	ID_ONION_GROUP      "Ghosting";
+
+}

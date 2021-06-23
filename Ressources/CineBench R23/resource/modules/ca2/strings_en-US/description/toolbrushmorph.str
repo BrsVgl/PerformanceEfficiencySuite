@@ -1,0 +1,9 @@
+STRINGTABLE toolbrushmorph
+{
+  toolbrushmorph	"Morph Brush";
+
+	MORPHBRUSHTOOL_MORPHTAG		"Morph Tag";
+	MORPHBRUSHTOOL_MORPH			"Morph Target";
+	
+	MORPHBRUSHTOOL_MORPH_NONE	"None";
+}

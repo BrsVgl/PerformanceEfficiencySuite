@@ -1,0 +1,21 @@
+STRINGTABLE Xspectral
+{
+	Xspectral "Spectral Shader";
+	SPEC_INT			"Intensity";
+	SPEC_VAR			"Variation";
+	SPEC_RTYPE 			"Out of Range Type";
+	SPEC_RTYPE_STOP		"Stop";
+	SPEC_RTYPE_MIRROR	"Mirror";
+	SPEC_RTYPE_TILING	"Tiling";
+	SPEC_GRADIENT		"Spectrum";
+	SPEC_CD_ON			"Use CD Effect";
+	SPEC_CD_WIDTH		"Width";
+	SPEC_CD_PEAK		"Peak";
+	SPEC_CD_WFAC		"W Factor";
+	SPEC_CD_DINT		"Diffuse Intensity";
+	SPEC_CD_DVAR		"Diffuse Variation";
+	SPEC_CD_STYPE		"Front Side";
+	SPEC_STYPE_XY		"XY";
+	SPEC_STYPE_YZ		"YZ";
+	SPEC_STYPE_ZX		"ZX";
+}

@@ -1,0 +1,9 @@
+STRINGTABLE Odisc
+{
+	Odisc "Disc Object";
+
+	PRIM_DISC_IRAD "Inner Radius";
+	PRIM_DISC_ORAD "Outer Radius";
+	PRIM_DISC_CSUB "Disc Segments";
+	PRIM_DISC_SEG	 "Rotation Segments";
+}

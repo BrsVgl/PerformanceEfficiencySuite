@@ -1,0 +1,10 @@
+STRINGTABLE BPbitmap
+{
+	BPbitmap													"Base Bitmap";
+	ID_PAINTBITMAP_GROUP							"Properties";
+	ID_PAINTBITMAP_INFO_GROUP					"Info";
+	ID_PAINTBITMAP_SIZE_X							"Width";
+	ID_PAINTBITMAP_SIZE_Y							"Height";
+	ID_PAINTBITMAP_MEMORY							"Memory Usage";
+	ID_PAINTBITMAP_PREVIEW						"Preview";
+}

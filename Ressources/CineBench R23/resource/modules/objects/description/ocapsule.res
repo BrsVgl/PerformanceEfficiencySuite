@@ -1,0 +1,20 @@
+CONTAINER Ocapsule
+{
+	NAME Ocapsule;
+	INCLUDE Obase;
+
+	GROUP ID_OBJECTPROPERTIES
+	{
+		REAL PRIM_CAPSULE_RADIUS { UNIT METER; MIN 0.0; }
+		REAL PRIM_CAPSULE_HEIGHT { UNIT METER; MIN 0.0; }
+		LONG PRIM_CAPSULE_HSUB	 { MIN 1; MAX 1000; }
+		LONG PRIM_CAPSULE_FSUB	 { MIN 1; MAX 1000; }
+		LONG PRIM_CAPSULE_SEG	   { MIN 3; MAX 1000; }
+
+		INCLUDE Oprimitiveaxis;
+
+		BUTTON PRIM_CAPSULE_SWITCH_TO_UPDATED { } // To update legacy primitives to the new version
+
+		INCLUDE Oprimitiveslice;
+	}
+}

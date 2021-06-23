@@ -1,0 +1,7 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_QUICKLIGHT_MANAGER
+{
+  IDS_DIALOG  "Default Light";
+  IDS_STATIC  "";
+}

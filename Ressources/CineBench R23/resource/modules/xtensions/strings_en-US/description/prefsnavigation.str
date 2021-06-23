@@ -1,0 +1,42 @@
+STRINGTABLE Prefsnavigation
+{
+	Prefsnavigation "Navigation";
+	PREF_NAVIGATION_GROUP														"Navigation";
+	
+	PREF_NAVIGATION_MOVE														"Pan Speed";
+	PREF_NAVIGATION_SCALE														"Dolly/Zoom Speed";
+	PREF_NAVIGATION_ROTATE													"Orbit Speed";
+	PREF_NAVIGATION_CAMERAREVERSE										"Reverse Orbit";
+	PREF_NAVIGATION_VIEW_TRANSITION										"Smooth View Transition";
+	PREF_NAVIGATION_CAMERA													"Camera Mode";
+	
+		PREF_NAVIGATION_CAMERA_OBJ											"Object";
+		PREF_NAVIGATION_CAMERA_CTR											"Center";
+		PREF_NAVIGATION_CAMERA_CUR											"Cursor";
+		PREF_NAVIGATION_CAMERA_CAM											"Camera";
+		PREF_NAVIGATION_CAMERA_CUSTOM										"Custom";
+	
+	PREF_NAVIGATION_POI															"Point of Interest";
+		PREF_NAVIGATION_POI_CTR													"Screen Center";
+		PREF_NAVIGATION_POI_OBJ													"Selection Axis";
+		PREF_NAVIGATION_POI_CAM													"Camera Axis";
+
+		
+	PREF_NAVIGATION_DOLLY														"Dolly to Cursor";
+		PREF_NAVIGATION_DOLLY_OFF												"Off";
+		PREF_NAVIGATION_DOLLY_ORTHO											"Orthographic Views";
+		PREF_NAVIGATION_DOLLY_ALL												"All Views";
+
+	PREF_NAVIGATION_DISPLAYFILTER_POI								"Navigation Cross";
+	PREF_NAVIGATION_SYNCVIEWS												"Synchronize Orthographic Viewports";
+	PREF_NAVIGATION_GIMBALLINGAXIS									"Gimballing Rotation Gizmo";
+	
+	PREF_NAVIGATION_CURSOR													"Cursor Placement";
+		PREF_NAVIGATION_CURSOR_OFF											"Off";
+		PREF_NAVIGATION_CURSOR_SELECTED									"Selected";
+		PREF_NAVIGATION_CURSOR_CHILDREN									"Selected Children";
+		PREF_NAVIGATION_CURSOR_ALL											"All";
+	PREF_NAVIGATION_FIXEDDOLLY											"Lock POI for Dolly";
+	PREF_NAVIGATION_DEEPCURSOR											"Deep";
+	PREF_NAVIGATION_TRACKBALL											"Trackball Rotation";
+}

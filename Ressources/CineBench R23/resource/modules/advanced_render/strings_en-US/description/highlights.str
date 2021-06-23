@@ -1,0 +1,32 @@
+STRINGTABLE HighLights
+{
+	HLIGHT_NAME						"Highlights";
+	HLIGHT_FACEINTENS			"Threshold";
+	HLIGHT_MININTENS			"Minimum Flare Intensity";
+	HLIGHT_MAXINTENS			"Maximum Flare Intensity";
+	HLIGHT_SIZE						"Flare Size";
+	HLIGHT_PRESET					"Preset";
+	HLIGHT_PRESET_CUSTOM 	"Custom";
+	HLIGHT_PRESET_1				"Fine Regular";
+	HLIGHT_PRESET_2				"Fine Random";
+	HLIGHT_PRESET_3				"Wideangle";
+	HLIGHT_PRESET_4				"Zoom";
+	HLIGHT_PRESET_5				"Camcorder";
+	HLIGHT_PRESET_6				"Searchlight";
+	HLIGHT_PRESET_7				"Streaks 1";
+	HLIGHT_PRESET_8				"Streaks 2";
+	HLIGHT_PRESET_9				"Star 1";
+	HLIGHT_PRESET_10			"Star 2";
+	HLIGHT_PRESET_11			"Flashlight";
+	HLIGHT_PRESET_12			"Sun";
+	HLIGHT_PRESET_13			"Broken Star";
+	HLIGHT_PRESET_14			"Fine Yellow Star";
+	HLIGHT_PRESET_15			"Soft Streaks 1";
+	HLIGHT_PRESET_16			"Soft Streaks 2";
+	HLIGHT_PRESET_17			"Blue";
+	HLIGHT_LENSGLOW				"Highlight";
+	HLIGHT_USE_OBJID			"Use Object ID" "Use";
+	HLIGHT_OBJID					"Object ID";
+
+	HLIGHT_GLOBALS_GROUP 	"Highlights";
+}

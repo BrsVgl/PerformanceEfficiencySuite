@@ -1,0 +1,41 @@
+STRINGTABLE ToolCloud
+{
+  ToolCloud	"Cloud";
+
+	MDATA_CLOUD_DISPLAY_QUALITY  "Quality";
+	MDATA_RENDERPREVIEW_BTN    "Render Preview";
+
+	MDATA_MODE                 "Mode";
+	  MDATA_MODE_SET           "Set";
+		MDATA_MODE_ADD           "Add";
+		MDATA_MODE_SUB           "Sub";
+
+	MDATA_CLOUD_SIZE_X         "X";
+	MDATA_CLOUD_SIZE_Y         "Y";
+	MDATA_CLOUD_SIZE_Z         "Z";
+	MDATA_CLOUD_SIZE_APPLY     "Apply";
+
+	MDATA_CLOUD_SMOOTH_BORDERS "Smooth Borders";
+	MDATA_CLOUD_SMOOTH_B_DIST  "Distance";
+	MDATA_CLOUD_SMOOTH_B_VAR   "Variance";
+	MDATA_CLOUD_SMOOTH_B_SPLINE "Shape";
+	MDATA_CLOUD_SMOOTH_ALL     "Smooth All";
+	MDATA_CLOUD_SMOOTH_A_STR   "Strength";
+	MDATA_CLOUD_SMOOTH_A_VARIANCE "Variance";
+	MDATA_CLOUD_CLEAR          "Clear";
+	MDATA_CLOUD_FILL_PLANE     "Fill Plane";
+	MDATA_CLOUD_FILL_SPHERE    "Fill Sphere";
+	MDATA_CLOUD_REMAP_SPLINE   "Remap";
+	MDATA_CLOUD_REMAP          "Remap";
+
+	MDATA_CLOUD_CREATE_BRUSH_RAD "Radius";
+	MDATA_CLOUD_CREATE_DENSITY "Density";
+	MDATA_CLOUD_CREATE_MAX_SIZE "Maximum Size";
+	MDATA_CLOUD_DRAW_THRESHOLD "Threshold";
+
+	MDATA_CLOUD_DISPLAY        "Display";
+	MDATA_CLOUD_SIZE           "Size";
+	MDATA_CLOUD_TOOLS          "Tools";
+	MDATA_CLOUD_SMOOTHING      "Smoothing";
+}
+

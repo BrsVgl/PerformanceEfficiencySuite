@@ -1,0 +1,16 @@
+STRINGTABLE Oeformula
+{
+	Oeformula "Formula";
+
+	MGFORMULAEFFECTOR_STRING "Formula";
+	MGFORMULAEFFECTOR_GRP "Variables";
+	MGFORMULAEFFECTOR_HELP02 "px,py,pz - Position";
+	MGFORMULAEFFECTOR_HELP03 "rx,ry,rz - Rotation";
+	MGFORMULAEFFECTOR_HELP04 "sx,sy,sz - Scale";
+	MGFORMULAEFFECTOR_HELP05 "u,v,w - UVW";
+	MGFORMULAEFFECTOR_HELP06 "id - Object Index";
+	MGFORMULAEFFECTOR_HELP07 "count - Object Count";
+	MGFORMULAEFFECTOR_HELP08 "falloff - Falloff weight";
+	MGFORMULAEFFECTOR_TIME "t - Project Time";
+	MGFORMULAEFFECTOR_FREQ "f - Frequency";
+}

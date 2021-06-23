@@ -1,0 +1,12 @@
+STRINGTABLE CTdoodle
+{
+	CTdoodle			 		 			"Doodle Image";
+	CID_DOODLEPROPERTIES 		"Doodle Properties" "Doodle";
+	CID_DOODLE_ONOFF	   		"Use Image";
+
+	CID_DOODLE_IMAGE   			"Image";
+	CID_DOODLE_CHOOSE	   		">";
+}
+
+
+

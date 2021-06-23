@@ -1,0 +1,27 @@
+DIALOG optindialog
+{
+	NAME IDS_TITLE;
+	SCALE_V; SCALE_H; 
+
+	GROUP IDC_OPTIN_GROUP
+	{
+		COLUMNS 1;
+		SPACE 0,8;
+		SCALE_V; SCALE_H; 
+
+		HTMLVIEWER IDC_VIEWER
+		{
+			SCALE_V; SCALE_H; 
+		}
+
+		GROUP
+		{
+			CENTER_H;
+			COLUMNS 1;
+
+			SIZE 0,25;
+			BUTTON IDC_BUTTON_OK { NAME IDS_BUTTON_OK; SIZE 70,15; }
+		}
+	}
+	
+}

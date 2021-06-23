@@ -1,0 +1,12 @@
+CONTAINER Xcolorstripes
+{
+	NAME Xcolorstripes;
+
+	INCLUDE Mpreview;
+	INCLUDE Xbase;
+
+	GROUP ID_SHADERPROPERTIES
+	{
+		VECTOR	COLORSTRIPESHADER_SCALE { MIN 0.0; STEP 0.01; }
+	}
+}

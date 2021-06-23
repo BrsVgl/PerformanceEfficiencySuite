@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>category_pyramid</title>
+    <defs>
+        <linearGradient x1="52.9852516%" y1="52.2258024%" x2="63.1591174%" y2="39.7969063%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="48.7256739%" y1="54.3291494%" x2="53.5116587%" y2="58.2699024%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.3373394%" y1="50%" x2="49.5677414%" y2="49.980405%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="57.1949425%" y1="50%" x2="46.1755537%" y2="35.5326353%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.4153912%" y1="53.5379041%" x2="50.5233182%" y2="52.9491778%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="51.9055247%" y1="54.7981444%" x2="45.8908863%" y2="59.2825154%" id="linearGradient-6">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="category_pyramid" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="MXN_BG_ID" fill="#5DA9C8" points="17.8531305 34.015356 31.8564065 26 18.0840719 4.01535597 4.10479013 26.0228436"></polygon>
+        <g id="MXN_0_ID" transform="translate(4.034611, 5.015356)">
+            <g id="Group" opacity="0.139485677">
+                <polygon id="Path-20" fill="url(#linearGradient-1)" points="13.9459871 28.2370291 11.0224803 23.6270428 3.82798787 19.528284 0.965388757 20.984644"></polygon>
+                <polygon id="Path-20" fill="url(#linearGradient-2)" points="13.9653888 0.984644033 10.7096938 9.48358208 3.82798787 19.528284 0.965388757 20.984644"></polygon>
+                <polygon id="Path-20" fill="url(#linearGradient-3)" points="13.9653888 0.984644033 10.9653888 9.81016659 10.9653888 23.7795601 13.9459871 28.2370291"></polygon>
+            </g>
+            <polygon id="Path-46" fill-opacity="0.536057692" fill="#000000" opacity="0.441685268" points="14 1 14 28 26.9265853 20.5450766"></polygon>
+            <g id="Group" opacity="0.118954613" transform="translate(13.000000, 0.000000)">
+                <polygon id="Path-20" fill="url(#linearGradient-4)" points="14 20.984644 10.1797769 19.984644 3.84802239 23.3030254 0.99238585 28.2370291"></polygon>
+                <polygon id="Path-20" fill="url(#linearGradient-5)" points="0.965388757 0.984644033 3.39053811 7.96451985 3.96538876 23.1992624 1.01304439 28.2370291"></polygon>
+                <polygon id="Path-20" fill="url(#linearGradient-6)" points="0.965388757 0.984644033 3.29231552 7.68693346 10.1797769 20.0489605 13.9653888 20.984644"></polygon>
+            </g>
+            <line x1="13.9594621" y1="28.1176395" x2="13.9653888" y2="1" id="Path-24" stroke="#FFFFFF" opacity="0.162086124"></line>
+        </g>
+        <path d="M18.081138,4.95249821 L31.1564696,25.8245233 L17.8550692,33.4381317 L4.80568485,25.8519532 L18.081138,4.95249821 Z" id="MXN_FG_ID" stroke="#0A0A0A"></path>
+    </g>
+</svg>

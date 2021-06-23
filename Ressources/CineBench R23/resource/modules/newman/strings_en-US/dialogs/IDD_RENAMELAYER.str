@@ -1,0 +1,7 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_RENAMELAYER
+{
+  IDS_DIALOG	"Rename Layer";
+  IDS_STATIC_NAME    "Original Name:";
+}

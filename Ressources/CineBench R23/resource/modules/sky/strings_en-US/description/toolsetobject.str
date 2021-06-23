@@ -1,0 +1,13 @@
+STRINGTABLE ToolSetObject
+{
+  ToolSetObject                  "Set Object";
+
+	ID_MAIN_GROUP                  "Properties";
+
+	SETOBJECT_TAG                  "Tag";
+	SETOBJECT_SKY_OBJECTS          "";
+	SETOBJECT_AZIMUTH              "Azimuth";
+	SETOBJECT_ALTTUDE              "Altitude";
+	SETOBJECT_FILENAME             "File";
+	SETOBJECT_ILLUMINATE           "Illuminate";
+}

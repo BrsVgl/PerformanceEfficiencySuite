@@ -1,0 +1,13 @@
+STRINGTABLE FLdelay
+{
+	FLdelay																			"Delay";
+	
+	FIELDLAYER_DELAY_MODE												"Mode";
+		FIELDLAYER_DELAY_MODE_LINEAR									"Linear";
+		FIELDLAYER_DELAY_MODE_SMOOTH									"Smooth";
+		FIELDLAYER_DELAY_MODE_SPRING									"Spring";
+
+	FIELDLAYER_DELAY_STRENGTH										"Effect Strength";
+	FIELDLAYER_DELAY_FIELDS											"Effect Strength";
+	FIELDLAYER_DELAY_FIELDS_GRP									"Effect Strength";
+}

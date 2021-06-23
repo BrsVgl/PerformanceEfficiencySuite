@@ -1,0 +1,12 @@
+STRINGTABLE Oshrinkwrapdeformer
+{
+	Oshrinkwrapdeformer					"Shrink Wrap Deformer Object";
+	
+	SHRINKWRAP_TARGETOBJECT			"Target Object";
+	SHRINKWRAP_MODE							"Mode";
+		SHRINKWRAP_MODE_NORMALS			"Along Normals";
+		SHRINKWRAP_MODE_TAXIS				"Target Axis";
+		SHRINKWRAP_MODE_SAXIS				"Source Axis";
+	SHRINKWRAP_STRENGTH					"Strength";
+	SHRINKWRAP_MAXDISTANCE			"Maximum Distance";
+}

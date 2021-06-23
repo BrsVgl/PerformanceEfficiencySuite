@@ -1,0 +1,6 @@
+STRINGTABLE ToolRectSelection
+{
+  ToolRectSelection								"Rectangle Selection";
+	MDATA_SELECTION_TOLERANCE				"Tolerant Selection";
+	MDATA_SELECTION_VISIBLE					"Only Select Visible Elements";
+}

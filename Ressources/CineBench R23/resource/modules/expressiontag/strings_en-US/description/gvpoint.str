@@ -1,0 +1,18 @@
+STRINGTABLE GVpoint
+{
+	GVpoint												"Point Operator";
+
+	GV_POINT_MODE									"Matrix Mode";
+		GV_POINT_OPERATOR_MODE_GLOBAL	"Global";
+		GV_POINT_OPERATOR_MODE_LOCAL	"Local";
+
+	GV_POINT_USE_DEFORMED		"Use Deformed Points";
+
+	GV_POINT_INPUT_OBJECT					"Object";
+	GV_POINT_INPUT_POINT					"Point Index";
+	GV_POINT_INPUT_POSITION				"Point Position";
+
+	GV_POINT_OUTPUT_POSITION			"Point Position";
+	GV_POINT_OUTPUT_POINT					"Point Count";
+	GV_POINT_OUTPUT_NORMAL				"Point Normal";
+}

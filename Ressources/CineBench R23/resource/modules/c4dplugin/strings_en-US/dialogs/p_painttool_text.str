@@ -1,0 +1,26 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS P_PAINTTOOL_TEXT
+{
+	TITLE "Text Tool";
+	TAA "Anti-Aliasing";
+	TTOLERANCE "Feather";
+
+	THANDLE "Handle";
+		TRECTH    "Move";
+		TMIDPOINT "Rotate";
+
+	TALIGN "Align";
+		TLEFT			"Left";
+		TCENTER		"Center";
+		TRIGHT		"Right";
+
+	TTEXT "Text";
+	TSIZE "Size";
+	TFONT "Font";
+	TPPP  "Select...";
+	
+	TFILLED  "Filled";
+	TOUTLINE "Stroke";
+	TPATH    "Path";
+}

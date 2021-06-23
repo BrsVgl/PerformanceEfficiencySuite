@@ -1,0 +1,5 @@
+DIALOGSTRINGS IDC_MODELING_REVERSENORMALS
+{
+  T1 "Reverse Normals";
+  T2 "User Normals";
+}

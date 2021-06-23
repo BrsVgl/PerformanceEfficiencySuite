@@ -1,0 +1,10 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_CBPREFS
+{
+  IDS_CHECK    "Custom Number of Render Threads";
+  IDS_DIALOG   "CINEBENCH Preferences";
+  IDS_STATIC1  "Render Threads";
+  IDS_STATIC2  "Custom Minimum Test Duration";
+  IDS_SECONDS  "Minutes";
+}

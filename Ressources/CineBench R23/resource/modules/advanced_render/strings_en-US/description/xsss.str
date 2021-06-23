@@ -1,0 +1,13 @@
+STRINGTABLE Xsss
+{
+	Xsss "Subsurface Scattering Shader";
+
+	SSSSHADER_GRADIENT					"Absorption Filter";
+	SSSSHADER_STRENGTH					"Strength";
+	SSSSHADER_DENSITY						"Absorption";
+	SSSSHADER_COLORDENSITY			"Filter Length";
+	SSSSHADER_SAMPLES						"Samples";
+	SSSSHADER_MINTHICKNESS			"Minimum Thickness";
+	SSSSHADER_SCATTERINGLENGTH	"Scattering Length";
+	SSSSHADER_USE_NORMALS				"Use Normals";
+}

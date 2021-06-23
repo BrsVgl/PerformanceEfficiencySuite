@@ -1,0 +1,7 @@
+STRINGTABLE Xmetal
+{
+	Xmetal "Metal Shader";
+
+	METALSHADER_COLOR			"Color";
+	METALSHADER_FREQUENCY	"Frequency";
+}

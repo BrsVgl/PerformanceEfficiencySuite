@@ -1,0 +1,13 @@
+STRINGTABLE GVvectcalcmat
+{
+	GVvectcalcmat							"Vector2Matrix Operator";
+
+	GV_VECTCALCMAT_TYPE				"Function";
+		TYPE_XAXIS "X Axis";
+		TYPE_YAXIS "Y Axis";
+		TYPE_ZAXIS "Z Axis";
+
+	GV_VECTCALCMAT_INPUT			"Input";
+
+	GV_VECTCALCMAT_OUTPUT			"Output";
+}

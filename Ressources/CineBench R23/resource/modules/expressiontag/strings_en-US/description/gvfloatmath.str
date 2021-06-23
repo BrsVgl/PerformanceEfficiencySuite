@@ -1,0 +1,13 @@
+STRINGTABLE GVfloatmath
+{
+	GVfloatmath									"FloatMath Operator";
+
+	GV_FLOATMATH_FUNCTION_ID			"Function";
+		GV_ADR_NODE_FUNCTION		"Add";
+		GV_SUR_NODE_FUNCTION		"Subtract";
+		GV_MUR_NODE_FUNCTION		"Multiply";
+		GV_DIR_NODE_FUNCTION		"Divide";
+	GV_FLOATMATH_INPUT						"Input";
+	GV_FLOATMATH_REAL						"Float Value";
+	GV_FLOATMATH_OUTPUT					"Output";
+}

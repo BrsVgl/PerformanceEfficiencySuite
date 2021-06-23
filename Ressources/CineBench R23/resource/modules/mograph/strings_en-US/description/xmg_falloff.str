@@ -1,0 +1,6 @@
+STRINGTABLE Xmg_falloff
+{
+	Xmg_falloff "MoGraph Falloff Shader";
+
+	MGFALLOFFSHADER_LIST			"Falloffs";
+}

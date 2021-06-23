@@ -1,0 +1,52 @@
+////////////////////////////////////////////////////////////////
+// xthinfilm
+////////////////////////////////////////////////////////////////
+// (c) 2015 MAXON Computer GmbH, all rights reserved
+////////////////////////////////////////////////////////////////
+
+CONTAINER Xthinfilm
+{
+  NAME Xthinfilm;
+
+  INCLUDE Mpreview;
+  INCLUDE Xbase;
+
+  GROUP ID_SHADERPROPERTIES
+  {
+    COLOR THINFILMSHADER_LAYERCOLOR										{																}
+    SHADERLINK THINFILMSHADER_LAYERCOLOR_TEX_LINK     {                               }
+		REAL THINFILMSHADER_LAYERMIXSTRENGTH     					{ UNIT PERCENT; MIN 0.0; MAX 100.0; MINSLIDER 0; MAXSLIDER 100; CUSTOMGUI REALSLIDER; }
+    SEPARATOR                                         { LINE;                         }
+    REAL THINFILMSHADER_AVERAGETHICKNESS              { STEP 1.0;	MIN 0.0; MAX 5000.0;}
+    REAL THINFILMSHADER_RELATIVETHICKNESS             { STEP 1.0; MIN 0.0; MAX 5000.0;}
+    SHADERLINK THINFILMSHADER_RELATIVECHANGE_TEX_LINK	{                               }
+    SEPARATOR                                         { LINE;                         }
+		LONG THINFILMSHADER_IOR_PRESET
+		{
+			ANIM OFF;
+			CYCLE
+			{ 
+				THINFILMSHADER_IOR_PRESET_CUSTOM;
+				THINFILMSHADER_IOR_PRESET_BEER;
+				THINFILMSHADER_IOR_PRESET_DIAMOND;
+				THINFILMSHADER_IOR_PRESET_EMERALD;
+				THINFILMSHADER_IOR_PRESET_ETHANOL;
+				THINFILMSHADER_IOR_PRESET_GLASS;
+				THINFILMSHADER_IOR_PRESET_JADE;
+				THINFILMSHADER_IOR_PRESET_MILK;
+				THINFILMSHADER_IOR_PRESET_OIL_VEGETABLE;
+				THINFILMSHADER_IOR_PRESET_PEARL;
+				THINFILMSHADER_IOR_PRESET_PET;
+				THINFILMSHADER_IOR_PRESET_PLEXIGLASS;
+				THINFILMSHADER_IOR_PRESET_RUBY;
+				THINFILMSHADER_IOR_PRESET_SAPPHIRE;
+				THINFILMSHADER_IOR_PRESET_WATER;
+				THINFILMSHADER_IOR_PRESET_WATER_ICE;
+				THINFILMSHADER_IOR_PRESET_WHISKEY;
+			}
+		}
+
+    REAL THINFILMSHADER_IOR                           { STEP 0.01; MIN 1.0; MAX 10.0;	}
+    LONG THINFILMSHADER_NUMSPECTRALSAMPLE             { MIN 1; MAX 100;	              }
+  }
+}

@@ -1,0 +1,54 @@
+STRINGTABLE XSLATiles
+{
+  XSLATiles                               "Tile Shader";
+
+  SLA_TILES_GROUT_COLOR                   "Grout Color";
+  SLA_TILES_TILE_COLOR_1                  "Tiles Color 1";
+  SLA_TILES_TILE_COLOR_2                  "Tiles Color 2";
+  SLA_TILES_TILE_COLOR_3                  "Tiles Color 3";
+  SLA_TILES_PATTERN                       "Pattern";
+    SLA_TILES_PATTERN_BRICK1              "Brick 1";
+    SLA_TILES_PATTERN_BRICK2              "Brick 2";
+    SLA_TILES_PATTERN_CIRCLES1            "Circles 1";
+    SLA_TILES_PATTERN_CIRCLES2            "Circles 2";
+    SLA_TILES_PATTERN_CIRCLES3            "Circles 3";
+    SLA_TILES_PATTERN_HEXAGONS            "Hexagons";
+    SLA_TILES_PATTERN_LINES1              "Lines 1";
+    SLA_TILES_PATTERN_LINES2              "Lines 2";
+    SLA_TILES_PATTERN_PARQUET             "Parquet";
+    SLA_TILES_PATTERN_PLANKS              "Planks";
+    SLA_TILES_PATTERN_RADIAL_LINES1       "Radial Lines 1";
+    SLA_TILES_PATTERN_RADIAL_LINES2       "Radial Lines 2";
+    SLA_TILES_PATTERN_RANDOM              "Random";
+    SLA_TILES_PATTERN_RINGS1              "Rings 1";
+    SLA_TILES_PATTERN_RINGS2              "Rings 2";
+    SLA_TILES_PATTERN_SAWTOOTH1           "Sawtooth 1";
+    SLA_TILES_PATTERN_SAWTOOTH2           "Sawtooth 2";
+    SLA_TILES_PATTERN_SCALES1             "Scales 1";
+    SLA_TILES_PATTERN_SCALES2             "Scales 2";
+    SLA_TILES_PATTERN_SPIRAL1             "Spiral 1";
+    SLA_TILES_PATTERN_SPIRAL2             "Spiral 2";
+    SLA_TILES_PATTERN_SQUARES             "Squares";
+    SLA_TILES_PATTERN_TRIANGLES1          "Triangles 1";
+    SLA_TILES_PATTERN_TRIANGLES2          "Triangles 2";
+    SLA_TILES_PATTERN_TRIANGLES3          "Triangles 3";
+    SLA_TILES_PATTERN_WAVES1              "Waves 1";
+    SLA_TILES_PATTERN_WAVES2              "Waves 2";
+    SLA_TILES_PATTERN_WEAVE               "Weave";
+
+  SLA_TILES_GROUT_WIDTH                   "Grout Width";
+  SLA_TILES_BEVEL_WIDTH                   "Bevel Width";
+  SLA_TILES_SMOOTH_BEVEL                  "Bevel";
+  SLA_TILES_RANDOMIZE_COLOR               "Randomize Color";
+  SLA_TILES_ORIENTATION                   "Orientation";
+    SLA_TILES_ORIENTATION_U               "U";
+    SLA_TILES_ORIENTATION_V               "V";
+
+  SLA_TILES_GLOBAL_SCALE                  "Global Scale";
+  SLA_TILES_U_SCALE                       "U Scale";
+  SLA_TILES_V_SCALE                       "V Scale";
+  SLA_TILES_RADIAL_SCALE                  "Radial Scale";
+  SLA_TILES_ROTATE                        "Rotate";
+  SLA_TILES_DELTA                         "Delta";
+  SLA_TILES_SEED													"Seed";
+}

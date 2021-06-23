@@ -1,0 +1,16 @@
+STRINGTABLE Opolyreduction
+{
+	Opolyreduction "Polygon Reduction Object";
+
+	POLYREDUCTIONOBJECT_COPLANAR		"Co-Planar Optimization";
+	POLYREDUCTIONOBJECT_STRENGTH		"Reduction Strength";
+	POLYREDUCTIONOBJECT_MESHFACTOR	"Mesh Quality Factor";
+	POLYREDUCTIONOBJECT_BOUNDARY  	"Bounday Curve Preservation";
+	POLYREDUCTIONOBJECT_QUALITY 		"Polygon Quality Preservation";
+
+	EXPLOSIONOBJECT_STRENGTH "Strength";
+	EXPLOSIONOBJECT_PSPEED   "Speed";
+	EXPLOSIONOBJECT_ASPEED	 "Angle Speed";
+	EXPLOSIONOBJECT_ENDSIZE  "End Size";
+	EXPLOSIONOBJECT_RANDOM   "Randomness";
+}

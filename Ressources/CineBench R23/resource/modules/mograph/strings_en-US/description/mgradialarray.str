@@ -1,0 +1,21 @@
+STRINGTABLE MGradialarray
+{
+	MGradialarray "Radial Array";
+
+	MG_RADIAL_COUNT "Count";
+	MG_RADIAL_RADIUS "Radius";
+
+	MG_RADIAL_STARTANGLE "Start Angle";
+	MG_RADIAL_ENDANGLE "End Angle";
+
+	MG_RADIAL_OFFSET "Offset";
+	MG_RADIAL_RANDOM "Offset Variation";
+	MG_RADIAL_SEED "Offset Seed";
+
+	MG_RADIAL_AXIS "Plane";
+	MG_RADIAL_AXIS_XY "XY";
+	MG_RADIAL_AXIS_ZY "ZY";
+	MG_RADIAL_AXIS_XZ "XZ";
+
+	MG_RADIAL_ORIENT "Align";
+}

@@ -1,0 +1,14 @@
+STRINGTABLE BPsplinetext
+{
+	BPsplinetext										"Path Text";
+	ID_PAINTSPLINETEXT_TEXT  				"Text";
+	ID_PAINTSPLINETEXT_SIZE  				"Size";
+	ID_PAINTSPLINETEXT_ALIGN 				"Align";
+		PAINTSPLINETEXT_ALIGN_LEFT		"Left";
+		PAINTSPLINETEXT_ALIGN_CENTER	"Center";
+		PAINTSPLINETEXT_ALIGN_RIGHT		"Right";
+	ID_PAINTSPLINETEXT_FONT					"Font";
+	ID_PAINTSPLINETEXT_SPACE_H			"Horizontal Spacing" "Horiz. Spacing";
+	ID_PAINTSPLINETEXT_SPACE_V			"Vertical Spacing"   "Vert. Spacing";
+	ID_PAINTSPLINETEXT_SEPARATE			"Separate Letters";
+}

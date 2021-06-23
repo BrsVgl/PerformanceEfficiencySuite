@@ -1,0 +1,4 @@
+STRINGTABLE BPsplineline
+{
+	BPsplineline				"Path Line";
+}

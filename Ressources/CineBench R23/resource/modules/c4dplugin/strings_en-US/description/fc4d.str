@@ -1,0 +1,6 @@
+STRINGTABLE Fc4d
+{
+	Fc4d "Cinema 4D Import";
+	C4DIMPORTFILTER_SCALE "Scale";
+	C4DIMPORTFILTER_HINT  "(applies to R4 - R11.5 projects only)";
+}

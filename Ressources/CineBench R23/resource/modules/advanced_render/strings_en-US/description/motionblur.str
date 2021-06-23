@@ -1,0 +1,11 @@
+STRINGTABLE MotionBlur
+{
+	MBLUR_NAME				"Vector Motion Blur";
+	MBLUR_PHASE				"Phase";
+	MBLUR_DENSITY			"Density";
+	MBLUR_SAMPLES			"Samples";
+	MBLUR_BLUR				"Sample Radius";
+	MBLUR_TRAILS            "Weighted Trails";
+	MBLUR_MESHTRACK         "Geometry Deformation";
+	MBLUR_GLOBALS_GROUP 	"Vector Motion Blur";
+}

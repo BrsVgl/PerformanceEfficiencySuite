@@ -1,0 +1,9 @@
+STRINGTABLE GVtrigger
+{
+	GVtrigger									"FlipFlop Operator";
+
+	GV_TRIGGER_ON		"On";
+	GV_TRIGGER_SWITCH	"Switch";
+	GV_TRIGGER_OFF		"Off";
+	GV_TRIGGER_OUT		"Out";
+}

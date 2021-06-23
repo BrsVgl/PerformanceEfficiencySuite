@@ -1,0 +1,2783 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+  IDS_OUTWINDOW_FILE	"File";
+  IDS_OUTWINDOW_EDIT	"Edit";
+  IDS_OUTWINDOW_VIEW	"View";
+
+  IDS_EDITOR_FILE	"File";
+  IDS_EDITOR_EXPORT	"Export...";
+  IDS_EDITOR_EXPORTPREFS	"Import/Export Settings";
+  IDS_EDITOR_PRESETS	"Presets";
+  IDS_EDITOR_EDIT	"Edit";
+  IDS_EDITOR_OBJECTS	"Objects";
+  IDS_EDITOR_PRIMITIVE	"Primitive";
+  IDS_EDITOR_SPLINE_PRIMITIVE	"Spline Primitive";
+  IDS_EDITOR_NURBS	"Generator";
+  IDS_EDITOR_MODELING	"Modeling";
+  IDS_EDITOR_SCENE	"Environment";
+  IDS_EDITOR_PARTICLE	"Particles";
+  IDS_EDITOR_DEFORMATION	"Deformer";
+  IDS_EDITOR_SOUND	"Sound";
+  IDS_EDITOR_TOOLS	"Tools";
+ 	IDS_EDITOR_MVP        "Model View Presenter";
+ 	IDS_EDITOR_SIMULATION "Simulate";
+ 	IDS_EDITOR_SIMULATION_CLOTH "Cloth";
+ 	IDS_EDITOR_SIMULATION_DYNAMICS "Dynamics";
+ 	IDS_EDITOR_CA_MANAGER "Manager";
+ 	IDS_EDITOR_CA_COMMANDS "Commands";
+  IDS_EDITOR_ACTION	"Action";
+  IDS_EDITOR_COORDINATES	"Coordinates";
+  IDS_EDITOR_OPTIONS	"Functions";
+  IDS_EDITOR_STRUCTURE	"Structure";
+  IDS_EDITOR_MODEL_TOOLS	"Model Tools";
+  IDS_EDITOR_CREATEMODIFY	"Create/Modify";
+  IDS_EDITOR_MODELTOOLS	"Model Tools";
+  IDS_EDITOR_EDITSURFACE	"Edit Surface";
+  IDS_EDITOR_SELECTION_TOOLS	"Select";
+  IDS_EDITOR_VISIBILITY	"Visibility";
+  IDS_EDITOR_SPLINE_OBJECTS	"Edit Spline";
+
+	IDS_SUBMENU_CAMERA "Camera";
+	IDS_SUBMENU_VIEW "View";
+	IDS_SUBMENU_GUIDE "Guide";
+	IDS_SUBMENU_TOOLS "Tools";
+	IDS_SUBMENU_RECENT_TOOLS "Recent Tools";
+	IDS_SUBMENU_BOOLE_COMMANDS "Boole Commands";
+	IDS_SUBMENU_PLAYBACK "Playback";
+	IDS_SUBMENU_SHOWTRACKS "Show Tracks";
+	IDS_SUBMENU_PREVIEWRANGE "Preview Range";
+	IDS_SUBMENU_ADD "Add";
+	IDS_SUBMENU_REMOVE "Remove";
+	IDS_SUBMENU_CLONE "Clone";
+	IDS_SUBMENU_CUT "Cut";
+	IDS_SUBMENU_MOVE "Move";
+	IDS_SUBMENU_CONVERT "Convert";
+	IDS_SUBMENU_UV "UV";
+	IDS_SUBMENU_TANGENTS "Tangents";
+	IDS_SUBMENU_SEGMENTS "Segments";
+	IDS_SUBMENU_POINT_ORDER "Point Order";
+
+  IDS_EDITOR_PHOENIX	"Tracker";
+	IDS_SUBMENU_PHOENIX_SELECT	"Select";
+	IDS_SUBMENU_PHOENIX_NUDGE "Nudge Track";
+	IDS_SUBMENU_PHOENIX_CONSTRAINTS	"Constraints";
+	IDS_SUBMENU_PHOENIX_2D_TRACK_COMMANDS "Tracks";
+	IDS_SUBMENU_PHOENIX_VIEW "View";
+	IDS_SUBMENU_PHOENIX_VIEW_GRID "Grid";
+	IDS_SUBMENU_PHOENIX_FRAME "Frame";
+
+  IDS_EDITOR_PLUGINS	"Plugins";
+  IDS_EDITOR_RENDER	"Render";
+  IDS_EDITOR_WINDOW	"Window";
+  IDS_EDITOR_ABOUT	"Help";
+
+  IDS_EDITOR_PIPELINE	"Extensions";
+
+  IDS_MATERIAL_MANAGER_FILE	"Create";
+  IDS_MATERIAL_MANAGER_EDIT	"Edit";
+  IDS_MATERIAL_MANAGER_FUNCTION	"Material";
+	IDS_MATMAN_TEXTURE "Texture";
+	IDS_MATERIAL_MANAGER_NEW_MATERIALS "Materials";
+
+  IDS_OBJECT_MANAGER_FILE	"File";
+  IDS_OBJECT_MANAGER_EDIT	"Edit";
+  IDS_OBJECT_MANAGER_FUNCTION	"Objects";
+  IDS_OBJECT_MANAGER_NEW_PROPERTY	"Tags";
+  IDS_OBJECT_MANAGER_TEXTURE	"Texture";
+  IDS_OBJECT_MANAGER_ADAPT_TO	"Adapt to";
+  IDS_OBJECT_MANAGER_ALIGN_TO	"Align to";
+
+  IDS_BROWSER_FILE	"File";
+  IDS_BROWSER_EDIT	"Edit";
+  IDS_BROWSER_FUNCTION	"Function";
+  IDS_BROWSER_SORT_BY	"Sort by";
+
+  IDS_SPREADSHEET_FILE	"File";
+  IDS_SPREADSHEET_EDIT	"Edit";
+  IDS_SPREADSHEET_VIEW	"View";
+  IDS_SPREADSHEET_MODE	"Mode";
+
+  IDS_VIEWWINDOW_VIEW	"Edit";
+  IDS_VIEWWINDOW_FRAME	"View Panel";
+  IDS_VIEWWINDOW_PROJECTION	"Cameras";
+  IDS_VIEWWINDOW_DISPLAY	"Display";
+
+
+  IDS_TIMELINE_FILE	"File";
+  IDS_TIMELINE_NEW_TRACK	"New Track";
+  IDS_TIMELINE_EDIT	"Edit";
+  IDS_TIMELINE_REGION_SELECT	"Region Select";
+  IDS_TIMELINE_VIEW	"View";
+  IDS_TIMELINE_CURVES	"Curves";
+  IDS_TIMELINE_SPACE_CURVES	"Space Curves";
+  IDS_TIMELINE_TIME_CURVES	"Time Curves";
+  IDS_TIMELINE_NAVIGATION	"Animate";
+  IDS_TIMELINE_RECORD	"Record";
+  IDS_TIMELINE_PLAY_MODE	"Play Mode";
+  IDS_TIMELINE_FRAME_RATE	"Frame Rate";
+  IDS_TIMELINE_SEQUENCES	"Sequences";
+  IDS_TIMELINE_TANGENTS	"Tangents";
+  IDS_TIMELINE_LAYER	"Layer";
+  IDS_TIMELINE_COLOR_SELECTION	"Color Selection";
+  IDS_TIMELINE_SELECT_LAYER	"Select Layer";
+  IDS_TIMELINE_TOGGLE_LAYER	"Toggle Layer";
+  IDS_TIMELINE_SOLO_LAYER	"Solo Layer";
+  IDS_TIMELINE_ALL_LAYERS	"All Layers";
+  IDS_TIMELINE_WINDOW	"Window";
+
+  IDS_NOMEM	"Not enough memory...";
+  IDS_FILEOPEN	"Unable to open file...";
+  IDS_FILECLOSE	"Unable to close file...";
+  IDS_FILEREAD	"Unable to read file...";
+  IDS_FILEWRITE	"Unable to write file...";
+  IDS_FILESEEK	"Unable to position in file...";
+  IDS_NOMEMRETRY	"Not enough memory!|Repeat?";
+
+  IDS_UNBEKFORMAT	"Unknown file format!";
+
+  IDS_FS_BILDER	"All files,*.*,Picture formats,*.avi;*.bmp;*.iff;*.jpg;*.jpeg;*.tif;*.tga;*.psd;*.rla;*.rpf;*.mov;*.pct;*.b3d;*.hdr;*.png";
+  IDS_FS_LOAD3D	"All files,*.*,3D-Formats,*.c4d;*.dem;*.dxf;*.iob;*.lwo;*.lws;*.3dm;*.3dmf;*.ai;*.ps;*.wrl;*.3ds;*.obj;*.mon;*.dae;*.dwg;*.fbx;*.igs";
+  IDS_FS_COFFEE	"All files,*.*,C.O.F.F.E.E. formats,*.cof;*.coh;*.txt";
+  IDS_FS_DRAWER	"Directory (*.*),*.*";
+  IDS_FS_ALLES	"All files,*.*,3D-Formats,*.c4d;*.dem;*.dxf;*.iob;*.lwo;*.lws;*.3dm;*.3dmf;*.ai;*.ps;*.wrl;*.3ds;*.obj;*.mon;*.dae;*.dwg;*.fbx;*.igs,Picture formats,*.avi;*.bmp;*.iff;*.jpg;*.jpeg;*.tif;*.tga;*.psd;*.rla;*.rpf;*.mov;*.pct;*.b3d;*.hdr;*.png,Preferences,*.prf,Catalogs,*.cat";
+  IDS_FS_SAVEPREF	"Preferences (*.prf),*.prf,All files (*.*),*.*";
+  IDS_FS_SAVECAT	"Catalogs  (*.cat),*.cat,All files (*.*),*.*";
+  IDS_FS_SAVEFCV	"Function curves  (*.fcv),*.fcv,All files (*.*),*.*";
+
+  IDS_LIGHT	"Light";
+
+  IDS_CHOOSEOBJECT	"Please select a (single) object";
+
+  IDS_OVERWRITEFRAMES	"Do you really want to overwrite file(s)|#?";
+  IDS_TEXLACK	"Unable to find asset '#' ('#').|Do you want to choose the location?";
+
+  IDS_CHOOSEGROUP	"Please select an object group";
+  IDS_NEU	"Mat";
+  IDS_OHNETITEL	"Untitled";
+
+  IDS_SONNE	"Sun";
+  IDS_B	"F";
+  IDS_TYPEFAIL1	"Wrong value|Select a value greater than #";
+  IDS_TYPEFAIL2	"Wrong value|Select a value greater than or equal to #";
+  IDS_TYPEFAIL3	"Wrong value|Select a value less than #";
+
+  IDS_TYPEFAIL4	"Wrong value|Select a value less than or equal to #";
+  IDS_TYPEFAIL5	"Wrong value|Select a value greater than # and less than #";
+  IDS_TYPEFAIL6	"Wrong value|Select a value greater than or equal to #|and less than #";
+  IDS_TYPEFAIL7	"Wrong value|Select a value greater than #|and less than or equal to #";
+  IDS_TYPEFAIL8	"Wrong value|Select a value greater than or equal to #|and less than or equal to #";
+  IDS_TYPEFAIL9	"Wrong value|Select a value different to #";
+  IDS_TYPEFAIL10	"Invalid entry|Please enter text into the box.";
+  IDS_INITIALISIERE	"Preparing...";
+  IDS_SPEICHEREBILD	"Saving frame...";
+
+  IDS_APPLYINGFILTER	"Filtering...";
+  IDS_TIEFENUNSCHAERFE	"Rendering depth of field...";
+
+  IDS_QKAMERA	"Camera";
+  IDS_SEK	"S";
+  IDS_WELTVOREIN	"Preferences...";
+
+  IDS_VERTEXOBJECT	"Polygon";
+  IDS_SKYOBJECT	"Sky";
+  IDS_POLYOBJECT	"Spline";
+
+  IDS_CHOOSEPOLY	"Please select a spline";
+
+  IDS_ROUND	"Rounding";
+  IDS_ROUND1	"Rounding 1";
+  IDS_ROUND2	"Rounding 2";
+  IDS_LID	"Cap";
+  IDS_LID1	"Cap 1";
+  IDS_LID2	"Cap 2";
+
+  IDS_NOTHING	"None";
+  IDS_BYTES	"ca. # KBytes";
+
+  IDS_QUMGEBUNG	"Environment";
+  IDS_SAUS	"Visibility";
+  IDS_SSKAL	"Scale";
+  IDS_SROT	"Rotation";
+  IDS_SPATH	"AligntoSpline";
+
+  IDS_SKINEMATIK	"IK";
+  IDS_SMORPH	"Morphing";
+  IDS_ANIM_PULSATE	"Pulsate";
+  IDS_ANIM_VIBRATE	"Vibrate";
+  IDS_STEXTUR0	"Texture";
+  IDS_SPOS	"Position";
+  IDS_CHOOSESPUR	"Please select track";
+  IDS_CHOOSESEQ	"Please select sequence";
+  IDS_CHOOSEKEY	"Please select key";
+
+  IDS_CHOOSEKEYSEQ	"Please select a sequence or key";
+  IDS_UEBERSCHNEIDUNG	"The left/right border of the sequence overlaps with the|neighbouring sequences. Choose different sequence borders.";
+  IDS_CHOOSESPURSEQKEY	"Please select a track, sequence or key";
+  IDS_PUNKTNUMMER	"Point";
+  IDS_VIERECKNUMMER	"Polygon";
+  IDS_NOFIT	"Only works with planar projection";
+  IDS_PHONGFORUNDER	"Do you want sub-objects to be included?";
+
+  IDS_VERSIONSORRY	"Not available in demo version";
+  IDS_POLYFAIL	"Please select a spline object";
+  IDS_OBJECTFAIL	"Please select an existing object";
+  IDS_SAMPLEFLARES	"Rendering lens effects...";
+  IDS_SELEKTMAT	"Please select a material";
+  IDS_SCHLIESSEN	"Do you want to save the changes to your|project $"#$"|before closing it?";
+
+  IDS_FRAMETEXT	"# (from # to #)";
+
+  IDS_OM_TEX	"Material Tag";
+  IDS_OM_PHONG	"Tag";
+  IDS_OM_DARST	"Expression";
+
+  IDS_UMGOBJEKT	"Environment";
+  IDS_SAUSSI	"Align to Path";
+  IDS_ANIM_TARGET	"Target";
+  IDS_FEXISTS	"The specified name already exists.|Do you want to overwrite the existing file?";
+  IDS_HL1	"Rel. Position";
+
+  IDS_HL2	"Rel. Scale";
+  IDS_HL3	"Rel. Rotation";
+  IDS_HL4	"Position";
+  IDS_HL5	"Size";
+  IDS_HL6	"Rotation";
+  IDS_HL7	"Scale";
+  IDS_HL8	"Center point";
+  IDS_HL9	"Offset";
+  IDS_HL10	"Focus/Zoom";
+
+  IDS_COORDINATE_MANAGER_X_STR	"X";
+  IDS_COORDINATE_MANAGER_Y_STR	"Y";
+  IDS_COORDINATE_MANAGER_Z_STR	"Z";
+  IDS_COORDINATE_MANAGER_U_STR	"U";
+  IDS_COORDINATE_MANAGER_V_STR	"V";
+  IDS_COORDINATE_MANAGER_W_STR 	"W";
+  IDS_COORDINATE_MANAGER_H_STR	"H";
+  IDS_COORDINATE_MANAGER_P_STR	"P";
+  IDS_COORDINATE_MANAGER_B_STR 	"B";
+  IDS_COORDINATE_MANAGER_ANGLE_STR	"Angle";
+
+  IDS_BEENDEN	"Do you want to save the changes to the|project $"#$"|before quitting?";
+  IDS_ALREADYOPEN	"This project is already open.|Do you want to open it with the same name and title?";
+
+  IDS_OMANGROUP	"Object group";
+  IDS_CALCSMAP	"Rendering shadow maps...";
+  IDS_TRACERWORKS	"The external renderer is calculating an image.|Do you want to stop it?";
+  IDS_NOPATH	"There is no file name specified for the rendering image.|Do you want to continue without saving?";
+	IDS_NOPATHTIT "The chosen output format is not available.|Do you want to continue without saving?";
+
+  IDS_CHECKOUTSUB	"Do you want sub-objects to be included?";
+  IDS_HANDBUCH	"Manual.pdf";
+  IDS_WO_ZUM_HENKER	"Unable to find $"Manual.pdf$"";
+  IDS_HIERHERPC	"Here";
+  IDS_HIERHERMAC	"Here";
+  IDS_CHOOSEDRAWER	"Choose directory";
+  IDS_CHOOSEFILE	"Open File";
+  IDS_SAVEFILE	"Save File";
+
+  IDS_LOFTOBJECT	"Loft";
+
+  IDS_FFDOBJECT	"FFD";
+  IDS_PARTICLEOBJECT	"Emitter";
+
+  IDS_EXTRUDEOBJECT	"Extrude";
+  IDS_ROTATEOBJECT	"Lathe";
+  IDS_SWEEPOBJECT	"Sweep";
+  //IDS_BONEOBJECT	"Bone";
+
+  IDS_BEZIEROBJECT	"Bezier";
+  IDS_VORNEOBJECT	"Foreground";
+  IDS_HINTEROBJECT	"Background";
+
+  IDS_BBILD	"Image";
+  IDS_BMOVIE	"Movie";
+  IDS_BSZENE	"Project";
+	IDS_BSOUND "Sound";
+	IDS_BFCV   "Function Curve";
+	IDS_BCOFFEE "C.O.F.F.E.E. File";
+  IDS_PICCOPY	"This image is not in the project search path.|Do you want to create a copy at the project location?||The behavior can be changed on the Files page of the application preferences.";
+  IDS_RAY_SAVE	"Save";
+  IDS_REALLYREVERT	"Are you sure you want to lose the changes|made to the active project|and return to the saved version?";
+  IDS_NOREVERT	"Unable to find old version of the project";
+
+  IDS_BMATERIAL	"Material";
+
+  IDS_FILESTRUCT	"Incorrect file structure";
+
+  IDS_PROG_LOAD	"Loading # ...";
+  IDS_PROG_SAVE	"Saving #...";
+  IDS_PROG_COUNTING	"Counting files...";
+  IDS_PROG_RENDERDIAS	"Calculating thumbnails...";
+  IDS_INSTANCEOBJECT	"Instance";
+  IDS_ENURBSOBJECT	"Subdivision Surface";
+  IDS_SPLA	"PLA";
+
+  IDS_PROG_BAKEPARTICLES	"Baking Particles...";
+  IDS_SFOLDER	"Motion";
+  IDS_ANI_TIME	"Time: ";
+  IDS_ANI_SELECTION	"Selection: ";
+  IDS_ANI_LOOP	"Loop: ";
+  IDS_ANI_MARKER	"Marker: ";
+  IDS_SSOUND	"Sound";
+
+  IDS_SHADOWMEM	"ca. # MB";
+
+  IDS_BLOBOBJECT	"Metaball";
+
+  IDS_FAIL1	"Select value > #";
+  IDS_FAIL2	"Select value >= #";
+  IDS_FAIL3	"Select value < #";
+  IDS_FAIL4	"Select value <= #";
+  IDS_FAIL5	"Select value > # and < #";
+  IDS_FAIL6	"Select value >= # and < #";
+  IDS_FAIL7	"Select value > # and <= #";
+  IDS_FAIL8	"Select value >= # and <= #";
+  IDS_FAIL9	"Select value != #";
+  IDS_FAILM	"Error in Row: ";
+  IDS_OBJNAME	"Object";
+  IDS_PARSING	"Parsing ASCII data...";
+
+  IDS_DEFRDATA	"My Render Setting";
+  // IDS_DEFAULT_RENDER_SETTINGS_PREVIEW  "Physical Renderer (Preview)";
+  // IDS_DEFAULT_RENDER_SETTINGS_FINAL  "Physical Renderer (Final)";
+  IDS_QMICROPHONE	"Microphone";
+  IDS_M_2	"Stereo";
+  IDS_M_5	"DTS 5_1";
+  IDS_QNULL	"Null";
+
+  IDS_SYMMETRYOBJECT	"Symmetry";
+  IDS_POSSJOINLOSS	"Overlapping keys will be lost!|Do you want to proceed?";
+  IDS_QBOOLE	"Boole";
+
+  IDS_RECENT	"Recent Files";
+  IDS_RENDERSOUND_1	"Animating...";
+  IDS_RENDERSOUND_2	"Processing:";
+
+  IDS_FILEERROR_OPEN1	"Unable to open file|#";
+  IDS_FILEERROR_OPEN2	"Unable to write file|#|(file may be write protected)";
+  IDS_FILEERROR_CLOSE	"Unable to close file|#";
+  IDS_FILEERROR_READ	"Unable to read file|#";
+  IDS_FILEERROR_WRITE	"Unable to write file|#";
+  IDS_FILEERROR_SEEK	"Unable to position in file|#";
+  IDS_FILEERROR_INVALID	"Invalid file operation in file|#";
+  IDS_THEFRAMERATE	"30";
+  IDS_QTMOVIE_SMALL	"QuickTime Movie Small";
+  IDS_QTMOVIE_BIG	"QuickTime Movie Big";
+  IDS_QTMOVIE_USER	"QuickTime Movie";
+  IDS_QTMOVIE_OBJECT	"QuickTime VR Object";
+  IDS_QTMOVIE_PANORAMA	"QuickTime VR Panorama";
+  IDS_AVIMOVIE_SMALL	"AVI Movie Small";
+
+  IDS_AVIMOVIE_BIG	"AVI Movie Big";
+  IDS_AVIMOVIE_USER	"AVI Movie";
+  IDS_PARAMETER	"Parameter";
+  IDS_POLYSELECTION	"Polygon Selection";
+  IDS_EDGESELECTION	"Edge Selection";
+  IDS_M_6	"DDS Ex 6_1";
+  IDS_M_7	"SDDS 7_1";
+  IDS_POINTSELECTION	"Point Selection";
+	IDS_CREATECURVE "Create Spline";
+
+	IDS_TITLE_BROWSER      "Browser";
+	IDS_TITLE_OMANAGER     "Objects";
+	IDS_TITLE_MMANAGER     "Materials";
+	IDS_TITLE_TIMELINE     "Timeline";
+	IDS_TITLE_FCURVE       "F-Curve";
+	IDS_TITLE_IMANAGER     "Coordinates";
+	IDS_TITLE_CONSOLE      "Console";
+	IDS_TITLE_OUTWINDOW    "Pictures";
+	IDS_TITLE_SPREADSHEET  "Structure";
+	IDS_TITLE_EDITOR       "Editor";
+	IDS_TITLE_VIEW         "View";
+	IDS_TITLE_R_PEDIT      "Point #";
+	IDS_TITLE_R_UVPEDIT    "UV Point Coordinates";
+
+	IDS_NEWSHADER						"New 3D Shader";
+	IDS_RELOADIMAGE					"Reload Image";
+	IDS_EDITOR_CAMERAS			"Panel";
+
+	IDS_EDITOR_GPU_PREVIEW		"ProRender";
+
+	IDS_GPU_BASESHADER_PREVIEW	"Shader is baked";
+
+	IDS_OK									" OK ";
+	IDS_CANCEL							" Cancel ";
+	IDS_HELP								" Help... ";
+
+	IDS_LAYOUT							"Customization";
+	IDS_ACTIVETOOL					"Active Tool";
+	IDS_NOSETTINGS					"No Settings";
+
+	IDS_SEPARATORICON					"Icon Separator";
+	IDS_SEPARATORICON2				"Group Separator";
+	IDS_SEPARATORICONHELPTEXT			"Separator - drag it to any iconbar";
+
+	IDS_CM_ROWSCOLS						"Rows/Columns";
+
+	IDS_CM_TITLE						"Commands";
+
+	IDS_CM_GROUP_ALL					"-- All Commands --";
+	IDS_CM_GROUP_EDITOR					"Editor";
+	IDS_CM_GROUP_ED_FILE				"Editor - File";
+	IDS_CM_GROUP_ED_EDIT				"Editor - Edit";
+	IDS_CM_GROUP_ED_OBJECTS				"Editor - Objects";
+	IDS_CM_GROUP_ED_TOOLS				"Editor - Tools";
+	IDS_CM_GROUP_ED_SELECTION			"Editor - Selection";
+	IDS_CM_GROUP_ED_PLUGINS				"Editor - Plugins";
+	IDS_CM_GROUP_ED_RENDERING			"Editor - Render";
+	IDS_CM_GROUP_ED_WINDOWS				"Editor - Windows";
+	IDS_CM_GROUP_TL_NAVIGATION			"Timeline - Navigation";
+
+	IDS_CM_GROUP_OBJMAN					"Object Manager";
+	IDS_CM_GROUP_MATMAN					"Material Manager";
+	IDS_CM_GROUP_SPREADSHEET			"Structure Manager";
+	IDS_CM_GROUP_VIEWWINDOW				"View Window";
+	IDS_CM_GROUP_OUTWINDOW				"Picture Viewer";
+	IDS_CM_GROUP_OTHERS					"Others";
+	IDS_CM_DETAILS						"Details";
+	IDS_CM_COMMAND						"Command:";
+	IDS_CM_DESCR						"Description:";
+	IDS_CM_CURSHORT						"Current:";
+	IDS_CM_NEWSHORT						"Assign:";
+	IDS_CM_REMOVE						"Remove";
+	IDS_CM_ASSIGN						"Assign";
+	IDS_CM_PALETTES						"Palettes";
+	IDS_CM_EDITPALETTES					"Edit Palettes";
+	IDS_CM_ASSIGNEDTO					"Assigned to: ";
+
+	IDS_CM_LOADLAYOUT					"Load Layout";
+	IDS_CM_SAVELAYOUT					"Save Layout";
+	IDS_CM_MERGELAYOUT					"Merge Layout";
+
+	IDS_QUAL_CTRL						"Ctrl";
+	IDS_QUAL_SHIFT						"Shift";
+	IDS_QUAL_ALT						"Alt";
+	IDS_QUAL_ALT2						"Alt2";
+	IDS_QUAL_ALT3						"Cmd";
+
+	IDS_KEY_MLEFT						"LMB";
+	IDS_KEY_MRIGHT					"RMB";
+	IDS_KEY_MMIDDLE					"MMB";
+	IDS_KEY_MX1							"MX1";
+	IDS_KEY_MX2							"MX2";
+
+	IDS_KEY_UP							"Up";
+	IDS_KEY_DOWN						"Down";
+	IDS_KEY_RIGHT						"Right";
+	IDS_KEY_LEFT						"Left";
+	IDS_KEY_PGUP						"PgUp";
+	IDS_KEY_PGDOWN						"PgDown";
+	IDS_KEY_HOME						"Home";
+	IDS_KEY_END							"End";
+	IDS_KEY_INSERT						"Ins";
+	IDS_KEY_DELETE						"Del";
+	IDS_KEY_BACKSPACE					"BS";
+	IDS_KEY_ENTER						"Return";
+	IDS_KEY_TAB							"Tab";
+	IDS_KEY_F1							"F1";
+	IDS_KEY_F2							"F2";
+	IDS_KEY_F3							"F3";
+	IDS_KEY_F4							"F4";
+	IDS_KEY_F5							"F5";
+	IDS_KEY_F6							"F6";
+	IDS_KEY_F7							"F7";
+	IDS_KEY_F8							"F8";
+	IDS_KEY_F9							"F9";
+	IDS_KEY_F10							"F10";
+	IDS_KEY_F11							"F11";
+	IDS_KEY_F12							"F12";
+	IDS_KEY_F13							"F13";
+	IDS_KEY_F14							"F14";
+	IDS_KEY_F15							"F15";
+	IDS_KEY_F16							"F16";
+	IDS_KEY_F17							"F17";
+	IDS_KEY_F18							"F18";
+	IDS_KEY_F19							"F19";
+	IDS_KEY_F20							"F20";
+	IDS_KEY_F21							"F21";
+	IDS_KEY_F22							"F22";
+	IDS_KEY_F23							"F23";
+	IDS_KEY_F24							"F24";
+	IDS_KEY_ESC							"Esc";
+	IDS_KEY_SPACE						"Space";
+
+	IDS_EDITOR_NAVMODE      "Navigation";
+	IDS_EDITOR_SCAMS        "Use Camera";
+	IDS_NOERROR             "No Errors!";
+	IDS_OBJECT_MANAGER_EXPRESSION "Expressions";
+
+	IDS_COFFEEEXPRESSION	 "C.O.F.F.E.E. Expression";
+	IDS_FIXEXPRESSION			 "Fixing Expression";
+	IDS_IKEXPRESSION       "IK Expression";
+	IDS_SUNEXPRESSION      "Sun Expression";
+	IDS_TARGETEXPRESSION   "Target Expression";
+	IDS_TARGET             "Target";
+
+	IDS_TAGSUBMENU					"New Tag";
+	IDS_EXPRESSIONSUBMENU 	"New Expression";
+	IDS_SUBMENU_OBJECTLIBRARY "Object Library";
+
+	IDS_PLUGINSHADER				"Plugin Shader";
+	IDS_VIEWWINDOW_PANELS   "Arrangement";
+	IDS_TIMELINE_OBJECTS    "Objects";
+
+	M_CMIP_ICONS				"Icon Size";
+	M_CMIP_DYNAMIC			"Dynamic Content";
+	IDS_LISTSELECTION			"Selection";
+	IDS_RESTORESELECTION		"Restore Selection";
+
+	IDS_CM_SHORT1						"Shortcut";
+	IDS_CM_SHORT2						"Shortcut 2:";
+
+	IDS_CM_GROUP_HOTKEYS				"HotKeys";
+	IDS_CM_EMPTY						"Empty";
+	IDS_CM_EMPTYPALETTE					"Empty Palette";
+	IDS_DEFAULTPALETTENAME				"Palette";
+	IDS_VIEWPANELTITLE					"View";
+
+	IDS_CM_COLORTABLE						"Color Table";
+	IDS_CM_COLORTABLE_ENHANCED	"Enhanced Color Table";
+
+	IDS_CM_RGB100								"RGB 0%..100%";
+	IDS_CM_RGB255								"RGB 0..255";
+	IDS_CM_RGB65535							"RGB 0..65535";
+
+	IDS_CM_XHSV100							"Hsv 0%..100%";
+	IDS_CM_XHSV255							"Hsv 0..255";
+	IDS_CM_XHSV360							"Hsv 0..360\u00B0";
+	IDS_CM_XHSV65535						"Hsv 0..65535";
+
+	IDS_CM_HSV100								"hSV 0%..100%";
+	IDS_CM_HSV255								"hSV 0..255";
+	IDS_CM_HSV65535							"hSV 0..65535";
+
+	IDS_CM_COLORS								"Colors";
+	IDS_CM_RGB									"RGB";
+	IDS_CM_RGB_COLOR						"RGB Color";
+	IDS_CM_HSV									"HSV";
+	IDS_CM_HSV_COLOR						"HSV Color";
+	IDS_CM_BRIGHTNESS						"Brightness";
+	IDS_CM_R										"R";
+	IDS_CM_G										"G";
+	IDS_CM_B										"B";
+	IDS_CM_H										"H";
+	IDS_CM_S										"S";
+	IDS_CM_V										"V";
+
+	IDS_CM_SHOWQUICKSTORAGE			"Show Quick Storage";
+	IDS_CM_MIXINGPANEL					"Mixing Panel";
+
+	IDS_MM_SUBMENU						"Submenu";
+	IDS_MM_TITLE						"Menus";
+	IDS_MM_COPY							"Copy";
+	IDS_MM_PASTE						"Paste";
+	IDS_MM_CUT							"Delete/Cut";
+	IDS_MM_RENAME						"Rename";
+
+	IDS_MM_MOVEUP						"Move Up";
+	IDS_MM_MOVEDOWN						"Move Down";
+
+	IDS_MM_NEWSUB						"New Submenu";
+	IDS_MM_APPLY						"Apply";
+	IDS_MM_SAVEALL						"Save All Changes";
+	IDS_MM_REVERT						"Revert to Saved";
+	IDS_MM_REVERTFACTORY				"Revert to Original";
+
+	IDS_MM_ASKREVERT					"Do you really want to revert|to the last saved version?|All changes will be lost!";
+	IDS_MM_ASKREVERTFACTORY				"Do you really want to revert|to FACTORY settings of all menus?|All changes will be lost!";
+
+	IDS_INIT_USER_INTERFACE				"Initializing User Interface...";
+	IDS_INIT_CINEMA4D					"Initializing the Software...";
+	IDS_INIT_LOAD_LAYOUT				"Loading Layout...";
+	IDS_INIT_LAYOUT						"Initializing Layout...";
+	IDS_INIT_COMMAND_RESOURCE			"Initializing Command Resource...";
+	IDS_INIT_SHORTCUTS					"Initializing Shortcut Resource...";
+	IDS_INIT_MENU_RESOURCE				"Initializing Menu Resource...";
+	IDS_INIT_ICON_RESOURCE				"Initializing Icon Resource...";
+	IDS_ASK_SAVE_MENUS					"Do you want to save changes to the menu structure?";
+	IDS_SYMBOL_NOT_FOUND				"Symbol '#' not found|File '#'|Line #";
+	IDS_DIALOG_RESOURCE_CORRUPTED		"Dialog Resource is corrupted (filename does not match dialog id)";
+	IDS_ERROR_READING_RESOURCE			"Error reading resource|file '#'|Line #";
+	IDS_COMMAND_STRINGS_MISSING			"Command Strings missing|#";
+
+	IDS_OBJECTDISPLAY "Object Display";
+	IDS_OBJECTSTATE "Object State";
+	IDS_LOD "Level of Detail";
+	IDS_VECTOR_VOLUME_DISPLAY "Volume Vector";
+
+	IDS_MEMLOW "Low";
+	IDS_MEMMEDIUM "Medium";
+	IDS_MEMHIGH "High";
+	IDS_TIMELOW "Low";
+	IDS_TIMEMEDIUM "Medium";
+	IDS_TIMEHIGH "High";
+
+	IDS_FILTER3D_D3D "Direct 3D";
+	IDS_FILTER3D_3DS "3D Studio R4";
+	IDS_FILTER3D_DXF "DXF";
+	IDS_FILTER3D_DEM "DEM";
+	IDS_FILTER3D_AI "Illustrator";
+	IDS_FILTER3D_LW "LightWave 3D";
+	IDS_FILTER3D_Q3D "QuickDraw 3D";
+	IDS_FILTER3D_VRML1 "VRML 1";
+	IDS_FILTER3D_VRML2 "VRML 2";
+	IDS_FILTER3D_OBJ "Wavefront";
+
+	IDS_VERTEXTAGHELP		"Vertex Map Tag";
+	IDS_RESTRICTIONTAGHELP	"Restriction Tag";
+	IDS_ARRAY_OBJECT "Array";
+
+	IDS_CM_GROUP_ED_OPTIONS				"Editor Functions";
+	IDS_MARKERFAIL                      "Please select an existing marker";
+
+	IDS_APPLTITLE						"Cinema 4D R#";
+	IDS_BPTITLE							"BodyPaint 3D#";
+	IDS_UPDATERTITLE				"Maxon Online Updater";
+	IDS_INSTALLERTITLE				"Maxon Installer";
+
+	IDS_FONT_SYSTEM						"System";
+
+	IDS_CANNOTRENDERQTVR	"QTVRs cannot be rendered 'As Editor'";
+
+	IDS_COMPILEPLUGIN	"Choose a Plugin (*.cof)";
+	IDS_RESTARTSETTINGS "Some changes (Language, Font, Viewport Hardware, System...) require to restart the application to take effect.";
+	IDS_LOAD_PLUGIN		"Loading Plugins #";
+	IDS_INIT_PLUGIN		"Initializing Plugins #";
+	IDS_CM_GROUP_PLUGINS	"Plugins";
+
+	IDS_MISSINGFILE "Could not find file|#";
+	IDS_MATERIAL_BITMAPS "Bitmaps";
+	IDS_MATERIAL_SHADER "Shader";
+	IDS_STICKHELP "Pin Material Tag";
+	IDS_PLUGINNOTFOUND "Plugin not found";
+	IDS_GUILOOK_STANDARD "Old Windows";
+
+	IDS_CREATENEWTEXTURE "Create New Texture...";
+	IDS_COPYCHANNEL "Copy Shader";
+	IDS_PASTECHANNEL "Paste Shader";
+  IDS_PLUGINOBJECT "Add # Object";
+
+	IDS_FILTER3D_XML  "XML - Cinema 4D";
+
+	ISD_NO_PATTERN "No Pattern";
+	IDS_LINE_POS "Line #, Pos. #";
+	IDS_TEXT_GOTOLINE "Go To Line";
+
+	IDS_TEXT_FIND "Find";
+	IDS_TEXT_NEXT "Next";
+	IDS_TEXT_PREVIOUS "Previous";
+	IDS_TEXT_IGNORECASE "Ignore Case";
+	IDS_TEXT_WRAPAROUND "Wrap Around";
+	IDS_TEXT_NOTHINGFOUND "Nothing found";
+
+	IDS_SELECTMATERIAL "Please select a material (no shader) first!";
+
+	IDS_REG_TITLE						"Registration";
+	IDS_REG_AMBERSN					"Cinema 4D";
+	IDS_REG_BODYPAINT				"BodyPaint 3D";
+	IDS_REG_NAME						"Name";
+	
+	IDS_SERIAL_EXPIRED			"Sorry, but your serial number for '#' has expired";
+	IDS_SERIAL_EXPIRE1			"Your serial number will expire in # days!|Please register your version of '#' right away!";
+	IDS_SERIAL_EXPIRE3			"Your serial number will expire in # days!|Please contact Maxon to extend your version of '#' right away!";
+	IDS_SERIAL_NETWORK			"There is already a version of # running using the same serial number on the following machines:||#||Would you like to get more information on how to resolve license conflicts?";
+	IDS_SERIAL_EXPIRE2			"(# functionality will be disabled!)";
+	IDS_SERIAL_ENTERDATA		"Please enter <Name>, <Street>, <City> and <Country>";
+	IDS_SERIAL_WRONG				"Wrong or incomplete serial number for '#'!";
+	IDS_SERIAL_MISSING			"No license found for '#'!";
+	IDS_SERIAL_CHANGE 			"New Functionality will be available after|a restart of the Application!";
+
+	IDS_EDITPARAMS					"Edit Shader...";
+	IDS_EDITIMAGE						"Edit Image...";
+	IDS_LOCATEIMAGE					"Locate Image...";
+	IDS_EDITTIMING					"Edit Timing...";
+
+  IDS_PICSEARCH						"Could not locate image in the search path";
+  IDS_PICNOAPP						"Could not launch application";
+
+	IDS_OUTWINDOW_CHANNELS		"Channels";
+	IDS_OUTWINDOW_COMPONENTS	"Components";
+
+	IDS_RENDERINGPREPASS			"Rendering Prepass...";
+
+
+	IDS_OUTWINDOW_LAYER            "Layer #";
+	IDS_OUTWINDOW_ALPHA            "Alpha #";
+	IDS_OUTWINDOW_IMAGE            "Image";
+	IDS_MULTIPASS_ONECHANNEL       "Please select at least one channel!";
+	IDS_MULTIPASS_ADDIMAGELAYER    "Add Image Layers";
+	IDS_MULTIPASS_ADDMATERIAL      "Add Material Layers";
+	IDS_MULTIPASS_ADDALL           "Add All";
+	IDS_MULTIPASS_REMOVESELECTED   "Remove Selected";
+	IDS_MULTIPASS_REMOVEALL        "Remove All";
+	IDS_POSTEFFECT_REMOVESELECTED  "Remove Selected";
+	IDS_POSTEFFECT_REMOVEALL       "Remove All";
+	IDS_MULTIPASS_BLEND            "Blend Channel";
+	IDS_MULTIPASS_OBJECT           "Object Buffer";
+	IDS_MULTIPASS_BLENDCH          "Blend: ";
+	IDS_MULTIPASS_OBJECTBUFFER     "Object Buffer: ";
+	IDS_RENDERSETTINGS_TITLE       "Render Settings";
+
+	IDS_RENDERERROR_GLOBALILLU     "Global Illumination";
+	IDS_RENDERERROR_CAUSTICS       "Caustics";
+
+	IDS_MULTIPASS_RGBA                      "RGBA Image";
+	IDS_MULTIPASS_DIFFUSE                   "Diffuse";
+	IDS_MULTIPASS_SPECUALR                  "Specular";
+	IDS_MULTIPASS_SHADOW                    "Shadow";
+	IDS_MULTIPASS_ATMOSPHERE                "Atmosphere";
+	IDS_MULTIPASS_ATMOSPHERE_MULTIPLY       "Atmosphere (Multiply)";
+	IDS_MULTIPASS_AMBIENT                   "Ambient";
+	IDS_MULTIPASS_CAUSTICS                  "Caustics";
+	IDS_MULTIPASS_RADIOSITY                 "Global Illumination";
+	IDS_MULTIPASS_REFLECTION                "Reflection";
+	IDS_MULTIPASS_TRANSPARENCY              "Refraction";
+	IDS_MULTIPASS_ILLUMINATION              "Illumination";
+	IDS_MULTIPASS_MATERIAL_COLOR            "Material Color";
+	IDS_MULTIPASS_MATERIAL_LUMINANCE        "Material Luminance";
+	IDS_MULTIPASS_MATERIAL_TRANSPARENCY     "Material Transparency";
+	IDS_MULTIPASS_MATERIAL_REFLECTION       "Material Reflection";
+	IDS_MULTIPASS_MATERIAL_ENVIRONMENT      "Material Environment";
+	IDS_MULTIPASS_MATERIAL_SPECULAR_COLOR   "Material Specular Color";
+	IDS_MULTIPASS_MATERIAL_DIFFUSION        "Material Diffusion";
+	IDS_MULTIPASS_MATERIAL_SPECULAR         "Material Specular";
+	IDS_MULTIPASS_OBJECTBUFFER_NAME         "Object Buffer";
+	IDS_MULTIPASS_BLEND_NAME                "Blend";
+	IDS_MULTIPASS_DEPTH                     "Depth";
+	IDS_MULTIPASS_UNKNOWN                   "Unknown";
+	IDS_MULTIPASS_LIGHT_NAME                "Light #";
+	IDS_MULTIPASS_BLEND_LAYER               "Blend #";
+	IDS_MULTIPASS_OBJECT_LAYER              "Object Buffer #";
+	IDS_MULTIPASS_SAMPLER										"Sampler";
+
+	IDS_MULTIPASS_AOV                       "AOV";
+	IDS_MULTIPASS_AOVBUFFER_NAME            "AOV";
+
+	IDS_PAINT_ALPHACHANNELNAME              "Alpha";
+
+	IDS_POSTEFFECT_DEPTH_OF_FIELD           "Depth of Field";
+	IDS_POSTEFFECT_LENS_EFFECTS             "Lens Effects";
+	IDS_POSTEFFECT_OBJECT_GLOW              "Object Glow";
+	IDS_POSTEFFECT_COLOR_CORRECTION         "Color Correction (OLD)";
+	IDS_POSTEFFECT_COMIC_RENDERER           "Cel Renderer";
+	IDS_POSTEFFECT_SCENE_MOTION_BLUR        "Sub-Frame Motion Blur";
+	IDS_POSTEFFECT_OBJECT_MOTION_BLUR       "Object Motion Blur";
+	IDS_POSTEFFECT_SOFT_FILTER              "Soft Filter";
+	IDS_POSTEFFECT_SHARPEN_FILTER           "Sharpen Filter";
+	IDS_POSTEFFECT_MEDIAN_FILTER            "Median Filter";
+	IDS_POSTEFFECT_REMOTE                   "Remote";
+	IDS_POSTEFFECT_XMB											"Physical";
+	IDS_POSTEFFECT_DEMO_WATERMARK           "Demo Watermark";
+
+	IDS_OUTWIN_ZOOM													"Zoom: #%";
+	IDS_OUTWIN_SIZE													"Size: #x#";
+
+	IDS_NAME_BACKGROUND											"Background";
+	IDS_NAME_LAYER													"Layer";
+	IDS_NAME_LAYERSET												"Layer Set";
+	IDS_NAME_ALPHA													"Alpha";
+	IDS_NAME_SELECTION											"Selection Mask";
+
+	IDS_TRIAL_VERSION												"TRIAL";
+
+	IDS_NFR_VERSION													"(Non-Commercial Version - Restricted License)";
+	IDS_NFR_VERSION2												"(Non-Commercial License for #)";
+	IDS_NFR_ORIGIN							 						"This file was created with a Non-Commercial License of Cinema 4D.|It cannot be used for commercial purposes.";
+
+	IDS_STUDENTVERSION											"(Educational License)";
+	IDS_STUDENTVERSION2											"(Educational License - Non-Commercial License for #)";
+
+	IDS_STUDENTVERSIONB											"(Student License)";
+	IDS_STUDENTVERSIONB2										"(Student License - Non-Commercial License for #)";
+
+	IDS_STUDENTORIGIN							 					"This file was created with an Educational License of Cinema 4D.|It cannot be used for commercial purposes.";
+
+	IDS_NETWORKCOLLISION										"(!!!Serial Number Collision!!!)";
+	IDS_AFXFILE1														"Could not save compositing project file!|QuickTime VR not supported";
+	IDS_AFXFILE2														"Could not save compositing project file!|Please choose and enable output path(s)";
+
+	IDS_MISSINGPLUGINS											"Several plugins used in this project are missing.|Saving may cause loss of plugin data!|#";
+	IDS_MISSINGPLUGINS1											"Plugin '#' (ID #)";
+	IDS_MISSINGPLUGINS2											"Unknown";
+	IDS_OVERWRITEOLDVERSION									"This project was originally saved with R#|Previous versions may no longer be able to load this project|Do you want to proceed?";
+	IDS_OVERWRITEOLDVERSION2								"This project was originally saved with R#|Previous versions will no longer be able to load this project|Do you want to proceed?";
+
+	IDS_ANCHORTAG														"Anchor";
+	IDS_PROTECTIONTAG												"Protection";
+	IDS_PHONGTAG														"Phong";
+	IDS_MOTIONBLURTAG												"Motion Blur";
+	IDS_STOPTAG															"Stop";
+	IDS_COMPOSITINGTAG											"Compositing";
+	IDS_DISPLAYTAG													"Display";
+	IDS_TEXTURETAG													"Material";
+	IDS_COFFEEEXPRESSIONTAG									"C.O.F.F.E.E.";
+	IDS_TARGETEXPRESSIONTAG									"Target";
+	IDS_FIXEXPRESSIONTAG										"Fix";
+	IDS_IKEXPRESSIONTAG											"IK";
+	IDS_SUNEXPRESSIONTAG										"Sun";
+	IDS_KINEMATICTAG												"Kinematic";
+	IDS_METABALLTAG													"Metaball";
+	IDS_POINTSELECTIONTAG										"Point Selection";
+	IDS_POLYSELECTIONTAG										"Polygon Selection";
+	IDS_EDGESELECTIONTAG										"Edge Selection";
+	IDS_RESTRICTIONTAG											"Restriction";
+	IDS_STICKTEXTURETAG											"Pin Material";
+	IDS_UVWTAG															"UVW";
+	IDS_BAKEPARTICLETAG											"Bake Particle";
+	IDS_VERTEXMAPTAG												"Vertex Map";
+	IDS_VERTEXCOLORTAG											"Vertex Color";
+
+	IDS_FCURVE_EDIT     "Edit";
+  IDS_FCURVE_VIEW     "View";
+	IDS_FCURVE_CURVES   "Curves";
+	IDS_FCURVE_TANGENTS "Custom Tangents";
+	IDS_FCURVE_FUNCTION "Function";
+
+	IDS_MAXONONLINE													"Maxon Online";
+	IDS_HTMLDOCS														"https://help.maxon.net";
+  IDS_HTMLSUPPORT													"https://support.maxon.net";
+	IDS_HTMLSUPPORTLITE											"https://support.maxon.net";
+	IDS_HTMLTUTORIALS												"https://www.cineversity.com";
+
+	IDS_TIMELINE_KEYFRAME "Keyframe";
+  IDS_SP2P	"Pose";
+	IDS_SELECTIONFILTER "Selection Filter";
+	IDS_DISPLAYFILTER "Filter";
+	IDS_DISPLAYFILTER_PRESETS "Presets";
+  IDS_SMOMIX	"MoMix";
+
+	IDS_DESC_ANIM														"Animation";
+	IDS_DESC_ADDKEYFRAME										"Add Keyframe";
+	IDS_DESC_DELETEKEYFRAME									"Delete Keyframe";
+	IDS_DESC_NEXTKEYFRAME										"Next Keyframe";
+	IDS_DESC_PREVKEYFRAME										"Previous Keyframe";
+	IDS_DESC_ADDTRACK												"Add Track";
+	IDS_DESC_DELTRACK												"Delete Track";
+	IDS_DESC_COPYTRACK											"Copy Track";
+	IDS_DESC_PASTETRACK											"Paste Track";
+	IDS_DESC_SHOWTRACK											"Show Track";
+	IDS_DESC_SHOWFCURVE											"Show F-Curve";
+	IDS_DESC_SETDRIVER											"Set Driver";
+	IDS_DESC_SETDRIVEN_REL									"Set Driven (Relative)";
+	IDS_DESC_SETDRIVEN_ABS									"Set Driven (Absolute)";
+	IDS_DESC_ADDKEYFRAMESELECTION						"Add Keyframe Selection";
+	IDS_DESC_REMOVEKEYFRAMESELECTION				"Remove Keyframe Selection";
+	IDS_DESC_CLEARKEYFRAMESELECTION					"Clear Keyframe Selection";
+	IDS_DESC_USERINTERFACE									"User Interface";
+	IDS_DESC_SHOWSUBCHANNELS								"Show Sub-channels";
+	IDS_DESC_COPY														"Copy";
+	IDS_DESC_PASTE													"Paste";
+	IDS_DESC_PASTEIDENTICAL									"Paste Identical";
+	IDS_DESC_RESETTODEFAULT									"Reset to Default";
+	IDS_DESC_RESETALL											"Reset All";
+	IDS_DESC_SELECTALL											"Select All";
+	IDS_DESC_DESELECTALL										"Deselect All";
+	IDS_DESC_EDITENTRY											"Edit Entry...";
+	IDS_DESC_REMOVEENTRY										"Remove Entry";
+	IDS_DESC_LOADDATA												"Load Data...";
+	IDS_DESC_SAVEDATA												"Save Data...";
+	IDS_DESC_SHOWHELP												"Show Help...";
+	IDS_DESC_NOELEMENTS											" (# Elements)";
+	IDS_DESC_NOELEMENTS2										"# Elements";
+	IDS_DESC_ADDTOHUD												"Add to HUD";
+	IDS_DESC_MAKEGLOBAL											"Make Parameter Global";
+	IDS_DESC_MAKELOCAL											"Make Parameter Local";
+	IDS_DESC_XPRESSIONS											"XPressions";
+	IDS_DESC_FLUSHREF											"Reset to Referenced";
+	IDS_DESC_ADDOVERRIDE										"Override";
+	IDS_DESC_REMOVEOVERRIDE									"Remove Override";
+
+	IDS_BASELIST_USERDATA										"User Data";
+
+	IDS_ROOTSTRING1		"Objects";
+	IDS_ROOTSTRING2		"Materials";
+	IDS_ROOTSTRING3 	"Project Hooks";
+	IDS_ROOTSTRING4		"Tracks";
+	IDS_ROOTSTRING5		"Sequences";
+	IDS_ROOTSTRING6		"Keys";
+	IDS_ROOTSTRING7		"Shaders";
+	IDS_ROOTSTRING8		"Render Settings";
+	IDS_ROOTSTRING9		"Tags";
+	IDS_ROOTSTRING10	"Post Effects";
+	IDS_ROOTSTRING11	"Layers";
+	IDS_ROOTSTRING12	"Motion";
+	IDS_ROOTSTRING13	"Multi-Pass";
+	IDS_ROOTSTRING14	"Take Overrides";
+  IDS_ROOTSTRING15	"Shader Repository";
+	IDS_SELECTTOOL		"Selector";
+	IDS_ACTIVEELEMENTS	"Active Objects";
+	IDS_CATEGORY1		"Null";
+	IDS_CATEGORY2		"Polygon";
+	IDS_CATEGORY3		"Spline";
+	IDS_CATEGORY4		"Generator";
+	IDS_CATEGORY5		"Subdivision Surface";
+	//DELME_IDS_CATEGORY6		"Bone";
+	IDS_CATEGORY7		"Deformer";
+	IDS_CATEGORY8		"Camera";
+	IDS_CATEGORY9		"Light";
+	IDS_CATEGORY10	"Environment";
+	IDS_CATEGORY11	"Particle";
+	IDS_CATEGORY12	"Other";
+	IDS_CATEGORY13	"Joint";
+	IDS_CREATESELECTIONOBJECT "Create Selection Object";
+	IDS_TIMETRACK	"Time";
+	IDS_TRACK		"Track";
+	IDS_DRIVEROBJECT	"Expression";
+	IDS_SOUNDSTEREO	"Stereo";
+	IDS_SOUNDMONO		"Mono";
+	IDS_ANIMATINGPARTICLES	"Animating Project...";
+	IDS_FCURVEADDFOLDER	"Add Folder";
+	IDS_FCURVEREMOVE	"Remove";
+	IDS_FCURVEFOLDER	"Folder";
+	IDS_FCURVE				"F-Curve";
+	IDS_TRACKENABLE		"Enable";
+	IDS_TRACKDISABLE	"Disable";
+	IDS_EDITSHADER		"Edit Shader";
+	IDS_TEXGROUP_IMAGE		"Image...";
+	IDS_TEXGROUP_SAMPLING	"Sampling";
+	IDS_TEXGROUP_SAMPLING_NONE		"None";
+	IDS_TEXGROUP_SAMPLING_CIRCLE	"Circle";
+	IDS_TEXGROUP_SAMPLING_SQUARE	"Square";
+	IDS_TEXGROUP_SAMPLING_ALIAS		"Alias";
+	IDS_TEXGROUP_SAMPLING_MIP			"MIP";
+	IDS_TEXGROUP_SAMPLING_SAT			"SAT";
+	IDS_TEXGROUP_OFFSET		"Offset";
+	IDS_TEXGROUP_SCALE		"Scale";
+	IDS_TEXGROUP_EDIT			"Edit...";
+	IDS_EDITSPLINEPARAMETER "Edit Spline Parameter";
+
+	IDS_DATATYPE_STRING	"String";
+	IDS_DATATYPE_MULTISTRING "Multi-Line String";
+	IDS_DATATYPE_STATICTEXT "Static Text";
+	IDS_DATATYPE_INTEGER	"Integer";
+	IDS_DATATYPE_INTEGERSLIDER	"Integer Slider";
+	IDS_DATATYPE_INTEGER_CYCLE "Cycle";
+	IDS_DATATYPE_INTEGER_CYCLEBUTTON "Cycle Button";
+	IDS_CUSTOMGUI_PROGRESS "Progress Bar";
+	IDS_DATATYPE_BOOL	"Boolean";
+	IDS_DATATYPE_FLOAT	"Float";
+	IDS_DATATYPE_FLOATSLIDER	"Float Slider";
+	IDS_DATATYPE_FLOATSLIDERONLY	"Float Slider (No Editfield)";
+	IDS_DATATYPE_VECTOR	"Vector";
+	IDS_DATATYPE_ACOLOR "Color with Alpha";
+	IDS_DATATYPE_VECTOR4D "Vector 4D";
+	IDS_DATATYPE_MATRIX	"Matrix";
+	IDS_DATATYPE_COLOR "Color";
+	IDS_DATATYPE_LINK "Link";
+	IDS_DATATYPE_FILENAME "Filename";
+	IDS_DATATYPE_BASETIME	"Time";
+	IDS_DATATYPE_TEXTURE "Texture";
+	IDS_DATATYPE_LENSGLOW "Lens Glow";
+	IDS_DATATYPE_TEXGROUP	"Texture Group";
+	IDS_DATATYPE_TEXNAME "Texture Name";
+	IDS_DATATYPE_OBJDESC "Object Description";
+	IDS_DATATYPE_DESCID "Description ID";
+	IDS_TRACKUNKNOWN	"Unknown";
+	IDS_PREFS_INTERFACE	"Interface";
+	IDS_PREFS_THEMECOLORS												"Interface Colors";
+	IDS_PREFS_THEMECOLORS_RESET_SELECTED				"Reset Selected Color";
+	IDS_PREFS_THEMECOLORS_RESET_ALL							"Reset All Colors";
+	IDS_PREFS_THEMECOLORS_UNDO_RESET_SELECTED		"Undo Reset Selected";
+	IDS_PREFS_THEMECOLORS_UNDO_RESET_ALL				"Undo Reset All";
+	IDS_PREFS_COLOR "Theme";
+	IDS_AM_MODE_TIMELINE "Timeline";
+	IDS_AM_MODE_FCURVE   "F-Curve";
+
+	IDS_COLOR_BG														"General - Background";
+	IDS_COLOR_BGEDIT												"General - Background - Editfields";
+	IDS_COLOR_BGFOCUS												"General - Background - Focus";
+	IDS_COLOR_TEXT													"General - Text";
+	IDS_COLOR_TEXTFOCUS											"General - Text - Focus";
+	IDS_COLOR_EDGELT												"General - Edge - 1";
+	IDS_COLOR_EDGEWH												"General - Edge - 2";
+	IDS_COLOR_EDGEDK												"General - Edge - 3";
+	IDS_COLOR_EDGEBL												"General - Edge - 4";
+	IDS_COLOR_EMBOSS_WH											"General - Edge - Embossed 1";
+	IDS_COLOR_EMBOSS_DK											"General - Edge - Embossed 2";
+	IDS_COLOR_DBARFG1												"Titlebar - Active - Foreground";
+	IDS_COLOR_DBARBG1												"Titlebar - Active - Background";
+	IDS_COLOR_DBARBG3												"Titlebar - Focus - Background";
+	IDS_COLOR_TITLEBAR_FOCUS_GRASP_ICON			"Titlebar - Focus - Grasp Icon";
+	IDS_COLOR_DBARFG2												"Titlebar - Inactive - Foreground";
+	IDS_COLOR_DBARBG2												"Titlebar - Inactive - Background";
+	IDS_COLOR_BGGADGET											"General - Background - Gadget";
+	IDS_COLOR_BG_GROUP1											"General - Background - Groups 1";
+	IDS_COLOR_BG_GROUP2											"General - Background - Groups 2";
+	IDS_COLOR_BG_GROUPBAR1									"General - Background - Groups Bar 1";
+	IDS_COLOR_BG_GROUPBAR2									"General - Background - Groups Bar 2";
+	IDS_COLOR_BGSELECTEDTEXT								"General - Selected Text - Background";
+	IDS_COLOR_FGSELECTEDTEXT								"General - Selected Text - Foreground";
+	IDS_COLOR_BGTRISTATE										"General - Gadget Background - Tristate";
+	IDS_COLOR_BG_DARK1											"General - Background - Dark 1";
+	IDS_COLOR_BG_DARK2											"General - Background - Dark 2";
+	IDS_COLOR_BG_HIGHLIGHT									"General - Background - Highlight";
+	IDS_COLOR_BG_TAB_BAR										"General - Background - Tab Bar";
+	IDS_COLOR_TIMELINE_BG										"Timeline - Background";
+	IDS_COLOR_TIMELINE_BG_DARK							"Timeline - Background - Out of Range";
+	IDS_COLOR_TIMELINE_TEXT									"Timeline - Text";
+	IDS_COLOR_TIMELINE_TEXT_SELECTED				"Timeline - Text - Selected";
+	IDS_COLOR_TIMELINE_TEXT_SELECTED2				"Timeline - Text - Selected Child";
+	IDS_COLOR_TIMELINE_LINES								"Timeline - Lines";
+	IDS_COLOR_TIMELINE_LINES_SEL						"Timeline - Lines - Selected";
+	IDS_COLOR_TIMELINE_LINES_SEPARATOR1			"Timeline - Lines - Separator (Tracks)";
+	IDS_COLOR_TIMELINE_LINES_SEPARATOR2			"Timeline - Lines - Separator (Objects)";
+	IDS_COLOR_TIMELINE_TREE									"Timeline - Lines - Tree";
+	IDS_COLOR_TIMELINE_LOOP									"Timeline - Loop";
+	IDS_COLOR_TIMELINE_SELECTION						"Timeline - Selection";
+	IDS_COLOR_TIMELINE_TICKS1								"Timeline - Ticks 1";
+	IDS_COLOR_TIMELINE_TICKS2								"Timeline - Ticks 2";
+	IDS_COLOR_TIMELINE											"Timeline - Slider";
+	IDS_COLOR_TIMELINESCROLLER_MINMAX				"Timeline - Slider - Text - Min/Max";
+	IDS_COLOR_TIMELINESCROLLER_CURRENT			"Timeline - Slider - Text - Current";
+	IDS_COLOR_BROWSER_LINES_SELECTED				"Browser - Lines - Selected";
+	IDS_COLOR_FCURVE_BG											"F-Curve - Background";
+	IDS_COLOR_FCURVE_TEXT										"F-Curve - Text";
+	IDS_COLOR_FCURVE_LINES									"F-Curve - Lines";
+	IDS_COLOR_FCURVE_MAINGRID								"F-Curve - Main Grid";
+	IDS_COLOR_FCURVE_SUBGRID								"F-Curve - Subgrid";
+	IDS_COLOR_FCURVE_LLTGRAY								"F-Curve - Gray 1";
+	IDS_COLOR_FCURVE_GRAY1									"F-Curve - Gray 2";
+	IDS_COLOR_FCURVE_GRAY2									"F-Curve - Gray 3";
+	IDS_COLOR_FCURVE_GRAY3									"F-Curve - Gray 4";
+	IDS_COLOR_FCURVE_POINTSELECTED					"F-Curve - Selected Key";
+	IDS_COLOR_MATERIALMANAGER_BG						"Material Manager - Background";
+	IDS_COLOR_MATERIALMANAGER_TEXT					"Material Manager - Text";
+	IDS_COLOR_MATERIALMANAGER_TEXT_SELECTED	"Material Manager - Text - Selected";
+	IDS_COLOR_MATERIALMANAGER_SELECTED			"Material Manager - Highlight when Selected in OM";
+	IDS_COLOR_MATERIALMANAGER_SELECTED_MAT	"Material Manager - Selected Material";
+	IDS_COLOR_BG_MM_ACTIVE_BITMAP						"Material Manager - Background - Selected Bitmap";
+	IDS_COLOR_FG_MM_ACTIVE_BITMAP						"Material Manager - Text - Selected Bitmap";
+	IDS_COLOR_BG_MM_CURRENT_BITMAP					"Material Manager - Background - Active Bitmap";
+	IDS_COLOR_FG_MM_CURRENT_BITMAP					"Material Manager - Text - Active Bitmap";
+	IDS_COLOR_OBJECTMANAGER_BG							"Object Manager - Background";
+	IDS_COLOR_OBJECTMANAGER_ACTIVECAMERA		"Object Manager - Active Camera";
+	IDS_COLOR_OBJECTMANAGER_INACTIVECAMERA	"Object Manager - Inactive Camera";
+	IDS_COLOR_OBJECTMANAGER_TEXT						"Object Manager - Text";
+	IDS_COLOR_OBJECTMANAGER_TEXT_ACTIVE			"Object Manager - Active Object";
+	IDS_COLOR_OBJECTMANAGER_TEXT_ACTIVE2		"Object Manager - Active Child";
+	IDS_COLOR_OBJECTMANAGER_TEXT_ACTIVE3		"Object Manager - Active Parent";
+	IDS_COLOR_OBJECTMANAGER_SELECTEDTAG			"Object Manager - Selected Tag";
+	IDS_COLOR_OBJECTMANAGER_TREE						"Object Manager - Treeview";
+	IDS_COLOR_SPREADSHEET_BG								"Structure Manager - Background";
+	IDS_COLOR_SPREADSHEET_TEXT							"Structure Manager - Text";
+	IDS_COLOR_SPREADSHEET_EDITBG						"Structure Manager - Background - Edit Mode";
+	IDS_COLOR_SPREADSHEET_EDITTEXT					"Structure Manager - Text - Edit Mode";
+	IDS_COLOR_SPREADSHEET_SELECTED					"Structure Manager - Selected";
+	IDS_COLOR_BG_MM_E_ACTIVE_TEXTURE				"Material Manager - Background - Active Texture";
+	IDS_COLOR_FG_MM_E_ACTIVE_TEXTURE				"Material Manager - Text - Active Texture";
+	IDS_COLOR_BG_MM_E_INACTIVE_TEXTURE			"Material Manager - Background - Inactive Texture";
+	IDS_COLOR_FG_MM_E_INACTIVE_TEXTURE			"Material Manager - Text - Inactive Texture";
+	IDS_COLOR_BG_MM_E_SELECTED_LAYER				"Material Manager - Background - Selected Layer";
+	IDS_COLOR_FG_MM_E_SELECTED_LAYER				"Material Manager - Text - Selected Layer";
+	IDS_COLOR_BG_MM_E_ACTIVE_LAYER					"Material Manager - Background - Active Layer";
+	IDS_COLOR_FG_MM_E_ACTIVE_LAYER					"Material Manager - Text - Active Layer";
+	IDS_COLOR_BG_MM_E_INACTIVE_LAYER				"Material Manager - Background - Inactive Layer";
+	IDS_COLOR_FG_MM_E_INACTIVE_LAYER				"Material Manager - Text - Inactive Layer";
+	IDS_COLOR_BG_TEXTUREVIEW								"Texture View - Background Color";
+
+	IDS_COLOR_CONSOLE_BG										"Console - Background";
+	IDS_COLOR_CONSOLE_TEXT									"Console - Text";
+	IDS_COLOR_PAINTER_SELECTED							"BodyPaint 3D - Selected";
+	IDS_COLOR_PAINTER_TREE									"BodyPaint 3D - Treeview";
+	IDS_COLOR_SYNTAX_COFFEE									"Script - Keyword";
+	IDS_COLOR_SYNTAX_INCLUDE								"Script - Include";
+	IDS_COLOR_SYNTAX_COMMENT								"Script - Comment";
+	IDS_COLOR_SYNTAX_COMMENTWRONG						"Script - Wrong Comment";
+	IDS_COLOR_SYNTAX_STRING									"Script - String";
+	IDS_COLOR_SYNTAX_CONSTANT								"Script - Symbol";
+	IDS_COLOR_SYNTAX_FUNCTION								"Script - Function";
+	IDS_COLOR_SYNTAX_CLASS									"Script - Class";
+	IDS_COLOR_SYNTAX_MEMBER									"Script - Member / Method";
+
+	IDS_COLOR_TEXT_SELECTED									"General - Text - Selected";
+	IDS_COLOR_TEXT_SELECTED_DARK						"General - Text - Selected Dark";
+	IDS_COLOR_TEXT_DISABLED									"General - Text - Disabled";
+	IDS_COLOR_TEXT_EDIT											"General - Text - Edit Text";
+	IDS_COLOR_TEXT_EDIT_DISABLED						"General - Text - Edit Text Disabled";
+	IDS_COLOR_TEXT_EDIT_HELP								"General - Text - Edit Text Help String";
+
+	IDS_COLOR_TEXT_MENU											"General - Text - Menu";
+	IDS_COLOR_TEXT_MENU_DISABLED						"General - Text - Menu Disabled";
+	IDS_COLOR_TEXT_TAB											"General - Text - Tab";
+	IDS_COLOR_TEXT_TAB_ACTIVE								"General - Text - Tab Active";
+	IDS_COLOR_TEXT_TAB_DISABLED							"General - Text - Tab Disabled";
+	IDS_COLOR_TEXT_BUTTON										"General - Text - Button";
+	IDS_COLOR_TEXT_BUTTON_DISABLED					"General - Text - Button Disabled";
+	IDS_COLOR_TEXT_COMBO										"General - Text - Combobox";
+	IDS_COLOR_TEXT_COMBO_DISABLED						"General - Text - Combobox Disabled";
+	IDS_COL_3D															"Disabled Text (3D Effect)";
+
+	IDS_COLOR_MENU_BG												"Menu - Background";
+	IDS_COLOR_MENU_BG_SELECTED							"Menu - Background - Selected";
+	IDS_COLOR_MENU_BG_HIGHLIGHT							"Menu - Background - Highlight";
+	IDS_COLOR_MENU_BG_BORDER								"Menu - Border";
+	IDS_COLOR_MENU_TEXT											"Menu - Text";
+	IDS_COLOR_MENU_TEXT_SELECTED						"Menu - Text - Selected";
+	IDS_COLOR_MENU_TEXT_DISABLED						"Menu - Text - Disabled";
+	IDS_COLOR_MENU_TEXT_HIGHLIGHT						"Menu - Text - Highlight";
+	IDS_COLOR_MENU_BORDER_WH								"Menu - Selection Border - Light Edge";
+	IDS_COLOR_MENU_BORDER_DK								"Menu - Selection Border - Dark Edge";
+
+	IDS_COLOR_TIMELINE_LAYER0								"Timeline - Layer 0";
+	IDS_COLOR_TIMELINE_LAYER1								"Timeline - Layer 1";
+	IDS_COLOR_TIMELINE_LAYER2								"Timeline - Layer 2";
+	IDS_COLOR_TIMELINE_LAYER3								"Timeline - Layer 3";
+	IDS_COLOR_TIMELINE_LAYER4								"Timeline - Layer 4";
+	IDS_COLOR_TIMELINE_LAYER5								"Timeline - Layer 5";
+	IDS_COLOR_TIMELINE_LAYER6								"Timeline - Layer 6";
+	IDS_COLOR_TIMELINE_LAYER7								"Timeline - Layer 7";
+
+	IDS_COLOR_QUICKTAB_BORDER								"QuickTab - Border";
+	IDS_COLOR_QUICKTAB_BG_INACTIVE					"QuickTab - Background - Inactive";
+	IDS_COLOR_QUICKTAB_BG_ACTIVE						"QuickTab - Background - Active";
+	IDS_COLOR_QUICKTAB_BG_ACTIVE_ALTERNATE1 "QuickTab - Background - Active (Alternative Color)";
+	IDS_COLOR_QUICKTAB_TEXT_INACTIVE				"QuickTab - Text - Inactive";
+	IDS_COLOR_QUICKTAB_TEXT_ACTIVE					"QuickTab - Text - Active";
+	IDS_COLOR_QUICKBAR_TEXT									"QuickBar - Text";
+	IDS_COLOR_QUICKBAR_BG										"QuickBar - Background";
+	IDS_COLOR_QUICKBAR_TEXT2								"QuickBar - Text (Subgroups)";
+	IDS_COLOR_QUICKBAR_BG2									"QuickBar - Background (Subgroups)";
+	IDS_COLOR_QUICKTAB_COLUMN_SEPARATOR		 	"QuickBar - Separator";
+
+	IDS_COLOR_TITLE_TEXT										"Title - Text";
+	IDS_COLOR_TITLE_BACKGROUND							"Title - Background";
+
+	IDS_COLOR_KEYFRAMEDOT_BG_UP							"Attributes - Keyframe Dot - Up";
+	IDS_COLOR_KEYFRAMEDOT_BG_HOVER					"Attributes - Keyframe Dot - Hover";
+	IDS_COLOR_KEYFRAMEDOT_BG_DOWN						"Attributes - Keyframe Dot - Down";
+	IDS_COLOR_KEYFRAMEDOT_BG_EDGE						"Attributes - Keyframe Dot - Border";
+
+	IDS_COLOR_XPRESSO_BACKGROUND									"XPresso Editor - Background";
+	IDS_COLOR_XPRESSO_GRID												"XPresso Editor - Grid";
+	IDS_COLOR_XPRESSO_BORDER_NORMAL								"XPresso Editor - Border - Normal";
+	IDS_COLOR_XPRESSO_BORDER_SELECTED							"XPresso Editor - Border - Selected";
+	IDS_COLOR_XPRESSO_BORDER_DISABLED							"XPresso Editor - Border - Disabled";
+	IDS_COLOR_XPRESSO_BORDER_SELECTED_DISABLED		"XPresso Editor - Border - Selected and Disabled";
+
+	IDS_COLOR_BUBBLE_BG											"Bubble Help - Background";
+	IDS_COLOR_BUBBLE_FG											"Bubble Help - Text";
+	IDS_COLOR_BUBBLE_BORDER									"Bubble Help - Border";
+
+	IDS_COLOR_TEXTLINEEDIT									"General - Text - Flag Edited";
+	IDS_COLOR_TEXTLINECOMPILED							"General - Text - Flag Edit Compiled";
+	IDS_COLOR_TEXTLINESAVED									"General - Text - Flag Edit Saved";
+
+	IDS_COLOR_TEXT_HIGHLIGHT_1_UNUSED								"General - Text - Highlight untouched";
+	IDS_COLOR_TEXT_HIGHLIGHT_1_UNUSED_HIGHLIGHT			"General - Text - Highlight untouched - Highlight";
+	IDS_COLOR_TEXT_HIGHLIGHT_1_DISABLED							"General - Text - Highlight disabled";
+	IDS_COLOR_TEXT_HIGHLIGHT_1_USED									"General - Text - Highlight used";
+	IDS_COLOR_TEXT_HIGHLIGHT_1_USED_HIGHLIGHT				"General - Text - Highlight used - Highlight";
+
+	IDS_COLOR_SLIDER_BAR_NORMAL											"Slider Bar";
+	IDS_COLOR_SLIDER_BAR_FOCUS											"Slider Bar - Focus";
+	IDS_COLOR_SLIDER_BAR_DISABLED										"Slider Bar - Disabled";
+
+	IDS_COLOR_CLOCK_HOUR_HAND												"Clock - Hour Hand";
+	IDS_COLOR_LIST_HEADER_SORT_ARROW								"List Header - Sort Arrow";
+
+	IDS_COLOR_DOTTED_LINE										 				"General - Dotted Line";
+	IDS_COLOR_DOTTED_LINE_DISABLED									"General - Dotted Line - Disabled";
+
+	IDS_NEWFEATURE_RESET_WARNING										"Reset Highlights action can't be undone.";
+	IDS_NEWFEATURE_LOAD_TUTORIAL										"Load Custom File...";
+	IDS_NEWFEATURE_LOAD_TUTORIAL2										"Choose a Custom Highlight File";
+
+	IDS_RESTRICTEDITORSELECTION							"Restrict Editor Selection";
+
+	GV_DATA_TYPE_UNDEFINED_STRING						"Undefined";
+	GV_VALUE_TYPE_UNDEFINED_STRING					"Undefined";
+	IDS_PREFS_COMMON												"Common";
+
+	IDS_CATEGORYALL													"All";
+	IDS_CATEGORYNONE												"None";
+	IDS_DISPLAYFILTER_DEFAULT								"Default";
+	IDS_DISPLAYFILTER_GEOMETRY_ONLY					"Geometry Only";
+
+	IDS_PATTERNINSCHEME											"Patterns must be placed inside the scheme folder!";
+	IDS_SCHEMEERROR1												"Cannot load scheme normal image";
+	IDS_SCHEMEERROR2												"Cannot load scheme disabled image";
+	IDS_SCHEMEERROR3												"Cannot load scheme focus image";
+
+  IDS_TIMELINE_FILTER "Filter";
+	IDS_PARAMTRACK "Parameter";
+	IDS_POPUPSELECT "Select '#'";
+	IDS_TLNAME_TAG "Tag: #";
+	IDS_TLNAME_MATERIAL "Material: #";
+	IDS_TLNAME_SHADER "Shader: #";
+	IDS_TLNAME_VIDEOPOST "Post Effect: #";
+
+	IDS_RESTRICTKEYFRAMERECORDING						"Restrict Keyframe Recording";
+  IDS_NORMALTAG														"Normal";
+	IDS_MULTIPASS_POSTEFFECTS								"Post Effects";
+
+	IDS_MATERIAL_CHANNELS										"Material Channels";
+
+	IDS_SHADER_COLOR	"Color";
+	IDS_SHADER_BITMAP	"Bitmap";
+	IDS_SHADER_XMB_SUBSURFACE "Subsurface Scattering";
+	IDS_SHADER_XMB_REFLECTION "Reflectance";
+	IDS_SHADER_XMB_ENVIORMENT "Environment Map";
+
+	IDS_POPUPCLEAR			"Clear";
+	IDS_POPUPLOADIMAGE  "Load Image...";
+	IDS_NOBITMAP				"(No Bitmap)";
+	IDS_POPUPEDIT				"Edit";
+
+	IDS_STR_MATERIALGROUP "Group";
+	IDS_STR_BITMAPINFO "Bitmap Info";
+	IDS_STR_DISABLEMATERIALS "The selected texture is used in more than one enabled material!||The following materials will be disabled:|#";
+
+	IDS_TLTIMETRACK				"Time";
+	IDS_GROUPWINDOW				"Group Window";
+	IDS_PAPPLY						"Applying Projection";
+
+	IDS_TVIEW_CANVAS			"Canvas";
+
+	IDS_TVIEW_UVTAGS			"UV Tags";
+	IDS_TVIEW_TTAGS				"Material Tags";
+	IDS_TVIEW_OBJECTS			"Objects";
+
+	IDS_BRUSH_GENERIC			"Generic";
+	IDS_BRUSH_BITMAP			"Bitmap";
+	IDS_BRUSH_ADDPRESET		"Save Brush";
+	IDS_BRUSH_STORECOLOR	"Store Color";
+
+	IDS_CSC_CHANNELS			"Channels";
+	IDS_CSC_BLENDING			"Blending";
+	IDS_CSC_COLOR					"Color";
+	IDS_CSC_WALLPAPER			"Wallpaper";
+	IDS_STARTUPLAYOUT			"Startup";
+	IDS_WORKINGPATH 			"Working Path";
+	IDS_MMAN_ALL					"All";
+	IDS_MMAN_UNASSIGNED		"No Layer";
+	IDS_MMAN_OTHER				"Other";
+
+	IDS_PWIZ_WARNING "Warning: # is already being processed (multiple use)";
+	IDS_PWIZ_SCALE "Scaling Texture:";
+	IDS_PWIZ_CACHE "Caching Textures from texture paths...";
+	IDS_PWIZ_CREATE "Creating Texture:";
+	IDS_PWIZ_REMOVE "Removing Texture:";
+	IDS_PWIZ_MAT "Creating Material:";
+	IDS_PWIZ_AUTO "Calculating automatic map size...";
+	IDS_PWIZ_LOCKED "Warning: UV tag of object '#' is locked";
+	IDS_PWIZ_UVS	"Create UVs <<#>>:";
+	IDS_PWIZ_UVS2	"Create UVs <<No Material>>:";
+	IDS_PWIZ_START "Setup Wizard Start";
+	IDS_PWIZ_END "Setup Wizard End";
+	IDS_PWIZ_OMODE "Object Mode";
+	IDS_PWIZ_MMODE "Material Mode";
+
+  IDS_CAMERAMAP "No material with image in color/luminance channel assigned!";
+
+	IDS_LAYERSET_EDIT   "Select...";
+	IDS_LAYERSET_CLEAR  "Clear";
+	IDS_LAYERSET_NO_MULTI_IMAGE "No multi image file.";
+	IDS_LAYERSET_IMAGE_NAME "Image: @";
+	IDS_LAYERSET_LAYER_NAME "Layer: @";
+
+	IDS_DATATYPE_SHADER	"Shader";
+
+	IDS_DEFAULTFILENAME_SURFACES "Surfaces";
+	IDS_DEFAULTFILENAME_EFFECTS  "Effects";
+	IDS_DEFAULTFILENAME_VOLUME   "Shader";
+
+	IDS_PREPDISPLACEMENT "Preparing Displacement...";
+
+	IDS_VIEWSETTINGS "View Settings";
+	IDS_CAMERASETTINGS "Camera";
+
+	IDS_PROJECTION_PERSPECTIVE		"Perspective";
+	IDS_PROJECTION_PARALLEL			"Parallel";
+	IDS_PROJECTION_LEFT				"Left";
+	IDS_PROJECTION_RIGHT			"Right";
+	IDS_PROJECTION_FRONT			"Front";
+	IDS_PROJECTION_BACK				"Back";
+	IDS_PROJECTION_TOP				"Top";
+	IDS_PROJECTION_BOTTOM			"Bottom";
+	IDS_PROJECTION_MILITARY			"Military";
+	IDS_PROJECTION_FROG				"Frog";
+	IDS_PROJECTION_BIRD				"Bird";
+	IDS_PROJECTION_GENTLEMAN		"Gentleman";
+	IDS_PROJECTION_ISOMETRIC		"Isometric";
+	IDS_PROJECTION_DIMETRIC			"Dimetric";
+	IDS_TAGMENU	"# Tags";
+	IDS_TAGMENU_SCRIPTING	"Scripting";
+	IDS_TAGMENU_MOTIONCAM "Motion Camera";
+
+	IDS_HLP_MAGNIFY "Magnify: Click and rectangle-select region to magnify. Single click to zoom in. Hold down CTRL to zoom out.";
+	IDS_HLP_SPLINEFREEHAND "Freehand: Click and draw freehand spline.";
+	IDS_HLP_SPLINECREATEOUTLINE "Create Outline: Click and drag to control thickness of outline.";
+	IDS_HLP_SPLINECHAMFER "Chamfer: Click and drag to control chamfer radius.";
+	IDS_HLP_SPLINECROSSSECTION "Cross Section: Click and draw intersection line.";
+	IDS_HLP_SPLINEBEZIER "Bezier Spline: Click to create new points. Drag to control tangent handles. Click on spline to insert point. Click on first point to close spline.";
+	IDS_HLP_SPLINEBSPLINE "B-Spline: Click to create new points. Click on spline to insert point. Click on first point to close spline.";
+	IDS_HLP_SPLINECUBIC "Cubic Spline: Click to create new points. Click on spline to insert point. Click on first point to close spline.";
+	IDS_HLP_SPLINEAKIMA "Akima Spline: Click to create new points. Click on spline to insert point. Click on first point to close spline.";
+	IDS_HLP_SPLINELINEAR "Linear Spline: Click to create new points. Click on spline to insert point. Click on first point to close spline.";
+	IDS_HLP_MIRROR "Mirror: Click and drag to set mirror line.";
+
+	IDS_SAVEALL "Do you really want to save all projects?";
+	IDS_AM_TOOLMODE "Tool";
+
+	IDS_SOFTWARE_MODE "SHIFT+CTRL: Using minimal viewport settings";
+
+	IDS_NETSERVERTITLE	"Team Render Server R#";
+	IDS_NETCLIENTTITLE	"Team Render Client R#";
+
+	IDS_SELECT_FONT "Select a Font";
+
+	IDS_8BPC		"8 Bit/Channel";
+	IDS_16BPC		"16 Bit/Channel";
+	IDS_32BPC		"32 Bit/Channel";
+
+	IDS_MULTIPASS_MATERIAL_AMBIENTOCCLUSION "Ambient Occlusion";
+
+	IDS_RETRY		"Retry";
+	IDS_ABORT		"Abort";
+	IDS_IGNORE	"Ignore";
+	IDS_YES_R		"Yes";
+	IDS_NO_R		"No";
+
+	IDS_COLOR_CTIMELINE_GRID "Timeline - Grid";
+	IDS_COLOR_CTIMELINE_GRIDMAIN "Timeline - Main Grid";
+	IDS_COLOR_CTIMELINE_GRIDMEDIUM "Timeline - Medium Grid";
+	IDS_COLOR_CTIMELINE_GRIDTEXT "Timeline - Main Time Grid";
+	IDS_COLOR_CTIMELINE_GRIDTEXTSUB "Timeline - Time Grid";
+	IDS_COLOR_CTIMELINE_POSITION "Timeline - Position";
+	IDS_COLOR_CTIMELINE_ROTATION "Timeline - Rotation";
+	IDS_COLOR_CTIMELINE_SCALE "Timeline - Scale";
+	IDS_COLOR_CTIMELINE_GENERAL "Timeline - General";
+	IDS_COLOR_CTIMELINE_CURRENTFRAME "Timeline - Current Frame";
+	IDS_COLOR_CTIMELINE_SELECTION2 "Timeline - Selection 2";
+	IDS_COLOR_CTIMELINE_SELECTION "Timeline - Selection";
+	IDS_COLOR_CTIMELINE_HIGHLIGHT "Timeline - Highlight";
+	IDS_COLOR_CTIMELINE_REGIONAREA "Timeline - Region Area";
+	IDS_COLOR_CTIMELINE_MARKER "Timeline - Marker";
+	IDS_COLOR_CTIMELINE_BGOUTSIDE "Timeline - BG Outside";
+	IDS_COLOR_CTIMELINE_BG "Timeline - BG";
+	IDS_COLOR_CTIMELINE_BGPREVIEW "Timeline - BG Preview";
+	IDS_COLOR_CTIMELINE_GREY "Timeline - Key";
+	IDS_COLOR_CTIMELINE_MASTERGREY "Timeline - Master Key";
+	IDS_COLOR_CTIMELINE_TEXTCOLOR "Timeline - Text Color";
+	IDS_COLOR_CTIMELINE_BGTEXTCOLOR "Timeline - Background Text Color";
+	IDS_COLOR_CTIMELINE_CURSORINDICATOR "Timeline - Cursor Indicator";
+	IDS_COLOR_CTIMELINE_BREAKDOWN "Timeline - Breakdown";
+	IDS_COLOR_CTIMELINE_HLECURVE "Timeline - RM Curve";
+
+	IDS_COLOR_CTIMELINE_FCHIGHLIGHT	"Timeline - F-Curve Highlight";
+	IDS_COLOR_CTIMELINE_FCKEY "Timeline - F-Curve Keys";
+	IDS_COLOR_CTIMELINE_FCSELECTION	"Timeline - F-Curve Selection";
+
+	IDS_COLOR_CTIMELINE_SNAPSHOT "Timeline - F-Curve Snapshot";
+
+	IDS_COLOR_CTIMELINE_TANGENT	"Timeline - Tangent";
+	IDS_COLOR_CTIMELINE_TANGENT2	"Timeline - Tangent2";
+	IDS_COLOR_CTIMELINE_SEQUENCE	"Timeline - Sequence";
+	IDS_COLOR_CTIMELINE_KEYSYMBOLS	"Timeline - Key Symbols";
+
+	IDS_COLOR_CTIMELINE_CLIPTEXT	"Timeline - Clip Text";
+	IDS_COLOR_CTIMELINE_CLIP		"Timeline - Clip";
+	IDS_COLOR_CTIMELINE_CLIPMASTER	"Timeline - Master Clip";
+	IDS_COLOR_CTIMELINE_ANIM		"Timeline - Animated Values";
+	IDS_COLOR_CTIMELINE_CLIPTEXTHL	"Timeline - Clip Highlight Color";
+	IDS_COLOR_CTIMELINE_CLIPCURVE "Timeline - Clip Curve";
+	IDS_COLOR_TRACK_X				"Timeline - Track X Color";
+	IDS_COLOR_TRACK_Y				"Timeline - Track Y Color";
+	IDS_COLOR_TRACK_Z				"Timeline - Track Z Color";
+	IDS_COLOR_TRACK_S				"Timeline - Track Color";
+
+	IDS_COLOR_CTIMELINE_SPLINE		"Spline Gadget - Spline Color";
+
+	IDS_COLOR_PV_BUCKET					"Picture Viewer - Bucket";
+	IDS_COLOR_PV_TEXT					"Picture Viewer - Compare Text";
+	IDS_COLOR_PV_CACHE					"Picture Viewer - Cache";
+	IDS_COLOR_PV_NOTALL					"Picture Viewer - Not Allowed Area";
+	IDS_COLOR_PV_COMPARE				"Picture Viewer - Compare Line";
+	IDS_COLOR_PV_FPS					"Picture Viewer - Skipped Frames";
+	IDS_COLOR_PROGRESSBAR			"Progress Bar";
+	IDS_COLOR_PV_NAVIAREA				"Picture Viewer - Navigator Area";
+
+	IDS_COLOR_PV_HISTO					"Picture Viewer - Histogram Color";
+	IDS_COLOR_PV_HISTOFILTER			"Picture Viewer - Histogram Filter Color";
+
+
+	IDS_COLOR_PV_HDLOW					"Picture Viewer - HD Limit Low";
+	IDS_COLOR_PV_HDMED					"Picture Viewer - HD Limit Medium";
+	IDS_COLOR_PV_HDHIGH					"Picture Viewer - HD Limit High";
+
+	IDS_COLOR_PV_FULLBOR				"Picture Viewer - Full-Screen Outline";
+
+	IDS_COLOR_PV_ASAFE					"Picture Viewer - Action Safe";
+	IDS_COLOR_PV_TSAFE					"Picture Viewer - Title Safe";
+
+	IDS_COLOR_RM_QUEUE					"Render Queue - Progress Bar Queue";
+	IDS_COLOR_RM_ERROR					"Render Queue - Progress Bar Error";
+	IDS_COLOR_RM_STOP					"Render Queue - Progress Bar Stop";
+	IDS_COLOR_RM_PROG						"Render Queue - Progress Bar Progress";
+	IDS_COLOR_RM_FINISHED				"Render Queue - Progress Bar Finished";
+
+	IDS_MULTIPASS_MATERIAL_NORMAL "Material Normal";
+	IDS_MULTIPASS_MATERIAL_UV			"Material UVW";
+	IDS_MULTIPASS_MOTIONVECTOR "Motion Vector";
+
+  IDS_MULTIPASS_DIRECT_DIFFUSE          "Direct Diffuse";
+  IDS_MULTIPASS_INDIRECT_DIFFUSE        "Indirect Diffuse";
+  IDS_MULTIPASS_DIRECT_SPECULAR         "Direct Specular";
+	IDS_MULTIPASS_INDIRECT_SPECULAR       "Indirect Specular";
+	IDS_MULTIPASS_REFLECTANCE_ALBEDO      "Albedo";
+	IDS_MULTIPASS_MAGICBULLETLOOKS      "Magic Bullet Looks Raw";
+
+	IDS_PREFS_ONLINEHELP					"Help (Debug Only)";
+	IDS_SCRIPTS	"User Scripts";
+
+	IDS_PROJECTIONLAYER						"Projection Layer";
+	IDS_PM_UNASSIGNEDOBJECTS "Unassigned Objects";
+	IDS_PM_ANYCHANNEL "Any Channel";
+	IDS_PM_LINKCAMERATOVIEW "Link Camera to Active View";
+	IDS_PM_RENAMECAMERA "Rename Camera";
+	IDS_PM_UNPROTECTCAMERA "Unprotect Camera";
+	IDS_PM_PROTECTCAMERA "Protect Camera";
+	IDS_PM_DUPLICATECAMERA "Duplicate Camera";
+	IDS_PM_PROTECTIONTESTEDITOR "Projection Test Render (Editor)";
+	IDS_PM_PROTECTIONTESTFILE "Projection Test Render (File)";
+	IDS_PM_COVERAGERENDEREDITOR "Coverage Render (Editor)";
+	IDS_PM_COVERAGERENDERFILE "Coverage Render (File)";
+	IDS_PM_NEWCAMERA "New Projection Camera";
+	IDS_PM_REMOVE "Remove";
+	IDS_PM_EDITLAYERSET "Edit Layer Set";
+	IDS_PM_NOIMAGE "<<no image>>";
+	IDS_PM_TITLE "Projection Man...";
+	IDS_PM_NAME "Name";
+	IDS_PM_LAYERSET "Layer Set";
+	IDS_PM_PMAT "PMat";
+	IDS_PM_CHOOSE "Choose Layer Set: ";
+	IDS_PM_SELECTOBJECT "Please Select at least one object!";
+	IDS_PM_ASSIGN "Do you want to assign the same layer set to each object?||YES - All objects get the same|NO - All objects get a different layer set";
+	IDS_PM_ALLOBJECTS "All Objects";
+	IDS_PM_SELECTIMAGE "Please Select an image";
+	IDS_PM_CAM "PCam";
+	IDS_PM_DELETE "The material '#' is no longer assigned to any object||Do you want to delete it?";
+	IDS_PM_TESTRENDER "Select Filename for test render";
+
+	IDS_MESSAGEDIALOG_BUTTON_ABORT "Abort";
+	IDS_MESSAGEDIALOG_BUTTON_RETRY "Retry";
+	IDS_MESSAGEDIALOG_BUTTON_YES "Yes";
+	IDS_MESSAGEDIALOG_BUTTON_NO "No";
+	IDS_MESSAGEDIALOG_BUTTON_IGNORE "Ignore";
+	IDS_RELOADSCHEME "Reload Scheme";
+	IDS_LAYERSETS "Layers / Layer Sets";
+	IDS_LAYERSETS_ALPHA "Generate Alpha";
+	IDS_LAYERDISABLED "Disabled";
+	IDS_LAYERALPHA "Layer Alpha";
+	IDS_LAYERMASKS "Layer Masks";
+	IDS_ALPHACHANNELS "Alpha Channels";
+	IDS_SHOWLAYERCONTENT "Show Layer Content";
+	IDS_CHOOSELAYERSET "Choose Layer Set";
+	IDS_LAYERSET_NAME "Layer Set";
+	IDS_CLEARLAYERSET "Deselect All";
+
+	// Caps and Bevel
+	IDS_CAPSANDBEVEL_BOTH "Both Bevels";
+	IDS_CAPSANDBEVEL_START "Start Bevel";
+	IDS_CAPSANDBEVEL_END "End Bevel";
+	IDS_CAPSANDBEVEL_END_LINKED "Bevel: End (Linked)";
+	IDS_CAPSANDBEVEL_PRESET "Caps Bevel Preset";
+
+	IDS_CONFIGURE_WEBBROWSER							"Please configure a web browser with linux preferences";
+	IDS_CONFIGURE_IMAGEEDITTOOL						"Please configure an image editing tool with linux preferences";
+
+	IDS_TEXTURE_CONTROL										"Texture View";
+	IDS_PICTURE_CONTROL										"Picture Viewer";
+	IDS_EXPOSURE													"Exposure";
+	IDS_RESET															"Reset";
+	IDS_GAMMA															"Gamma";
+	IDS_BLACKPOINT												"Black Point";
+	IDS_WHITEPOINT												"White Point";
+	IDS_COLORPROFILE											"Color Profile";
+	IDS_COLOR_CORRECTION									"32-bit Preview Options...";
+	IDS_COLOR_CORRECTION_HELP							"Open 32-bit Preview Options";
+	IDS_CONVERTBITMAP											"Convert Texture from 32 Bit to 8/16 Bit";
+	IDS_CC_ENABLE													"Enable Color Correction";
+	IDS_ASSIGNPROFILE											"Assign Profile";
+	IDS_CONVERTPROFILE										"Convert to Profile";
+
+	IDS_COLOR_CONTENTBROWSER_TEXT						"Content Browser - Text";
+	IDS_COLOR_CONTENTBROWSER_BG_TEXT_ACT		"Content Browser - Background - Selected Active";
+	IDS_COLOR_CONTENTBROWSER_BG_TEXT_INACT	"Content Browser - Background - Selected Inactive";
+	IDS_COLOR_CONTENTBROWSER_FG_TEXT_ACT		"Content Browser - Text - Selected Active";
+	IDS_COLOR_CONTENTBROWSER_FG_TEXT_INACT	"Content Browser - Text - Selected Inactive";
+	IDS_COLOR_CONTENTBROWSER_NOTAVAILABLE   "Content Browser - File Not Present";
+
+	IDS_NOTAHOLLYWOODBUNDLE								"This version does not allow Modifications of|Textures with 16/32 bits per channel!";
+
+	IDS_RGBDISPLAY "RGB (# Bit)";
+	IDS_GRAYDISPLAY "Grayscale (# Bit)";
+
+	IDS_LOADRENDERPRESET "Load Render Preset";
+	IDS_SAVERENDERPRESET "Save Render Preset...";
+
+	IDS_LOADMATERIALPRESET "Load Material Preset";
+	IDS_SAVEMATERIALPRESET "Save Material Preset...";
+
+	IDS_LOADOBJECTPRESET "Load Object Preset";
+	IDS_SAVEOBJECTPRESET "Save Object Preset...";
+
+	IDS_LOADSHADERPRESET "Load Preset";
+	IDS_SAVESHADERPRESET "Save Preset...";
+
+	IDS_LOADTAGPRESET "Load Tag Preset";
+	IDS_SAVETAGPRESET "Save Tag Preset...";
+
+	IDS_ERRORSENDMAIL	"Unable to send email";
+
+	IDS_MAILBETAREPORTS "betaautoreport@maxon.net";
+	IDS_MAILREPORTS "autoreport@maxon.net";
+	IDS_AUTOCONVERTBP_PRESETS "BodyPaint 3D Presets for brushes, colors and gradients are now managed through the new content browser.||Do you want to automatically convert your old BodyPaint 3D presets?";
+  IDS_LAYERNAME	"Layer";
+	IDS_NEWTL_M_FILE	"Create";
+	IDS_NEWTL_M_EDIT	"Edit";
+	IDS_NEWTL_M_SELECTION	"Selection";
+	IDS_NEWTL_M_LAYER	"Layer";
+	IDS_NEWTL_M_MARKER	"Marker";
+	IDS_NEWTL_M_VIEW	"View";
+	IDS_NEWTL_M_PREVIEW	"Preview";
+	IDS_NEWTL_M_ICONSIZE	"Icon Size";
+	IDS_NEWTL_M_FOLDING		"Folding";
+	IDS_NEWTL_M_FRAMEVIEW	"Frame";
+	IDS_NEWTL_M_FRKEY	"Frame Key";
+	IDS_NEWTL_M_FRMARKER	"Frame Marker";
+	IDS_NEWTL_M_OBJECTSTRACKS	"Functions";
+	IDS_NEWTL_M_OBJECTS	"Objects";
+	IDS_NEWTL_M_CURVES	"F-Curve";
+	IDS_NEWTL_M_PLAYBACK	"Playback";
+	IDS_NEWTL_M_GRID	"Grid";
+	IDS_NEWTL_M_KEY	"Key";
+	IDS_NEWTL_M_FUNCTIONS	"Shapes";
+	IDS_NEWTL_M_KEYSTTINGS	"Key Settings";
+	IDS_NEWTL_M_KEYINTERPOLATION	"Key Interpolation";
+	IDS_NEWTL_M_KEYINTERSPLINE	"Spline Types";
+	IDS_NEWTL_M_LOOP	"Loop";
+	IDS_NEWTL_M_BOOKMARK "Bookmarks";
+	IDS_NEWTL_M_MOTION	  "Motion System";
+	IDS_NEWTL_M_SNAPSHOTSWAP "Swap Snapshot";
+	IDS_NEWTL_M_SNAPSHOTMAKE "Create Snapshot";
+	IDS_NEWTL_M_SNAPSHOTON	"View Snapshot";
+	IDS_NEWTL_M_AFTER		"Track After";
+	IDS_NEWTL_M_BEFORE		"Track Before";
+	IDS_NEWTL_M_HLECURVEMODE	"Reduced Modification Type";
+	IDS_NEWTL_M_SHOWMENU	"Show";
+	IDS_NEWTL_M_SHOWTANGENTMENU	"Show Keys/Tangents";
+	IDS_NEWTL_M_HIDEMENU	"Hide";
+	IDS_NEWTL_M_LINK		"Link";
+	IDS_NEWTL_M_BAR			"Bars";
+	IDS_NEWTL_M_ADD			"Add";
+
+	IDS_PV_M_FILE			"File";
+	IDS_PV_M_EDIT			"Edit";
+	IDS_PV_M_VIEW			"View";
+	IDS_PV_M_ICONSIZE		"Icon Size";
+	IDS_PV_M_ZOOM			"Zoom Values";
+	IDS_PV_M_FILTER			"Filter";
+	IDS_PV_M_COMPARE		"Compare";
+	IDS_PV_M_RAMPLAYER		"Animation";
+	IDS_PV_M_TOOLS			"Tool";
+	IDS_PV_M_FPS			"Frame Rate";
+	IDS_PV_M_CACHESIZE		"Cache Size";
+
+	IDS_RM_M_FILE			"File";
+	IDS_RM_M_JOBS			"Jobs";
+	IDS_RM_M_SHOW			"Show/Filter";
+	IDS_RM_M_LOG			"Filter Log";
+
+	IDS_COLOR_SB_BG1									"Manager - Background 1 - Active";
+	IDS_COLOR_SB_TEXTHG1							"Manager - Background 1 - Inactive";
+	IDS_COLOR_SB_BG2									"Manager - Background 2 - Active";
+	IDS_COLOR_SB_TEXTHG2							"Manager - Background 2 - Inactive";
+	IDS_COLOR_MANAGER_BG_TREEVIEW			"Manager - Background - Treeview";
+	IDS_COLOR_SB_CARET								"Manager - Drag Insertion Caret";
+	IDS_COLOR_SB_CARETBG							"Manager - Drag Insertion Background";
+	IDS_COLOR_SB_CARET_TEXT						"Manager - Drag Insertion Text";
+	IDS_COLOR_SB_TREE1								"Object Manager - Lines 1";
+	IDS_COLOR_SB_TREE2								"Object Manager - Lines 2";
+	IDS_COLOR_SB_TEXT									"Object Manager - Text";
+	IDS_COLOR_SB_TEXT_BORDER					"Object Manager - Border";
+	IDS_COLOR_SB_TEXT_ACTIVE1					"Object Manager - Selection";
+	IDS_COLOR_SB_TEXT_ACTIVE2					"Object Manager - Inherited Selection";
+	IDS_COLOR_SB_TEXT_ACTIVE3					"Object Manager - Active Selection";
+	IDS_COLOR_SB_TEXT_FOLDER_MAIN			"Object Manager - Folder Main";
+	IDS_COLOR_SB_TEXT_FOLDER_SUB			"Object Manager - Folder Sub";
+	IDS_COLOR_SB_LAYER_BORDER					"Object Manager - Layer Border";
+	IDS_COLOR_SB_VISIBILITY_DOT_NONE				"Object Manager - Visibility Dot - None";
+	IDS_COLOR_SB_VISIBILITY_DOT_ENABLED			"Object Manager - Visibility Dot - On";
+	IDS_COLOR_SB_VISIBILITY_DOT_DISABLED		"Object Manager - Visibility Dot - Off";
+
+	IDS_COLOR_MENU_BG_ICON									"Menu - Background - Icon";
+	IDS_COLOR_BG_PALETTE										"Palette - Background";
+	IDS_COLOR_PALETTE_SEPARATOR							"Palette - Separator";
+	IDS_COLOR_BORDER_PALETTE								"Palette - Border - Normal";
+	IDS_COLOR_PALETTE_TEXT									"Palette - Text";
+	IDS_COLOR_PALETTE_TEXT_SELECTED					"Palette - Text - Selected";
+	IDS_COLOR_PALETTE_TEXT_DISABLED					"Palette - Text - Disabled";
+	IDS_COLOR_ICONS_BG_ACTIVE								"Palette - Background - Active Icons";
+	IDS_COLOR_ICONS_BG_HIGHLIGHT						"Palette - Background - Highlight Icons";
+	IDS_COLOR_ICONS_BG_ACTIVE_HIGHLIGHT			"Palette - Background - Highlight Active Icons";
+	IDS_COLOR_ICONS_TEXT_HIGHLIGHT					"Palette - Text - Highlight";
+
+	IDS_COLOR_POWERFRAME					"Powerslider - Frame";
+	IDS_COLOR_POWERFRAMEDRAG			"Powerslider - Frame Drag";
+	IDS_COLOR_POWERFRAMEMARKER		"Powerslider - Frame Marker";
+	IDS_COLOR_POWERKEYUNSELECTED	"Powerslider - Selected Keys";
+	IDS_COLOR_POWERKEYSELECTED		"Powerslider - Unselected Keys";
+	IDS_COLOR_POWERLOOP						"Powerslider - Loop";
+	IDS_COLOR_POWERBG							"Powerslider - Background";
+	IDS_COLOR_POWEREDGE						"Powerslider - Edge";
+	IDS_COLOR_POWERSELECTED				"Powerslider - Selected";
+	IDS_COLOR_POWERSLIDEBG				"Powerslider - Slider Background";
+	IDS_COLOR_POWERSLIDEHANDLES		"Powerslider - Slider Handles";
+	IDS_COLOR_POWERBGDRAG					"Powerslider - Background Drag";
+	IDS_COLOR_POWERHANDLEDRAG			"Powerslider - Handle Drag";
+	IDS_COLOR_POWERKEYP						"Powerslider - Position Keys";
+	IDS_COLOR_POWERKEYS						"Powerslider - Scale Keys";
+	IDS_COLOR_POWERKEYR						"Powerslider - Rotation Keys";
+	IDS_COLOR_POWERSOUND					"Powerslider - Sound";
+	IDS_COLOR_POWERADVANCEDFRAMENUMBER "Powerslider - Advanced - Frame Number";
+
+	IDS_DELETE_TAG								"Delete Tag";
+
+	IDS_CONSOLE_ADVANCED 					"Advanced";
+
+	IDS_PAINT_FILE "File";
+	IDS_PAINT_EDIT "Edit";
+	IDS_PAINT_TOOLS "Tools";
+	IDS_PAINT_FUNCTIONS "Functions";
+	IDS_PAINT_VIEW "View";
+	IDS_TEXTURES "Textures";
+	IDS_PAINT_TEXTUREMANAGER_VIEW "View";
+	IDS_PAINT_LEFTLIST "Left List";
+	IDS_PAINT_RIGHTLIST "Right List";
+	IDS_PAINT_TEXTUREMANAGER_FUNCTIONS "Functions";
+	IDS_PAINT_BRUSH_GROUP "Group";
+	IDS_PAINT_BRUSH_VIEW "View";
+	IDS_PAINT_COLOR_GROUP "Group";
+	IDS_PAINT_COLOR_VIEW "View";
+	IDS_PAINT_PAINTER "BodyPaint 3D";
+	IDS_PAINT_PAINTERMAIN "BodyPaint 3D";
+	IDS_PAINT_SELECTIONMAIN "Texture Selection";
+	IDS_PAINT_TOOLSMAIN "Tools";
+	IDS_PAINT_FUNCTIONSMAIN "Functions";
+	IDS_CHANNEL_COLOR "Color";
+	IDS_CHANNEL_DIFFUSION "Diffusion";
+	IDS_CHANNEL_LUMINANCE "Luminance";
+	IDS_CHANNEL_TRANSPARENCY "Transparency";
+	IDS_CHANNEL_REFLECTION "Reflectance";
+	IDS_CHANNEL_ENVIRONMENT "Environment";
+	IDS_CHANNEL_BUMP "Bump";
+	IDS_CHANNEL_ALPHA "Alpha";
+	IDS_CHANNEL_SPECULARCOLOR "Specular";
+	IDS_CHANNEL_DISPLACEMENT "Displacement";
+	IDS_CHANNEL_NORMAL "Normal";
+	IDS_CHANNEL_ANY "Custom";
+	IDS_DISPLACEMENT_TESSELLATION_UNSUPPORTED "0 (GPU support not available)";
+	IDS_ERROR_READINGTEXTURE "Error reading texture|'#'";
+	IDS_NOSELECTION "Please make a selection!";
+	IDS_FLOATINGLAYER "Clipboard";
+	IDS_TEXTURE_WRONGNAME "Please choose another name!|This name is already being used by one|of the material textures.";
+	IDS_TEXTURE_TEXNOTFOUND "Texture not found!|Please choose another file";
+	IDS_SELECT_TEXTURE "Select a texture";
+	IDS_TITLE_2DVIEW "Texture";
+	IDS_TEXTUREINMEMORY "A texture with this name already exists|in memory! Please choose another name.";
+	IDS_SAVECHANNEL "Save Channel as *.#";
+	IDS_TEXTURELOADINMEMORY "The selected texture '#'|already exists in memory!";
+	IDS_TEXTURESAVECHANGES "Save changes in '#'?";
+	IDS_TEXTUREINMATERIAL "Texture '#' cannot be closed because|it is used in the active material!";
+	IDS_TEXTURE_INFO "Material: # Channel: #";
+	IDS_CM_PAINTER "BodyPaint 3D";
+	IDS_CM_TEXTUREVIEW "BodyPaint 3D - Texture View";
+	IDS_CM_TEXTUREMANAGER "BodyPaint 3D - Layer Manager";
+	IDS_CM_BRUSHPRESETS "Brush Presets";
+	IDS_CM_COLORPRESETS "Color Presets";
+	IDS_CM_PAINTERMAIN "BodyPaint 3D - General";
+	IDP_UVEDIT_INTERACTIVE "Interactive";
+
+	//new001005
+	IDS_TEXTUREVIEW_ZOOM "Zoom: #%";
+	IDS_TEXTUREVIEW_SIZE "Size: #x#";
+	IDS_TEXTUREVIEW_BPP  "# Bit";
+	IDS_PAINTTOOL_DOESNTWORK "This tool cannot be used in the 3D view";
+	IDS_PAINTOBJECT_TEXTURE "Texture";
+	IDS_PAINTOBJECT_LAYER "Layer";
+	IDS_PAINT_UNKNOWN "Unknown";
+	IDS_PAINT_RGB24 "RGB (# bits per channel)";
+	IDS_PAINT_RGBA "RGB + Alpha (# bits per channel)";
+	IDS_PAINT_GRAY8 "Grayscale (# bits per channel)";
+	IDS_PAINT_GRAYA "Grayscale + Alpha (# bits per channel)";
+	IDS_PAINT_BYTE "Byte";
+	IDS_PAINT_KBYTE "KB";
+	IDS_PAINT_MBYTE "MB";
+	IDS_PAINT_GBYTE "GB";
+	IDS_PAINT_BRUSHPRESETS "Brushes";
+	IDS_PAINT_BRUSHDEF "Brush (User-defined)";
+	IDS_PAINT_COLORPRESETS "Swatches";
+	IDS_PAINT_COLORDEF "Color (User-defined)";
+	IDS_PAINT_COLORDEFMULTI "Multi Color (User-defined)";
+	IDS_FROMDISC "Load from Disc ...";
+	IDS_FROMSELECTION "Load from Selection/Texture...";
+	IDS_EDITINBP "Edit in BodyPaint 3D";
+	IDS_PAINT_SELECT_PATTERN "Select a Pattern";
+	IDS_PAINT_COPYPATTERN "Do you want to copy the pattern to the pattern directory?";
+	IDS_PAINT_ALREADYEXISTS "This pattern already exists in the pattern directory!|Do you want to overwrite the existing file?";
+	IDS_PAINT_NONE "None";
+	IDS_PAINT_DRAWDIRECTION "Draw Direction";
+	IDS_PAINT_DRAWRANDOM "Randomness";
+	IDS_PAINT_DRAWWHEEL "Mouse Wheel";
+	IDS_PAINT_DRAWDISTANCE "Distance";
+	IDS_PAINT_PENPRESSURE "Pen Pressure";
+	IDS_PAINT_PENTILT "Pen Tilt";
+	IDS_PAINT_PENFINGERWHEEL "Pen Finger Wheel";
+	IDS_PAINT_PENDIRECTION "Pen Direction";
+	IDS_PAINT_PENROTATION "Pen Rotation";
+	IDS_PAINT_PIXEL "Pixel";
+	IDS_PAINT_VALUE "Value";
+	IDS_PAINT_COPYCURVE "Copy Curve";
+	IDS_PAINT_PASTECURVE "Paste Curve";
+	IDS_PAINT_RESETTODEFAULT "Reset to Default";
+	IDS_PAINT_FLIPX "Flip Horizontal";
+	IDS_PAINT_FLIPY "Flip Vertical";
+	IDS_PAINT_MIN "Min";
+	IDS_PAINT_MAX "Max";
+	IDS_PAINT_PIXELLENGTH "Pixel Length";
+	IDS_PAINT_LOOPS "Loops";
+	IDS_PAINT_EFFECTORSETTINGS "Effector Settings";
+	IDS_PAINT_B3DFORMAT "BodyPaint 3D (*.b3d)";
+	IDS_PAINT_B3DXMLFORMAT "BodyPaint 3D XML (*.b3d)";
+	IDS_PAINT_COPY "(Copy)";
+	IDS_PAINT_SPLINE "Spline";
+	IDS_PAINT_ALLPRESETS "All Presets";
+	IDS_PAINT_NEWFOLDER "New Settings Folder";
+	IDS_PAINT_REVERTTEXTURE "Do you really want to revert to|the saved version of this texture?||#";
+	IDS_PAINT_RENAMETEXTURE "The texture is used by multiple materials!|Do you want to rename the texture in all other materials also?|#";
+
+	IDS_PAINT_SAVETEXT1 "Do you want to save changes to all textures?";
+	IDS_PAINT_SAVETEXT2 "Do you want to save changes to|all textures before closing?";
+	IDS_PAINT_SAVETEXT3 "Do you want to save changes to|the textures of project $"#$"?";
+	IDS_PAINT_SAVETEXT4 "Do you want to save changes to|the textures of project $"#$"|before closing?";
+	IDS_PAINT_SAVETEXT5 "Do you want to save changes to|the textures before closing?";
+	IDS_PAINT_SAVEUNASSIOCTEXTURES "Do you want to save changes to all textures|not associated to any project?";
+
+	IDS_PAINT_DELETEENTRY "Do you really want to delete this entry?";
+	IDS_PAINT_OVERWRITEENTRY "Do you really want to overwrite this entry?";
+	IDS_PAINT_REVERTCHANGES "Do you want to revert all changes?";
+	IDS_PAINT_SAVEDEFAULTSETTINGS "Do you want to save these settings as default?";
+	IDS_PAINT_SAVEALLSETTINGS "Do you want to save your brush and color presets as default?";
+	IDS_PAINT_LAYERMANAGER "Layers";
+	IDS_PAINT_LAYERS "Layers";
+	IDS_PAINT_ALPHAS "Alphas";
+	IDS_PAINT_ALPHASTRAIGHT "Straight";
+	IDS_PAINT_ALPHAPREMULTI "Pre-multiplied";
+	IDS_PAINT_PROCIMAGE "Processing image";
+	IDS_PAINT_TMATERIAL "Material: ";
+	IDS_PAINT_TTEXTURE "Texture: ";
+	IDS_PAINT_DIFFSIZE "To work with this tool all bitmaps|need to be of the same size!|#|Do you want to rescale the bitmaps?";
+	IDS_PAINT_BRUSHERROR "Error initializing brush (a pattern may be missing)";
+	IDS_BRUSH_TINY "Brush Tiny";
+	IDS_BRUSH_SMALL "Brush Small";
+	IDS_BRUSH_AVERAGE "Brush Average";
+	IDS_BRUSH_BIG "Brush Big";
+	IDS_BRUSH_HUGE "Brush Huge";
+	IDS_PAINT_TEXT "Text";
+	IDS_PAINT_HELPDRAG "Click to move a layer";
+	IDS_PAINT_HELPBRUSH "Click to draw with the selected brush";
+	IDS_PAINT_HELPPOLY "Click to draw a filled or outlined polygon";
+	IDS_PAINT_HELPTEXT "Click to place text";
+	IDS_PAINT_HELPCLONE1 "Click to set the reference point of the Clone tool";
+	IDS_PAINT_HELPCLONE2 "Click to copy a bitmap (ctrl to set a new reference point)";
+	IDS_PAINT_HELP_LINE "Click to draw a line";
+	IDS_PAINT_HELPFILLLAYER "Click to fill a bitmap";
+	IDS_PAINT_HELPFILLWAND  "Click to select with the magic wand tool";
+	IDS_PAINT_HELPCOLORRANGE "Click to select with the color range tool";
+	IDS_PAINT_HELPPICKUP "Click to pick a color or texture";
+	IDS_PAINT_HELPSELECT1 "Click to move a selection mask, single click to deselect all (shift to add, alt to subtract selection)";
+	IDS_PAINT_HELPSELECT2 "Click to create a new selection, single click to deselect all (shift to add, alt to subtract selection)";
+	IDS_PAINT_TRANSFORMLAYER "Do you want to transform the layer?";
+	IDS_PAINT_TRANSORMONLYONE "The Transform Tool only works|with one bitmap at a time!";
+	IDS_PAINT_CALCWEIGHTS "Calculating weights...";
+	IDS_PAINT_HELPSELECTLIVE "Live Selection: Click and drag to select elements. Hold down SHIFT to add to the selection, CTRL to remove.";
+	IDS_PAINT_HELPSELECTFREE "Lasso Selection: Click and drag to lasso-select elements. Hold down SHIFT to add to the selection, CTRL to remove.";
+	IDS_PAINT_HELPSELECTPOLY "Polygon Selection: Click multiple times to define a polygon shape. Click on the first point to finish the action. Hold down SHIFT to add to the selection, CTRL to remove.";
+	IDS_PAINT_HELPSELECTRECT "Rectangle Selection: Click and drag to rectangle-select elements. Hold down SHIFT to add to the selection, CTRL to remove.";
+	IDS_PAINT_HELPZOOM "Select a rectangle or click once (ctrl or right mouse button to zoom out)";
+	IDS_PAINT_CALCREMAP "Remapping groups...";
+	IDS_PAINT_UNTITLED "Untitled";
+	IDS_PAINT_CREATETEXTURE "Create a new texture";
+
+	IDS_PAINT_CONVERTTOGRAY "Do you really want to convert to grayscale?|You will lose all color information!";
+	IDS_PAINT_CONVERTTORGB "Do you really want to convert to RGB?";
+	IDS_PAINT_CONVERTTO_UCHAR "Do you really want to convert to 8 bits per channel?";
+	IDS_PAINT_CONVERTTO_UWORD "Do you really want to convert to 16 bits per channel?";
+	IDS_PAINT_CONVERTTO_FLOAT "Do you really want to convert to 32 bits per channel?";
+	IDS_PAINT_CONVERTTO_BITDEPTHWARNING "Attention: you will lose details through a lower precision!";
+
+	IDS_PAINT_ERROREXECUTEPLUGIN "Error executing plugin!";
+	IDS_PAINT_MATENABLED "Enable";
+	IDS_PAINT_BITMAPFILTER "Bitmap Filter";
+
+	IDS_PAINT_SAVENOLAYERS "This file format does not support layers!|Please select another format|if you want to keep all layers!";
+	IDS_PAINT_SAVENOLAYERSWITHTHISDEPTH "This file format does not support layers with|# bits per channel!|Only # bits per channel are supported!|Image will be saved flattened!";
+	IDS_PAINT_SAVEIMAGEWITHTHISDEPTH "This file format does not support|# bits per channel!|Only # bits per channel are supported!";
+	IDS_PAINT_SAVEALLFEATURES "This file format supports all features.";
+	IDS_PAINT_SAVETOOMANYALPHAS "This file format does not support the number|of alpha channels.|Supported alpha channels: #|Given alpha channels: #.";
+	IDS_PAINT_CLOSEASSIOCTEXTURES "Do you want to close all associated textures?";
+	IDS_PAINT_REMAPPING "Remapping Bitmap...";
+	IDS_PAINT_INACTIVELAYERS "Please activate all invisible layers!|#";
+	IDS_PAINT_WRONGLAYERTYPE "Wrong layer type!|#";
+	IDS_PAINT_ERRORWRITINGFILE "Error writing texture!|(File may be write protected)||#";
+
+	//IDS_PAINT_ENABLEMATERIAL2 "Enable Material";
+	IDS_ACTIVE_LAYER "Active Layer:";
+	IDS_SELECTED_LAYER "Selected Layer:";
+	IDS_BPUVTAGS "UV Tags";
+
+	IDS_PAINT_REVERTALL	"Are you sure you want to lose the changes|made to all textures of the active project?";
+	IDS_PP_DISCARD "Do you really want to discard the Projection Paint Layer?";
+
+	IDS_BPMENU_C4D "Cinema 4D";
+	IDS_BPMENU_UVTAGS "UV Tags";
+	IDS_BPMENU_IMAGE "Image";
+	IDS_BPMENU_LAYER "Layer";
+	IDS_BPMENU_SELECT "Texture Selection";
+	IDS_BPMENU_PAINT "Paint";
+	IDS_BPMENU_FITLER "Filter";
+	IDS_BPMENU_SELECTPOLYS "Select";
+	IDS_BPMENU_UVEDIT "UV Edit";
+	IDS_BPMENU_PAINTTOOLS "Paint Tools";
+	IDS_BPMENU_UVTOOLS "UV Tools";
+	IDS_BPMENU_C4DTOOLS "C4D Tools";
+	IDS_BPMENU_UVMESH "UV Mesh";
+	IDS_BPMENU_FILTER "Filter";
+	IDS_BPMENU_RESIZECOMMANDS "Resize Commands";
+	IDS_BPMENU_TRANSFORMTOOLS "Transform Tools";
+	IDS_BPMENU_TRANSFORMCOMMANDS "Transform Commands";
+
+	IDS_PAINTER_SENDBACK "Send project back...";
+	IDS_PAINTER_SENDBACKHELP "Send project back to Original Application";
+
+	IDS_BRUSH_PREVIEW "Preview";
+	IDS_BRUSH_SETTINGS "Settings";
+	IDS_BRUSH_FILTERS "Filters";
+
+	IDS_PAINT_NOTHINGSELECTED "No Pixels were selected";
+	IDS_PAINT_HELP_GRADIENT "Click to draw the direction of the gradient";
+
+	IDS_PP_LAYER							"PP Layer";
+	IDS_PP_LAYERSET						"PP Layer Set";
+	IDS_PP_OBJECTMASK					"PP Object Mask";
+	IDS_PP_ALLLAYERS					"PP All Layer";
+	IDS_PP_PREPARE_SINGLE			"Processing object for Projection Paint, ";
+	IDS_PP_PREPARE_MULTI			"Processing # of # objects for Projection Paint, ";
+	IDS_PP_PREPARE_SUFFIX			" seconds remaining.";
+
+	IDS_PP_MERGE				"Select a Texture to Merge into this File";
+	IDS_PP_DIFFERENT		"Texture sizes are different!|Do you want to scale it to the same size?||Current Texture: #x#|Merged Texture: #x#";
+	IDS_PP_ERRORSCALE		"Error scaling image";
+
+	IDS_FREEZE_VIEWWINDOW	"Freeze View Window";
+	IDS_FREEZE_XRES				"X Resolution";
+	IDS_FREEZE_YRES				"Y Resolution";
+	IDS_FREEZE_FACTOR			"Size Factor";
+
+	IDS_UVTAG							"UV Tag";
+	IDS_PIN_HELP1					"press CTRL+LMB to fold, ALT+LMB to maximize in the row/column";
+	IDS_PIN_HELP2					"press CTRL+LMB to fold";
+
+	IDS_MOREMANAGER				"Additional Managers";
+	IDS_ERRORLOAD_TEXTURE	"Error Loading Texture";
+
+	IDS_TEXTNAME_LOADING			"Loading Texture ...";
+	IDS_TEXTNAME_ICON_ERROR		"Error loading Icon";
+	IDS_TEXTNAME_INFO					"# x #, # (# Bit)";
+	IDS_TEXTNAME_EMPTY					"<< No data >>";
+
+  IDS_EDITOR_CA "Character";
+	IDS_OLDBONES "Soft IK / Bones";
+
+	IDS_MOCCACONVERSION "Convert";
+	IDS_CENTERAXIS "Axis";
+
+	IDS_REG_PASTE "Paste Serial Numbers from Clipboard";
+
+	IDS_SUBMENU_SKY "Sky";
+	IDS_SUBMENU_TP "Thinking Particles";
+	IDS_SUBMENU_SPACEMOUSE "3Dconnexion";
+
+	IDS_COLOR_BORDER_ACTIVE_1 "View Window - Border Active";
+	IDS_COLOR_BORDER_ACTIVE_3 "View Window - Border Record";
+	IDS_COLOR_BORDER_ACTIVE_4	"View Window - Border Selected";
+
+	IDS_TRISTATE_TEXT	"<<Multiple Values>>";
+
+	IDS_SB_FILE							"File";
+	IDS_SB_EDIT							"Edit";
+	IDS_SB_SHOW							"View";
+	IDS_SB_BOOKMARKS				"Bookmarks";
+	IDS_SB_EXPORTOBJECT			"Export Selected Objects as...";
+	IDS_SB_LOADOBJECTPRESET	"Load Object Preset";
+	IDS_SB_LOADTAGPRESET		"Load Tag Preset";
+	IDS_SB_ICONSIZE					"Icon Size";
+	IDS_SB_FOLDING					"Folding";
+	IDS_SB_OBJECTS          "Object";
+	IDS_SB_RESTORESELECTION "Restore Selection";
+	IDS_SB_OBJECTDISPLAY    "Object Display";
+	IDS_SB_TAGS             "Tags";
+	IDS_SB_BOOK							"Bookmarks";
+
+	IDS_MM_NEWLAYER					"Add to new Layer";
+	IDS_MM_REMOVE						"Remove from Layer";
+	IDS_MM_LAYERS						"Layer";
+	IDS_MM_ADDTOLAYER				"Add to Layer";
+
+	IDS_PRINT_HELP					"Print ...";
+
+	IDS_BUGREPORT_TITLE				"Send bug report to Maxon";
+	IDS_BUGREPORT_TITLE_3RD		"3rd Party Plugin Error: Send bug report to Maxon";
+	IDS_BUGREPORT_TITLE_GD		"Graphics Driver Error: Send bug report to Maxon";
+	IDS_BUGREPORT_TITLE_HE		"Houdini Engine Error: Send bug report to Maxon";
+	IDS_BUGREPORT_APP					"This application quit unexpectedly the last time you used it";
+	IDS_BUGREPORT_GRAPHICSDRIVER	"An error in the graphics driver unexpectedly quit the application";
+	IDS_BUGREPORT_3RDPARTYPLUGIN	"An error in a 3rd party plugin unexpectedly quit the application";
+	IDS_BUGREPORT_GENERAL			"By sending this report to Maxon you can help fix the problem:|Please enter your name and email address so that our quality assurance team|can contact you in case further input is needed.||We guarantee that all information, including projects, will be treated|confidentially and only be used for the purpose of bug fixing.||For questions please use our regular support channels.";
+	IDS_BUGREPORT_NAME				"Your Name";
+	IDS_BUGREPORT_EMAIL				"Your Email";
+	IDS_BUGREPORT_DESCRIPTION	"Crash Description";
+	IDS_BUGREPORT_SCENES			"Attach Recovery Projects";
+	IDS_BUGREPORT_DONTSEND		"Don't Send";
+	IDS_BUGREPORT_SEND				"Send Report";
+	IDS_BUGREPORT_HELP				"Help";
+	IDS_BUGREPORT_SENDING			"Sending Email #...";
+	IDS_BUGREPORT_MISSING			"Please fill out all fields to submit an issue.||Your name and email address are required so that|our quality assurance team can contact you in case|further input is needed.||The crash description section should contain a|general description of the problem, e.g. 'C4D crashed|when undoing a polygon move operation'.|If this is a reproducable crash please add a|simple step-by-step recipe as well.||Thank you!";
+	IDS_BUGREPORT_SUCCESS			"The bug report has been sent successfully.|Thank you for your assistance!";
+	IDS_BUGREPORT_FAILED			"There was a problem sending the report to Maxon.|Please verifiy your internet connection, firewall and anti-virus software settings.|You can also send the content of the '_bugreports' folder to our support|with your default email client.|| Thank you for your assistance!";
+	IDS_BUGREPORT_COUNTDOWN "Dialog will be closed in # seconds";
+
+	IDS_PERSUADE_TITLE				"Please Confirm";
+	IDS_PERSUADE_TEXT					"Crash Reports provide essential information that can help Maxon improve the software.|By submitting a report, you can help the Maxon community in general.||We guarantee that all information, including projects, will be treated|confidentially and only be used for the purpose of bug fixing.";
+	IDS_PERUSADE_DONTSEND			"Don't Send";
+	IDS_PERSUADE_BACK					"Back";
+
+	IDS_BUGHELP_TITLE					"Bug report help";
+	IDS_BUGHELP_TEXT					"Please fill out all fields to submit an issue.||Your name and email address are required so that our quality assurance team|can contact you in case further input is needed.||The crash description section should contain a general description of the problem,| e.g. 'C4D crashed when undoing a polygon move operation'.|If this is a reproducable crash please add a simple, step-by-step recipe as well.||Thank you!";
+	IDS_BUGHELP_OK						"OK";
+
+	IDS_BUGMISSING_TITLE			"Incomplete bug report";
+	IDS_BUGMISSING_TEXT				"Please fill out all fields to submit an issue.||Your name and email address are required so that our quality assurance team|can contact you in case further input is needed.||The crash description section should contain a general description of the problem,| e.g. 'C4D crashed when undoing a polygon move operation'.|If this is a reproducable crash please add a simple, step-by-step recipe as well.||Thank you!";
+	IDS_BUGMISSING_UPDATE			"Update Report";
+	IDS_BUGMISSING_SEND				"Send Anyway";
+
+	IDS_FORCE_QUIT						"Do you really want to FORCE QUIT?|All data will be lost!||A report and project file will be written to disk if possible.";
+	IDS_JPG_SETTINGS					"JPEG Settings";
+	IDS_JPG_QUALITY						"JPEG Quality";
+	IDS_JPG_QUALITY1					"Low";
+	IDS_JPG_QUALITY2					"High";
+	IDS_JPG_QUALITY3					"Small File";
+	IDS_JPG_QUALITY4					"Large File";
+
+	IDS_EMAILCHECK						"Without a valid email address, Maxon may be unable to help resolve the problem you are reporting.|Do you want to send the report anyway?";
+	IDS_MENU_LASTTOOLS				"Recent Tools";
+
+	IDS_FILTERTIFFPSD					"TIFF (PSD Layers)";
+	IDS_FILTERTIFFB3D					"TIFF (B3D Layers)";
+
+	IDS_ONION_MEM_INFO1 "# %";
+	IDS_ONION_PROGRESS "Calculating Cache";
+	IDS_MOTION_SYSTEM         "Motion System";
+	IDS_DESC_CREATESCRIPT		  "Create Script...";
+	IDS_AM_RDATAMODE					"Render Settings";
+
+	IDS_DESC_INHERIT					"Inherit Parent Setting";
+	IDS_DESC_DONTINHERIT			"Override Parent Setting";
+	IDS_CALCBLURRYCACHE			"Rendering Blurry Cache...";
+
+	IDS_PREFS_RENDERER			"Renderer";
+
+	IDS_MENU_DOODLE						"Doodle";
+	IDS_CONSTRAINTS					"Constraints";
+
+	IDS_RM_PASS 						"Pass";
+	IDS_RM_ENGINE						"Standard";
+	IDS_RM_ENGINE_OPENGL		"Viewport Renderer";
+
+	IDS_RM_EDITORRES				"Editor Resolution";
+	IDS_RM_CUSTOM						"Custom Settings";
+	IDS_RM_PRESET						"Preset:";
+	IDS_RM_PIXEL						"Pixel";
+	IDS_RM_CAT_SCREEN				"Screen";
+	IDS_RM_CAT_FILM					"Film/Video";
+	IDS_RM_CAT_MOBILE				"Mobile Devices";
+	IDS_RM_CAT_PRINT				"Print (Landscape)";
+	IDS_RM_CAT_PRINT2				"Print (Portrait)";
+
+	IDS_USER									"(User)";
+	IDS_DESC_COPY_INTERFACE		"Copy User Data Interface";
+	IDS_BRUSHBITMAP						"Cannot find Brush Bitmap: '#'";
+	IDS_INLINE								"(inline)";
+	IDS_TOOLBRUSH_HELP				"Texture #   X # / Y #";
+	IDS_ERRORLOADPRESET				"Error copying presets";
+	IDS_ADDPRESET_SAVENAME		"Save Name";
+	IDS_ADDPRESET_SAVELIB			"Save Lib/Folder";
+	IDS_ADDPRESET_ADD					"+";
+	IDS_ADDPRESET_STORECOLOR	"Store Color";
+	IDS_BRUSHFILE_LOADERROR		"Error loading File: #";
+	IDS_LIBERROR							"Library already exists!";
+	IDS_LIBERROR_MOUNT				"Error mounting BodyPaint 3D User Preset Library";
+	IDS_LIBERROR_CREATE				"Error creating BodyPaint 3D User Preset Library";
+	IDS_LIB_OVERWRITE					"Do you want to overwrite the existing preset?||'#'";
+	IDS_BPPRESETLIBNAME				"BodyPaint 3D Presets (User)";
+	IDS_PRESET_REPLACE				"There already is an object called '#'.|Do you want to replace it?";
+	IDS_LOADLIB								"Select a .lib4d, *.abr or .b3d file";
+	IDS_FILE_DOESNTEXISTS			"File does not exist";
+	IDS_LIB_ALREADYMOUNTED		"This Library already is mounted";
+	IDS_LIB_ALREADYTHERE			"A Library with this name already exists in the user library folder!|Please choose another name!";
+	IDS_COPYERROR							"Error copying file!";
+	IDS_BRUSHLOAD_ERROR				"Error loading brushes. Unknown file format.";
+	IDS_PRESET_EXPORT					"Export";
+	IDS_PRESETFOLDER_RECHOOSE	"Folder already exists. Please choose another name!";
+	IDS_PAINT_NEWLIBRARY			"New Library";
+	IDS_PAINT_CHANGEFORMAT		"Do you want to change the file format for the following textures?|If not changed, all layer information will be lost!||#";
+
+	IDS_PRESET_OVERWRITE			"There is already an object called #.|Do you want to replace it?";
+	IDS_AA_NONE								"None";
+	IDS_RS_CLIP								"Resolution clipping applies!";
+	IDS_PRESETS_SAVE					"Save...";
+
+	IDS_LICENSE_LEASE					"Lease License...";
+	IDS_LICENSE_SIGNOUT					"Sign-Out";
+	IDS_LICENSE_QUIT 					"Quit and Free License";
+	IDS_FREELICENSE_ERROR				"Error freeing license!||Please check your Internet connection or Proxy settings.||Details: #";
+
+	IDS_NONWRITABLE						"Files cannot be written - please check output paths!";
+	IDS_MENU_WINDOW						"Window";
+	IDS_MENU_WINDOW_CLOSE			"Close";
+	IDS_MENU_WINDOW_MINIMIZE	"Minimize";
+	IDS_MENU_WINDOW_ZOOM			"Zoom";
+	IDS_MENU_WINDOW_FRONT_ALL	"Bring all to front";
+
+	IDS_NO_UPDATER_FOUND					"Unable to find the updater. Please try again or install from a fresh installation.|The program will restart now without updating.";
+	IDS_LICENSE_SERVER_REQUEST		"Requesting License at Server";
+	IDS_LICENSE_SERVER_LEASEERROR	"Error requesting lease time on server";
+	IDS_LICENSE_SERVER_ERRORFREE	"The license hasn't be freed because there is no connection to the license server.";
+	IDS_LICENSE_LEASETIME					"Lease Time";
+	IDS_REG_NOTHING								"<<Nothing to register>>";
+	IDS_LICENSE_SERVER_NOLEASE		"Lease Licenses not supported";
+	IDS_LICENSE_SERVER_DEF				"Default: # / Maximum: #";
+	IDS_SCHEME_LIGHT							"Light";
+	IDS_SCHEME_DARK								"Dark";
+	IDS_UVMESHLAYER								"UV Mesh Layer";
+	IDS_PRESET_ERROR1							"Error writing Preset";
+	IDS_SELECTPATTERNFOLDER				"Please Select the Folder where the patterns are located!";
+	IDS_LOADPATTERNERROR					"Error loading pattern!|#";
+	IDS_SAVEPATTERNERROR					"Error saving inline pattern!|#";
+
+	IDS_PVPENABLE									"Enable";
+
+	IDS_SAVEPROJECT_ERR1					"Save Project: Error creating directory!|#";
+	IDS_SAVEPROJECT_ERR2					"Save Project: Error writing project file!|#";
+	IDS_SAVEPROJECT_ERR3					"Save Project: Error creating texture folder/saving textures!|#";
+	IDS_DEMOEXPIRATION						"Enter Activation Code";
+	IDS_DEMOACTIVATIONFAILED			"Activation unsuccessful - please check activation code!";
+	IDS_LITEACTIVATIONSUCCEEDED		"Activation successful!";
+	IDS_RS_CLIPDEMO								"Application license limit of 800x450 pixel";
+	IDS_LICENSEEXPIRED						"Invalid License - Please update your license before you go any further!";
+	IDS_LICENSE_FOR_RLM_SERVER		"This is an RLM server license, only client licenses can be installed via Cinema4D. Please install the server license using the RLM webserver - in the left hand margin using 'Edit License Files'.";
+	IDS_RUNTIME										"Runtime";
+
+	IDS_PERMISSIONS_WRONG					"The permissions of some files in your user directory (#) are not correct. The application will now attempt to repair these files. You might be required to enter the administrator password.";
+	IDS_PERMISSIONS_ADMIN_MSG			"Please enter the Administrator password to change the file permissions";
+	IDS_PERMISSIONS_NOT_REPAIRED	"The permissions of the following files could not be repaired. Please set them manually so that you have read and write access.|#";
+
+	IDS_FROMIRR										"Please make sure the IRR (Interactive Render Region)|is enabled in the render view";
+
+	IDS_DATATYPE_TEXTUREMANAGER		"Texture Manager";
+
+	IDS_BUILD											"Build #";
+
+	IDS_LWF_1											"The Application uses Linear Space for Calculations.";
+	IDS_LWF_2											"The Application uses sRGB Space for Calculations.";
+	IDS_LWF_3                     "All Color Fields are assumed to be in sRGB Space. 8- and 16-Bit Images will use embedded profiles or sRGB if not available.";
+	IDS_LWF_4                     "All Color Fields are assumed to be in Linear Space. 8- and 16-Bit Images will use embedded profiles or Linear Space if not available.";
+	IDS_LWF_5                     "All Color Fields and 8/16 Bit Images are assumed to be in Linear Space. Embedded Color Profiles will not be evaluated.";
+	IDS_LWF_6                     "All Color Fields and 8/16 Bit Images are assumed to be in sRGB Space. Embedded Color Profiles will not be evaluated.";
+	IDS_LWF_7                     "This is the Default Setting.";
+	IDS_LWF_8                     "This was the Default Setting for Release 11.5 and before.";
+
+	IDS_CM_DISABLED								"Color Management Disabled";
+	IDS_CM_LINK										"Link Monitor Profile";
+	IDS_CM_LOAD										"Load...";
+	IDS_CM_SAVE										"Save...";
+	IDS_CM_LOADFROMMONITOR				"Load from Monitor";
+	IDS_CM_SRGB										"sRGB IEC61966-2.1";
+	IDS_CM_LINEAR									"Linear";
+	IDS_CM_CURRENT								"Current Monitor Profile (#)";
+	IDS_CM_CHOOSEPROFILE					"Choose a Color Profile to Load";
+	IDS_CM_ERROR1									"Error loading Color Profile|#";
+	IDS_CM_CHOOSESAVE							"Choose a Filename to save the Color Profile";
+	IDS_CM_ERROR2									"Error saving Color Profile|#";
+	IDS_CM_DATATYPE								"Color Profile";
+
+	IDS_SUBMENU_HAIROBJECTS				"Hair Objects";
+	IDS_SUBMENU_HAIRMODE					"Hair Mode";
+	IDS_SUBMENU_HAIREDIT					"Hair Edit";
+	IDS_SUBMENU_HAIRSELECTION			"Hair Selection";
+	IDS_SUBMENU_HAIRTOOLS					"Hair Tools";
+	IDS_SUBMENU_HAIROPTIONS				"Hair Options";
+
+	IDS_LOADIES										"Please select IES file...";
+	IDS_COULDNOTLOAD							"Wrong file type. File could not be loaded.";
+	IDS_ADDIES										"IES Light...";
+	IDS_ADDIESHELP								"Add IES Light";
+	IDS_DATATYPE_UNITSCALE				"Unit Scale";
+	IDS_DOCUMENT_UNIT_KM					"Kilometers";
+	IDS_DOCUMENT_UNIT_M						"Meters";
+	IDS_DOCUMENT_UNIT_CM					"Centimeters";
+	IDS_DOCUMENT_UNIT_MM					"Millimeters";
+	IDS_DOCUMENT_UNIT_MICRO				"Micrometers";
+	IDS_DOCUMENT_UNIT_NM					"Nanometers";
+	IDS_DOCUMENT_UNIT_MILE				"Miles";
+	IDS_DOCUMENT_UNIT_YARD				"Yards";
+	IDS_DOCUMENT_UNIT_FOOT				"Feet";
+	IDS_DOCUMENT_UNIT_INCH				"Inches";
+
+	IDS_LOAD_KINEMATIC						"Kinematic Tag";
+	IDS_LOAD_ANCHOR								"Anchor Tag";
+	IDS_LOAD_IK										"IK Expression";
+	IDS_LOAD_FIX									"Fix Expression";
+	IDS_DEPRECATEDDYNAMICS				"Deprecated Dynamics Components have been removed";
+	IDS_PICKMODE									"Pick Mode: Click on an object, material, tag, track ...";
+
+	IDS_DEPRECATED1 							"Several plugins used in this project are missing.|Saving will cause loss of plugin data!|#";
+
+	IDS_ANIMATIONTAGS							"Animation Tags";
+	IDS_CAMERATAGS								"Camera Tags";
+	IDS_GENERALTAGS								"Other Tags";
+	IDS_HAIRTAGS 									"Hair Tags";
+	IDS_MODELINGTAGS							"Modeling Tags";
+	IDS_MOGRAPHTAGS 							"MoGraph Tags";
+	IDS_PHOENIXTAGS								"Tracker Tags";
+	IDS_RENDERTAGS								"Render Tags";
+	IDS_RIGGINGTAGS								"Rigging Tags";
+	IDS_SCRIPTTAG 								"Programming Tags";
+	IDS_SIMULATIONTAGS 						"Simulation Tags";
+	IDS_TEXTURINGTAGS							"Material Tags";
+
+	IDS_SCRIPTING_MAIN 						"Script";
+
+	IDS_MAC_ABOUT									"About Cinema 4D";
+	IDS_MAC_PREFERENCES						"Preferences...";
+	IDS_MAC_HIDE									"Hide Cinema 4D";
+	IDS_MAC_HIDE_OTHERS						"Hide Others";
+	IDS_MAC_SHOW_ALL							"Show All";
+	IDS_MAC_QUIT									"Quit Cinema 4D";
+
+	IDS_OUTPUTRESOLUTION					"Files cannot be written - resolution not supported by file format!";
+	IDS_RESOLUTIONTOOHIGH					"The output resolution is too high for the selected render engine";
+
+	IDS_DESC_LOCK									"Lock";
+	IDS_DESC_UNLOCK								"Unlock";
+	IDS_DESC_HIDE									"Hide";
+	IDS_DESC_UNHIDE								"Unhide";
+	IDS_CHOOSEPREVIEWIMAGE				"Choose Preview Image";
+
+  IDS_STREAM "Stream";
+  IDS_MERGEDSTREAM "Merged";
+
+	IDS_XMB_PREPAREMOTION         "Preparing Motion";
+	IDS_PREPARESUBSURFACE         "Preparing Sub-Surface Caches...";
+	IDS_XMB_SKYMAPS               "Preparing Sky Maps...";
+	IDS_XMB_SUBIRRADIANCE         "Calculating Sub-Surface Irradiance...";
+	IDS_XMB_INTERACTIVE           "Progressive Pass";
+	IDS_XMB_BUILDTREE							"Building Raycast Accelerator...";
+
+	IDS_MENU_SHOW									"Show";
+	IDS_MENU_CREATE								"Create";
+	IDS_MENU_CAMERA								"Camera";
+	IDS_MENU_LIGHT								"Light";
+	IDS_MENU_MATERIAL							"Material";
+	IDS_MENU_OBJECT								"Primitive";
+	IDS_MENU_PHYSICALSKY					"Physical Sky";
+	IDS_MENU_XREF									"XRef";
+	IDS_MENU_ARRANGEOBJECTS				"Arrange Objects";
+	IDS_MENU_COORDINATES					"Coordinates";
+	IDS_MENU_MODES								"Modes";
+	IDS_MENU_TWEAK								"Tweak";
+	IDS_MENU_EXECUTION						"Execution";
+	IDS_MENU_MESH									"Mesh";
+	IDS_MENU_CONVERSION						"Conversion";
+	IDS_MENU_COMMANDS							"Commands";
+	IDS_MENU_CREATETOOLS					"Create Tools";
+	IDS_MENU_TRANSFORMTOOLS				"Transform Tools";
+	IDS_MENU_POLYGONTOOLS					"Polygon Tools";
+	IDS_MENU_SPLINE								"Spline";
+	IDS_MENU_NGON									"N-Gons";
+	IDS_MENU_NORMALS							"Normals";
+	IDS_MENU_VOLUME								"Volume";
+	IDS_MENU_VOLUME_COMMANDS			"Commands";
+	IDS_MENU_VOLUME_FILTER_SDF		"Signed Distance Field Filters";
+	IDS_MENU_VOLUME_FILTER_FOG		"Fog Filters";
+	IDS_MENU_VOLUME_FILTER_VECTOR	"Vector Filters";
+	IDS_MENU_MOGRAPH							"MoGraph";
+	IDS_MENU_EFFECTOR							"Effector";
+	IDS_MENU_FIELD								"Field";
+	IDS_MENU_MENUS								"Menus";
+	IDS_MENU_LAYOUTS							"Layouts";
+	IDS_MENU_VIEW									"View";
+	IDS_MENU_AXONOMETRIC					"Axonometric";
+	IDS_MENU_OPTIONS							"Options";
+	IDS_MENU_CINEMAN							"CineMan";
+	IDS_MENU_NODE_SPACES					"Node Spaces";
+	IDS_NODE_SPACES_INTERFACE			"Node Space:";
+	IDS_NODE_SPACES_CURRENT				"Current";
+	IDS_NODE_SPACES_UNKNOWN				"Unknown";
+	IDS_LAYOUTNAME								"Layout:";
+	IDS_RESETLAYOUT								"Reset Layout";
+	IDS_NO_STEREO_CAMERA_FOUND		"The current camera does not have Stereoscopy enabled. Would you like to activate it?";
+
+	IDS_SEPARATOR									"Separator";
+
+	IDS_MENU_TOOLSANDMODES				"Modes";
+	IDS_MENU_PROJECTS							"Projects";
+	IDS_MENU_SNAPPING							"Snap";
+	IDS_MENU_TAG									"Tag";
+
+	M_CMIP_TABS										"Tabs";
+	IDS_CA_BUILDER								"Character Builder";
+	IDS_SHADER										"Extensions";
+	IDS_NODEMATERIALS							"Node Material Presets";
+
+	IDS_SPLASHSCREEN_ABOUT_TITLE	"Cinema 4D & BodyPaint 3D";
+	IDS_SPLASHSCREEN_ABOUT_YEAR		"(c) 1989 - #";
+	IDS_SPLASHSCREEN_ABOUT1				"by Maxon Computer GmbH";
+	IDS_SPLASHSCREEN_ABOUT2				"All rights reserved";
+	IDS_SPLASHSCREEN_ABOUT3				"Maxon and Cinema 4D";
+	IDS_SPLASHSCREEN_ABOUT4				"are trademarks of";
+	IDS_SPLASHSCREEN_ABOUT5				"Maxon Computer GmbH";
+	IDS_SPLASHSCREEN_ABOUT_THANKS	"Special thanks to everyone at Maxon, its subsidiaries and affiliates, as well as those who provided feedback, guidance and assistance in the development of this release.||Special recognition goes out to our dedicated team of beta testers, whose tireless efforts and attention to detail are greatly appreciated.";
+
+	IDS_NFR_MESSAGE_TITLE					"Non-Commercial Sample Copy";
+	IDS_NFR_MESSAGE								"This copy of the software may be used solely for demonstration purposes of the features and functionality of the software. No commercial or production work is permitted. Any resale or transfer to a third person - regardless if provided for free or for compensation - is prohibited.";
+
+	IDS_VERSIONSORRYSTUDENT				"Activation or legitimation needed";
+
+	IDS_CORRUPTION                "A problem with this project has been detected:|#.|Please save and contact Maxon Support|with a description of the last used commands, actions or plugins.";
+
+	IDM_SCULPT_LAYERS							"Layers";
+	IDM_SCULPT_TOOLS							"Tools";
+	IDM_SCULPT_LAYER_MIRROR						"Mirror Layer To";
+	IDM_SCULPT_LAYER_MIRROR_MASK				"Mirror Mask To";
+	IDM_SCULPT_LAYER_MIRROR_OBJECT				"Mirror Object To";
+	IDM_SCULPT_SMARTRESYM						"Equalize";
+
+	IDS_AM_NOTHINGFOUND						"Sorry, no results found - try altering your search.";
+	IDS_NO_ANTIALIAS							"None";
+
+	IDS_DOCUMENT_BROWSERPRESET			"Project Settings Preset";
+	IDS_BROWSERPRESET_PRESETEXISTS	"A # with the name # already exists, do you want to overwrite it?";
+	IDS_BROWSERPRESET_SAVEERROR			"Preset could not be saved!";
+
+	IDS_TYPEMISMATCH							"The datatype of this file doesn't match to this property";
+	IDS_MENU_WORKPLANE						"Workplane";
+	IDS_MENU_SCULPTING						"Sculpt";
+	IDS_MENU_BRUSHES							"Brushes";
+	IDS_MENU_MASK									"Mask";
+	IDS_EDITOR_SCRIPT_TOOLS				"Tools";
+	IDS_EDITOR_PLUGINS_TOOLS			"Tools";
+	IDS_EDITOR_SNAPPING						"Snap";
+
+	IDS_DESCINFO_INPORT_CONNECTED		"Inport connected";
+	IDS_DESCINFO_OUTPORT_CONNECTED	"Outport connected";
+	IDS_DESCINFO_INPORT							"Inport";
+	IDS_DESCINFO_OUTPORT						"Outport";
+	IDS_DESCINFO_OBJECT							"Object";
+	IDS_DESCINFO_TAG								"Tag";
+	IDS_DESCINFO_NODE								"Node";
+
+	IDS_PRESETPOPUP_NOPRESETSFOUND		"No presets found.";
+	IDS_PRESETPOPUP_CLOSE							"Close";
+
+	IDS_MULTIPASS_POSITIONPASS			"Position Pass";
+	IDS_MULTIPASS_NORMALPASS				"Normal Pass";
+
+	IDS_FILEOUTDATED								"The file: #|is too old and cannot be read.|It was created with Cinema 4D R11.5 or older.|You can still convert it with any Cinema 4D version up to R19.";
+
+	IDS_REG_DAYSLEFT								"(#, # days left)";
+	IDS_ASKABSOLUTETEXTURE					"The following textures are not in the current project folder or search path!|Do you want to change the path information to absolute paths?||#";
+	IDS_ANDMORE											"...and # more texture(s)";
+
+	IDS_NOMACHINESSELECTED          "No machines were selected for Team Render.";
+	IDS_NOMACHINEONLINE             "Right now no machine is online for Team Render.|Do you want to continue and wait until a chosen machine goes online and starts the rendering automatically?";
+
+  IDS_TEAMRENDER                  "Team Render";
+  IDS_TEAMRENDER_INITIALIZED      "Team Render Initialized";
+  IDS_TEAMRENDER_ING              "Team Rendering";
+  IDS_TEAMRENDER_INITIALIZING     "Team Render Initializing";
+  IDS_UNKNOWN_RENDERENGINE        "Render engine in this project is missing. Plugin (ID #)";
+
+  IDS_SAVEPROJECT_COPYERROR       "Could not save project because a file could not be copied (maybe low space, missing directory or invalid write permissions).";
+
+	IDS_MATERIAL_REFLECTION_LAYERS				"Reflectance Layers";
+
+	IDS_REFLECTION_LAYER_GLOBAL_LAYER									"Layer";
+	IDS_REFLECTION_LAYER_GLOBAL_LAYERS								"Layers";
+	IDS_REFLECTION_LAYER_GLOBAL_SHADER								"Texture";
+	IDS_REFLECTION_LAYER_GLOBAL_TRANSPARENT						" * Transparency *";
+  IDS_REFLECTION_LAYER_GLOBAL_DIFFUSE               "Default Diffuse";
+	IDS_REFLECTION_LAYER_GLOBAL_SPECULAR							"Default Specular";
+	IDS_REFLECTION_LAYER_GLOBAL_REFLECTION						"Default Reflection";
+	IDS_REFLECTION_LAYER_GLOBAL_ADD										"Add...";
+	IDS_REFLECTION_LAYER_GLOBAL_REMOVE								"Remove";
+	IDS_REFLECTION_LAYER_GLOBAL_COPY									"Copy";
+	IDS_REFLECTION_LAYER_GLOBAL_PASTE									"Paste";
+	IDS_REFLECTION_LAYER_GLOBAL_STRENGTH_REFLECTION		"Global Reflection Brightness";
+	IDS_REFLECTION_LAYER_GLOBAL_STRENGTH_SPECULAR			"Global Specular Brightness";
+	IDS_REFLECTION_LAYER_GLOBAL_SEPARATE_PASS					"Separate Pass";
+	IDS_REFLECTION_LAYER_GLOBAL_LINEAR_TEXTURES				"Linear Color Space Fix";
+
+	IDS_REFLECTION_LAYER_MENU_REMOVE									"Remove";
+	IDS_REFLECTION_LAYER_MENU_COPY										"Copy";
+	IDS_REFLECTION_LAYER_MENU_PASTE										"Paste";
+	IDS_REFLECTION_LAYER_MENU_DUPLICATE								"Duplicate";
+
+	IDS_REFLECTION_LAYER_MULTIPASS_PREMULTIPLY				"Composed";
+	IDS_REFLECTION_LAYER_MULTIPASS_MULTIPLY						"Multiply";
+	IDS_REFLECTION_LAYER_MULTIPASS_REFLECTION					"Reflection_Base";
+	IDS_REFLECTION_LAYER_MULTIPASS_SPECULAR						"Specular_Base";
+
+	IDS_REFLECTION_LAYER_MAIN_DISTRIBUTION						"Type";
+	IDS_REFLECTION_LAYER_MAIN_ADDITIVE								"Attenuation";
+	IDS_REFLECTION_LAYER_MAIN_COLORED_REFLECTION			"Colored";
+	IDS_REFLECTION_LAYER_MAIN_COLORED_SPECULAR				"Colored";
+	IDS_REFLECTION_LAYER_MAIN_VALUE_ROUGHNESS					"Roughness";
+	IDS_REFLECTION_LAYER_MAIN_VALUE_WIDTH							"Width";
+	IDS_REFLECTION_LAYER_MAIN_VALUE_FALLOFF						"Falloff";
+	IDS_REFLECTION_LAYER_MAIN_VALUE_INNER							"Inner Width";
+	IDS_REFLECTION_LAYER_MAIN_VALUE_ORENNAYAR					"Roughness";
+	IDS_REFLECTION_LAYER_MAIN_VALUE_REFLECTION				"Reflection Strength";
+	IDS_REFLECTION_LAYER_MAIN_VALUE_SPECULAR					"Specular Strength";
+
+	IDS_REFLECTION_LAYER_MAIN_VALUE_BUMP							"Bump Strength";
+	IDS_REFLECTION_LAYER_MAIN_VALUE_BUMP_MODE					"Mode";
+	IDS_REFLECTION_LAYER_MAIN_VALUE_BUMP_SPACE				"Method";
+	IDS_REFLECTION_LAYER_MAIN_VALUE_BUMP_BUMP					"Strength";
+	IDS_REFLECTION_LAYER_MAIN_VALUE_BUMP_NORM					"Strength";
+	IDS_REFLECTION_LAYER_MAIN_VALUE_BUMP_MIPMAP				"MIP Falloff";
+	IDS_REFLECTION_LAYER_MAIN_VALUE_BUMP_REVERSEX			"Flip X (Red)";
+	IDS_REFLECTION_LAYER_MAIN_VALUE_BUMP_REVERSEY			"Flip Y (Green)";
+	IDS_REFLECTION_LAYER_MAIN_VALUE_BUMP_REVERSEZ			"Flip Z (Blue)";
+	IDS_REFLECTION_LAYER_MAIN_VALUE_BUMP_SWAP					"Swap Y & Z (Y up)";
+	IDS_REFLECTION_LAYER_MAIN_VALUE_BUMP_CUSTOM				"Custom Texture";
+
+	IDS_REFLECTION_LAYER_COLOR_GROUP									"Layer Color";
+	IDS_REFLECTION_LAYER_COLOR_COLOR									"Color";
+	IDS_REFLECTION_LAYER_COLOR_BRIGHTNESS							"Brightness";
+	IDS_REFLECTION_LAYER_COLOR_TEXTURE								"Texture";
+	IDS_REFLECTION_LAYER_COLOR_MIX_MODE								"Mix Mode";
+	IDS_REFLECTION_LAYER_COLOR_MIX_STRENGTH						"Mix Strength";
+
+	IDS_REFLECTION_LAYER_TRANS_GROUP									"Layer Mask";
+	IDS_REFLECTION_LAYER_TRANS_COLOR									"Color";
+	IDS_REFLECTION_LAYER_TRANS_BRIGHTNESS							"Amount";
+	IDS_REFLECTION_LAYER_TRANS_TEXTURE								"Texture";
+	IDS_REFLECTION_LAYER_TRANS_MIX_MODE								"Mix Mode";
+	IDS_REFLECTION_LAYER_TRANS_MIX_STRENGTH						"Mix Strength";
+
+	IDS_REFLECTION_LAYER_ANISO_GROUP									"Layer Anisotropy";
+	IDS_REFLECTION_LAYER_ANISO_PROJECTION							"Re-projection";
+	IDS_REFLECTION_LAYER_ANISO_PROJECTION_SCALE				"Scale";
+	IDS_REFLECTION_LAYER_ANISO_PROJECTION_ANGLE				"Angle";
+	IDS_REFLECTION_LAYER_ANISO_PROJECTION_OFFSET_U		"Offset U";
+	IDS_REFLECTION_LAYER_ANISO_PROJECTION_OFFSET_V		"Offset V";
+	IDS_REFLECTION_LAYER_ANISO_PROJECTION_COUNT				"Count";
+	IDS_REFLECTION_LAYER_ANISO_PATTERN								"Pattern";
+	IDS_REFLECTION_LAYER_ANISO_MIRROR									"Mirror";
+	IDS_REFLECTION_LAYER_ANISO_SCRATCHES							"Scratches";
+	IDS_REFLECTION_LAYER_ANISO_VALUE_CUSTOM						"Max Angle";
+	IDS_REFLECTION_LAYER_ANISO_VALUE_ANISOTROPY				"Anisotropy";
+	IDS_REFLECTION_LAYER_ANISO_VALUE_ORIENTATION			"Orientation";
+
+	IDS_REFLECTION_LAYER_PRIMARY_VALUE_AMPLITUDE			"Primary Amplitude";
+	IDS_REFLECTION_LAYER_PRIMARY_VALUE_SCALE					"Primary Scale";
+	IDS_REFLECTION_LAYER_PRIMARY_VALUE_LENGTH					"Primary Length";
+	IDS_REFLECTION_LAYER_PRIMARY_VALUE_ATTENUATION		"Primary Attenuation";
+
+	IDS_REFLECTION_LAYER_SECONDARY_VALUE_AMPLITUDE		"Secondary Amplitude";
+	IDS_REFLECTION_LAYER_SECONDARY_VALUE_SCALE				"Secondary Scale";
+	IDS_REFLECTION_LAYER_SECONDARY_VALUE_LENGTH				"Secondary Length";
+	IDS_REFLECTION_LAYER_SECONDARY_VALUE_ATTENUATION	"Secondary Attenuation";
+
+	IDS_REFLECTION_LAYER_FRESNEL_GROUP								"Layer Fresnel";
+	IDS_REFLECTION_LAYER_FRESNEL_MODE									"Fresnel";
+	IDS_REFLECTION_LAYER_FRESNEL_PRESET								"Preset";
+	IDS_REFLECTION_LAYER_FRESNEL_METAL								"Preset";
+	IDS_REFLECTION_LAYER_FRESNEL_INVERTED							"Invert";
+	IDS_REFLECTION_LAYER_FRESNEL_OPAQUE								"Opaque";
+	IDS_REFLECTION_LAYER_FRESNEL_VALUE_STRENGTH				"Strength";
+	IDS_REFLECTION_LAYER_FRESNEL_VALUE_IOR						"IOR";
+	IDS_REFLECTION_LAYER_FRESNEL_VALUE_ETA						"IOR";
+	IDS_REFLECTION_LAYER_FRESNEL_VALUE_ABSORP					"Absorption";
+
+	IDS_REFLECTION_LAYER_SAMPLING_GROUP								"Layer Sampling";
+	IDS_REFLECTION_LAYER_SAMPLING_DIM									"Distance Dim";
+	IDS_REFLECTION_LAYER_SAMPLING_DIM_DISTANCE				"Distance";
+	IDS_REFLECTION_LAYER_SAMPLING_DIM_FALLOFF					"Falloff";
+	IDS_REFLECTION_LAYER_SAMPLING_DIM_COLOR						"Distant Color";
+	IDS_REFLECTION_LAYER_SAMPLING_CLAMP								"Clamp Secondary";
+	IDS_REFLECTION_LAYER_SAMPLING_CUTOFF							"Cutoff";
+	IDS_REFLECTION_LAYER_SAMPLING_EXIT_COLOR					"Exit Color";
+	IDS_REFLECTION_LAYER_SAMPLING_SEPARATE_PASS				"Separate Pass";
+	IDS_REFLECTION_LAYER_SAMPLING_SAMPLE_COUNT				"Sampling Subdivisions";
+
+	IDS_REFLECTION_LAYER_CLOTH_GROUP									"Layer Cloth";
+	IDS_REFLECTION_LAYER_CLOTH_PRESET									"Preset";
+	IDS_REFLECTION_LAYER_CLOTH_PATTERN								"Pattern";
+	IDS_REFLECTION_LAYER_CLOTH_QUALITY								"Quality";
+	IDS_REFLECTION_LAYER_CLOTH_SMOOTHING							"Smoothing";
+	IDS_REFLECTION_LAYER_CLOTH_SCATTERING_UNIFORM			"Scattering - Uniform";
+	IDS_REFLECTION_LAYER_CLOTH_SCATTERING_FORWARD			"Scattering - Forward";
+
+	IDS_REFLECTION_LAYER_CLOTH_VALUE_ORIENTATION			"Orientation";
+	IDS_REFLECTION_LAYER_CLOTH_VALUE_SCALE_U					"Scale U";
+	IDS_REFLECTION_LAYER_CLOTH_VALUE_SCALE_V					"Scale V";
+	IDS_REFLECTION_LAYER_CLOTH_VALUE_HIGHLIGHTS				"Highlights Width";
+
+	IDS_REFLECTION_LAYER_CLOTH_NOISE_INTENSITY				"Noise Strength";
+	IDS_REFLECTION_LAYER_CLOTH_NOISE_SCALE						"Noise Scale";
+	IDS_REFLECTION_LAYER_CLOTH_NOISE_SHAPE_WARP				"Yarn Noise (Warp)";
+	IDS_REFLECTION_LAYER_CLOTH_NOISE_SHAPE_WEFT				"Yarn Noise (Weft)";
+	IDS_REFLECTION_LAYER_CLOTH_NOISE_SHAPE_SCALE			"Yarn Noise Scale";
+
+	IDS_REFLECTION_LAYER_CLOTH_COLOR_DIFFUSE_WARP			"Diffuse Warp";
+	IDS_REFLECTION_LAYER_CLOTH_COLOR_DIFFUSE_WEFT			"Diffuse Weft";
+	IDS_REFLECTION_LAYER_CLOTH_COLOR_SPECULAR_WARP		"Specular Warp";
+	IDS_REFLECTION_LAYER_CLOTH_COLOR_SPECULAR_WEFT		"Specular Weft";
+
+	IDS_REFLECTION_LAYER_DEBUG_GROUP									"Debug";
+	IDS_REFLECTION_LAYER_DEBUG_DUDV										"DEBUG DUDV Mode";
+	IDS_REFLECTION_LAYER_DEBUG_SCRATCHES							"DEBUG Scratch Mode";
+	IDS_REFLECTION_LAYER_DEBUG_WARMNESS								"";
+	IDS_REFLECTION_LAYER_DEBUG_CLOTH									"DEBUG Cloth Mode";
+
+
+	IDS_REFLECTION_DISTRIBUTION_BECKMANN							"Beckmann";
+	IDS_REFLECTION_DISTRIBUTION_GGX										"GGX";
+	IDS_REFLECTION_DISTRIBUTION_PHONG									"Phong";
+	IDS_REFLECTION_DISTRIBUTION_WARD									"Ward";
+	IDS_REFLECTION_DISTRIBUTION_ANISOTROPIC						"Anisotropic";
+	IDS_REFLECTION_DISTRIBUTION_REFLECTION						"Reflection (Legacy)";
+	IDS_REFLECTION_DISTRIBUTION_SPECULAR_BLINN				"Specular - Blinn (Legacy)";
+	IDS_REFLECTION_DISTRIBUTION_SPECULAR_PHONG				"Specular - Phong (Legacy)";
+	IDS_REFLECTION_DISTRIBUTION_LAMBERTIAN						"Lambertian (Diffuse)";
+	IDS_REFLECTION_DISTRIBUTION_ORENNAYAR							"Oren-Nayar (Diffuse)";
+	IDS_REFLECTION_DISTRIBUTION_IRAWAN								"Irawan (Woven Cloth)";
+
+	IDS_REFLECTION_ADDITIVE_AVERAGE										"Average";
+	IDS_REFLECTION_ADDITIVE_MIN												"Minimum";
+	IDS_REFLECTION_ADDITIVE_MAX												"Maximum";
+	IDS_REFLECTION_ADDITIVE_ADD												"Additive";
+	IDS_REFLECTION_ADDITIVE_METAL											"Metal";
+
+	IDS_REFLECTION_MIXING_NORMAL											"Normal";
+	IDS_REFLECTION_MIXING_ADD													"Add";
+	IDS_REFLECTION_MIXING_SUBTRACT										"Subtract";
+	IDS_REFLECTION_MIXING_MULTIPLY										"Multiply";
+
+	IDS_REFLECTION_BUMP_MODE_DEFAULT									"Default";
+	IDS_REFLECTION_BUMP_MODE_BUMP											"Custom Bump Map";
+	IDS_REFLECTION_BUMP_MODE_NORMAL										"Custom Normal Map";
+
+	IDS_REFLECTION_BUMP_SPACE_TANGENT									"Tangent";
+	IDS_REFLECTION_BUMP_SPACE_LOCAL										"Object";
+	IDS_REFLECTION_BUMP_SPACE_WORLD										"World";
+
+	IDS_REFLECTION_PROJECTION_NONE										"None";
+	IDS_REFLECTION_PROJECTION_PLANAR									"Planar";
+	IDS_REFLECTION_PROJECTION_RADIAL									"Radial";
+
+	IDS_REFLECTION_MIRROR_NONE												"None";
+	IDS_REFLECTION_MIRROR_U														"Mirror U";
+	IDS_REFLECTION_MIRROR_V														"Mirror V";
+	IDS_REFLECTION_MIRROR_UV													"Mirror U+V";
+
+	IDS_REFLECTION_PATTERN_NONE												"None";
+	IDS_REFLECTION_PATTERN_CIRCULAR										"Circular";
+	IDS_REFLECTION_PATTERN_BOX												"Box";
+	IDS_REFLECTION_PATTERN_DIAGONAL										"Diagonal";
+	IDS_REFLECTION_PATTERN_LATTICE										"Lattice";
+	IDS_REFLECTION_PATTERN_CUSTOM											"Custom";
+
+	IDS_REFLECTION_SCRATCHES_NONE											"None";
+	IDS_REFLECTION_SCRATCHES_PRIMARY									"Primary";
+	IDS_REFLECTION_SCRATCHES_SECONDARY								"Secondary";
+	IDS_REFLECTION_SCRATCHES_BOTH											"Primary + Secondary";
+
+	IDS_REFLECTION_CLOTH_PRESET_CUSTOM								"Custom";
+	IDS_REFLECTION_CLOTH_PRESET_A											"Blue Gabardine (Suits)";
+	IDS_REFLECTION_CLOTH_PRESET_B											"Blue Denim (Jeans)";
+	IDS_REFLECTION_CLOTH_PRESET_C											"Green Twill (Sturdy Fabric)";
+	IDS_REFLECTION_CLOTH_PRESET_D											"Brown Charmeuse (Lining)";
+	IDS_REFLECTION_CLOTH_PRESET_E											"Blue Shantung (Gowns)";
+	IDS_REFLECTION_CLOTH_PRESET_F											"Purple Polyester (Lining)";
+
+	IDS_REFLECTION_CLOTH_PATTERN_COTTON_DENIM					"Cotton Denim";
+	IDS_REFLECTION_CLOTH_PATTERN_COTTON_TWILL					"Cotton Twill";
+	IDS_REFLECTION_CLOTH_PATTERN_POLYESTER_LINING			"Polyester Lining";
+	IDS_REFLECTION_CLOTH_PATTERN_SILK_CHARMEUSE				"Silk Charmeuse";
+	IDS_REFLECTION_CLOTH_PATTERN_SILK_SHANTUNG				"Silk Shantung";
+	IDS_REFLECTION_CLOTH_PATTERN_WOOL_GABARDINE				"Wool Gabardine";
+
+	IDS_REFLECTION_CLOTH_QUALITY_LOW									"Low";
+	IDS_REFLECTION_CLOTH_QUALITY_MEDIUM								"Medium";
+	IDS_REFLECTION_CLOTH_QUALITY_HIGH									"High";
+
+	IDS_REFLECTION_FRESNEL_NONE												"None";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC									"Dielectric";
+	IDS_REFLECTION_FRESNEL_CONDUCTOR									"Conductor";
+
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_CUSTOM					"Custom";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_ASPHALT					"Asphalt";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_BEER						"Beer";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_DIAMOND					"Diamond";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_EMERALD					"Emerald";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_ETHANOL					"Ethanol";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_GLASS						"Glass";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_JADE						"Jade";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_MILK						"Milk";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_OIL_VEGETABLE		"Oil (Vegetable)";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_PEARL						"Pearl";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_PET							"PET";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_PLEXIGLASS			"Plexiglas";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_RUBY						"Ruby";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_SAPPHIRE				"Sapphire";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_WATER						"Water";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_WATER_ICE				"Water (Ice)";
+	IDS_REFLECTION_FRESNEL_DIELECTRIC_WHISKEY					"Whiskey";
+
+	IDS_REFLECTION_FRESNEL_METAL_CUSTOM								"Custom";
+	IDS_REFLECTION_FRESNEL_METAL_ALUMINUM							"Aluminum";
+	IDS_REFLECTION_FRESNEL_METAL_BERYLLIUM						"Beryllium";
+	IDS_REFLECTION_FRESNEL_METAL_CHROMIUM							"Chromium";
+	IDS_REFLECTION_FRESNEL_METAL_COPPER								"Copper";
+	IDS_REFLECTION_FRESNEL_METAL_COPPER_OXIDE					"Copper Oxide";
+	IDS_REFLECTION_FRESNEL_METAL_GOLD									"Gold";
+	IDS_REFLECTION_FRESNEL_METAL_IRIDIUM							"Iridium";
+	IDS_REFLECTION_FRESNEL_METAL_IRON									"Iron";
+	IDS_REFLECTION_FRESNEL_METAL_LITHIUM							"Lithium";
+	IDS_REFLECTION_FRESNEL_METAL_MAGNESIUM_OXIDE			"Magnesium Oxide";
+	IDS_REFLECTION_FRESNEL_METAL_MERCURY							"Mercury";
+	IDS_REFLECTION_FRESNEL_METAL_NICKEL								"Nickel";
+	IDS_REFLECTION_FRESNEL_METAL_NIOBIUM							"Niobium";
+	IDS_REFLECTION_FRESNEL_METAL_POTASSIUM						"Potassium";
+	IDS_REFLECTION_FRESNEL_METAL_RHODIUM							"Rhodium";
+	IDS_REFLECTION_FRESNEL_METAL_SELENIUM							"Selenium";
+	IDS_REFLECTION_FRESNEL_METAL_SILICON_CARBIDE			"Silicon Carbide";
+	IDS_REFLECTION_FRESNEL_METAL_SILVER								"Silver";
+	IDS_REFLECTION_FRESNEL_METAL_SODIUM								"Sodium";
+	IDS_REFLECTION_FRESNEL_METAL_TANTALUM							"Tantalum";
+	IDS_REFLECTION_FRESNEL_METAL_TELLURIUM						"Telluride";
+	IDS_REFLECTION_FRESNEL_METAL_TIN_TELLURIDE				"Tin Telluride";
+	IDS_REFLECTION_FRESNEL_METAL_TITANIUM_NITRIDE			"Titanium Nitride";
+	IDS_REFLECTION_FRESNEL_METAL_TUNGSTEN							"Tungsten";
+	IDS_REFLECTION_FRESNEL_METAL_VANADIUM							"Vanadium";
+
+	IDS_SKETCHCAT 								"Sketch and Toon";
+	IDS_MOGRAPHCAT 								"MoGraph";
+
+	IDS_NOTRSUPPORT                "Render Engine does not support Team Render";
+	IDS_UNKNOWNRENDERENGINE        "Render Engine is not installed";
+
+	IDS_OVERRIDEVALUE_BUBBLETEXT	" Value Overridden In Take: ";
+
+	IDS_COLOR_TEXT_AUTOTAKE 	"General - Text - Autotake";
+	IDS_COLOR_TEXT_AUTOTAKE_DARK "General - Text - Autotake Dark";
+	IDS_MENU_TAKES "Takes";
+
+	IDS_REFLECTION_LAYER_GLOBAL_DESCENTRY			"Layer Setup";
+
+	IDS_DESC_GO_TO_RESOURCE														"Go To Resource";
+	IDS_DESC_COPY_RESOURCE_PATH												"Copy Res. Path To Clipboard";
+	IDS_NEWFEATURE_OFF "Off";
+	IDS_C4D_SERIAL_WARNING1A						"A problem has been detected with your serial number. Please make sure it is correct and re-enter your serial number.";
+	IDS_C4D_SERIAL_WARNING1B						"A problem has been detected with your serial number. Please make sure it is correct and re-enter your serial number within # days.";
+	IDS_C4D_SERIAL_WARNING2A						"Cinema 4D has detected a problem with the serial number. Please check the serial number in the Personalize dialog or at the license server.";
+	IDS_C4D_SERIAL_WARNING2B						"Cinema 4D has detected a problem with the serial number. Please check the serial number in the Personalize dialog or at the license server within # days.";
+	IDS_C4D_SERIAL_WARNING3							"You can correct it in the following dialog, or click on cancel there and correct it later.";
+	IDS_CLR_SERIAL_WARNING1A						"Commandline Render Client has detected a problem with the serial number. Please check the serial number at the license server.";
+	IDS_CLR_SERIAL_WARNING1B						"Commandline Render Client has detected a problem with the serial number. Please check the serial number at the license server within # days.";
+	IDS_CLR_SERIAL_WARNING2							"You can correct it below or press ESC and correct it later.";
+	IDS_CLR_SERIAL_WARNING3							"<<< Press ENTER key to continue >>>";
+	IDS_TR_SERIAL_WARNING1							"Team Render Server has detected a problem with the serial number. Please check the serial number in the Personalize dialog.";
+	IDS_TR_SERIAL_WARNING2							"Team Render Server has detected a problem with the serial number. Please check the serial number in the Personalize dialog within # days.";
+
+	IDS_SHORTCUT_KEYS										"Keys:";
+
+	IDS_MEDIASESSION_OPTIONS												"Options";
+	IDS_MEDIASESSION_NOOPTIONS											"This format has no options.";
+	IDS_MEDIASESSION_SYSTEMOPTIONS									"System options...";
+	IDS_MEDIASESSION_BROWSERPRESET									"Output File Presets";
+	IDS_MEDIASESSION_PRESETS												"Presets";
+	IDS_MEDIASESSION_PRESETS_SAVEBUTTON							"Save Preset...";
+	IDS_MEDIASESSION_PRESETS_DELETEBUTTON						"Delete Preset...";
+	IDS_MEDIASESSION_PRESETEXISTS										"A # with the name # already exists, do you want to overwrite it?";
+	IDS_MEDIASESSION_PRESET_DELETE_WARNING					"You cannot undo this action. Do you want to delete this preset?";
+	IDS_MEDIASESSION_PRESET_CUSTOM									"Custom";
+	IDS_MEDIASESSION_PRESET_UNSUPPORTED							"Unsupported format.";
+
+	IDS_RESOLUTIONMISMATCH							"'#' resolution might be padded or will fail: #.";
+	IDS_WARNING_PHYSICAL_DYNAMIC_MB "WARNING: Please cache dynamic simulations when rendering Motion Blur!";
+	IDS_COLOR_NODES_PORTCONNECTOR_BG		"AM - Background - Node - Connected Port";
+	IDS_COLOR_NODES_PORTCONNECTOR_TEXT	"AM - Text - Node - Connected Port";
+
+	IDS_NE_M_CREATE "Create";
+	IDS_NE_M_ASSET "Assets";
+	IDS_NE_M_EDIT	 "Edit";
+	IDS_NE_M_NODE	"Node";
+	IDS_NE_M_VIEW	"View";
+	
+	IDS_OM_M_EDIT	 "Edit";
+
+	IDS_COLOR_PATHLIST_INVALID_PATH "Pathlist - Invalid Path";
+
+	IDS_MATNAME_PBR "PBR";
+	IDS_MATNAME_UBER "Uber";
+	IDS_MATNAME_NODE "Node";
+
+	IDS_COFFEEWARNING_TITLE														"C.O.F.F.E.E. Warning";
+	IDS_COFFEEWARNING_INFO														"This project contains # old C.O.F.F.E.E. elements which are no longer supported:";
+	IDS_COFFEEWARNING_MOREINFO												"More info on main menu > Script > Console.";
+	IDS_COFFEEWARNING_GETPLUGIN_BUTTON								"Get 'C.O.F.F.E.E. Filter' plugin";
+	IDS_COFFEEWARNING_GETPLUGIN_HTML									"https://labs.maxon.net/?p=3235";
+	IDS_COFFEEWARNING_CLOSE_BUTTON										"Close";
+	IDS_COFFEEWARNING_ELEMENT_MOGRAPH_EFFECTOR				"- MoGraph C.O.F.F.E.E. Effectors: #";
+	IDS_COFFEEWARNING_ELEMENT_EXPRESSIONTAG						"- C.O.F.F.E.E. Expression Tags: #";
+	IDS_COFFEEWARNING_ELEMENT_INTERACTIONTAG					"- Interaction Tags with C.O.F.F.E.E. script: #";
+	IDS_COFFEEWARNING_ELEMENT_XPRESSONODES						"- XPresso C.O.F.F.E.E. Nodes: #";
+	IDS_COFFEEWARNING_CONSOLE_SEPARATOR								"--------------------------------------";
+	IDS_COFFEEWARNING_CONSOLE_ELEMENTSINPROJECT				"# C.O.F.F.E.E. elements in project: #";
+	IDS_COFFEEWARNING_CONSOLE_PROJECTPATH							"Project path: #";
+	IDS_COLOR_SB_TEMPSELECTION					"Object Manager - Temporary Selection";
+	IDS_DESC_RESETENTRY									"Reset Change";
+
+	IDS_NIMBUS_MATERIAL_BAKED "This Material is baked";
+
+	IDS_TONEMAPPING "Tone Mapping";
+	IDS_TYPETOSEARCH "<<Type to search>>";
+	IDS_TYPETOSEARCHFILTER "Filter: #";
+	IDS_LIGHT_COLOR "Light Color";
+	IDS_DISPLAY_COLOR "Display Color";
+
+	IDS_STANDARD_MATERIAL "Standard";
+	IDS_PBR_MATERIAL "PBR";
+	IDS_UBER_MATERIAL "Uber";
+	IDS_NODE_MATERIAL "Node";
+
+	IDS_CACHE_PROXY_TAG "Cache Proxy Tag";
+	IDS_HOUDINI_ENGINE	"Houdini Engine";
+
+	// UV viewport HUD name
+	IDS_PROJECTION_UV	"Texture UV Editor";
+
+	// labels for UV coordinates at each corner of reference quad in UV viewport
+	IDS_UVCOORD_00		"0,0";
+	IDS_UVCOORD_01		"0,1";
+	IDS_UVCOORD_11		"1,1";
+	IDS_UVCOORD_10		"1,0";
+
+	// UV viewport axis
+	IDS_AXIS_U		"U";
+	IDS_AXIS_V		"V";
+
+	// Help bubble text for UV Editor tools
+	IDS_HLP_UVEDIT_UVGIZMO		"UV Transform: Hold ALT to transform based on the anchor point. Hold SHIFT to constrain your transformation. Hold CTRL while dragging a corner to distort selection.";
+	IDS_HLP_UVEDIT_MOVE		"Move: Click and drag to move selection. Hold SHIFT to add to the selection, CTRL to remove. Double-click to select UV island.";
+	IDS_HLP_UVEDIT_UNIFORM_SCALE	"Uniform Scale: Click and drag to scale selection. Hold SHIFT to add to the selection, CTRL to remove. Double-click to select UV island..";
+	IDS_HLP_UVEDIT_SCALE		"Non-Uniform Scale: Click and drag to scale selection. Hold SHIFT to add to the selection, CTRL to remove. Double-click to select UV island.";
+	IDS_HLP_UVEDIT_ROTATE		"Rotate: Click and drag to rotate selection. Hold SHIFT to add to the selection, CTRL to remove. Double-click to select UV island.";
+	IDS_HLP_UVEDIT_MAGNET		"Magnet: Click and drag to deform selection.";
+	IDS_HLP_UVEDIT_SHEARU		"Shear U: Click and drag to shear selection along U-axis. Hold SHIFT to add to the selection, CTRL to remove. Double-click to select UV island.";
+	IDS_HLP_UVEDIT_SHEARV		"Shear V: Click and drag to shear selection along V-axis. Hold SHIFT to add to the selection, CTRL to remove. Double-click to select UV island.";
+
+	IDS_LAYERMANAGER_MENU_LAYERS "Layers";
+	IDS_LAYERMANAGER_MENU_EDIT "Edit";
+	IDS_LAYERMANAGER_MENU_VIEW "View";
+
+	IDS_LICENSE_EXPIRATION_WARNING_ONLINE_NO_INTERNET_TITLE		"[License needs to be refreshed in #]";
+	IDS_LICENSE_EXPIRATION_WARNING_ONLINE_NO_INTERNET_POPUP		"The license needs to be refreshed within #.|Please connect to the Internet to refresh the license.";
+	IDS_LICENSE_EXPIRATION_WARNING_OFFLINE_TITLE							"[License expires in #]";
+	IDS_LICENSE_EXPIRATION_WARNING_OFFLINE_POPUP							"License expires in #.|Please install a new offline license.";
+	IDS_LICENSE_EXPIRATION_WARNING_TEMPORAL_TITLE							"[License expires in #]";
+	IDS_LICENSE_EXPIRATION_WARNING_TEMPORAL_POPUP							"License expires in #.|Please purchase a new license.";
+	IDS_LICENSE_EXPIRATION_WARNING_TRIAL_TITLE								"[Trial expires in #]";
+	IDS_LICENSE_EXPIRATION_WARNING_TRIAL_POPUP								"Trial expires in #.|Please purchase a license.";
+	IDS_LICENSE_EXPIRATION_WARNING_EDUCATIONAL_TITLE					"[Educational expires in #]";
+	IDS_LICENSE_EXPIRATION_WARNING_EDUCATIONAL_POPUP					"Educational expires in #.|Please purchase a license.";
+	IDS_LICENSE_EXPIRATION_WARNING_NFR_TITLE									"[Non-Commercial expires in #]";
+	IDS_LICENSE_EXPIRATION_WARNING_NFR_POPUP									"Non-Commercial expires in #.|Please purchase a license.";
+
+	IDS_LICENSE_EXPIRATION_WARNING_DAYS_LEFT			"# days";
+	IDS_LICENSE_EXPIRATION_WARNING_ONE_DAY_LEFT		"1 day";
+	IDS_LICENSE_EXPIRATION_WARNING_HOURS_LEFT			"#h #m";
+
+	IDS_FIELDMASK	"Mask";
+
+	IDS_SUBSTANCE_ENGINE		"Substance Engine";
+
+	IDS_COLOR_MATERIAL_PREVIEW_BORDER_RENDERING "Material Preview - Border - Rendering";
+	IDS_COLOR_BORDER_PALETTE_EDITMODE "Palette - Border - Edit Mode";
+
+	IDS_SUBMENU_FORCES "Forces";
+
+	IDS_DENOISER "Denoiser";
+	IDS_DENOISER_RAW "Raw";
+	IDS_DENOISER_MSG "Denoising";
+	
+	IDS_LICENSE_MAXON_ACCOUNT					"Maxon Account";
+	IDS_LICENSE_OFFLINE								"Offline License";
+	IDS_LICENSE_OFFLINE_SELECT				"Select the offline license file";
+	IDS_LICENSE_OFFLINE_INSTALL_ERROR	"Error installing offline license:";
+	IDS_LICENSE_SERIAL_NUMBER					"Serial Number";
+	IDS_LICENSE_SERVER								"License Server";
+	IDS_LICENSE_RLM										"RLM";
+	IDS_LICENSE_UNKNOWN								"Unknown";
+	IDS_LICENSE_INVALID_TRY						"No Valid License found. Try again.";
+	IDS_LICENSE_INVALID_SHUTDOWN			"No Valid License found. Program will shutdown.|After pressing Ok you will be asked to save your projects.";
+	IDS_LICENSE_SWITCH_RESTART				"Application will restart due to change from Lite to Commercial license or back.|After pressing Ok you will be asked to save your projects.";
+	IDS_LICENSE_FREE_QUESTION					"Do you really want to free your license|to switch to a different license model?";
+	IDS_LICENSE_MANAGER_QUIT					"Quit";
+
+	IDS_ZYNC													"Google ZYNC";
+    
+    IDS_HELPDIALOG_TITLE                "Help";
+    IDS_HELP_EXTERNAL_REDIRECT_ANCHOR   "[Cinema 4D]: If your browser didn't automatically redirect you, click here.";
+
+	IDS_DISPLAYFILTER_PRESET 	"Viewport Filter Presets";
+
+  // Go Zbrush Bridge
+  IDS_GOZ_BRIDGE                    "Go Zbrush";
+  
+  IDS_USD_BRIDGE					"USD Bridge";
+
+  IDS_OUTDATED_GPU_DRIVER_WARNING_TITLE										"Outdated GPU Driver";
+  IDS_OUTDATED_GPU_DRIVER_WARNING_AMD											"Please ensure you are using the latest AMD Drivers.|At the time of release some older AMD driver versions were found to have stability issues.";
+  IDS_OUTDATED_GPU_DRIVER_WARNING_OTHER										"The current graphics driver is outdated.|We recommend updating to the latest # driver for improved performance and stability.";
+	IDS_OUTDATED_GPU_DRIVER_WARNING_CURRENT_VERSION					"Outdated:";
+  IDS_OUTDATED_GPU_DRIVER_WARNING_MINIMAL_VERSION 				"Recommended (or newer):";
+  IDS_OUTDATED_GPU_DRIVER_WARNING_AMD_URL									"https://www.amd.com/support";
+  IDS_OUTDATED_GPU_DRIVER_WARNING_AMD_URL_INFO						"Visit AMD support page";
+  IDS_OUTDATED_GPU_DRIVER_WARNING_NVIDIA_URL							"https://www.nvidia.com/Download/index.aspx";
+  IDS_OUTDATED_GPU_DRIVER_WARNING_NVIDIA_URL_INFO					"Visit NVIDIA support page";
+  IDS_OUTDATED_GPU_DRIVER_WARNING_INTEL_URL								"https://downloadcenter.intel.com/product/80939/Graphics-Drivers";
+  IDS_OUTDATED_GPU_DRIVER_WARNING_INTEL_URL_INFO					"Visit Intel support page";
+  IDS_OUTDATED_GPU_DRIVER_WARNING_REMIND_ME_NEXT_STARTUP	"Remind Me Next Startup";
+	IDS_OUTDATED_GPU_DRIVER_WARNING_REMIND_ME_IN_2_WEEKS		"Remind Me in 2 Weeks";
+	IDS_OUTDATED_GPU_DRIVER_WARNING_REMIND_NEVER						"Never Remind Me Again";
+}

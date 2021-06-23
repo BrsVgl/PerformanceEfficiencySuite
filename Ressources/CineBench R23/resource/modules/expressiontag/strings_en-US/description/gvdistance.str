@@ -1,0 +1,7 @@
+STRINGTABLE GVdistance
+{
+	GVdistance					"Distance Operator";
+	GV_DISTANCE_INPUT1 	"Input 1";
+	GV_DISTANCE_INPUT2 	"Input 2";
+	GV_DISTANCE_OUTPUT	"Output";
+}

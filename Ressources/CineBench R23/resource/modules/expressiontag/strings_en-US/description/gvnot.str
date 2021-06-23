@@ -1,0 +1,6 @@
+STRINGTABLE GVnot
+{
+	GVnot												"Negate Operator";
+	GV_NOT_INPUT								"Input";
+	GV_NOT_OUTPUT								"Output";
+}

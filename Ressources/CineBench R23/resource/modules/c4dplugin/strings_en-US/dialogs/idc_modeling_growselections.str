@@ -1,0 +1,5 @@
+DIALOGSTRINGS IDC_MODELING_GROWSELECTIONS
+{
+  T1 "Grow Selection";
+  T2 "Grow Using Edges Only";
+}

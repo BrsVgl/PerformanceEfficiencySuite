@@ -1,0 +1,6 @@
+STRINGTABLE XSLALayer
+{
+  XSLALayer                               "Layer Shader";
+
+  SLA_LAYER_BLEND                         "Layers";
+}

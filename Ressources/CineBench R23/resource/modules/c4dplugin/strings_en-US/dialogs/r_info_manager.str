@@ -1,0 +1,17 @@
+DIALOGSTRINGS R_INFO_MANAGER
+{
+  T1 "Coordinates";
+  T2 "X";
+  T3 "Y";
+  T4 "Z";
+  T5 "Object (Rel)";
+  T6 "World";
+  T7 "Scale";
+  T8 "Size";
+  T9 "Size +";
+  T10 "H";
+  T11 "P";
+  T12 "B";
+  T13 "Apply";
+  T14 "Object (Abs)";
+}

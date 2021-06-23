@@ -1,0 +1,11 @@
+STRINGTABLE Xstar 
+{
+	Xstar "Star Shader";
+
+	STARSHADER_COLOR1				"Color 1";
+	STARSHADER_COLOR2 			"Color 2";
+	STARSHADER_STREAKS			"Streaks";
+	STARSHADER_INNERRADIUS 	"Inner Radius";
+	STARSHADER_OUTERRADIUS 	"Outer Radius";
+	STARSHADER_DENSITY			"Density";
+}

@@ -1,0 +1,24 @@
+STRINGTABLE Prefscommunication
+{
+	Prefscommunication													"Communication";
+	
+	PREF_COMMUNICATION_UPDATEGROUP							"Updates";
+	PREF_COMMUNICATION_BUGREPORTS								"Allow Bugreports";
+	
+	PREF_COMMUNICATION_UPDATE_AUTO							"Automatically Check for Updates";
+	PREF_COMMUNICATION_UPDATE_AUTO_DEVELOPER		"Show Developer Updates";
+		
+	METRICS_HEADLINE											"Anonymised Application Activity";
+	PREFSMETRICSPREFERENCES 									"Anonymised Application Activity";
+	PREF_COMMUNICATION_METRICS_DISABLE_CHECKBOX_NAME			"Disable";
+	PREF_COMMUNICATION_METRICS_UUID_NAME						"Participation #";
+	PREF_COMMUNICATION_METRICS_GOTO_PREFERENCE_DIRECTORY_NAME	"Local Data...";
+	PREF_COMMUNICATION_METRICS_GOTO_SERVER_LOCATION_NAME		"Web Data...";
+	PREF_COMMUNICATION_METRICS_INFO 							" "; // Used for padding 
+
+	PREF_COMMUNICATION_LIVELINK_ENABLED "Live Link Enabled at Startup";
+	PREF_COMMUNICATION_LIVELINK_PORT "Live Link Port";
+	PREF_COMMUNICATION_LIVELINK "Live Link";
+    
+	PREF_COMMUNICATION_QUICKSTART_DIALOG "Quick Start Dialog Enabled at Startup";
+}

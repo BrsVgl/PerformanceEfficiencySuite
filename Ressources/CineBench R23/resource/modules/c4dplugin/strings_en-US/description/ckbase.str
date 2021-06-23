@@ -1,0 +1,15 @@
+STRINGTABLE CKbase
+{
+	CKbase				  "Key";
+	ID_CKEY_PROPERTIES 	  "Key Properties";
+	ID_CKEY_TIME 		  "Key Time";
+	ID_CKEY_MUTE        "Mute";
+	ID_CKEY_LOCK_T     "Lock Time";
+	ID_DKEY_INTER		"Interpolation";
+	ID_DKEY_LINEAR  "Linear";
+	ID_DKEY_STEP    "Step";
+	ID_CKEY_BREAKDOWN   "Breakdown";
+	ID_CKEY_BREAKDOWNCOLOR   "Breakdown Color";
+
+}
+

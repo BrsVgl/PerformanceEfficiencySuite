@@ -1,0 +1,7 @@
+STRINGTABLE ToolTest
+{
+  ToolTest	"Test Tool";
+	TESTTOOL_COMMAND				"Command";
+	TESTTOOL_DYNAMIC_LINK		"Link";
+}
+

@@ -1,0 +1,83 @@
+// C4D-DialogResource
+
+STRINGTABLE Fcadimport
+{
+	Fcadimport																	"CAD Import Settings";
+
+	CADIMPORT_GRP_GENERAL												"General";
+	CADIMPORT_ORIGINAL_UNITS										"Original Units";
+	CADIMPORT_SCALE															"Scale";
+	CADIMPORT_GEOMETRY													"Geometry";
+	CADIMPORT_SPLINES														"Splines";
+	CADIMPORT_INSTANCES													"Instances";
+		CADIMPORT_INSTANCES_NONE										"None";
+		CADIMPORT_INSTANCES_INSTANCE								"Instance";
+		CADIMPORT_INSTANCES_RENDERINSTANCE					"Render Instance";
+	CADIMPORT_HELPER														"Helper";
+	CADIMPORT_LOAD_HIDDEN												"Hidden Objects";
+	CADIMPORT_SWAP_YZAXIS												"Swap Y and Z Axes";
+
+	CADIMPORT_GRP_OPTIONAL											"Optional";
+	CADIMPORT_VISIBILITY												"Visibility";
+	CADIMPORT_NORMALS														"Normals";
+	CADIMPORT_NORMALS_NONE											"None";
+	CADIMPORT_NORMALS_NORMALTAG									"Normal Tag";
+	CADIMPORT_NORMALS_PHONGTAG									"Phong Tag Edge Breaks";
+	CADIMPORT_UVS																"UVs";
+	CADIMPORT_DISPLAY_COLORS										"Display Colors";
+	CADIMPORT_DISPLAY_COLORS_NONE								"None";
+	CADIMPORT_DISPLAY_COLORS_ORIGINAL						"Original";
+	CADIMPORT_DISPLAY_COLORS_RANDOM							"Random";
+	CADIMPORT_LAYERS														"Layers";
+	CADIMPORT_LAYERS_NONE												"None";
+	CADIMPORT_LAYERS_ORIGINAL										"Original";
+	CADIMPORT_LAYERS_SBT												"Scale Based Tessellation";
+	CADIMPORT_MATERIALS													"Materials";
+	CADIMPORT_MATERIALS_NONE										"None";
+	CADIMPORT_MATERIALS_ORIGINAL								"Original";
+	CADIMPORT_MATERIALS_DISPLAY_COLORS					"Based on Display Colors";
+	CADIMPORT_MATERIALS_RANDOM									"Original with Random Color";
+
+	CADIMPORT_GRP_MODIFICATIONS									"Modifications";
+	CADIMPORT_HEAL															"Heal";
+	CADIMPORT_STITCH_COUNT											"Stitch";
+	CADIMPORT_SEW																"Combine";
+	CADIMPORT_SEW_NONE													"None";
+	CADIMPORT_SEW_KEEP_ORIGINAL_BODIES					"Original Bodies";
+	CADIMPORT_SEW_CREATE_BODIES_BY_TOPOLOGY			"By Topology";
+	CADIMPORT_SEW_CREATE_BODIES_BY_COLOR				"By Color";
+	CADIMPORT_SEW_CREATE_BODIES_BY_LAYER				"By Layer";
+
+	CADIMPORT_GRP_TESSELATION											"Tessellation";
+	CADIMPORT_OPTIMIZE_HIERARCHY									"Optimize Hierarchy";
+	CADIMPORT_SCALEBASEDTESSELATION								"Scale Based Tessellation";
+	CADIMPORT_SCALEBASEDTESSELATION_RANGE					"Scale Range";
+	CADIMPORT_SCALEBASEDTESSELATION_INTERPOLATION	"Linear Interpolation";
+	CADIMPORT_LOW_MAX_SAG													"Sag . S";
+	CADIMPORT_LOW_MAX_ANGLE												"Angle . S";
+	CADIMPORT_LOW_MAX_LENGTH											"Length . S";
+	CADIMPORT_MEDIUM_MAX_SAG											"Sag . M";
+	CADIMPORT_MEDIUM_MAX_ANGLE										"Angle . M";
+	CADIMPORT_MEDIUM_MAX_LENGTH										"Length . M";
+	CADIMPORT_HIGH_MAX_SAG												"Sag . L";
+	CADIMPORT_HIGH_MAX_ANGLE											"Angle . L";
+	CADIMPORT_HIGH_MAX_LENGTH											"Length . L";
+
+	CADIMPORT_LOW																	"Low";
+	CADIMPORT_MEDIUM															"Medium";
+	CADIMPORT_HIGH																"High";
+
+	CADIMPORT_SOURCE_MESH													"Source Mesh";
+	CADIMPORT_LOD																	"LOD";
+	CADIMPORT_DETAILING														"Detailing";
+	CADIMPORT_DETAILING_ORIGINAL									"Original";
+	CADIMPORT_DETAILING_CUSTOM										"Custom";
+	CADIMPORT_DETAILING_LOW												"Low";
+	CADIMPORT_DETAILING_MEDIUM										"Medium";
+	CADIMPORT_DETAILING_HIGH											"High";
+	CADIMPORT_MAX_SAG															"Max Sag (mm)";
+	CADIMPORT_MAX_LENGTH													"Max Length (mm)";
+	CADIMPORT_MAX_ANGLE														"Max Angle";
+
+	CADIMPORT_GRP_ADDITIONAL										"Additional";
+}

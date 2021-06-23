@@ -1,0 +1,7 @@
+STRINGTABLE Odestructor
+{
+	Odestructor								 "Destructor Object";
+
+	DESTRUCTOROBJECT_RANDOM		"Randomness";
+	DESTRUCTOROBJECT_SIZE			"Size";
+}

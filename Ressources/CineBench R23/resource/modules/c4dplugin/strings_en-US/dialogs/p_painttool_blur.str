@@ -1,0 +1,8 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS P_PAINTTOOL_BLUR
+{
+	TITLE					"Blur Texture Tool";
+	TMERGELAYERS	"All visible layers";
+	TRADIUS				"Blur Radius";
+}

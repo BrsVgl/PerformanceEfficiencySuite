@@ -1,0 +1,6 @@
+STRINGTABLE Tuvw
+{
+	Tuvw "UVW Tag";
+
+	UVWTAG_LOCK			"Lock UVW" "Lock UVW";
+}

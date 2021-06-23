@@ -1,0 +1,5 @@
+DIALOGSTRINGS R_TAKEWARNING
+{
+IDS_TAKEWARNING	"Take Render Warnings";
+
+}

@@ -1,0 +1,8 @@
+STRINGTABLE ToolRandomize
+{
+  ToolRandomize										"Randomize";
+	MDATA_RANDOMIZE_MOVE 						"Move";
+	MDATA_RANDOMIZE_SCALE 					"Scale";
+	MDATA_RANDOMIZE_ROTATE 					"Rotate";
+	MDATA_RANDOMIZE_SEED						"Seed";
+}

@@ -1,0 +1,13 @@
+STRINGTABLE GVmath
+{
+	GVmath									"Math Operator";
+
+	GV_MATH_FUNCTION_ID			"Function";
+		GV_ADD_NODE_FUNCTION		"Add";
+		GV_SUB_NODE_FUNCTION		"Subtract";
+		GV_MUL_NODE_FUNCTION		"Multiply";
+		GV_DIV_NODE_FUNCTION		"Divide";
+		GV_MOD_NODE_FUNCTION		"Modulo";
+	GV_MATH_INPUT						"Input";
+	GV_MATH_OUTPUT					"Output";
+}

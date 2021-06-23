@@ -1,0 +1,42 @@
+STRINGTABLE BPlayer
+{
+	BPlayer													"Base Layer";
+	ID_PAINTLAYER_OPACITY						"Opacity";
+	ID_PAINTLAYER_SHOW							"Visible";
+
+	ID_PAINTLAYER_BLEND							"Blend Mode";
+		LAYER_PASSFOLDER								"Pass Through";
+		LAYER_NORMAL										"Normal";
+		LAYER_DISSOLVE									"Dissolve";
+		LAYER_DIFFERENCE								"Difference";
+		LAYER_LIGHTEN										"Lighten";
+		LAYER_DARKEN										"Darken";
+		LAYER_MULTIPLY									"Multiply";
+		LAYER_SCREEN										"Screen";
+		LAYER_LINEARDODGE								"Linear Dodge";
+		LAYER_ADD												"Add";
+		LAYER_EXCLUSION									"Exclusion";
+		LAYER_LINEARBURN								"Linear Burn";
+		LAYER_OVERLAY										"Overlay";
+		LAYER_SOFTLIGHT									"Soft Light";
+		LAYER_HARDLIGHT									"Hard Light";
+		LAYER_COLORDODGE								"Color Dodge";
+		LAYER_COLORBURN									"Color Burn";
+		LAYER_HARDMIX										"Hard Mix";
+		LAYER_PINLIGHT									"Pin Light";
+		LAYER_REFLECT										"Reflect";
+		LAYER_NEGATION									"Negation";
+		LAYER_GLOW											"Glow";
+		LAYER_AVERAGE										"Average";
+		LAYER_FREEZE										"Freeze";
+		LAYER_HEAT											"Heat";
+		LAYER_STAMP											"Linear Light (Stamp)";
+		LAYER_HUE												"Hue (Under Construction)";
+		LAYER_SATURATION								"Saturation (Under Construction)";
+		LAYER_COLOR											"Color (Under Construction)";
+		LAYER_LUMINANCE									"Luminance";
+
+	ID_PAINTLAYER_TEXTURE_LINK			"Texture Link";
+	ID_PAINTLAYER_TEXTURE_NAME			"Texture Name";
+	ID_PAINTLAYER_TEXPROFILE				"Texture Profile";
+}

@@ -1,0 +1,13 @@
+STRINGTABLE Tquaternion
+{
+	MBS "Quaternion Expression";
+
+	QUAT_INTER "Interpolation";
+		INTER_SLERP "Linear";
+		INTER_SQUAD "Spline";
+		INTER_LOSCH "Losch";
+
+}
+
+
+

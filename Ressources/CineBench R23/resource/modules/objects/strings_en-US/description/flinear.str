@@ -1,0 +1,15 @@
+STRINGTABLE Flinear
+{
+	Flinear														"Linear Field";
+
+	LINEAR_SIZE												"Length";
+	LINEAR_DIRECTION									"Direction";
+	LINEAR_CLIP												"Clip to Shape";
+
+	LINEAR_DIRECTION_XP								"X+";
+	LINEAR_DIRECTION_XN								"X-";
+	LINEAR_DIRECTION_YP								"Y+";
+	LINEAR_DIRECTION_YN								"Y-";
+	LINEAR_DIRECTION_ZP								"Z+";
+	LINEAR_DIRECTION_ZN								"Z-";
+}

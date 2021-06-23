@@ -1,0 +1,7 @@
+STRINGTABLE GVorder
+{
+	GVorder												"Order Operator";
+	GV_ORDER_INPUT1								"Input 1";
+	GV_ORDER_INPUT2								"Input 2";
+	GV_ORDER_OUTPUT								"Output";
+}

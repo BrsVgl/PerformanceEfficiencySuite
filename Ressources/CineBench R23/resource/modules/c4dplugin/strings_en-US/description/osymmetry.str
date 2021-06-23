@@ -1,0 +1,18 @@
+STRINGTABLE Osymmetry
+{
+	Osymmetry "Symmetry Object";
+
+	SYMMETRYOBJECT_GROUP_MODELING		"Modeling";
+
+	SYMMETRYOBJECT_PLANE					"Mirror Plane";
+		SYMMETRYOBJECT_PLANE_XY					"XY";
+		SYMMETRYOBJECT_PLANE_YZ					"ZY";
+		SYMMETRYOBJECT_PLANE_XZ					"XZ";
+	SYMMETRYOBJECT_WELD						"Weld Points";
+	SYMMETRYOBJECT_TOLERANCE				"Weld Tolerance" "Tolerance";
+	SYMMETRYOBJECT_ONPLANE					"Symmetrical";
+	SYMMETRYOBJECT_CLAMPPOINTS				"Clamp Points on Axis";
+	SYMMETRYOBJECT_DELETEPOLYGONS			"Delete Polygons on Axis";
+	SYMMETRYOBJECT_AUTOFLIP					"Automatically Flip";
+	SYMMETRYOBJECT_FLIP						"Flip";
+}

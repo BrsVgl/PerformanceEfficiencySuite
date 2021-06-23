@@ -1,0 +1,6 @@
+STRINGTABLE Oselection
+{
+	Oselection "Selection Object";
+	SELECTIONOBJECT_LIST		"List";
+	SELECTIONOBJECT_RESTORE	"Restore Selection";
+}

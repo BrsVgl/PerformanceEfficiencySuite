@@ -1,0 +1,13 @@
+CONTAINER Prefsplugins
+{
+	SCALE_V;
+	NAME Prefsplugins;
+	GROUP 
+	{
+		DEFAULT 1;
+		COLUMNS 1;
+		SCALE_V;
+
+		STRING PREF_PLUGINS_PATHS { CUSTOMGUI PATHS; SCALE_V;}
+	}
+}

@@ -1,0 +1,8 @@
+STRINGTABLE GVcondition
+{
+	GVcondition "Condition Operator";
+	GV_CONDITION_INPUT "Input";
+	GV_CONDITION_SWITCH	"Switch";
+	GV_CONDITION_OUTPUT	"Output";
+}
+

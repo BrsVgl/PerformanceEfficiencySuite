@@ -1,0 +1,18 @@
+STRINGTABLE GVconst
+{
+	GVconst						"Constant Operator";
+	GV_CONST_VALUE 		"Value";
+	GV_CONSTANT_DEFAULT	"Constant";
+		GV_CONSTANT_NONE	"User Defined"; 
+		GV_CONSTANT_0		"Zero";
+		GV_CONSTANT_1		"One";
+		GV_CONSTANT_10		"Ten";
+		GV_CONSTANT_100		"Hundred";
+		GV_CONSTANT_1000	"Thousand";
+		GV_CONSTANT_QUARTER_PI	"PI / 4";
+		GV_CONSTANT_HALF_PI	"PI / 2";
+		GV_CONSTANT_PI		"PI";
+		GV_CONSTANT_DOUBLE_PI	"PI * 2";
+
+	GV_CONST_OUTPUT		"Output";
+}

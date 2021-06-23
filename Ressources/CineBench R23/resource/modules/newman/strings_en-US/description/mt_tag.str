@@ -1,0 +1,22 @@
+STRINGTABLE MT_TAG
+{
+	MT_TAG	"Motions";
+
+	ID_MT_TAG_SHOWGHOSTS  "Show Motion Clip Ghosts";
+	ID_MT_TAG_SHOWPATH    "Show Summary Path";
+
+	ID_MT_TAG_RMIXING     "Rotation Mixing";
+	  ID_MT_TAG_MIX_AUTO  "Automatic";
+	  ID_MT_TAG_MIX_HPB   "HPB";
+		ID_MT_TAG_MIX_QUAT  "Quaternions";
+	
+	ID_MT_TAG_ADD        "Add";
+	ID_MT_TAG_DEL        "Delete";
+	ID_MT_TAG_DUPLICATE  "Duplicate";
+	ID_MT_TAG_COLLAPSE   "Collapse";
+	ID_MT_TAG_ZERO       "Set to Zero";
+	ID_MT_TAG_RENAME     "Rename";
+	
+	ID_MT_TAG_OPENINTL	 "Open in TL";
+	ID_MT_TAG_GROUP		 "";
+}

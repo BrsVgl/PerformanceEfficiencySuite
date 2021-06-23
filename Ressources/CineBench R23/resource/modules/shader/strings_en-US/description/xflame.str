@@ -1,0 +1,8 @@
+STRINGTABLE Xflame
+{
+	Xflame "Flame Shader";
+
+	FLAMESHADER_COLOR				"Color";
+	FLAMESHADER_FREQUENCY 	"T Frequency";
+	FLAMESHADER_TURBULENCE 	"Turbulence";
+}

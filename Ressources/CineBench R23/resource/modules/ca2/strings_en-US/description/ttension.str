@@ -1,0 +1,16 @@
+STRINGTABLE Ttension
+{
+	Ttension					"Tension Tag";
+	
+	TENSIONTAG_FIX			"Fix Tension";
+	TENSIONTAG_FOLD			"Fold Map";
+	TENSIONTAG_STRETCH		"Stretch Map";
+	TENSIONTAG_AMOUNT		"Amount";
+	TENSIONTAG_MAKEFOLD		"Make Map";
+	TENSIONTAG_MAKESTRETCH	"Make Map";
+	TENSIONTAG_SELECTION	"Selection Tag";
+	TENSIONTAG_CLAMPED		"Clamped";
+	TENSIONTAG_MODE			"Mode";
+		TENSIONTAG_MODE_RELATIVE	"Relative";
+		TENSIONTAG_MODE_ABSOLUTE	"Absolute";
+}

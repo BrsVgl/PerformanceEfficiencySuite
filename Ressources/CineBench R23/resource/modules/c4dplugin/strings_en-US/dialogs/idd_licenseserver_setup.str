@@ -1,0 +1,13 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_LICENSESERVER_SETUP
+{
+	IDS_DIALOG                "Setup License Server";
+	IDS_SETUP_LICSERVER_FILE  "Choose File...";
+	IDS_STATIC3               "Server";
+	IDS_STATIC4               "Port";
+	IDS_MODE_LS_HTTP			"Maxon License Server";
+	IDS_MODE_LS_HTTPS			"Maxon License Server (Secure SSL)";
+	IDS_USERNAME				"Username";
+	IDS_PASSWD 					"Password";
+}

@@ -1,0 +1,16 @@
+// Global StringResource
+STRINGTABLE
+{
+
+	IDS_OM_ID_DIALOG		"2. NEUTRON Object Manager...";
+	IDH_OM_ID_DIALOG		"Opens NEUTRON Object Manager";
+
+	IDS_VOM_DIALOG			"NEUTRON Object Manager";
+
+	IDS_NEUTRON_HOOK		"Scene Nodes";
+	IDS_NEUTRON_OBJECT		"Neutron Scene Object";
+	IDS_NEUTRON_LEGACY_CONVERSION	"Neutron Scene Conversion";
+
+	IDS_SCENE_NODE_EDITOR "Scene Node Editor";
+	IDH_SCENE_NODE_EDITOR "Opens Scene Node Editor";
+}

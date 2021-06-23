@@ -1,0 +1,12 @@
+STRINGTABLE Obend
+{
+	Obend "Bend Object";
+	BENDOBJECT_KEEPYAXIS "Keep Length";
+	BENDOBJECT_SIZE "Size";
+	BENDOBJECT_MODE "Mode";
+		BENDOBJECT_MODE_LIMIT 		"Limited";
+		BENDOBJECT_MODE_BOX   		"Within Box";
+		BENDOBJECT_MODE_UNLIMITED	"Unlimited";
+	BENDOBJECT_STRENGTH 				"Angle";
+	BENDOBJECT_ANGLE 						"Direction";
+}

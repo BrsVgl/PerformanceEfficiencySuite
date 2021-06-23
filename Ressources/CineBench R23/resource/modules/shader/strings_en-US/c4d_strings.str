@@ -1,0 +1,61 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	IDS_MATERIAL_FOG				"Fog";
+	IDS_MATERIAL_TERRAIN		"Terrain";
+
+	IDS_SHADER_BRICK				"Brick";
+	IDS_SHADER_CHECKERBOARD	"Checkerboard";
+	IDS_SHADER_CLOUD				"Cloud";
+	IDS_SHADER_COLORSTRIPES "Color Stripes";
+	IDS_SHADER_CYCLONE			"Cyclone";
+	IDS_SHADER_EARTH				"Earth";
+	IDS_SHADER_FIRE					"Fire";
+	IDS_SHADER_FLAME				"Flame";
+	IDS_SHADER_GALAXY				"Galaxy";
+	IDS_SHADER_GRADIENT			"Gradient";
+	IDS_SHADER_MARBLE				"Marble";
+	IDS_SHADER_METAL				"Metal";
+	IDS_SHADER_NOISE				"Simple Noise";
+	IDS_SHADER_RUST					"Rust";
+	IDS_SHADER_STAR					"Stars";
+	IDS_SHADER_STARFIELD		"Starfield";
+	IDS_SHADER_SUNBURST			"Sunburst";
+	IDS_SHADER_TURBULENCE		"Simple Turbulence";
+	IDS_SHADER_PLANET				"Planet";
+	IDS_SHADER_VENUS				"Venus";
+	IDS_SHADER_WATER				"Water";
+	IDS_SHADER_WOOD					"Wood";
+	IDS_SHADER_SPECTRAL			"Spectral";
+	IDS_SHADER_CHANLUM			"ChanLum";
+	IDS_SHADER_MOSAIC				"Pixel";
+	IDS_SHADER_PAVEMENT			"Pavement";
+	IDS_SHADER_TERRAINMASK	"Terrain Mask";
+	IDS_SHADER_RAIN					"Weathering";
+	IDS_SHADER_NORMALIZER		"Normalizer";
+	IDS_SHADER_FORMULA		"Formula";
+	IDS_CGFX_MODELVIEWPROJECTION	"ModelViewProjection";
+	IDS_CGFX_FILE						"File";
+	IDS_CGFX_NORMALIZE_CUBE_TEXTURE	"Normalize Cube Texture";
+	IDS_SHADER_CHOOSER			"Chooser";
+	IDS_SHADER_CHOOSER_ACTIVE						"Active";
+	IDS_SHADER_CHOOSER_UP								"Up";
+	IDS_SHADER_CHOOSER_DWN							"Down";
+	IDS_SHADER_CHOOSER_DEL							"Remove";
+	IDS_SHADER_CHOOSER_LAYER_SHADER			"Shader";
+	IDS_SHADER_OBJECT_COLOR		"Display Color";
+	IDS_SHADER_VARIATION		"Variation";
+	IDS_SHADER_THINFILM			"Thin Film";
+	IDS_SHADER_SHADOW_CATCHER		"Shadow Catcher";
+
+	IDS_VARIATIONSHADER_SELECTFOLDER					"Select folder";
+	IDS_VARIATIONSHADER_ACTIVE		"Active";
+	IDS_VARIATIONSHADER_DEL				"Remove";
+	IDS_VARIATIONSHADER_FOLDERIMPORT_STATUS						"Importing images...";
+	IDS_VARIATIONSHADER_LAYER_SHADERTITLE							"Texture";
+	IDS_VARIATIONSHADER_FOLDERIMPORT_PICCOPY					"The chosen files are not in the search path.|Do you want to create copies at the project location?";
+	IDS_VARIATIONSHADER_FOLDERIMPORT_COPYERROR				"Error copying files!";
+	IDS_VARIATIONSHADER_PROBABILITY						"Probability";
+}

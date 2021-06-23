@@ -1,0 +1,6 @@
+STRINGTABLE GVdynamic
+{
+	GVdynamic						"Dynamic DataType Operator";
+	GV_DYNAMIC_DATATYPE "Data Type";
+}
+

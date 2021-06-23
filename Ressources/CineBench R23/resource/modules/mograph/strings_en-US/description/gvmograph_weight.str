@@ -1,0 +1,10 @@
+STRINGTABLE GVmograph_weight
+{
+	GVmograph_weight "MoGraph Weight";
+
+	GV_MG_WEIGHT_IOBJECT	"Weight Tag";
+	GV_MG_WEIGHT_ISELECT	"Value";
+	GV_MG_WEIGHT_INDEX		"Index";
+	
+	GV_MG_WEIGHT_OSELECT	"Weight";
+}

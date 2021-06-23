@@ -1,0 +1,15 @@
+STRINGTABLE Osplineprofile
+{
+	Osplineprofile "Profile";
+
+	PRIM_PROFILE_TYPE				"Type";
+		PRIM_PROFILE_TYPE_H		"H Shape";
+		PRIM_PROFILE_TYPE_L		"L Shape";
+		PRIM_PROFILE_TYPE_T		"T Shape";
+		PRIM_PROFILE_TYPE_U		"U Shape";
+		PRIM_PROFILE_TYPE_Z		"Z Shape";
+	PRIM_PROFILE_A							"Height";
+	PRIM_PROFILE_B							"b";
+	PRIM_PROFILE_S						  "s";
+	PRIM_PROFILE_T    					"t";
+}

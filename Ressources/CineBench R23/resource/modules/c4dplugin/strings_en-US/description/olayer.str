@@ -1,0 +1,16 @@
+STRINGTABLE olayer
+{
+	olayer		 				"Layer";
+
+	ID_LAYER_SOLO					"Solo Mode";
+	ID_LAYER_VIEW					"Visible in Editor View";
+	ID_LAYER_RENDER				"Visible in Render View";
+	ID_LAYER_MANAGER			"Visible in Managers";
+	ID_LAYER_LOCKED				"Locked";
+	ID_LAYER_GENERATORS		"Generators";
+	ID_LAYER_DEFORMERS		"Deformers";
+	ID_LAYER_EXPRESSIONS	"Expressions";
+	ID_LAYER_ANIMATION		"Animation";
+	ID_LAYER_COLOR				"Color";
+	ID_LAYER_XREF				"XRef";
+}

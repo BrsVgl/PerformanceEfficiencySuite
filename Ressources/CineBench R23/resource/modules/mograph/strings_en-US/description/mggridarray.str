@@ -1,0 +1,28 @@
+STRINGTABLE MGgridarray
+{
+	MGgridarray "Grid Array";
+
+	MG_GRID_RESOLUTION "Count";
+	MG_GRID_SIZE "Size";
+
+	MG_GRID_TYPE "Form";
+		MG_GRID_TYPE_CUBIC "Cubic";
+		MG_GRID_TYPE_SPHERE "Sphere";
+		MG_GRID_TYPE_TUBE "Cylinder";
+		MG_GRID_TYPE_OBJECT "Object";
+	MG_GRID_INSIDE "Fill";
+
+	MG_GRID_MODE "Mode";
+		MG_GRID_MODE_PERSTEP "Per-Step";
+		MG_GRID_MODE_ENDPOINT "Endpoint";
+
+	MG_GRID_OBJECT "Object";
+
+	MG_GRID_UVAXIS "W(UV)-Orientation";
+		MG_GRID_UVAXIS_XP "X+";
+		MG_GRID_UVAXIS_XN "X-";
+		MG_GRID_UVAXIS_YP "Y+";
+		MG_GRID_UVAXIS_YN "Y-";
+		MG_GRID_UVAXIS_ZP "Z+";
+		MG_GRID_UVAXIS_ZN "Z-";
+}

@@ -1,0 +1,12 @@
+STRINGTABLE GVnearestpoint
+{
+	GVnearestpoint												"Get Nearest Point Operator";
+
+  GV_NEARESTPOINT_INPUT_SOURCEOBJECT		"Object";
+  GV_NEARESTPOINT_INPUT_GLOBALPOSITION	"Global Position";
+
+	GV_NEARESTPOINT_OUTPUT_POINTINDEX			"Point Index";
+	GV_NEARESTPOINT_OUTPUT_POINT          "Point";
+	GV_NEARESTPOINT_OUTPUT_DISTANCE       "Distance";
+	GV_NEARESTPOINT_OUTPUT_DIFVECTOR			"Difference Vector";
+}

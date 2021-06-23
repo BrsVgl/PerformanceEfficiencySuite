@@ -1,0 +1,42 @@
+STRINGTABLE Onurbscapslegacy
+{
+	ID_CAPSANDROUNDING				"Caps and Rounding" "Caps";
+	ID_NURBS_U								"U Direction";
+	ID_NURBS_V								"V Direction";
+
+	CAP_MIGRATE_BUTTON				"Migrate";
+
+	CAP_START									"Start Cap" "Start";
+	CAP_END										"End Cap" "End";
+		CAPTYPE_NOCAP						"None";
+		CAPTYPE_CAP							"Cap";
+		CAPTYPE_ROUNDING				"Fillet";
+		CAPTYPE_ROUNDINGANDCAP	"Fillet Cap";
+	CAP_ROUNDING							"Fillet Type";
+		CAP_ROUNDING_LINEAR			"Linear";
+		CAP_ROUNDING_CONVEX			"Convex";
+		CAP_ROUNDING_CONCAVE		"Concave";
+		CAP_ROUNDING_HALFCIRCLE "Half Circle";
+		CAP_ROUNDING_STEP				"1 Step";
+		CAP_ROUNDING_2STEPS			"2 Steps";
+		CAP_ROUNDING_ENGRAVED		"Engraved";
+
+	CAP_STARTSTEPS						"Start Cap Steps" "Steps";
+	CAP_ENDSTEPS							"End Cap Steps" "Steps";
+	CAP_STARTRADIUS						"Start Cap Radius" "Radius";
+	CAP_ENDRADIUS							"End Cap Radius" "Radius";
+	CAP_HULLINWARD						"Hull Inwards";
+	CAP_HOLEINWARD						"Hole Inwards";
+	CAP_CONSTRAIN							"Constrain";
+	CAP_REGULAR								"Regular Grid";
+	CAP_REGULARWIDTH					"Width";
+	CAP_PHONG									"Phong Angle";
+	CAP_TYPE									"Type";
+	CAP_TYPE_TRI							"Triangles";
+	CAP_TYPE_QUAD							"Quadrangles";
+	CAP_TYPE_NGON							"N-gons";
+	CAP_TYPE_SUBDIV						"Subdivided";
+	
+	CAP_CONNECT								"Create Single Object";
+	CAP_UVWROUDING						"Rounding UVW Keep Shape";
+}

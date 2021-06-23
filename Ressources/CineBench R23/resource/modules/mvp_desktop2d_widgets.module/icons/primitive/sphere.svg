@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>category_sphere</title>
+    <defs>
+        <radialGradient cx="37.723876%" cy="29.1057418%" fx="37.723876%" fy="29.1057418%" r="53.2037431%" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="category_sphere" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="MXN_BG_ID" fill="#5DA9C8" cx="18" cy="18" r="13"></circle>
+        <g id="MXN_0_ID" transform="translate(5.000000, 5.000000)">
+            <circle id="Shading" fill="url(#radialGradient-1)" opacity="0.36235119" cx="13" cy="13" r="13"></circle>
+            <ellipse id="Highlight" fill="#FFFFFF" cx="8.13165931" cy="7.93026097" rx="1.16666667" ry="1"></ellipse>
+        </g>
+        <circle id="MXN_FG_ID" stroke="#0A0A0A" cx="18" cy="18" r="12.5"></circle>
+    </g>
+</svg>

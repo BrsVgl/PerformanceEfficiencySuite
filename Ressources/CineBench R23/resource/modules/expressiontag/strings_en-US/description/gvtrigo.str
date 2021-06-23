@@ -1,0 +1,16 @@
+STRINGTABLE GVtrigo
+{
+	GVtrigo							"Trigonometric Operator";
+	GV_TRIGO_FUNC 			"Function";
+		TYPE_SIN						"Sin";
+		TYPE_COS						"Cos";
+		TYPE_TAN						"Tan";
+		TYPE_SINH						"Sinh";
+		TYPE_COSH						"Cosh";
+		TYPE_TANH						"Tanh";
+		TYPE_ASIN						"ASin";
+		TYPE_ACOS						"ACos";
+		TYPE_ATAN						"ATan";
+	GV_TRIGO_INPUT			"Value";
+	GV_TRIGO_OUTPUT			"Output";
+}

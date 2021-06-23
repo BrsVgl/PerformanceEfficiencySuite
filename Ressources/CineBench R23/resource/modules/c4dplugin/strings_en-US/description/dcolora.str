@@ -1,0 +1,9 @@
+STRINGTABLE Dcolora
+{
+	Dcolora			"Color With Alpha Datatype";
+
+	COLORA_R		"R";
+	COLORA_G		"G";
+	COLORA_B		"B";
+	COLORA_A		"A";
+}

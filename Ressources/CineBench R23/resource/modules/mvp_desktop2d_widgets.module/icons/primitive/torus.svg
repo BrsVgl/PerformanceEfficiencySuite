@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>category_torus</title>
+    <defs>
+        <ellipse id="path-1" cx="14" cy="8.5" rx="14" ry="8.5"></ellipse>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="33.5766992%" gradientTransform="translate(0.500000,0.500000),scale(0.546074,1.000000),rotate(103.817092),scale(1.000000,2.080906),translate(-0.500000,-0.500000)" id="radialGradient-4">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="66.0891674%" cy="55.1070739%" fx="66.0891674%" fy="55.1070739%" r="45.6384776%" gradientTransform="translate(0.660892,0.551071),scale(0.309753,1.000000),rotate(100.370600),scale(1.000000,1.992503),translate(-0.660892,-0.551071)" id="radialGradient-5">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="category_torus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="highlights" transform="translate(4.000000, 10.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#5DA9C8" xlink:href="#path-1"></use>
+            <g id="Group-2" mask="url(#mask-2)">
+                <g transform="translate(12.000000, -3.000000)" id="Oval">
+                    <circle fill="url(#radialGradient-3)" opacity="0.438081287" cx="8" cy="8" r="8"></circle>
+                    <ellipse fill="#FFFFFF" transform="translate(8.000000, 7.500000) rotate(19.000000) translate(-8.000000, -7.500000) " cx="8" cy="7.5" rx="1" ry="1"></ellipse>
+                </g>
+            </g>
+            <g id="Group" mask="url(#mask-2)">
+                <g transform="translate(-2.000000, 2.000000)" id="Oval">
+                    <circle fill="url(#radialGradient-3)" opacity="0.36625744" cx="9" cy="9" r="9"></circle>
+                    <ellipse fill="#FFFFFF" transform="translate(9.000000, 8.500000) rotate(26.000000) translate(-9.000000, -8.500000) " cx="9" cy="8.5" rx="1" ry="1"></ellipse>
+                </g>
+            </g>
+        </g>
+        <g id="MXN_0_ID" transform="translate(6.034611, 12.875875)">
+            <path d="M11.9653888,6.12412524 C13.8063379,6.12412524 15.4730046,5.79079191 16.9653888,5.12412524 C15.4730046,4.45745858 13.8063379,4.12412524 11.9653888,4.12412524 C10.1244396,4.12412524 8.45777292,4.45745858 6.96538876,5.12412524 C8.45777292,5.79079191 10.1244396,6.12412524 11.9653888,6.12412524 Z" id="Oval" fill="#0A0A0A"></path>
+            <path d="M6.01289296,4.94993884 C8.77431671,4.94993884 13.9653888,9.49778082 13.9653888,6.73635707 C13.9653888,3.97493333 8.74411813,0.0147072576 5.98269438,0.0147072576 C3.22127063,0.0147072576 3.73034936e-14,-0.338971063 3.73034936e-14,2.42245269 C3.73034936e-14,5.18387644 3.25146921,4.94993884 6.01289296,4.94993884 Z" id="Oval" fill="url(#radialGradient-4)" opacity="0.31656901"></path>
+            <path d="M18.719604,5.0275519 C21.4810277,5.0275519 25.9653888,8.38554899 25.9653888,5.62412524 C25.9653888,2.86270149 21.4810277,2.12412524 18.719604,2.12412524 C15.9581802,2.12412524 11.1414658,1.95299799 11.1414658,4.71442174 C11.1414658,7.47584549 15.9581802,5.0275519 18.719604,5.0275519 Z" id="Oval" fill="url(#radialGradient-5)" opacity="0.197777158" transform="translate(18.553427, 4.417921) scale(-1, 1) translate(-18.553427, -4.417921) "></path>
+        </g>
+        <ellipse id="MXN_FG_ID" stroke="#0A0A0A" cx="18" cy="18.5" rx="14.5" ry="9"></ellipse>
+    </g>
+</svg>

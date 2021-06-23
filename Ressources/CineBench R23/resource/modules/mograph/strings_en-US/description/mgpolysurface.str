@@ -1,0 +1,7 @@
+STRINGTABLE MGpolysurface
+{
+	MGpoly "Polygon Object Clone";
+
+	MG_POLYSURFACE_SEED "Seed";
+	MG_POLYSURFACE_COUNT "Count";
+}

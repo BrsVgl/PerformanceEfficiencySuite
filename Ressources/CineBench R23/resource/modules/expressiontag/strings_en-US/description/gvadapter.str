@@ -1,0 +1,7 @@
+STRINGTABLE GVadapter
+{
+	GVadapter							"Adapter Operator";
+
+	GV_ADAPTER_INPUT			"Input";
+	GV_ADAPTER_OUTPUT			"Output";
+}

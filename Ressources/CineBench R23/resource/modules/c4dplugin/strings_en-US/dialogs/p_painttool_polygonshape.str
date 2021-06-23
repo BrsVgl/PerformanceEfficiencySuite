@@ -1,0 +1,29 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS P_PAINTTOOL_POLYGONSHAPE
+{
+	TITLE "Polygon Shape Tool";
+	TAA "Anti-Aliasing";
+	TTOLERANCE "Feather";
+
+	TSHAPE "Shape";
+		TCIRCLE   "Circle";
+		TRECT     "Rectangle";
+		T4SIDE    "4-Sided";	
+		TNSIDE    "n-Sided";
+		TSTAR     "Star";
+		TCOG      "Cog Wheel";
+		TFLOWER   "Flower";
+		TPROFILE  "Profile";
+
+	THANDLE "Handle";
+		TRECTH    "Box";
+		TDIAMETER "Diameter";
+		TMIDPOINT "Center";
+
+	TPPP "Edit...";
+
+	TOUTLINE "Stroke";	
+	TFILLED  "Filled";	
+	TPATH    "Path";	
+}

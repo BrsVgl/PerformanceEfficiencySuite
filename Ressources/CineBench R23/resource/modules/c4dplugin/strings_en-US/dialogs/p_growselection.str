@@ -1,7 +1,0 @@
-// C4D Dialog Strings
-
-DIALOGSTRINGS P_GROWSELECTION
-{
-	TITLE "Grow Selection";
-	TRAD "Radius";
-}

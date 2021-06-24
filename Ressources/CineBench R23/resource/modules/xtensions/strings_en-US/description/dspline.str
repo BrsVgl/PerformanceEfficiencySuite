@@ -1,5 +1,0 @@
-STRINGTABLE Dspline
-{
-  Dspline                   "Spline Datatype";
-  SPLINESUBCHANNEL_TENSION  "Tension";
-}

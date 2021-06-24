@@ -1,9 +1,0 @@
-STRINGTABLE Osplinestar
-{
-	Osplinestar "Star Object";
-
-	PRIM_STAR_IRAD						"Inner Radius";
-	PRIM_STAR_ORAD						"Outer Radius";
-	PRIM_STAR_TWIST						"Twist";
-	PRIM_STAR_POINTS					"Points";
-}

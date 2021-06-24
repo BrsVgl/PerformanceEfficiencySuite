@@ -1,7 +1,0 @@
-STRINGTABLE ToolBridge
-{
-	ToolBridge	"Bridge";
-	MDATA_BRIDGE_DELETE "Delete Original Polygons";
-	MDATA_BRIDGE_SUBDIVISION "Subdivision";
-	MDATA_BRIDGE_SPIN_STEPS "Spin Steps";
-}

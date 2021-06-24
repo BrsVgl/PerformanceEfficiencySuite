@@ -1,9 +1,0 @@
-// C4D-DialogResource
-
-DIALOGSTRINGS IDD_MODELING_MANAGER
-{
-  IDS_DIALOG              "Modeling Manager";
-  IDS_STATIC1             "Group";
-  IDS_STATIC2             "Group";
-  IDS_STATIC              "Group";
-}

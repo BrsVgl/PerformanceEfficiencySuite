@@ -1,6 +1,0 @@
-STRINGTABLE MGpolypolygon
-{
-	MGpoly "Polygon Object Clone";
-
-	MG_POLYPOLYGON_GROUP "Polygon Clone";
-}

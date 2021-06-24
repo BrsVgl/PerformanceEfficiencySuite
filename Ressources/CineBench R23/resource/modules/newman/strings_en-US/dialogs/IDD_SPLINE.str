@@ -1,8 +1,0 @@
-// C4D-DialogResource
-
-DIALOGSTRINGS IDD_SPLINE
-{
-  IDS_DIALOG   "Spline";
-  IDS_TEXT   "Name";
-  IDS_TEXT2  "";
-}

@@ -1,6 +1,0 @@
-STRINGTABLE Xcolorstripes
-{
-	Xcolorstripes "Color Stripe Shader";
-
-	COLORSTRIPESHADER_SCALE		"Frequency";
-}

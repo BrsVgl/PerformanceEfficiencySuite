@@ -1,9 +1,0 @@
-STRINGTABLE FLClamp
-{
-	FLClamp																	"Clamp";
-
-	FIELDLAYER_CLAMP_MIN_VALUE							"Minimum";
-	FIELDLAYER_CLAMP_MIN_ENABLED						"Clamp Min";
-	FIELDLAYER_CLAMP_MAX_VALUE							"Maximum";
-	FIELDLAYER_CLAMP_MAX_ENABLED						"Clamp Max";
-}

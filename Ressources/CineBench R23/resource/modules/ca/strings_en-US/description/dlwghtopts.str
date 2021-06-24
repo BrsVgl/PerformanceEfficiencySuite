@@ -1,6 +1,0 @@
-STRINGTABLE Dlwghtopts
-{
-	Dlwghtopts "Load Weights Options";
-
-	ID_CA_LOADWEIGHTS_NAME "Match Joint Names";
-}

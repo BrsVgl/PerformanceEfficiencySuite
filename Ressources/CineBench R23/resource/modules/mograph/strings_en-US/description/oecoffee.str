@@ -1,9 +1,0 @@
-STRINGTABLE Oecoffee
-{
-	Oecoffee "COFFEE";
-	
-	OECOFFEE_STRING							"Code";
-	OECOFFEE_MODE								"Mode";
-	OECOFFEE_MODE_PARAMETERS		"Parameter Control";
-	OECOFFEE_MODE_FULLCONTROL		"Full Control";
-}

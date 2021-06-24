@@ -1,8 +1,0 @@
-STRINGTABLE Tcharacterdef
-{
-	Tcharacterdef "Character Definition Tag";
-	CD_SETREFERENCEPOSE		"Set Reference Pose";
-	CD_GOTOREFERENCEPOSE	"Go to Reference Pose";
-	CD_OPENMANAGER		"Open Manager";
-	CD_CREATESOLVER		"Create Solver";
-}

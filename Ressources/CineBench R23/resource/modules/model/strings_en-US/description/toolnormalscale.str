@@ -1,5 +1,0 @@
-STRINGTABLE ToolNormalScale
-{
-  ToolNormalScale          "Normal Scale";
-	MDATA_NORMALSCALE_VALUE	 "Scale";
-}

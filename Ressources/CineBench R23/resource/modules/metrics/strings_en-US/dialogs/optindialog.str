@@ -1,5 +1,0 @@
-DIALOGSTRINGS OPTINDIALOG
-{
-	IDS_TITLE "Anonymous Application Activity";
-	IDS_BUTTON_OK "OK";
-}

@@ -1,5 +1,0 @@
-STRINGTABLE Fstlimport
-{
-	Fstlimport	"STL Import";
-	STLIMPORTFILTER_SCALE	"Scale";
-}

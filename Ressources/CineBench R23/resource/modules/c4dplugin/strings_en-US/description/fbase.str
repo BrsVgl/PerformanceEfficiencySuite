@@ -1,5 +1,0 @@
-STRINGTABLE Fbase
-{
-	Fbase				 		 		"Filter";
-	ID_FILTERPROPERTIES "Filter Properties" "Filter";
-}

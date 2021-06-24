@@ -1,9 +1,0 @@
-// C4D-DialogResource
-
-DIALOGSTRINGS IDD_DELETEFROMTO
-{
-  IDS_DIALOG   "Delete Frames";
-  IDS_TEXT1  "Delete from";
-  IDS_TEXT2  "Delete Count";
-  IDS_TEXT3  "Ripple Mode";
-}

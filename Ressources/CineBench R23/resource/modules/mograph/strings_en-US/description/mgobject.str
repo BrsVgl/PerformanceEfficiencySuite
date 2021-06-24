@@ -1,7 +1,0 @@
-STRINGTABLE MGobject
-{
-	MGobject "Object Clone";
-
-	MG_OBJECT_LINK "Object";
-	MG_OBJECT_ALIGN "Align Clone";
-}

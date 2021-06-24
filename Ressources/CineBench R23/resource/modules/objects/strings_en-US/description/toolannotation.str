@@ -1,7 +1,0 @@
-STRINGTABLE ToolAnnotation
-{
-  ToolAnnotation								"Annotation Tool";
-  
-	ANNOTATIONTOOL_OPTIONS				"Options";
-  ANNOTATIONTOOL_INHERITLAYER		"Inherit Layer";
-}

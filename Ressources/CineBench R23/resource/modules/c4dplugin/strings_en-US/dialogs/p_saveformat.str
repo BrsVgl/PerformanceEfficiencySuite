@@ -1,8 +1,0 @@
-// C4D Dialog Strings
-
-DIALOGSTRINGS P_SAVEFORMAT
-{
-	TITLE   "Please choose the file format";
-	TFORMAT "Save File as";
-	TOPTIONS "Options";
-}

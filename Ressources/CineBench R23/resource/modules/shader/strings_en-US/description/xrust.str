@@ -1,8 +1,0 @@
-STRINGTABLE Xrust
-{
-	Xrust "Rust Shader";
-
-	RUSTSHADER_COLOR			"Color";
-	RUSTSHADER_LEVEL			"Rust";
-	RUSTSHADER_FREQUENCY	"Frequency";
-}

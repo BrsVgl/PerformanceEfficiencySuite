@@ -1,5 +1,0 @@
-STRINGTABLE BPlayerfiltersolid
-{
-	BPlayerfiltersolid							"Fill Solid Color Layer";
-	ID_PAINTLAYERFILTERSOLID_COLOR	"Fill Color";
-}

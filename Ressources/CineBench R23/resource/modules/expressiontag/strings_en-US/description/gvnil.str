@@ -1,7 +1,0 @@
-STRINGTABLE GVnil
-{
-	GVnil									"Null Operator";
-
-	GV_NIL_INPUT					"Input";
-	GV_NIL_OUTPUT					"Output";
-}

@@ -1,5 +1,0 @@
-STRINGTABLE ToolNormalRotate
-{
-  ToolNormalRotate					"Normal Rotate";
-	MDATA_NORMALROTATE_VALUE	"Rotate";
-}

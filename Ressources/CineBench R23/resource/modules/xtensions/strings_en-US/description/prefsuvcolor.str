@@ -1,7 +1,0 @@
-STRINGTABLE Prefsuvcolor
-{
-	Prefsuvcolor "Color";
-	PREF_UVCOLOR_COLORS	"";
-	PREF_UVCOLOR_LIST		"";
-	PREF_UVCOLOR_RESET	"Reset...";
-}

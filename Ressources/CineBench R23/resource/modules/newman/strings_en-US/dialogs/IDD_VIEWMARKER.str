@@ -1,8 +1,0 @@
-// C4D-DialogResource
-
-DIALOGSTRINGS IDD_VIEWMARKER
-{
-  IDS_DIALOG   "View Marker";
-  IDS_VIEWMARKERTEXT  "View Marker";
-  IDS_VIEWMARKERTEXT2  "";
-}

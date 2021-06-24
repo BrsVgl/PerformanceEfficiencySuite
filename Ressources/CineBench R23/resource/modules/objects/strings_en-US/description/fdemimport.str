@@ -1,5 +1,0 @@
-STRINGTABLE Fdemimport
-{
-	Fdemimport		"DEM Import";
-  DEMIMPORTFILTER_SCALE	"Scale";
-}

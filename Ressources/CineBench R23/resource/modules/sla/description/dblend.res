@@ -1,4 +1,0 @@
-CONTAINER Dblend
-{
-	NAME Dblend;
-}

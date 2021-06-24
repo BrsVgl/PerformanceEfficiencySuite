@@ -1,8 +1,0 @@
-// C4D-DialogResource
-
-DIALOGSTRINGS IDC_REMESH_DIALOG
-{
-  DialogRemesher "Remesh";
-  IDS_REMESH_POLYGONTARGET    "Polygon Target";
-  IDS_REMESH_KEEPOUTLINE      "Keep Outline";
-}

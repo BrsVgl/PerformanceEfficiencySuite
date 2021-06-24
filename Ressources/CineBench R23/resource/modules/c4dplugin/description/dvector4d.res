@@ -1,9 +1,0 @@
-CONTAINER Dvector4d
-{
-	NAME Dvector4d;
-
-	REAL VECTOR4D_X	{ }
-	REAL VECTOR4D_Y { }
-	REAL VECTOR4D_Z { }
-	REAL VECTOR4D_W { }
-}

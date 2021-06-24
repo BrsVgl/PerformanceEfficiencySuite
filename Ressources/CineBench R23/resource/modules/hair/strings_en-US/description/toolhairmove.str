@@ -1,8 +1,0 @@
-STRINGTABLE ToolHairMove
-{
-	ToolHairMove "Move";
-
-	HAIR_MOVE_IK			"Hair IK";
-	HAIR_MOVE_COLLISIONS	"Collisions";
-	HAIR_MOVE_RADIUS		"Coll. Radius";
-}

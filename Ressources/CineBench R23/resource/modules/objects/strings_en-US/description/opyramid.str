@@ -1,9 +1,0 @@
-STRINGTABLE Opyramid
-{
-	Opyramid "Pyramid Object";
-
-	PRIM_PYRAMID_LEN "Size";
-	PRIM_PYRAMID_SUB "Segments";
-	PRIM_PYRAMID_USE_NEW_VERSION	"";
-	PRIM_PYRAMID_SWITCH_TO_UPDATED	"Switch to Updated Pyramid";
-}

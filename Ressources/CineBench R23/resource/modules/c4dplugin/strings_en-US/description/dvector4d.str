@@ -1,9 +1,0 @@
-STRINGTABLE Dvector4d
-{
-	Dvector4D			"Vector 4D Datatype";
-
-	VECTOR4D_X		"X";
-	VECTOR4D_Y		"Y";
-	VECTOR4D_Z		"Z";
-	VECTOR4D_W		"W";
-}

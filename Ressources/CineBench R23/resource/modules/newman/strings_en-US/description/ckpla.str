@@ -1,7 +1,0 @@
-STRINGTABLE CKpla
-{
-	CKPLA "PLA Key";
-
-	CK_PLA_BIAS  "Bias";
-	CK_PLA_CUBIC "Smooth";
-}

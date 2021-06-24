@@ -1,5 +1,0 @@
-STRINGTABLE Prefsplugins
-{
-	Prefsplugins					"Plugins";
-	PREF_PLUGINS_PATHS		"Search Paths";
-}

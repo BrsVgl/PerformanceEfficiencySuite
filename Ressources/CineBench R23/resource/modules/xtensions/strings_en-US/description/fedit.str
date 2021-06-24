@@ -1,8 +1,0 @@
-STRINGTABLE Fedit
-{
-	Fedit									"Filter";
-	FILTEREMULATION_EDIT 	"Edit...";
-}
-
-
-

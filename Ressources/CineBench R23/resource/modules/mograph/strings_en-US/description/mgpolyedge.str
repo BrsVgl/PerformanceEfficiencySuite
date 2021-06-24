@@ -1,8 +1,0 @@
-STRINGTABLE MGpolyedge
-{
-	MGpoly "Polygon Object Clone";
-
-	MG_POLYEDGE_SCALE_ACTIVE "Scale on Edge";
-	MG_POLYEDGE_SCALE "Edge Scale";
-	MG_POLYEDGE_OFFSET "Offset";
-}

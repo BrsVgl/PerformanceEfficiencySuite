@@ -1,5 +1,0 @@
-STRINGTABLE VPsharpenfilter
-{
-	VPsharpenfilter						"Sharpen Filter";
-	VP_SHARPENFILTERSTRENGTH	"Strength";
-}

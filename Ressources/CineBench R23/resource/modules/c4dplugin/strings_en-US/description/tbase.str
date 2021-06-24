@@ -1,5 +1,0 @@
-STRINGTABLE Tbase
-{
-	Tbase				 			"Base Tag";
-	ID_TAGPROPERTIES	"Tag Properties" "Tag";
-}

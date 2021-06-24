@@ -1,8 +1,0 @@
-// C4D-DialogResource
-
-DIALOGSTRINGS DLG_DPX
-{
-	
-	TDLG 			"DPX Export Settings";
-	DPX_PLANAR_TEXT		"Planar";
-}

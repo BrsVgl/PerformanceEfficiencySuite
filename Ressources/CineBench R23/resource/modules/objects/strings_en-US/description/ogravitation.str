@@ -1,7 +1,0 @@
-STRINGTABLE Ogravitation
-{
-	Ogravitation "Gravity Object";
-
-	GRAVITATIONOBJECT_STRENGTH	"Acceleration";
-	GRAVITATIONOBJECT_SIZE			"Size";
-}

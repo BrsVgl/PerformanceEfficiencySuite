@@ -1,9 +1,0 @@
-CONTAINER VPbase
-{
-	NAME VPbase;
-
-	GROUP ID_VIDEOPOSTPROPERTIES
-	{
-		DEFAULT	1;
-	}
-}

@@ -1,7 +1,0 @@
-DIALOGSTRINGS IDD_MODELING_UVWELDRELAX
-{
-  T1 "UV Weld and Relax";
-  T2 "Use Pins for UV Relax";
-  T3 "Auto Realign";
-  T4 "Restrict to Polygon Selection";
-}

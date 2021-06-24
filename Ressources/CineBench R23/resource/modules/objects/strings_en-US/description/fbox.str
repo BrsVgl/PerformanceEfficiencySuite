@@ -1,7 +1,0 @@
-STRINGTABLE Fbox
-{
-	Fbox															"Box Field";
-		
-	FIELD_BOX_SIZE										"Size";
-	FIELD_BOX_CLIPPED									"Clip to Shape";
-}

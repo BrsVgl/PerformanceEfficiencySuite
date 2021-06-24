@@ -1,5 +1,0 @@
-STRINGTABLE ToolPointWeld
-{
-   ToolPointWeld	     "Weld";
-	 MDATA_WELD_VISIBLE  "Only Select Visible Elements";
-}

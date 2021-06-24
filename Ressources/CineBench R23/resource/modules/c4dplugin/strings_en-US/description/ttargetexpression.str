@@ -1,8 +1,0 @@
-STRINGTABLE Ttargetexpression
-{
-	Ttargetexpression "Target Expression";
-
-	TARGETEXPRESSIONTAG_LINK "Target Object";
-	TARGETEXPRESSIONTAG_UP_LINK	"Up Vector";
-	TARGETEXPRESSIONTAG_PITCH	"Pitch";
-}

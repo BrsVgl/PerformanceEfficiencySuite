@@ -1,3 +1,0 @@
-CONTAINER Pall
-{
-}

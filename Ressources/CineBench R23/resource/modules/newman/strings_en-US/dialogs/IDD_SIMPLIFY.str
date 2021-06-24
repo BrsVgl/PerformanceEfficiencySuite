@@ -1,8 +1,0 @@
-// C4D-DialogResource
-
-DIALOGSTRINGS IDD_SIMPLIFY
-{
-  IDS_DIALOG   "Simplify";
-  IDS_TEXT1  "Value";
-  IDS_TEXT2  "Time";
-}

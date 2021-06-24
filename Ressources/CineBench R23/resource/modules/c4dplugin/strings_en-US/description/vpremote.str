@@ -1,5 +1,0 @@
-STRINGTABLE VPremote
-{
-	VPremote				"Remote";
-	VP_REMOTEPATH		"External Application";
-}

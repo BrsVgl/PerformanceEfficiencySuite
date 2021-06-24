@@ -1,5 +1,0 @@
-STRINGTABLE VPmedianfilter
-{
-	VPmedianfilter						"Median Filter";
-	VP_MEDIANFILTERSTRENGTH		"Strength";
-}

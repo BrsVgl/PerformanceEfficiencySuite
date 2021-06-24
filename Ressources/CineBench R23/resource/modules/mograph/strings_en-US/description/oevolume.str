@@ -1,7 +1,0 @@
-STRINGTABLE Oevolume
-{
-	Oevolume "Volume";
-
-	MGVOLUMEEFFECTOR_OBJECT "Volume Object";
-
-}

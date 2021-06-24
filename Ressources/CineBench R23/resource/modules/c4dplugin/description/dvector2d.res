@@ -1,7 +1,0 @@
-CONTAINER Dvector2d
-{
-	NAME Dvector2d;
-
-	REAL VECTOR2D_X	{ }
-	REAL VECTOR2D_Y { }
-}

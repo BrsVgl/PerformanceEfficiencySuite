@@ -1,9 +1,0 @@
-CONTAINER Dcolora
-{
-	NAME Dcolora;
-
-	REAL COLORA_R { }
-	REAL COLORA_G { }
-	REAL COLORA_B { }
-	REAL COLORA_A { }
-}

@@ -1,5 +1,0 @@
-STRINGTABLE Fbvhimport
-{
-	Fbvhimport   		"BVH Import";
-  BVHIMPORTFILTER_SCALE	"Scale";
-}

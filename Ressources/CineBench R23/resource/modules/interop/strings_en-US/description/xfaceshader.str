@@ -1,5 +1,0 @@
-STRINGTABLE Xfaceshader
-{
-  Xfaceshader                       "Moves Face Shader";
-  IMAGESHADER_PERFORMANCE           "Capture";
-}

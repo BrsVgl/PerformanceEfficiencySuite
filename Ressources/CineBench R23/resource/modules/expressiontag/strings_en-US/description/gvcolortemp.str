@@ -1,7 +1,0 @@
-STRINGTABLE GVcolortemp
-{
-	GVcolortemp						"Color Temperature Operator";
-
-	GV_CTEMP_TEMPREATURE	"Temperature";
-	GV_CTEMP_COLOR        "Color";
-}

@@ -1,9 +1,0 @@
-STRINGTABLE Tvertexmap
-{
-	Tvertexmap						"Vertexmap Tag";
-	ID_TAGFIELDGROUP			"Fields";
-	ID_TAGFIELDS					"Fields";
-	ID_TAGFIELD_ENABLE		"Use Fields";
-	ID_TAGFIELD_DEFORMED	"Use Deformed Points";
-	ID_TAGFIELD_INVERT "Invert";
-}

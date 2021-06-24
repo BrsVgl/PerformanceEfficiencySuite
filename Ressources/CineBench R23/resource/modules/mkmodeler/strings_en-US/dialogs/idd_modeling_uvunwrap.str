@@ -1,7 +1,0 @@
-DIALOGSTRINGS IDD_MODELING_UVUNWRAP
-{
-  T1 "UV Unwrap";
-  T2 "Restrict to Polygon Selection";
-  T3 "Use Pins for UV Relax";
-  T4 "Auto Realign";
-}

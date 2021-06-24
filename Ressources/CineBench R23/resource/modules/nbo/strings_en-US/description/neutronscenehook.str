@@ -1,8 +1,0 @@
-STRINGTABLE NeutronSceneHook
-{
-	name "Scene Nodes";
-	NEUTRON_VIEWPORT_MODE "Display";
-	NEUTRON_VIEWPORT_MODE_NONE "None";
-	NEUTRON_VIEWPORT_MODE_NEUTRON "Basic Shading (Fast)";
-	NEUTRON_VIEWPORT_MODE_LEGACY "Full Shading (Slow)";
-}

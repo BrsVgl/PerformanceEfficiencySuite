@@ -1,8 +1,0 @@
-// C4D-DialogResource
-
-DIALOGSTRINGS IDC_FRAMEDLG
-{
-  IDS_DIALOG  "Frame Range";
-  IDS_FROM    "From Time";
-  IDS_TO      "To Time";
-}

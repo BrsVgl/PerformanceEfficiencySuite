@@ -1,5 +1,0 @@
-STRINGTABLE VPbase
-{
-	VPbase				 		 			"Post Effect";
-	ID_VIDEOPOSTPROPERTIES 	"Basic Properties" "Basic";
-}

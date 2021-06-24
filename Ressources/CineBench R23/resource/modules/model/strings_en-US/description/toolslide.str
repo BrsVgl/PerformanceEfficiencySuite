@@ -1,7 +1,0 @@
-STRINGTABLE ToolSlide
-{
-	ToolSlide	"Slide";
-
-	MDATA_SLIDE_EDGE	"Edge Percent";
-	MDATA_SLIDE_PERCENT "Offset";
-}

@@ -1,8 +1,0 @@
-STRINGTABLE Tsticktexture
-{
-	Tsticktexture "Pin Material Tag";
-
-	STICKTEXTURETAG_ACTIVE	"Active";
-	STICKTEXTURETAG_RECORD  "Record";
-	STICKTEXTURETAG_RESET   "Reset";
-}

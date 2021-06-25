@@ -5,8 +5,21 @@ Clear-Host
 $strPesPath = $MyInvocation.MyCommand.Path
 $strPesPath = $strPesPath.Replace($MyInvocation.MyCommand.Name, '') 
 
+# get settings
+$strSettingsPath = $strPesPath.Replace('Ressources\', '')
+$strSettingsPath += 'Settings.txt' 
+
+Get-Content  $strSettingsPath | foreach-object -begin {$htSettings=@{}} -process {
+	$k = [regex]::split($_,'='); 
+		if(($k[0].CompareTo("") -ne 0) -and ($k[0].StartsWith("[") -ne $True)) { 
+			$htSettings.Add($k[0], $k[1]) 
+		} 
+	}
+
 # set CinemaBenchR23 Path
-$strCb23Path = $strPesPath + 'CineBench R23\Cinebench.exe'
+$strCb23Path = $htSettings['Cb23Path']
+$strCb23Path += '\Cinebench.exe'
+
 # set LogCsv Path
 $strLogCsvPath = $strPesPath.Replace('Ressources\', '') + 'LogCsv\'
 
@@ -55,13 +68,13 @@ $strCb23StCsv = $strLogCsvPath + 'Cb23St.csv'
 Write-Output $strResult | Out-File -Filepath $strCb23StCsv
 
 # Cooldown
-Write-Output ""
-Write-Output "[$(Get-Date -format 'u')] 180 seconds cooldown remaining until Multi-Thread test..."
-Start-Sleep -Seconds 60
-Write-Output "[$(Get-Date -format 'u')] 120 seconds cooldown remaining until Multi-Thread test..."
-Start-Sleep -Seconds 60
-Write-Output "[$(Get-Date -format 'u')] 60 seconds cooldown remaining until Multi-Thread test..."
-Start-Sleep -Seconds 50
+# Write-Output ""
+# Write-Output "[$(Get-Date -format 'u')] 180 seconds cooldown remaining until Multi-Thread test..."
+# Start-Sleep -Seconds 60
+# Write-Output "[$(Get-Date -format 'u')] 120 seconds cooldown remaining until Multi-Thread test..."
+# Start-Sleep -Seconds 60
+# Write-Output "[$(Get-Date -format 'u')] 60 seconds cooldown remaining until Multi-Thread test..."
+# Start-Sleep -Seconds 50
 Write-Output "[$(Get-Date -format 'u')] 10 seconds cooldown remaining until Multi-Thread test..."
 Start-Sleep -Seconds 10
 Write-Output ""
@@ -77,11 +90,17 @@ $dtInitial = Get-Date
 $strResult = "DurationMilliseconds;PackagePower`n"
 
 While (!$prcCinebench.HasExited) {
-	ForEach ($varHW in $cComp.Hardware) {
-		If (!$varHW.HardwareType -eq "CPU"){continue}
-		Start-Sleep -Milliseconds 10
+	# ForEach ($varHW in $cComp.Hardware) {
+		# "varHW" #DEBUG
+		# '-----' #DEBUG
+		# $varHW #DEBUG
+		# If (!$varHW.HardwareType -eq "CPU"){continue}
+		Start-Sleep -Milliseconds 5
 		$varHW.Update()
 		ForEach ($varSensor in $varHW.Sensors) {
+			# "varSensor" #DEBUG
+			# '-----' #DEBUG
+			# $varSensor #DEBUG
 			If (!(($varSensor.SensorType -eq 'Power') -and ($varSensor.Name -eq 'CPU Package'))) {continue}             
 			$PackagePower = $varSensor.Value
 		}
@@ -89,7 +108,17 @@ While (!$prcCinebench.HasExited) {
 		$decDurationMilliSeconds = $tsDuration.TotalMilliseconds
 		$strResult += "$decDurationMilliSeconds;$PackagePower`n"		
 	}
-}
+# }
+
+## DEBUG Begin ########################################################################################################
+# "strSettingsPath: $strSettingsPath"
+# "htSettings:" 
+# $htSettings
+# "strCb23Path: $strCb23Path"
+# Start-Sleep -Seconds 1000
+# break
+## DEBUG End ##########################################################################################################
+
 Write-Output "[$(Get-Date -format 'u')] CB23 Multi-Thread duration: $decDurationMilliSeconds ms"
 $strResult = $strResult.Substring(0, $strResult.Length - 1)
 $strCb23MtCsv = $strLogCsvPath + 'Cb23Mt.csv'

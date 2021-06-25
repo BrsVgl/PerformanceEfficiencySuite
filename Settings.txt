@@ -1,0 +1,5 @@
+#from http://tlingenf.spaces.live.com/blog/cns!B1B09F516B5BAEBF!213.entry
+
+[Locations]
+# Please enter your local CB R23 location without trailing '\'
+Cb23Path=C:\Example\CineBenchR23

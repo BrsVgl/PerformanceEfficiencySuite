@@ -15,11 +15,11 @@ Most Reviewers solely focus on what they consider to be the most important
 aspect of modern CPUs - the absolute performance.
 But this is only one side of the equation. Today Power Efficiency is at least as 
 important - or to be more precise:
-The amount of energy (Watts or Joules) a CPU needs in order to accomplish a 
+The amount of energy (Wattseconds or Joules) a CPU needs in order to accomplish a 
 given workload. Sadly most Reviewers shy away from the extra mile it needs to
 assess this aspect.
 This suite measures the Total Package Power of a CPU while running the 
-CineBench R23 benchmarks first in single-threaded mode, then cooling down,
+CineBench R23 benchmarks first in single-threaded mode,
 then running in multi-threaded mode. The results will be rendered in the 
 provided "Results" Excel file. 
 To combine Efficiency and Performance there is also a score provided called 
@@ -29,14 +29,15 @@ To combine Efficiency and Performance there is also a score provided called
 = How-To =
 ==========
 1. Unzip to wherever you want EXCEPT on your local OneDrive folder.
-2. Run "PES Start" - it will ask for Administrator rights as these are needed 
+2. Open Settings.txt and insert your local Cinebench23 Directory.
+3. Run "PES Start" - it will ask for Administrator rights as these are needed 
    for measuring Package Power
-3. Wait until the Powershell finishes.
-4. Open the Excel file...
+4. Wait until the Powershell finishes.
+5. Open the Excel file...
    1. Allow external connections (to the generated CSV-files with the data)
    2. Go to "Data" -> "Refresh all"
    3. Enjoy and SHARE your results
-5. If you want to do multiple measurements with different settings just copy the
+6. If you want to do multiple measurements with different settings just copy the
    Excel file (inside the root-folder) before running and refreshing the data.
 
 Some details about the Suite

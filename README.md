@@ -33,6 +33,14 @@ To combine Efficiency and Performance there is also a score provided called **Pe
 ### 2021-06-20: v0.3.1 - PreRelease
 initial
 
+## Disclaimer
+I am by no means a Powershell professional or a professional Reviewer. I was just sick of the lack of information and wanted to propose a low-effort solution. Any input for further improvement is highly welcomed.
+Please feel free to use/extend/rip-off this solution as you wish.
+But please share your findings to the world.
+
+## Community
+3DCenter.org Forum: https://www.forum-3dcenter.org/vbulletin/showthread.php?t=606794
+
 ## Some details about the Suite
 - This Suite has been made possible by *Michael Möller* and his amazing free and open-source *Open Hardware Monitor* and his *.NET Library OpenHardwareMonitorLib.dll* - **Thanks a lot!!!**
 
@@ -61,10 +69,3 @@ initial
       To get that number we need the integral. That is why we first calculate the timeframe between two data-points and then multiply the measured value.
 
     - Everything else in that Excel is hopefully more or less self-explaining
-
-## Disclaimer
-I am by no means a Powershell professional or a professional Reviewer. I was just sick of the lack of information and wanted to propose a low-effort solution. Any input for further improvement is highly welcomed.
-Please feel free to use/extend/rip-off this solution as you wish. But please share your findings to the world.
-
-## Community
-3DCenter.org Forum: https://www.forum-3dcenter.org/vbulletin/showthread.php?t=606794

@@ -12,11 +12,11 @@ $strPesPath = $strPesPath.Replace($MyInvocation.MyCommand.Name, '')
 $strSettingsPath = $strPesPath.Replace('Ressources\', '')
 $strSettingsPath += 'Settings.txt' 
 
-Get-Content  $strSettingsPath | foreach-object -begin {$htSettings=@{}} -process {
-	$k = [regex]::split($_,'='); 
-		if(($k[0].CompareTo("") -ne 0) -and ($k[0].StartsWith("[") -ne $True)) { 
-			$htSettings.Add($k[0], $k[1]) 
-		} 
+Get-Content  $strSettingsPath | foreach-object -begin {$htSettings=@{}}	-process {
+		$k = [regex]::split($_,'='); 
+			if(($k[0].CompareTo("") -ne 0) -and ($k[0].StartsWith("[") -ne $True)) { 
+				$htSettings.Add($k[0], $k[1]) 
+			} 
 	}
 
 # declare function Get-PackagePower

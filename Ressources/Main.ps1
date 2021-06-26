@@ -79,8 +79,7 @@ catch {
 	Write-Output '--------------------------------------------------------------------------------------------------------------'
 
 	# dispose Object
-	# $cComp.Close()
-	Write-Output 'Inside catch'
+	$cComp.Close()
 	Start-Sleep -Seconds 30
 	break
 }
@@ -88,8 +87,11 @@ $prcCinebench = Get-Process Cinebench
 $prcCinebench.PriorityClass = "AboveNormal"
 
 # start measurement
+$dtRunStart = Get-Date
 $strResult = Get-CpuPackagePower -prcProcessToMonitor $prcCinebench -strHeader $strCsvHeader
-Write-Output "[$(Get-Date -format 'u')] CB23 ST duration: $decDurationMilliSeconds ms"
+$tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
+$decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
+Write-Output "[$(Get-Date -format 'u')] CB23 ST duration: $decRunDurationSeconds s"
 
 # dump data to CSV
 $strCb23StCsv = $strLogCsvPath + 'Cb23St.csv'
@@ -105,8 +107,11 @@ Start-Process -FilePath $strCb23Executable -ArgumentList "g_CinebenchCpuXTest=tr
 $prcCinebench = Get-Process Cinebench
 $prcCinebench.PriorityClass = "AboveNormal"
 
+$dtRunStart = Get-Date
 $strResult = Get-CpuPackagePower -prcProcessToMonitor $prcCinebench -strHeader $strCsvHeader
-Write-Output "[$(Get-Date -format 'u')] CB23 Multi-Thread duration: $decDurationMilliSeconds ms"
+$tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
+$decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
+Write-Output "[$(Get-Date -format 'u')] CB23 Multi-Thread duration: $decRunDurationSeconds s"
 $strCb23MtCsv = $strLogCsvPath + 'Cb23Mt.csv'
 Write-Output $strResult | Out-File -Filepath $strCb23MtCsv
 

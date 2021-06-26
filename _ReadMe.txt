@@ -49,7 +49,8 @@ v0.5.0 - Beta - 2021-06-20
 - optimized PackagePower measurement for lower CPU-load 
   this might lead to better MT-results (READ: not directly comparable to v0.3.1)
 - added some exception handling when given wrong CB23 path
-- some Refactoring 
+- some Refactoring
+- reduced Cooldown between runs to 10 seconds 
 --------------------------------------------------------------------------------
 v0.3.1 - PreRelease - 2021-06-20
 initial

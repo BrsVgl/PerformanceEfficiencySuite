@@ -1,7 +1,7 @@
 ================================================================================
 == Performance Efficiency Suite (PES)                                         ==
 ================================================================================
-Version 0.31 (2021-06-20)
+Version 0.50 (2021-06-26)
 ================================================================================
 Author: Boris Vogel
 3DCenter.org Thread: 
@@ -15,8 +15,8 @@ Most Reviewers solely focus on what they consider to be the most important
 aspect of modern CPUs - the absolute performance.
 But this is only one side of the equation. Today Power Efficiency is at least as 
 important - or to be more precise:
-The amount of energy (Wattseconds or Joules) a CPU needs in order to accomplish a 
-given workload. Sadly most Reviewers shy away from the extra mile it needs to
+The amount of energy (Wattseconds or Joules) a CPU needs in order to accomplish 
+a given workload. Sadly most Reviewers shy away from the extra mile it needs to
 assess this aspect.
 This suite measures the Total Package Power of a CPU while running the 
 CineBench R23 benchmarks first in single-threaded mode,
@@ -39,6 +39,20 @@ To combine Efficiency and Performance there is also a score provided called
    3. Enjoy and SHARE your results
 6. If you want to do multiple measurements with different settings just copy the
    Excel file (inside the root-folder) before running and refreshing the data.
+
+==============
+= Change-Log =
+==============
+v0.5.0 - Beta - 2021-06-20
+- unbundled CineBench R23 binaries from Suite
+- added Settings.txt for providing path to Cinebench R23 Directory
+- optimized PackagePower measurement for lower CPU-load 
+  this might lead to better MT-results (READ: not directly comparable to v0.3.1)
+- added some exception handling when given wrong CB23 path
+- some Refactoring 
+--------------------------------------------------------------------------------
+v0.3.1 - PreRelease - 2021-06-20
+initial
 
 Some details about the Suite
 ----------------------------

@@ -1,6 +1,14 @@
 # Performance Efficiency Suite
 
+- Author: Boris Vogel
+- GitHub: https://github.com/BrsVgl/PerformanceEfficiencySuite
+
+## Table of contents
+
+- [Purpose](#Purpose)
+
 ## Purpose
+
 Most Reviewers solely focus on what they consider to be the most important aspect of modern CPUs - the absolute performance.
 But this is only one side of the equation. Today Power Efficiency is at least as important - or to be more precise:
 The amount of energy (Wattseconds or Joules) a CPU needs in order to accomplish a given workload. Sadly most Reviewers shy away from the extra mile it needs to assess this aspect.
@@ -8,6 +16,7 @@ This suite measures the Total Package Power of a CPU while running the Cinebench
 To combine Efficiency and Performance there is also a score provided called **Performance Efficiency Score** (how amazingly inspired I am ;) ).
 
 ## How-To
+
 1. Unzip to wherever you want **EXCEPT** on your local OneDrive folder.
 2. Open *Settings.txt* and **insert your local Cinebench23 Directory**.
 3. Run *PES Start* - it will ask for Administrator rights as these are needed for measuring Package Power
@@ -31,17 +40,21 @@ To combine Efficiency and Performance there is also a score provided called **Pe
 - reduced Cooldown between runs to 10 seconds 
 
 ### 2021-06-20: v0.3.1 - PreRelease
+
 initial
 
 ## Disclaimer
+
 I am by no means a Powershell professional or a professional Reviewer. I was just sick of the lack of information and wanted to propose a low-effort solution. Any input for further improvement is highly welcomed.
 Please feel free to use/extend/rip-off this solution as you wish.
 But please share your findings to the world.
 
 ## Community
+
 3DCenter.org Forum: https://www.forum-3dcenter.org/vbulletin/showthread.php?t=606794
 
-## Some details about the Suite
+## Some explanations about the Suite
+
 - This Suite has been made possible by *Michael Möller* and his amazing free and open-source *Open Hardware Monitor* and his *.NET Library OpenHardwareMonitorLib.dll* - **Thanks a lot!!!**
 
   Homepage: https://openhardwaremonitor.org/

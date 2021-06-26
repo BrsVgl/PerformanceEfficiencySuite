@@ -4,9 +4,9 @@
 Version 0.50 (2021-06-26)
 ================================================================================
 Author: Boris Vogel
+GitHub: https://github.com/BrsVgl/PerformanceEfficiencySuite
 3DCenter.org Thread: 
   https://www.forum-3dcenter.org/vbulletin/showthread.php?t=606794
-Mail: Boris.Vogel.82@gmail.com
 ================================================================================
 
 Purpose

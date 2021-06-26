@@ -3,17 +3,19 @@
 - Author: Boris Vogel
 - GitHub: https://github.com/BrsVgl/PerformanceEfficiencySuite
 
-## Table of contents
-
-- [Purpose](#Purpose)
-
-## Purpose
-
 Most Reviewers solely focus on what they consider to be the most important aspect of modern CPUs - the absolute performance.
 But this is only one side of the equation. Today Power Efficiency is at least as important - or to be more precise:
 The amount of energy (Wattseconds or Joules) a CPU needs in order to accomplish a given workload. Sadly most Reviewers shy away from the extra mile it needs to assess this aspect.
 This suite measures the Total Package Power of a CPU while running the Cinebench R23 benchmarks first in single-threaded mode, then running in multi-threaded mode. The results will be rendered in the provided *Results.xlsx* Excel file. 
 To combine Efficiency and Performance there is also a score provided called **Performance Efficiency Score** (how amazingly inspired I am ;) ).
+
+## Table of contents
+
+- [How-To](#how-to)
+- [Change-Log](#change-log)
+- [Disclaimer](#disclaimer)
+- [Community](#community)
+- [Some explanations about the Suite](#some-explanations-about-the-suite)
 
 ## How-To
 

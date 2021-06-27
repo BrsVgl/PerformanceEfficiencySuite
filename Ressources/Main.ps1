@@ -1,8 +1,9 @@
 #Requires -RunAsAdministrator
 Clear-Host
-
+# current version
+$strCurrentVersion = 'v0.5.1'
 # declare CSV header
-$strCsvHeader = "DurationMilliseconds;PackagePower`n"
+$strCsvHeader = "DurationMilliseconds;PackagePower;Version`n"
 
 # get path of "Ressources" folder
 $strPesPath = $MyInvocation.MyCommand.Path
@@ -37,7 +38,7 @@ function Get-CpuPackagePower {
 		}
 		$tsDuration = New-TimeSpan -Start $dtInitial -End (Get-Date)
 		$decDurationMilliSeconds = $tsDuration.TotalMilliseconds
-		$strResult += "$decDurationMilliSeconds;$PackagePower`n"		
+		$strResult += "$decDurationMilliSeconds;$PackagePower;$strCurrentVersion`n"		
 		Start-Sleep -Milliseconds 10
 	}
 	$strResult = $strResult.Substring(0, $strResult.Length - 1)

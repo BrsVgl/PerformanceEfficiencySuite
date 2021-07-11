@@ -1,7 +1,7 @@
 #Requires -RunAsAdministrator
 Clear-Host
 # current version
-$strCurrentVersion = 'v0.5.1'
+$strCurrentVersion = 'v0.6.0'
 # declare CSV header
 $strCsvHeader = "DurationMilliseconds;PackagePower;Version`n"
 
@@ -99,8 +99,14 @@ $strCb23StCsv = $strLogCsvPath + 'Cb23St.csv'
 Write-Output $strResult | Out-File -Filepath $strCb23StCsv
 
 # Cooldown
-Write-Output "[$(Get-Date -format 'u')] 10 seconds cooldown remaining until Multi-Thread test..."
-Start-Sleep -Seconds 10
+$intCoolDownDuration = 18 # 1 per 10 seconds
+for($i = 1; $i -le $intCoolDownDuration; $i++) {
+	if(($i -eq 1) -or ($i -eq $intCoolDownDuration) -or (($intCoolDownDuration - $i + 1) % 3 -eq 0)) {
+		$intRemainingCoolDown = 10 * ($intCoolDownDuration - $i + 1)
+		Write-Output "[$(Get-Date -format 'u')] $intRemainingCoolDown seconds cooldown remaining until Multi-Thread test..."
+	}
+	Start-Sleep -Seconds 10
+}
 
 # the same as above - just for multi-threaded run
 Write-Output "[$(Get-Date -format 'u')] Starting CB23 Multi-Thread test..."

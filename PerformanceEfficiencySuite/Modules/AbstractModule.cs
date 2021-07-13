@@ -35,10 +35,10 @@ namespace PerformanceEfficiencySuite.Modules
             IHardwareMonitor<THardwareMonitor> packagePowerMonitor,
             ModuleInfo moduleInfo)
         {
-            _logger = logger;
-            _configuration = configuration;
-            _packagePowerMonitor = packagePowerMonitor;
-            ModuleInfo = moduleInfo;
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
+            _packagePowerMonitor = packagePowerMonitor ?? throw new ArgumentNullException(nameof(packagePowerMonitor));
+            ModuleInfo = moduleInfo ?? throw new ArgumentNullException(nameof(moduleInfo));
         }
 
         /// <summary>

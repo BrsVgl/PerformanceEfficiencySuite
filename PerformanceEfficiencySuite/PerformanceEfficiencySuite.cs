@@ -13,12 +13,17 @@ namespace PerformanceEfficiencySuite
         private readonly ILogger<PerformanceEfficiencySuite> _logger;
         private readonly IEnumerable<IModule> _modules;
 
+        /// <summary>
+        ///     Create new instance of <see cref="PerformanceEfficiencySuite" />.
+        /// </summary>
+        /// <param name="logger"></param>
+        /// <param name="modules"></param>
         public PerformanceEfficiencySuite(
             ILogger<PerformanceEfficiencySuite> logger,
             IEnumerable<IModule> modules)
         {
-            _logger = logger;
-            _modules = modules;
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            _modules = modules ?? throw new ArgumentNullException(nameof(modules));
         }
 
         /// <summary>
@@ -41,7 +46,7 @@ namespace PerformanceEfficiencySuite
             if (moduleToRun is null)
             {
                 _logger.LogError("Module with name '{moduleName}' not found!");
-                throw new Exception("Module with name '{moduleName}' not found!"); // TODO: write exception.
+                throw new ModuleNotFoundException(moduleName);
             }
 
             var result = await moduleToRun.StartTest(stoppingToken);
@@ -59,7 +64,18 @@ namespace PerformanceEfficiencySuite
             CancellationToken stoppingToken = default)
         {
             var modules = _modules.Where(m =>
-                modulesToRun.Any(x => x.Equals(m.ModuleInfo.ModuleName, StringComparison.InvariantCultureIgnoreCase)));
+                                      modulesToRun.Any(x => x.Equals(m.ModuleInfo.ModuleName,
+                                          StringComparison.InvariantCultureIgnoreCase)))
+                                  .ToList();
+
+            if (modules.Count != modulesToRun.Count())
+            {
+                var modulesNotFound = modulesToRun.Except(modules.Select(f => f.ModuleInfo.ModuleName)).ToList();
+                _logger.LogError("Modules with name {ModulesNotFound} not found!",
+                    string.Join(",", modulesNotFound.Select(m => "'" + m + "'")););
+                throw new ModuleNotFoundException(modulesNotFound);
+            }
+
             var results = new List<ModuleResult>();
             foreach (var module in modules)
             {

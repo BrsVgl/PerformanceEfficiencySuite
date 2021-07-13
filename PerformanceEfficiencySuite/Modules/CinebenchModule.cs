@@ -78,7 +78,7 @@ namespace PerformanceEfficiencySuite.Modules
         private async Task StartCoolDown()
         {
             _logger.LogInformation("Starting cooldown phase...");
-            for (var i = 0; i < _coolDownTime; i++)
+            for (var i = 0; i < Configuration.CooldownTime; i++)
             {
                 _logger.LogInformation("{CoolDownTimeLeft} seconds cooldown remaining until Multi-Thread test...",
                     _coolDownTime - i);

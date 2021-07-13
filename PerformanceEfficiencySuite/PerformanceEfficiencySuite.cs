@@ -21,6 +21,12 @@ namespace PerformanceEfficiencySuite
             _modules = modules;
         }
 
+        /// <summary>
+        ///     Run a Performance Efficiency Suite module.
+        /// </summary>
+        /// <param name="moduleName">Name of module to run.</param>
+        /// <param name="stoppingToken"></param>
+        /// <returns><see cref="ModuleResult" /> of the Performance Efficiency Suite modules.</returns>
         public async Task<ModuleResult> RunModule(
             string moduleName,
             CancellationToken stoppingToken = default)
@@ -42,6 +48,12 @@ namespace PerformanceEfficiencySuite
             return result;
         }
 
+        /// <summary>
+        ///     Run multiple Performance Efficiency Suite modules.
+        /// </summary>
+        /// <param name="modulesToRun">Names of modules to run.</param>
+        /// <param name="stoppingToken"></param>
+        /// <returns>All <see cref="ModuleResult" /> of the Performance Efficiency Suite modules. </returns>
         public async Task<IEnumerable<ModuleResult>> RunModules(
             IEnumerable<string> modulesToRun,
             CancellationToken stoppingToken = default)

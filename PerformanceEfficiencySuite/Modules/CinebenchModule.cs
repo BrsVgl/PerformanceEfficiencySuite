@@ -10,13 +10,22 @@ using PerformanceEfficiencySuite.HardwareMonitors;
 
 namespace PerformanceEfficiencySuite.Modules
 {
+    /// <summary>
+    ///     <see cref="IModule" /> implementation that tests the performance efficiency by using Cinebench.
+    /// </summary>
     public class CinebenchModule
-        : Module<CinebenchModule, CinebenchModuleConfiguration, PackagePowerMonitor>
+        : AbstractModule<CinebenchModule, CinebenchModuleConfiguration, PackagePowerMonitor>
     {
         private readonly int _coolDownTime = 10;
         private readonly ILogger<CinebenchModule> _logger;
         private readonly IHardwareMonitor<PackagePowerMonitor> _packagePowerMonitor;
 
+        /// <summary>
+        ///     Create new instance of <see cref="CinebenchModule" />.
+        /// </summary>
+        /// <param name="logger"><see cref="ILogger" /> for logging.</param>
+        /// <param name="configuration">Global <see cref="IConfiguration" />.</param>
+        /// <param name="packagePowerMonitor">Used <see cref="IHardwareMonitor{T}" /></param>
         public CinebenchModule(
             ILogger<CinebenchModule> logger,
             IConfiguration configuration,

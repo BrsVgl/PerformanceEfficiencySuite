@@ -1,14 +1,26 @@
 ﻿namespace PerformanceEfficiencySuite.HardwareMonitors
 {
+    /// <summary>
+    ///     Defines a measured value after a duration.
+    /// </summary>
     public class MeasurePoint
     {
-        public MeasurePoint(long duration, float? packagePower)
+        /// <summary>
+        ///     Create new instance of <see cref="MeasurePoint" />.
+        /// </summary>
+        /// <param name="duration"></param>
+        /// <param name="value">Measured value</param>
+        public MeasurePoint(long duration, float? value)
         {
             Duration = duration;
-            PackagePower = packagePower;
+            Value = value;
         }
 
         public long Duration { get; private set; }
-        public float? PackagePower { get; private set; }
+
+        /// <summary>
+        ///     Measured value.
+        /// </summary>
+        public float? Value { get; private set; }
     }
 }

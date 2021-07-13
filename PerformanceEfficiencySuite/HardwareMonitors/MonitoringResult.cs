@@ -13,7 +13,7 @@ namespace PerformanceEfficiencySuite.HardwareMonitors
         private readonly Stopwatch _watch = new Stopwatch();
 
         public IEnumerable<MeasurePoint> MeasurePoints => _measurePoints.AsReadOnly();
-
+        
         public DateTime? StartDate { get; private set; }
         public DateTime? FinishedDate { get; private set; }
 

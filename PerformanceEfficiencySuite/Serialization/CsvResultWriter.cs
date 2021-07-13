@@ -8,6 +8,9 @@ using PerformanceEfficiencySuite.Modules;
 
 namespace PerformanceEfficiencySuite.Serialization
 {
+    /// <summary>
+    ///     Implementation of <see cref="IResultWriter" /> that writes into a CSV file.
+    /// </summary>
     public class CsvResultWriter : IResultWriter
     {
         /// <inheritdoc />
@@ -32,6 +35,11 @@ namespace PerformanceEfficiencySuite.Serialization
             }
         }
 
+        /// <inheritdoc />
+        public void Dispose()
+        {
+        }
+
         private static string GetFilename(
             ModuleResult moduleResult,
             MonitoringResult monitoringResult,
@@ -49,11 +57,6 @@ namespace PerformanceEfficiencySuite.Serialization
             return resultNameBuilder.ToString();
         }
 
-        /// <inheritdoc />
-        public void Dispose()
-        {
-        }
-
         private async Task WriteHeader(StreamWriter streamWriter, IEnumerable<string> headers)
         {
             await streamWriter.WriteLineAsync(string.Join(";", headers));
@@ -65,7 +68,7 @@ namespace PerformanceEfficiencySuite.Serialization
             ModuleVersion moduleVersion)
         {
             foreach (var measurePoint in monitoringResult.MeasurePoints)
-                await streamWriter.WriteLineAsync(string.Join(";", measurePoint.Duration, measurePoint.PackagePower,
+                await streamWriter.WriteLineAsync(string.Join(";", measurePoint.Duration, measurePoint.Value,
                     moduleVersion));
         }
     }

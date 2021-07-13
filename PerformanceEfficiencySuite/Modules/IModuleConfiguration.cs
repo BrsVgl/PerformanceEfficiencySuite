@@ -1,13 +1,9 @@
-﻿using System.Collections.Generic;
-
-namespace PerformanceEfficiencySuite.Modules
+﻿namespace PerformanceEfficiencySuite.Modules
 {
-    //public class ModuleConfiguration : Dictionary<string, object>
-    //{
-    //}
-
+    /// <summary>
+    ///     Interface for <see cref="IModule" /> configurations.
+    /// </summary>
     public interface IModuleConfiguration
     {
-
     }
 }

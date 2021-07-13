@@ -11,11 +11,11 @@ namespace PerformanceEfficiencySuite.Modules
         /// </summary>
         ModuleInfo ModuleInfo { get; }
 
+        /// <summary>
+        ///     Start the <see cref="IModule" />.
+        /// </summary>
+        /// <param name="stoppingToken"></param>
+        /// <returns><see cref="ModuleResult" /> of the test.</returns>
         Task<ModuleResult> StartTest(CancellationToken stoppingToken = default);
     }
-
-    //public interface IModule<TSuite> : IModule
-    //    where TSuite : IModule<TSuite>
-    //{
-    //}
 }

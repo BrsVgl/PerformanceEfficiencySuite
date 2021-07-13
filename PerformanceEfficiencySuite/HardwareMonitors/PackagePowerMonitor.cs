@@ -8,11 +8,19 @@ using OpenHardwareMonitor.Hardware;
 
 namespace PerformanceEfficiencySuite.HardwareMonitors
 {
+    /// <summary>
+    ///     Implementation of <see cref="IHardwareMonitor" /> that tests the package power.
+    /// </summary>
     public class PackagePowerMonitor : IDisposable, IHardwareMonitor<PackagePowerMonitor>
     {
         private readonly Computer _computer;
         private readonly ILogger<PackagePowerMonitor> _logger;
 
+        /// <summary>
+        ///     Create new instance of <see cref="PackagePowerMonitor" />.
+        /// </summary>
+        /// <param name="logger"></param>
+        /// <param name="computer"></param>
         public PackagePowerMonitor(ILogger<PackagePowerMonitor> logger, Computer computer)
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
@@ -25,6 +33,7 @@ namespace PerformanceEfficiencySuite.HardwareMonitors
             _computer.Close();
         }
 
+        /// <inheritdoc />
         public async Task<MonitoringResult> MonitorProcess(
             Process processToMonitor,
             string mode,

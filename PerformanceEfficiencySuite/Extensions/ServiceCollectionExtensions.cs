@@ -5,7 +5,6 @@ using System.Reflection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using Microsoft.Extensions.Options;
 using OpenHardwareMonitor.Hardware;
 using PerformanceEfficiencySuite.HardwareMonitors;
 using PerformanceEfficiencySuite.Modules;
@@ -23,7 +22,8 @@ namespace PerformanceEfficiencySuite.Extensions
 
         public static IServiceCollection AddPerformanceEfficiencySuite(
             this IServiceCollection collection,
-            IConfiguration configuration, params Assembly[] assemblies)
+            IConfiguration configuration,
+            params Assembly[] assemblies)
         {
             collection.AddScoped<PerformanceEfficiencySuite>();
             collection.AddSingleton(configuration);
@@ -31,14 +31,11 @@ namespace PerformanceEfficiencySuite.Extensions
 
             foreach (var assembly in assemblies)
             {
-               // Register modules 
+                // Register modules 
                 var modules = GetTypes<IModule>(assembly).Distinct();
-                foreach (var type in modules)
-                {
-                    collection.AddScoped(typeof(IModule), type);
-                }
+                foreach (var type in modules) collection.AddScoped(typeof(IModule), type);
             }
-            
+
             collection.AddTransient<IModule, CinebenchModule>();
             return collection;
         }

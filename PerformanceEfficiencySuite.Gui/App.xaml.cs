@@ -2,6 +2,8 @@
 using System.Windows;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using PerformanceEfficiencySuite.Extensions;
 using PerformanceEfficiencySuite.Modules;
 using PerformanceEfficiencySuite.Modules.Cinebench;
@@ -14,52 +16,55 @@ namespace PerformanceEfficiencySuite.Gui
     /// </summary>
     public partial class App : Application
     {
-        private readonly ServiceProvider _serviceProvider;
+        private readonly IHost _host;
 
         public App()
         {
-            var config = GetConfiguration();
-            Log.Logger = CreateLogger(config);
-            var services = new ServiceCollection();
-            ConfigureServices(services, config);
-            _serviceProvider = services.BuildServiceProvider();
-        }
-
-        private void ConfigureServices(IServiceCollection services, IConfiguration configuration)
-        {
-            services.AddLogging(builder => builder.AddSerilog());
-            services.AddPerformanceEfficiencySuite(configuration, typeof(IModule).Assembly,
-                typeof(CinebenchModule).Assembly);
-            services.AddSingleton<MainWindow>();
-        }
-
-        private static IConfiguration GetConfiguration()
-        {
-            var configBuilder = new ConfigurationBuilder()
-                                .SetBasePath(AppContext.BaseDirectory)
-                                .AddJsonFile("appsettings.json");
-            return configBuilder.Build();
+            _host = CreateHostBuilder().Build();
         }
 
         private void OnStartup(object sender, StartupEventArgs e)
         {
-            var mainWindow = _serviceProvider.GetRequiredService<MainWindow>();
-            mainWindow.Show();
+            using (var scope = _host.Services.CreateScope())
+            {
+                var serviceProvider = scope.ServiceProvider;
+                var logger = serviceProvider.GetRequiredService<ILogger<App>>();
+
+                try
+                {
+                    var mainWindow = serviceProvider.GetRequiredService<MainWindow>();
+                    mainWindow.Show();
+                }
+                catch (Exception exception)
+                {
+                    logger.LogError(exception, "Something went wrong!");
+                }
+            }
         }
 
         /// <inheritdoc />
         protected override void OnExit(ExitEventArgs e)
         {
-            Log.CloseAndFlush();
+            _host.StopAsync();
             base.OnExit(e);
         }
 
-        private static ILogger CreateLogger(IConfiguration configuration)
+        private static IHostBuilder CreateHostBuilder()
         {
-            var loggerSettings = new LoggerConfiguration();
-
-
-            return loggerSettings.CreateLogger();
+            return Host.CreateDefaultBuilder()
+                       .ConfigureAppConfiguration((context, configurationBuilder) =>
+                       {
+                           configurationBuilder.SetBasePath(AppContext.BaseDirectory);
+                       })
+                       .ConfigureServices((hostContext, services) =>
+                       {
+                           services.AddSingleton<MainWindow>();
+                           services.AddPerformanceEfficiencySuite(hostContext.Configuration,
+                               typeof(IModule).Assembly,
+                               typeof(CinebenchModule).Assembly);
+                           services.AddCsvResultWriter();
+                       })
+                       .UseSerilog((context, configuration) => { configuration.Enrich.FromLogContext(); });
         }
     }
 }

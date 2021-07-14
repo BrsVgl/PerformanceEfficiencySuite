@@ -67,9 +67,9 @@ namespace PerformanceEfficiencySuite.Modules
         }
 
         /// <inheritdoc />
-        public void Dispose()
+        public virtual void Dispose()
         {
-            throw new NotImplementedException();
+            
         }
 
         /// <summary>

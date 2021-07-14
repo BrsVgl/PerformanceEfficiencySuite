@@ -55,9 +55,9 @@ namespace PerformanceEfficiencySuite.HardwareMonitors
                 var measureTime = stopwatch.ElapsedTicks;
                 stopwatch.Reset();
                 result.AddMeasurePoint(cpuPackagePower);
-                const long minimumTicksToWait = 100000;
-                var timeToWait = TimeSpan.FromTicks(minimumTicksToWait - measureTime);
-                await Task.Delay(timeToWait, stoppingToken).ConfigureAwait(false);
+                var test = TimeSpan.FromMilliseconds(10) - TimeSpan.FromTicks(measureTime);
+                await Task.Delay(test.Ticks < 0 ? TimeSpan.FromMilliseconds(0) : test, stoppingToken)
+                          .ConfigureAwait(false);
             }
 
             result.StopMeasuring();

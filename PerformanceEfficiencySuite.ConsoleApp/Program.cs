@@ -2,6 +2,8 @@
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using PerformanceEfficiencySuite.Extensions;
 using PerformanceEfficiencySuite.Modules;
 using PerformanceEfficiencySuite.Modules.Cinebench;
@@ -14,56 +16,50 @@ namespace PerformanceEfficiencySuite.ConsoleApp
     {
         private static async Task Main(string[] args)
         {
-            var config = GetConfiguration();
-            Log.Logger = CreateLogger(config);
+            var host = CreateHostBuilder().Build();
+            using (var scope = host.Services.CreateScope())
+            {
+                var serviceProvider = scope.ServiceProvider;
+                var logger = serviceProvider.GetRequiredService<ILogger<Program>>();
 
-            try
-            {
-                var serviceProvider = GetServiceProvider(config);
-                var resultWriter = serviceProvider.GetRequiredService<IResultWriter>();
-                var pes = serviceProvider.GetRequiredService<PerformanceEfficiencySuiteService>();
-                var result = await pes.RunModuleAsync("Cinebench");
-                await resultWriter.WriteAsync(result);
-            }
-            catch (Exception exception)
-            {
-                Log.Error(exception, "Something went wrong");
-            }
-            finally
-            {
-                Log.CloseAndFlush();
-            }
+                try
+                {
+                    var resultWriter = serviceProvider.GetRequiredService<IResultWriter>();
+                    var pes = serviceProvider.GetRequiredService<PerformanceEfficiencySuiteService>();
 
-            Console.WriteLine("Press any key to exit...");
-            Console.ReadKey();
+                    var result = await pes.RunModuleAsync("Cinebench");
+                    await resultWriter.WriteAsync(result);
+                    logger.LogInformation("Performance Efficiency Suite completed successful.");
+                }
+                catch (Exception exception)
+                {
+                    logger.LogError(exception, "Something went wrong!");
+                }
+
+                logger.LogInformation("Press any key to exit...");
+                Console.ReadKey();
+            }
         }
 
-        private static IServiceProvider GetServiceProvider(IConfiguration configuration)
+        private static IHostBuilder CreateHostBuilder()
         {
-            var services = new ServiceCollection();
-            services.AddLogging(builder => builder.AddSerilog());
-            services.AddPerformanceEfficiencySuite(configuration, typeof(IModule).Assembly,
-                typeof(CinebenchModule).Assembly);
-            services.AddCsvResultWriter();
-
-            return services.BuildServiceProvider();
-        }
-
-        private static ILogger CreateLogger(IConfiguration configuration)
-        {
-            var loggerSettings = new LoggerConfiguration()
-                                 .WriteTo.Console();
-
-
-            return loggerSettings.CreateLogger();
-        }
-
-        private static IConfiguration GetConfiguration()
-        {
-            var configBuilder = new ConfigurationBuilder()
-                                .SetBasePath(AppContext.BaseDirectory)
-                                .AddJsonFile("appsettings.json");
-            return configBuilder.Build();
+            return Host.CreateDefaultBuilder()
+                       .ConfigureAppConfiguration((context, configurationBuilder) =>
+                       {
+                           configurationBuilder.SetBasePath(AppContext.BaseDirectory);
+                       })
+                       .ConfigureServices((hostContext, services) =>
+                       {
+                           services.AddPerformanceEfficiencySuite(hostContext.Configuration,
+                               typeof(IModule).Assembly,
+                               typeof(CinebenchModule).Assembly);
+                           services.AddCsvResultWriter();
+                       })
+                       .UseSerilog((context, configuration) =>
+                       {
+                           configuration.Enrich.FromLogContext()
+                                        .WriteTo.Console();
+                       });
         }
     }
 }

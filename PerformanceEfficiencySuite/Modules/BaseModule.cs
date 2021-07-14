@@ -13,8 +13,8 @@ namespace PerformanceEfficiencySuite.Modules
     /// <typeparam name="TModule">Type of inherited class..</typeparam>
     /// <typeparam name="TModuleConfiguration">Type of <see cref="IModuleConfiguration" />.</typeparam>
     /// <typeparam name="THardwareMonitor">Type of IHardwareMonitor.</typeparam>
-    public abstract class AbstractModule<TModule, TModuleConfiguration, THardwareMonitor> : IModule
-        where TModule : AbstractModule<TModule, TModuleConfiguration, THardwareMonitor>
+    public abstract class BaseModule<TModule, TModuleConfiguration, THardwareMonitor> : IModule
+        where TModule : BaseModule<TModule, TModuleConfiguration, THardwareMonitor>
         where THardwareMonitor : IHardwareMonitor<THardwareMonitor>
         where TModuleConfiguration : IModuleConfiguration, new()
     {
@@ -23,13 +23,13 @@ namespace PerformanceEfficiencySuite.Modules
         private readonly IHardwareMonitor<THardwareMonitor> _packagePowerMonitor;
 
         /// <summary>
-        ///     Create new instance of <see cref="AbstractModule{TModule}{TModuleConfiguration}{THardwareMonitor}" />.
+        ///     Create new instance of <see cref="BaseModule{TModule,TModuleConfiguration,THardwareMonitor}" />.
         /// </summary>
         /// <param name="logger"><see cref="ILogger{T}" /> from inherited class.</param>
         /// <param name="configuration"><see cref="IConfiguration" /> from inherited class.</param>
         /// <param name="packagePowerMonitor"><see cref="IHardwareMonitor{T}" /> from inherited class.</param>
         /// <param name="moduleInfo"><see cref="ModuleInfo" /> from inherited class.</param>
-        protected AbstractModule(
+        protected BaseModule(
             ILogger<TModule> logger,
             IConfiguration configuration,
             IHardwareMonitor<THardwareMonitor> packagePowerMonitor,
@@ -69,7 +69,6 @@ namespace PerformanceEfficiencySuite.Modules
         /// <inheritdoc />
         public virtual void Dispose()
         {
-            
         }
 
         /// <summary>

@@ -14,7 +14,7 @@ namespace PerformanceEfficiencySuite.Modules.Cinebench
     ///     <see cref="IModule" /> implementation that tests the performance efficiency by using Cinebench.
     /// </summary>
     public class CinebenchModule
-        : AbstractModule<CinebenchModule, CinebenchModuleConfiguration, PackagePowerMonitor>
+        : BaseModule<CinebenchModule, CinebenchModuleConfiguration, PackagePowerMonitor>
     {
         private readonly int _coolDownTime = 10;
         private readonly ILogger<CinebenchModule> _logger;
@@ -30,7 +30,8 @@ namespace PerformanceEfficiencySuite.Modules.Cinebench
             ILogger<CinebenchModule> logger,
             IConfiguration configuration,
             IHardwareMonitor<PackagePowerMonitor> packagePowerMonitor)
-            : base(logger, configuration, packagePowerMonitor, new ModuleInfo("Cinebench", new ModuleVersion(0, 7, 0)))
+            : base(logger, configuration, packagePowerMonitor,
+                new ModuleInfo("Cinebench", typeof(CinebenchModuleConfiguration), new ModuleVersion(0, 7, 0)))
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
             _packagePowerMonitor = packagePowerMonitor ?? throw new ArgumentNullException(nameof(packagePowerMonitor));

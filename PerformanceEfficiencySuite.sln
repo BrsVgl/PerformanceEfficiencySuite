@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerformanceEfficiencySuite.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerformanceEfficiencySuite", "PerformanceEfficiencySuite\PerformanceEfficiencySuite.csproj", "{BEC97C29-30E1-43B4-9DBA-C7AF0E724931}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceEfficiencySuite.Modules.Cinebench", "PerformanceEfficiencySuite.Modules.Cinebench\PerformanceEfficiencySuite.Modules.Cinebench.csproj", "{D22B43B1-8950-4009-9F65-CE2CDAA45D6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerformanceEfficiencySuite.Modules.Cinebench", "PerformanceEfficiencySuite.Modules.Cinebench\PerformanceEfficiencySuite.Modules.Cinebench.csproj", "{D22B43B1-8950-4009-9F65-CE2CDAA45D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceEfficiencySuite.Gui", "PerformanceEfficiencySuite.Gui\PerformanceEfficiencySuite.Gui.csproj", "{0E82CBDD-9E87-412A-A3CA-EC95604E709E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D22B43B1-8950-4009-9F65-CE2CDAA45D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D22B43B1-8950-4009-9F65-CE2CDAA45D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D22B43B1-8950-4009-9F65-CE2CDAA45D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E82CBDD-9E87-412A-A3CA-EC95604E709E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E82CBDD-9E87-412A-A3CA-EC95604E709E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E82CBDD-9E87-412A-A3CA-EC95604E709E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E82CBDD-9E87-412A-A3CA-EC95604E709E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

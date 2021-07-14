@@ -42,7 +42,8 @@ namespace PerformanceEfficiencySuite.ConsoleApp
         {
             var services = new ServiceCollection();
             services.AddLogging(builder => builder.AddSerilog());
-            services.AddPerformanceEfficiencySuite(configuration, typeof(IModule).Assembly, typeof(CinebenchModule).Assembly);
+            services.AddPerformanceEfficiencySuite(configuration, typeof(IModule).Assembly,
+                typeof(CinebenchModule).Assembly);
             services.AddCsvResultWriter();
 
             return services.BuildServiceProvider();

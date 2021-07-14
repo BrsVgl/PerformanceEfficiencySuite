@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PerformanceEfficiencySuite.Modules.Cinebench\PerformanceEfficiencySuite.Modules.Cinebench.csproj" />
     <ProjectReference Include="..\PerformanceEfficiencySuite\PerformanceEfficiencySuite.csproj" />
   </ItemGroup>
 

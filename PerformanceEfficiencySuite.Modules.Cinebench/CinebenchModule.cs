@@ -8,7 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using PerformanceEfficiencySuite.HardwareMonitors;
 
-namespace PerformanceEfficiencySuite.Modules
+namespace PerformanceEfficiencySuite.Modules.Cinebench
 {
     /// <summary>
     ///     <see cref="IModule" /> implementation that tests the performance efficiency by using Cinebench.

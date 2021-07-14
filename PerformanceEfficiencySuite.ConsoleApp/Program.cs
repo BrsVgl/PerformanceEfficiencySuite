@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using PerformanceEfficiencySuite.Extensions;
 using PerformanceEfficiencySuite.Modules;
+using PerformanceEfficiencySuite.Modules.Cinebench;
 using PerformanceEfficiencySuite.Serialization;
 using Serilog;
 
@@ -41,7 +42,7 @@ namespace PerformanceEfficiencySuite.ConsoleApp
         {
             var services = new ServiceCollection();
             services.AddLogging(builder => builder.AddSerilog());
-            services.AddPerformanceEfficiencySuite(configuration, typeof(IModule).Assembly);
+            services.AddPerformanceEfficiencySuite(configuration, typeof(IModule).Assembly, typeof(CinebenchModule).Assembly);
             services.AddCsvResultWriter();
 
             return services.BuildServiceProvider();

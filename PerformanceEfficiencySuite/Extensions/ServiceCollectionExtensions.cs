@@ -35,8 +35,6 @@ namespace PerformanceEfficiencySuite.Extensions
                 var modules = GetTypes<IModule>(assembly).Distinct();
                 foreach (var type in modules) collection.AddScoped(typeof(IModule), type);
             }
-
-            collection.AddTransient<IModule, CinebenchModule>();
             return collection;
         }
 

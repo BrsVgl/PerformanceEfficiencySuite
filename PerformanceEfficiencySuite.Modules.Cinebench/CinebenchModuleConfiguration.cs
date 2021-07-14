@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PerformanceEfficiencySuite.Modules
+namespace PerformanceEfficiencySuite.Modules.Cinebench
 {
     /// <summary>
     ///     Configurations for module <see cref="CinebenchModule" />.

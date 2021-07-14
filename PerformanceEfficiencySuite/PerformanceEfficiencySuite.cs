@@ -72,7 +72,7 @@ namespace PerformanceEfficiencySuite
             {
                 var modulesNotFound = modulesToRun.Except(modules.Select(f => f.ModuleInfo.ModuleName)).ToList();
                 _logger.LogError("Modules with name {ModulesNotFound} not found!",
-                    string.Join(",", modulesNotFound.Select(m => "'" + m + "'")););
+                    string.Join(",", modulesNotFound.Select(m => "'" + m + "'")));
                 throw new ModuleNotFoundException(modulesNotFound);
             }
 

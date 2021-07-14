@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerformanceEfficiencySuite.ConsoleApp", "PerformanceEfficiencySuite.ConsoleApp\PerformanceEfficiencySuite.ConsoleApp.csproj", "{370D9671-D7E5-4459-B8BE-01EA4E47D947}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceEfficiencySuite", "PerformanceEfficiencySuite\PerformanceEfficiencySuite.csproj", "{BEC97C29-30E1-43B4-9DBA-C7AF0E724931}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerformanceEfficiencySuite", "PerformanceEfficiencySuite\PerformanceEfficiencySuite.csproj", "{BEC97C29-30E1-43B4-9DBA-C7AF0E724931}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceEfficiencySuite.Modules.Cinebench", "PerformanceEfficiencySuite.Modules.Cinebench\PerformanceEfficiencySuite.Modules.Cinebench.csproj", "{D22B43B1-8950-4009-9F65-CE2CDAA45D6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BEC97C29-30E1-43B4-9DBA-C7AF0E724931}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEC97C29-30E1-43B4-9DBA-C7AF0E724931}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEC97C29-30E1-43B4-9DBA-C7AF0E724931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22B43B1-8950-4009-9F65-CE2CDAA45D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22B43B1-8950-4009-9F65-CE2CDAA45D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22B43B1-8950-4009-9F65-CE2CDAA45D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22B43B1-8950-4009-9F65-CE2CDAA45D6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

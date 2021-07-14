@@ -5,11 +5,19 @@ using Microsoft.Extensions.Logging;
 
 namespace PerformanceEfficiencySuite.Modules
 {
+    /// <summary>
+    ///     Service to access <see cref="IModule" /> implementation.
+    /// </summary>
     public class ModulesService
     {
         private readonly ILogger<ModulesService> _logger;
         private readonly IEnumerable<IModule> _modules;
 
+        /// <summary>
+        ///     Create new instance of <see cref="ModulesService" />.
+        /// </summary>
+        /// <param name="logger"></param>
+        /// <param name="modules"></param>
         public ModulesService(ILogger<ModulesService> logger, IEnumerable<IModule> modules)
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
@@ -21,6 +29,12 @@ namespace PerformanceEfficiencySuite.Modules
             return _modules;
         }
 
+        /// <summary>
+        ///     Get a <see cref="IModule" /> by name.
+        /// </summary>
+        /// <param name="moduleName">Name of <see cref="IModule" /> to get.</param>
+        /// <returns>Requested <see cref="IModule" />.</returns>
+        /// <exception cref="ModuleNotFoundException">Thrown if requested <see cref="IModule" /> not found.</exception>
         public IModule GetByName(string moduleName)
         {
             var module = _modules.FirstOrDefault(m =>
@@ -34,6 +48,12 @@ namespace PerformanceEfficiencySuite.Modules
             return module;
         }
 
+        /// <summary>
+        ///     Get multiple <see cref="IModule" /> by names.
+        /// </summary>
+        /// <param name="moduleNames">Names of the <see cref="IModule" /> to get.</param>
+        /// <returns>Requested <see cref="IModule" />.</returns>
+        /// <exception cref="ModuleNotFoundException">Thrown if one ore multiple requested <see cref="IModule" /> not found.</exception>
         public IEnumerable<IModule> GetByName(IEnumerable<string> moduleNames)
         {
             var modules = _modules.Where(m =>

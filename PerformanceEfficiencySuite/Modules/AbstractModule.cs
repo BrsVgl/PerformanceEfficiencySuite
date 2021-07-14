@@ -58,10 +58,10 @@ namespace PerformanceEfficiencySuite.Modules
         public ModuleInfo ModuleInfo { get; }
 
         /// <inheritdoc />
-        public async Task<ModuleResult> StartTest(CancellationToken stoppingToken = default)
+        public async Task<ModuleResult> StartTestAsync(CancellationToken stoppingToken = default)
         {
             _logger.LogInformation("Starting module: {@ModuleInfo}", ModuleInfo);
-            var result = await StartTestInternal(stoppingToken);
+            var result = await StartTestInternal(stoppingToken).ConfigureAwait(false);
             _logger.LogInformation("Module '{ModuleName}' completed.", ModuleInfo.ModuleName);
             return result;
         }

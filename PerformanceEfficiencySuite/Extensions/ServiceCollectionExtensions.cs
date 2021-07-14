@@ -25,6 +25,7 @@ namespace PerformanceEfficiencySuite.Extensions
             IConfiguration configuration,
             params Assembly[] assemblies)
         {
+            collection.AddTransient<ModulesService>();
             collection.AddScoped<PerformanceEfficiencySuiteService>();
             collection.AddSingleton(configuration);
             collection.AddCpuMonitor();

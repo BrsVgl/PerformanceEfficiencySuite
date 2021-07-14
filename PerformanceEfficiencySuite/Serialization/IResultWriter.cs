@@ -14,6 +14,6 @@ namespace PerformanceEfficiencySuite.Serialization
         /// </summary>
         /// <param name="moduleResult"></param>
         /// <returns></returns>
-        Task Write(ModuleResult moduleResult);
+        Task WriteAsync(ModuleResult moduleResult);
     }
 }

@@ -57,7 +57,7 @@ namespace PerformanceEfficiencySuite.Modules.Cinebench
         {
             using (var process = StartProcess(moduleConfiguration, mode))
             {
-                return await _packagePowerMonitor.MonitorProcess(process, mode.Name, stoppingToken);
+                return await _packagePowerMonitor.MonitorProcessAsync(process, mode.Name, stoppingToken);
             }
         }
 

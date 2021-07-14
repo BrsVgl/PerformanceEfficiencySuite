@@ -16,6 +16,6 @@ namespace PerformanceEfficiencySuite.Modules
         /// </summary>
         /// <param name="stoppingToken"></param>
         /// <returns><see cref="ModuleResult" /> of the test.</returns>
-        Task<ModuleResult> StartTest(CancellationToken stoppingToken = default);
+        Task<ModuleResult> StartTestAsync(CancellationToken stoppingToken = default);
     }
 }

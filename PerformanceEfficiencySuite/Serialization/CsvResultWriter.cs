@@ -14,7 +14,7 @@ namespace PerformanceEfficiencySuite.Serialization
     public class CsvResultWriter : IResultWriter
     {
         /// <inheritdoc />
-        public async Task Write(ModuleResult moduleResult)
+        public async Task WriteAsync(ModuleResult moduleResult)
         {
             var currentDate = DateTime.UtcNow;
             foreach (var monitoringResult in moduleResult.MonitoringResults)
@@ -29,8 +29,8 @@ namespace PerformanceEfficiencySuite.Serialization
                         "PackagePower",
                         "Version"
                     };
-                    await WriteHeader(writer, headers);
-                    await Write(writer, monitoringResult, moduleResult.ModuleInfo.ModuleVersion);
+                    await WriteHeaderAsync(writer, headers).ConfigureAwait(false);
+                    await WriteAsync(writer, monitoringResult, moduleResult.ModuleInfo.ModuleVersion).ConfigureAwait(false);
                 }
             }
         }
@@ -57,19 +57,21 @@ namespace PerformanceEfficiencySuite.Serialization
             return resultNameBuilder.ToString();
         }
 
-        private async Task WriteHeader(StreamWriter streamWriter, IEnumerable<string> headers)
+        private async Task WriteHeaderAsync(StreamWriter streamWriter, IEnumerable<string> headers)
         {
-            await streamWriter.WriteLineAsync(string.Join(";", headers));
+            await streamWriter.WriteLineAsync(string.Join(";", headers)).ConfigureAwait(false);
         }
 
-        public async Task Write(
+        public async Task WriteAsync(
             StreamWriter streamWriter,
             MonitoringResult monitoringResult,
             ModuleVersion moduleVersion)
         {
             foreach (var measurePoint in monitoringResult.MeasurePoints)
+            {
                 await streamWriter.WriteLineAsync(string.Join(";", measurePoint.Duration, measurePoint.Value,
-                    moduleVersion));
+                    moduleVersion)).ConfigureAwait(false);
+            }
         }
     }
 }

@@ -22,8 +22,8 @@ namespace PerformanceEfficiencySuite.ConsoleApp
                 var serviceProvider = GetServiceProvider(config);
                 var resultWriter = serviceProvider.GetRequiredService<IResultWriter>();
                 var pes = serviceProvider.GetRequiredService<PerformanceEfficiencySuiteService>();
-                var result = await pes.RunModule("Cinebench");
-                await resultWriter.Write(result);
+                var result = await pes.RunModuleAsync("Cinebench");
+                await resultWriter.WriteAsync(result);
             }
             catch (Exception exception)
             {

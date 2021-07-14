@@ -34,7 +34,7 @@ namespace PerformanceEfficiencySuite.HardwareMonitors
         }
 
         /// <inheritdoc />
-        public async Task<MonitoringResult> MonitorProcess(
+        public async Task<MonitoringResult> MonitorProcessAsync(
             Process processToMonitor,
             string mode,
             CancellationToken stoppingToken = default)
@@ -47,11 +47,17 @@ namespace PerformanceEfficiencySuite.HardwareMonitors
             _logger.LogInformation("Hardware to measure: {HardwareToMeasure}", computerHardware.Name);
             var result = new MonitoringResult(mode);
             result.StartMeasuring();
+            var stopwatch = new Stopwatch();
             while (!processToMonitor.HasExited)
             {
+                stopwatch.Start();
                 var cpuPackagePower = GetCpuPackagePower(computerHardware);
+                var measureTime = stopwatch.ElapsedTicks;
+                stopwatch.Reset();
                 result.AddMeasurePoint(cpuPackagePower);
-                await Task.Delay(TimeSpan.FromMilliseconds(10), stoppingToken);
+                const long minimumTicksToWait = 100000;
+                var timeToWait = TimeSpan.FromTicks(minimumTicksToWait - measureTime);
+                await Task.Delay(timeToWait, stoppingToken).ConfigureAwait(false);
             }
 
             result.StopMeasuring();

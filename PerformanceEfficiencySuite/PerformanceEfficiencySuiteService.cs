@@ -31,12 +31,12 @@ namespace PerformanceEfficiencySuite
         /// <param name="moduleName">Name of module to run.</param>
         /// <param name="stoppingToken"></param>
         /// <returns><see cref="ModuleResult" /> of the Performance Efficiency Suite modules.</returns>
-        public async Task<ModuleResult> RunModule(
+        public async Task<ModuleResult> RunModuleAsync(
             string moduleName,
             CancellationToken stoppingToken = default)
         {
             var moduleToRun = _modulesService.GetByName(moduleName);
-            var result = await moduleToRun.StartTest(stoppingToken);
+            var result = await moduleToRun.StartTestAsync(stoppingToken).ConfigureAwait(false);
             return result;
         }
 
@@ -46,7 +46,7 @@ namespace PerformanceEfficiencySuite
         /// <param name="modulesToRun">Names of modules to run.</param>
         /// <param name="stoppingToken"></param>
         /// <returns>All <see cref="ModuleResult" /> of the Performance Efficiency Suite modules. </returns>
-        public async Task<IEnumerable<ModuleResult>> RunModules(
+        public async Task<IEnumerable<ModuleResult>> RunModulesAsync(
             IEnumerable<string> modulesToRun,
             CancellationToken stoppingToken = default)
         {
@@ -54,8 +54,7 @@ namespace PerformanceEfficiencySuite
             var results = new List<ModuleResult>();
             foreach (var module in modules)
             {
-                var result = await module.StartTest(stoppingToken);
-                await Task.Yield();
+                var result = await module.StartTestAsync(stoppingToken).ConfigureAwait(false);
                 results.Add(result);
             }
 

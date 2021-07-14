@@ -6,7 +6,7 @@ namespace PerformanceEfficiencySuite.HardwareMonitors
 {
     public interface IHardwareMonitor
     {
-        Task<MonitoringResult> MonitorProcess(
+        Task<MonitoringResult> MonitorProcessAsync(
             Process processToMonitor,
             string mode,
             CancellationToken stoppingToken = default);

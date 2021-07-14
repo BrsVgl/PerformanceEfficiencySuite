@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
@@ -8,22 +7,22 @@ using PerformanceEfficiencySuite.Modules;
 
 namespace PerformanceEfficiencySuite
 {
-    public class PerformanceEfficiencySuite
+    public class PerformanceEfficiencySuiteService
     {
-        private readonly ILogger<PerformanceEfficiencySuite> _logger;
-        private readonly IEnumerable<IModule> _modules;
+        private readonly ILogger<PerformanceEfficiencySuiteService> _logger;
+        private readonly ModulesService _modulesService;
 
         /// <summary>
-        ///     Create new instance of <see cref="PerformanceEfficiencySuite" />.
+        ///     Create new instance of <see cref="PerformanceEfficiencySuiteService" />.
         /// </summary>
         /// <param name="logger"></param>
-        /// <param name="modules"></param>
-        public PerformanceEfficiencySuite(
-            ILogger<PerformanceEfficiencySuite> logger,
-            IEnumerable<IModule> modules)
+        /// <param name="modulesService"></param>
+        public PerformanceEfficiencySuiteService(
+            ILogger<PerformanceEfficiencySuiteService> logger,
+            ModulesService modulesService)
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-            _modules = modules ?? throw new ArgumentNullException(nameof(modules));
+            _modulesService = modulesService ?? throw new ArgumentNullException(nameof(modulesService));
         }
 
         /// <summary>
@@ -36,19 +35,7 @@ namespace PerformanceEfficiencySuite
             string moduleName,
             CancellationToken stoppingToken = default)
         {
-            if (string.IsNullOrWhiteSpace(moduleName))
-            {
-                throw new ArgumentException("Value cannot be null or whitespace.", nameof(moduleName));
-            }
-
-            var moduleToRun = _modules.FirstOrDefault(m =>
-                m.ModuleInfo.ModuleName.Equals(moduleName, StringComparison.InvariantCulture));
-            if (moduleToRun is null)
-            {
-                _logger.LogError("Module with name '{moduleName}' not found!");
-                throw new ModuleNotFoundException(moduleName);
-            }
-
+            var moduleToRun = _modulesService.GetByName(moduleName);
             var result = await moduleToRun.StartTest(stoppingToken);
             return result;
         }
@@ -63,19 +50,7 @@ namespace PerformanceEfficiencySuite
             IEnumerable<string> modulesToRun,
             CancellationToken stoppingToken = default)
         {
-            var modules = _modules.Where(m =>
-                                      modulesToRun.Any(x => x.Equals(m.ModuleInfo.ModuleName,
-                                          StringComparison.InvariantCultureIgnoreCase)))
-                                  .ToList();
-
-            if (modules.Count != modulesToRun.Count())
-            {
-                var modulesNotFound = modulesToRun.Except(modules.Select(f => f.ModuleInfo.ModuleName)).ToList();
-                _logger.LogError("Modules with name {ModulesNotFound} not found!",
-                    string.Join(",", modulesNotFound.Select(m => "'" + m + "'")));
-                throw new ModuleNotFoundException(modulesNotFound);
-            }
-
+            var modules = _modulesService.GetByName(modulesToRun);
             var results = new List<ModuleResult>();
             foreach (var module in modules)
             {

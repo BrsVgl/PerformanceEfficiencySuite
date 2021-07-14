@@ -21,7 +21,7 @@ namespace PerformanceEfficiencySuite.ConsoleApp
             {
                 var serviceProvider = GetServiceProvider(config);
                 var resultWriter = serviceProvider.GetRequiredService<IResultWriter>();
-                var pes = serviceProvider.GetRequiredService<PerformanceEfficiencySuite>();
+                var pes = serviceProvider.GetRequiredService<PerformanceEfficiencySuiteService>();
                 var result = await pes.RunModule("Cinebench");
                 await resultWriter.Write(result);
             }

@@ -25,10 +25,9 @@ function Get-CpuPackagePower {
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory)]
-		$prcProcessToMonitor,
-		$strHeader
+		$prcProcessToMonitor
 	)
-	$strResult = $strHeader
+	$strResult = ''
 	$dtInitial = Get-Date
 	While (!$prcProcessToMonitor.HasExited) {
 		$varHW.Update()
@@ -89,7 +88,8 @@ $prcCinebench.PriorityClass = "AboveNormal"
 
 # start measurement
 $dtRunStart = Get-Date
-$strResult = Get-CpuPackagePower -prcProcessToMonitor $prcCinebench -strHeader $strCsvHeader
+$strResult = $strCsvHeader
+$strResult += Get-CpuPackagePower -prcProcessToMonitor $prcCinebench
 $tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
 $decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
 Write-Output "[$(Get-Date -format 'u')] CB23 ST duration: $decRunDurationSeconds s"
@@ -99,23 +99,43 @@ $strCb23StCsv = $strLogCsvPath + 'Cb23St.csv'
 Write-Output $strResult | Out-File -Filepath $strCb23StCsv
 
 # Cooldown
-$intCoolDownDuration = 18 # 1 per 10 seconds
-for($i = 1; $i -le $intCoolDownDuration; $i++) {
-	if(($i -eq 1) -or ($i -eq $intCoolDownDuration) -or (($intCoolDownDuration - $i + 1) % 3 -eq 0)) {
-		$intRemainingCoolDown = 10 * ($intCoolDownDuration - $i + 1)
-		Write-Output "[$(Get-Date -format 'u')] $intRemainingCoolDown seconds cooldown remaining until Multi-Thread test..."
-	}
+# $intCoolDownDuration = 18 # 1 per 10 seconds
+# for($i = 1; $i -le $intCoolDownDuration; $i++) {
+# 	if(($i -eq 1) -or ($i -eq $intCoolDownDuration) -or (($intCoolDownDuration - $i + 1) % 3 -eq 0)) {
+# 		$intRemainingCoolDown = 10 * ($intCoolDownDuration - $i + 1)
+# 		Write-Output "[$(Get-Date -format 'u')] $intRemainingCoolDown seconds cooldown remaining until Multi-Thread test..."
+# 	}
 	Start-Sleep -Seconds 10
-}
+# }
 
 # the same as above - just for multi-threaded run
 Write-Output "[$(Get-Date -format 'u')] Starting CB23 Multi-Thread test..."
+# set Minimum test duration for MT
+$intMtMinDurationSeconds = 220
+$dtRunStart = Get-Date
+$dtMinEnd = $dtRunStart.AddSeconds($intMtMinDurationSeconds)
+
 Start-Process -FilePath $strCb23Executable -ArgumentList "g_CinebenchCpuXTest=true g_CinebenchMinimumTestDuration=1"
 $prcCinebench = Get-Process Cinebench
 $prcCinebench.PriorityClass = "AboveNormal"
 
-$dtRunStart = Get-Date
-$strResult = Get-CpuPackagePower -prcProcessToMonitor $prcCinebench -strHeader $strCsvHeader
+$strResult = $strCsvHeader
+# while Minimum test duration for MT has not finished, keep measuring package power
+$nCntRuns = 0
+while((Get-Date) -lt $dtMinEnd) {
+	try {
+		$prcCinebench = Get-Process Cinebench
+	}
+	catch {
+		Start-Sleep -Milliseconds 10
+		continue
+	}
+	$nCntRuns += 1
+	"DEBUG nCntRuns: $nCntRuns; dtMinEnd: $dtMinEnd"
+	Get-Date
+$strResult += Get-CpuPackagePower -prcProcessToMonitor $prcCinebench
+}
+
 $tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
 $decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
 Write-Output "[$(Get-Date -format 'u')] CB23 Multi-Thread duration: $decRunDurationSeconds s"

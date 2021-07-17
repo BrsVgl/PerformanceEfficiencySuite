@@ -1,9 +1,14 @@
 #Requires -RunAsAdministrator
 Clear-Host
 # current version
-$strCurrentVersion = 'v0.6.0'
+$strCurrentVersion = 'v0.7.0'
+# set Minimum test duration for MT
+$intMtMinDurationSeconds = 600
+# set CoolDown duration between ST and MT runs (1 per 10 seconds)
+$intCoolDownDuration = 18 
+
 # declare CSV header
-$strCsvHeader = "DurationMilliseconds;PackagePower;Version`n"
+$strCsvHeader = "RunCnt;DurationMilliseconds;PackagePower;Version`n"
 
 # get path of "Ressources" folder
 $strPesPath = $MyInvocation.MyCommand.Path
@@ -26,9 +31,12 @@ function Get-CpuPackagePower {
 	param (
 		[Parameter(Mandatory)]
 		$prcProcessToMonitor,
-		$strHeader
+		[Parameter(Mandatory)]
+		$nRunCnt,
+		[Parameter()]
+		$decTimeOffsetMilliSeconds = 0
 	)
-	$strResult = $strHeader
+	$strResult = ''
 	$dtInitial = Get-Date
 	While (!$prcProcessToMonitor.HasExited) {
 		$varHW.Update()
@@ -37,11 +45,10 @@ function Get-CpuPackagePower {
 			$PackagePower = $varSensor.Value
 		}
 		$tsDuration = New-TimeSpan -Start $dtInitial -End (Get-Date)
-		$decDurationMilliSeconds = $tsDuration.TotalMilliseconds
-		$strResult += "$decDurationMilliSeconds;$PackagePower;$strCurrentVersion`n"		
+		$decDurationMilliSeconds = $tsDuration.TotalMilliseconds + $decTimeOffsetMilliSeconds
+		$strResult += "$nRunCnt;$decDurationMilliSeconds;$PackagePower;$strCurrentVersion`n"		
 		Start-Sleep -Milliseconds 10
 	}
-	$strResult = $strResult.Substring(0, $strResult.Length - 1)
 	# return value
 	$strResult
 }
@@ -89,9 +96,12 @@ $prcCinebench.PriorityClass = "AboveNormal"
 
 # start measurement
 $dtRunStart = Get-Date
-$strResult = Get-CpuPackagePower -prcProcessToMonitor $prcCinebench -strHeader $strCsvHeader
+$strResult = $strCsvHeader
+$strResult += Get-CpuPackagePower -prcProcessToMonitor $prcCinebench -nRunCnt 1
 $tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
 $decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
+# cut the last line ending
+$strResult = $strResult.Substring(0, $strResult.Length - 1)
 Write-Output "[$(Get-Date -format 'u')] CB23 ST duration: $decRunDurationSeconds s"
 
 # dump data to CSV
@@ -99,7 +109,6 @@ $strCb23StCsv = $strLogCsvPath + 'Cb23St.csv'
 Write-Output $strResult | Out-File -Filepath $strCb23StCsv
 
 # Cooldown
-$intCoolDownDuration = 18 # 1 per 10 seconds
 for($i = 1; $i -le $intCoolDownDuration; $i++) {
 	if(($i -eq 1) -or ($i -eq $intCoolDownDuration) -or (($intCoolDownDuration - $i + 1) % 3 -eq 0)) {
 		$intRemainingCoolDown = 10 * ($intCoolDownDuration - $i + 1)
@@ -110,16 +119,30 @@ for($i = 1; $i -le $intCoolDownDuration; $i++) {
 
 # the same as above - just for multi-threaded run
 Write-Output "[$(Get-Date -format 'u')] Starting CB23 Multi-Thread test..."
-Start-Process -FilePath $strCb23Executable -ArgumentList "g_CinebenchCpuXTest=true g_CinebenchMinimumTestDuration=1"
-$prcCinebench = Get-Process Cinebench
-$prcCinebench.PriorityClass = "AboveNormal"
+$strResult = $strCsvHeader
 
 $dtRunStart = Get-Date
-$strResult = Get-CpuPackagePower -prcProcessToMonitor $prcCinebench -strHeader $strCsvHeader
+$dtMinEnd = $dtRunStart.AddSeconds($intMtMinDurationSeconds)
+
+# while Minimum test duration for MT has not finished, keep measuring package power
+$nRunCnt = 0
+while((Get-Date) -lt $dtMinEnd) {
+	$nRunCnt += 1
+		Start-Process -FilePath $strCb23Executable -ArgumentList "g_CinebenchCpuXTest=true g_CinebenchMinimumTestDuration=1"
+	$prcCinebench = Get-Process Cinebench
+	$prcCinebench.PriorityClass = "AboveNormal"
+	$tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
+	$TimeOffsetMilliSeconds = $tsRunDuration.TotalMilliseconds
+	$strResult += Get-CpuPackagePower -prcProcessToMonitor $prcCinebench -nRunCnt $nRunCnt -decTimeOffsetMilliSeconds $TimeOffsetMilliSeconds
+	Start-Sleep -Milliseconds 100
+}
+
 $tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
 $decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
-Write-Output "[$(Get-Date -format 'u')] CB23 Multi-Thread duration: $decRunDurationSeconds s"
+Write-Output "[$(Get-Date -format 'u')] CB23 Multi-Thread duration: $decRunDurationSeconds s Runs: $nRunCnt"
 $strCb23MtCsv = $strLogCsvPath + 'Cb23Mt.csv'
+# cut the last line ending
+$strResult = $strResult.Substring(0, $strResult.Length - 1)
 Write-Output $strResult | Out-File -Filepath $strCb23MtCsv
 
 $cComp.Close()

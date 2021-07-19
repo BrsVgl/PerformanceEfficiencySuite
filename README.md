@@ -27,23 +27,10 @@ To combine Efficiency and Performance there is also a score provided called **Pe
   1. Allow external connections (to the generated CSV-files with the data)
   2. Go to *Data* -> *Refresh all*
   3. Enjoy and **share** your results
-6. If you want to do multiple measurements with different settings just copy the
-   Excel file (inside the root-folder) before running and refreshing the data.
+6. If you want to do multiple measurements with different settings just copy the Excel file (inside the root-folder) before running and refreshing the data.
 
 ## Change-Log
-
-### 2021-06-20: v0.5.0 - Beta
-
-- unbundled CineBench R23 binaries from Suite
-- added Settings.txt for providing path to Cinebench R23 Directory
-- optimized PackagePower measurement for lower CPU-load; this might lead to better MT-results (*READ:* not directly comparable to v0.3.1)
-- added some exception handling when given wrong CB23 path
-- some Refactoring
-- reduced Cooldown between runs to 10 seconds 
-
-### 2021-06-20: v0.3.1 - PreRelease
-
-initial
+please see [Releases]https://github.com/BrsVgl/PerformanceEfficiencySuite/releases
 
 ## Disclaimer
 
@@ -54,6 +41,8 @@ But please share your findings to the world.
 ## Community
 
 3DCenter.org Forum: https://www.forum-3dcenter.org/vbulletin/showthread.php?t=606794
+
+ComputerBase.de Forum: https://www.computerbase.de/forum/threads/performance-efficiency-suite-pes.2031876/
 
 ## Some explanations about the Suite
 
@@ -67,7 +56,7 @@ But please share your findings to the world.
 - The suite basically consists of CB R23, some powershell scripts and an Excel file for presentation purposes
   - RunAsAdminWrapper.ps1
   
-    This is needed to have a convenient relative path shortcut in the root folder and request Admin rights at the same time
+    This is needed to have a convenient relative path shortcut in the root folder and request admin-rights at the same time
 
   - Main.ps1
     - After setting up some stuff it basically starts the Cinebench R23 one at a time. It then checks for the "Cinebench.exe" process being active.

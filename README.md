@@ -1,6 +1,7 @@
 # Performance Efficiency Suite
 
 - Author: Boris Vogel
+- LinkedIn: https://www.linkedin.com/in/boris-vogel-28b57495/
 - GitHub: https://github.com/BrsVgl/PerformanceEfficiencySuite
 
 Most Reviewers solely focus on what they consider to be the most important aspect of modern CPUs - the absolute performance.

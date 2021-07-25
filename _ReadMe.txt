@@ -2,6 +2,7 @@
 == Performance Efficiency Suite (PES)                                                                                 ==
 ========================================================================================================================
 Author: Boris Vogel
+LinkedIn: https://www.linkedin.com/in/boris-vogel-28b57495/
 GitHub: https://github.com/BrsVgl/PerformanceEfficiencySuite
 Releases: https://github.com/BrsVgl/PerformanceEfficiencySuite/releases
 3DCenter.org Thread: 

@@ -31,12 +31,17 @@ To combine Efficiency and Performance there is also a score provided called **Pe
 6. If you want to do multiple measurements with different settings just copy the Excel file (inside the root-folder) before running and refreshing the data.
 
 ## Example Result
+![Result of my HP Envy 13 x360 AMD R7 4700U](/Ranking/Example_result.png "Result of my HP Envy 13 x360 AMD R7 4700U")
 
 ## Rankings (last updated: 2021-07-30 21:00 CEST)
-![CB23 ST PES Ranking](https://ibb.co/gFHZdmt "CB23 ST PES Ranking")
-![CB23 ST Consumption Ranking](https://ibb.co/Cn9bLfp "CB23 ST Consumption Ranking")
-![CB23 MT PES Ranking](https://ibb.co/hWCT89t "CB23 MT PES Ranking")
-![CB23 MT Consumption Ranking](https://ibb.co/By4Zhyx "CB23 MZ Consumption Ranking")
+### Cinebench R23 ST PES (Performance Efficiency Score)
+![CB23 ST PES Ranking](/Ranking/CB_ST_PES.png "CB23 ST PES Ranking")
+### Cinebench R23 ST Consumption
+![CB23 ST Consumption Ranking](/Ranking/CB_ST_Consumption.png "CB23 ST Consumption Ranking")
+### Cinebench R23 MT PES (Performance Efficiency Score)
+![CB23 MT PES Ranking](/Ranking/CB_MT_PES.png "CB23 MT PES Ranking")
+### Cinebench R23 MT Consumption
+![CB23 MT Consumption Ranking](/Ranking/CB_MT_Consumption.png "CB23 MZ Consumption Ranking")
 
 ## Disclaimer
 

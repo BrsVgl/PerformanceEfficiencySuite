@@ -1,6 +1,7 @@
 # Performance Efficiency Suite
 
 - Author: Boris Vogel
+- LinkedIn: https://www.linkedin.com/in/boris-vogel-28b57495/
 - GitHub: https://github.com/BrsVgl/PerformanceEfficiencySuite
 
 Most Reviewers solely focus on what they consider to be the most important aspect of modern CPUs - the absolute performance.
@@ -12,10 +13,10 @@ To combine Efficiency and Performance there is also a score provided called **Pe
 ## Table of contents
 
 - [How-To](#how-to)
-- [Change-Log](#change-log)
 - [Disclaimer](#disclaimer)
-- [Community](#community)
 - [Some explanations about the Suite](#some-explanations-about-the-suite)
+- [Community](#community)
+- [Change-Log](#change-log)
 
 ## How-To
 
@@ -29,20 +30,24 @@ To combine Efficiency and Performance there is also a score provided called **Pe
   3. Enjoy and **share** your results
 6. If you want to do multiple measurements with different settings just copy the Excel file (inside the root-folder) before running and refreshing the data.
 
-## Change-Log
-please see [Releases]https://github.com/BrsVgl/PerformanceEfficiencySuite/releases
+## Example Result
+![Result of my HP Envy 13 x360 AMD R7 4700U](/Ranking/Example_result.png "Result of my HP Envy 13 x360 AMD R7 4700U")
+
+## Rankings (last updated: 2021-07-30 21:00 CEST)
+### Cinebench R23 ST PES (Performance Efficiency Score)
+![CB23 ST PES Ranking](/Ranking/CB_ST_PES.png "CB23 ST PES Ranking")
+### Cinebench R23 ST Consumption
+![CB23 ST Consumption Ranking](/Ranking/CB_ST_Consumption.png "CB23 ST Consumption Ranking")
+### Cinebench R23 MT PES (Performance Efficiency Score)
+![CB23 MT PES Ranking](/Ranking/CB_MT_PES.png "CB23 MT PES Ranking")
+### Cinebench R23 MT Consumption
+![CB23 MT Consumption Ranking](/Ranking/CB_MT_Consumption.png "CB23 MZ Consumption Ranking")
 
 ## Disclaimer
 
 I am by no means a Powershell professional or a professional Reviewer. I was just sick of the lack of information and wanted to propose a low-effort solution. Any input for further improvement is highly welcomed.
 Please feel free to use/extend/rip-off this solution as you wish.
 But please share your findings to the world.
-
-## Community
-
-3DCenter.org Forum: https://www.forum-3dcenter.org/vbulletin/showthread.php?t=606794
-
-ComputerBase.de Forum: https://www.computerbase.de/forum/threads/performance-efficiency-suite-pes.2031876/
 
 ## Some explanations about the Suite
 
@@ -73,3 +78,12 @@ ComputerBase.de Forum: https://www.computerbase.de/forum/threads/performance-eff
       To get that number we need the integral. That is why we first calculate the timeframe between two data-points and then multiply the measured value.
 
     - Everything else in that Excel is hopefully more or less self-explaining
+
+## Community
+
+3DCenter.org Forum: https://www.forum-3dcenter.org/vbulletin/showthread.php?t=606794
+
+ComputerBase.de Forum: https://www.computerbase.de/forum/threads/performance-efficiency-suite-pes.2031876/
+
+## Change-Log
+please see [Releases](https://github.com/BrsVgl/PerformanceEfficiencySuite/releases)

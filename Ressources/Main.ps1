@@ -1,7 +1,7 @@
 #Requires -RunAsAdministrator
 Clear-Host
 # current version
-$strCurrentVersion = 'v0.7.0'
+$strCurrentVersion = 'v0.7.2'
 # set Minimum test duration for MT
 $intMtMinDurationSeconds = 600
 # set CoolDown duration between ST and MT runs (1 per 10 seconds)

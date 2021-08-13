@@ -33,7 +33,7 @@ To combine Efficiency and Performance there is also a score provided called **Pe
 ## Example Result
 ![Result of my HP Envy 13 x360 AMD R7 4700U](/Ranking/Example_result.png "Result of my HP Envy 13 x360 AMD R7 4700U")
 
-## Rankings (last updated: 2021-07-30 21:00 CEST)
+## Rankings (last updated: 2021-08-13 17:00 CEST)
 ### Cinebench R23 ST PES (Performance Efficiency Score)
 ![CB23 ST PES Ranking](/Ranking/CB_ST_PES.png "CB23 ST PES Ranking")
 ### Cinebench R23 ST Consumption

@@ -15,10 +15,11 @@ To combine Efficiency and Performance there is also a score provided called **Pe
 1. [How-To](#how-to)
 1. [Example result](#example-result)
 1. [Rankings](#rankings)
-3. [Disclaimer](#disclaimer)
-4. [Some explanations about the Suite](#some-explanations-about-the-suite)
-5. [Community](#community)
-6. [Change-Log](#change-log)
+1. [Disclaimer](#disclaimer)
+1. [Some explanations about the Suite](#some-explanations-about-the-suite)
+1. [Community](#community)
+1. [Sweet-Spot-Finding](#sweet-spot-finding)
+1. [Change-Log](#change-log)
 
 ## How-To
 
@@ -93,6 +94,24 @@ But please share your findings to the world.
 3DCenter.org Forum: https://www.forum-3dcenter.org/vbulletin/showthread.php?t=606794
 
 ComputerBase.de Forum: https://www.computerbase.de/forum/threads/performance-efficiency-suite-pes.2031876/
+
+## Sweet-Spot-Finding
+One of the most interesting topics for a given CPU architecture is to find its sweet-spot - the TDP at which the Performance Efficiency of an architecture is at its optimum.
+
+With PES and some method to govern the cTDP like in the BIOS, with RyzenAdj, etc. this is possible.
+
+With my own AMD R7 4700U (Renoir) which is a 15w TDP CPU I tested all cTDPs from 10w up to 30w - and the results are astonishing.
+
+The absolute sweet-spot of that APU is between 15w and 16w which leads me to the following findings:
+
+- The APU has been designed for that particular sweet-spot which might sound trivial, but...
+- To just take some already existing functional components and just mix them together and hitting exactly that spot ist impossible.
+- In order to accomplish this AMD must have designed the Zen2-core (not the APU but the core in and of itself) for a sweet-spot of between 1.5w and 2w.
+- This not only makes sense from a mobile perspective but also from looking at the server-space where they deploy 64 core / 128 thread CPUs with a TDP of up to 225w TDP (minus around 100w for the IO-die only). So this makes it a 64 core CPU for around 125w core-only-TDP which is around 2w per core. 
+
+Please have a look at the measurements:
+![Sweet-Spot-Finding](/Ranking/SweetSpotFinding.png "Sweet-Spot-Finding")
+
 
 ## Change-Log
 please see [Releases](https://github.com/BrsVgl/PerformanceEfficiencySuite/releases)

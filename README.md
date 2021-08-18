@@ -12,34 +12,43 @@ To combine Efficiency and Performance there is also a score provided called **Pe
 
 ## Table of contents
 
-- [How-To](#how-to)
-- [Disclaimer](#disclaimer)
-- [Some explanations about the Suite](#some-explanations-about-the-suite)
-- [Community](#community)
-- [Change-Log](#change-log)
+1. [How-To](#how-to)
+1. [Example result](#example-result)
+1. [Rankings](#rankings)
+3. [Disclaimer](#disclaimer)
+4. [Some explanations about the Suite](#some-explanations-about-the-suite)
+5. [Community](#community)
+6. [Change-Log](#change-log)
 
 ## How-To
 
 1. Unzip to wherever you want **EXCEPT** on your local OneDrive folder.
-2. Open *Settings.txt* and **insert your local Cinebench23 Directory**.
-3. Run *PES Start* - it will ask for Administrator rights as these are needed for measuring Package Power
-4. Wait until the Powershell finishes.
-5. Open the Excel file...
-  1. Allow external connections (to the generated CSV-files with the data)
-  2. Go to *Data* -> *Refresh all*
-  3. Enjoy and **share** your results
-6. If you want to do multiple measurements with different settings just copy the Excel file (inside the root-folder) before running and refreshing the data.
+1. Open *Settings.txt* and **insert your local Cinebench23 Directory**.
+1. Run *PES Start* - it will ask for Administrator rights as these are needed for measuring Package Power
+1. Wait until the Powershell finishes.
+1. Open the Excel file...
+1. Allow external connections (to the generated CSV-files with the data)
+1. Go to *Data* -> *Refresh all*
+1. Enjoy and **share** your results
+1. If you want to do multiple measurements with different settings just copy the Excel file (inside the root-folder) before running and refreshing the data.
 
-## Example Result
+## Example-Result
 ![Result of my HP Envy 13 x360 AMD R7 4700U](/Ranking/Example_result.png "Result of my HP Envy 13 x360 AMD R7 4700U")
 
-## Rankings (last updated: 2021-08-13 17:00 CEST)
+## Rankings
+(last updated: 2021-08-13 17:00 CEST)
+
+[Ranking (Excel)](/Ranking/Rankings.xlsx)
+
 ### Cinebench R23 ST PES (Performance Efficiency Score)
 ![CB23 ST PES Ranking](/Ranking/CB_ST_PES.png "CB23 ST PES Ranking")
+
 ### Cinebench R23 ST Consumption
 ![CB23 ST Consumption Ranking](/Ranking/CB_ST_Consumption.png "CB23 ST Consumption Ranking")
+
 ### Cinebench R23 MT PES (Performance Efficiency Score)
 ![CB23 MT PES Ranking](/Ranking/CB_MT_PES.png "CB23 MT PES Ranking")
+
 ### Cinebench R23 MT Consumption
 ![CB23 MT Consumption Ranking](/Ranking/CB_MT_Consumption.png "CB23 MZ Consumption Ranking")
 

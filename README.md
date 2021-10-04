@@ -37,7 +37,6 @@ To combine Efficiency and Performance there is also a score provided called **Pe
 ![Result of my HP Envy 13 x360 AMD R7 4700U](/Ranking/Example_result.png "Result of my HP Envy 13 x360 AMD R7 4700U")
 
 ## Rankings
-(last updated: 2021-08-13 17:00 CEST)
 
 [Ranking (Excel)](/Ranking/Rankings.xlsx)
 

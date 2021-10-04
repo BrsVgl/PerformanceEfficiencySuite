@@ -43,11 +43,17 @@ To combine Efficiency and Performance there is also a score provided called **Pe
 ### Cinebench R23 ST PES (Performance Efficiency Score)
 ![CB23 ST PES Ranking](/Ranking/CB_ST_PES.png "CB23 ST PES Ranking")
 
-### Cinebench R23 ST Consumption
-![CB23 ST Consumption Ranking](/Ranking/CB_ST_Consumption.png "CB23 ST Consumption Ranking")
-
 ### Cinebench R23 MT PES (Performance Efficiency Score)
 ![CB23 MT PES Ranking](/Ranking/CB_MT_PES.png "CB23 MT PES Ranking")
+
+### Cinebench R23 ST Performance-Energy-Matrix
+![CB23 ST Performance-Energy-Matrix](/Ranking/CB_Perf_Power_ST.png "CB23 ST Performance-Energy-Matrix")
+
+### Cinebench R23 MT Performance-Energy-Matrix
+![CB23 MT Performance-Energy-Matrix](/Ranking/CB_Perf_Power_MT.png "CB23 MT Performance-Energy-Matrix")
+
+### Cinebench R23 ST Consumption
+![CB23 ST Consumption Ranking](/Ranking/CB_ST_Consumption.png "CB23 ST Consumption Ranking")
 
 ### Cinebench R23 MT Consumption
 ![CB23 MT Consumption Ranking](/Ranking/CB_MT_Consumption.png "CB23 MZ Consumption Ranking")
@@ -106,7 +112,7 @@ The absolute sweet-spot of that APU is between 15w and 16w which leads me to the
 - The APU has been designed for that particular sweet-spot which might sound trivial, but...
 - To just take some already existing functional components and just mix them together and hitting exactly that spot is impossible.
 - In order to accomplish this AMD must have designed the Zen2-core (not the APU but the core in and of itself) for a sweet-spot of between 1.5w and 2w.
-- This not only makes sense from a mobile perspective but also from looking at the server-space where they deploy 64 core / 128 thread CPUs with a TDP of up to 225w TDP (minus around 100w for the IO-die only). So this makes it a 64 core CPU for around 125w core-only-TDP which is around 2w per core. 
+- This not only makes sense from a mobile perspective but also from looking at the server-space where they deploy 64 core / 128 thread CPUs with a TDP of (starting from) 225w TDP (minus around 100w for the IO-die only). So this makes it a 64 core CPU for around 125w core-only-TDP which is around 2w per core. 
 
 Please have a look at the measurements (MT-only):
 ![Sweet-Spot-Finding](/Ranking/SweetSpotFinding.png "Sweet-Spot-Finding")

@@ -73,7 +73,7 @@ But please share your findings to the world.
   GitHub: https://github.com/openhardwaremonitor
 
 - The results for the Package Power look pretty accurate compared to the sparse data the internet provides. Seems, that the vendors are much more honest with those sensors than they are with temperature etc.
-- The suite basically consists of CB R23, some powershell scripts and an Excel file for presentation purposes
+- The suite basically consists some powershell scripts and an Excel file for presentation purposes
   - RunAsAdminWrapper.ps1
   
     This is needed to have a convenient relative path shortcut in the root folder and request admin-rights at the same time

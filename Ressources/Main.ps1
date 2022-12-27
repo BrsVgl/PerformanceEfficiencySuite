@@ -1,11 +1,11 @@
 #Requires -RunAsAdministrator
 Clear-Host
 # current version
-$strCurrentVersion = 'v0.7.5'
-# set Minimum test duration for MT
+$strCurrentVersion = 'v0.8.0'
+# set Minimum test duration for CB23 MT
 $intMtMinDurationSeconds = 600
-# set CoolDown duration between ST and MT runs (1 per 10 seconds)
-$intCoolDownDuration = 18 
+# set CoolDown duration between tests (1 per 10 seconds)
+$intCoolDownDuration = 2 
 
 # declare CSV header
 $strCsvHeader = "RunCnt;DurationMilliseconds;PackagePower;Version`n"
@@ -57,6 +57,10 @@ function Get-CpuPackagePower {
 $strCb23Path = $htSettings['Cb23Path']
 $strCb23Executable = $strCb23Path + '\Cinebench.exe'
 
+# set GB5 Path
+$strGb5Path = $htSettings['Gb5Path']
+$strGb5Executable = $strGb5Path + '\geekbench5.exe'
+
 # set LogCsv Path
 $strLogCsvPath = $strPesPath.Replace('Ressources\', '') + 'LogCsv\'
 
@@ -71,6 +75,52 @@ $cComp.Open()
 # there are more components available; we just need "CPU"
 $cComp.CPUEnabled = $true
 $varHW = $cComp.Hardware
+
+# start GB5 and monitor its process
+Write-Output "[$(Get-Date -format 'u')] Starting GeekBench5..."
+try {
+	Start-Process -FilePath $strGb5Executable
+}
+
+catch {
+	Write-Output '--------------------------------------------------------------------------------------------------------------'
+	Write-Output '| ERROR: GeekBench 5 could not be started...'
+	Write-Output '| HINT:  GeekBench 5 path in Settings.txt:' 
+	Write-Output "|        $strGb5Path"
+	Write-Output '|        Are you sure this is correct?'
+	Write-Output '--------------------------------------------------------------------------------------------------------------'
+
+	# dispose Object
+	$cComp.Close()
+	Start-Sleep -Seconds 30
+	break
+}
+$prcGb5 = Get-Process geekbench5
+$prcGb5.PriorityClass = "AboveNormal"
+
+# start measurement
+$dtRunStart = Get-Date
+$strResult = $strCsvHeader
+$strResult += Get-CpuPackagePower -prcProcessToMonitor $prcGb5 -nRunCnt 1
+$tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
+$decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
+# cut the last line ending
+$strResult = $strResult.Substring(0, $strResult.Length - 1)
+Write-Output "[$(Get-Date -format 'u')] GeekBench 5 duration: $decRunDurationSeconds s"
+
+# dump data to CSV
+$strGb5Csv = $strLogCsvPath + 'GB5.csv'
+Write-Output $strResult | Out-File -Filepath $strGb5Csv
+
+# Cooldown
+for($i = 1; $i -le $intCoolDownDuration; $i++) {
+	if(($i -eq 1) -or ($i -eq $intCoolDownDuration) -or (($intCoolDownDuration - $i + 1) % 3 -eq 0)) {
+		$intRemainingCoolDown = 10 * ($intCoolDownDuration - $i + 1)
+		Write-Output "[$(Get-Date -format 'u')] $intRemainingCoolDown seconds cooldown remaining until next test..."
+	}
+	Start-Sleep -Seconds 10
+}
+
 
 # start CB R23 single-thread mode and monitor its process
 Write-Output "[$(Get-Date -format 'u')] Starting CB23 Single-Thread test..."
@@ -112,7 +162,7 @@ Write-Output $strResult | Out-File -Filepath $strCb23StCsv
 for($i = 1; $i -le $intCoolDownDuration; $i++) {
 	if(($i -eq 1) -or ($i -eq $intCoolDownDuration) -or (($intCoolDownDuration - $i + 1) % 3 -eq 0)) {
 		$intRemainingCoolDown = 10 * ($intCoolDownDuration - $i + 1)
-		Write-Output "[$(Get-Date -format 'u')] $intRemainingCoolDown seconds cooldown remaining until Multi-Thread test..."
+		Write-Output "[$(Get-Date -format 'u')] $intRemainingCoolDown seconds cooldown remaining until next test..."
 	}
 	Start-Sleep -Seconds 10
 }

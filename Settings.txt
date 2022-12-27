@@ -1,5 +1,6 @@
 #from http://tlingenf.spaces.live.com/blog/cns!B1B09F516B5BAEBF!213.entry
 
 [Locations]
-# Please enter your local CineBench R23 location without trailing '\'
+# Please enter your local Benachmark locations without trailing '\'
 Cb23Path=C:\Example\CineBenchR23
+Gb5Path=C:\Example\Geekbench 5

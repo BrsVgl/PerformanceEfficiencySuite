@@ -1,5 +1,21 @@
 #Requires -RunAsAdministrator
 Clear-Host
+
+#Ask for tests to be run
+Write-Output '--------------------------------------------------------------------------------------------------------------'
+Write-Output '| Which tests should be run?'
+Write-Output '--------------------------------------------------------------------------------------------------------------'
+Write-Output '| 1 | All tests' 
+Write-Output '| 2 | Geekbench 5' 
+Write-Output '| 3 | Cinebench R23 singlethreaded' 
+Write-Output '| 4 | Cinebench R23 multithreaded' 
+Write-Output '--------------------------------------------------------------------------------------------------------------'
+
+$strTestChoice = Read-Host "Please enter the number or simply press <Enter> for all tests"
+If ($strTestChoice -eq '') {
+	$strTestChoice = '1'
+}
+
 # current version
 $strCurrentVersion = 'v0.8.0'
 # set Minimum test duration for CB23 MT
@@ -77,123 +93,133 @@ $cComp.CPUEnabled = $true
 $varHW = $cComp.Hardware
 
 # start GB5 and monitor its process
-Write-Output "[$(Get-Date -format 'u')] Starting GeekBench5..."
-try {
-	Start-Process -FilePath $strGb5Executable
+If(($strTestChoice -eq '1') -or ($strTestChoice -eq '2')) {
+	Write-Output "[$(Get-Date -format 'u')] Starting GeekBench5..."
+	try {
+		Start-Process -FilePath $strGb5Executable
+	}
+
+	catch {
+		Write-Output '--------------------------------------------------------------------------------------------------------------'
+		Write-Output '| ERROR: GeekBench 5 could not be started...'
+		Write-Output '| HINT:  GeekBench 5 path in Settings.txt:' 
+		Write-Output "|        $strGb5Path"
+		Write-Output '|        Are you sure this is correct?'
+		Write-Output '--------------------------------------------------------------------------------------------------------------'
+
+		# dispose Object
+		$cComp.Close()
+		Start-Sleep -Seconds 30
+		break
+	}
+	$prcGb5 = Get-Process geekbench5
+	$prcGb5.PriorityClass = "AboveNormal"
+
+	# start measurement
+	$dtRunStart = Get-Date
+	$strResult = $strCsvHeader
+	$strResult += Get-CpuPackagePower -prcProcessToMonitor $prcGb5 -nRunCnt 1
+	$tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
+	$decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
+	# cut the last line ending
+	$strResult = $strResult.Substring(0, $strResult.Length - 1)
+	Write-Output "[$(Get-Date -format 'u')] GeekBench 5 duration: $decRunDurationSeconds s"
+
+	# dump data to CSV
+	$strGb5Csv = $strLogCsvPath + 'GB5.csv'
+	Write-Output $strResult | Out-File -Filepath $strGb5Csv
 }
-
-catch {
-	Write-Output '--------------------------------------------------------------------------------------------------------------'
-	Write-Output '| ERROR: GeekBench 5 could not be started...'
-	Write-Output '| HINT:  GeekBench 5 path in Settings.txt:' 
-	Write-Output "|        $strGb5Path"
-	Write-Output '|        Are you sure this is correct?'
-	Write-Output '--------------------------------------------------------------------------------------------------------------'
-
-	# dispose Object
-	$cComp.Close()
-	Start-Sleep -Seconds 30
-	break
-}
-$prcGb5 = Get-Process geekbench5
-$prcGb5.PriorityClass = "AboveNormal"
-
-# start measurement
-$dtRunStart = Get-Date
-$strResult = $strCsvHeader
-$strResult += Get-CpuPackagePower -prcProcessToMonitor $prcGb5 -nRunCnt 1
-$tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
-$decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
-# cut the last line ending
-$strResult = $strResult.Substring(0, $strResult.Length - 1)
-Write-Output "[$(Get-Date -format 'u')] GeekBench 5 duration: $decRunDurationSeconds s"
-
-# dump data to CSV
-$strGb5Csv = $strLogCsvPath + 'GB5.csv'
-Write-Output $strResult | Out-File -Filepath $strGb5Csv
 
 # Cooldown
-for($i = 1; $i -le $intCoolDownDuration; $i++) {
-	if(($i -eq 1) -or ($i -eq $intCoolDownDuration) -or (($intCoolDownDuration - $i + 1) % 3 -eq 0)) {
-		$intRemainingCoolDown = 10 * ($intCoolDownDuration - $i + 1)
-		Write-Output "[$(Get-Date -format 'u')] $intRemainingCoolDown seconds cooldown remaining until next test..."
+If($strTestChoice -eq '1') {
+	for($i = 1; $i -le $intCoolDownDuration; $i++) {
+		if(($i -eq 1) -or ($i -eq $intCoolDownDuration) -or (($intCoolDownDuration - $i + 1) % 3 -eq 0)) {
+			$intRemainingCoolDown = 10 * ($intCoolDownDuration - $i + 1)
+			Write-Output "[$(Get-Date -format 'u')] $intRemainingCoolDown seconds cooldown remaining until next test..."
+		}
+		Start-Sleep -Seconds 10
 	}
-	Start-Sleep -Seconds 10
 }
 
 
 # start CB R23 single-thread mode and monitor its process
-Write-Output "[$(Get-Date -format 'u')] Starting CB23 Single-Thread test..."
-try {
-	Start-Process -FilePath $strCb23Executable -ArgumentList "g_CinebenchCpu1Test=true g_CinebenchMinimumTestDuration=1"
-}
-
-catch {
-	Write-Output '--------------------------------------------------------------------------------------------------------------'
-	Write-Output '| ERROR: Cinebench R23 could not be started...'
-	Write-Output '| HINT:  Cinebench R23 path in Settings.txt:' 
-	Write-Output "|        $strCb23Path"
-	Write-Output '|        Are you sure this is correct?'
-	Write-Output '--------------------------------------------------------------------------------------------------------------'
-
-	# dispose Object
-	$cComp.Close()
-	Start-Sleep -Seconds 30
-	break
-}
-$prcCinebench = Get-Process Cinebench
-$prcCinebench.PriorityClass = "AboveNormal"
-
-# start measurement
-$dtRunStart = Get-Date
-$strResult = $strCsvHeader
-$strResult += Get-CpuPackagePower -prcProcessToMonitor $prcCinebench -nRunCnt 1
-$tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
-$decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
-# cut the last line ending
-$strResult = $strResult.Substring(0, $strResult.Length - 1)
-Write-Output "[$(Get-Date -format 'u')] CB23 ST duration: $decRunDurationSeconds s"
-
-# dump data to CSV
-$strCb23StCsv = $strLogCsvPath + 'Cb23St.csv'
-Write-Output $strResult | Out-File -Filepath $strCb23StCsv
-
-# Cooldown
-for($i = 1; $i -le $intCoolDownDuration; $i++) {
-	if(($i -eq 1) -or ($i -eq $intCoolDownDuration) -or (($intCoolDownDuration - $i + 1) % 3 -eq 0)) {
-		$intRemainingCoolDown = 10 * ($intCoolDownDuration - $i + 1)
-		Write-Output "[$(Get-Date -format 'u')] $intRemainingCoolDown seconds cooldown remaining until next test..."
+If(($strTestChoice -eq '1') -or ($strTestChoice -eq '3')) {
+	Write-Output "[$(Get-Date -format 'u')] Starting CB23 Single-Thread test..."
+	try {
+		Start-Process -FilePath $strCb23Executable -ArgumentList "g_CinebenchCpu1Test=true g_CinebenchMinimumTestDuration=1"
 	}
-	Start-Sleep -Seconds 10
-}
 
-# the same as above - just for multi-threaded run
-Write-Output "[$(Get-Date -format 'u')] Starting CB23 Multi-Thread test..."
-$strResult = $strCsvHeader
+	catch {
+		Write-Output '--------------------------------------------------------------------------------------------------------------'
+		Write-Output '| ERROR: Cinebench R23 could not be started...'
+		Write-Output '| HINT:  Cinebench R23 path in Settings.txt:' 
+		Write-Output "|        $strCb23Path"
+		Write-Output '|        Are you sure this is correct?'
+		Write-Output '--------------------------------------------------------------------------------------------------------------'
 
-$dtRunStart = Get-Date
-$dtMinEnd = $dtRunStart.AddSeconds($intMtMinDurationSeconds)
-
-# while Minimum test duration for MT has not finished, keep measuring package power
-$nRunCnt = 0
-while((Get-Date) -lt $dtMinEnd) {
-	$nRunCnt += 1
-		Start-Process -FilePath $strCb23Executable -ArgumentList "g_CinebenchCpuXTest=true g_CinebenchMinimumTestDuration=1"
+		# dispose Object
+		$cComp.Close()
+		Start-Sleep -Seconds 30
+		break
+	}
 	$prcCinebench = Get-Process Cinebench
 	$prcCinebench.PriorityClass = "AboveNormal"
+
+	# start measurement
+	$dtRunStart = Get-Date
+	$strResult = $strCsvHeader
+	$strResult += Get-CpuPackagePower -prcProcessToMonitor $prcCinebench -nRunCnt 1
 	$tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
-	$TimeOffsetMilliSeconds = $tsRunDuration.TotalMilliseconds
-	$strResult += Get-CpuPackagePower -prcProcessToMonitor $prcCinebench -nRunCnt $nRunCnt -decTimeOffsetMilliSeconds $TimeOffsetMilliSeconds
-	Start-Sleep -Milliseconds 100
+	$decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
+	# cut the last line ending
+	$strResult = $strResult.Substring(0, $strResult.Length - 1)
+	Write-Output "[$(Get-Date -format 'u')] CB23 ST duration: $decRunDurationSeconds s"
+
+	# dump data to CSV
+	$strCb23StCsv = $strLogCsvPath + 'Cb23St.csv'
+	Write-Output $strResult | Out-File -Filepath $strCb23StCsv
 }
 
-$tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
-$decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
-Write-Output "[$(Get-Date -format 'u')] CB23 Multi-Thread duration: $decRunDurationSeconds s Runs: $nRunCnt"
-$strCb23MtCsv = $strLogCsvPath + 'Cb23Mt.csv'
-# cut the last line ending
-$strResult = $strResult.Substring(0, $strResult.Length - 1)
-Write-Output $strResult | Out-File -Filepath $strCb23MtCsv
+# Cooldown
+If($strTestChoice -eq '1') {
+	for($i = 1; $i -le $intCoolDownDuration; $i++) {
+		if(($i -eq 1) -or ($i -eq $intCoolDownDuration) -or (($intCoolDownDuration - $i + 1) % 3 -eq 0)) {
+			$intRemainingCoolDown = 10 * ($intCoolDownDuration - $i + 1)
+			Write-Output "[$(Get-Date -format 'u')] $intRemainingCoolDown seconds cooldown remaining until next test..."
+		}
+		Start-Sleep -Seconds 10
+	}
+}
+
+# start CB R23 multi-thread mode and monitor its process
+If(($strTestChoice -eq '1') -or ($strTestChoice -eq '4')) {
+	Write-Output "[$(Get-Date -format 'u')] Starting CB23 Multi-Thread test..."
+	$strResult = $strCsvHeader
+
+	$dtRunStart = Get-Date
+	$dtMinEnd = $dtRunStart.AddSeconds($intMtMinDurationSeconds)
+
+	# while Minimum test duration for MT has not finished, keep measuring package power
+	$nRunCnt = 0
+	while((Get-Date) -lt $dtMinEnd) {
+		$nRunCnt += 1
+			Start-Process -FilePath $strCb23Executable -ArgumentList "g_CinebenchCpuXTest=true g_CinebenchMinimumTestDuration=1"
+		$prcCinebench = Get-Process Cinebench
+		$prcCinebench.PriorityClass = "AboveNormal"
+		$tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
+		$TimeOffsetMilliSeconds = $tsRunDuration.TotalMilliseconds
+		$strResult += Get-CpuPackagePower -prcProcessToMonitor $prcCinebench -nRunCnt $nRunCnt -decTimeOffsetMilliSeconds $TimeOffsetMilliSeconds
+		Start-Sleep -Milliseconds 100
+	}
+
+	$tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
+	$decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
+	Write-Output "[$(Get-Date -format 'u')] CB23 Multi-Thread duration: $decRunDurationSeconds s Runs: $nRunCnt"
+	$strCb23MtCsv = $strLogCsvPath + 'Cb23Mt.csv'
+	# cut the last line ending
+	$strResult = $strResult.Substring(0, $strResult.Length - 1)
+	Write-Output $strResult | Out-File -Filepath $strCb23MtCsv
+}
 
 $cComp.Close()
 "[$(Get-Date -format 'u')] Finished... Closing window in 10 seconds"

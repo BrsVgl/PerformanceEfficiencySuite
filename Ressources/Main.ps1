@@ -1,6 +1,13 @@
 #Requires -RunAsAdministrator
 Clear-Host
 
+# current version
+$strCurrentVersion = 'v0.8.0'
+# set Minimum test duration for CB23 MT
+$intMtMinDurationSeconds = 600
+# set CoolDown duration between tests (1 per 10 seconds)
+$intCoolDownDuration = 2 
+
 #Ask for tests to be run
 Write-Output '--------------------------------------------------------------------------------------------------------------'
 Write-Output '| Which tests should be run?'
@@ -15,13 +22,6 @@ $strTestChoice = Read-Host "Please enter the number or simply press <Enter> for 
 If ($strTestChoice -eq '') {
 	$strTestChoice = '1'
 }
-
-# current version
-$strCurrentVersion = 'v0.8.0'
-# set Minimum test duration for CB23 MT
-$intMtMinDurationSeconds = 600
-# set CoolDown duration between tests (1 per 10 seconds)
-$intCoolDownDuration = 2 
 
 # declare CSV header
 $strCsvHeader = "RunCnt;DurationMilliseconds;PackagePower;Version`n"
@@ -125,10 +125,13 @@ If(($strTestChoice -eq '1') -or ($strTestChoice -eq '2')) {
 	$strResult = $strResult.Substring(0, $strResult.Length - 1)
 	Write-Output "[$(Get-Date -format 'u')] GeekBench 5 duration: $decRunDurationSeconds s"
 
-	# dump data to CSV
-	$strGb5Csv = $strLogCsvPath + 'GB5.csv'
-	Write-Output $strResult | Out-File -Filepath $strGb5Csv
 }
+else {
+	$strResult = $strCsvHeader + "1;1000;1000;xxx`n"
+}
+# dump data to CSV
+$strGb5Csv = $strLogCsvPath + 'GB5.csv'
+Write-Output $strResult | Out-File -Filepath $strGb5Csv
 
 # Cooldown
 If($strTestChoice -eq '1') {
@@ -175,10 +178,13 @@ If(($strTestChoice -eq '1') -or ($strTestChoice -eq '3')) {
 	$strResult = $strResult.Substring(0, $strResult.Length - 1)
 	Write-Output "[$(Get-Date -format 'u')] CB23 ST duration: $decRunDurationSeconds s"
 
-	# dump data to CSV
-	$strCb23StCsv = $strLogCsvPath + 'Cb23St.csv'
-	Write-Output $strResult | Out-File -Filepath $strCb23StCsv
 }
+else {
+	$strResult = $strCsvHeader + "1;1000;1000;xxx`n"
+}
+# dump data to CSV
+$strCb23StCsv = $strLogCsvPath + 'Cb23St.csv'
+Write-Output $strResult | Out-File -Filepath $strCb23StCsv
 
 # Cooldown
 If($strTestChoice -eq '1') {
@@ -215,11 +221,14 @@ If(($strTestChoice -eq '1') -or ($strTestChoice -eq '4')) {
 	$tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
 	$decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
 	Write-Output "[$(Get-Date -format 'u')] CB23 Multi-Thread duration: $decRunDurationSeconds s Runs: $nRunCnt"
-	$strCb23MtCsv = $strLogCsvPath + 'Cb23Mt.csv'
 	# cut the last line ending
 	$strResult = $strResult.Substring(0, $strResult.Length - 1)
-	Write-Output $strResult | Out-File -Filepath $strCb23MtCsv
 }
+else {
+	$strResult = $strCsvHeader + "1;1000;1000;xxx`n"
+}
+$strCb23MtCsv = $strLogCsvPath + 'Cb23Mt.csv'
+Write-Output $strResult | Out-File -Filepath $strCb23MtCsv
 
 $cComp.Close()
 "[$(Get-Date -format 'u')] Finished... Closing window in 10 seconds"

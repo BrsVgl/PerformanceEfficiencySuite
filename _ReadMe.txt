@@ -29,14 +29,15 @@ amazingly inspired I am ;) ).
 = How-To =
 ==========
 1. Unzip to wherever you want EXCEPT on your local OneDrive folder.
-2. Open Settings.txt and insert your local Cinebench23 Directory.
+2. Open Settings.txt and insert your local Cinebench R23 & Geekbench 5 Directories.
 3. Run "PES Start" - it will ask for Administrator rights as these are needed for measuring Package Power
-4. Wait until the Powershell finishes.
-5. Open the Excel file...
+4. Choose, which tests to run.
+5. Wait until the Powershell finishes.
+6. Open the Excel file...
     1. Allow external connections (to the generated CSV-files with the data)
     2. Go to "Data" -> "Refresh all"
     3. Enjoy and SHARE your results
-6. If you want to do multiple measurements with different settings just copy the Excel file (inside the root-folder) 
+7. If you want to do multiple measurements with different settings just copy the Excel file (inside the root-folder) 
     before running and refreshing the data.
 
 ==============

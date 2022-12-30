@@ -24,8 +24,9 @@ To combine Efficiency and Performance there is also a score provided called **Pe
 ## How-To
 
 1. Unzip to wherever you want **EXCEPT** on your local OneDrive folder.
-1. Open *Settings.txt* and **insert your local Cinebench23 Directory**.
+1. Open *Settings.txt* and **insert your local Cinebench R23 and Geekbench 5 directories**.
 1. Run *PES Start* - it will ask for Administrator rights as these are needed for measuring Package Power
+1. Choose, which tests to run.
 1. Wait until the Powershell finishes.
 1. Open the Excel file...
 1. Allow external connections (to the generated CSV-files with the data)

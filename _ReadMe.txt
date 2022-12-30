@@ -33,10 +33,9 @@ amazingly inspired I am ;) ).
 3. Run "PES Start" - it will ask for Administrator rights as these are needed for measuring Package Power
 4. Choose, which tests to run.
 5. Wait until the Powershell finishes.
-6. Open the Excel file...
+6. Open the Results Excel (recommended) or Results LibreOffice (data import might take ages) file...
     1. Allow external connections (to the generated CSV-files with the data)
-    2. Go to "Data" -> "Refresh all"
-    3. Enjoy and SHARE your results
+    2. Enjoy and SHARE your results
 7. If you want to do multiple measurements with different settings just copy the Excel file (inside the root-folder) 
     before running and refreshing the data.
 
@@ -64,7 +63,7 @@ for changes please see the "releases" section of the GitHub-Repo (link in header
     - While this is true it queries the Package Power Sensor data with a lower bound of 10ms (in order to keep Processor
       load of the script at bay).
     - After each run the aquired data gets pushed to CSV files located in the LogCsv subfolder.
-  - Results.xslx
+  - Results Excel.xslx
     The Excel file basically just does some import, calculations and a hopefully nice presentation of the data.
     - Histogram
       The bold line shows a running average of the last 100 data-points which should be sufficiently accurate.

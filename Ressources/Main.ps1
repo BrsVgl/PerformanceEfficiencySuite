@@ -69,6 +69,22 @@ function Get-CpuPackagePower {
 	$strResult
 }
 
+# declare function Start-Cooldown
+function Start-Cooldown {
+	[CmdletBinding()]
+	param (
+		[Parameter(Mandatory)]	
+		$nDurationSeconds
+	)
+	for($i = 1; $i -le $nDurationSeconds/10; $i++) {
+		if(($i -eq 1) -or ($i -eq $nDurationSeconds/10) -or (($nDurationSeconds/10 - $i + 1) % 3 -eq 0)) {
+			$nRemainingCoolDown = 10 * ($nDurationSeconds/10 - $i + 1)
+			Write-Output "[$(Get-Date -format 'u')] $nRemainingCoolDown seconds cooldown remaining until next test..."
+		}
+		Start-Sleep -Seconds 10
+	}
+}
+
 # set CinemaBenchR23 Path
 $strCb23Path = $htSettings['Cb23Path']
 $strCb23Executable = $strCb23Path + '\Cinebench.exe'
@@ -135,15 +151,8 @@ Write-Output $strResult | Out-File -Filepath $strGb5Csv
 
 # Cooldown
 If($strTestChoice -eq '1') {
-	for($i = 1; $i -le $intCoolDownDuration; $i++) {
-		if(($i -eq 1) -or ($i -eq $intCoolDownDuration) -or (($intCoolDownDuration - $i + 1) % 3 -eq 0)) {
-			$intRemainingCoolDown = 10 * ($intCoolDownDuration - $i + 1)
-			Write-Output "[$(Get-Date -format 'u')] $intRemainingCoolDown seconds cooldown remaining until next test..."
-		}
-		Start-Sleep -Seconds 10
-	}
+	Start-Cooldown -nDurationSeconds 20
 }
-
 
 # start CB R23 single-thread mode and monitor its process
 If(($strTestChoice -eq '1') -or ($strTestChoice -eq '3')) {
@@ -188,13 +197,7 @@ Write-Output $strResult | Out-File -Filepath $strCb23StCsv
 
 # Cooldown
 If($strTestChoice -eq '1') {
-	for($i = 1; $i -le $intCoolDownDuration; $i++) {
-		if(($i -eq 1) -or ($i -eq $intCoolDownDuration) -or (($intCoolDownDuration - $i + 1) % 3 -eq 0)) {
-			$intRemainingCoolDown = 10 * ($intCoolDownDuration - $i + 1)
-			Write-Output "[$(Get-Date -format 'u')] $intRemainingCoolDown seconds cooldown remaining until next test..."
-		}
-		Start-Sleep -Seconds 10
-	}
+	Start-Cooldown -nDurationSeconds 20
 }
 
 # start CB R23 multi-thread mode and monitor its process

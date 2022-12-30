@@ -5,8 +5,6 @@ Clear-Host
 $strCurrentVersion = 'v0.8.0'
 # set Minimum test duration for CB23 MT
 $intMtMinDurationSeconds = 600
-# set CoolDown duration between tests (1 per 10 seconds)
-$intCoolDownDuration = 2 
 
 #Ask for tests to be run
 Write-Output '--------------------------------------------------------------------------------------------------------------'

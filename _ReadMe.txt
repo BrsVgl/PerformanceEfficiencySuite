@@ -33,7 +33,7 @@ amazingly inspired I am ;) ).
 3. Run "PES Start" - it will ask for Administrator rights as these are needed for measuring Package Power
 4. Choose, which tests to run.
 5. Wait until the Powershell finishes.
-6. Open the Results Excel (recommended) or Results LibreOffice (data import might take ages) file...
+6. Open the Results Excel (recommended) or Results LibreOffice file...
     1. Allow external connections (to the generated CSV-files with the data)
     2. Enjoy and SHARE your results
 7. If you want to do multiple measurements with different settings just copy the Excel file (inside the root-folder) 

@@ -28,7 +28,7 @@ To combine Efficiency and Performance there is also a score provided called **Pe
 1. Run *PES Start* - it will ask for Administrator rights as these are needed for measuring Package Power
 1. Choose, which tests to run.
 1. Wait until the Powershell finishes.
-1. Open the *Results Excel* (recommended) *Results LibreOffice* (data import might take ages) file ...
+1. Open the *Results Excel* (recommended) *Results LibreOffice* file ...
 1. Allow external connections (to the generated CSV-files with the data)
 1. Enjoy and **share** your results
 1. If you want to do multiple measurements with different settings just copy the Excel file (inside the root-folder) before running and refreshing the data.

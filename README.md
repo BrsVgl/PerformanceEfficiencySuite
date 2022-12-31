@@ -40,17 +40,26 @@ To combine Efficiency and Performance there is also a score provided called **Pe
 
 [Ranking (Excel)](/Ranking/Rankings.xlsx)
 
+### Geekbench 5 PES (Performance Efficiency Score)
+![Geekbench 5 PES Ranking](/Ranking/GB5_PES.png "GB5 PES Ranking")
+
 ### Cinebench R23 ST PES (Performance Efficiency Score)
 ![CB23 ST PES Ranking](/Ranking/CB_ST_PES.png "CB23 ST PES Ranking")
 
 ### Cinebench R23 MT PES (Performance Efficiency Score)
 ![CB23 MT PES Ranking](/Ranking/CB_MT_PES.png "CB23 MT PES Ranking")
 
+### Geekbench 5 Performance-Energy-Matrix
+![Geekbench 5 Performance-Energy-Matrix](/Ranking/GB5_Perf_Power.png "Geekbench 5 Performance-Energy-Matrix")
+
 ### Cinebench R23 ST Performance-Energy-Matrix
 ![CB23 ST Performance-Energy-Matrix](/Ranking/CB_Perf_Power_ST.png "CB23 ST Performance-Energy-Matrix")
 
 ### Cinebench R23 MT Performance-Energy-Matrix
 ![CB23 MT Performance-Energy-Matrix](/Ranking/CB_Perf_Power_MT.png "CB23 MT Performance-Energy-Matrix")
+
+### Geekbench 5 Consumption
+![Geekbench 5 Consumption Ranking](/Ranking/GB5_Consumption.png "Geekbench 5 Consumption Ranking")
 
 ### Cinebench R23 ST Consumption
 ![CB23 ST Consumption Ranking](/Ranking/CB_ST_Consumption.png "CB23 ST Consumption Ranking")

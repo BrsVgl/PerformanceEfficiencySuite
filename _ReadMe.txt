@@ -5,6 +5,8 @@ Author: Boris Vogel
 LinkedIn: https://www.linkedin.com/in/boris-vogel-28b57495/
 GitHub: https://github.com/BrsVgl/PerformanceEfficiencySuite
 Releases: https://github.com/BrsVgl/PerformanceEfficiencySuite/releases
+Anandtech.com Thread: 
+  https://forums.anandtech.com/threads/pes-assessing-power-and-performance-efficiency-of-x86-cpu-architectures.2597905/
 3DCenter.org Thread: 
   https://www.forum-3dcenter.org/vbulletin/showthread.php?t=606794
 ComputerBase.de Thread:
@@ -29,14 +31,14 @@ amazingly inspired I am ;) ).
 = How-To =
 ==========
 1. Unzip to wherever you want EXCEPT on your local OneDrive folder.
-2. Open Settings.txt and insert your local Cinebench23 Directory.
+2. Open Settings.txt and insert your local Cinebench R23 & Geekbench 5 Directories.
 3. Run "PES Start" - it will ask for Administrator rights as these are needed for measuring Package Power
-4. Wait until the Powershell finishes.
-5. Open the Excel file...
+4. Choose, which tests to run.
+5. Wait until the Powershell finishes.
+6. Open the Results Excel (recommended) or Results LibreOffice file...
     1. Allow external connections (to the generated CSV-files with the data)
-    2. Go to "Data" -> "Refresh all"
-    3. Enjoy and SHARE your results
-6. If you want to do multiple measurements with different settings just copy the Excel file (inside the root-folder) 
+    2. Enjoy and SHARE your results
+7. If you want to do multiple measurements with different settings just copy the Excel file (inside the root-folder) 
     before running and refreshing the data.
 
 ==============
@@ -63,7 +65,7 @@ for changes please see the "releases" section of the GitHub-Repo (link in header
     - While this is true it queries the Package Power Sensor data with a lower bound of 10ms (in order to keep Processor
       load of the script at bay).
     - After each run the aquired data gets pushed to CSV files located in the LogCsv subfolder.
-  - Results.xslx
+  - Results Excel.xslx
     The Excel file basically just does some import, calculations and a hopefully nice presentation of the data.
     - Histogram
       The bold line shows a running average of the last 100 data-points which should be sufficiently accurate.

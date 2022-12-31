@@ -24,12 +24,12 @@ To combine Efficiency and Performance there is also a score provided called **Pe
 ## How-To
 
 1. Unzip to wherever you want **EXCEPT** on your local OneDrive folder.
-1. Open *Settings.txt* and **insert your local Cinebench23 Directory**.
+1. Open *Settings.txt* and **insert your local Cinebench R23 and Geekbench 5 directories**.
 1. Run *PES Start* - it will ask for Administrator rights as these are needed for measuring Package Power
+1. Choose, which tests to run.
 1. Wait until the Powershell finishes.
-1. Open the Excel file...
+1. Open the *Results Excel* (recommended) *Results LibreOffice* file ...
 1. Allow external connections (to the generated CSV-files with the data)
-1. Go to *Data* -> *Refresh all*
 1. Enjoy and **share** your results
 1. If you want to do multiple measurements with different settings just copy the Excel file (inside the root-folder) before running and refreshing the data.
 
@@ -40,17 +40,26 @@ To combine Efficiency and Performance there is also a score provided called **Pe
 
 [Ranking (Excel)](/Ranking/Rankings.xlsx)
 
+### Geekbench 5 PES (Performance Efficiency Score)
+![Geekbench 5 PES Ranking](/Ranking/GB5_PES.png "GB5 PES Ranking")
+
 ### Cinebench R23 ST PES (Performance Efficiency Score)
 ![CB23 ST PES Ranking](/Ranking/CB_ST_PES.png "CB23 ST PES Ranking")
 
 ### Cinebench R23 MT PES (Performance Efficiency Score)
 ![CB23 MT PES Ranking](/Ranking/CB_MT_PES.png "CB23 MT PES Ranking")
 
+### Geekbench 5 Performance-Energy-Matrix
+![Geekbench 5 Performance-Energy-Matrix](/Ranking/GB5_Perf_Power.png "Geekbench 5 Performance-Energy-Matrix")
+
 ### Cinebench R23 ST Performance-Energy-Matrix
 ![CB23 ST Performance-Energy-Matrix](/Ranking/CB_Perf_Power_ST.png "CB23 ST Performance-Energy-Matrix")
 
 ### Cinebench R23 MT Performance-Energy-Matrix
 ![CB23 MT Performance-Energy-Matrix](/Ranking/CB_Perf_Power_MT.png "CB23 MT Performance-Energy-Matrix")
+
+### Geekbench 5 Consumption
+![Geekbench 5 Consumption Ranking](/Ranking/GB5_Consumption.png "Geekbench 5 Consumption Ranking")
 
 ### Cinebench R23 ST Consumption
 ![CB23 ST Consumption Ranking](/Ranking/CB_ST_Consumption.png "CB23 ST Consumption Ranking")
@@ -95,6 +104,8 @@ But please share your findings to the world.
     - Everything else in that Excel is hopefully more or less self-explaining
 
 ## Community
+
+Anandtech.com Forum: https://forums.anandtech.com/threads/pes-assessing-power-and-performance-efficiency-of-x86-cpu-architectures.2597905/
 
 3DCenter.org Forum: https://www.forum-3dcenter.org/vbulletin/showthread.php?t=606794
 

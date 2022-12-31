@@ -135,8 +135,6 @@ If(($strTestChoice -eq '1') -or ($strTestChoice -eq '2')) {
 	$strResult += Get-CpuPackagePower -prcProcessToMonitor $prcGb5 -nRunCnt 1
 	$tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
 	$decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
-	# cut the last line ending
-	$strResult = $strResult.Substring(0, $strResult.Length - 1)
 	Write-Output "[$(Get-Date -format 'u')] GeekBench 5 duration: $decRunDurationSeconds s"
 
 }
@@ -145,6 +143,8 @@ else {
 }
 # dump data to CSV
 $strGb5Csv = $strLogCsvPath + 'GB5.csv'
+# cut the last line ending
+$strResult = $strResult.Substring(0, $strResult.Length - 1)
 Write-Output $strResult | Out-File -Filepath $strGb5Csv
 
 # Cooldown
@@ -181,8 +181,6 @@ If(($strTestChoice -eq '1') -or ($strTestChoice -eq '3')) {
 	$strResult += Get-CpuPackagePower -prcProcessToMonitor $prcCinebench -nRunCnt 1
 	$tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
 	$decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
-	# cut the last line ending
-	$strResult = $strResult.Substring(0, $strResult.Length - 1)
 	Write-Output "[$(Get-Date -format 'u')] CB23 ST duration: $decRunDurationSeconds s"
 
 }
@@ -191,6 +189,8 @@ else {
 }
 # dump data to CSV
 $strCb23StCsv = $strLogCsvPath + 'Cb23St.csv'
+# cut the last line ending
+$strResult = $strResult.Substring(0, $strResult.Length - 1)
 Write-Output $strResult | Out-File -Filepath $strCb23StCsv
 
 # Cooldown
@@ -222,13 +222,13 @@ If(($strTestChoice -eq '1') -or ($strTestChoice -eq '4')) {
 	$tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
 	$decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
 	Write-Output "[$(Get-Date -format 'u')] CB23 Multi-Thread duration: $decRunDurationSeconds s Runs: $nRunCnt"
-	# cut the last line ending
-	$strResult = $strResult.Substring(0, $strResult.Length - 1)
 }
 else {
 	$strResult = $strCsvHeader + "1;1000;1000;xxx`n"
 }
 $strCb23MtCsv = $strLogCsvPath + 'Cb23Mt.csv'
+# cut the last line ending
+$strResult = $strResult.Substring(0, $strResult.Length - 1)
 Write-Output $strResult | Out-File -Filepath $strCb23MtCsv
 
 $cComp.Close()

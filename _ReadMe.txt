@@ -5,6 +5,8 @@ Author: Boris Vogel
 LinkedIn: https://www.linkedin.com/in/boris-vogel-28b57495/
 GitHub: https://github.com/BrsVgl/PerformanceEfficiencySuite
 Releases: https://github.com/BrsVgl/PerformanceEfficiencySuite/releases
+Anandtech.com Thread: 
+  https://forums.anandtech.com/threads/pes-assessing-power-and-performance-efficiency-of-x86-cpu-architectures.2597905/
 3DCenter.org Thread: 
   https://www.forum-3dcenter.org/vbulletin/showthread.php?t=606794
 ComputerBase.de Thread:

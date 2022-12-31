@@ -105,6 +105,8 @@ But please share your findings to the world.
 
 ## Community
 
+Anandtech.com Forum: https://forums.anandtech.com/threads/pes-assessing-power-and-performance-efficiency-of-x86-cpu-architectures.2597905/
+
 3DCenter.org Forum: https://www.forum-3dcenter.org/vbulletin/showthread.php?t=606794
 
 ComputerBase.de Forum: https://www.computerbase.de/forum/threads/performance-efficiency-suite-pes.2031876/

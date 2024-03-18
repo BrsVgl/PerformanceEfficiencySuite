@@ -11,9 +11,9 @@ Write-Output '------------------------------------------------------------------
 Write-Output '| Which tests should be run?'
 Write-Output '--------------------------------------------------------------------------------------------------------------'
 Write-Output '| 1 | All tests' 
-Write-Output '| 2 | Geekbench 5' 
-Write-Output '| 3 | Cinebench R23 singlethreaded' 
-Write-Output '| 4 | Cinebench R23 multithreaded' 
+Write-Output '| 2 | Cinebench R23 singlethreaded' 
+Write-Output '| 3 | Cinebench R23 multithreaded' 
+# Write-Output '| 4 | Geekbench 5' 
 Write-Output '--------------------------------------------------------------------------------------------------------------'
 
 $strTestChoice = Read-Host "Please enter the number or simply press <Enter> for all tests"
@@ -107,53 +107,53 @@ $cComp.CPUEnabled = $true
 $varHW = $cComp.Hardware
 
 # start GB5 and monitor its process
-If(($strTestChoice -eq '1') -or ($strTestChoice -eq '2')) {
-	Write-Output "[$(Get-Date -format 'u')] Starting GeekBench5..."
-	try {
-		Start-Process -FilePath $strGb5Executable
-	}
+# If(($strTestChoice -eq '1') -or ($strTestChoice -eq '4')) {
+# 	Write-Output "[$(Get-Date -format 'u')] Starting GeekBench5..."
+# 	try {
+# 		Start-Process -FilePath $strGb5Executable
+# 	}
 
-	catch {
-		Write-Output '--------------------------------------------------------------------------------------------------------------'
-		Write-Output '| ERROR: GeekBench 5 could not be started...'
-		Write-Output '| HINT:  GeekBench 5 path in Settings.txt:' 
-		Write-Output "|        $strGb5Path"
-		Write-Output '|        Are you sure this is correct?'
-		Write-Output '--------------------------------------------------------------------------------------------------------------'
+# 	catch {
+# 		Write-Output '--------------------------------------------------------------------------------------------------------------'
+# 		Write-Output '| ERROR: GeekBench 5 could not be started...'
+# 		Write-Output '| HINT:  GeekBench 5 path in Settings.txt:' 
+# 		Write-Output "|        $strGb5Path"
+# 		Write-Output '|        Are you sure this is correct?'
+# 		Write-Output '--------------------------------------------------------------------------------------------------------------'
 
-		# dispose Object
-		$cComp.Close()
-		Start-Sleep -Seconds 30
-		break
-	}
-	$prcGb5 = Get-Process geekbench5
-	$prcGb5.PriorityClass = "AboveNormal"
+# 		# dispose Object
+# 		$cComp.Close()
+# 		Start-Sleep -Seconds 30
+# 		break
+# 	}
+# 	$prcGb5 = Get-Process geekbench5
+# 	$prcGb5.PriorityClass = "AboveNormal"
 
-	# start measurement
-	$dtRunStart = Get-Date
-	$strResult = $strCsvHeader
-	$strResult += Get-CpuPackagePower -prcProcessToMonitor $prcGb5 -nRunCnt 1
-	$tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
-	$decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
-	Write-Output "[$(Get-Date -format 'u')] GeekBench 5 duration: $decRunDurationSeconds s"
+# 	# start measurement
+# 	$dtRunStart = Get-Date
+# 	$strResult = $strCsvHeader
+# 	$strResult += Get-CpuPackagePower -prcProcessToMonitor $prcGb5 -nRunCnt 1
+# 	$tsRunDuration = New-TimeSpan -Start $dtRunStart -End (Get-Date)
+# 	$decRunDurationSeconds = $tsRunDuration.TotalMilliseconds / 1000
+# 	Write-Output "[$(Get-Date -format 'u')] GeekBench 5 duration: $decRunDurationSeconds s"
 
-}
-else {
-	$strResult = $strCsvHeader + "1;1000;1000;xxx`n"
-}
-# dump data to CSV
-$strGb5Csv = $strLogCsvPath + 'GB5.csv'
-# cut the last line ending
-$strResult = $strResult.Substring(0, $strResult.Length - 1)
-Write-Output $strResult | Out-File -Filepath $strGb5Csv
+# }
+# else {
+# 	$strResult = $strCsvHeader + "1;1000;1000;xxx`n"
+# }
+# # dump data to CSV
+# $strGb5Csv = $strLogCsvPath + 'GB5.csv'
+# # cut the last line ending
+# $strResult = $strResult.Substring(0, $strResult.Length - 1)
+# Write-Output $strResult | Out-File -Filepath $strGb5Csv
 
-# Cooldown
-If($strTestChoice -eq '1') {
-	Start-Cooldown -nDurationSeconds 20
-}
+# # Cooldown
+# If($strTestChoice -eq '1') {
+# 	Start-Cooldown -nDurationSeconds 20
+# }
 
 # start CB R23 single-thread mode and monitor its process
-If(($strTestChoice -eq '1') -or ($strTestChoice -eq '3')) {
+If(($strTestChoice -eq '1') -or ($strTestChoice -eq '2')) {
 	Write-Output "[$(Get-Date -format 'u')] Starting CB23 Single-Thread test..."
 	try {
 		Start-Process -FilePath $strCb23Executable -ArgumentList "g_CinebenchCpu1Test=true g_CinebenchMinimumTestDuration=1"
@@ -199,7 +199,7 @@ If($strTestChoice -eq '1') {
 }
 
 # start CB R23 multi-thread mode and monitor its process
-If(($strTestChoice -eq '1') -or ($strTestChoice -eq '4')) {
+If(($strTestChoice -eq '1') -or ($strTestChoice -eq '3')) {
 	Write-Output "[$(Get-Date -format 'u')] Starting CB23 Multi-Thread test..."
 	$strResult = $strCsvHeader
 

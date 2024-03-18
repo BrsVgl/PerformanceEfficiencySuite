@@ -2,7 +2,7 @@
 Clear-Host
 
 # current version
-$strCurrentVersion = 'v0.8.0'
+$strCurrentVersion = 'v0.8.2'
 # set Minimum test duration for CB23 MT
 $intMtMinDurationSeconds = 600
 
@@ -88,8 +88,8 @@ $strCb23Path = $htSettings['Cb23Path']
 $strCb23Executable = $strCb23Path + '\Cinebench.exe'
 
 # set GB5 Path
-$strGb5Path = $htSettings['Gb5Path']
-$strGb5Executable = $strGb5Path + '\geekbench5.exe'
+# $strGb5Path = $htSettings['Gb5Path']
+# $strGb5Executable = $strGb5Path + '\geekbench5.exe'
 
 # set LogCsv Path
 $strLogCsvPath = $strPesPath.Replace('Ressources\', '') + 'LogCsv\'
